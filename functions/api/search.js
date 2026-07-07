@@ -1,4 +1,4 @@
-import allFiles from "../files-index.json" assert { type: "json" };
+import allFiles from "../../files-index.json" assert { type: "json" };
 
 export async function onRequest(context) {
     const { searchParams } = new URL(context.request.url);

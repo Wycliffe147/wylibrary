@@ -1,4 +1,4 @@
-import allFiles from "../files-index.json" assert { type: "json" };
+import allFiles from "../../files-index.json" assert { type: "json" };
 
 const MEDIA_USER = 'Wycliffe147';
 const MEDIA_BRANCH = 'main';
