@@ -1,0 +1,335 @@
+/* Structural layout components: Header, Navigation pills, and Footer. */
+/* ─── Header Section ─── */
+.header {
+    display: flex;
+    flex-direction: column;   /* stack content */
+    align-items: flex-start;
+    gap: 15px;                /* controlled spacing */
+
+    background: var(--header-bg);
+    padding: 25px;
+    border-radius: 15px;
+    color: white;
+}
+
+/* Top row: logo + title */
+.header-top {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Logo styling */
+.logo {
+    width: 70px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Title */
+.header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* Nav container */
+.header nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+/* Nav pills */
+.header nav a {
+    padding: 8px 16px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.25);
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.2s ease;
+}
+
+.header nav a:hover {
+    background-color: white;
+    color: #1565c0;
+}
+
+/* Alternative Header implementation from style.css legacy sections */
+.header {
+    display: flex;
+    flex-wrap: wrap; /* allow wrapping */
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0,104,202); /* blue background */
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Mobile adjustments (stacking / spacing) */
+@media (max-width: 720px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .header nav a {
+        margin-bottom: 5px; /* extra spacing for mobile */
+    }
+}
+
+/* ─── Dark Mode Toggle Button ─── */
+#darkModeToggle {
+    background: var(--toggle-bg);
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s, transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    flex-shrink: 0;
+}
+
+#darkModeToggle:hover {
+    background: rgba(255,255,255,0.4);
+}
+
+/* Rotate the icon based on the active theme state instead of just hover */
+html.dark #darkModeToggle {
+    transform: rotate(360deg);
+}
+
+/* ─── Footer Styles ─── */
+.footer {
+    background-color: #0056b3;
+    color: white;
+    padding: 40px 20px 20px;
+    margin-top: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-logo {
+    width: 60px;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.footer-description {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+.footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 10px;
+}
+
+.stats-list {
+    list-style: none;
+    padding: 0;
+}
+
+.stats-list li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.stat-icon {
+    font-size: 1.2rem;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: opacity 0.2s, padding-left 0.2s;
+}
+
+.footer-nav a:hover {
+    opacity: 1;
+    padding-left: 5px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 0.85rem;
+    opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .stats-list li {
+        justify-content: center;
+    }
+
+    .footer-nav {
+        align-items: center;
+    }
+}
+
+/* ─── About / Contact / Request Section ─── */
+.about-section, .contact-section {
+    padding: 30px;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.about-content {
+    margin-top: 40px;
+}
+
+.about-flex {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.about-image {
+    width: 180px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.about-flex p {
+    margin: 0;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.tech-stack {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+@media (max-width: 768px) {
+    .about-flex {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-image {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .about-section {
+        padding: 20px;
+        margin: 20px;
+    }
+}
+
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.developer-card {
+    background: #f8f9fa;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #e9ecef;
+    margin-bottom: 30px;
+}
+
+.developer-card h3 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.4em;
+}
+
+.developer-card p {
+    color: #666;
+    line-height: 1.5;
+}
+
+.dev-link {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #0077ff;
+    padding: 8px 16px;
+    border: 2px solid #0077ff;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.dev-link:hover {
+    background: #0077ff;
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .developer-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+.contact-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}

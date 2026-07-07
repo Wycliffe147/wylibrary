@@ -1,0 +1,30 @@
+{
+  "name": "e-library",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node generate-index.js",
+    "vercel-build": "echo 'Using committed files-index.json'",
+    "start": "node scripts/start-server.js"
+  },
+  "keywords": [],
+  "author": "Wycliffe Mwanganda",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.4.2",
+    "mammoth": "^1.12.0",
+    "pdf-parse": "^2.4.5",
+    "word-extractor": "^1.0.4"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.3"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true
+  }
+}

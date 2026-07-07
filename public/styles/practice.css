@@ -1,0 +1,120 @@
+/* Styles specific to the Quiz and Practice interactive sections. */
+/* ─── Quiz / Practice Styles ─── */
+.practice-container {
+    padding: 30px;
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: var(--bg-about);
+    border-radius: 15px;
+    box-shadow: var(--shadow-card);
+}
+
+#quiz-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.quiz-card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.quiz-meta {
+    font-size: 0.8rem;
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: -5px;
+}
+
+.quiz-question {
+    font-size: 1.15rem;
+    font-weight: normal;
+    line-height: 1.4;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.quiz-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 10px;
+}
+
+.quiz-option-btn {
+    padding: 10px 15px;
+    background-color: var(--bg-folder);
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 8px;
+    text-align: left;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: var(--text-primary);
+}
+
+.quiz-option-btn:hover:not(:disabled) {
+    background-color: var(--bg-folder-hover);
+    border-color: var(--primary-color);
+}
+
+.quiz-option-btn.correct {
+    background-color: #4caf50 !important;
+    color: white !important;
+    border-color: #388e3c;
+}
+
+.quiz-option-btn.incorrect {
+    background-color: #f44336 !important;
+    color: white !important;
+    border-color: #d32f2f;
+}
+
+#quiz-feedback {
+    padding: 15px;
+    border-radius: 8px;
+    background-color: rgba(0,0,0,0.03);
+    margin-top: 5px;
+}
+
+.text-correct { color: #4caf50; font-size: 1.1rem; }
+.text-incorrect { color: #f44336; font-size: 1.1rem; }
+
+.explanation {
+    margin-top: 10px;
+    font-style: italic;
+    line-height: 1.4;
+}
+
+.quiz-results {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.quiz-results h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 600px) {
+    .practice-container {
+        padding: 20px;
+        margin: 20px;
+    }
+}
+
+.quiz-source {
+    margin-top: 15px;
+    font-size: 0.75rem;
+    opacity: 0.6;
+    font-style: italic;
+    text-align: right;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    padding-top: 10px;
+}

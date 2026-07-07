@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2SRWNGHTMS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-2SRWNGHTMS');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wycliffe Mwanganda's e-library</title>
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#2563eb">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/layout.css">
+    <link rel="stylesheet" href="/styles/components.css">
+    <link rel="stylesheet" href="/styles/navigation.css">
+    <link rel="stylesheet" href="/styles/modals.css">
+    <link rel="stylesheet" href="/styles/practice.css">
+    <link rel="stylesheet" href="/styles/dark-mode.css">
+</head>
+<body>
+
+<div class="header">
+    <div class="header-top">
+        <img class="logo logo-light" src="https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/logo.png" alt="Logo"/>
+        <img class="logo logo-dark" src="https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/logo-dark.png" alt="Logo"/>
+        <h1>Wycliffe's e-library</h1>
+    </div>
+
+    <nav>
+        <a href="#" onclick="event.preventDefault(); loadHome()">Home</a>
+        <a href="#" onclick="event.preventDefault(); loadPractice()">Practice</a>
+        <a href="#" onclick="event.preventDefault(); loadAbout()">About</a>
+        <a href="#" onclick="event.preventDefault(); loadRequest()">Contact</a>
+        <a href="#" id="shareBtn" onclick="event.preventDefault(); shareSite()">Share Site</a>
+        <button id="darkModeToggle" aria-label="Toggle dark mode">☀️</button>
+        </nav>
+        </div>
+
+        <!-- Installation Modal -->
+        <div id="installModal" class="modal hidden">
+        <div class="modal-content">
+        <div class="modal-header">
+            <img src="https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/logo.png" alt="Logo" class="modal-logo logo-light" />
+            <img src="https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/logo-dark.png" alt="Logo" class="modal-logo logo-dark" />
+            <h3>Install Wylibrary</h3>
+        </div>
+        <p>Install this app on your device for faster access and a better experience!</p>
+        <div class="modal-actions">
+            <button id="modalMaybeLater" class="btn-secondary">Maybe Later</button>
+            <button id="modalInstallNow" class="btn-primary">Install Now</button>
+        </div>
+        </div>
+        </div>
+
+        <!-- Magic Nav (FAB Style) -->
+        <div id="navScrim" class="nav-scrim hidden"></div>
+        <div id="magicNav" class="magic-nav hidden">
+            <div class="magic-nav-items">
+                <a href="#" class="nav-item" style="--i:1" onclick="event.preventDefault(); loadHome()">
+                    <span class="nav-label">Home</span>
+                    <span class="nav-icon">🏠</span>
+                </a>
+                <a href="#" class="nav-item" style="--i:2" onclick="event.preventDefault(); loadPractice()">
+                    <span class="nav-label">Practice</span>
+                    <span class="nav-icon">📝</span>
+                </a>
+                <a href="#" class="nav-item" style="--i:3" onclick="event.preventDefault(); loadAbout()">
+                    <span class="nav-label">About</span>
+                    <span class="nav-icon">ℹ️</span>
+                </a>
+                <a href="#" class="nav-item" style="--i:4" onclick="event.preventDefault(); loadRequest()">
+                    <span class="nav-label">Contact</span>
+                    <span class="nav-icon">📞</span>
+                </a>
+                <a href="#" class="nav-item" style="--i:5" onclick="event.preventDefault(); shareSite()">
+                    <span class="nav-label">Share</span>
+                    <span class="nav-icon">🔗</span>
+                </a>
+                <a href="#" id="ribbonBackToTop" class="nav-item" style="--i:6">
+                    <span class="nav-label">Top</span>
+                    <span class="nav-icon">↑</span>
+                </a>
+            </div>
+            <div class="magic-nav-circle">
+                <img class="logo-light" src="https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/logo.png" alt="Logo"/>
+                <img class="logo-dark" src="https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/logo-dark.png" alt="Logo"/>
+            </div>
+        </div>
+    <!-- SPA container -->
+    <div id="app"></div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <p class="footer-description">Empowering students through accessible academic resources.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Library Stats</h3>
+                <ul class="stats-list">
+                    <li><span class="stat-icon">📚</span> <span id="total-books">Loading...</span> files available</li>
+                    <li><span class="stat-icon">💾</span> <span id="total-size">Loading...</span> total size</li>
+                    <li><span class="stat-icon">📅</span> Updated: <span id="last-updated">Loading...</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Wycliffe Mwanganda. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/app.js"></script>
+</body>
+</html>

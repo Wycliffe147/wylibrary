@@ -1,0 +1,357 @@
+/* Reusable UI components: Category cards, File/Folder cards, and Search. */
+/* ─── Home Category Cards ─── */
+#card1 a, #card2 a, #card3 a, #card4 a {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 60%;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s, color 1s;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#card1 a { background-color: var(--card1-bg); }
+#card2 a { background-color: var(--card2-bg); }
+#card3 a { background-color: var(--card3-bg); }
+#card4 a { background-color: var(--card4-bg); }
+
+#card1 img, #card2 img, #card3 img, #card4 img {
+    margin: 5px;
+}
+
+#card1 a:hover, #card2 a:hover, #card3 a:hover, #card4 a:hover {
+    transform: translateY(-5px);
+    background-color: #e0e0ff;
+    color: black;
+}
+
+.cover {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 150px;
+    width: auto;
+}
+
+h2 {
+    background-color: rgb(255, 255, 255);
+}
+
+.subject a{
+    margin: 20px;
+    margin-right: 800px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s, color 1s;
+    text-decoration: none;
+}
+
+.sciences { background-color: rgb(226, 29, 95); }
+
+.cardsub a {
+    background-color: rgb(0, 81, 95);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 800px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s, color 1s;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;   
+}
+
+.agr a {
+    background-color: rgb(0, 81, 95);
+    margin-top: 220px;
+    margin-bottom: 20px;
+    margin-right: 800px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s, color 1s;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px; 
+}
+
+.agr a:hover {
+    transform: translateY(-5px);
+    background-color: #e0e0ff;
+    color: black;
+}
+
+@media (max-width: 720px) {    
+    #card1 a, #card2 a, #card3 a, #card4 a {
+        margin-right: 0;
+    } 
+}
+
+/* ─── Search Bar ─── */
+.search-container {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#searchInput {
+    width: 80%;
+    max-width: 400px;
+    padding: 6px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.2s;
+}
+
+#searchInput:focus {
+    border-color: #0073e6;
+    box-shadow: 0 0 3px rgba(0,115,230,0.5);
+}
+
+/* ─── Explorer Cards & Actions ─── */
+.folder-actions-bar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+#downloadSelected {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+#downloadSelected:hover:not(:disabled) {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#downloadSelected:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.select-all-toggle {
+    background: #f0f4f8;
+    color: #1e88e5;
+    padding: 6px 16px;
+    border-radius: 20px;
+    border: 1px solid #d1d9e6;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: all 0.2s;
+    user-select: none;
+}
+
+.select-all-toggle:hover {
+    background: #e1e9f1;
+    border-color: #b8c5d6;
+}
+
+.folder-card {
+    background: #e8f0fe;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.2s ease;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.folder-card:hover {
+    background: #cce0ff;
+}
+
+.file-card {
+    background: #f5f5f5;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.folder-top, .file-top {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.folder-checkbox {
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+}
+
+.file-card span {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+/* ---- Badges & Meta ---- */
+.card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 16px;
+    gap: 6px;
+}
+
+.file-count {
+    font-size: 0.78rem;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.25);
+    color: white;
+    padding: 2px 10px;
+    border-radius: 20px;
+    display: inline-block;
+    width: fit-content;
+    letter-spacing: 0.3px;
+}
+
+.folder-count-badge {
+    font-size: 0.75rem;
+    background-color: #c2d4f0;
+    color: #1a3a6e;
+    padding: 2px 8px;
+    border-radius: 12px;
+    white-space: nowrap;
+    margin-left: 8px;
+}
+
+.folder-meta {
+    margin: 6px 0 10px 4px;
+}
+
+.folder-file-count {
+    font-size: 0.82rem;
+    color: #555;
+    background-color: rgba(255,255,255,0.75);
+    padding: 3px 10px;
+    border-radius: 10px;
+}
+
+/* ─── Skeletons & Shimmer ─── */
+@keyframes shimmer {
+    0%   { background-color: #e0e0e0; }
+    50%  { background-color: #ececec; }
+    100% { background-color: #e0e0e0; }
+}
+
+.skeleton-pulse {
+    animation: shimmer 1.4s ease-in-out infinite;
+}
+
+.skeleton-line {
+    background: #d6d6d6;
+    border-radius: 4px;
+    display: block;
+}
+
+.skeleton-home-card {
+    pointer-events: none;
+    cursor: default;
+}
+
+.skeleton-cover {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    border-radius: 6px;
+    background: #d6d6d6;
+    margin-bottom: 10px;
+}
+
+.skeleton-count {
+    display: inline-block;
+    width: 60px;
+    height: 12px;
+    border-radius: 4px;
+    background: #d6d6d6;
+    vertical-align: middle;
+}
+
+.skeleton-file-card {
+    background: #f0f0f0;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-height: 80px;
+}
+
+/* ─── File Card Action Buttons ─── */
+.file-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.file-actions a, 
+.file-actions button {
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.file-actions a[download],
+.file-actions .open-zip-btn {
+    background-color: #007BFF;
+    color: white !important;
+}
+
+.file-actions a[download]:hover,
+.file-actions .open-zip-btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.file-actions a:not([download]) {
+    background-color: #e2e8f0;
+    color: #1e293b !important;
+}
+
+.file-actions a:not([download]):hover {
+    background-color: #cbd5e1;
+}
+
+/* Specific Colors */
+.file-actions a:not([download]):not(:last-child) {
+    background-color: #4CAF50 !important;
+    color: white !important;
+}
+
+.file-actions a:not([download]):not(:last-child):hover {
+    background-color: #3e8e41;
+}
+
+.file-actions a:last-child {
+    background-color: #e2e8f0 !important;
+    color: #1e293b !important;
+}

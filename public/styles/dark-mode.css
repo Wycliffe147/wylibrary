@@ -1,0 +1,260 @@
+/* Centralized theme overrides for dark mode (html.dark). */
+/* ─── Logo: light/dark swap ─── */
+.logo-dark { display: none; }
+html.dark .logo-light { display: none; }
+html.dark .logo-dark { display: inline; }
+
+/* ─── Dark Mode Overrides ─── */
+html.dark {
+    color-scheme: dark;
+    --bg-card:        #1e2430;
+    --bg-folder:      #1a2540;
+    --bg-folder-hover:#243060;
+    --bg-breadcrumb:  rgba(30,36,48,0.9);
+    --bg-meta:        rgba(30,36,48,0.85);
+    --bg-about:       rgba(20,25,35,0.95);
+    --bg-input:       #1e2430;
+    --text-primary:   #e8eaf0;
+    --text-secondary: #9aa3b8;
+    --border-input:   #3a4560;
+    --shadow-card:    0 4px 16px rgba(0,0,0,0.5);
+    --toggle-bg:      rgba(255,255,255,0.12);
+    --skeleton-a:     #2a3040;
+    --skeleton-b:     #323848;
+    --skeleton-base:  #2a3040;
+    --skeleton-file:  #1e2430;
+    --badge-bg:       #1e3060;
+    --badge-color:    #7eb3ff;
+
+    /* Dark Mode Header & Home Cards */
+    --header-bg:      linear-gradient(135deg, #1a202c, #2d3748);
+    --card1-bg:       #1e4a8e;
+    --card2-bg:       #1a365d;
+    --card3-bg:       #234e52;
+    --card4-bg:       #1c4532;
+}
+
+/* Dark mode: body overlay so background image dims */
+html.dark body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(10, 13, 20, 0.78);
+    pointer-events: none;
+    z-index: -1;
+}
+
+/* Specific Dark Mode Overrides */
+html.dark .header {
+    background: linear-gradient(135deg, #0d1b3e, #1a2d5a);
+}
+
+html.dark .file-card {
+    background: var(--bg-card);
+    color: var(--text-primary);
+}
+
+html.dark .folder-card {
+    background: var(--bg-folder);
+    color: var(--text-primary);
+}
+
+html.dark .folder-card:hover {
+    background: var(--bg-folder-hover);
+}
+
+html.dark .folder-count-badge {
+    background: var(--badge-bg);
+    color: var(--badge-color);
+}
+
+html.dark .breadcrumb-container {
+    background: var(--bg-breadcrumb);
+    color: var(--text-primary);
+}
+
+html.dark .breadcrumb {
+    color: #6ab0ff;
+}
+
+html.dark .breadcrumb:hover {
+    color: #9ecfff;
+}
+
+html.dark .folder-file-count {
+    background: var(--bg-meta);
+    color: var(--text-secondary);
+}
+
+html.dark #searchInput {
+    background: var(--bg-input);
+    color: var(--text-primary);
+    border-color: var(--border-input);
+}
+
+html.dark #searchInput:focus {
+    border-color: #4a90e8;
+    box-shadow: 0 0 3px rgba(74,144,232,0.5);
+}
+
+html.dark .about-section,
+html.dark .contact-section {
+    background: var(--bg-about);
+    color: var(--text-primary);
+}
+
+html.dark .about-section a,
+html.dark .contact-section a {
+    color: #6ab0ff;
+}
+
+html.dark .tech-stack {
+    border-top-color: #333;
+}
+
+html.dark h2 {
+    background: transparent;
+    color: var(--text-primary);
+}
+
+html.dark .developer-card {
+    background: #1e2536;
+    color: var(--text-primary);
+    border-color: #2d3748;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+html.dark .developer-card h3 {
+    color: var(--text-primary);
+}
+
+html.dark .developer-card p {
+    color: #a0aec0;
+}
+
+html.dark .dev-link {
+    border-color: #6ab0ff;
+    color: #6ab0ff;
+}
+
+html.dark .dev-link:hover {
+    background: #6ab0ff;
+    color: #1a2030;
+}
+
+/* Dark: skeleton shimmer */
+@keyframes shimmer-dark {
+    0%   { background-color: #2a3040; }
+    50%  { background-color: #323848; }
+    100% { background-color: #2a3040; }
+}
+
+html.dark .skeleton-pulse {
+    animation: shimmer-dark 1.4s ease-in-out infinite;
+}
+
+html.dark .skeleton-line,
+html.dark .skeleton-cover,
+html.dark .skeleton-count {
+    background: #2a3040;
+}
+
+html.dark .skeleton-file-card {
+    background: #1e2430;
+}
+
+html.dark #downloadSelected {
+    background: #1a3a6e;
+    color: #e8eaf0;
+    border-color: #2a5090;
+}
+
+html.dark #downloadSelected:hover {
+    background: #24509e;
+}
+
+html.dark .cards .card {
+    box-shadow: var(--shadow-card);
+}
+
+html.dark .nav-label {
+    background: #1e293b;
+    color: white;
+}
+
+html.dark .nav-icon {
+    background: #334155;
+}
+
+html.dark .footer {
+    background-color: #1a202c;
+    color: #e2e8f0;
+}
+
+html.dark .footer-section h3 {
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+html.dark #quiz-feedback {
+    background-color: rgba(255,255,255,0.05);
+}
+
+html.dark .quiz-source {
+    border-top-color: rgba(255,255,255,0.1);
+}
+
+html.dark .modal-content {
+    background-color: #1e293b;
+    color: white;
+}
+
+html.dark .btn-secondary {
+    background-color: #334155;
+    color: #cbd5e1;
+}
+
+html.dark .file-actions a:not([download]) {
+    background-color: #334155;
+    color: #f1f5f9 !important;
+}
+
+html.dark .file-actions a:not([download]):hover {
+    background-color: #475569;
+}
+
+html.dark .file-actions a:last-child {
+    background-color: #334155 !important;
+    color: #f1f5f9 !important;
+}
+
+html.dark .select-all-toggle {
+    background: #1e293b;
+    color: #6ab0ff;
+    border-color: #334155;
+}
+
+html.dark .select-all-toggle:hover {
+    background: #2d3748;
+    border-color: #475569;
+}
+
+html.dark .zip-modal-content {
+    background-color: var(--bg-about);
+}
+
+html.dark .zip-entry-list li {
+    border-bottom-color: rgba(255,255,255,0.05);
+}
+
+html.dark .confirm-item-list-container {
+    background: rgba(255,255,255,0.03);
+}
+
+html.dark .confirm-item-list li {
+    border-bottom-color: rgba(255,255,255,0.05);
+}
+
+html.dark .btn-cancel {
+    background: #37474f;
+    color: #eceff1;
+}

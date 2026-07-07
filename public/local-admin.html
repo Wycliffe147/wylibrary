@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Paper Import - e-library</title>
+    <style>
+        :root {
+            --bg: #f4f7f6;
+            --text: #333;
+            --primary: #4CAF50;
+            --card-bg: #fff;
+            --border: #ddd;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #1a1a1a;
+                --text: #eee;
+                --primary: #45a049;
+                --card-bg: #2d2d2d;
+                --border: #444;
+            }
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .card {
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border: 1px solid var(--border);
+            margin-bottom: 20px;
+        }
+        .search-box {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        input[type="text"] {
+            flex: 1;
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            background: var(--card-bg);
+            color: var(--text);
+        }
+        .breadcrumb {
+            margin-bottom: 15px;
+            font-size: 0.9em;
+            opacity: 0.8;
+            word-break: break-all;
+        }
+        .file-list {
+            list-style: none;
+            padding: 0;
+            max-height: 400px;
+            overflow-y: auto;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .file-item {
+            display: flex;
+            align-items: center;
+            padding: 12px;
+            border-bottom: 1px solid var(--border);
+            cursor: pointer;
+        }
+        .file-item:last-child { border-bottom: none; }
+        .file-item:hover { background: rgba(0,0,0,0.05); }
+        .file-item.selected { background: var(--primary); color: white; }
+        .file-item .icon { margin-right: 12px; font-size: 1.2em; }
+        
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            background: var(--primary);
+            color: white;
+            transition: opacity 0.2s;
+        }
+        .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        
+        #log {
+            font-family: monospace;
+            background: #000;
+            color: #0f0;
+            padding: 15px;
+            border-radius: 8px;
+            height: 150px;
+            overflow-y: auto;
+            margin-top: 20px;
+            display: none;
+        }
+        
+        .question-card {
+            border-left: 5px solid var(--primary);
+            margin-top: 15px;
+        }
+        .options { margin-left: 20px; }
+        .option { margin: 5px 0; }
+        .correct { color: var(--primary); font-weight: bold; }
+        
+        .actions {
+            position: sticky;
+            bottom: 20px;
+            display: flex;
+            gap: 10px;
+            background: var(--bg);
+            padding: 10px;
+            border-top: 1px solid var(--border);
+            z-index: 100;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>Local Paper Import</h2>
+            <a href="/" class="btn" style="background: #666; text-decoration: none;">Exit</a>
+        </header>
+
+        <div class="card" id="step1">
+            <h3>Select Paper</h3>
+            
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search for a file name...">
+                <button id="searchBtn" class="btn">Search</button>
+            </div>
+
+            <div class="breadcrumb" id="breadcrumb">/sdcard</div>
+            
+            <ul id="fileList" class="file-list">
+                <li>Loading storage...</li>
+            </ul>
+            
+            <button id="processBtn" class="btn" disabled style="margin-top: 20px; width: 100%;">Process with Gemini AI</button>
+        </div>
+
+        <div id="log"></div>
+
+        <div id="step2" style="display: none;">
+            <h3>Review Questions</h3>
+            <div id="questionCount" style="margin-bottom: 15px; font-weight: bold;"></div>
+            <div id="questionsContainer"></div>
+            
+            <div class="actions">
+                <button id="saveBtn" class="btn">Save all to Library</button>
+                <button id="cancelBtn" class="btn" style="background: #ff5252;">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let selectedFile = null;
+        let generatedQuestions = [];
+        let currentPath = '/sdcard';
+
+        async function browse(path) {
+            const res = await fetch(`/api/browse?path=${encodeURIComponent(path)}`);
+            const data = await res.json();
+            
+            if (data.error) {
+                alert(data.error);
+                return;
+            }
+
+            currentPath = data.currentPath;
+            document.getElementById('breadcrumb').textContent = currentPath;
+            
+            const list = document.getElementById('fileList');
+            list.innerHTML = '';
+
+            // Back button
+            if (currentPath !== '/') {
+                const li = document.createElement('li');
+                li.className = 'file-item';
+                li.innerHTML = `<span class="icon">📁</span> <strong>.. (Back)</strong>`;
+                li.onclick = () => browse(data.parentPath);
+                list.appendChild(li);
+            }
+
+            data.items.forEach(item => {
+                const li = document.createElement('li');
+                li.className = 'file-item';
+                const icon = item.type === 'folder' ? '📁' : '📄';
+                li.innerHTML = `<span class="icon">${icon}</span> <span>${item.name}</span>`;
+                
+                li.onclick = () => {
+                    if (item.type === 'folder') {
+                        browse(item.path);
+                    } else {
+                        document.querySelectorAll('.file-item').forEach(i => i.classList.remove('selected'));
+                        li.classList.add('selected');
+                        selectedFile = { path: item.path, name: item.name };
+                        document.getElementById('processBtn').disabled = false;
+                    }
+                };
+                list.appendChild(li);
+            });
+        }
+
+        async function search() {
+            const query = document.getElementById('searchInput').value.trim();
+            if (!query) return browse(currentPath);
+
+            const list = document.getElementById('fileList');
+            list.innerHTML = '<li>Searching...</li>';
+
+            const res = await fetch(`/api/search?q=${encodeURIComponent(query)}&base=${encodeURIComponent(currentPath)}`);
+            const data = await res.json();
+
+            list.innerHTML = '';
+            if (data.length === 0) {
+                list.innerHTML = '<li>No matches found.</li>';
+                return;
+            }
+
+            data.forEach(item => {
+                const li = document.createElement('li');
+                li.className = 'file-item';
+                li.innerHTML = `<span class="icon">🔍</span> <div>${item.name}<br><small style="opacity:0.6">${item.location}</small></div>`;
+                li.onclick = () => {
+                    document.querySelectorAll('.file-item').forEach(i => i.classList.remove('selected'));
+                    li.classList.add('selected');
+                    selectedFile = { path: item.path, name: item.name };
+                    document.getElementById('processBtn').disabled = false;
+                };
+                list.appendChild(li);
+            });
+        }
+
+        document.getElementById('searchBtn').onclick = search;
+        document.getElementById('searchInput').onkeypress = (e) => { if(e.key === 'Enter') search(); };
+
+        document.getElementById('processBtn').onclick = async () => {
+            if (!selectedFile) return;
+            
+            const logEl = document.getElementById('log');
+            const processBtn = document.getElementById('processBtn');
+            logEl.style.display = 'block';
+            logEl.innerHTML = 'Starting AI Process...\n';
+            processBtn.disabled = true;
+
+            try {
+                const response = await fetch('/api/local-import', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ filePath: selectedFile.path })
+                });
+
+                const reader = response.body.getReader();
+                const decoder = new TextDecoder();
+
+                while (true) {
+                    const { done, value } = await reader.read();
+                    if (done) break;
+                    
+                    const chunk = decoder.decode(value);
+                    const lines = chunk.split('\n');
+                    
+                    lines.forEach(line => {
+                        if (line.startsWith('data: ')) {
+                            const raw = line.substring(6).trim();
+                            if(!raw) return;
+                            try {
+                                const data = JSON.parse(raw);
+                                if (data.message) {
+                                    logEl.innerHTML += data.message + '\n';
+                                    logEl.scrollTop = logEl.scrollHeight;
+                                }
+                                if (data.result) {
+                                    if (data.result.success) {
+                                        showReview(data.result.questions);
+                                    } else {
+                                        alert('Error: ' + data.result.error);
+                                    }
+                                }
+                            } catch(e) {}
+                        }
+                    });
+                }
+            } catch (err) {
+                alert('Connection Error: ' + err.message);
+            } finally {
+                processBtn.disabled = false;
+            }
+        };
+
+        function showReview(questions) {
+            generatedQuestions = questions;
+            document.getElementById('step1').style.display = 'none';
+            document.getElementById('log').style.display = 'none';
+            document.getElementById('step2').style.display = 'block';
+            
+            const container = document.getElementById('questionsContainer');
+            document.getElementById('questionCount').textContent = `Found ${questions.length} questions.`;
+            container.innerHTML = '';
+
+            questions.forEach((q, idx) => {
+                const card = document.createElement('div');
+                card.className = 'card question-card';
+                card.innerHTML = `
+                    <h4>Q${idx + 1}: ${q.question}</h4>
+                    <div class="options">
+                        ${q.options.map((opt, i) => `<div class="option ${i === q.answer ? 'correct' : ''}">${String.fromCharCode(65 + i)}. ${opt}</div>`).join('')}
+                    </div>
+                    <p style="margin-top:10px; font-size: 0.9em;"><i>Explanation: ${q.explanation}</i></p>
+                    <p style="font-size: 0.8em; opacity: 0.6;">Topic: ${q.topic}</p>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        document.getElementById('saveBtn').onclick = async () => {
+            const btn = document.getElementById('saveBtn');
+            btn.disabled = true;
+            btn.textContent = 'Saving...';
+
+            try {
+                const res = await fetch('/api/save-questions', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ 
+                        questions: generatedQuestions,
+                        source: selectedFile.name
+                    })
+                });
+                const result = await res.json();
+                if (result.success) {
+                    alert(`Success! ${result.count} questions added.`);
+                    window.location.href = '/';
+                } else {
+                    alert('Save failed: ' + result.error);
+                }
+            } catch (err) {
+                alert('Save error: ' + err.message);
+            } finally {
+                btn.disabled = false;
+                btn.textContent = 'Save all to Library';
+            }
+        };
+
+        document.getElementById('cancelBtn').onclick = () => {
+            if (confirm('Discard these questions?')) {
+                location.reload();
+            }
+        };
+
+        browse('/sdcard');
+    </script>
+</body>
+</html>

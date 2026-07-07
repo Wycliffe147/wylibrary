@@ -1,0 +1,96 @@
+/* Global CSS variables, reset, body background, and page transitions. */
+/* ─── Global Variables & Root ─── */
+:root {
+    --bg-page:        transparent;
+    --bg-card:        #f5f5f5;
+    --bg-folder:      #e8f0fe;
+    --bg-folder-hover:#cce0ff;
+    --bg-breadcrumb:  rgba(255,255,255,0.8);
+    --bg-meta:        rgba(255,255,255,0.75);
+    --bg-about:       rgba(255,255,255,0.9);
+    --bg-input:       #fff;
+    --text-primary:   inherit;
+    --text-secondary: #555;
+    --border-input:   #ccc;
+    --shadow-card:    0 4px 6px rgba(0,0,0,0.2);
+    --toggle-bg:      rgba(255,255,255,0.25);
+    --skeleton-a:     #e0e0e0;
+    --skeleton-b:     #ececec;
+    --skeleton-base:  #d6d6d6;
+    --skeleton-file:  #f0f0f0;
+    --badge-bg:       #c2d4f0;
+    --badge-color:    #1a3a6e;
+    --transition-speed: 0.25s;
+
+    /* Header & Home Cards */
+    --header-bg:      linear-gradient(135deg, #1565c0, #1e88e5);
+    --card1-bg:       dodgerblue;
+    --card2-bg:       rgb(3, 54, 104);
+    --card3-bg:       rgb(0, 81, 95);
+    --card4-bg:       #004d40;
+}
+
+/* ─── Base Body Styles ─── */
+/* The background image lives on a dedicated fixed pseudo-element rather
+   than directly on body. Painting body's own background on every scroll
+   frame (with background-attachment: fixed + background-size: cover) is
+   what caused the white/black flash at the bottom of the screen during
+   fast scrolling on mobile. A separate fixed layer is composited
+   independently of body's scrolling content, so it no longer needs to
+   repaint on scroll. */
+body {
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -2;
+    pointer-events: none;
+}
+
+/* ─── Page Transition Classes ────────────────────────────────────── */
+#app {
+    transition: opacity 0.22s ease, transform 0.22s ease;
+}
+
+#app.page-exit {
+    opacity: 0;
+    transform: translateY(8px);
+    pointer-events: none;
+}
+
+#app.page-enter {
+    opacity: 0;
+    transform: translateY(-8px);
+    pointer-events: none;
+}
+
+#app.page-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* ─── Smooth color transitions globally ──────────────────────────── */
+body,
+.file-card,
+.folder-card,
+.breadcrumb-container,
+.folder-file-count,
+#searchInput,
+.about-section,
+.contact-section,
+.developer-card,
+h2 {
+    transition:
+        background-color 0.35s ease,
+        color 0.35s ease,
+        border-color 0.35s ease,
+        box-shadow 0.35s ease;
+}

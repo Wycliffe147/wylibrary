@@ -1,0 +1,23 @@
+{
+  "name": "Wycliffe's e-library",
+  "short_name": "Wylibrary",
+  "description": "Accessible academic resources for students.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

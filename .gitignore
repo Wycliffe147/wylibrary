@@ -1,0 +1,8 @@
+node_modules/
+.env
+.env.local
+.vercel/
+local-admin.log
+public/Media/
+*.bak
+pending-questions.json
