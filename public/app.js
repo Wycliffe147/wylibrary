@@ -488,8 +488,8 @@ function renderFileCard(file, filePath, isDownloads, size) {
 
     let openUrl = `/api/download?file=${encodeURIComponent(filePath)}`;
     
-    // Use Google Docs Viewer for Office files to allow in-browser viewing
-    const officeExts = ["doc", "docx", "xls", "xlsx", "ppt", "pptx"];
+    // Use Google Docs Viewer for Office and PDF files to allow in-browser viewing
+    const officeExts = ["pdf", "doc", "docx", "xls", "xlsx", "ppt", "pptx"];
     if (officeExts.includes(ext)) {
         const absoluteUrl = window.location.origin + openUrl;
         openUrl = `https://docs.google.com/viewer?url=${encodeURIComponent(absoluteUrl)}&embedded=true`;
