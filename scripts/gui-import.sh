@@ -3,8 +3,8 @@
 # E-Library Smart Import (Explorer Edition v2)
 # This script allows you to navigate your internal storage and pick files.
 
-PROJECT_DIR="/storage/emulated/0/e-library"
-TEMP_DIR="/data/data/com.termux/files/home/e-library/scripts/temp"
+PROJECT_DIR="/data/data/com.termux/files/home/wylibrary"
+TEMP_DIR="/data/data/com.termux/files/home/wylibrary/scripts/temp"
 mkdir -p "$TEMP_DIR"
 
 current_dir="/storage/emulated/0"
