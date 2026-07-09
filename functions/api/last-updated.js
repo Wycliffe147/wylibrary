@@ -1,6 +1,6 @@
 export async function onRequest(context) {
     const user = "Wycliffe147";
-    const repo = "e-library"; // Make sure to update this if you change repository names
+    const repo = "wylibrary"; // Make sure to update this if you change repository names
     const branch = "main";
 
     const url = `https://api.github.com/repos/${user}/${repo}/commits/${branch}`;

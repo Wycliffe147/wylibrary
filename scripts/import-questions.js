@@ -53,7 +53,7 @@ async function extractText(filePath) {
         const content = fs.readFileSync(filePath, 'utf8');
         if (content.includes('https://git-lfs.github.com/spec/')) {
             const relPath = path.relative(path.join(projectRoot, 'public'), filePath);
-            const url = `https://media.githubusercontent.com/media/Wycliffe147/e-library/main/public/${relPath.split("/").map(encodeURIComponent).join("/")}`;
+            const url = `https://media.githubusercontent.com/media/Wycliffe147/wylibrary/main/public/${relPath.split("/").map(encodeURIComponent).join("/")}`;
             const response = await fetch(url);
             buffer = Buffer.from(await response.arrayBuffer());
         }
