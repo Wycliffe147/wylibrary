@@ -1,0 +1,3 @@
+# Redirect the Cloudflare Pages subdomain to the canonical custom domain.
+# This ensures all traffic is consolidated on wylibrary.org.
+https://wylibrary.pages.dev/* https://wylibrary.org/:splat 301
