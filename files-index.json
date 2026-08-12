@@ -44,7 +44,7 @@
   {
     "name": "Additional+maths+revision+guide - Copy.pdf",
     "path": "Books/Additional Mathematics/Additional+maths+revision+guide - Copy.pdf",
-    "size": 132,
+    "size": 1018736,
     "repo": "e-library-media"
   },
   {
@@ -62,7 +62,7 @@
   {
     "name": "Adma functions.pdf",
     "path": "Books/Additional Mathematics/Adma functions.pdf",
-    "size": 131,
+    "size": 452483,
     "repo": "e-library-media"
   },
   {
@@ -80,7 +80,7 @@
   {
     "name": "Calculus 6th   James Stewart   solutions manual_093016_1.pdf",
     "path": "Books/Additional Mathematics/Calculus 6th   James Stewart   solutions manual_093016_1.pdf",
-    "size": 133,
+    "size": 21505863,
     "repo": "e-library-media"
   },
   {
@@ -110,13 +110,13 @@
   {
     "name": "TARGET ADDITIONAL MATHEMATICS BOOK 3_1.pdf",
     "path": "Books/Additional Mathematics/TARGET ADDITIONAL MATHEMATICS BOOK 3_1.pdf",
-    "size": 133,
+    "size": 45301054,
     "repo": "e-library-media"
   },
   {
     "name": "Trigonometry_Short_Course_Tutorial_Lauren_Johnson_1.pdf",
     "path": "Books/Additional Mathematics/Trigonometry_Short_Course_Tutorial_Lauren_Johnson_1.pdf",
-    "size": 132,
+    "size": 3374878,
     "repo": "e-library-media"
   },
   {
@@ -1345,20 +1345,8 @@
   },
   {
     "name": "100+ Java Programs with Output_ Useful collection of Java Programs ( PDFDrive ).pdf",
-    "path": "Books/Computer Studies/100+ Java Programs with Output_ Useful collection of Java Programs ( PDFDrive ).pdf",
+    "path": "Books/Computer studies/100+ Java Programs with Output_ Useful collection of Java Programs ( PDFDrive ).pdf",
     "size": 5076637,
-    "repo": "e-library-media"
-  },
-  {
-    "name": "DATA SCIENCE LEVEL1 WEEKEND.pdf",
-    "path": "Books/Computer Studies/DATA SCIENCE LEVEL1 WEEKEND.pdf",
-    "size": 140510,
-    "repo": "e-library-media"
-  },
-  {
-    "name": "Data Science for  Business  Professionals by Probyto Data Science and  Consulting Pvt. Ltd. (z-lib.org).pdf",
-    "path": "Books/Computer Studies/Data Science for  Business  Professionals by Probyto Data Science and  Consulting Pvt. Ltd. (z-lib.org).pdf",
-    "size": 24522648,
     "repo": "e-library-media"
   },
   {
@@ -1407,6 +1395,18 @@
     "name": "Computer studies f2 Notes.docx",
     "path": "Books/Computer studies/Computer studies f2 Notes.docx",
     "size": 24494186,
+    "repo": "e-library-media"
+  },
+  {
+    "name": "DATA SCIENCE LEVEL1 WEEKEND.pdf",
+    "path": "Books/Computer studies/DATA SCIENCE LEVEL1 WEEKEND.pdf",
+    "size": 140510,
+    "repo": "e-library-media"
+  },
+  {
+    "name": "Data Science for  Business  Professionals by Probyto Data Science and  Consulting Pvt. Ltd. (z-lib.org).pdf",
+    "path": "Books/Computer studies/Data Science for  Business  Professionals by Probyto Data Science and  Consulting Pvt. Ltd. (z-lib.org).pdf",
+    "size": 24522648,
     "repo": "e-library-media"
   },
   {
@@ -15067,80 +15067,14 @@
   },
   {
     "name": "2021 JCE COMPUTER Loyola.pdf",
-    "path": "Books/Computer Studies/2021 JCE COMPUTER Loyola.pdf",
+    "path": "Books/Computer studies/2021 JCE COMPUTER Loyola.pdf",
     "size": 699940,
     "repo": "e-library-media-2"
   },
   {
     "name": "6.Computer  Fundamentals and Office Automation.pdf",
-    "path": "Books/Computer Studies/6.Computer  Fundamentals and Office Automation.pdf",
+    "path": "Books/Computer studies/6.Computer  Fundamentals and Office Automation.pdf",
     "size": 3474469,
-    "repo": "e-library-media-2"
-  },
-  {
-    "name": "COMPUTER-STUDIES-SECONDARY-COMPREHENSIVE-NOTES.pdf",
-    "path": "Books/Computer Studies/COMPUTER-STUDIES-SECONDARY-COMPREHENSIVE-NOTES.pdf",
-    "size": 3466767,
-    "repo": "e-library-media-2"
-  },
-  {
-    "name": "Computer Hacking A beginners guide to computer hacking  how to hack  inter.pdf",
-    "path": "Books/Computer Studies/Computer Hacking A beginners guide to computer hacking  how to hack  inter.pdf",
-    "size": 349891,
-    "repo": "e-library-media-2"
-  },
-  {
-    "name": "Computer Networks I Lesson 2.pdf",
-    "path": "Books/Computer Studies/Computer Networks I Lesson 2.pdf",
-    "size": 767531,
-    "repo": "e-library-media-2"
-  },
-  {
-    "name": "Computer Shortcuts .pdf",
-    "path": "Books/Computer Studies/Computer Shortcuts .pdf",
-    "size": 484436,
-    "repo": "e-library-media-2"
-  },
-  {
-    "name": "Computer shortcut part 2(1).pdf",
-    "path": "Books/Computer Studies/Computer shortcut part 2(1).pdf",
-    "size": 236888,
-    "repo": "e-library-media-2"
-  },
-  {
-    "name": "Computer-Networks-and-Internets-Fifth-Edition.pdf",
-    "path": "Books/Computer Studies/Computer-Networks-and-Internets-Fifth-Edition.pdf",
-    "size": 4998835,
-    "repo": "e-library-media-2"
-  },
-  {
-    "name": "Computer_Applications_Module__-__PRACTICAL_-_first_Draft.pdf",
-    "path": "Books/Computer Studies/Computer_Applications_Module__-__PRACTICAL_-_first_Draft.pdf",
-    "size": 2060164,
-    "repo": "e-library-media-2"
-  },
-  {
-    "name": "Computers-for-Beginners.pdf",
-    "path": "Books/Computer Studies/Computers-for-Beginners.pdf",
-    "size": 1464695,
-    "repo": "e-library-media-2"
-  },
-  {
-    "name": "Hacking_ Computer Hacking Beginners Guide ( PDFDrive ).pdf",
-    "path": "Books/Computer Studies/Hacking_ Computer Hacking Beginners Guide ( PDFDrive ).pdf",
-    "size": 2358308,
-    "repo": "e-library-media-2"
-  },
-  {
-    "name": "computer form 1 final.pdf",
-    "path": "Books/Computer Studies/computer form 1 final.pdf",
-    "size": 2215654,
-    "repo": "e-library-media-2"
-  },
-  {
-    "name": "computer_programming_tutorial.pdf",
-    "path": "Books/Computer Studies/computer_programming_tutorial.pdf",
-    "size": 1161303,
     "repo": "e-library-media-2"
   },
   {
@@ -15150,9 +15084,75 @@
     "repo": "e-library-media-2"
   },
   {
+    "name": "COMPUTER-STUDIES-SECONDARY-COMPREHENSIVE-NOTES.pdf",
+    "path": "Books/Computer studies/COMPUTER-STUDIES-SECONDARY-COMPREHENSIVE-NOTES.pdf",
+    "size": 3466767,
+    "repo": "e-library-media-2"
+  },
+  {
     "name": "ComputerBas_1.pdf",
     "path": "Books/Computer studies/Comp Basics/ComputerBas_1.pdf",
     "size": 495773,
+    "repo": "e-library-media-2"
+  },
+  {
+    "name": "Computer Hacking A beginners guide to computer hacking  how to hack  inter.pdf",
+    "path": "Books/Computer studies/Computer Hacking A beginners guide to computer hacking  how to hack  inter.pdf",
+    "size": 349891,
+    "repo": "e-library-media-2"
+  },
+  {
+    "name": "Computer Networks I Lesson 2.pdf",
+    "path": "Books/Computer studies/Computer Networks I Lesson 2.pdf",
+    "size": 767531,
+    "repo": "e-library-media-2"
+  },
+  {
+    "name": "Computer Shortcuts .pdf",
+    "path": "Books/Computer studies/Computer Shortcuts .pdf",
+    "size": 484436,
+    "repo": "e-library-media-2"
+  },
+  {
+    "name": "Computer shortcut part 2(1).pdf",
+    "path": "Books/Computer studies/Computer shortcut part 2(1).pdf",
+    "size": 236888,
+    "repo": "e-library-media-2"
+  },
+  {
+    "name": "Computer-Networks-and-Internets-Fifth-Edition.pdf",
+    "path": "Books/Computer studies/Computer-Networks-and-Internets-Fifth-Edition.pdf",
+    "size": 4998835,
+    "repo": "e-library-media-2"
+  },
+  {
+    "name": "Computer_Applications_Module__-__PRACTICAL_-_first_Draft.pdf",
+    "path": "Books/Computer studies/Computer_Applications_Module__-__PRACTICAL_-_first_Draft.pdf",
+    "size": 2060164,
+    "repo": "e-library-media-2"
+  },
+  {
+    "name": "Computers-for-Beginners.pdf",
+    "path": "Books/Computer studies/Computers-for-Beginners.pdf",
+    "size": 1464695,
+    "repo": "e-library-media-2"
+  },
+  {
+    "name": "Hacking_ Computer Hacking Beginners Guide ( PDFDrive ).pdf",
+    "path": "Books/Computer studies/Hacking_ Computer Hacking Beginners Guide ( PDFDrive ).pdf",
+    "size": 2358308,
+    "repo": "e-library-media-2"
+  },
+  {
+    "name": "computer form 1 final.pdf",
+    "path": "Books/Computer studies/computer form 1 final.pdf",
+    "size": 2215654,
+    "repo": "e-library-media-2"
+  },
+  {
+    "name": "computer_programming_tutorial.pdf",
+    "path": "Books/Computer studies/computer_programming_tutorial.pdf",
+    "size": 1161303,
     "repo": "e-library-media-2"
   },
   {
