@@ -1,0 +1,12 @@
+# Cloudflare Pages _headers file
+# Prevents browsers and Cloudflare from caching critical JS/SW files
+# so updates reach users immediately without needing a hard refresh.
+
+/sw.js
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/app.js
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/pdf-viewer.html
+  Cache-Control: no-cache, no-store, must-revalidate

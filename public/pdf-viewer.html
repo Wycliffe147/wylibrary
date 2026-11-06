@@ -229,27 +229,24 @@ pdfjsLib.GlobalWorkerOptions.workerSrc =
     'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.4.168/pdf.worker.min.mjs';
 
 // ─── Read params ──────────────────────────────────────────
-const params  = new URLSearchParams(location.search);
+const params    = new URLSearchParams(location.search);
 const fileParam = params.get('file');           // e.g. Books/Maths/foo.pdf
 const fileName  = fileParam ? fileParam.split('/').pop() : 'document.pdf';
 
-// Build the download URL (keeps going through /api/download for downloads)
+// Download link always goes through /api/download (triggers file save)
 const downloadUrl = fileParam
     ? `${location.origin}/api/download?file=${encodeURIComponent(fileParam)}&mode=download`
     : null;
 
-// For PDF.js we resolve the redirect ahead of time so the fetch goes
-// directly to R2 (which has CORS set), not through the 302 redirect.
+// For PDF.js: ask our own API for the direct R2 URL (no redirect, clean CORS)
 let pdfUrl = null;
 if (fileParam) {
     try {
-        const probe = await fetch(
-            `${location.origin}/api/download?file=${encodeURIComponent(fileParam)}`,
-            { method: 'HEAD', redirect: 'follow' }
-        );
-        pdfUrl = probe.url; // final R2 URL after redirect
+        const res  = await fetch(`/api/pdf-url?file=${encodeURIComponent(fileParam)}`);
+        const data = await res.json();
+        pdfUrl = data.url || null;
     } catch {
-        pdfUrl = `${location.origin}/api/download?file=${encodeURIComponent(fileParam)}`;
+        pdfUrl = null;
     }
 }
 
