@@ -232,9 +232,26 @@ pdfjsLib.GlobalWorkerOptions.workerSrc =
 const params  = new URLSearchParams(location.search);
 const fileParam = params.get('file');           // e.g. Books/Maths/foo.pdf
 const fileName  = fileParam ? fileParam.split('/').pop() : 'document.pdf';
-const pdfUrl    = fileParam
-    ? `${location.origin}/api/download?file=${encodeURIComponent(fileParam)}`
+
+// Build the download URL (keeps going through /api/download for downloads)
+const downloadUrl = fileParam
+    ? `${location.origin}/api/download?file=${encodeURIComponent(fileParam)}&mode=download`
     : null;
+
+// For PDF.js we resolve the redirect ahead of time so the fetch goes
+// directly to R2 (which has CORS set), not through the 302 redirect.
+let pdfUrl = null;
+if (fileParam) {
+    try {
+        const probe = await fetch(
+            `${location.origin}/api/download?file=${encodeURIComponent(fileParam)}`,
+            { method: 'HEAD', redirect: 'follow' }
+        );
+        pdfUrl = probe.url; // final R2 URL after redirect
+    } catch {
+        pdfUrl = `${location.origin}/api/download?file=${encodeURIComponent(fileParam)}`;
+    }
+}
 
 // ─── UI refs ──────────────────────────────────────────────
 const wrap      = document.getElementById('viewer-wrap');
@@ -264,12 +281,12 @@ const MAX_SCALE  = 4.0;
 // ─── Set up UI ────────────────────────────────────────────
 title.textContent   = decodeURIComponent(fileName).replace(/\.[^/.]+$/, '');
 document.title      = title.textContent + ' — Wylibrary';
-dlLink.href         = pdfUrl + '&mode=download';
+dlLink.href         = downloadUrl;
 dlLink.download     = fileName;
-dirLink.href        = pdfUrl + '&mode=download';
+dirLink.href        = downloadUrl;
 document.getElementById('back-btn').onclick = () => history.length > 1 ? history.back() : location.href = '/';
 
-if (!pdfUrl) {
+if (!pdfUrl || !fileParam) {
     showError('No file specified in URL.');
 } else {
     loadPDF();
