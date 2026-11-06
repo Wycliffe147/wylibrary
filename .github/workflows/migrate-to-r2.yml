@@ -1,0 +1,38 @@
+name: Fast Cloud R2 Migration
+
+on:
+  workflow_dispatch: # Can be triggered manually with 1 click or via gh CLI
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install boto3
+
+      - name: Stream files to Cloudflare R2
+        env:
+          R2_ACCESS_KEY_1: ${{ secrets.R2_ACCESS_KEY_1 }}
+          R2_SECRET_KEY_1: ${{ secrets.R2_SECRET_KEY_1 }}
+          R2_ACCESS_KEY_2: ${{ secrets.R2_ACCESS_KEY_2 }}
+          R2_SECRET_KEY_2: ${{ secrets.R2_SECRET_KEY_2 }}
+        run: |
+          python scripts/migrate_to_r2.py
+
+      - name: Commit updated index and code
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add files-index.json
+          git commit -m "Auto-assign files to R2 buckets [skip ci]" || echo "No changes to commit"
+          git push origin main

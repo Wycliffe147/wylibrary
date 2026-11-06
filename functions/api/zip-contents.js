@@ -1,5 +1,10 @@
 import * as fflate from "fflate";
 
+const BUCKET_URLS = {
+    1: 'https://media1.wylibrary.org',
+    2: 'https://pub-de3a22d4e4324e8ba9a0690313176f71.r2.dev'
+};
+
 export async function onRequest(context) {
     const { searchParams } = new URL(context.request.url);
     const file = searchParams.get('file');
@@ -12,27 +17,20 @@ export async function onRequest(context) {
         .map(part => encodeURIComponent(part))
         .join("/");
 
-    const sourceUrl = `https://media.githubusercontent.com/media/Wycliffe147/e-library-media/main/${cleanPath}`;
+    // Zips live in Bucket 2
+    const sourceUrl = `${BUCKET_URLS[2]}/${cleanPath}`;
 
     try {
         const response = await fetch(sourceUrl);
         if (!response.ok) {
-            return new Response(`Failed to fetch ZIP from GitHub: ${response.statusText}`, { status: response.status });
+            return new Response(`Failed to fetch ZIP from storage: ${response.statusText}`, { status: response.status });
         }
 
         const buffer = await response.arrayBuffer();
         const uint8Array = new Uint8Array(buffer);
 
-        // fflate.unzipSync extracts the file headers and contents.
-        // To list files without decompressing all file contents (which is much faster and saves memory),
-        // we can use fflate's unzipSync to get the structure.
-        const zipData = fflate.unzipSync(uint8Array, {
-            // We only need the file names/keys and structure, but unzipSync decompresses.
-            // Under Cloudflare memory limits, this is fast enough for metadata lists.
-            // fflate will unzip each file, we return a list of names and sizes.
-        });
+        const zipData = fflate.unzipSync(uint8Array, {});
 
-        // Generate the entries format expected by the frontend
         const entries = Object.keys(zipData).map(name => {
             const isDirectory = name.endsWith("/");
             const data = zipData[name];
