@@ -1,7 +1,8 @@
-const CACHE_NAME = 'e-library-v4';
+const CACHE_NAME = 'e-library-v5';
 const ASSETS_TO_CACHE = [
   '/',
   '/index.html',
+  '/pdf-viewer.html',
   '/app.js',
   '/styles/style.css',
   '/manifest.json',

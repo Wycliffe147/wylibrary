@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>PDF Viewer — Wylibrary</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --bar-height: 52px;
+            --bg-bar: #1e1e2e;
+            --bg-page: #404040;
+            --text: #f0f0f0;
+            --accent: #2563eb;
+        }
+
+        body {
+            background: var(--bg-page);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            color: var(--text);
+            height: 100dvh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        /* ─── Top Bar ───────────────────────────────────── */
+        #toolbar {
+            height: var(--bar-height);
+            background: var(--bg-bar);
+            display: flex;
+            align-items: center;
+            padding: 0 10px;
+            gap: 8px;
+            flex-shrink: 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+            z-index: 10;
+        }
+
+        #back-btn {
+            background: none;
+            border: none;
+            color: var(--text);
+            font-size: 1.3rem;
+            cursor: pointer;
+            padding: 8px;
+            border-radius: 8px;
+            line-height: 1;
+            flex-shrink: 0;
+        }
+        #back-btn:hover { background: rgba(255,255,255,0.1); }
+
+        #file-title {
+            flex: 1;
+            font-size: 0.85rem;
+            font-weight: 500;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            opacity: 0.9;
+        }
+
+        .tb-btn {
+            background: none;
+            border: none;
+            color: var(--text);
+            cursor: pointer;
+            padding: 8px;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            line-height: 1;
+            flex-shrink: 0;
+        }
+        .tb-btn:hover { background: rgba(255,255,255,0.1); }
+        .tb-btn:disabled { opacity: 0.3; cursor: default; }
+
+        #page-info {
+            font-size: 0.8rem;
+            white-space: nowrap;
+            opacity: 0.8;
+            padding: 0 4px;
+            flex-shrink: 0;
+        }
+
+        /* ─── Zoom controls (desktop) ────────────────────── */
+        #zoom-controls {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            flex-shrink: 0;
+        }
+
+        #zoom-label {
+            font-size: 0.75rem;
+            min-width: 36px;
+            text-align: center;
+            opacity: 0.8;
+        }
+
+        @media (max-width: 480px) {
+            #zoom-controls { display: none; }
+        }
+
+        /* ─── Viewer Area ─────────────────────────────────── */
+        #viewer-wrap {
+            flex: 1;
+            overflow: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 16px 8px;
+            gap: 12px;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .pdf-page-wrap {
+            position: relative;
+            line-height: 0;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+        }
+
+        .pdf-page-wrap canvas {
+            display: block;
+            max-width: 100%;
+        }
+
+        /* ─── Loading / Error ─────────────────────────────── */
+        #status {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            pointer-events: none;
+        }
+
+        .spinner {
+            width: 48px;
+            height: 48px;
+            border: 4px solid rgba(255,255,255,0.15);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin: 0 auto 14px;
+        }
+
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        #status p { opacity: 0.7; font-size: 0.95rem; }
+
+        #error-box {
+            display: none;
+            background: #c0392b;
+            color: white;
+            padding: 20px 28px;
+            border-radius: 12px;
+            text-align: center;
+            max-width: 320px;
+        }
+
+        #error-box a { color: #ffe; }
+
+        /* ─── Download bar at bottom ──────────────────────── */
+        #bottom-bar {
+            height: 44px;
+            background: var(--bg-bar);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            flex-shrink: 0;
+            border-top: 1px solid rgba(255,255,255,0.08);
+        }
+
+        #bottom-bar a {
+            color: #7eb8ff;
+            font-size: 0.85rem;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        #bottom-bar a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+<!-- Toolbar -->
+<div id="toolbar">
+    <button id="back-btn" title="Back to library">&#8592;</button>
+    <span id="file-title">Loading…</span>
+    <div id="zoom-controls">
+        <button class="tb-btn" id="zoom-out" title="Zoom out">&#8722;</button>
+        <span id="zoom-label">100%</span>
+        <button class="tb-btn" id="zoom-in" title="Zoom in">&#43;</button>
+    </div>
+    <button class="tb-btn" id="prev-btn" disabled title="Previous page">&#8963;</button>
+    <span id="page-info">– / –</span>
+    <button class="tb-btn" id="next-btn" disabled title="Next page">&#8964;</button>
+</div>
+
+<!-- Canvas area -->
+<div id="viewer-wrap"></div>
+
+<!-- Loading spinner -->
+<div id="status">
+    <div class="spinner"></div>
+    <p id="status-text">Loading PDF…</p>
+</div>
+<div id="error-box">
+    <p id="error-msg">Could not load the PDF.</p>
+    <p style="margin-top:10px;font-size:0.85rem"><a id="direct-link" href="#">Download directly instead ↓</a></p>
+</div>
+
+<!-- Bottom bar -->
+<div id="bottom-bar">
+    <a id="download-link" href="#" download>⬇ Download</a>
+    <a id="library-link" href="/">📚 Back to Library</a>
+</div>
+
+<!-- PDF.js from CDN (no install needed) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.4.168/pdf.min.mjs" type="module"></script>
+<script type="module">
+import * as pdfjsLib from 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.4.168/pdf.min.mjs';
+
+pdfjsLib.GlobalWorkerOptions.workerSrc =
+    'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.4.168/pdf.worker.min.mjs';
+
+// ─── Read params ──────────────────────────────────────────
+const params  = new URLSearchParams(location.search);
+const fileParam = params.get('file');           // e.g. Books/Maths/foo.pdf
+const fileName  = fileParam ? fileParam.split('/').pop() : 'document.pdf';
+const pdfUrl    = fileParam
+    ? `${location.origin}/api/download?file=${encodeURIComponent(fileParam)}`
+    : null;
+
+// ─── UI refs ──────────────────────────────────────────────
+const wrap      = document.getElementById('viewer-wrap');
+const status    = document.getElementById('status');
+const statusTxt = document.getElementById('status-text');
+const errorBox  = document.getElementById('error-box');
+const errorMsg  = document.getElementById('error-msg');
+const pageInfo  = document.getElementById('page-info');
+const prevBtn   = document.getElementById('prev-btn');
+const nextBtn   = document.getElementById('next-btn');
+const zoomIn    = document.getElementById('zoom-in');
+const zoomOut   = document.getElementById('zoom-out');
+const zoomLabel = document.getElementById('zoom-label');
+const title     = document.getElementById('file-title');
+const dlLink    = document.getElementById('download-link');
+const dirLink   = document.getElementById('direct-link');
+
+// ─── State ────────────────────────────────────────────────
+let pdfDoc   = null;
+let currentPage = 1;
+let scale    = 0;   // 0 = auto-fit to width
+let totalPages = 0;
+const SCALE_STEP = 0.25;
+const MIN_SCALE  = 0.5;
+const MAX_SCALE  = 4.0;
+
+// ─── Set up UI ────────────────────────────────────────────
+title.textContent   = decodeURIComponent(fileName).replace(/\.[^/.]+$/, '');
+document.title      = title.textContent + ' — Wylibrary';
+dlLink.href         = pdfUrl + '&mode=download';
+dlLink.download     = fileName;
+dirLink.href        = pdfUrl + '&mode=download';
+document.getElementById('back-btn').onclick = () => history.length > 1 ? history.back() : location.href = '/';
+
+if (!pdfUrl) {
+    showError('No file specified in URL.');
+} else {
+    loadPDF();
+}
+
+// ─── Helpers ──────────────────────────────────────────────
+function getViewportScale() {
+    if (scale !== 0) return scale;
+    // Auto-fit: match the visible width minus padding
+    const availW = wrap.clientWidth - 24;
+    // Will be refined once we have the page dimensions
+    return 1.0;
+}
+
+function showError(msg) {
+    status.style.display = 'none';
+    errorBox.style.display = 'block';
+    errorBox.style.position = 'fixed';
+    errorBox.style.top = '50%';
+    errorBox.style.left = '50%';
+    errorBox.style.transform = 'translate(-50%,-50%)';
+    errorMsg.textContent = msg;
+}
+
+// ─── Load PDF ─────────────────────────────────────────────
+async function loadPDF() {
+    try {
+        statusTxt.textContent = 'Loading PDF…';
+        const loadingTask = pdfjsLib.getDocument({ url: pdfUrl, withCredentials: false });
+        pdfDoc = await loadingTask.promise;
+        totalPages = pdfDoc.numPages;
+        status.style.display = 'none';
+        currentPage = 1;
+        await renderAllVisible();
+        updateNav();
+        setupScrollSpy();
+    } catch(e) {
+        showError('Could not load PDF. ' + (e.message || ''));
+        console.error(e);
+    }
+}
+
+// ─── Render page ─────────────────────────────────────────
+async function renderPage(pageNum) {
+    const page = await pdfDoc.getPage(pageNum);
+
+    const availW = wrap.clientWidth - 24;
+    const baseVp = page.getViewport({ scale: 1 });
+    const autoScale = availW / baseVp.width;
+    const renderScale = scale !== 0 ? scale : autoScale;
+
+    const viewport = page.getViewport({ scale: renderScale });
+
+    const wrap_div = document.createElement('div');
+    wrap_div.className = 'pdf-page-wrap';
+    wrap_div.dataset.page = pageNum;
+
+    const canvas = document.createElement('canvas');
+    canvas.width  = viewport.width;
+    canvas.height = viewport.height;
+
+    wrap_div.appendChild(canvas);
+    wrap.appendChild(wrap_div);
+
+    const ctx = canvas.getContext('2d');
+    await page.render({ canvasContext: ctx, viewport }).promise;
+}
+
+async function renderAllVisible() {
+    wrap.innerHTML = '';
+    for (let p = 1; p <= Math.min(totalPages, 10); p++) {
+        await renderPage(p);
+    }
+    // Lazy-load the rest in background
+    if (totalPages > 10) {
+        (async () => {
+            for (let p = 11; p <= totalPages; p++) {
+                await renderPage(p);
+            }
+        })();
+    }
+}
+
+// ─── Re-render on zoom change ─────────────────────────────
+async function rerender() {
+    wrap.innerHTML = '';
+    statusTxt.textContent = 'Re-rendering…';
+    status.style.display = 'block';
+    for (let p = 1; p <= totalPages; p++) {
+        await renderPage(p);
+    }
+    status.style.display = 'none';
+    // Scroll back to current page
+    const target = wrap.querySelector(`[data-page="${currentPage}"]`);
+    if (target) target.scrollIntoView({ behavior: 'instant' });
+}
+
+// ─── Scroll-based page tracking ───────────────────────────
+function setupScrollSpy() {
+    const obs = new IntersectionObserver((entries) => {
+        entries.forEach(e => {
+            if (e.isIntersecting) {
+                currentPage = Number(e.target.dataset.page);
+                updateNav();
+            }
+        });
+    }, { root: wrap, threshold: 0.3 });
+
+    wrap.querySelectorAll('.pdf-page-wrap').forEach(el => obs.observe(el));
+
+    // Also observe lazily added pages
+    const mo = new MutationObserver(mutations => {
+        mutations.forEach(m => m.addedNodes.forEach(n => {
+            if (n.classList && n.classList.contains('pdf-page-wrap')) obs.observe(n);
+        }));
+    });
+    mo.observe(wrap, { childList: true });
+}
+
+// ─── Navigation ───────────────────────────────────────────
+function updateNav() {
+    pageInfo.textContent = `${currentPage} / ${totalPages}`;
+    prevBtn.disabled = currentPage <= 1;
+    nextBtn.disabled = currentPage >= totalPages;
+    if (scale !== 0) {
+        zoomLabel.textContent = Math.round(scale * 100) + '%';
+    } else {
+        zoomLabel.textContent = 'Fit';
+    }
+}
+
+prevBtn.onclick = () => scrollToPage(currentPage - 1);
+nextBtn.onclick = () => scrollToPage(currentPage + 1);
+
+function scrollToPage(p) {
+    if (p < 1 || p > totalPages) return;
+    const target = wrap.querySelector(`[data-page="${p}"]`);
+    if (target) target.scrollIntoView({ behavior: 'smooth' });
+}
+
+// ─── Zoom ─────────────────────────────────────────────────
+zoomIn.onclick = async () => {
+    const availW = wrap.clientWidth - 24;
+    if (scale === 0) {
+        const page = await pdfDoc.getPage(1);
+        const baseVp = page.getViewport({ scale: 1 });
+        scale = availW / baseVp.width;
+    }
+    scale = Math.min(scale + SCALE_STEP, MAX_SCALE);
+    await rerender();
+    updateNav();
+};
+
+zoomOut.onclick = async () => {
+    const availW = wrap.clientWidth - 24;
+    if (scale === 0) {
+        const page = await pdfDoc.getPage(1);
+        const baseVp = page.getViewport({ scale: 1 });
+        scale = availW / baseVp.width;
+    }
+    scale = Math.max(scale - SCALE_STEP, MIN_SCALE);
+    await rerender();
+    updateNav();
+};
+
+// ─── Keyboard shortcuts ───────────────────────────────────
+document.addEventListener('keydown', e => {
+    if (e.key === 'ArrowRight' || e.key === 'ArrowDown') scrollToPage(currentPage + 1);
+    if (e.key === 'ArrowLeft'  || e.key === 'ArrowUp')   scrollToPage(currentPage - 1);
+});
+</script>
+
+</body>
+</html>

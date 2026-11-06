@@ -488,12 +488,16 @@ function renderFileCard(file, filePath, isDownloads, size) {
 
     let openUrl = `/api/download?file=${encodeURIComponent(filePath)}`;
     
+    // Open PDFs in our built-in PDF.js viewer (works on all devices, no size limit).
     // Use Google Docs Viewer only for Office files (Word/Excel/PowerPoint).
-    // PDFs open directly in the browser's native PDF reader to avoid Google's 25MB limit.
-    const officeExts = ["doc", "docx", "xls", "xlsx", "ppt", "pptx"];
-    if (officeExts.includes(ext)) {
-        const absoluteUrl = window.location.origin + openUrl;
-        openUrl = `https://docs.google.com/viewer?url=${encodeURIComponent(absoluteUrl)}&embedded=true`;
+    if (ext === "pdf") {
+        openUrl = `/pdf-viewer.html?file=${encodeURIComponent(filePath)}`;
+    } else {
+        const officeExts = ["doc", "docx", "xls", "xlsx", "ppt", "pptx"];
+        if (officeExts.includes(ext)) {
+            const absoluteUrl = window.location.origin + `/api/download?file=${encodeURIComponent(filePath)}`;
+            openUrl = `https://docs.google.com/viewer?url=${encodeURIComponent(absoluteUrl)}&embedded=true`;
+        }
     }
 
     const sizeHTML = size ? `<span class="file-size" style="font-size: 0.8em; opacity: 0.7; margin-left: 5px;">(${formatBytes(size)})</span>` : '';
