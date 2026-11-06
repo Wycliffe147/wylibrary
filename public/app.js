@@ -491,7 +491,7 @@ function renderFileCard(file, filePath, isDownloads, size) {
     // Open PDFs in our built-in PDF.js viewer (works on all devices, no size limit).
     // Use Google Docs Viewer only for Office files (Word/Excel/PowerPoint).
     if (ext === "pdf") {
-        openUrl = `/pdf-viewer.html?file=${encodeURIComponent(filePath)}`;
+        openUrl = `/pdf-viewer?file=${encodeURIComponent(filePath)}`;
     } else {
         const officeExts = ["doc", "docx", "xls", "xlsx", "ppt", "pptx"];
         if (officeExts.includes(ext)) {
