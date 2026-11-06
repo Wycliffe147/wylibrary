@@ -12,6 +12,14 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+      // Automatically force-update any old cached service workers on page load
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(function(regs) {
+          for (var r of regs) { r.update(); }
+        });
+      }
+    </script>
     <title>Wycliffe Mwanganda's e-library</title>
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#2563eb">
@@ -114,6 +122,6 @@
         </div>
     </footer>
 
-    <script src="/app.js"></script>
+    <script src="/app.js?v=5.0.0"></script>
 </body>
 </html>

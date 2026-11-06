@@ -20,7 +20,9 @@ export async function onRequest(context) {
     const bucketId = entry?.bucket ?? (file.startsWith('Books/') ? 1 : 2);
     const baseUrl = BUCKET_URLS[bucketId] || BUCKET_URLS[1];
     const cleanPath = file.split('/').map(part => encodeURIComponent(part)).join('/');
-    const url = `${baseUrl}/${cleanPath}`;
+    
+    // Append version to bypass stale CDN edge caches that were saved before CORS was added
+    const url = `${baseUrl}/${cleanPath}?v=r2_cors_1`;
 
     return new Response(JSON.stringify({ url }), {
         headers: {

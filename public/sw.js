@@ -1,4 +1,4 @@
-const CACHE_NAME = 'e-library-v5';
+const CACHE_NAME = 'e-library-v6';
 
 // Files that must NEVER be served from SW cache — always fetch fresh from network.
 // This ensures updates to app logic reach users on their next visit automatically.
