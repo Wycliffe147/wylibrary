@@ -1060,8 +1060,12 @@ let deferredPrompt;
 window.addEventListener("DOMContentLoaded", () => {
     // Register Service Worker for PWA
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js')
-            .then(reg => console.log('Service Worker registered', reg))
+        navigator.serviceWorker.register('/sw.js', { updateViaCache: 'none' })
+            .then(reg => {
+                // Check for a new SW version immediately on every page load
+                reg.update();
+                console.log('Service Worker registered', reg);
+            })
             .catch(err => console.log('Service Worker registration failed', err));
     }
 
