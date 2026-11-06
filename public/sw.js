@@ -1,4 +1,4 @@
-const CACHE_NAME = 'e-library-v3';
+const CACHE_NAME = 'e-library-v4';
 const ASSETS_TO_CACHE = [
   '/',
   '/index.html',
