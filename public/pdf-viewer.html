@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     <title>PDF Reader — Wylibrary</title>
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -93,6 +93,7 @@
             justify-content: center;
             padding: 16px;
             -webkit-overflow-scrolling: touch;
+            touch-action: pan-x pan-y;
         }
 
         #canvas-wrapper {
@@ -102,6 +103,8 @@
             line-height: 0;
             display: none;
             flex-shrink: 0;
+            transform-origin: center center;
+            will-change: transform;
         }
 
         canvas {
@@ -238,8 +241,73 @@
             font-size: 0.9rem;
         }
 
-        @media (max-width: 600px) {
-            .zoom-btn { display: none; }
+        /* ─── Floating Tools (Mobile & Tablet) ─── */
+        #floating-tools {
+            position: fixed;
+            bottom: 68px;
+            right: 12px;
+            background: rgba(30, 30, 46, 0.92);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            box-shadow: 0 6px 22px rgba(0, 0, 0, 0.5);
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            gap: 2px;
+            padding: 4px 6px;
+            z-index: 25;
+            transition: opacity 0.3s ease, transform 0.2s ease;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        #floating-tools.idle {
+            opacity: 0.35;
+        }
+        #floating-tools:hover, #floating-tools:active, #floating-tools:focus-within {
+            opacity: 1;
+        }
+
+        .float-btn {
+            background: transparent;
+            border: none;
+            color: var(--text);
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.15rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.15s, transform 0.1s;
+            touch-action: manipulation;
+        }
+
+        .float-btn:active {
+            background: rgba(255, 255, 255, 0.2);
+            transform: scale(0.92);
+        }
+
+        .zoom-badge {
+            width: auto;
+            min-width: 44px;
+            padding: 0 8px;
+            border-radius: 14px;
+            font-size: 0.8rem;
+            background: rgba(255, 255, 255, 0.12);
+            font-weight: 600;
+        }
+
+        @media (max-width: 768px) {
+            .desktop-only { display: none !important; }
+            #floating-tools { display: flex; }
+        }
+
+        @media (min-width: 769px) {
+            #floating-tools { display: none !important; }
         }
     </style>
 </head>
@@ -249,11 +317,23 @@
     <div id="toolbar">
         <button id="back-btn" title="Back">&#8592;</button>
         <div id="file-title">Loading book...</div>
-        <button class="tb-btn zoom-btn" id="zoom-out" title="Zoom out">&#8722;</button>
-        <button class="tb-btn zoom-btn" id="zoom-fit" title="Fit entire page in view">Fit Page</button>
-        <button class="tb-btn zoom-btn" id="zoom-width" title="Fit to screen width">Fit Width</button>
-        <button class="tb-btn zoom-btn" id="zoom-in" title="Zoom in">&#43;</button>
+        <button class="tb-btn desktop-only" id="rotate-btn" title="Rotate 90°">↻</button>
+        <button class="tb-btn desktop-only" id="zoom-out" title="Zoom out">&#8722;</button>
+        <button class="tb-btn desktop-only zoom-badge" id="zoom-reset" title="Reset Zoom">Fit</button>
+        <button class="tb-btn desktop-only" id="zoom-in" title="Zoom in">&#43;</button>
+        <button class="tb-btn desktop-only" id="zoom-fit" title="Fit entire page in view">Fit Page</button>
+        <button class="tb-btn desktop-only" id="zoom-width" title="Fit to screen width">Fit Width</button>
+        <button class="tb-btn desktop-only" id="fullscreen-btn" title="Toggle Fullscreen">⛶</button>
         <a id="top-download-btn" class="tb-btn" href="#" download>&#8681; Save</a>
+    </div>
+
+    <!-- Floating Zoom & Tools Pill (Mobile & Tablet) -->
+    <div id="floating-tools" class="idle">
+        <button class="float-btn" id="m-rotate" title="Rotate 90°" aria-label="Rotate">↻</button>
+        <button class="float-btn" id="m-zoom-out" title="Zoom out" aria-label="Zoom out">−</button>
+        <button class="float-btn zoom-badge" id="m-zoom-reset" title="Reset Zoom" aria-label="Reset Zoom">Fit</button>
+        <button class="float-btn" id="m-zoom-in" title="Zoom in" aria-label="Zoom in">+</button>
+        <button class="float-btn" id="m-fullscreen" title="Toggle Fullscreen" aria-label="Fullscreen">⛶</button>
     </div>
 
     <!-- Viewer Area -->
@@ -360,7 +440,56 @@
         let pageNum = 1;
         let pageRendering = false;
         let pageNumPending = null;
-        let currentScale = 'fit';
+
+        let userZoom = 1.0; // 1.0 = baseline (Fit)
+        let fitMode = 'fit'; // 'fit' or 'width'
+        let currentRotation = 0; // 0, 90, 180, 270
+
+        function updateZoomBadges() {
+            let label = 'Fit';
+            if (userZoom === 1.0) {
+                label = fitMode === 'width' ? 'Width' : 'Fit';
+            } else {
+                label = `${Math.round(userZoom * 100)}%`;
+            }
+            const mBadge = document.getElementById('m-zoom-reset');
+            const dBadge = document.getElementById('zoom-reset');
+            if (mBadge) mBadge.textContent = label;
+            if (dBadge) dBadge.textContent = label;
+        }
+
+        function applyZoom(newZoom) {
+            userZoom = Math.min(Math.max(Math.round(newZoom * 100) / 100, 0.5), 4.0);
+            updateZoomBadges();
+            renderPage(pageNum);
+        }
+
+        function zoomIn() {
+            applyZoom(userZoom + 0.25);
+        }
+
+        function zoomOut() {
+            applyZoom(userZoom - 0.25);
+        }
+
+        function resetZoom() {
+            userZoom = 1.0;
+            fitMode = 'fit';
+            applyZoom(1.0);
+        }
+
+        function rotateDoc() {
+            currentRotation = (currentRotation + 90) % 360;
+            renderPage(pageNum);
+        }
+
+        function toggleFullscreen() {
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen().catch(() => {});
+            } else if (document.exitFullscreen) {
+                document.exitFullscreen().catch(() => {});
+            }
+        }
 
         function showError(msg) {
             loadingOverlay.style.display = 'none';
@@ -425,17 +554,16 @@
 
             try {
                 const page = await pdfDoc.getPage(num);
-                const unscaledVp = page.getViewport({ scale: 1 });
+                const totalRotation = (page.rotate + currentRotation) % 360;
+                const unscaledVp = page.getViewport({ scale: 1, rotation: totalRotation });
 
-                // Calculate scale to fit page cleanly without cutting off top or bottom
+                // Calculate base scale to fit page cleanly without cutting off top or bottom
                 const availWidth = Math.max(container.clientWidth - 32, 260);
                 const availHeight = Math.max(container.clientHeight - 32, 260);
 
-                let scale;
-                if (typeof currentScale === 'number') {
-                    scale = currentScale;
-                } else if (currentScale === 'width') {
-                    scale = availWidth / unscaledVp.width;
+                let baseScale;
+                if (fitMode === 'width') {
+                    baseScale = availWidth / unscaledVp.width;
                 } else {
                     // 'fit' (default):
                     // On desktop/tablets (width >= 768), fit the entire page height & width so nothing is cut off
@@ -443,20 +571,30 @@
                     if (container.clientWidth >= 768) {
                         const scaleW = availWidth / unscaledVp.width;
                         const scaleH = availHeight / unscaledVp.height;
-                        scale = Math.min(scaleW, scaleH);
+                        baseScale = Math.min(scaleW, scaleH);
                     } else {
-                        scale = availWidth / unscaledVp.width;
+                        baseScale = availWidth / unscaledVp.width;
                     }
                 }
 
+                const scale = baseScale * userZoom;
+
                 // Render at high devicePixelRatio for crisp text on mobile screens
                 const dpr = Math.min(window.devicePixelRatio || 1, 2);
-                const viewport = page.getViewport({ scale: scale * dpr });
+                const viewport = page.getViewport({ scale: scale * dpr, rotation: totalRotation });
 
                 canvas.width = viewport.width;
                 canvas.height = viewport.height;
-                canvas.style.width = `${Math.floor(viewport.width / dpr)}px`;
-                canvas.style.height = `${Math.floor(viewport.height / dpr)}px`;
+                const displayWidth = Math.floor(viewport.width / dpr);
+                const displayHeight = Math.floor(viewport.height / dpr);
+                canvas.style.width = `${displayWidth}px`;
+                canvas.style.height = `${displayHeight}px`;
+
+                if (displayWidth > container.clientWidth) {
+                    canvasWrapper.style.margin = '16px auto';
+                } else {
+                    canvasWrapper.style.margin = 'auto';
+                }
 
                 const renderContext = {
                     canvasContext: ctx,
@@ -469,7 +607,6 @@
                 pageRendering = false;
                 loadingOverlay.style.display = 'none';
                 canvasWrapper.style.display = 'block';
-                container.scrollTop = 0;
 
                 pageNum = num;
                 pageInput.value = pageNum;
@@ -513,52 +650,141 @@
             queueRenderPage(val);
         };
 
-        // Zoom buttons
-        document.getElementById('zoom-in').onclick = () => {
-            const cur = typeof currentScale === 'number' ? currentScale : 1.2;
-            currentScale = Math.min(cur + 0.25, 3.0);
-            renderPage(pageNum);
-        };
+        // Desktop toolbar buttons
+        document.getElementById('zoom-in')?.addEventListener('click', zoomIn);
+        document.getElementById('zoom-out')?.addEventListener('click', zoomOut);
+        document.getElementById('zoom-reset')?.addEventListener('click', resetZoom);
+        document.getElementById('rotate-btn')?.addEventListener('click', rotateDoc);
+        document.getElementById('fullscreen-btn')?.addEventListener('click', toggleFullscreen);
 
-        document.getElementById('zoom-out').onclick = () => {
-            const cur = typeof currentScale === 'number' ? currentScale : 1.0;
-            currentScale = Math.max(cur - 0.25, 0.5);
+        document.getElementById('zoom-fit')?.addEventListener('click', () => {
+            fitMode = 'fit';
+            userZoom = 1.0;
+            updateZoomBadges();
             renderPage(pageNum);
-        };
-
-        document.getElementById('zoom-fit').onclick = () => {
-            currentScale = 'fit';
-            renderPage(pageNum);
-        };
-
-        document.getElementById('zoom-width').onclick = () => {
-            currentScale = 'width';
-            renderPage(pageNum);
-        };
-
-        // Keyboard arrows
-        window.addEventListener('keydown', (e) => {
-            if (e.key === 'ArrowRight' || e.key === 'PageDown') queueRenderPage(pageNum + 1);
-            if (e.key === 'ArrowLeft' || e.key === 'PageUp') queueRenderPage(pageNum - 1);
         });
 
-        // Touch Swipe Navigation for mobile
+        document.getElementById('zoom-width')?.addEventListener('click', () => {
+            fitMode = 'width';
+            userZoom = 1.0;
+            updateZoomBadges();
+            renderPage(pageNum);
+        });
+
+        // Mobile floating pill buttons
+        document.getElementById('m-zoom-in')?.addEventListener('click', zoomIn);
+        document.getElementById('m-zoom-out')?.addEventListener('click', zoomOut);
+        document.getElementById('m-zoom-reset')?.addEventListener('click', resetZoom);
+        document.getElementById('m-rotate')?.addEventListener('click', rotateDoc);
+        document.getElementById('m-fullscreen')?.addEventListener('click', toggleFullscreen);
+
+        // Keyboard shortcuts
+        window.addEventListener('keydown', (e) => {
+            if (e.target.tagName === 'INPUT') return;
+            if (e.key === 'ArrowRight' || e.key === 'PageDown') queueRenderPage(pageNum + 1);
+            if (e.key === 'ArrowLeft' || e.key === 'PageUp') queueRenderPage(pageNum - 1);
+            if (e.key === '+' || e.key === '=') zoomIn();
+            if (e.key === '-' || e.key === '_') zoomOut();
+            if (e.key === '0') resetZoom();
+            if (e.key === 'r' || e.key === 'R') rotateDoc();
+            if (e.key === 'f' || e.key === 'F') toggleFullscreen();
+        });
+
+        // Touch handling: Pinch-to-zoom, Double-tap, and Smart Swipe
+        let floatIdleTimer;
+        function wakeFloatingTools() {
+            const floatTools = document.getElementById('floating-tools');
+            if (!floatTools) return;
+            floatTools.classList.remove('idle');
+            clearTimeout(floatIdleTimer);
+            floatIdleTimer = setTimeout(() => {
+                floatTools.classList.add('idle');
+            }, 3500);
+        }
+
+        let isPinching = false;
+        let pinchStartDist = 0;
+        let pinchStartZoom = 1.0;
+        let currentPinchScale = 1.0;
         let touchStartX = 0;
         let touchStartY = 0;
+        let lastTapTime = 0;
+
         container.addEventListener('touchstart', (e) => {
-            touchStartX = e.changedTouches[0].screenX;
-            touchStartY = e.changedTouches[0].screenY;
+            wakeFloatingTools();
+            if (e.touches.length === 2) {
+                isPinching = true;
+                pinchStartDist = Math.hypot(
+                    e.touches[0].clientX - e.touches[1].clientX,
+                    e.touches[0].clientY - e.touches[1].clientY
+                );
+                pinchStartZoom = userZoom;
+                currentPinchScale = 1.0;
+                canvasWrapper.style.transition = 'none';
+            } else if (e.touches.length === 1) {
+                touchStartX = e.touches[0].clientX;
+                touchStartY = e.touches[0].clientY;
+            }
+        }, { passive: true });
+
+        container.addEventListener('touchmove', (e) => {
+            wakeFloatingTools();
+            if (isPinching && e.touches.length === 2) {
+                const dist = Math.hypot(
+                    e.touches[0].clientX - e.touches[1].clientX,
+                    e.touches[0].clientY - e.touches[1].clientY
+                );
+                if (pinchStartDist > 0) {
+                    currentPinchScale = dist / pinchStartDist;
+                    canvasWrapper.style.transform = `scale(${currentPinchScale})`;
+                }
+            }
         }, { passive: true });
 
         container.addEventListener('touchend', (e) => {
-            const diffX = e.changedTouches[0].screenX - touchStartX;
-            const diffY = e.changedTouches[0].screenY - touchStartY;
-            // Only trigger if horizontal swipe is greater than vertical movement
-            if (Math.abs(diffX) > 60 && Math.abs(diffY) < 50) {
-                if (diffX < 0) {
-                    queueRenderPage(pageNum + 1); // Swipe left -> next page
-                } else {
-                    queueRenderPage(pageNum - 1); // Swipe right -> prev page
+            if (isPinching && e.touches.length < 2) {
+                isPinching = false;
+                canvasWrapper.style.transform = '';
+                const newZoom = Math.min(Math.max(pinchStartZoom * currentPinchScale, 0.5), 4.0);
+                userZoom = Math.round(newZoom * 100) / 100;
+                currentPinchScale = 1.0;
+                updateZoomBadges();
+                renderPage(pageNum);
+                return;
+            }
+
+            if (e.changedTouches.length === 1 && !isPinching) {
+                const now = Date.now();
+                const diffTime = now - lastTapTime;
+                const touchEndX = e.changedTouches[0].clientX;
+                const touchEndY = e.changedTouches[0].clientY;
+                const moveDist = Math.hypot(touchEndX - touchStartX, touchEndY - touchStartY);
+
+                // Double tap: toggle 1.0x (Fit) vs 2.2x (Zoom)
+                if (diffTime > 40 && diffTime < 320 && moveDist < 25) {
+                    if (userZoom > 1.15) {
+                        userZoom = 1.0;
+                    } else {
+                        userZoom = 2.2;
+                    }
+                    updateZoomBadges();
+                    renderPage(pageNum);
+                    lastTapTime = 0;
+                    return;
+                }
+                lastTapTime = now;
+
+                // Page swipe: only when NOT zoomed in (userZoom <= 1.1) so panning around works
+                if (userZoom <= 1.1) {
+                    const diffX = touchEndX - touchStartX;
+                    const diffY = touchEndY - touchStartY;
+                    if (Math.abs(diffX) > 60 && Math.abs(diffY) < 60) {
+                        if (diffX < 0) {
+                            queueRenderPage(pageNum + 1);
+                        } else {
+                            queueRenderPage(pageNum - 1);
+                        }
+                    }
                 }
             }
         }, { passive: true });
@@ -568,7 +794,7 @@
         window.addEventListener('resize', () => {
             clearTimeout(resizeTimer);
             resizeTimer = setTimeout(() => {
-                if (currentScale === 'fit' && pdfDoc) {
+                if (userZoom === 1.0 && pdfDoc) {
                     renderPage(pageNum);
                 }
             }, 200);
