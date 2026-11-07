@@ -1177,11 +1177,6 @@ function hideInstallModal() {
         e.preventDefault();
         deferredPrompt = e;
 
-        // Check if user dismissed within the last 7 days
-        const dismissed = localStorage.getItem('installDismissed');
-        if (dismissed && Date.now() < parseInt(dismissed, 10)) return;
-        localStorage.removeItem('installDismissed');
-
         // Wait for DOM to be ready before showing modal, then add small UX delay
         const show = () => setTimeout(() => showInstallModal(), 2500);
         if (document.readyState === 'loading') {
@@ -1216,25 +1211,20 @@ window.addEventListener("DOMContentLoaded", () => {
             const { outcome } = await deferredPrompt.userChoice;
             console.log(`User response to the install prompt: ${outcome}`);
             deferredPrompt = null;
-            if (outcome === 'accepted') {
-                localStorage.removeItem('installDismissed');
-            }
         });
     }
 
     if (modalMaybeLater) {
         modalMaybeLater.addEventListener('click', () => {
+            // Just hide — no cooldown. Will show again next visit when
+            // Chrome fires beforeinstallprompt again.
             hideInstallModal();
-            // Re-offer after 7 days instead of never
-            const expires = Date.now() + (7 * 24 * 60 * 60 * 1000);
-            localStorage.setItem('installDismissed', String(expires));
         });
     }
 
     window.addEventListener('appinstalled', () => {
         console.log('e-library was installed');
         hideInstallModal();
-        localStorage.removeItem('installDismissed');
         deferredPrompt = null;
     });
 
