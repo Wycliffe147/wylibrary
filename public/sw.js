@@ -1,4 +1,4 @@
-const CACHE_NAME = 'e-library-v8';
+const CACHE_NAME = 'e-library-v9';
 
 // Files that must NEVER be served from SW cache — always fetch fresh from network.
 // This ensures updates to app logic reach users on their next visit automatically.
@@ -6,7 +6,16 @@ const NEVER_CACHE = ['/sw.js', '/app.js', '/pdf-viewer.html', '/index.html'];
 
 const ASSETS_TO_CACHE = [
   '/',
-  '/styles/style.css',
+  '/favicon.ico',
+  '/icon-192.png',
+  '/icon-512.png',
+  '/styles/base.css',
+  '/styles/layout.css',
+  '/styles/components.css',
+  '/styles/navigation.css',
+  '/styles/modals.css',
+  '/styles/practice.css',
+  '/styles/dark-mode.css',
   '/manifest.json',
   '/files-index.json',
   'https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/logo.png',
