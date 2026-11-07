@@ -398,7 +398,7 @@
                         progressDetails.style.display = 'block';
                         const percent = Math.min(Math.round((progressData.loaded / progressData.total) * 100), 100);
                         progressBarFill.style.width = `${percent}%`;
-                        loadingText.textContent = `Downloading book... ${percent}%`;
+                        loadingText.textContent = `Opening book... ${percent}%`;
                         progressDetails.textContent = `${formatBytes(progressData.loaded)} / ${formatBytes(progressData.total)}`;
                     }
                 };
