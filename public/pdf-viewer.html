@@ -181,7 +181,32 @@
 
         @keyframes spin { to { transform: rotate(360deg); } }
 
-        #loading-text { font-size: 0.95rem; opacity: 0.8; }
+        #loading-text { font-size: 0.95rem; opacity: 0.9; text-align: center; font-weight: 500; }
+
+        #progress-bar-container {
+            width: 220px;
+            height: 8px;
+            background: rgba(255,255,255,0.15);
+            border-radius: 4px;
+            overflow: hidden;
+            display: none;
+            margin-top: 2px;
+        }
+
+        #progress-bar-fill {
+            width: 0%;
+            height: 100%;
+            background: var(--accent);
+            border-radius: 4px;
+            transition: width 0.15s ease-out;
+        }
+
+        #progress-details {
+            font-size: 0.8rem;
+            opacity: 0.75;
+            display: none;
+            text-align: center;
+        }
 
         #error-container {
             display: none;
@@ -239,7 +264,11 @@
 
         <div id="loading-overlay">
             <div class="spinner"></div>
-            <div id="loading-text">Loading page...</div>
+            <div id="loading-text">Connecting to library...</div>
+            <div id="progress-bar-container">
+                <div id="progress-bar-fill"></div>
+            </div>
+            <div id="progress-details"></div>
         </div>
 
         <div id="error-container">
@@ -315,6 +344,18 @@
         const pageInput = document.getElementById('page-num-input');
         const totalPagesEl = document.getElementById('total-pages');
 
+        const progressBarContainer = document.getElementById('progress-bar-container');
+        const progressBarFill = document.getElementById('progress-bar-fill');
+        const progressDetails = document.getElementById('progress-details');
+
+        function formatBytes(bytes) {
+            if (!bytes || bytes <= 0) return '0 B';
+            const k = 1024;
+            const sizes = ['B', 'KB', 'MB', 'GB'];
+            const i = Math.floor(Math.log(bytes) / Math.log(k));
+            return parseFloat((bytes / Math.pow(k, i)).toFixed(1)) + ' ' + sizes[i];
+        }
+
         let pdfDoc = null;
         let pageNum = 1;
         let pageRendering = false;
@@ -351,7 +392,20 @@
                     disableAutoFetch: true
                 });
 
+                loadingTask.onProgress = (progressData) => {
+                    if (progressData.total && progressData.total > 0) {
+                        progressBarContainer.style.display = 'block';
+                        progressDetails.style.display = 'block';
+                        const percent = Math.min(Math.round((progressData.loaded / progressData.total) * 100), 100);
+                        progressBarFill.style.width = `${percent}%`;
+                        loadingText.textContent = `Downloading book... ${percent}%`;
+                        progressDetails.textContent = `${formatBytes(progressData.loaded)} / ${formatBytes(progressData.total)}`;
+                    }
+                };
+
                 pdfDoc = await loadingTask.promise;
+                progressBarContainer.style.display = 'none';
+                progressDetails.style.display = 'none';
                 totalPagesEl.textContent = pdfDoc.numPages;
                 pageInput.max = pdfDoc.numPages;
 
@@ -364,6 +418,8 @@
 
         async function renderPage(num) {
             pageRendering = true;
+            progressBarContainer.style.display = 'none';
+            progressDetails.style.display = 'none';
             loadingOverlay.style.display = 'flex';
             loadingText.textContent = `Rendering page ${num}...`;
 
@@ -419,6 +475,11 @@
                 pageInput.value = pageNum;
                 prevBtn.disabled = pageNum <= 1;
                 nextBtn.disabled = pageNum >= pdfDoc.numPages;
+
+                // Pre-fetch next page in background so turning page is instant
+                if (pdfDoc && num < pdfDoc.numPages) {
+                    pdfDoc.getPage(num + 1).catch(() => {});
+                }
 
                 if (pageNumPending !== null) {
                     const next = pageNumPending;
