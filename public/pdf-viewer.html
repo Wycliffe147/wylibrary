@@ -278,9 +278,28 @@
         document.title = `${cleanName} — Wylibrary`;
 
         const downloadUrl = fileParam ? `/api/download?file=${encodeURIComponent(fileParam)}&mode=download` : '#';
-        document.getElementById('top-download-btn').href = downloadUrl;
+        const topDlBtn = document.getElementById('top-download-btn');
+        topDlBtn.href = downloadUrl;
+        topDlBtn.setAttribute('download', fileName);
         document.getElementById('fallback-download-btn').href = downloadUrl;
-        document.getElementById('back-btn').onclick = () => history.length > 1 ? history.back() : location.href = '/';
+
+        // Calculate the exact folder this document lives in
+        let folderHash = '/#/';
+        if (fileParam) {
+            const parts = fileParam.split('/');
+            if (parts.length > 1) {
+                const category = parts[0];
+                const subFolder = parts.slice(1, -1).join('/');
+                folderHash = subFolder 
+                    ? `/#/folder/${encodeURIComponent(category)}/${encodeURIComponent(subFolder)}`
+                    : `/#/folder/${encodeURIComponent(category)}`;
+            }
+        }
+
+        document.getElementById('back-btn').onclick = (e) => {
+            e.preventDefault();
+            location.href = folderHash;
+        };
 
         const container = document.getElementById('viewer-container');
         const canvasWrapper = document.getElementById('canvas-wrapper');

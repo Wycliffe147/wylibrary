@@ -77,20 +77,34 @@ async function navigateTo(renderFn, pageTitle) {
 
 // ─── History / Routing ──────────────────────────────────────────────────────
 
-window.addEventListener("popstate", e => {
-    const state = e.state;
-    if (!state || state.view === "home") {
-        navigateTo(() => loadHome(false), "Home - e-library");
-    } else if (state.view === "about") {
-        navigateTo(() => loadAbout(false), "About - e-library");
-    } else if (state.view === "request") {
-        navigateTo(() => loadRequest(false), "Contact - e-library");
-    } else if (state.view === "practice") {
-        navigateTo(() => loadPractice(false), "Practice - e-library");
-    } else if (state.view === "folder") {
-        const folderTitle = state.subFolder ? `${state.category} > ${state.subFolder}` : state.category;
-        navigateTo(() => loadFolder(state.category, state.subFolder, false), `${folderTitle} - e-library`);
+function handleRouteFromUrl() {
+    const hash = window.location.hash || "";
+    if (hash.startsWith("#/about")) {
+        loadAbout(false);
+    } else if (hash.startsWith("#/contact")) {
+        loadRequest(false);
+    } else if (hash.startsWith("#/practice")) {
+        loadPractice(false);
+    } else if (hash.startsWith("#/folder/")) {
+        const raw = hash.replace("#/folder/", "");
+        const parts = raw.split("/");
+        const category = decodeURIComponent(parts[0] || "");
+        const subFolder = parts.slice(1).map(decodeURIComponent).join("/");
+        if (category) {
+            loadFolder(category, subFolder, false);
+            return;
+        }
+        loadHome(false);
+    } else {
+        loadHome(false);
     }
+}
+
+window.addEventListener("popstate", () => {
+    handleRouteFromUrl();
+});
+window.addEventListener("hashchange", () => {
+    handleRouteFromUrl();
 });
 
 // ─── Skeletons ──────────────────────────────────────────────────────────────
@@ -142,7 +156,7 @@ async function loadHome(push = true) {
     currentPath = "";
 
     if (push) {
-        history.pushState({ view: "home" }, "");
+        history.pushState({ view: "home" }, "", "#/");
         await navigateTo(_renderHome, "Home - e-library");
     } else {
         _renderHome();
@@ -218,7 +232,7 @@ function _renderHome() {
 
 async function loadAbout(push = true) {
     if (push) {
-        history.pushState({ view: "about" }, "");
+        history.pushState({ view: "about" }, "", "#/about");
         await navigateTo(_renderAbout, "About - e-library");
     } else {
         _renderAbout();
@@ -265,7 +279,7 @@ function _renderAbout() {
 
 async function loadRequest(push = true) {
     if (push) {
-        history.pushState({ view: "request" }, "");
+        history.pushState({ view: "request" }, "", "#/contact");
         await navigateTo(_renderRequest, "Contact - e-library");
     } else {
         _renderRequest();
@@ -290,7 +304,7 @@ function _renderRequest() {
 
 async function loadPractice(push = true) {
     if (push) {
-        history.pushState({ view: "practice" }, "");
+        history.pushState({ view: "practice" }, "", "#/practice");
         await navigateTo(_renderPractice, "Practice - e-library");
     } else {
         _renderPractice();
@@ -548,7 +562,10 @@ async function loadFolder(category, subFolder = "", push = true) {
     currentPath = subFolder;
 
     if (push) {
-        history.pushState({ view: "folder", category, subFolder }, "");
+        const hash = subFolder 
+            ? `#/folder/${encodeURIComponent(category)}/${encodeURIComponent(subFolder)}`
+            : `#/folder/${encodeURIComponent(category)}`;
+        history.pushState({ view: "folder", category, subFolder }, "", hash);
         const folderTitle = subFolder ? `${category} > ${subFolder}` : category;
         await navigateTo(() => _renderFolder(category, subFolder), `${folderTitle} - e-library`);
     } else {
@@ -1106,7 +1123,6 @@ window.addEventListener("DOMContentLoaded", () => {
     });
 
     updateLastUpdated();
-    history.replaceState({ view: "home" }, "");
 
     // Wire up dark mode toggle button
     const toggleBtn = document.getElementById("darkModeToggle");
@@ -1114,5 +1130,5 @@ window.addEventListener("DOMContentLoaded", () => {
 
     initDarkMode();
     initMagicNav();
-    loadHome(false);
+    handleRouteFromUrl();
 });
