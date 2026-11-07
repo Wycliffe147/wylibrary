@@ -90,25 +90,22 @@
             overflow: auto;
             position: relative;
             display: flex;
-            align-items: center;
             justify-content: center;
-            padding: 12px 6px;
+            padding: 16px;
             -webkit-overflow-scrolling: touch;
         }
 
         #canvas-wrapper {
+            margin: auto;
             box-shadow: 0 6px 24px rgba(0,0,0,0.6);
             background: #fff;
             line-height: 0;
             display: none;
-            max-width: 100%;
-            transition: transform 0.1s ease-out;
+            flex-shrink: 0;
         }
 
         canvas {
             display: block;
-            max-width: 100%;
-            height: auto !important;
         }
 
         /* ─── Bottom Navigation Bar ─── */
@@ -228,7 +225,8 @@
         <button id="back-btn" title="Back">&#8592;</button>
         <div id="file-title">Loading book...</div>
         <button class="tb-btn zoom-btn" id="zoom-out" title="Zoom out">&#8722;</button>
-        <button class="tb-btn zoom-btn" id="zoom-fit" title="Fit width">Fit</button>
+        <button class="tb-btn zoom-btn" id="zoom-fit" title="Fit entire page in view">Fit Page</button>
+        <button class="tb-btn zoom-btn" id="zoom-width" title="Fit to screen width">Fit Width</button>
         <button class="tb-btn zoom-btn" id="zoom-in" title="Zoom in">&#43;</button>
         <a id="top-download-btn" class="tb-btn" href="#" download>&#8681; Save</a>
     </div>
@@ -354,12 +352,26 @@
                 const page = await pdfDoc.getPage(num);
                 const unscaledVp = page.getViewport({ scale: 1 });
 
-                // Calculate scale to fit viewport width
-                const availWidth = Math.max(container.clientWidth - 20, 280);
-                let scale = availWidth / unscaledVp.width;
+                // Calculate scale to fit page cleanly without cutting off top or bottom
+                const availWidth = Math.max(container.clientWidth - 32, 260);
+                const availHeight = Math.max(container.clientHeight - 32, 260);
 
+                let scale;
                 if (typeof currentScale === 'number') {
                     scale = currentScale;
+                } else if (currentScale === 'width') {
+                    scale = availWidth / unscaledVp.width;
+                } else {
+                    // 'fit' (default):
+                    // On desktop/tablets (width >= 768), fit the entire page height & width so nothing is cut off
+                    // On mobile phones (width < 768), fit width so text is readable
+                    if (container.clientWidth >= 768) {
+                        const scaleW = availWidth / unscaledVp.width;
+                        const scaleH = availHeight / unscaledVp.height;
+                        scale = Math.min(scaleW, scaleH);
+                    } else {
+                        scale = availWidth / unscaledVp.width;
+                    }
                 }
 
                 // Render at high devicePixelRatio for crisp text on mobile screens
@@ -436,6 +448,11 @@
 
         document.getElementById('zoom-fit').onclick = () => {
             currentScale = 'fit';
+            renderPage(pageNum);
+        };
+
+        document.getElementById('zoom-width').onclick = () => {
+            currentScale = 'width';
             renderPage(pageNum);
         };
 
