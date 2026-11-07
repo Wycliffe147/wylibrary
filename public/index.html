@@ -26,6 +26,60 @@
     <link rel="apple-touch-icon" href="/icon-192.png">
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#2563eb">
+
+    <!-- SEO: Description -->
+    <meta name="description" content="Free e-library by Wycliffe Mwanganda. Download books, past exam papers, study materials, and practice quiz questions for Malawi students.">
+
+    <!-- Open Graph (Facebook, WhatsApp, Google rich previews) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wylibrary.org/">
+    <meta property="og:title" content="Wycliffe's e-library — Free Books & Study Materials">
+    <meta property="og:description" content="Free e-library with books, past exam papers, study materials, and quiz practice for Malawi students.">
+    <meta property="og:image" content="https://wylibrary.org/icon-512.png">
+    <meta property="og:image:width" content="512">
+    <meta property="og:image:height" content="512">
+    <meta property="og:site_name" content="Wycliffe's e-library">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Wycliffe's e-library — Free Books & Study Materials">
+    <meta name="twitter:description" content="Free e-library with books, past exam papers, study materials, and quiz practice for Malawi students.">
+    <meta name="twitter:image" content="https://wylibrary.org/icon-512.png">
+
+    <!-- JSON-LD: Organization + WebSite (Google logo in Knowledge Panel) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://wylibrary.org/#organization",
+          "name": "Wycliffe's e-library",
+          "url": "https://wylibrary.org/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://wylibrary.org/icon-512.png",
+            "width": 512,
+            "height": 512
+          },
+          "sameAs": [
+            "https://wylibrary.org"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://wylibrary.org/#website",
+          "url": "https://wylibrary.org/",
+          "name": "Wycliffe's e-library",
+          "description": "Free e-library with books, past exam papers, study materials, and quiz practice for Malawi students.",
+          "publisher": {
+            "@id": "https://wylibrary.org/#organization"
+          }
+        }
+      ]
+    }
+    </script>
+
     <link rel="stylesheet" href="/styles/base.css">
     <link rel="stylesheet" href="/styles/layout.css">
     <link rel="stylesheet" href="/styles/components.css">
