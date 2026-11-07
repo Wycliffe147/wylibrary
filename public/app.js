@@ -1166,6 +1166,32 @@ function hideInstallModal() {
     if (installModal) installModal.classList.add('hidden');
 }
 
+// IMPORTANT: beforeinstallprompt must be registered as early as possible,
+// before DOMContentLoaded, because Chrome can fire it very early on fast loads.
+(function setupInstallPrompt() {
+    // Don't show if already running as installed PWA
+    if (window.matchMedia('(display-mode: standalone)').matches
+        || window.navigator.standalone === true) return;
+
+    window.addEventListener('beforeinstallprompt', (e) => {
+        e.preventDefault();
+        deferredPrompt = e;
+
+        // Check if user dismissed within the last 7 days
+        const dismissed = localStorage.getItem('installDismissed');
+        if (dismissed && Date.now() < parseInt(dismissed, 10)) return;
+        localStorage.removeItem('installDismissed');
+
+        // Wait for DOM to be ready before showing modal, then add small UX delay
+        const show = () => setTimeout(() => showInstallModal(), 2500);
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', show, { once: true });
+        } else {
+            show();
+        }
+    });
+})();
+
 window.addEventListener("DOMContentLoaded", () => {
     // Register Service Worker for PWA
     if ('serviceWorker' in navigator) {
@@ -1178,28 +1204,9 @@ window.addEventListener("DOMContentLoaded", () => {
             .catch(err => console.log('Service Worker registration failed', err));
     }
 
-    // PWA Install Logic
+    // PWA Install Button Logic
     const modalInstallNow = document.getElementById('modalInstallNow');
     const modalMaybeLater = document.getElementById('modalMaybeLater');
-
-    // Don't show if already running as installed PWA
-    const isInstalled = window.matchMedia('(display-mode: standalone)').matches
-        || window.navigator.standalone === true;
-
-    if (!isInstalled) {
-        window.addEventListener('beforeinstallprompt', (e) => {
-            e.preventDefault();
-            deferredPrompt = e;
-
-            // Check if user dismissed within the last 7 days
-            const dismissed = localStorage.getItem('installDismissed');
-            if (dismissed && Date.now() < parseInt(dismissed, 10)) return;
-            localStorage.removeItem('installDismissed');
-
-            // Small delay so it doesn't pop instantly on load
-            setTimeout(() => showInstallModal(), 2500);
-        });
-    }
 
     if (modalInstallNow) {
         modalInstallNow.addEventListener('click', async () => {
