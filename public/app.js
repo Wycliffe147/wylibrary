@@ -1156,6 +1156,16 @@ async function shareFile(name, path) {
 
 let deferredPrompt;
 
+function showInstallModal() {
+    const installModal = document.getElementById('installModal');
+    if (installModal) installModal.classList.remove('hidden');
+}
+
+function hideInstallModal() {
+    const installModal = document.getElementById('installModal');
+    if (installModal) installModal.classList.add('hidden');
+}
+
 window.addEventListener("DOMContentLoaded", () => {
     // Register Service Worker for PWA
     if ('serviceWorker' in navigator) {
@@ -1169,39 +1179,56 @@ window.addEventListener("DOMContentLoaded", () => {
     }
 
     // PWA Install Logic
-    const installModal = document.getElementById('installModal');
     const modalInstallNow = document.getElementById('modalInstallNow');
     const modalMaybeLater = document.getElementById('modalMaybeLater');
 
-    window.addEventListener('beforeinstallprompt', (e) => {
-        // Prevent Chrome from automatically showing the prompt
-        e.preventDefault();
-        // Stash the event
-        deferredPrompt = e;
-        // Show our custom modal
-        if (installModal) installModal.classList.remove('hidden');
-    });
+    // Don't show if already running as installed PWA
+    const isInstalled = window.matchMedia('(display-mode: standalone)').matches
+        || window.navigator.standalone === true;
+
+    if (!isInstalled) {
+        window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault();
+            deferredPrompt = e;
+
+            // Check if user dismissed within the last 7 days
+            const dismissed = localStorage.getItem('installDismissed');
+            if (dismissed && Date.now() < parseInt(dismissed, 10)) return;
+            localStorage.removeItem('installDismissed');
+
+            // Small delay so it doesn't pop instantly on load
+            setTimeout(() => showInstallModal(), 2500);
+        });
+    }
 
     if (modalInstallNow) {
         modalInstallNow.addEventListener('click', async () => {
             if (!deferredPrompt) return;
+            hideInstallModal();
             deferredPrompt.prompt();
             const { outcome } = await deferredPrompt.userChoice;
             console.log(`User response to the install prompt: ${outcome}`);
             deferredPrompt = null;
-            if (installModal) installModal.classList.add('hidden');
+            if (outcome === 'accepted') {
+                localStorage.removeItem('installDismissed');
+            }
         });
     }
 
     if (modalMaybeLater) {
         modalMaybeLater.addEventListener('click', () => {
-            if (installModal) installModal.classList.add('hidden');
+            hideInstallModal();
+            // Re-offer after 7 days instead of never
+            const expires = Date.now() + (7 * 24 * 60 * 60 * 1000);
+            localStorage.setItem('installDismissed', String(expires));
         });
     }
 
-    window.addEventListener('appinstalled', (evt) => {
+    window.addEventListener('appinstalled', () => {
         console.log('e-library was installed');
-        if (installModal) installModal.classList.add('hidden');
+        hideInstallModal();
+        localStorage.removeItem('installDismissed');
+        deferredPrompt = null;
     });
 
     updateLastUpdated();
