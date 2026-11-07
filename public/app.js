@@ -192,6 +192,14 @@ async function navigateTo(renderFn, pageTitle) {
     }
 }
 
+// ─── Analytics helper ───────────────────────────────────────────────────────
+// Central wrapper so we only need one gtag guard everywhere.
+function trackEvent(eventName, params) {
+    if (typeof gtag === 'function') {
+        gtag('event', eventName, params);
+    }
+}
+
 // ─── History / Routing ──────────────────────────────────────────────────────
 
 function handleRouteFromUrl() {
@@ -457,6 +465,12 @@ function initQuiz(questions) {
 
     function renderQuestion() {
         if (currentIdx >= questions.length) {
+            // Track quiz completion
+            trackEvent('quiz_complete', {
+                score: score,
+                total: questions.length,
+                percent: Math.round((score / questions.length) * 100)
+            });
             quizApp.innerHTML = `
                 <div class="quiz-results">
                     <h3>Practice Complete!</h3>
@@ -506,6 +520,13 @@ function initQuiz(questions) {
                 btns[q.answer].classList.add("correct");
 
                 if (isCorrect) score++;
+
+                // Track each answer
+                trackEvent('quiz_answer', {
+                    question_index: currentIdx + 1,
+                    topic: q.topic,
+                    correct: isCorrect
+                });
 
                 feedback.innerHTML = `
                     <p class="${isCorrect ? 'text-correct' : 'text-incorrect'}">
@@ -660,6 +681,30 @@ function renderFileCard(file, filePath, isDownloads, size) {
     const zipBtn = card.querySelector(".open-zip-btn");
     if (zipBtn) {
         zipBtn.onclick = () => showZipContents(file, filePath);
+    }
+
+    // Track single-file download clicks
+    const downloadLink = card.querySelector('a[download]');
+    if (downloadLink) {
+        downloadLink.addEventListener('click', () => {
+            trackEvent('file_download', {
+                file_name: file,
+                file_path: filePath,
+                file_ext: file.split('.').pop().toLowerCase()
+            });
+        });
+    }
+
+    // Track "Open" clicks (PDF viewer / Office viewer)
+    const openLink = card.querySelector('a[target="_blank"]');
+    if (openLink) {
+        openLink.addEventListener('click', () => {
+            trackEvent('file_open', {
+                file_name: file,
+                file_path: filePath,
+                file_ext: file.split('.').pop().toLowerCase()
+            });
+        });
     }
 
     return card;
@@ -902,6 +947,11 @@ async function _renderFolder(category, subFolder) {
     }
 
     function triggerBatchDownload(paths) {
+            // Track the batch download as one event
+            trackEvent('batch_download', {
+                file_count: paths.length,
+                folder: subFolder || category
+            });
             paths.forEach((filePath, index) => {
                 setTimeout(() => {
                     const filename = filePath.split("/").pop();
@@ -944,6 +994,16 @@ async function _renderFolder(category, subFolder) {
     };
 
     searchInput.addEventListener("input", handleSearch);
+
+    // Track search queries (debounced — fires 1.5 s after user stops typing)
+    const trackSearch = debounce((query) => {
+        if (query.length < 2) return;
+        trackEvent('search', {
+            search_term: query,
+            search_folder: subFolder || category
+        });
+    }, 1500);
+    searchInput.addEventListener("input", () => trackSearch(searchInput.value.trim()));
 }
 
 // ─── Scroll reveal ───────────────────────────────────────────────────────────
@@ -1207,9 +1267,11 @@ window.addEventListener("DOMContentLoaded", () => {
         modalInstallNow.addEventListener('click', async () => {
             if (!deferredPrompt) return;
             hideInstallModal();
+            trackEvent('pwa_install_prompt_shown', { action: 'install_now_clicked' });
             deferredPrompt.prompt();
             const { outcome } = await deferredPrompt.userChoice;
             console.log(`User response to the install prompt: ${outcome}`);
+            trackEvent('pwa_install_outcome', { outcome });
             deferredPrompt = null;
         });
     }
@@ -1219,12 +1281,14 @@ window.addEventListener("DOMContentLoaded", () => {
             // Just hide — no cooldown. Will show again next visit when
             // Chrome fires beforeinstallprompt again.
             hideInstallModal();
+            trackEvent('pwa_install_prompt_shown', { action: 'maybe_later' });
         });
     }
 
     window.addEventListener('appinstalled', () => {
         console.log('e-library was installed');
         hideInstallModal();
+        trackEvent('pwa_installed', {});
         deferredPrompt = null;
     });
 

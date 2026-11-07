@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2SRWNGHTMS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-2SRWNGHTMS');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     <title>PDF Reader — Wylibrary</title>
@@ -504,6 +512,14 @@
                 return;
             }
 
+            // Track PDF open event
+            if (typeof gtag === 'function') {
+                gtag('event', 'pdf_open', {
+                    file_name: decodeURIComponent(fileName),
+                    file_path: fileParam
+                });
+            }
+
             try {
                 loadingText.textContent = 'Connecting to library...';
                 // Fetch the direct R2 URL with cache-busting version so CORS headers are fresh
@@ -802,5 +818,8 @@
 
         init();
     </script>
+    <!-- Cloudflare Web Analytics -->
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js'
+        data-cf-beacon='{"token": "YOUR_CF_TOKEN"}'></script>
 </body>
 </html>
