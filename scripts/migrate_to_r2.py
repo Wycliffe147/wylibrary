@@ -50,6 +50,7 @@ CLIENTS = {
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_DIR = os.path.dirname(SCRIPT_DIR)
 INDEX_FILE = os.path.join(PROJECT_DIR, 'files-index.json')
+PUBLIC_INDEX_FILE = os.path.join(PROJECT_DIR, 'public', 'files-index.json')
 STATE_FILE = os.path.join(SCRIPT_DIR, '.migration_state.json')
 
 def get_target_bucket(path):
@@ -124,6 +125,8 @@ def main():
 
     # Save updated files-index.json with bucket assignments
     with open(INDEX_FILE, 'w') as f:
+        json.dump(all_files, f, indent=2)
+    with open(PUBLIC_INDEX_FILE, 'w') as f:
         json.dump(all_files, f, indent=2)
 
     total_files = len(all_files)

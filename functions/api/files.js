@@ -1,4 +1,15 @@
-import allFiles from "../../files-index.json" assert { type: "json" };
+async function getAllFiles(context) {
+    try {
+        const url = new URL('/files-index.json', context.request.url);
+        const res = await context.env.ASSETS.fetch(url);
+        if (res.ok) {
+            return await res.json();
+        }
+    } catch (e) {
+        console.error('Failed to load static files-index.json from ASSETS:', e);
+    }
+    return [];
+}
 
 export async function onRequest(context) {
     const { searchParams } = new URL(context.request.url);
@@ -13,6 +24,8 @@ export async function onRequest(context) {
             headers: { "Content-Type": "application/json" }
         });
     }
+
+    const allFiles = await getAllFiles(context);
 
     // Normalize path to category/subpath
     const normalizedRequestPath = (category + (subpath ? "/" + subpath : "")).replace(/\\/g, "/");

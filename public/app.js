@@ -3,6 +3,123 @@ const app = document.getElementById("app");
 let currentCategory = null;
 let currentPath = "";
 
+// ─── Client-Side Catalog Manager ─────────────────────────────────────────────
+
+let catalogPromise = null;
+let catalog = [];
+
+async function getCatalog() {
+    if (catalog && catalog.length > 0) return catalog;
+    if (!catalogPromise) {
+        catalogPromise = fetch('/files-index.json')
+            .then(res => {
+                if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                return res.json();
+            })
+            .then(data => {
+                catalog = Array.isArray(data) ? data : [];
+                return catalog;
+            })
+            .catch(err => {
+                console.error('Failed to load /files-index.json:', err);
+                catalogPromise = null;
+                return [];
+            });
+    }
+    return catalogPromise;
+}
+
+// Start loading the catalog in the background immediately
+getCatalog();
+
+function normalizePath(p) {
+    return (p || "").replace(/\\/g, "/");
+}
+
+function getCategoryStats(allFiles, category) {
+    const cleanCat = category.replace(/^\/+|\/+$/g, "");
+    const prefix = cleanCat + "/";
+    const matching = allFiles.filter(f => {
+        const p = normalizePath(f.path);
+        return p === cleanCat || p.startsWith(prefix);
+    });
+    const total = matching.length;
+    const size = matching.reduce((sum, f) => sum + (f.size || 0), 0);
+    return { total, size };
+}
+
+function getFolderContents(allFiles, category, subFolder = "") {
+    const cleanSub = subFolder.replace(/^\/+|\/+$/g, "");
+    const normalizedRequestPath = (category + (cleanSub ? "/" + cleanSub : "")).replace(/\\/g, "/");
+    const currentPrefix = normalizedRequestPath.endsWith("/") ? normalizedRequestPath : normalizedRequestPath + "/";
+
+    const filteredFiles = allFiles.filter(f => {
+        const p = normalizePath(f.path);
+        return p.startsWith(currentPrefix);
+    });
+
+    const folderMap = new Map();
+    const files = [];
+
+    filteredFiles.forEach(f => {
+        const filePath = normalizePath(f.path);
+        const relativeToCurrent = filePath.substring(currentPrefix.length);
+        const parts = relativeToCurrent.split("/");
+
+        if (parts.length > 1) {
+            const folderName = parts[0];
+            folderMap.set(folderName, (folderMap.get(folderName) || 0) + 1);
+        } else {
+            files.push({ name: f.name || parts[0], size: f.size || 0, path: filePath });
+        }
+    });
+
+    const folders = Array.from(folderMap.entries())
+        .map(([name, count]) => ({ name, count }))
+        .sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true, sensitivity: 'base' }));
+
+    files.sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true, sensitivity: 'base' }));
+
+    return { folders, files };
+}
+
+function getRecursiveFiles(allFiles, category, folderPath = "") {
+    const cleanSub = folderPath.replace(/^\/+|\/+$/g, "");
+    const normalizedRequestPath = (category + (cleanSub ? "/" + cleanSub : "")).replace(/\\/g, "/");
+    const prefix = normalizedRequestPath.endsWith("/") ? normalizedRequestPath : normalizedRequestPath + "/";
+
+    return allFiles
+        .filter(f => normalizePath(f.path).startsWith(prefix))
+        .map(f => ({
+            name: f.name || normalizePath(f.path).split("/").pop(),
+            path: normalizePath(f.path),
+            size: f.size || 0
+        }));
+}
+
+function searchCatalog(allFiles, category, subFolder = "", query = "") {
+    const cleanSub = subFolder.replace(/^\/+|\/+$/g, "");
+    const normalizedRequestPath = (category + (cleanSub ? "/" + cleanSub : "")).replace(/\\/g, "/");
+    const prefix = normalizedRequestPath.endsWith("/") ? normalizedRequestPath : normalizedRequestPath + "/";
+    const lowerQ = query.trim().toLowerCase();
+
+    if (!lowerQ) return [];
+
+    return allFiles
+        .filter(f => {
+            const filePath = normalizePath(f.path);
+            const matchesPath = filePath.startsWith(prefix);
+            const matchesQuery = (f.name || filePath.split("/").pop()).toLowerCase().includes(lowerQ);
+            return matchesPath && matchesQuery;
+        })
+        .map(f => ({
+            name: f.name || normalizePath(f.path).split("/").pop(),
+            path: normalizePath(f.path),
+            size: f.size || 0
+        }))
+        .sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true, sensitivity: 'base' }));
+}
+
 // ─── Dark Mode ───────────────────────────────────────────────────────────────
 
 function initDarkMode() {
@@ -198,33 +315,26 @@ function _renderHome() {
         });
     });
 
-    // Fetch counts in parallel
-    let totalFiles = 0;
-    let totalSize = 0;
-    let countsFetched = 0;
+    // Compute library counts and size directly from client catalog
+    getCatalog().then(allFiles => {
+        let totalFiles = 0;
+        let totalSize = 0;
 
-    categories.forEach(async ({ category }) => {
-        try {
-            const res = await fetch(`/api/files?category=${encodeURIComponent(category)}&count=true`);
-            const data = await res.json();
+        categories.forEach(({ category }) => {
+            const stats = getCategoryStats(allFiles, category);
             const el = document.getElementById(`count-${category}`);
-            if (el) el.textContent = `${data.total} file${data.total !== 1 ? "s" : ""}`;
-            
-            totalFiles += data.total;
-            totalSize += (data.size || 0);
-        } catch {
-            const el = document.getElementById(`count-${category}`);
-            if (el) el.textContent = "";
-        } finally {
-            countsFetched++;
-            if (countsFetched === categories.length) {
-                const totalEl = document.getElementById("total-books");
-                if (totalEl) totalEl.textContent = totalFiles;
+            if (el) el.textContent = `${stats.total} file${stats.total !== 1 ? "s" : ""}`;
+            totalFiles += stats.total;
+            totalSize += stats.size;
+        });
 
-                const sizeEl = document.getElementById("total-size");
-                if (sizeEl) sizeEl.textContent = formatSize(totalSize);
-            }
-        }
+        const totalEl = document.getElementById("total-books");
+        if (totalEl) totalEl.textContent = totalFiles;
+
+        const sizeEl = document.getElementById("total-size");
+        if (sizeEl) sizeEl.textContent = formatSize(totalSize);
+    }).catch(err => {
+        console.error("Error computing home stats:", err);
     });
 }
 
@@ -576,10 +686,8 @@ async function loadFolder(category, subFolder = "", push = true) {
 async function _renderFolder(category, subFolder) {
     showFolderSkeleton();
 
-    const res = await fetch(
-        `/api/files?category=${encodeURIComponent(category)}&subpath=${encodeURIComponent(subFolder)}`
-    );
-    const data = await res.json();
+    const allFiles = await getCatalog();
+    const data = getFolderContents(allFiles, category, subFolder);
 
     const breadcrumbParts = ["Home", category, ...subFolder.split("/").filter(Boolean)];
     let breadcrumbHTML = "";
@@ -595,12 +703,17 @@ async function _renderFolder(category, subFolder) {
     });
 
     const isDownloads = category === "Zips";
-    const totalFiles = data.files.length;
+    let folderMetaText = `${data.files.length} file${data.files.length !== 1 ? "s" : ""} in this folder`;
+    if (data.folders.length > 0 && data.files.length === 0) {
+        folderMetaText = `${data.folders.length} folder${data.folders.length !== 1 ? "s" : ""} in this section`;
+    } else if (data.folders.length > 0 && data.files.length > 0) {
+        folderMetaText = `${data.folders.length} folder${data.folders.length !== 1 ? "s" : ""}, ${data.files.length} file${data.files.length !== 1 ? "s" : ""}`;
+    }
 
     app.innerHTML = `
         <div class="breadcrumb-container">${breadcrumbHTML}</div>
         <div class="folder-meta">
-            <span class="folder-file-count">${totalFiles} file${totalFiles !== 1 ? "s" : ""} in this folder</span>
+            <span class="folder-file-count">${folderMetaText}</span>
         </div>
         <div class="search-container">
             <input type="text" id="searchInput" placeholder="Search in this folder..." />
@@ -673,7 +786,7 @@ async function _renderFolder(category, subFolder) {
         });
 
         files.forEach(file => {
-            const filePath = `${category}/${currentPath ? currentPath + '/' : ''}${file.name}`;
+            const filePath = file.path || `${category}/${currentPath ? currentPath + '/' : ''}${file.name}`;
             grid.appendChild(renderFileCard(file.name, filePath, isDownloads, file.size));
         });
 
@@ -701,36 +814,18 @@ async function _renderFolder(category, subFolder) {
         btn.disabled = true;
 
         try {
-            let allFiles = [...selectedFiles];
+            let allSelectedFiles = [...selectedFiles];
 
             for (const folderCb of selectedFolders) {
                 const folderPath = folderCb.dataset.path;
-                const folderName = folderCb.dataset.name;
-                // Fetch recursively to get all files AND their sizes
-                const res = await fetch(`/api/files?category=${encodeURIComponent(category)}&subpath=${encodeURIComponent(folderPath)}&recursive=true`);
-                const data = await res.json();
-                
-                if (data.filesWithInfo) {
-                    // Assuming API returns an array of {name, path, size}
-                    allFiles = allFiles.concat(data.filesWithInfo.map(f => ({
-                        path: f.path,
-                        name: f.name,
-                        size: f.size || 0
-                    })));
-                } else if (data.files) {
-                    // Fallback if API only returns paths
-                    allFiles = allFiles.concat(data.files.map(path => ({
-                        path: path,
-                        name: path.split("/").pop(),
-                        size: 0
-                    })));
-                }
+                const folderFiles = getRecursiveFiles(allFiles, category, folderPath);
+                allSelectedFiles = allSelectedFiles.concat(folderFiles);
             }
 
             // Remove duplicates based on path
             const uniqueFiles = [];
             const seenPaths = new Set();
-            for (const f of allFiles) {
+            for (const f of allSelectedFiles) {
                 if (!seenPaths.has(f.path)) {
                     seenPaths.add(f.path);
                     uniqueFiles.push(f);
@@ -820,46 +915,33 @@ async function _renderFolder(category, subFolder) {
             });
         }
 
-    // ─── Search (debounced, scoped to current folder) ───────────────────────
+    // ─── Search (Instant client-side search, scoped to current folder) ──────────
     const searchInput = document.getElementById("searchInput");
 
-    const handleSearch = debounce(async () => {
+    const handleSearch = () => {
         const query = searchInput.value.trim();
 
         if (!query) {
             renderFolderContents(data.folders, data.files);
+            updateSelectAllToggleText();
             return;
         }
 
-        grid.innerHTML = `
-            ${Array(4).fill(`
-                <div class="skeleton-file-card skeleton-pulse">
-                    <div class="skeleton-line" style="width:65%;height:14px"></div>
-                    <div class="skeleton-line" style="width:35%;height:12px;margin-top:10px"></div>
-                </div>
-            `).join("")}
-        `;
+        const results = searchCatalog(allFiles, category, subFolder, query);
 
-        try {
-            const res = await fetch(
-                `/api/search?category=${encodeURIComponent(currentCategory)}&query=${encodeURIComponent(query)}&subpath=${encodeURIComponent(currentPath)}`
-            );
-            const results = await res.json();
+        grid.innerHTML = "";
 
-            grid.innerHTML = "";
-
-            if (results.length === 0) {
-                grid.innerHTML = `<p class="empty-state">No files found for "<strong>${query}</strong>" in this folder.</p>`;
-                return;
-            }
-
-            results.forEach(item => {
-                grid.appendChild(renderFileCard(item.name, item.path, isDownloads, item.size));
-            });
-        } catch {
-            grid.innerHTML = `<p class="empty-state">Search failed. Please try again.</p>`;
+        if (results.length === 0) {
+            grid.innerHTML = `<p class="empty-state">No files found for "<strong>${query}</strong>" in this folder.</p>`;
+            updateSelectAllToggleText();
+            return;
         }
-    }, 350);
+
+        results.forEach(item => {
+            grid.appendChild(renderFileCard(item.name, item.path, isDownloads, item.size));
+        });
+        updateSelectAllToggleText();
+    };
 
     searchInput.addEventListener("input", handleSearch);
 }

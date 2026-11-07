@@ -10,3 +10,6 @@
 
 /pdf-viewer.html
   Cache-Control: no-cache, no-store, must-revalidate
+
+/files-index.json
+  Cache-Control: public, max-age=0, must-revalidate

@@ -1,16 +1,11 @@
-import allFiles from "../../files-index.json" assert { type: "json" };
-
 const BUCKET_URLS = {
     1: 'https://media1.wylibrary.org',
     2: 'https://pub-de3a22d4e4324e8ba9a0690313176f71.r2.dev'
 };
 
 function getBucketForFile(filePath) {
-    const entry = allFiles.find(f => f.path === filePath);
-    if (entry && entry.bucket) {
-        return entry.bucket;
-    }
-    // Fallback based on category if bucket property not present
+    // Books/ lives in Bucket 1 (media1.wylibrary.org)
+    // Exams/, Zips/, Q&A/, etc. live in Bucket 2
     return filePath.startsWith('Books/') ? 1 : 2;
 }
 

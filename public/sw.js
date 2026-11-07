@@ -1,4 +1,4 @@
-const CACHE_NAME = 'e-library-v7';
+const CACHE_NAME = 'e-library-v8';
 
 // Files that must NEVER be served from SW cache — always fetch fresh from network.
 // This ensures updates to app logic reach users on their next visit automatically.
@@ -8,6 +8,7 @@ const ASSETS_TO_CACHE = [
   '/',
   '/styles/style.css',
   '/manifest.json',
+  '/files-index.json',
   'https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/logo.png',
   'https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/logo-dark.png',
   'https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/about.png',

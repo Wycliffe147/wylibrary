@@ -15,6 +15,7 @@ const authHeaders = GITHUB_TOKEN
     : {};
 
 const outputFile = path.join(__dirname, 'files-index.json');
+const publicOutputFile = path.join(__dirname, 'public', 'files-index.json');
 
 const MEDIA_USER = 'Wycliffe147';
 const MEDIA_BRANCH = 'main';
@@ -141,14 +142,20 @@ async function buildIndex() {
         }
     }
 
-    fs.writeFileSync(outputFile, JSON.stringify(allResults, null, 2));
+    const jsonStr = JSON.stringify(allResults, null, 2);
+    fs.writeFileSync(outputFile, jsonStr);
+    fs.writeFileSync(publicOutputFile, jsonStr);
     console.log(`\nIndex generated: ${allResults.length} files across ${MEDIA_REPOS.length} repo(s).`);
 }
 
 buildIndex().catch(err => {
     console.error('Failed to generate files-index.json:', err);
-    // Write an empty index rather than leaving a stale/missing file, so the
-    // site degrades to "0 files" instead of crashing the build.
-    fs.writeFileSync(outputFile, JSON.stringify([], null, 2));
+    // Don't overwrite existing populated files if there's an API rate-limit error during build
+    if (!fs.existsSync(publicOutputFile) || fs.statSync(publicOutputFile).size === 0) {
+        fs.writeFileSync(publicOutputFile, JSON.stringify([], null, 2));
+    }
+    if (!fs.existsSync(outputFile) || fs.statSync(outputFile).size === 0) {
+        fs.writeFileSync(outputFile, JSON.stringify([], null, 2));
+    }
     process.exit(0);
 });
