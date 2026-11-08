@@ -1254,16 +1254,20 @@ function updateOnlineStatus() {
     const banner = document.getElementById("offlineBanner");
     if (!banner) return;
     if (!navigator.onLine) {
-        banner.classList.remove("hidden");
-        banner.classList.remove("back-online");
+        banner.style.display = "flex";
+        banner.classList.remove("hidden", "back-online");
         banner.innerHTML = '<span>📡 You are offline. Practice Quiz & cached materials are available.</span>';
     } else {
-        if (!banner.classList.contains("hidden")) {
+        if (banner.style.display === "flex" && !banner.classList.contains("hidden")) {
             banner.classList.add("back-online");
             banner.innerHTML = '<span>🟢 Back online!</span>';
             setTimeout(() => {
                 banner.classList.add("hidden");
+                banner.style.display = "none";
             }, 3000);
+        } else {
+            banner.classList.add("hidden");
+            banner.style.display = "none";
         }
     }
 }

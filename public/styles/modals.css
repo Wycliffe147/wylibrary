@@ -334,26 +334,26 @@
     display: none !important;
 }
 
-/* ─── Update Notification Toast ─── */
+/* ─── Update Notification Toast (Top Floating Banner) ─── */
 .update-toast {
     position: fixed;
-    bottom: 24px;
+    top: 18px;
     left: 50%;
     transform: translateX(-50%);
     width: 90%;
-    max-width: 440px;
+    max-width: 480px;
     background: #0f172a;
     color: #f8fafc;
-    border: 1px solid #334155;
+    border: 2px solid #3b82f6;
     border-radius: 14px;
-    padding: 12px 16px;
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+    padding: 12px 18px;
+    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.5), 0 0 20px rgba(59, 130, 246, 0.25);
     z-index: 2500;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 12px;
-    animation: toast-slide-up 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    gap: 14px;
+    animation: toast-slide-down 0.35s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .update-toast.hidden {
@@ -368,7 +368,7 @@
 }
 
 .update-toast .update-icon {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     line-height: 1;
 }
 
@@ -378,13 +378,13 @@
 }
 
 .update-toast .update-text strong {
-    font-size: 0.92rem;
+    font-size: 0.95rem;
     color: #ffffff;
 }
 
 .update-toast .update-text span {
-    font-size: 0.78rem;
-    color: #94a3b8;
+    font-size: 0.8rem;
+    color: #93c5fd;
 }
 
 .btn-update-now {
@@ -392,11 +392,12 @@
     color: #ffffff;
     border: none;
     border-radius: 8px;
-    padding: 8px 14px;
-    font-size: 0.85rem;
+    padding: 9px 16px;
+    font-size: 0.88rem;
     font-weight: 700;
     cursor: pointer;
     white-space: nowrap;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);
     transition: background-color 0.2s ease, transform 0.1s ease;
 }
 
@@ -421,30 +422,30 @@
     color: #cbd5e1;
 }
 
-/* ─── Update Success Handshake Toast ─── */
+/* ─── Update Success Handshake Toast (Top Floating Pill) ─── */
 .update-success-toast {
     position: fixed;
-    bottom: 24px;
+    top: 20px;
     left: 50%;
     transform: translateX(-50%);
     background: #15803d;
     color: #ffffff;
-    font-size: 0.9rem;
+    font-size: 0.92rem;
     font-weight: 600;
-    padding: 10px 20px;
+    padding: 10px 22px;
     border-radius: 30px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
     z-index: 2600;
     display: flex;
     align-items: center;
     gap: 8px;
-    animation: toast-fade-in-out 3.5s forwards ease-in-out;
+    animation: toast-fade-in-out-top 3.5s forwards ease-in-out;
 }
 
-@keyframes toast-slide-up {
+@keyframes toast-slide-down {
     from {
         opacity: 0;
-        transform: translate(-50%, 20px);
+        transform: translate(-50%, -25px);
     }
     to {
         opacity: 1;
@@ -452,10 +453,10 @@
     }
 }
 
-@keyframes toast-fade-in-out {
+@keyframes toast-fade-in-out-top {
     0% {
         opacity: 0;
-        transform: translate(-50%, 20px);
+        transform: translate(-50%, -25px);
     }
     15% {
         opacity: 1;
@@ -467,6 +468,6 @@
     }
     100% {
         opacity: 0;
-        transform: translate(-50%, 20px);
+        transform: translate(-50%, -25px);
     }
 }
