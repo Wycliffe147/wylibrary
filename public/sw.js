@@ -1,11 +1,15 @@
-const CACHE_NAME = 'e-library-v9';
+// Wylibrary Service Worker — v10.0
+// Network-First with Cache Fallback for seamless online updates & full offline resilience
 
-// Files that must NEVER be served from SW cache — always fetch fresh from network.
-// This ensures updates to app logic reach users on their next visit automatically.
-const NEVER_CACHE = ['/sw.js', '/app.js', '/pdf-viewer.html', '/index.html'];
+const CACHE_NAME = 'wylibrary-v10-20261108';
 
-const ASSETS_TO_CACHE = [
+const STATIC_ASSETS = [
   '/',
+  '/index.html',
+  '/app.js',
+  '/pdf-viewer.html',
+  '/quiz-data.json',
+  '/files-index.json',
   '/favicon.ico',
   '/icon-192.png',
   '/icon-512.png',
@@ -17,7 +21,6 @@ const ASSETS_TO_CACHE = [
   '/styles/practice.css',
   '/styles/dark-mode.css',
   '/manifest.json',
-  '/files-index.json',
   'https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/logo.png',
   'https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/logo-dark.png',
   'https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/about.png',
@@ -27,68 +30,80 @@ const ASSETS_TO_CACHE = [
   'https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/Q&A.png'
 ];
 
-// Install Event
+// Install Event: Pre-cache core shell
 self.addEventListener('install', event => {
-  self.skipWaiting();
   event.waitUntil(
-    caches.open(CACHE_NAME)
-      .then(cache => {
-        return Promise.allSettled(
-          ASSETS_TO_CACHE.map(url =>
-            cache.add(url).catch(err => {
-              console.warn('SW: Failed to pre-cache', url, err);
-            })
-          )
-        );
-      })
+    caches.open(CACHE_NAME).then(cache => {
+      return Promise.allSettled(
+        STATIC_ASSETS.map(url =>
+          cache.add(url).catch(err => {
+            console.warn('SW: Pre-cache non-fatal warning for', url, err);
+          })
+        )
+      );
+    })
   );
 });
 
-// Activate Event — delete old caches and claim clients immediately
+// Activate Event: Delete old legacy caches immediately & claim clients
 self.addEventListener('activate', event => {
   event.waitUntil(
     caches.keys().then(cacheNames => {
       return Promise.all(
-        cacheNames.map(cache => {
-          if (cache !== CACHE_NAME) {
-            console.log('SW: Deleting old cache', cache);
-            return caches.delete(cache);
-          }
-        })
+        cacheNames
+          .filter(name => name !== CACHE_NAME)
+          .map(name => {
+            console.log('SW: Purging legacy cache:', name);
+            return caches.delete(name);
+          })
       );
     }).then(() => self.clients.claim())
   );
 });
 
-// Fetch Event
+// Listen for direct SKIP_WAITING command from the Update Button
+self.addEventListener('message', event => {
+  if (event.data && event.data.type === 'SKIP_WAITING') {
+    self.skipWaiting();
+  }
+});
+
+// Fetch Event: Network-First with Cache Fallback
 self.addEventListener('fetch', event => {
+  // Only handle GET requests
   if (event.request.method !== 'GET') return;
 
   const url = new URL(event.request.url);
 
-  // Always bypass SW cache for critical app files — go straight to network
-  if (url.origin === self.location.origin && NEVER_CACHE.includes(url.pathname)) {
-    event.respondWith(fetch(event.request));
+  // Bypass Google Analytics & external trackers from service worker cache
+  if (url.hostname.includes('google-analytics.com') || url.hostname.includes('googletagmanager.com')) {
     return;
   }
 
-  // Network-first for everything else: try network, fall back to cache offline
+  // Network-First strategy:
+  // 1. Try fetching fresh copy from network (Cloudflare/server)
+  // 2. If online: update cache with latest response
+  // 3. If offline/error: immediately serve from cache
   event.respondWith(
     fetch(event.request)
-      .then(response => {
-        if (response.ok) {
-          const resClone = response.clone();
+      .then(networkResponse => {
+        if (networkResponse && networkResponse.status === 200 && (networkResponse.type === 'basic' || networkResponse.type === 'cors')) {
+          const responseClone = networkResponse.clone();
           caches.open(CACHE_NAME).then(cache => {
-            cache.put(event.request, resClone);
+            cache.put(event.request, responseClone);
           });
         }
-        return response;
+        return networkResponse;
       })
       .catch(() => {
-        return caches.match(event.request).then(cachedResponse => {
-          if (cachedResponse) return cachedResponse;
+        // Network failed (offline or slow disconnect) -> retrieve from cache
+        return caches.match(event.request, { ignoreSearch: true }).then(cachedResponse => {
+          if (cachedResponse) {
+            return cachedResponse;
+          }
+          // For navigation fallback to root / index.html
           if (event.request.mode === 'navigate') {
-            return caches.match('/index.html');
+            return caches.match('/index.html', { ignoreSearch: true }) || caches.match('/');
           }
         });
       })

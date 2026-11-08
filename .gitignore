@@ -7,4 +7,5 @@ public/Media/
 *.bak
 pending-questions.json
 .migration_state.json
+.wrangler/
 

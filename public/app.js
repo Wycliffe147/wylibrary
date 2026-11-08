@@ -1,3 +1,4 @@
+const APP_VERSION = 'v10.0';
 const app = document.getElementById("app");
 
 let currentCategory = null;
@@ -1247,17 +1248,126 @@ function hideInstallModal() {
     });
 })();
 
-window.addEventListener("DOMContentLoaded", () => {
-    // Register Service Worker for PWA
-    if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js', { updateViaCache: 'none' })
-            .then(reg => {
-                // Check for a new SW version immediately on every page load
-                reg.update();
-                console.log('Service Worker registered', reg);
-            })
-            .catch(err => console.log('Service Worker registration failed', err));
+// ─── Offline & Update Notification Architecture ──────────────────────────────
+
+function updateOnlineStatus() {
+    const banner = document.getElementById("offlineBanner");
+    if (!banner) return;
+    if (!navigator.onLine) {
+        banner.classList.remove("hidden");
+        banner.classList.remove("back-online");
+        banner.innerHTML = '<span>📡 You are offline. Practice Quiz & cached materials are available.</span>';
+    } else {
+        if (!banner.classList.contains("hidden")) {
+            banner.classList.add("back-online");
+            banner.innerHTML = '<span>🟢 Back online!</span>';
+            setTimeout(() => {
+                banner.classList.add("hidden");
+            }, 3000);
+        }
     }
+}
+
+window.addEventListener("online", updateOnlineStatus);
+window.addEventListener("offline", updateOnlineStatus);
+
+function checkVersionHandshake() {
+    try {
+        const pending = localStorage.getItem("wylibrary_pending_version");
+        if (pending) {
+            localStorage.removeItem("wylibrary_pending_version");
+            showUpdateSuccessToast(`✅ Updated successfully to ${APP_VERSION}!`);
+        }
+    } catch (e) {
+        console.warn("Version handshake check failed:", e);
+    }
+}
+
+function showUpdateSuccessToast(message) {
+    const existing = document.getElementById("updateSuccessToast");
+    if (existing) existing.remove();
+
+    const toast = document.createElement("div");
+    toast.id = "updateSuccessToast";
+    toast.className = "update-success-toast";
+    toast.innerHTML = `<span>${message}</span>`;
+    document.body.appendChild(toast);
+
+    setTimeout(() => {
+        if (toast && toast.parentNode) toast.remove();
+    }, 3800);
+}
+
+function showUpdatePrompt(waitingWorker) {
+    if (document.getElementById("updateToast")) return;
+
+    const toast = document.createElement("div");
+    toast.id = "updateToast";
+    toast.className = "update-toast";
+    toast.innerHTML = `
+        <div class="update-toast-content">
+            <span class="update-icon">⚡</span>
+            <div class="update-text">
+                <strong>Update Available</strong>
+                <span>New materials & features ready</span>
+            </div>
+        </div>
+        <button id="btnApplyUpdate" class="btn-update-now">Update</button>
+        <button id="btnDismissUpdate" class="btn-update-dismiss" aria-label="Dismiss">✕</button>
+    `;
+    document.body.appendChild(toast);
+
+    document.getElementById("btnApplyUpdate").addEventListener("click", () => {
+        try {
+            localStorage.setItem("wylibrary_pending_version", APP_VERSION);
+        } catch (e) {}
+        waitingWorker.postMessage({ type: "SKIP_WAITING" });
+        toast.remove();
+    });
+
+    document.getElementById("btnDismissUpdate").addEventListener("click", () => {
+        toast.remove();
+    });
+}
+
+function initServiceWorker() {
+    if (!('serviceWorker' in navigator)) return;
+
+    navigator.serviceWorker.register('/sw.js', { updateViaCache: 'none' })
+        .then(reg => {
+            console.log('Service Worker registered', reg);
+
+            if (reg.waiting) {
+                showUpdatePrompt(reg.waiting);
+            }
+
+            reg.addEventListener('updatefound', () => {
+                const newWorker = reg.installing;
+                if (!newWorker) return;
+                newWorker.addEventListener('statechange', () => {
+                    if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                        showUpdatePrompt(newWorker);
+                    }
+                });
+            });
+
+            reg.update().catch(() => {});
+        })
+        .catch(err => console.log('Service Worker registration failed', err));
+
+    let refreshing = false;
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+        if (!refreshing) {
+            refreshing = true;
+            window.location.reload();
+        }
+    });
+}
+
+window.addEventListener("DOMContentLoaded", () => {
+    initServiceWorker();
+    updateOnlineStatus();
+    checkVersionHandshake();
 
     // PWA Install Button Logic
     const modalInstallNow = document.getElementById('modalInstallNow');
