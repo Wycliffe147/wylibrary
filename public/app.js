@@ -1720,19 +1720,34 @@ function applyPendingHighlight() {
     const id = pendingHighlightId;
     pendingHighlightId = null;
 
-    const card = Array.from(document.querySelectorAll(".file-card"))
-        .find(c => c.dataset.docId === id);
-    if (!card) return;
+    function doHighlight() {
+        const card = Array.from(document.querySelectorAll(".file-card"))
+            .find(c => c.dataset.docId === id);
+        if (!card) return;
 
-    const reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    card.setAttribute("tabindex", "-1");
-    requestAnimationFrame(() => {
+        const reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        card.setAttribute("tabindex", "-1");
         card.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "center" });
-        card.focus({ preventScroll: true });
+        try { card.focus({ preventScroll: true }); } catch (_) {}
         card.classList.add("shared-highlight");
-        setTimeout(() => card.classList.remove("shared-highlight"), 4500);
-    });
-    trackEvent("shared_file_opened", { file_id: id });
+        setTimeout(() => card.classList.remove("shared-highlight"), 6000);
+        trackEvent("shared_file_opened", { file_id: id });
+    }
+
+    // Wait until splash screen has cleared if visible on cold load
+    const splash = document.getElementById('splash');
+    if (splash && !document.documentElement.classList.contains('no-splash')) {
+        let attempts = 0;
+        const interval = setInterval(() => {
+            attempts++;
+            if (!document.getElementById('splash') || splash.classList.contains('out') || attempts > 25) {
+                clearInterval(interval);
+                setTimeout(doHighlight, 300);
+            }
+        }, 100);
+    } else {
+        setTimeout(doHighlight, 120);
+    }
 }
 
 async function shareFile(name, path) {

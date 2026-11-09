@@ -253,18 +253,18 @@ h2 {
 /* ─── File Card Action Buttons ─── */
 .file-actions {
     display: flex;
-    gap: clamp(4px, 1.6vw, 10px);      /* tighter on narrow phones */
+    gap: 10px;
     margin-top: 10px;
-    flex-wrap: nowrap;                  /* keep every button on one line */
+    flex-wrap: wrap;
 }
 
 .file-actions a, 
 .file-actions button {
-    flex: 1 1 auto;                     /* share the row's width instead of wrapping */
+    flex: 0 0 auto;
     white-space: nowrap;
-    padding: 6px clamp(6px, 2.2vw, 12px);
+    padding: 6px 12px;
     border-radius: 8px;
-    font-size: clamp(0.78rem, 3.6vw, 0.9rem);   /* ~12.5px on small phones, 14.4px from ~400px up */
+    font-size: 0.9rem;
     font-weight: 500;
     text-decoration: none;
     cursor: pointer;
@@ -273,6 +273,20 @@ h2 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Mobile: fit the 4 buttons on one line evenly */
+@media (max-width: 480px) {
+    .file-actions {
+        gap: clamp(4px, 1.6vw, 8px);
+        flex-wrap: nowrap;
+    }
+    .file-actions a, 
+    .file-actions button {
+        flex: 1 1 auto;
+        padding: 6px clamp(4px, 1.8vw, 10px);
+        font-size: clamp(0.76rem, 3.4vw, 0.86rem);
+    }
 }
 
 /* Open button (PDFs, docs, office) — consistent forest green */
@@ -399,16 +413,50 @@ h2 {
 
 /* ─── Deep-link highlight (#/file/<id>) ─────────────────────────────────── */
 .file-card.shared-highlight {
-    outline: 2px solid #1e88e5;
-    outline-offset: 2px;
-    animation: sharedPulse 1.3s ease-in-out 3;
+    position: relative;
+    outline: 3px solid #2563eb !important;
+    outline-offset: 3px;
+    box-shadow: 0 0 0 6px rgba(37, 99, 235, 0.35), 0 8px 25px rgba(37, 99, 235, 0.25) !important;
+    animation: sharedPulse 1.8s ease-in-out infinite;
+    z-index: 10;
+}
+
+.file-card.shared-highlight::before {
+    content: "👉 Shared resource";
+    position: absolute;
+    top: -12px;
+    right: 12px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 2px 10px;
+    border-radius: 999px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+    z-index: 20;
+    pointer-events: none;
 }
 
 @keyframes sharedPulse {
-    0%, 100% { box-shadow: 0 0 0 0 rgba(30, 136, 229, 0); }
-    50%      { box-shadow: 0 0 0 8px rgba(30, 136, 229, 0.35); }
+    0%, 100% {
+        box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.25), 0 4px 15px rgba(37, 99, 235, 0.15);
+        transform: scale(1.01);
+    }
+    50% {
+        box-shadow: 0 0 0 10px rgba(37, 99, 235, 0.5), 0 10px 30px rgba(37, 99, 235, 0.35);
+        transform: scale(1.025);
+    }
+}
+
+html.dark .file-card.shared-highlight {
+    outline: 3px solid #60a5fa !important;
+    box-shadow: 0 0 0 6px rgba(96, 165, 250, 0.4), 0 8px 25px rgba(96, 165, 250, 0.3) !important;
+}
+
+html.dark .file-card.shared-highlight::before {
+    background: #3b82f6;
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .file-card.shared-highlight { animation: none; }
+    .file-card.shared-highlight { animation: none; transform: none; }
 }
