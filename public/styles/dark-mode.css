@@ -94,6 +94,7 @@ html.dark .tech-stack {
 }
 
 html.dark h2 {
+    background: transparent;
     color: var(--text-primary);
 }
 
