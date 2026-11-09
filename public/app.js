@@ -1977,6 +1977,9 @@ function showUpdatePrompt(waitingWorker) {
         try {
             localStorage.setItem("wylibrary_pending_version", APP_VERSION);
         } catch (e) {}
+        // Flag that this reload is user-initiated — controllerchange listener
+        // checks this so it doesn't auto-reload on every fresh SW install.
+        window.__swUpdateRequested = true;
         waitingWorker.postMessage({ type: "SKIP_WAITING" });
         toast.remove();
     });
@@ -2011,10 +2014,11 @@ function initServiceWorker() {
         })
         .catch(err => console.log('Service Worker registration failed', err));
 
-    let refreshing = false;
+    // Only reload when the user explicitly clicked "Update" (sets __swUpdateRequested).
+    // Without this guard, clients.claim() on first SW install triggers controllerchange
+    // and causes a double-load / auto-refresh on every fresh page open.
     navigator.serviceWorker.addEventListener('controllerchange', () => {
-        if (!refreshing) {
-            refreshing = true;
+        if (window.__swUpdateRequested) {
             window.location.reload();
         }
     });
