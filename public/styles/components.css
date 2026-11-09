@@ -253,16 +253,18 @@ h2 {
 /* ─── File Card Action Buttons ─── */
 .file-actions {
     display: flex;
-    gap: 10px;
+    gap: clamp(4px, 1.6vw, 10px);      /* tighter on narrow phones */
     margin-top: 10px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;                  /* keep every button on one line */
 }
 
 .file-actions a, 
 .file-actions button {
-    padding: 6px 12px;
+    flex: 1 1 auto;                     /* share the row's width instead of wrapping */
+    white-space: nowrap;
+    padding: 6px clamp(6px, 2.2vw, 12px);
     border-radius: 8px;
-    font-size: 0.9rem;
+    font-size: clamp(0.78rem, 3.6vw, 0.9rem);   /* ~12.5px on small phones, 14.4px from ~400px up */
     font-weight: 500;
     text-decoration: none;
     cursor: pointer;
@@ -308,6 +310,7 @@ h2 {
 .file-actions .btn-save-offline {
     background-color: #00695c;
     color: #fff;
+    min-width: 6.4em;                   /* keeps its size when the label changes (Saved / 62% / Update) */
 }
 .file-actions .btn-save-offline[data-mode="save"]:hover:not(:disabled) {
     background-color: #004d40;

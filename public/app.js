@@ -814,10 +814,10 @@ function refreshFileCard(card) {
 
     if (btn.dataset.busy) return;
     if (doc && doc.status === "outdated") {
-        btn.textContent = "↻ Update saved copy";
+        btn.textContent = "Update";
         btn.dataset.mode = "update";
         btn.disabled = !online;
-        btn.title = "A newer version is in the library";
+        btn.title = "A newer version is in the library. Tap to update your saved copy.";
     } else if (doc) {
         btn.textContent = "✓ Saved";
         btn.dataset.mode = "remove";
@@ -846,9 +846,10 @@ async function onSaveButton(card, btn) {
 
     btn.dataset.busy = "1";
     btn.disabled = true;
-    btn.textContent = "Saving… 0%";
+    btn.title = "Saving for offline…";
+    btn.textContent = "0%";
     try {
-        await WyOffline.save(info, p => { btn.textContent = `Saving… ${Math.round(p * 100)}%`; });
+        await WyOffline.save(info, p => { btn.textContent = `${Math.round(p * 100)}%`; });
         trackEvent("offline_save", { file_name: info.name, file_path: info.path });
     } catch (err) {
         showToast("⚠️ " + (err.message || "Could not save this file."));
@@ -1058,12 +1059,47 @@ function buildSavedCard(d) {
     return card;
 }
 
-// Pill shown while offline (just says "Offline")
+// Pill shown while offline: says "Offline"; tap it to see how many saved books are available
+let offlinePillTimer = null;
+
 function refreshOfflineBanner() {
     const banner = document.getElementById("offlineBanner");
     if (!banner || navigator.onLine) return;
-    banner.innerHTML = `<span>Offline</span>`;
+    clearTimeout(offlinePillTimer);
+    banner.innerHTML = `<span role="button" tabindex="0">Offline</span>`;
 }
+
+function toggleOfflinePill() {
+    const banner = document.getElementById("offlineBanner");
+    const pill = banner && banner.querySelector("span");
+    if (!pill || navigator.onLine) return;
+
+    if (pill.dataset.expanded) {            // tap again: collapse
+        refreshOfflineBanner();
+        return;
+    }
+    const show = (n) => {
+        if (navigator.onLine) return;
+        pill.dataset.expanded = "1";
+        pill.textContent = n > 0
+            ? `${n} saved book${n !== 1 ? "s" : ""} available offline`
+            : "No saved books yet";
+        clearTimeout(offlinePillTimer);
+        offlinePillTimer = setTimeout(refreshOfflineBanner, 4000);
+    };
+    if (offlineAvailable()) WyOffline.ready().then(() => show(WyOffline.count()));
+    else show(0);
+}
+
+document.addEventListener("click", (e) => {
+    if (e.target.closest && e.target.closest("#offlineBanner span")) toggleOfflinePill();
+});
+document.addEventListener("keydown", (e) => {
+    if ((e.key === "Enter" || e.key === " ") && e.target.closest && e.target.closest("#offlineBanner span")) {
+        e.preventDefault();
+        toggleOfflinePill();
+    }
+});
 
 window.addEventListener("online", refreshAllFileCards);
 window.addEventListener("offline", refreshAllFileCards);
