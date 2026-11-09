@@ -211,7 +211,8 @@ function trackEvent(eventName, params) {
 function handleRouteFromUrl() {
     const hash = window.location.hash || "";
     if (hash.startsWith("#/saved")) {
-        loadSaved(false);
+        const sub = hash.replace(/^#\/saved\/?/, "").split("/").filter(Boolean).map(decodeURIComponent).join("/");
+        loadSaved(false, sub);
     } else if (hash.startsWith("#/about")) {
         loadAbout(false);
     } else if (hash.startsWith("#/contact")) {
@@ -876,10 +877,16 @@ function updateSavedLink() {
     });
 }
 
-// Saved Books page
-async function loadSaved(push = true) {
+// Saved Books page (folders work like the library folders: tap to go in, breadcrumb to go back)
+let savedPath = "";
+
+async function loadSaved(push = true, subPath = "") {
+    savedPath = subPath || "";
     if (push) {
-        history.pushState({ view: "saved" }, "", "#/saved");
+        const hash = savedPath
+            ? "#/saved/" + savedPath.split("/").map(encodeURIComponent).join("/")
+            : "#/saved";
+        history.pushState({ view: "saved", subPath: savedPath }, "", hash);
         await navigateTo(_renderSaved, "Saved books - e-library");
     } else {
         _renderSaved();
@@ -890,14 +897,13 @@ async function _renderSaved() {
     currentCategory = null;
     currentPath = "";
     app.innerHTML = `
-        <div class="breadcrumb-container"><span class="breadcrumb" data-home="true">Home</span> / Saved books</div>
+        <div class="breadcrumb-container" id="savedCrumbs"></div>
         <div class="folder-meta"><span class="folder-file-count" id="savedMeta"></span></div>
         <div class="search-container">
             <input type="text" id="searchInput" placeholder="Search saved books..." />
         </div>
-        <div class="saved-tree" id="savedList"></div>
+        <div class="grid" id="savedList"></div>
     `;
-    app.querySelector(".breadcrumb").addEventListener("click", () => loadHome());
     if (offlineAvailable()) await WyOffline.ready();
     renderSavedList();
 
@@ -910,8 +916,24 @@ async function _renderSaved() {
     searchInput.addEventListener("input", () => trackSavedSearch(searchInput.value.trim()));
 }
 
-// Folder open/closed state survives re-renders (e.g. after removing a book)
-const savedOpenDirs = new Set();
+function renderSavedCrumbs() {
+    const box = document.getElementById("savedCrumbs");
+    if (!box) return;
+    const parts = savedPath.split("/").filter(Boolean);
+    let html = `<span class="breadcrumb" data-home="true">Home</span> / <span class="breadcrumb" data-path="">Saved books</span>`;
+    let sofar = "";
+    parts.forEach(p => {
+        sofar = sofar ? `${sofar}/${p}` : p;
+        html += ` / <span class="breadcrumb" data-path="${escapeHtmlText(sofar)}">${escapeHtmlText(p)}</span>`;
+    });
+    box.innerHTML = html;
+    box.querySelectorAll(".breadcrumb").forEach(span => {
+        span.addEventListener("click", () => {
+            if (span.dataset.home) loadHome();
+            else loadSaved(true, span.dataset.path || "");
+        });
+    });
+}
 
 function renderSavedList() {
     const list = document.getElementById("savedList");
@@ -919,10 +941,39 @@ function renderSavedList() {
     if (!list) return;
 
     const docs = offlineAvailable() ? WyOffline.list() : [];
-    const total = docs.reduce((sum, d) => sum + (d.bytes || d.size || 0), 0);
-    if (meta) meta.textContent = docs.length
-        ? `${docs.length} saved · ${formatBytes(total)} on this device`
-        : "Nothing saved yet";
+    const dirOf = d => normalizePath(d.path).split("/").filter(Boolean).slice(0, -1);
+
+    // If the current folder has emptied out (e.g. last book removed), step up to one that has files
+    while (savedPath && !docs.some(d => (dirOf(d).join("/") + "/").startsWith(savedPath + "/"))) {
+        savedPath = savedPath.split("/").slice(0, -1).join("/");
+        history.replaceState({ view: "saved", subPath: savedPath }, "",
+            savedPath ? "#/saved/" + savedPath.split("/").map(encodeURIComponent).join("/") : "#/saved");
+    }
+    renderSavedCrumbs();
+
+    const base = savedPath ? savedPath.split("/") : [];
+    const inScope = docs.filter(d => {
+        const dir = dirOf(d);
+        return base.every((p, i) => dir[i] === p);
+    });
+
+    // Direct subfolders and files of the current folder
+    const folders = new Map();   // name -> file count
+    const files = [];
+    inScope.forEach(d => {
+        const dir = dirOf(d);
+        if (dir.length === base.length) files.push(d);
+        else folders.set(dir[base.length], (folders.get(dir[base.length]) || 0) + 1);
+    });
+
+    const total = inScope.reduce((sum, d) => sum + (d.bytes || d.size || 0), 0);
+    if (meta) {
+        if (!docs.length) meta.textContent = "Nothing saved yet";
+        else if (folders.size && files.length) meta.textContent = `${folders.size} folder${folders.size !== 1 ? "s" : ""}, ${files.length} file${files.length !== 1 ? "s" : ""}`;
+        else if (folders.size) meta.textContent = `${folders.size} folder${folders.size !== 1 ? "s" : ""} in this section`;
+        else meta.textContent = `${files.length} file${files.length !== 1 ? "s" : ""} in this folder`;
+        if (docs.length) meta.textContent += ` · ${formatBytes(total)} on this device`;
+    }
 
     list.innerHTML = "";
     if (!docs.length) {
@@ -930,88 +981,39 @@ function renderSavedList() {
         return;
     }
 
-    // Search: flat list of matching files, same behaviour as the folder search
+    // Search: flat list of matching files in this folder (and below), like the library search
     const searchInput = document.getElementById("searchInput");
-    const query = searchInput ? searchInput.value.trim().toLowerCase() : "";
-    if (query) {
-        const words = query.split(/\s+/);
-        const hits = docs.filter(d => {
+    const rawQuery = searchInput ? searchInput.value.trim() : "";
+    if (rawQuery) {
+        const words = rawQuery.toLowerCase().split(/\s+/);
+        const hits = inScope.filter(d => {
             const hay = (d.name + " " + normalizePath(d.path)).toLowerCase();
             return words.every(w => hay.includes(w));
         });
         if (!hits.length) {
-            list.innerHTML = `<p class="empty-state">No saved files found for "<strong>${escapeHtmlText(searchInput.value.trim())}</strong>".</p>`;
+            list.innerHTML = `<p class="empty-state">No files found for "<strong>${escapeHtmlText(rawQuery)}</strong>" in this folder.</p>`;
             return;
         }
-        const grid = document.createElement("div");
-        grid.className = "grid";
-        hits.forEach(d => grid.appendChild(buildSavedCard(d)));
-        list.appendChild(grid);
+        hits.forEach(d => list.appendChild(buildSavedCard(d)));
         return;
     }
 
-    // Build the directory tree from each saved file's library path
-    const root = { dirs: new Map(), files: [] };
-    docs.forEach(d => {
-        const parts = normalizePath(d.path).split("/").filter(Boolean);
-        parts.pop();                                  // drop the file name
-        let node = root;
-        parts.forEach(p => {
-            if (!node.dirs.has(p)) node.dirs.set(p, { dirs: new Map(), files: [] });
-            node = node.dirs.get(p);
+    [...folders.keys()]
+        .sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: "base" }))
+        .forEach(name => {
+            const n = folders.get(name);
+            const card = document.createElement("div");
+            card.className = "folder-card";
+            card.innerHTML = `
+                <div class="folder-top">
+                    <span class="folder-name">📁 ${escapeHtmlText(name)}</span>
+                </div>
+                <span class="folder-count-badge">${n} file${n !== 1 ? "s" : ""}</span>
+            `;
+            card.addEventListener("click", () => loadSaved(true, savedPath ? `${savedPath}/${name}` : name));
+            list.appendChild(card);
         });
-        node.files.push(d);
-    });
-
-    const countFiles = n => n.files.length + [...n.dirs.values()].reduce((a, c) => a + countFiles(c), 0);
-
-    function renderNode(node, container, pathSoFar) {
-        [...node.dirs.keys()]
-            .sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: "base" }))
-            .forEach(name => {
-                const child = node.dirs.get(name);
-                const key = pathSoFar ? `${pathSoFar}/${name}` : name;
-                const n = countFiles(child);
-
-                const dir = document.createElement("div");
-                dir.className = "saved-dir";
-                const row = document.createElement("div");
-                row.className = "saved-dir-row";
-                row.setAttribute("role", "button");
-                row.tabIndex = 0;
-                row.innerHTML = `
-                    <span class="saved-dir-arrow">▸</span>
-                    <span class="saved-dir-name">📁 ${escapeHtmlText(name)}</span>
-                    <span class="folder-count-badge">${n} file${n !== 1 ? "s" : ""}</span>
-                `;
-                const body = document.createElement("div");
-                body.className = "saved-dir-body";
-
-                const setOpen = (open) => {
-                    dir.classList.toggle("open", open);
-                    row.setAttribute("aria-expanded", open ? "true" : "false");
-                    if (open) savedOpenDirs.add(key); else savedOpenDirs.delete(key);
-                };
-                row.addEventListener("click", () => setOpen(!dir.classList.contains("open")));
-                row.addEventListener("keydown", e => {
-                    if (e.key === "Enter" || e.key === " ") { e.preventDefault(); row.click(); }
-                });
-
-                renderNode(child, body, key);
-                dir.appendChild(row);
-                dir.appendChild(body);
-                container.appendChild(dir);
-                setOpen(savedOpenDirs.has(key));
-            });
-
-        if (node.files.length) {
-            const grid = document.createElement("div");
-            grid.className = "grid";
-            node.files.forEach(d => grid.appendChild(buildSavedCard(d)));
-            container.appendChild(grid);
-        }
-    }
-    renderNode(root, list, "");
+    files.forEach(d => list.appendChild(buildSavedCard(d)));
 }
 
 function buildSavedCard(d) {
