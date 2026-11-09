@@ -13,9 +13,14 @@
             rgb: '37,99,235',
             title: '📥 Save for Offline',
             text: 'Save books, exams, and notes directly to your device and read them without using internet data.',
-            art: '<div class="wn-mock wn-file"><span class="wn-pdf">PDF</span>' +
-                 '<span class="wn-file-name">Maths Past Paper.pdf</span>' +
-                 '<span class="wn-chip">✓ Saved</span></div>'
+            art: '<div class="wn-real-card">' +
+                 '<div class="wn-real-file-top"><span class="wn-real-icon">📄</span><span class="wn-real-title">Mathematics_Paper_1.pdf <span class="wn-real-size">(2.4 MB)</span></span></div>' +
+                 '<div class="wn-real-actions">' +
+                 '<span class="wn-real-btn open">Open</span>' +
+                 '<span class="wn-real-btn download">Download</span>' +
+                 '<span class="wn-real-btn saved">✓ Saved</span>' +
+                 '<span class="wn-real-btn share">Share</span>' +
+                 '</div></div>'
         },
         {
             rgb: '22,163,74',
@@ -30,12 +35,17 @@
         {
             rgb: '245,158,11',
             title: '📡 Offline Awareness',
-            // Matches what v11.1 does today: the amber badge shows next to the logo while offline,
-            // and the saved-books shortcut on Home carries the count.
-            // Original brief wording (only use once the pill itself shows the count):
-            // 'An amber indicator pill tells you how many books are saved offline with a single tap.'
-            text: 'An amber badge appears by the logo whenever you are offline. Tap it for a quick status, then open 📥 My saved books to see what is ready to read.',
-            art: '<div class="wn-logo">📚<span class="wn-pin">📡</span></div>'
+            text: 'An amber pill appears at the top when offline. Tap it to see how many books are saved, and look for the 📡 badge on the logo.',
+            art: '<div class="wn-offline-scene">' +
+                 '<div class="wn-real-pill"><span>Offline · 12 saved books</span></div>' +
+                 '<div class="wn-real-header">' +
+                 '<div class="wn-real-logo-box">' +
+                 '<img class="logo-light" src="https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/logo.png" alt="Logo" onerror="this.style.display=\'none\'"/>' +
+                 '<img class="logo-dark" src="https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/logo-dark.png" alt="Logo" onerror="this.style.display=\'none\'"/>' +
+                 '<span class="wn-real-logo-badge">📡</span>' +
+                 '</div>' +
+                 '<span class="wn-real-header-title">Wycliffe’s e-library</span>' +
+                 '</div></div>'
         },
         {
             rgb: '147,51,234',
