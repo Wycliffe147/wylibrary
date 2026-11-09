@@ -40,26 +40,25 @@
 5. **Batch Multi-Select & Share / Download Function**
    - Allow selecting multiple files (checkboxes / multi-select mode).
    - Share multiple selected document links or files simultaneously via Web Share API / WhatsApp.
+   - **Remove Selected** (saved books page): add a "Remove Selected" button next to "Download Selected" for bulk-deleting saved books. Suggested by Claude alongside the checkboxes feature (Nov 2026).
    - **Multi-Download Fallback (Client-side ZIP):** Many mobile browsers block multiple simultaneous file downloads. Detect this restriction or provide an option to package selected files into a single `.zip` file client-side (using JSZip) for 1-click batch download.
 
 ---
 
 ## 🔧 PWA & Cache Architecture (Planned Improvements)
 
-### 6. "Save for Offline" Button per Document — ✅ BUILT (v11.0, on staging)
-- **"📥 Save offline"** button on every file card (except ZIP packages). Saved files live in the separate cache bucket `wylibrary-user-documents`, which the service worker never wipes on updates.
-- Files are stored under a **stable file id** (not the path), with details in IndexedDB (`wylibrary-offline`). `scripts/add-ids.mjs` assigns ids to `files-index.json` and keeps them across renames/moves; `public/id-map.json` is its history (**commit it**).
-- When the library changes, saved copies are reconciled on the next online visit: renamed/moved → follows the file; replaced → "↻ Update saved copy"; deleted → kept, flagged "No longer in the library".
-- **My Saved Books** page (`#/saved`, shortcut on Home when something is saved). The PDF viewer opens saved copies first, so they work with no connection.
-- Offline, unsaved files show greyed-out Open/Download with a "Needs internet" explanation.
-- Still to decide: auto-switching the Library to Saved Books when offline (currently a banner link + Home shortcut).
+### 5. "Save for Offline" Button per Document
+- Add a **"📥 Save for Offline"** button next to each PDF in the file list.
+- Stores the PDF in a **separate cache bucket** (`wylibrary-user-documents`) that is never wiped during app updates.
+- When offline, the Library tab switches to a **"My Saved Books"** view showing only saved documents.
+- Documents not yet saved show a disabled state (`Needs Internet`) instead of broken links.
 
-### 7. Offline UI State Refinements — partly done
-- ✅ Disable/grey-out download buttons and links that require internet.
-- ✅ Show count of saved offline documents in the offline banner (with a "View saved" link).
-- ⬜ When offline, automatically highlight that **Practice Quiz** and **About** pages work fully.
+### 6. Offline UI State Refinements
+- When offline, automatically highlight that **Practice Quiz** and **About** pages work fully.
+- Disable/grey-out download buttons and links that require internet.
+- Show count of saved offline documents in the offline banner.
 
-### 8. Reading Progress & Bookmarks
+### 7. Reading Progress & Bookmarks
 - Automatically save the last page read per document in `localStorage`.
 - When reopening a PDF, offer to resume: *"Continue from page 42?"*
 
@@ -91,6 +90,13 @@
   curl -X DELETE "https://api.cloudflare.com/client/v4/accounts/c5703910f00b285b8660ec05372093f6/rum/site_info/d90d87f95aa946efb7e79aba6f2caed4" \
     -H "Authorization: Bearer <TOKEN_WITH_RUM_WRITE>"
   ```
+
+### 13. Multi-Language Support (Chichewa & English)
+- **Language Selector:** Switch UI between English and Chichewa (Chichewa translation for nav, buttons, offline notices, search hints, and study guides).
+- Save user preference in `localStorage`.
+
+### 14. AI Assistant for Site Help & Navigation
+- **In-App AI Guide:** A lightweight assistant to help students find study materials, past papers, syllabus contents, and explain how to use library features (offline saving, search, practice quizzes).
 
 ---
 
