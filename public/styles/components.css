@@ -57,15 +57,6 @@
     width: auto;
 }
 
-/* Practice page heading: a theme-aware chip so it stays readable over the
-   background photo (replaces the old global white h2 bar). */
-#quiz-header h2 {
-    display: inline-block;
-    padding: 6px 14px;
-    border-radius: 10px;
-    background-color: var(--bg-about);
-}
-
 @media (max-width: 720px) {    
     #card1 a, #card2 a, #card3 a, #card4 a {
         margin-right: 0;
