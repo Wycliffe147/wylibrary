@@ -1,7 +1,7 @@
 // Wylibrary Service Worker — v10.0
 // Network-First with Cache Fallback for seamless online updates & full offline resilience
 
-const CACHE_NAME = 'wylibrary-v20-20261109';
+const CACHE_NAME = 'wylibrary-v21-20261109';
 
 // Books the reader chose to keep. Managed by offline-store.js and NEVER deleted
 // when the app updates (see the activate handler below).
@@ -21,18 +21,15 @@ function shouldRuntimeCache(response) {
   return true;
 }
 
-const STATIC_ASSETS = [
+// Same-origin files the app cannot start without. If any of these fail to
+// cache, the install FAILS and the previous working worker stays in charge,
+// instead of leaving a half-empty cache that only breaks later when offline.
+const CORE_ASSETS = [
   '/',
   '/index.html',
   '/app.js',
   '/offline-store.js',
-  '/pdf-viewer',
-  '/pdf-viewer.html',
   '/quiz-data.json',
-  '/files-index.json',
-  '/favicon.ico',
-  '/icon-192.png',
-  '/icon-512.png',
   '/styles/base.css',
   '/styles/layout.css',
   '/styles/components.css',
@@ -40,8 +37,22 @@ const STATIC_ASSETS = [
   '/styles/modals.css',
   '/styles/practice.css',
   '/styles/dark-mode.css',
-  '/manifest.json',
-  // PDF.js, so the viewer can open saved books with no connection
+  '/manifest.json'
+];
+
+// Same-origin extras. Nice to have, never block the install.
+const OPTIONAL_ASSETS = [
+  '/pdf-viewer',
+  '/pdf-viewer.html',
+  '/files-index.json',
+  '/favicon.ico',
+  '/icon-192.png',
+  '/icon-512.png'
+];
+
+// Cross-origin files (background, logos, card covers, PDF.js). These must be
+// fetched in CORS mode so the response is readable and can be stored.
+const REMOTE_ASSETS = [
   'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.4.168/pdf.min.mjs',
   'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.4.168/pdf.worker.min.mjs',
   'https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/bg.jpg',
@@ -54,17 +65,33 @@ const STATIC_ASSETS = [
   'https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/Q&A.png'
 ];
 
+const CROSS_ORIGIN_HOSTS = ['raw.githubusercontent.com', 'cdnjs.cloudflare.com'];
+
+// Fetch a cross-origin file in CORS mode and store it. Retries once because
+// GitHub raw can briefly rate-limit when many files are requested together.
+async function storeRemote(cache, url) {
+  for (let attempt = 0; attempt < 2; attempt++) {
+    try {
+      const res = await fetch(url, { mode: 'cors', credentials: 'omit' });
+      if (res && res.ok) {
+        await cache.put(url, res);
+        return true;
+      }
+    } catch (err) { /* try again */ }
+  }
+  console.warn('SW: could not pre-cache', url);
+  return false;
+}
+
 // Install Event: Pre-cache core shell
 self.addEventListener('install', event => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then(cache => {
-      return Promise.allSettled(
-        STATIC_ASSETS.map(url =>
-          cache.add(url).catch(err => {
-            console.warn('SW: Pre-cache non-fatal warning for', url, err);
-          })
-        )
-      );
+    caches.open(CACHE_NAME).then(async cache => {
+      await cache.addAll(CORE_ASSETS);
+      await Promise.allSettled([
+        ...OPTIONAL_ASSETS.map(url => cache.add(url)),
+        ...REMOTE_ASSETS.map(url => storeRemote(cache, url))
+      ]);
     })
   );
 });
@@ -129,6 +156,31 @@ async function cacheFallback(request) {
   return Response.error();
 }
 
+// Cross-origin images / PDF.js: cache first, refresh quietly in the background.
+// The page asks for these with no-cors (CSS backgrounds, <img>), which gives an
+// unreadable "opaque" response that can't be cached sensibly. So we re-request
+// the same URL in CORS mode, store that, and hand the page the stored copy.
+// Every online visit therefore repairs anything missing from the cache.
+async function crossOriginResponse(event) {
+  const request = event.request;
+  const cached = await findCached(request);
+
+  const refresh = fetch(request.url, { mode: 'cors', credentials: 'omit' })
+    .then(async res => {
+      if (res && res.ok) {
+        const cache = await caches.open(CACHE_NAME);
+        await cache.put(request.url, res.clone());
+      }
+      return res;
+    });
+
+  if (cached) {
+    event.waitUntil(refresh.catch(() => {}));
+    return cached;
+  }
+  return refresh.catch(() => Response.error());
+}
+
 // Fetch Event: Network-First with Cache Fallback (and a timeout)
 self.addEventListener('fetch', event => {
   const request = event.request;
@@ -140,6 +192,11 @@ self.addEventListener('fetch', event => {
 
   // Bypass Google Analytics & external trackers from service worker cache
   if (url.hostname.includes('google-analytics.com') || url.hostname.includes('googletagmanager.com')) {
+    return;
+  }
+
+  if (CROSS_ORIGIN_HOSTS.includes(url.hostname) && !request.headers.has('range')) {
+    event.respondWith(crossOriginResponse(event));
     return;
   }
 
