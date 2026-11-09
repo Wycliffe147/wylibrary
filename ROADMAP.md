@@ -91,6 +91,13 @@
     -H "Authorization: Bearer <TOKEN_WITH_RUM_WRITE>"
   ```
 
+### 13. Multi-Language Support (Chichewa & English)
+- **Language Selector:** Switch UI between English and Chichewa (Chichewa translation for nav, buttons, offline notices, search hints, and study guides).
+- Save user preference in `localStorage`.
+
+### 14. AI Assistant for Site Help & Navigation
+- **In-App AI Guide:** A lightweight assistant to help students find study materials, past papers, syllabus contents, and explain how to use library features (offline saving, search, practice quizzes).
+
 ---
 
 ## 🧪 Development Workflow Reminder
