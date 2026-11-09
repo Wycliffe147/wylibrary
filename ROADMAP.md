@@ -33,9 +33,19 @@
 3. **2026 & Recent Document Additions**
    - Ingest and index new past papers, mock exams, and syllabi from 2026 / recent school years.
 
-4. **Directory & Metadata Cleanup**
-   - Re-organize misclassified files into correct subject/level directories.
-   - Fix missing, truncated, or misleading document filenames in `files-index.json`.
+4. **Document Naming, Metadata & Ingestion Workflow**
+   - **Fix existing filenames:** Clean up vague, truncated, and inconsistent names across Books, Exams, and Q&A. Many files currently have raw upload names that give users no hint of what's inside.
+   - **Establish a naming convention:** Agree on a standard pattern before uploading new files, for example:
+     ```
+     [Category]_[Subject]_[Level]_[Year]_[Description].pdf
+     Exams_Mathematics_MSCE_2024_Paper1.pdf
+     Books_Biology_JCE_MaladeSyllabus.pdf
+     ```
+   - **Re-organize misclassified files** into correct subject/level directories.
+   - **Automate new resource ingestion:** When adding new materials, automate as much of the pipeline as possible:
+     - Script to validate filenames against the naming convention before upload.
+     - Auto-generate / update `files-index.json` entries (description, category, path, ID) on upload rather than editing JSON manually.
+     - Community submission workflow: WhatsApp group members submit files → ingestion script renames, places, and indexes them → they appear in the library automatically.
 
 5. **Batch Multi-Select & Share / Download Function**
    - Allow selecting multiple files (checkboxes / multi-select mode).
