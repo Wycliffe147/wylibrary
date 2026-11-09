@@ -55,6 +55,67 @@
     color: #1565c0;
 }
 
+/* ─── Connection Status Badge (Pamthunzi style) ─── */
+.connection-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 14px;
+    border-radius: 25px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1;
+    transition: all 0.3s ease;
+    cursor: default;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+.connection-badge .badge-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+/* Online state */
+.connection-badge.online {
+    background-color: rgba(34, 197, 94, 0.22);
+    border: 1px solid rgba(74, 222, 128, 0.45);
+    color: #f0fdf4;
+}
+
+.connection-badge.online .badge-dot {
+    background-color: #22c55e;
+    box-shadow: 0 0 6px rgba(34, 197, 94, 0.7);
+}
+
+/* Offline state — stays visible with pulse the entire time offline */
+.connection-badge.offline {
+    background-color: rgba(245, 158, 11, 0.28);
+    border: 1px solid rgba(251, 191, 36, 0.65);
+    color: #fef3c7;
+    cursor: pointer;
+    animation: badge-pulse 2s infinite ease-in-out;
+}
+
+.connection-badge.offline .badge-dot {
+    background-color: #f59e0b;
+    box-shadow: 0 0 8px rgba(245, 158, 11, 0.9);
+}
+
+@keyframes badge-pulse {
+    0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.85;
+        transform: scale(0.97);
+    }
+}
+
 /* Alternative Header implementation from style.css legacy sections */
 .header {
     display: flex;
