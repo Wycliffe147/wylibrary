@@ -8,4 +8,6 @@ public/Media/
 pending-questions.json
 .migration_state.json
 .wrangler/
+*-bundle.zip
+*-bundle.txt
 
