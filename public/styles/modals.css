@@ -305,28 +305,34 @@
     color: #475569;
 }
 
-/* ─── Offline Banner ─── */
+/* ─── Offline pill ─── */
 .offline-banner {
     position: sticky;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #d97706;
-    color: #ffffff;
-    font-size: 0.88rem;
-    font-weight: 600;
-    padding: 8px 16px;
-    text-align: center;
+    padding: 6px 0;
+    background: transparent;
     z-index: 1500;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    pointer-events: none;
+}
+
+.offline-banner span {
+    background-color: #d97706;
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.4;
+    padding: 3px 16px;
+    border-radius: 999px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
     transition: background-color 0.3s ease, opacity 0.3s ease;
 }
 
-.offline-banner.back-online {
+.offline-banner.back-online span {
     background-color: #16a34a;
 }
 

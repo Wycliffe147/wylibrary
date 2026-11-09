@@ -1058,17 +1058,11 @@ function buildSavedCard(d) {
     return card;
 }
 
-// Banner text while offline: mention saved books
+// Pill shown while offline (just says "Offline")
 function refreshOfflineBanner() {
     const banner = document.getElementById("offlineBanner");
-    if (!banner || navigator.onLine || !offlineAvailable()) return;
-    WyOffline.ready().then(() => {
-        if (navigator.onLine || banner.classList.contains("hidden")) return;
-        const n = WyOffline.count();
-        banner.innerHTML = n > 0
-            ? `<span>📡 You are offline. ${n} saved book${n !== 1 ? "s are" : " is"} available. <a href="#/saved" class="banner-link" onclick="event.preventDefault(); loadSaved()">View saved</a></span>`
-            : `<span>📡 You are offline. Practice Quiz & cached materials are available.</span>`;
-    });
+    if (!banner || navigator.onLine) return;
+    banner.innerHTML = `<span>Offline</span>`;
 }
 
 window.addEventListener("online", refreshAllFileCards);
