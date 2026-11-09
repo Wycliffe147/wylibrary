@@ -75,8 +75,17 @@
 - **Detailed Solution Explanations:** Step-by-step reasoning for wrong answers in `quiz-data.json`.
 - **Streak & Performance Stats:** Simple offline statistics showing quiz accuracy and subjects practiced.
 
-### 10. Community & Distribution (Organic Growth)
-- **WhatsApp / Telegram Channel Link:** Header/footer link to a study group or channel for new document announcements.
+### 10. Community, Resource Crowdsourcing & Developer Showcase
+- **Wylibrary WhatsApp Community Group:**
+  - Dedicated group for users, students, and teachers to support the project.
+  - **Crowdsourcing Study Materials:** Let members submit exam papers, mock tests, syllabi, and textbooks for Wycliffe to index and add to the library.
+  - **Feedback & Support Channel:** Report broken files, report bugs, ask study questions, and propose new features.
+  - **Broader Community & Social Reach:** Connect the group with Wycliffe's personal Facebook presence/page to foster community engagement without managing fragmented separate brands.
+- **Developer Branding & Portfolio Showcase:**
+  - Showcase Wylibrary as a live demonstration of Wycliffe's full-stack & PWA development skills.
+  - Include an elegant, non-intrusive credit/footer link ("Crafted by Wycliffe") linking to:
+    - Personal Portfolio: [`WysPortfolio`](file:///home/wy/Projects/WysPortfolio)
+    - Digital solutions & services: [`digihelp-site`](file:///home/wy/Projects/digihelp-site)
 - **Direct PWA "Install App" Menu Item:** Permanent "Install App" button in the nav so visitors who dismissed can install anytime.
 - **PWA Share Target:** Allow sharing study materials with peers via Web Share API (`navigator.share`).
 
