@@ -1,6 +1,11 @@
 const APP_VERSION = 'v11.1';
 const app = document.getElementById("app");
 
+// Capture deep-link flag immediately — before the hash is replaced by navigation.
+// window.location.hash changes as soon as the app routes to the folder view, so we
+// must snapshot it here, at the very top of the script, before any routing runs.
+window.__arrivedViaFileDeepLink = window.location.hash.startsWith('#/file/');
+
 let currentCategory = null;
 let currentPath = "";
 let pendingHighlightId = null;   // set by deep links (#/file/<id>); consumed after the folder renders
@@ -1779,8 +1784,9 @@ async function shareFile(name, path) {
 let deferredPrompt;
 
 function showInstallModal() {
-    // Don't interrupt a deep-link arrival — the user came to see a specific file
-    if (window.location.hash.startsWith('#/file/')) return;
+    // Don't interrupt a deep-link arrival — the user came to see a specific file.
+    // Use the flag captured at script start; by now the hash may already be the folder URL.
+    if (window.__arrivedViaFileDeepLink) return;
     const installModal = document.getElementById('installModal');
     if (installModal) installModal.classList.remove('hidden');
 }
