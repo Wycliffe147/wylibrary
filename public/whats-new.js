@@ -12,7 +12,7 @@
         {
             rgb: '37,99,235',
             title: '📥 Save for Offline',
-            text: 'Save books, exams, and notes directly to your device and read them without using internet data.',
+            text: 'Save books, exams, and notes directly to the app and read them without using internet data.',
             art: '<div class="wn-real-card">' +
                  '<div class="wn-real-file-top"><span class="wn-real-icon">📄</span><span class="wn-real-title">Mathematics_Paper_1.pdf <span class="wn-real-size">(2.4 MB)</span></span></div>' +
                  '<div class="wn-real-actions">' +
