@@ -25,7 +25,7 @@
 
     /* Header & Home Cards */
     --header-bg:      linear-gradient(135deg, #1565c0, #1e88e5);
-    --card1-bg:       #1976d2;   /* was dodgerblue (3.2:1 with white); now ~4.6:1 */
+    --card1-bg:       dodgerblue;
     --card2-bg:       rgb(3, 54, 104);
     --card3-bg:       rgb(0, 81, 95);
     --card4-bg:       #004d40;

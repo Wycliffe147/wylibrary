@@ -8,7 +8,9 @@
     margin-right: 60%;
     border-radius: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    transition: transform 0.2s, box-shadow 0.2s, color 0.2s, background-color 0.2s;
+    /* Slow ease back to normal after a tap/hover ends, so the highlight
+       lingers long enough to actually be seen on a phone. */
+    transition: transform 0.5s ease, box-shadow 0.5s ease, color 0.9s ease, background-color 0.9s ease;
     color: white;
     font-size: 20px;
     text-decoration: none;
@@ -30,6 +32,7 @@
         transform: translateY(-5px);
         background-color: #e0e0ff;
         color: black;
+        transition-duration: 0.12s;
     }
 }
 
@@ -39,6 +42,7 @@
     transform: translateY(-5px);
     background-color: #e0e0ff;
     color: black;
+    transition-duration: 0.12s;
 }
 
 #card1 a:focus-visible, #card2 a:focus-visible, #card3 a:focus-visible, #card4 a:focus-visible {

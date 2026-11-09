@@ -52,13 +52,14 @@
     color: white;
     text-decoration: none;
     font-weight: 500;
-    transition: 0.2s ease;
+    transition: background-color 0.7s ease, color 0.7s ease;
 }
 
 @media (hover: hover) {
     .header nav a:hover {
         background-color: white;
         color: #1565c0;
+        transition-duration: 0.12s;
     }
 }
 
@@ -66,6 +67,7 @@
 .header nav a:active {
     background-color: white;
     color: #1565c0;
+    transition-duration: 0.12s;
 }
 
 /* Mobile adjustments (stacking / spacing) */
