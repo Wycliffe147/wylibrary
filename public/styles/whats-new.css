@@ -171,6 +171,38 @@ html.wn-lock, html.wn-lock body { overflow: hidden; }
 .wn-real-btn.share { background: #e2e8f0; color: #1e293b; }
 html.dark .wn-real-btn.share { background: #334155; color: #e2e8f0; }
 
+/* ── Card 2: Organized Saved Books (Checkboxes & Download Selected) ── */
+.wn-list { width: 78%; padding: 8px 10px; }
+.wn-row { display: flex; align-items: center; gap: 8px; padding: 4px 0; }
+.wn-cb {
+    flex: none;
+    width: 14px;
+    height: 14px;
+    border: 2px solid var(--wn-mock-line);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.wn-cb.on { background: #16a34a; border-color: #16a34a; position: relative; }
+.wn-cb.on::after {
+    content: "";
+    position: absolute;
+    left: 3px; top: 0;
+    width: 3px; height: 7px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+.wn-dl {
+    margin-top: 6px;
+    padding: 6px 0;
+    border-radius: 6px;
+    background: var(--wn-primary);
+    color: #fff;
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
 /* ── Card 3: Authentic Offline Status & Header ── */
 .wn-offline-scene {
     display: flex;
