@@ -419,7 +419,11 @@
 
         document.getElementById('back-btn').onclick = (e) => {
             e.preventDefault();
-            location.href = folderHash;
+            // Behave exactly like the phone's back button when we came from the library.
+            let fromLibrary = false;
+            try { fromLibrary = document.referrer && new URL(document.referrer).origin === location.origin; } catch (_) {}
+            if (fromLibrary && history.length > 1) history.back();
+            else location.href = folderHash;
         };
 
         const container = document.getElementById('viewer-container');

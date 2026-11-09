@@ -688,7 +688,7 @@ function renderFileCard(file, filePath, isDownloads, size) {
             <div class="file-actions">
                 ${isZip ? 
                     `<button class="open-zip-btn" data-file="${file}" data-path="${filePath}">View Contents</button>` : 
-                    `<a href="${openUrl}" target="_blank">Open</a>`
+                    `<a href="${openUrl}" class="open-link"${ext === "pdf" ? "" : ' target="_blank"'}>Open</a>`
                 }
                 <a href="/api/download?file=${encodeURIComponent(filePath)}&mode=download" download="${file}">Download</a>
                 <a href="#" onclick="event.preventDefault(); shareFile('${file.replace(/'/g, "\\'")}', '${filePath.replace(/'/g, "\\'")}')">Share</a>
@@ -714,7 +714,7 @@ function renderFileCard(file, filePath, isDownloads, size) {
     }
 
     // Track "Open" clicks (PDF viewer / Office viewer)
-    const openLink = card.querySelector('a[target="_blank"]');
+    const openLink = card.querySelector('a.open-link');
     if (openLink) {
         openLink.addEventListener('click', () => {
             trackEvent('file_open', {
@@ -788,7 +788,7 @@ function decorateFileCard(card, info) {
     };
     const dl = card.querySelector("a[download]");
     if (dl) dl.addEventListener("click", exportSaved);
-    const open = card.querySelector('a[target="_blank"]');
+    const open = card.querySelector('a.open-link');
     if (open && info.ext !== "pdf") open.addEventListener("click", exportSaved);
 
     WyOffline.ready().then(() => refreshFileCard(card));
@@ -804,7 +804,7 @@ function refreshFileCard(card) {
     card.classList.toggle("is-saved", !!doc);
 
     // Offline and not saved: Open/Download can't work, so say so up front.
-    card.querySelectorAll('.file-actions a[download], .file-actions a[target="_blank"]').forEach(a => {
+    card.querySelectorAll('.file-actions a[download], .file-actions a.open-link').forEach(a => {
         const block = !online && !doc;
         a.classList.toggle("is-disabled", block);
         a.setAttribute("aria-disabled", block ? "true" : "false");
@@ -938,8 +938,8 @@ function buildSavedCard(d) {
         ${badge}
         <div class="file-actions">
             ${ext === "pdf"
-                ? `<a href="${viewerUrl}" target="_blank">Open</a>`
-                : `<a href="#" class="saved-open" target="_blank">Open</a>`}
+                ? `<a href="${viewerUrl}" class="open-link">Open</a>`
+                : `<a href="#" class="saved-open open-link" target="_blank">Open</a>`}
             <a href="#" download class="saved-export">Download</a>
             <button type="button" class="btn-remove-saved">Remove</button>
         </div>
