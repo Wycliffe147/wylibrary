@@ -8,9 +8,7 @@
     margin-right: 60%;
     border-radius: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    /* Slow ease back to normal after a tap/hover ends, so the highlight
-       lingers long enough to actually be seen on a phone. */
-    transition: transform 0.5s ease, box-shadow 0.5s ease, color 0.9s ease, background-color 0.9s ease;
+    transition: transform 0.2s, box-shadow 0.2s, color 1s;
     color: white;
     font-size: 20px;
     text-decoration: none;
@@ -25,29 +23,10 @@
     margin: 5px;
 }
 
-/* Hover only on devices that really hover, so taps on phones don't leave
-   a card stuck in its highlighted state. */
-@media (hover: hover) {
-    #card1 a:hover, #card2 a:hover, #card3 a:hover, #card4 a:hover {
-        transform: translateY(-5px);
-        background-color: #e0e0ff;
-        color: black;
-        transition-duration: 0.12s;
-    }
-}
-
-/* Touch feedback: same highlight while a finger is pressing the card,
-   released as soon as the finger lifts (no sticky state). */
-#card1 a:active, #card2 a:active, #card3 a:active, #card4 a:active {
+#card1 a:hover, #card2 a:hover, #card3 a:hover, #card4 a:hover {
     transform: translateY(-5px);
     background-color: #e0e0ff;
     color: black;
-    transition-duration: 0.12s;
-}
-
-#card1 a:focus-visible, #card2 a:focus-visible, #card3 a:focus-visible, #card4 a:focus-visible {
-    outline: 3px solid #fff;
-    outline-offset: 3px;
 }
 
 .cover {

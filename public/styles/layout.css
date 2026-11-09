@@ -52,22 +52,12 @@
     color: white;
     text-decoration: none;
     font-weight: 500;
-    transition: background-color 0.7s ease, color 0.7s ease;
+    transition: 0.2s ease;
 }
 
-@media (hover: hover) {
-    .header nav a:hover {
-        background-color: white;
-        color: #1565c0;
-        transition-duration: 0.12s;
-    }
-}
-
-/* Touch feedback for the nav pills while pressed */
-.header nav a:active {
+.header nav a:hover {
     background-color: white;
     color: #1565c0;
-    transition-duration: 0.12s;
 }
 
 /* Mobile adjustments (stacking / spacing) */
