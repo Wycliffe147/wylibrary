@@ -1251,39 +1251,25 @@ function hideInstallModal() {
 // ─── Offline & Update Notification Architecture ──────────────────────────────
 
 function updateOnlineStatus() {
-    const badge = document.getElementById("connectionBadge");
-    if (!badge) return;
-
-    const text = badge.querySelector(".badge-text");
-
+    const banner = document.getElementById("offlineBanner");
+    if (!banner) return;
     if (!navigator.onLine) {
-        badge.className = "connection-badge offline";
-        badge.title = "Offline Mode — Practice Quiz & cached pages are available (tap for info)";
-        if (text) text.textContent = "Offline Mode";
+        banner.style.display = "flex";
+        banner.classList.remove("hidden", "back-online");
+        banner.innerHTML = '<span>📡 You are offline. Practice Quiz & cached materials are available.</span>';
     } else {
-        const wasOffline = badge.classList.contains("offline");
-        badge.className = "connection-badge online";
-        badge.title = "Connected to internet";
-
-        if (wasOffline) {
-            if (text) text.textContent = "Back Online";
+        if (banner.style.display === "flex" && !banner.classList.contains("hidden")) {
+            banner.classList.add("back-online");
+            banner.innerHTML = '<span>🟢 Back online!</span>';
             setTimeout(() => {
-                if (text && navigator.onLine) text.textContent = "Online";
+                banner.classList.add("hidden");
+                banner.style.display = "none";
             }, 3000);
         } else {
-            if (text) text.textContent = "Online";
+            banner.classList.add("hidden");
+            banner.style.display = "none";
         }
     }
-}
-
-function initConnectionBadge() {
-    const badge = document.getElementById("connectionBadge");
-    if (!badge) return;
-    badge.addEventListener("click", () => {
-        if (!navigator.onLine) {
-            showUpdateSuccessToast("📡 Offline Mode: Practice Quiz and cached pages work without internet.");
-        }
-    });
 }
 
 window.addEventListener("online", updateOnlineStatus);
@@ -1384,7 +1370,6 @@ function initServiceWorker() {
 
 window.addEventListener("DOMContentLoaded", () => {
     initServiceWorker();
-    initConnectionBadge();
     updateOnlineStatus();
     checkVersionHandshake();
 

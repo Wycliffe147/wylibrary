@@ -25,6 +25,7 @@ html.dark {
     --skeleton-file:  #1e2430;
     --badge-bg:       #1e3060;
     --badge-color:    #7eb3ff;
+    --bg-fallback:    #0a0d14;
 
     /* Dark Mode Header & Home Cards */
     --header-bg:      linear-gradient(135deg, #1a202c, #2d3748);
@@ -50,26 +51,14 @@ html.dark .header {
 }
 
 html.dark .file-card {
-    background: var(--bg-card);
     color: var(--text-primary);
 }
 
 html.dark .folder-card {
-    background: var(--bg-folder);
     color: var(--text-primary);
 }
 
-html.dark .folder-card:hover {
-    background: var(--bg-folder-hover);
-}
-
-html.dark .folder-count-badge {
-    background: var(--badge-bg);
-    color: var(--badge-color);
-}
-
 html.dark .breadcrumb-container {
-    background: var(--bg-breadcrumb);
     color: var(--text-primary);
 }
 
@@ -81,15 +70,8 @@ html.dark .breadcrumb:hover {
     color: #9ecfff;
 }
 
-html.dark .folder-file-count {
-    background: var(--bg-meta);
-    color: var(--text-secondary);
-}
-
 html.dark #searchInput {
-    background: var(--bg-input);
     color: var(--text-primary);
-    border-color: var(--border-input);
 }
 
 html.dark #searchInput:focus {
@@ -99,7 +81,6 @@ html.dark #searchInput:focus {
 
 html.dark .about-section,
 html.dark .contact-section {
-    background: var(--bg-about);
     color: var(--text-primary);
 }
 
@@ -113,7 +94,6 @@ html.dark .tech-stack {
 }
 
 html.dark h2 {
-    background: transparent;
     color: var(--text-primary);
 }
 
@@ -142,26 +122,7 @@ html.dark .dev-link:hover {
     color: #1a2030;
 }
 
-/* Dark: skeleton shimmer */
-@keyframes shimmer-dark {
-    0%   { background-color: #2a3040; }
-    50%  { background-color: #323848; }
-    100% { background-color: #2a3040; }
-}
-
-html.dark .skeleton-pulse {
-    animation: shimmer-dark 1.4s ease-in-out infinite;
-}
-
-html.dark .skeleton-line,
-html.dark .skeleton-cover,
-html.dark .skeleton-count {
-    background: #2a3040;
-}
-
-html.dark .skeleton-file-card {
-    background: #1e2430;
-}
+/* Dark: skeleton colours come from the --skeleton-* variables above */
 
 html.dark #downloadSelected {
     background: #1a3a6e;
@@ -213,18 +174,13 @@ html.dark .btn-secondary {
     color: #cbd5e1;
 }
 
-html.dark .file-actions a:not([download]) {
+html.dark .file-actions a:not([download]):not([target]) {
     background-color: #334155;
-    color: #f1f5f9 !important;
+    color: #f1f5f9;
 }
 
-html.dark .file-actions a:not([download]):hover {
+html.dark .file-actions a:not([download]):not([target]):hover {
     background-color: #475569;
-}
-
-html.dark .file-actions a:last-child {
-    background-color: #334155 !important;
-    color: #f1f5f9 !important;
 }
 
 html.dark .select-all-toggle {

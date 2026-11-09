@@ -90,6 +90,10 @@
 </head>
 <body>
 
+<div id="offlineBanner" class="offline-banner hidden" style="display: none;">
+    <span>📡 You are offline. Practice Quiz & cached materials are available.</span>
+</div>
+
 <div class="header">
     <div class="header-top">
         <img class="logo logo-light" src="https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/logo.png" alt="Logo"/>
@@ -103,13 +107,9 @@
         <a href="#" onclick="event.preventDefault(); loadAbout()">About</a>
         <a href="#" onclick="event.preventDefault(); loadRequest()">Contact</a>
         <a href="#" id="shareBtn" onclick="event.preventDefault(); shareSite()">Share Site</a>
-        <span id="connectionBadge" class="connection-badge online" title="Connected to internet">
-            <span class="badge-dot"></span>
-            <span class="badge-text">Online</span>
-        </span>
         <button id="darkModeToggle" aria-label="Toggle dark mode">☀️</button>
-    </nav>
-</div>
+        </nav>
+        </div>
 
         <!-- Installation Modal -->
         <div id="installModal" class="modal hidden">

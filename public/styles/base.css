@@ -21,10 +21,11 @@
     --badge-bg:       #c2d4f0;
     --badge-color:    #1a3a6e;
     --transition-speed: 0.25s;
+    --bg-fallback:    #1d5fa8;   /* shown while/if the background photo fails to load */
 
     /* Header & Home Cards */
     --header-bg:      linear-gradient(135deg, #1565c0, #1e88e5);
-    --card1-bg:       dodgerblue;
+    --card1-bg:       #1976d2;   /* was dodgerblue (3.2:1 with white); now ~4.6:1 */
     --card2-bg:       rgb(3, 54, 104);
     --card3-bg:       rgb(0, 81, 95);
     --card4-bg:       #004d40;
@@ -40,6 +41,7 @@
    repaint on scroll. */
 body {
     position: relative;
+    background-color: var(--bg-fallback);
 }
 
 body::before {

@@ -1,14 +1,19 @@
 /* Structural layout components: Header, Navigation pills, and Footer. */
 /* ─── Header Section ─── */
+/* Single merged definition (previously declared twice; the second copy
+   silently overrode padding/radius/alignment). Values below are the ones
+   that were actually being applied, so the look is unchanged. */
 .header {
     display: flex;
-    flex-direction: column;   /* stack content */
-    align-items: flex-start;
-    gap: 15px;                /* controlled spacing */
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
 
     background: var(--header-bg);
-    padding: 25px;
-    border-radius: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
     color: white;
 }
 
@@ -50,94 +55,20 @@
     transition: 0.2s ease;
 }
 
-.header nav a:hover {
-    background-color: white;
-    color: #1565c0;
-}
-
-/* ─── Connection Status Badge (Pamthunzi style) ─── */
-.connection-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    padding: 7px 14px;
-    border-radius: 25px;
-    font-size: 0.8rem;
-    font-weight: 600;
-    line-height: 1;
-    transition: all 0.3s ease;
-    cursor: default;
-    user-select: none;
-    box-sizing: border-box;
-}
-
-.connection-badge .badge-dot {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    display: inline-block;
-    flex-shrink: 0;
-}
-
-/* Online state */
-.connection-badge.online {
-    background-color: rgba(34, 197, 94, 0.22);
-    border: 1px solid rgba(74, 222, 128, 0.45);
-    color: #f0fdf4;
-}
-
-.connection-badge.online .badge-dot {
-    background-color: #22c55e;
-    box-shadow: 0 0 6px rgba(34, 197, 94, 0.7);
-}
-
-/* Offline state — stays visible with pulse the entire time offline */
-.connection-badge.offline {
-    background-color: rgba(245, 158, 11, 0.28);
-    border: 1px solid rgba(251, 191, 36, 0.65);
-    color: #fef3c7;
-    cursor: pointer;
-    animation: badge-pulse 2s infinite ease-in-out;
-}
-
-.connection-badge.offline .badge-dot {
-    background-color: #f59e0b;
-    box-shadow: 0 0 8px rgba(245, 158, 11, 0.9);
-}
-
-@keyframes badge-pulse {
-    0%, 100% {
-        opacity: 1;
-        transform: scale(1);
+@media (hover: hover) {
+    .header nav a:hover {
+        background-color: white;
+        color: #1565c0;
     }
-    50% {
-        opacity: 0.85;
-        transform: scale(0.97);
-    }
-}
-
-/* Alternative Header implementation from style.css legacy sections */
-.header {
-    display: flex;
-    flex-wrap: wrap; /* allow wrapping */
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(0,104,202); /* blue background */
-    padding: 10px 20px;
-    border-radius: 10px;
-    color: white;
 }
 
 /* Mobile adjustments (stacking / spacing) */
 @media (max-width: 720px) {
     .header {
-        flex-direction: column;
         align-items: flex-start;
     }
 
     .header nav {
-        display: flex;
-        flex-wrap: wrap;
         gap: 10px;
         width: 100%;
         margin-top: 5px;
@@ -281,7 +212,7 @@ html.dark #darkModeToggle {
     padding: 30px;
     max-width: 900px;
     margin: 40px auto;
-    background-color: rgba(255,255,255,0.9);
+    background-color: var(--bg-about);
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }

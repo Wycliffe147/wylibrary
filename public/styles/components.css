@@ -8,7 +8,7 @@
     margin-right: 60%;
     border-radius: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    transition: transform 0.2s, box-shadow 0.2s, color 1s;
+    transition: transform 0.2s, box-shadow 0.2s, color 0.2s, background-color 0.2s;
     color: white;
     font-size: 20px;
     text-decoration: none;
@@ -23,10 +23,19 @@
     margin: 5px;
 }
 
-#card1 a:hover, #card2 a:hover, #card3 a:hover, #card4 a:hover {
-    transform: translateY(-5px);
-    background-color: #e0e0ff;
-    color: black;
+/* Hover only on devices that really hover, so taps on phones don't leave
+   a card stuck in its highlighted state. */
+@media (hover: hover) {
+    #card1 a:hover, #card2 a:hover, #card3 a:hover, #card4 a:hover {
+        transform: translateY(-5px);
+        background-color: #e0e0ff;
+        color: black;
+    }
+}
+
+#card1 a:focus-visible, #card2 a:focus-visible, #card3 a:focus-visible, #card4 a:focus-visible {
+    outline: 3px solid #fff;
+    outline-offset: 3px;
 }
 
 .cover {
@@ -36,55 +45,13 @@
     width: auto;
 }
 
-h2 {
-    background-color: rgb(255, 255, 255);
-}
-
-.subject a{
-    margin: 20px;
-    margin-right: 800px;
-    background-color: aquamarine;
+/* Practice page heading: a theme-aware chip so it stays readable over the
+   background photo (replaces the old global white h2 bar). */
+#quiz-header h2 {
+    display: inline-block;
+    padding: 6px 14px;
     border-radius: 10px;
-    font-size: 20px;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    transition: transform 0.2s, box-shadow 0.2s, color 1s;
-    text-decoration: none;
-}
-
-.sciences { background-color: rgb(226, 29, 95); }
-
-.cardsub a {
-    background-color: rgb(0, 81, 95);
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 800px;
-    border-radius: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    transition: transform 0.2s, box-shadow 0.2s, color 1s;
-    color: white;
-    font-size: 20px;
-    text-decoration: none;   
-}
-
-.agr a {
-    background-color: rgb(0, 81, 95);
-    margin-top: 220px;
-    margin-bottom: 20px;
-    margin-right: 800px;
-    border-radius: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    transition: transform 0.2s, box-shadow 0.2s, color 1s;
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
-    padding: 20px; 
-}
-
-.agr a:hover {
-    transform: translateY(-5px);
-    background-color: #e0e0ff;
-    color: black;
+    background-color: var(--bg-about);
 }
 
 @media (max-width: 720px) {    
@@ -104,7 +71,8 @@ h2 {
     max-width: 400px;
     padding: 6px 10px;
     font-size: 14px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--border-input);
+    background: var(--bg-input);
     border-radius: 5px;
     outline: none;
     transition: 0.2s;
@@ -164,7 +132,7 @@ h2 {
 }
 
 .folder-card {
-    background: #e8f0fe;
+    background: var(--bg-folder);
     padding: 10px;
     border-radius: 6px;
     cursor: pointer;
@@ -177,11 +145,11 @@ h2 {
 }
 
 .folder-card:hover {
-    background: #cce0ff;
+    background: var(--bg-folder-hover);
 }
 
 .file-card {
-    background: #f5f5f5;
+    background: var(--bg-card);
     padding: 8px;
     border-radius: 5px;
     margin: 5px;
@@ -216,7 +184,7 @@ h2 {
 .file-count {
     font-size: 0.78rem;
     font-weight: 600;
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(0, 0, 0, 0.28);   /* dark pill => white text reads clearly on every card colour */
     color: white;
     padding: 2px 10px;
     border-radius: 20px;
@@ -227,8 +195,8 @@ h2 {
 
 .folder-count-badge {
     font-size: 0.75rem;
-    background-color: #c2d4f0;
-    color: #1a3a6e;
+    background-color: var(--badge-bg);
+    color: var(--badge-color);
     padding: 2px 8px;
     border-radius: 12px;
     white-space: nowrap;
@@ -241,17 +209,17 @@ h2 {
 
 .folder-file-count {
     font-size: 0.82rem;
-    color: #555;
-    background-color: rgba(255,255,255,0.75);
+    color: var(--text-secondary);
+    background-color: var(--bg-meta);
     padding: 3px 10px;
     border-radius: 10px;
 }
 
 /* ─── Skeletons & Shimmer ─── */
 @keyframes shimmer {
-    0%   { background-color: #e0e0e0; }
-    50%  { background-color: #ececec; }
-    100% { background-color: #e0e0e0; }
+    0%   { background-color: var(--skeleton-a); }
+    50%  { background-color: var(--skeleton-b); }
+    100% { background-color: var(--skeleton-a); }
 }
 
 .skeleton-pulse {
@@ -259,7 +227,7 @@ h2 {
 }
 
 .skeleton-line {
-    background: #d6d6d6;
+    background: var(--skeleton-base);
     border-radius: 4px;
     display: block;
 }
@@ -273,7 +241,7 @@ h2 {
     width: 100%;
     aspect-ratio: 4 / 3;
     border-radius: 6px;
-    background: #d6d6d6;
+    background: var(--skeleton-base);
     margin-bottom: 10px;
 }
 
@@ -282,12 +250,12 @@ h2 {
     width: 60px;
     height: 12px;
     border-radius: 4px;
-    background: #d6d6d6;
+    background: var(--skeleton-base);
     vertical-align: middle;
 }
 
 .skeleton-file-card {
-    background: #f0f0f0;
+    background: var(--skeleton-file);
     border-radius: 8px;
     padding: 16px;
     display: flex;
@@ -319,39 +287,33 @@ h2 {
     justify-content: center;
 }
 
-.file-actions a[download],
-.file-actions .open-zip-btn {
-    background-color: #007BFF;
-    color: white !important;
+/* Share (default / neutral) */
+.file-actions a {
+    background-color: #e2e8f0;
+    color: #1e293b;
+}
+.file-actions a:hover {
+    background-color: #cbd5e1;
 }
 
+/* Open (links that open in a new tab) — green, darkened for contrast */
+.file-actions a[target="_blank"] {
+    background-color: #2e7d32;
+    color: #fff;
+}
+.file-actions a[target="_blank"]:hover {
+    background-color: #1b5e20;
+}
+
+/* Download / View Contents — primary blue */
+.file-actions a[download],
+.file-actions .open-zip-btn {
+    background-color: #0069d9;
+    color: #fff;
+}
 .file-actions a[download]:hover,
 .file-actions .open-zip-btn:hover {
     background-color: #0056b3;
     transform: translateY(-1px);
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-
-.file-actions a:not([download]) {
-    background-color: #e2e8f0;
-    color: #1e293b !important;
-}
-
-.file-actions a:not([download]):hover {
-    background-color: #cbd5e1;
-}
-
-/* Specific Colors */
-.file-actions a:not([download]):not(:last-child) {
-    background-color: #4CAF50 !important;
-    color: white !important;
-}
-
-.file-actions a:not([download]):not(:last-child):hover {
-    background-color: #3e8e41;
-}
-
-.file-actions a:last-child {
-    background-color: #e2e8f0 !important;
-    color: #1e293b !important;
 }
