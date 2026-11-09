@@ -1,4 +1,4 @@
-const APP_VERSION = 'v11.0';
+const APP_VERSION = 'v11.1';
 const app = document.getElementById("app");
 
 let currentCategory = null;
@@ -903,10 +903,15 @@ async function _renderSaved() {
         <div class="search-container">
             <input type="text" id="searchInput" placeholder="Search saved books..." />
         </div>
+        <div class="folder-actions-bar">
+            <button id="downloadSelected">Download Selected</button>
+            <span id="selectAllToggle" class="select-all-toggle">Select All</span>
+        </div>
         <div class="grid" id="savedList"></div>
     `;
     if (offlineAvailable()) await WyOffline.ready();
     renderSavedList();
+    initSavedSelection();
 
     const searchInput = document.getElementById("searchInput");
     searchInput.addEventListener("input", () => renderSavedList());
@@ -1007,14 +1012,79 @@ function renderSavedList() {
             card.className = "folder-card";
             card.innerHTML = `
                 <div class="folder-top">
+                    <input type="checkbox" class="folder-checkbox">
                     <span class="folder-name">📁 ${escapeHtmlText(name)}</span>
                 </div>
                 <span class="folder-count-badge">${n} file${n !== 1 ? "s" : ""}</span>
             `;
+            const folderCb = card.querySelector(".folder-checkbox");
+            folderCb.dataset.path = savedPath ? `${savedPath}/${name}` : name;
+            folderCb.addEventListener("click", e => e.stopPropagation());   // don't open the folder
             card.addEventListener("click", () => loadSaved(true, savedPath ? `${savedPath}/${name}` : name));
             list.appendChild(card);
         });
     files.forEach(d => list.appendChild(buildSavedCard(d)));
+    updateSavedSelectToggle();
+}
+
+// ─── Saved Books: multi-select (checkboxes on files and folders) ─────────────
+
+function updateSavedSelectToggle() {
+    const toggle = document.getElementById("selectAllToggle");
+    if (!toggle) return;
+    const boxes = document.querySelectorAll("#savedList .file-checkbox, #savedList .folder-checkbox");
+    const allChecked = boxes.length > 0 && Array.from(boxes).every(cb => cb.checked);
+    toggle.textContent = allChecked ? "Deselect All" : "Select All";
+}
+
+function initSavedSelection() {
+    const list = document.getElementById("savedList");
+    const toggle = document.getElementById("selectAllToggle");
+    const btn = document.getElementById("downloadSelected");
+    if (!list || !toggle || !btn) return;
+
+    list.addEventListener("change", e => {
+        if (e.target.classList.contains("file-checkbox") || e.target.classList.contains("folder-checkbox")) {
+            updateSavedSelectToggle();
+        }
+    });
+
+    toggle.addEventListener("click", () => {
+        const boxes = list.querySelectorAll(".file-checkbox, .folder-checkbox");
+        const allChecked = Array.from(boxes).every(cb => cb.checked);
+        boxes.forEach(cb => { cb.checked = !allChecked; });
+        updateSavedSelectToggle();
+    });
+
+    btn.addEventListener("click", () => {
+        const docs = offlineAvailable() ? WyOffline.list() : [];
+        const dirOf = d => normalizePath(d.path).split("/").filter(Boolean).slice(0, -1).join("/");
+
+        const picked = new Map();   // id -> doc (dedupes a file picked directly and via its folder)
+        list.querySelectorAll(".file-checkbox:checked").forEach(cb => {
+            const d = docs.find(x => x.id === cb.dataset.id);
+            if (d) picked.set(d.id, d);
+        });
+        list.querySelectorAll(".folder-checkbox:checked").forEach(cb => {
+            const prefix = cb.dataset.path;
+            docs.forEach(d => {
+                const dir = dirOf(d);
+                if (dir === prefix || dir.startsWith(prefix + "/")) picked.set(d.id, d);
+            });
+        });
+
+        if (!picked.size) return alert("No items selected");
+        const items = Array.from(picked.values());
+        const total = items.reduce((sum, d) => sum + (d.bytes || d.size || 0), 0);
+        if (!confirm(`Download ${items.length} saved file${items.length !== 1 ? "s" : ""} (${formatBytes(total)})?`)) return;
+
+        trackEvent('batch_download', { file_count: items.length, folder: "Saved books" });
+        items.forEach((d, i) => {
+            setTimeout(() => {
+                WyOffline.exportFile(d.id, d.name).catch(err => showToast("⚠️ " + err.message));
+            }, i * 800);
+        });
+    });
 }
 
 function buildSavedCard(d) {
@@ -1032,7 +1102,7 @@ function buildSavedCard(d) {
     const card = document.createElement("div");
     card.className = "file-card is-saved";
     card.innerHTML = `
-        <div class="file-top"><span>${icon} ${escapeHtmlText(cleanName)} <span class="file-size" style="font-size:0.8em;opacity:0.7;margin-left:5px;">(${formatBytes(d.bytes || d.size)})</span></span></div>
+        <div class="file-top"><input type="checkbox" class="file-checkbox"><span>${icon} ${escapeHtmlText(cleanName)} <span class="file-size" style="font-size:0.8em;opacity:0.7;margin-left:5px;">(${formatBytes(d.bytes || d.size)})</span></span></div>
         <div class="saved-folder">📁 ${escapeHtmlText(folder || "Library")}</div>
         ${badge}
         <div class="file-actions">
@@ -1044,6 +1114,9 @@ function buildSavedCard(d) {
         </div>
     `;
 
+    const fileCb = card.querySelector(".file-checkbox");
+    fileCb.dataset.id = d.id;
+    fileCb.dataset.name = d.name;
     const doExport = (e) => {
         e.preventDefault();
         WyOffline.exportFile(d.id, d.name).catch(err => showToast("⚠️ " + err.message));
