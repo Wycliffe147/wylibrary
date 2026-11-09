@@ -1,7 +1,7 @@
 // Wylibrary Service Worker — v10.0
 // Network-First with Cache Fallback for seamless online updates & full offline resilience
 
-const CACHE_NAME = 'wylibrary-v28-20261109';
+const CACHE_NAME = 'wylibrary-v29-20261109';
 
 // Books the reader chose to keep. Managed by offline-store.js and NEVER deleted
 // when the app updates (see the activate handler below).
@@ -39,6 +39,8 @@ const CORE_ASSETS = [
   '/styles/dark-mode.css',
   '/styles/splash.css',
   '/splash.js',
+  '/styles/whats-new.css',
+  '/whats-new.js',
   '/manifest.json'
 ];
 

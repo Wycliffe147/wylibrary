@@ -18,6 +18,10 @@
   Cache-Control: no-cache, no-store, must-revalidate
   CDN-Cache-Control: no-cache, no-store, must-revalidate
 
+/whats-new.js
+  Cache-Control: no-cache, no-store, must-revalidate
+  CDN-Cache-Control: no-cache, no-store, must-revalidate
+
 /manifest.json
   Cache-Control: no-cache, no-store, must-revalidate
 

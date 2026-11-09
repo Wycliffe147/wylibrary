@@ -397,6 +397,7 @@ function _renderAbout() {
                         because documents have to be sent every time someone new wants them."
                     </p>
                 </div>
+                <p><button type="button" class="wn-link wn-link-about" data-wn-open>What’s new in ${APP_VERSION}</button></p>
                 <div class="tech-stack">
                     <p><strong>Technologies:</strong> HTML5, CSS3, Modern JavaScript (ES6+), Node.js, Vercel Serverless Functions, GitHub API (for automation).</p>
                     <p><strong>Features:</strong> Single Page Application (SPA) navigation, real-time search, dark mode theme, ZIP file content preview, dynamic library statistics, automated "Last Updated" tracking, and a fully responsive mobile-first layout.</p>

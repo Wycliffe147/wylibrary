@@ -1,0 +1,308 @@
+/* "What's new" guide (v11.1). Bottom sheet on phones, centred card on wider screens.
+   Dark mode is handled at the bottom via html.dark, same switch as the rest of the app. */
+
+html.wn-lock, html.wn-lock body { overflow: hidden; }
+
+.wn-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 12000;               /* above the floating nav (11000) and install modal (10000) */
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 16px;
+    padding-bottom: max(16px, env(safe-area-inset-bottom));
+    background: rgba(8, 12, 24, 0.62);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+.wn-overlay.wn-show { opacity: 1; }
+
+.wn-card {
+    --wn-bg: #ffffff;
+    --wn-text: #1b2333;
+    --wn-muted: #566075;
+    --wn-line: #e3e8f1;
+    --wn-ghost: #eef2f9;
+    --wn-mock: #ffffff;
+    --wn-mock-line: #d9e0ee;
+    --wn-primary: #2563eb;
+
+    width: 100%;
+    max-width: 400px;
+    max-height: calc(100vh - 32px);
+    max-height: calc(100dvh - 32px);
+    display: flex;
+    flex-direction: column;
+    background: var(--wn-bg);
+    color: var(--wn-text);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+    transform: translateY(24px);
+    transition: transform 0.25s ease;
+}
+.wn-overlay.wn-show .wn-card { transform: none; }
+
+@media (min-width: 480px) {
+    .wn-overlay { align-items: center; }
+}
+
+/* ── Header ── */
+.wn-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 14px 8px 12px 20px;
+    border-bottom: 1px solid var(--wn-line);
+}
+.wn-head h2 {
+    margin: 0;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: inherit;
+}
+.wn-close {
+    flex: none;
+    width: 44px;
+    height: 44px;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    color: var(--wn-muted);
+    font-size: 1.25rem;
+    line-height: 1;
+    cursor: pointer;
+}
+.wn-close:hover { background: var(--wn-ghost); }
+
+/* ── Slides ── */
+.wn-view {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow: hidden auto;
+    touch-action: pan-y;
+}
+.wn-track {
+    display: flex;
+    transition: transform 0.3s ease;
+}
+.wn-slide {
+    flex: 0 0 100%;
+    min-width: 0;
+    padding: 18px 20px 6px;
+    box-sizing: border-box;
+}
+.wn-art {
+    height: 132px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    background: rgba(var(--rgb), 0.13);
+    overflow: hidden;
+}
+.wn-slide h3 {
+    margin: 16px 0 6px;
+    font-size: 1.2rem;
+    line-height: 1.25;
+    color: inherit;
+}
+.wn-slide p {
+    margin: 0;
+    font-size: 0.96rem;
+    line-height: 1.55;
+    color: var(--wn-muted);
+}
+
+/* ── Mini mock-ups inside the art area ── */
+.wn-mock {
+    background: var(--wn-mock);
+    border: 1px solid var(--wn-mock-line);
+    border-radius: 10px;
+    font-size: 0.8rem;
+    color: var(--wn-text);
+}
+.wn-file {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 12px;
+    max-width: 92%;
+}
+.wn-pdf {
+    flex: none;
+    padding: 3px 6px;
+    border-radius: 5px;
+    background: #ef4444;
+    color: #fff;
+    font-size: 0.68rem;
+    font-weight: 700;
+}
+.wn-file-name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.wn-chip {
+    flex: none;
+    padding: 3px 8px;
+    border-radius: 999px;
+    background: #16a34a;
+    color: #fff;
+    font-size: 0.72rem;
+    font-weight: 600;
+}
+.wn-list { width: 78%; padding: 8px 10px; }
+.wn-row { display: flex; align-items: center; gap: 8px; padding: 4px 0; }
+.wn-cb {
+    flex: none;
+    width: 14px;
+    height: 14px;
+    border: 2px solid var(--wn-mock-line);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.wn-cb.on { background: #16a34a; border-color: #16a34a; position: relative; }
+.wn-cb.on::after {
+    content: "";
+    position: absolute;
+    left: 3px; top: 0;
+    width: 3px; height: 7px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+.wn-dl {
+    margin-top: 6px;
+    padding: 6px 0;
+    border-radius: 6px;
+    background: var(--wn-primary);
+    color: #fff;
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+.wn-logo {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+    background: #2563eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7rem;
+}
+.wn-pin {
+    position: absolute;
+    right: -8px;
+    bottom: -8px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #f59e0b;
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+}
+.wn-shelf { display: flex; flex-direction: column; align-items: center; }
+.wn-books { display: flex; align-items: flex-end; gap: 4px; }
+.wn-books i {
+    display: block;
+    width: 16px;
+    border-radius: 3px 3px 1px 1px;
+    background: var(--c);
+    height: var(--h);
+}
+.wn-plank { width: 150px; height: 6px; margin-top: 1px; border-radius: 3px; background: #8b5e34; }
+
+/* ── Footer: Back / book-spine progress / Next ── */
+.wn-foot {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 16px 16px;
+}
+.wn-btn {
+    min-width: 76px;
+    min-height: 44px;
+    padding: 0 18px;
+    border: 0;
+    border-radius: 12px;
+    font: inherit;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.wn-back { justify-self: start; background: var(--wn-ghost); color: var(--wn-text); }
+.wn-next { justify-self: end; background: var(--wn-primary); color: #fff; }
+.wn-back.wn-off { visibility: hidden; }
+
+.wn-spines { display: flex; align-items: flex-end; height: 30px; }
+.wn-spine {
+    width: 20px;
+    height: var(--h);
+    padding: 0 4px;
+    border: 0;
+    background: rgba(var(--rgb), 0.4);
+    background-clip: content-box;
+    cursor: pointer;
+    transition: height 0.2s ease, background-color 0.2s ease;
+}
+.wn-spine:nth-child(1) { --h: 18px; }
+.wn-spine:nth-child(2) { --h: 22px; }
+.wn-spine:nth-child(3) { --h: 16px; }
+.wn-spine:nth-child(4) { --h: 20px; }
+.wn-spine[aria-current="true"] { --h: 28px; background-color: rgb(var(--rgb)); }
+
+.wn-btn:focus-visible, .wn-close:focus-visible, .wn-spine:focus-visible, .wn-link:focus-visible {
+    outline: 3px solid #f59e0b;
+    outline-offset: 2px;
+}
+
+/* ── Re-open links (footer + About) ── */
+.wn-link {
+    padding: 8px 4px;
+    border: 0;
+    background: none;
+    color: inherit;
+    font: inherit;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    cursor: pointer;
+}
+.wn-link-about { color: #1565c0; }
+
+/* ── Dark mode ── */
+html.dark .wn-overlay { background: rgba(0, 0, 0, 0.75); }
+html.dark .wn-card {
+    --wn-bg: #1e2430;
+    --wn-text: #e8eaf0;
+    --wn-muted: #9aa3b8;
+    --wn-line: #3a4560;
+    --wn-ghost: #2a3142;
+    --wn-mock: #262d3d;
+    --wn-mock-line: #3a4560;
+    --wn-primary: #3b82f6;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6);
+}
+html.dark .wn-art { background: rgba(var(--rgb), 0.2); }
+html.dark .wn-pin { border-color: #1e2430; }
+html.dark .wn-link-about { color: #7eb3ff; }
+
+/* ── Small phones (360px) ── */
+@media (max-width: 380px) {
+    .wn-slide { padding: 16px 16px 4px; }
+    .wn-art { height: 120px; }
+    .wn-foot { padding: 10px 12px 14px; }
+    .wn-btn { min-width: 68px; padding: 0 14px; }
+}
+@media (max-height: 520px) {
+    .wn-art { height: 84px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .wn-overlay, .wn-card, .wn-track, .wn-spine { transition: none; }
+}
