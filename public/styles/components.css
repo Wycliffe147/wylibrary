@@ -275,25 +275,18 @@ h2 {
     justify-content: center;
 }
 
-/* Share (default / neutral) */
-.file-actions a {
-    background-color: #e2e8f0;
-    color: #1e293b;
-}
-.file-actions a:hover {
-    background-color: #cbd5e1;
-}
-
-/* Open (links that open in a new tab) — green, darkened for contrast */
+/* Open button (PDFs, docs, office) — consistent forest green */
+.file-actions a.open-link,
 .file-actions a[target="_blank"] {
     background-color: #2e7d32;
     color: #fff;
 }
+.file-actions a.open-link:hover,
 .file-actions a[target="_blank"]:hover {
     background-color: #1b5e20;
 }
 
-/* Download / View Contents — primary blue */
+/* Download / View Contents — primary cobalt blue */
 .file-actions a[download],
 .file-actions .open-zip-btn {
     background-color: #0069d9;
@@ -304,6 +297,17 @@ h2 {
     background-color: #0056b3;
     transform: translateY(-1px);
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Share — vibrant sky/cyan blue, distinct from Download's dark cobalt */
+.file-actions a.share-link,
+.file-actions a[onclick*="shareFile"] {
+    background-color: #0284c7;
+    color: #fff;
+}
+.file-actions a.share-link:hover,
+.file-actions a[onclick*="shareFile"]:hover {
+    background-color: #0369a1;
 }
 
 /* ─── Save for offline ─── */

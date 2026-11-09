@@ -168,8 +168,8 @@ html.wn-lock, html.wn-lock body { overflow: hidden; }
 .wn-real-btn.open { background: #2e7d32; color: #fff; }
 .wn-real-btn.download { background: #0069d9; color: #fff; }
 .wn-real-btn.saved { background: #00695c; color: #fff; }
-.wn-real-btn.share { background: #e2e8f0; color: #1e293b; }
-html.dark .wn-real-btn.share { background: #334155; color: #e2e8f0; }
+.wn-real-btn.share { background: #0284c7; color: #fff; }
+html.dark .wn-real-btn.share { background: #0284c7; color: #fff; }
 
 /* ── Card 2: Organized Saved Books (Checkboxes & Download Selected) ── */
 .wn-list { width: 78%; padding: 8px 10px; }

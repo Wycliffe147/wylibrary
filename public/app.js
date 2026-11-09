@@ -678,7 +678,7 @@ function renderFileCard(file, filePath, isDownloads, size) {
             <div class="file-actions">
                 ${isZip ? `<button class="open-zip-btn" data-file="${file}" data-path="${filePath}">View Contents</button>` : ""}
                 <a href="/api/download?file=${encodeURIComponent(filePath)}&mode=download" download="${file}">Download</a>
-                <a href="#" onclick="event.preventDefault(); shareFile('${file.replace(/'/g, "\\'")}', '${filePath.replace(/'/g, "\\'")}')">Share</a>
+                <a href="#" class="share-link" onclick="event.preventDefault(); shareFile('${file.replace(/'/g, "\\'")}', '${filePath.replace(/'/g, "\\'")}')">Share</a>
             </div>
         `;
     } else {
@@ -693,7 +693,7 @@ function renderFileCard(file, filePath, isDownloads, size) {
                     `<a href="${openUrl}" class="open-link"${ext === "pdf" ? "" : ' target="_blank"'}>Open</a>`
                 }
                 <a href="/api/download?file=${encodeURIComponent(filePath)}&mode=download" download="${file}">Download</a>
-                <a href="#" onclick="event.preventDefault(); shareFile('${file.replace(/'/g, "\\'")}', '${filePath.replace(/'/g, "\\'")}')">Share</a>
+                <a href="#" class="share-link" onclick="event.preventDefault(); shareFile('${file.replace(/'/g, "\\'")}', '${filePath.replace(/'/g, "\\'")}')">Share</a>
             </div>
         `;
     }
