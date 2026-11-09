@@ -127,13 +127,31 @@
 
     function resolveSource(entry) {
         var ext = (entry.name || entry.path || '').split('.').pop().toLowerCase();
-        var fallback = '/api/download?file=' + encodeURIComponent(entry.path);
-        if (ext !== 'pdf') return Promise.resolve(fallback);
+        // Same-origin proxy: streams the file through Pages, so it never needs R2 CORS headers.
+        var fallback = '/api/download?file=' + encodeURIComponent(entry.path) + '&mode=download';
+        if (ext !== 'pdf') return Promise.resolve([fallback]);
         // PDFs: use the direct storage URL, the same one the PDF viewer uses.
         return fetch('/api/pdf-url?file=' + encodeURIComponent(entry.path))
             .then(function (r) { return r.ok ? r.json() : null; })
-            .then(function (d) { return (d && d.url) ? d.url : fallback; })
-            .catch(function () { return fallback; });
+            .then(function (d) { return (d && d.url) ? [d.url, fallback] : [fallback]; })
+            .catch(function () { return [fallback]; });
+    }
+
+    // Try each source in order. A direct storage URL can fail with a bare
+    // "Failed to fetch" (missing CORS header, stale CDN copy); the same-origin
+    // proxy is the safety net.
+    function fetchFirstWorking(urls) {
+        var lastErr = null;
+        return urls.reduce(function (chain, url) {
+            return chain.catch(function () {
+                return fetch(url).then(function (res) {
+                    if (!res.ok) throw new Error('Could not download the file (' + res.status + ').');
+                    return res;
+                });
+            });
+        }, Promise.reject(null)).catch(function (err) {
+            throw err || new Error('Could not download the file.');
+        });
     }
 
     function guessType(name) {
@@ -180,10 +198,9 @@
             })
             .then(function (r) {
                 cache = r[0];
-                return fetch(r[1]);
+                return fetchFirstWorking(r[1]);
             })
             .then(function (res) {
-                if (!res.ok) throw new Error('Could not download the file (' + res.status + ').');
                 var lenHeader = Number(res.headers.get('Content-Length')) || 0;
                 var encoded = !!res.headers.get('Content-Encoding');
                 var total = lenHeader || entry.size || 0;
