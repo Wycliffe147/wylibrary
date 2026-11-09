@@ -388,3 +388,33 @@ h2 {
     font-weight: 700;
     text-decoration: underline;
 }
+
+
+/* ─── Saved books: directory tree ─── */
+.saved-dir-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 6px;
+    margin: 2px 5px;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 6px;
+    user-select: none;
+}
+.saved-dir-row:hover { background: var(--bg-folder-hover); }
+.saved-dir-row:focus-visible { outline: 2px solid #0073e6; }
+.saved-dir-name { flex: 1; overflow-wrap: anywhere; }
+.saved-dir-arrow {
+    display: inline-block;
+    width: 1em;
+    transition: transform 0.15s ease;
+}
+.saved-dir.open > .saved-dir-row .saved-dir-arrow { transform: rotate(90deg); }
+.saved-dir-body {
+    display: none;
+    margin-left: 12px;
+    padding-left: 8px;
+    border-left: 1px solid var(--border-input);
+}
+.saved-dir.open > .saved-dir-body { display: block; }

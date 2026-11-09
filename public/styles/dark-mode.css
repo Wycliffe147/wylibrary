@@ -241,3 +241,5 @@ html.dark .file-actions .btn-remove-saved:hover {
 
 html.dark .saved-badge.warn { background-color: #4a1d1d; color: #fca5a5; }
 html.dark .saved-badge.info { background-color: #4a3410; color: #fcd34d; }
+
+html.dark .saved-dir-row { color: var(--text-primary); }
