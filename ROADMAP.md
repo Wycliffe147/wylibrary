@@ -50,6 +50,7 @@
 5. **Batch Multi-Select & Share / Download Function**
    - Allow selecting multiple files (checkboxes / multi-select mode).
    - Share multiple selected document links or files simultaneously via Web Share API / WhatsApp.
+   - **Save Selected Folder(s) Offline:** Allow selecting folder checkboxes in the main library to batch-save all files within a folder to offline storage with 1 tap (including total download size preview & confirmation).
    - **Remove Selected** (saved books page): add a "Remove Selected" button next to "Download Selected" for bulk-deleting saved books. Suggested by Claude alongside the checkboxes feature (Nov 2026).
    - **Multi-Download Fallback (Client-side ZIP):** Many mobile browsers block multiple simultaneous file downloads. Detect this restriction or provide an option to package selected files into a single `.zip` file client-side (using JSZip) for 1-click batch download.
 
