@@ -91,9 +91,10 @@
     -H "Authorization: Bearer <TOKEN_WITH_RUM_WRITE>"
   ```
 
-### 13. Multi-Language Support (Chichewa & English)
-- **Language Selector:** Switch UI between English and Chichewa (Chichewa translation for nav, buttons, offline notices, search hints, and study guides).
-- Save user preference in `localStorage`.
+### 13. Multi-Language Support (Localization & Inclusion)
+- **Language Selector:** Multi-language UI prioritizing **Chichewa** alongside English (addressing the common gap where local languages are overlooked by educational platforms), designed modularly so additional regional languages can be easily added.
+- Localize navigation, buttons, offline alerts, search hints, and study guides.
+- Save user language preference in `localStorage`.
 
 ### 14. AI Assistant for Site Help & Navigation
 - **In-App AI Guide:** A lightweight assistant to help students find study materials, past papers, syllabus contents, and explain how to use library features (offline saving, search, practice quizzes).
