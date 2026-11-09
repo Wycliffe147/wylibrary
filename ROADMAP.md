@@ -37,6 +37,10 @@
    - Re-organize misclassified files into correct subject/level directories.
    - Fix missing, truncated, or misleading document filenames in `files-index.json`.
 
+5. **Batch Multi-Select & Share Function**
+   - Allow selecting multiple files (checkboxes / multi-select mode).
+   - Share multiple selected document links or files simultaneously via Web Share API / WhatsApp.
+
 ---
 
 ## 🔧 PWA & Cache Architecture (Planned Improvements)
