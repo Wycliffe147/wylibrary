@@ -80,6 +80,13 @@
     }
     </script>
 
+    <script>
+      // Splash: skip if already shown this session; apply saved dark mode before first paint.
+      try {
+        if (sessionStorage.getItem('wy_splash')) document.documentElement.classList.add('no-splash');
+        if (localStorage.getItem('darkMode') === 'true') document.documentElement.classList.add('dark');
+      } catch (e) {}
+    </script>
     <link rel="stylesheet" href="/styles/base.css">
     <link rel="stylesheet" href="/styles/layout.css">
     <link rel="stylesheet" href="/styles/components.css">
@@ -87,8 +94,19 @@
     <link rel="stylesheet" href="/styles/modals.css">
     <link rel="stylesheet" href="/styles/practice.css">
     <link rel="stylesheet" href="/styles/dark-mode.css">
+    <link rel="stylesheet" href="/styles/splash.css?v=1">
 </head>
 <body>
+
+<div id="splash" role="presentation" aria-hidden="true">
+    <div class="sp-logo">
+        <img class="logo-light" src="https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/logo.png" alt="" onerror="this.style.display='none'"/>
+        <img class="logo-dark" src="https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/logo-dark.png" alt="" onerror="this.style.display='none'"/>
+    </div>
+    <div class="sp-wrap"><div class="sp-books"><span class="sp-spine" style="--i:0;--c:#2563eb;--k:0.55"></span><span class="sp-spine" style="--i:1;--c:#16a34a;--k:0.7"></span><span class="sp-spine" style="--i:2;--c:#f59e0b;--k:0.5"></span><span class="sp-spine" style="--i:3;--c:#9333ea;--k:0.65"></span><span class="sp-spine" style="--i:4;--c:#2563eb;--k:0.6"></span><span class="sp-spine" style="--i:5;--c:#ef4444;--k:0.75"></span><span class="sp-spine" style="--i:6;--c:#16a34a;--k:0.5"></span><span class="sp-spine lean" style="--i:7;--c:#f59e0b;--k:0.62"></span></div><div class="sp-plank"></div></div>
+    <p class="sp-title">Wycliffe’s e-library</p>
+    <p class="sp-status" id="splashStatus"></p>
+</div>
 
 <div id="offlineBanner" class="offline-banner hidden" style="display: none;">
     <span>Offline</span>
@@ -188,5 +206,6 @@
 
     <script src="/offline-store.js?v=11.1"></script>
     <script src="/app.js?v=5.1.0"></script>
+    <script src="/splash.js?v=1"></script>
 </body>
 </html>

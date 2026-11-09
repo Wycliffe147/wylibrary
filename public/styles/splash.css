@@ -1,0 +1,28 @@
+/* Splash: bookshelf drop. Once per session, tap to skip, ~1.5s.
+   Animates transform + opacity only so it stays smooth on low-end phones. */
+#splash{position:fixed;inset:0;z-index:12000;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;
+  background:radial-gradient(circle at 50% 40%,#cfe0fa,#eaf1fb);color:#1f2a44;
+  padding:env(safe-area-inset-top,0) env(safe-area-inset-right,0) env(safe-area-inset-bottom,0) env(safe-area-inset-left,0);
+  transition:opacity .25s ease;cursor:pointer}
+html.dark #splash{background:radial-gradient(circle at 50% 40%,#141c30,#0a0d14);color:#e8ecf5}
+html.no-splash #splash{display:none}
+#splash.out{opacity:0;pointer-events:none}
+
+#splash{--w:min(38vw,190px);--h:calc(var(--w)*1.42)}
+.sp-logo{width:calc(var(--w)*.7);aspect-ratio:1;opacity:0;animation:sp-pop .5s .8s cubic-bezier(.2,.9,.3,1.3) forwards}
+.sp-logo img{width:100%;height:100%;object-fit:contain;border-radius:18%;filter:drop-shadow(0 6px 18px rgba(37,99,235,.35))}
+html.dark .sp-logo img{filter:drop-shadow(0 6px 18px rgba(96,165,250,.45))}
+.sp-books{display:flex;align-items:flex-end;justify-content:center;gap:4px;height:calc(var(--h)*.8)}
+.sp-spine{width:calc(var(--w)*.17);height:calc(var(--h)*var(--k));background:linear-gradient(90deg,rgba(255,255,255,.22),transparent 30%,rgba(0,0,0,.2)),var(--c);border-radius:3px 3px 1px 1px;position:relative;animation:sp-drop .5s calc(.1s + var(--i)*.07s) cubic-bezier(.3,1.4,.5,1) both}
+.sp-spine::after{content:"";position:absolute;left:18%;right:18%;top:14%;height:3px;background:rgba(255,255,255,.55);box-shadow:0 8px 0 rgba(255,255,255,.35)}
+.sp-spine.lean{transform-origin:bottom right;animation-name:sp-drop-lean}
+.sp-wrap{display:flex;flex-direction:column;align-items:center;width:calc(var(--w)*1.9)}
+.sp-plank{width:100%;height:9px;margin-top:-12px;border-radius:3px;background:#1d4ed8;box-shadow:0 6px 14px rgba(0,0,0,.3)}
+.sp-title{font:700 .95rem Georgia,serif;margin:14px 0 0;opacity:0;animation:sp-fade .4s .9s forwards}
+.sp-status{font:500 .8rem system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;margin:0;opacity:0;min-height:1.2em}
+.sp-status.show{animation:sp-fade .3s forwards}
+@keyframes sp-drop{from{transform:translateY(-140px);opacity:0}to{transform:none;opacity:1}}
+@keyframes sp-drop-lean{from{transform:translateY(-140px);opacity:0}to{transform:rotate(10deg);opacity:1}}
+@keyframes sp-pop{from{opacity:0;transform:scale(.7)}to{opacity:1;transform:none}}
+@keyframes sp-fade{to{opacity:.85}}
+@media (prefers-reduced-motion:reduce){#splash *{animation-duration:.01s!important;animation-delay:0s!important}}
