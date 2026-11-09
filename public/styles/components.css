@@ -395,3 +395,20 @@ h2 {
     font-weight: 700;
     text-decoration: underline;
 }
+
+
+/* ─── Deep-link highlight (#/file/<id>) ─────────────────────────────────── */
+.file-card.shared-highlight {
+    outline: 2px solid #1e88e5;
+    outline-offset: 2px;
+    animation: sharedPulse 1.3s ease-in-out 3;
+}
+
+@keyframes sharedPulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(30, 136, 229, 0); }
+    50%      { box-shadow: 0 0 0 8px rgba(30, 136, 229, 0.35); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .file-card.shared-highlight { animation: none; }
+}

@@ -3,6 +3,7 @@ const app = document.getElementById("app");
 
 let currentCategory = null;
 let currentPath = "";
+let pendingHighlightId = null;   // set by deep links (#/file/<id>); consumed after the folder renders
 
 // ─── Client-Side Catalog Manager ─────────────────────────────────────────────
 
@@ -219,6 +220,12 @@ function handleRouteFromUrl() {
         loadRequest(false);
     } else if (hash.startsWith("#/practice")) {
         loadPractice(false);
+    } else if (hash.startsWith("#/file/")) {
+        // Deep link to one file: #/file/<id>  (id = stable catalog id, or the file path as a fallback)
+        const key = hash.slice("#/file/".length).split(/[?/]/)[0];
+        let decoded = "";
+        try { decoded = decodeURIComponent(key); } catch (_) { /* malformed link */ }
+        openSharedFile(decoded);
     } else if (hash.startsWith("#/folder/")) {
         const raw = hash.replace("#/folder/", "");
         const parts = raw.split("/");
@@ -650,6 +657,7 @@ function renderFileCard(file, filePath, isDownloads, size) {
     // until then the path doubles as the id.
     const catEntry = catalogByPath.get(normalizePath(filePath));
     const docId = (catEntry && catEntry.id) ? catEntry.id : normalizePath(filePath);
+    card.dataset.docId = docId;
 
     let openUrl = `/api/download?file=${encodeURIComponent(filePath)}`;
     
@@ -1198,7 +1206,7 @@ async function loadFolder(category, subFolder = "", push = true) {
         const folderTitle = subFolder ? `${category} > ${subFolder}` : category;
         await navigateTo(() => _renderFolder(category, subFolder), `${folderTitle} - e-library`);
     } else {
-        _renderFolder(category, subFolder);
+        await _renderFolder(category, subFolder);
     }
 }
 
@@ -1316,6 +1324,7 @@ async function _renderFolder(category, subFolder) {
 
     renderFolderContents(data.folders, data.files);
     updateSelectAllToggleText();
+    applyPendingHighlight();
 
     document.getElementById("downloadSelected").addEventListener("click", async () => {
         const selectedFiles = Array.from(document.querySelectorAll(".file-checkbox:checked")).map(cb => ({
@@ -1664,8 +1673,70 @@ async function shareSite() {
     }
 }
 
+// In-app link to one file. Uses the stable catalog id so the link keeps working
+// after the file is renamed or moved; falls back to the path if ids aren't built yet.
+function fileDeepLink(path) {
+    const entry = catalogByPath.get(normalizePath(path));
+    const key = (entry && entry.id) ? entry.id : normalizePath(path);
+    return `${window.location.origin}/#/file/${encodeURIComponent(key)}`;
+}
+
+// Open a shared deep link: go to the file's folder, scroll to its card and highlight it.
+async function openSharedFile(key) {
+    const all = await getCatalog();
+
+    if (!all.length) {
+        history.replaceState({ view: "home" }, "", "#/");
+        await loadHome(false);
+        showToast("📡 Couldn't load the library. Check your connection and try again.");
+        return;
+    }
+
+    const entry = key && (all.find(f => f.id === key) || catalogByPath.get(normalizePath(key)));
+    const parts = entry ? normalizePath(entry.path).split("/").filter(Boolean) : [];
+
+    if (!entry || parts.length < 2) {
+        history.replaceState({ view: "home" }, "", "#/");
+        await loadHome(false);
+        showToast("That file is no longer available. Here's the full library.");
+        return;
+    }
+
+    const category = parts[0];
+    const subFolder = parts.slice(1, -1).join("/");
+    const hash = subFolder
+        ? `#/folder/${encodeURIComponent(category)}/${encodeURIComponent(subFolder)}`
+        : `#/folder/${encodeURIComponent(category)}`;
+
+    pendingHighlightId = entry.id || normalizePath(entry.path);
+    // Replace (not push) so Back leaves the app instead of bouncing through the deep link,
+    // and a refresh shows the plain folder without re-running the highlight.
+    history.replaceState({ view: "folder", category, subFolder }, "", hash);
+    await loadFolder(category, subFolder, false);
+}
+
+function applyPendingHighlight() {
+    if (!pendingHighlightId) return;
+    const id = pendingHighlightId;
+    pendingHighlightId = null;
+
+    const card = Array.from(document.querySelectorAll(".file-card"))
+        .find(c => c.dataset.docId === id);
+    if (!card) return;
+
+    const reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    card.setAttribute("tabindex", "-1");
+    requestAnimationFrame(() => {
+        card.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "center" });
+        card.focus({ preventScroll: true });
+        card.classList.add("shared-highlight");
+        setTimeout(() => card.classList.remove("shared-highlight"), 4500);
+    });
+    trackEvent("shared_file_opened", { file_id: id });
+}
+
 async function shareFile(name, path) {
-    const url = `${window.location.origin}/api/download?file=${encodeURIComponent(path)}&mode=download`;
+    const url = fileDeepLink(path);
     const shareData = {
         title: name,
         text: `Check out this resource from Wycliffe's e-library: ${name}`,
@@ -1677,11 +1748,13 @@ async function shareFile(name, path) {
             await navigator.share(shareData);
         } else {
             await navigator.clipboard.writeText(url);
-            alert("Link copied to clipboard!");
+            showToast("🔗 Link copied to clipboard!");
         }
+        trackEvent("file_share", { file_name: name, file_path: path });
     } catch (err) {
         if (err.name !== 'AbortError') {
             console.error("Error sharing file:", err);
+            showToast("⚠️ Couldn't share the link. Please try again.");
         }
     }
 }
