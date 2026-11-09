@@ -1,12 +1,32 @@
 // Wylibrary Service Worker — v10.0
 // Network-First with Cache Fallback for seamless online updates & full offline resilience
 
-const CACHE_NAME = 'wylibrary-v15-20261109';
+const CACHE_NAME = 'wylibrary-v16-20261109';
+
+// Books the reader chose to keep. Managed by offline-store.js and NEVER deleted
+// when the app updates (see the activate handler below).
+const USER_DOCS_CACHE = 'wylibrary-user-documents';
+
+// Don't copy big files (PDFs, zips...) into the general cache as they stream by:
+// it would store every book twice and buffer it in memory.
+const MAX_RUNTIME_CACHE_BYTES = 4 * 1024 * 1024;
+const NEVER_RUNTIME_CACHE = /(pdf|zip|octet-stream|video|audio)/i;
+
+function shouldRuntimeCache(response) {
+  if (!response || response.status !== 200) return false;
+  if (response.type !== 'basic' && response.type !== 'cors') return false;
+  if (NEVER_RUNTIME_CACHE.test(response.headers.get('Content-Type') || '')) return false;
+  const len = Number(response.headers.get('Content-Length'));
+  if (len && len > MAX_RUNTIME_CACHE_BYTES) return false;
+  return true;
+}
 
 const STATIC_ASSETS = [
   '/',
   '/index.html',
   '/app.js',
+  '/offline-store.js',
+  '/pdf-viewer',
   '/pdf-viewer.html',
   '/quiz-data.json',
   '/files-index.json',
@@ -21,6 +41,9 @@ const STATIC_ASSETS = [
   '/styles/practice.css',
   '/styles/dark-mode.css',
   '/manifest.json',
+  // PDF.js, so the viewer can open saved books with no connection
+  'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.4.168/pdf.min.mjs',
+  'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.4.168/pdf.worker.min.mjs',
   'https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/bg.jpg',
   'https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/logo.png',
   'https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/logo-dark.png',
@@ -52,7 +75,7 @@ self.addEventListener('activate', event => {
     caches.keys().then(cacheNames => {
       return Promise.all(
         cacheNames
-          .filter(name => name !== CACHE_NAME)
+          .filter(name => name !== CACHE_NAME && name !== USER_DOCS_CACHE)
           .map(name => {
             console.log('SW: Purging legacy cache:', name);
             return caches.delete(name);
@@ -88,7 +111,7 @@ self.addEventListener('fetch', event => {
   event.respondWith(
     fetch(event.request)
       .then(networkResponse => {
-        if (networkResponse && networkResponse.status === 200 && (networkResponse.type === 'basic' || networkResponse.type === 'cors')) {
+        if (shouldRuntimeCache(networkResponse)) {
           const responseClone = networkResponse.clone();
           caches.open(CACHE_NAME).then(cache => {
             cache.put(event.request, responseClone);

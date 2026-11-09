@@ -46,18 +46,20 @@
 
 ## 🔧 PWA & Cache Architecture (Planned Improvements)
 
-### 5. "Save for Offline" Button per Document
-- Add a **"📥 Save for Offline"** button next to each PDF in the file list.
-- Stores the PDF in a **separate cache bucket** (`wylibrary-user-documents`) that is never wiped during app updates.
-- When offline, the Library tab switches to a **"My Saved Books"** view showing only saved documents.
-- Documents not yet saved show a disabled state (`Needs Internet`) instead of broken links.
+### 6. "Save for Offline" Button per Document — ✅ BUILT (v11.0, on staging)
+- **"📥 Save offline"** button on every file card (except ZIP packages). Saved files live in the separate cache bucket `wylibrary-user-documents`, which the service worker never wipes on updates.
+- Files are stored under a **stable file id** (not the path), with details in IndexedDB (`wylibrary-offline`). `scripts/add-ids.mjs` assigns ids to `files-index.json` and keeps them across renames/moves; `public/id-map.json` is its history (**commit it**).
+- When the library changes, saved copies are reconciled on the next online visit: renamed/moved → follows the file; replaced → "↻ Update saved copy"; deleted → kept, flagged "No longer in the library".
+- **My Saved Books** page (`#/saved`, shortcut on Home when something is saved). The PDF viewer opens saved copies first, so they work with no connection.
+- Offline, unsaved files show greyed-out Open/Download with a "Needs internet" explanation.
+- Still to decide: auto-switching the Library to Saved Books when offline (currently a banner link + Home shortcut).
 
-### 6. Offline UI State Refinements
-- When offline, automatically highlight that **Practice Quiz** and **About** pages work fully.
-- Disable/grey-out download buttons and links that require internet.
-- Show count of saved offline documents in the offline banner.
+### 7. Offline UI State Refinements — partly done
+- ✅ Disable/grey-out download buttons and links that require internet.
+- ✅ Show count of saved offline documents in the offline banner (with a "View saved" link).
+- ⬜ When offline, automatically highlight that **Practice Quiz** and **About** pages work fully.
 
-### 7. Reading Progress & Bookmarks
+### 8. Reading Progress & Bookmarks
 - Automatically save the last page read per document in `localStorage`.
 - When reopening a PDF, offer to resume: *"Continue from page 42?"*
 

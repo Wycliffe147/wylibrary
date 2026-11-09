@@ -215,3 +215,29 @@ html.dark .btn-cancel {
     background: #37474f;
     color: #eceff1;
 }
+
+/* ─── Dark: Save for offline & Saved Books ─── */
+html.dark .saved-link {
+    color: var(--text-primary);
+}
+
+html.dark .file-actions .btn-save-offline[data-mode="remove"] {
+    background-color: #1c4532;
+    color: #9ae6b4;
+}
+
+html.dark .file-actions .btn-save-offline[data-mode="remove"]:hover {
+    background-color: #276749;
+}
+
+html.dark .file-actions .btn-remove-saved {
+    background-color: #334155;
+    color: #fca5a5;
+}
+
+html.dark .file-actions .btn-remove-saved:hover {
+    background-color: #475569;
+}
+
+html.dark .saved-badge.warn { background-color: #4a1d1d; color: #fca5a5; }
+html.dark .saved-badge.info { background-color: #4a3410; color: #fcd34d; }

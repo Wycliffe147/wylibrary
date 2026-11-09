@@ -1,4 +1,4 @@
-const APP_VERSION = 'v10.0';
+const APP_VERSION = 'v11.0';
 const app = document.getElementById("app");
 
 let currentCategory = null;
@@ -8,6 +8,7 @@ let currentPath = "";
 
 let catalogPromise = null;
 let catalog = [];
+let catalogByPath = new Map();   // normalized path -> catalog entry (has .id once add-ids.mjs has run)
 
 async function getCatalog() {
     if (catalog && catalog.length > 0) return catalog;
@@ -19,6 +20,10 @@ async function getCatalog() {
             })
             .then(data => {
                 catalog = Array.isArray(data) ? data : [];
+                catalogByPath = new Map(catalog.map(f => [normalizePath(f.path), f]));
+                // Online: make sure saved offline copies still match the library
+                // (handles renamed / moved / replaced / deleted files).
+                if (navigator.onLine && window.WyOffline) WyOffline.reconcile(catalog);
                 return catalog;
             })
             .catch(err => {
@@ -205,7 +210,9 @@ function trackEvent(eventName, params) {
 
 function handleRouteFromUrl() {
     const hash = window.location.hash || "";
-    if (hash.startsWith("#/about")) {
+    if (hash.startsWith("#/saved")) {
+        loadSaved(false);
+    } else if (hash.startsWith("#/about")) {
         loadAbout(false);
     } else if (hash.startsWith("#/contact")) {
         loadRequest(false);
@@ -300,6 +307,9 @@ function _renderHome() {
     ];
 
     app.innerHTML = `
+        <a href="#/saved" id="savedLink" class="saved-link hidden">
+            <span>📥 My saved books</span><span class="saved-count"></span>
+        </a>
         <div class="cards" id="homeCardsInApp">
             ${categories.map(c => `
                 <div id="${c.id}">
@@ -323,6 +333,8 @@ function _renderHome() {
             loadFolder(a.dataset.category);
         });
     });
+
+    initSavedLink();
 
     // Compute library counts and size directly from client catalog
     getCatalog().then(allFiles => {
@@ -632,12 +644,17 @@ function renderFileCard(file, filePath, isDownloads, size) {
     const card = document.createElement("div");
     card.className = "file-card";
 
+    // Stable id (survives renames/moves) once scripts/add-ids.mjs has been run;
+    // until then the path doubles as the id.
+    const catEntry = catalogByPath.get(normalizePath(filePath));
+    const docId = (catEntry && catEntry.id) ? catEntry.id : normalizePath(filePath);
+
     let openUrl = `/api/download?file=${encodeURIComponent(filePath)}`;
     
     // Open PDFs in our built-in PDF.js viewer (works on all devices, no size limit).
     // Use Google Docs Viewer only for Office files (Word/Excel/PowerPoint).
     if (ext === "pdf") {
-        openUrl = `/pdf-viewer?file=${encodeURIComponent(filePath)}`;
+        openUrl = `/pdf-viewer?file=${encodeURIComponent(filePath)}&id=${encodeURIComponent(docId)}`;
     } else {
         const officeExts = ["doc", "docx", "xls", "xlsx", "ppt", "pptx"];
         if (officeExts.includes(ext)) {
@@ -708,8 +725,262 @@ function renderFileCard(file, filePath, isDownloads, size) {
         });
     }
 
+    // Offline saving (not offered for big ZIP packages)
+    if (!isZip) {
+        decorateFileCard(card, {
+            id: docId,
+            path: filePath,
+            name: file,
+            size: size || (catEntry && catEntry.size) || 0,
+            version: (catEntry && (catEntry.etag || catEntry.version || catEntry.modified)) || null,
+            ext
+        });
+    }
+
     return card;
 }
+
+// ─── Offline: "Save offline" buttons & My Saved Books ───────────────────────
+
+function offlineAvailable() {
+    return !!(window.WyOffline && WyOffline.isSupported());
+}
+
+function escapeHtmlText(str) {
+    return String(str == null ? "" : str).replace(/[&<>"']/g, ch =>
+        ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[ch]));
+}
+
+function showToast(message) {
+    showUpdateSuccessToast(message);
+}
+
+// Anything marked .is-disabled (needs internet, not saved) explains itself instead of failing.
+document.addEventListener("click", (e) => {
+    const link = e.target.closest && e.target.closest("a.is-disabled");
+    if (link) {
+        e.preventDefault();
+        e.stopPropagation();
+        showToast("📡 Needs internet. Save books for offline while you're online.");
+    }
+}, true);
+
+function decorateFileCard(card, info) {
+    if (!offlineAvailable()) return;
+    const actions = card.querySelector(".file-actions");
+    if (!actions) return;
+
+    card._docInfo = info;
+    card.dataset.docId = info.id;
+
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "btn-save-offline";
+    actions.insertBefore(btn, actions.lastElementChild);   // Open, Download, Save offline, Share
+    btn.addEventListener("click", () => onSaveButton(card, btn));
+
+    // Offline + saved: hand over the saved copy instead of hitting the network.
+    const exportSaved = (e) => {
+        if (!navigator.onLine && WyOffline.get(info.id)) {
+            e.preventDefault();
+            WyOffline.exportFile(info.id, info.name).catch(err => showToast("⚠️ " + err.message));
+        }
+    };
+    const dl = card.querySelector("a[download]");
+    if (dl) dl.addEventListener("click", exportSaved);
+    const open = card.querySelector('a[target="_blank"]');
+    if (open && info.ext !== "pdf") open.addEventListener("click", exportSaved);
+
+    WyOffline.ready().then(() => refreshFileCard(card));
+}
+
+function refreshFileCard(card) {
+    const info = card._docInfo;
+    const btn = card.querySelector(".btn-save-offline");
+    if (!info || !btn) return;
+
+    const doc = WyOffline.get(info.id);
+    const online = navigator.onLine;
+    card.classList.toggle("is-saved", !!doc);
+
+    // Offline and not saved: Open/Download can't work, so say so up front.
+    card.querySelectorAll('.file-actions a[download], .file-actions a[target="_blank"]').forEach(a => {
+        const block = !online && !doc;
+        a.classList.toggle("is-disabled", block);
+        a.setAttribute("aria-disabled", block ? "true" : "false");
+        a.title = block ? "Needs internet. Save it for offline while online." : "";
+    });
+
+    if (btn.dataset.busy) return;
+    if (doc && doc.status === "outdated") {
+        btn.textContent = "↻ Update saved copy";
+        btn.dataset.mode = "update";
+        btn.disabled = !online;
+        btn.title = "A newer version is in the library";
+    } else if (doc) {
+        btn.textContent = "✓ Saved";
+        btn.dataset.mode = "remove";
+        btn.disabled = false;
+        btn.title = "Tap to remove from offline storage";
+    } else {
+        btn.textContent = "📥 Save offline";
+        btn.dataset.mode = "save";
+        btn.disabled = !online;
+        btn.title = online ? "" : "Needs internet";
+    }
+}
+
+function refreshAllFileCards() {
+    document.querySelectorAll(".file-card").forEach(refreshFileCard);
+}
+
+async function onSaveButton(card, btn) {
+    const info = card._docInfo;
+    if (btn.dataset.mode === "remove") {
+        if (!confirm(`Remove "${info.name}" from offline storage?`)) return;
+        try { await WyOffline.remove(info.id); }
+        catch (err) { showToast("⚠️ " + (err.message || "Could not remove it.")); }
+        return;
+    }
+
+    btn.dataset.busy = "1";
+    btn.disabled = true;
+    btn.textContent = "Saving… 0%";
+    try {
+        await WyOffline.save(info, p => { btn.textContent = `Saving… ${Math.round(p * 100)}%`; });
+        trackEvent("offline_save", { file_name: info.name, file_path: info.path });
+    } catch (err) {
+        showToast("⚠️ " + (err.message || "Could not save this file."));
+    } finally {
+        delete btn.dataset.busy;
+        refreshFileCard(card);
+    }
+}
+
+// Home: "My saved books" shortcut (only shown when something is saved)
+function initSavedLink() {
+    const link = document.getElementById("savedLink");
+    if (!link) return;
+    link.addEventListener("click", (e) => { e.preventDefault(); loadSaved(); });
+    updateSavedLink();
+}
+
+function updateSavedLink() {
+    const link = document.getElementById("savedLink");
+    if (!link || !offlineAvailable()) return;
+    WyOffline.ready().then(() => {
+        const n = WyOffline.count();
+        link.classList.toggle("hidden", n === 0);
+        const c = link.querySelector(".saved-count");
+        if (c) c.textContent = `${n} saved`;
+    });
+}
+
+// Saved Books page
+async function loadSaved(push = true) {
+    if (push) {
+        history.pushState({ view: "saved" }, "", "#/saved");
+        await navigateTo(_renderSaved, "Saved books - e-library");
+    } else {
+        _renderSaved();
+    }
+}
+
+async function _renderSaved() {
+    currentCategory = null;
+    currentPath = "";
+    app.innerHTML = `
+        <div class="breadcrumb-container"><span class="breadcrumb" data-home="true">Home</span> / Saved books</div>
+        <div class="folder-meta"><span class="folder-file-count" id="savedMeta"></span></div>
+        <div class="grid" id="savedList"></div>
+    `;
+    app.querySelector(".breadcrumb").addEventListener("click", () => loadHome());
+    if (offlineAvailable()) await WyOffline.ready();
+    renderSavedList();
+}
+
+function renderSavedList() {
+    const list = document.getElementById("savedList");
+    const meta = document.getElementById("savedMeta");
+    if (!list) return;
+
+    const docs = offlineAvailable() ? WyOffline.list() : [];
+    const total = docs.reduce((sum, d) => sum + (d.bytes || d.size || 0), 0);
+    if (meta) meta.textContent = docs.length
+        ? `${docs.length} saved · ${formatBytes(total)} on this device`
+        : "Nothing saved yet";
+
+    list.innerHTML = "";
+    if (!docs.length) {
+        list.innerHTML = `<p class="empty-state">No saved books yet. Tap “📥 Save offline” on any file while you’re online and it will show up here.</p>`;
+        return;
+    }
+    docs.forEach(d => list.appendChild(buildSavedCard(d)));
+}
+
+function buildSavedCard(d) {
+    const ext = d.name.split(".").pop().toLowerCase();
+    const icon = ext === "pdf" ? "📕" : (["zip", "rar"].includes(ext) ? "🗜️" : "📄");
+    const cleanName = d.name.replace(/\.[^/.]+$/, "");
+    const folder = normalizePath(d.path).split("/").slice(0, -1).join(" / ");
+    const badge = d.status === "removed"
+        ? `<div class="saved-badge warn">No longer in the library. Your copy still works.</div>`
+        : d.status === "outdated"
+            ? `<div class="saved-badge info">A newer version is available. Open the folder to update.</div>`
+            : "";
+    const viewerUrl = `/pdf-viewer?file=${encodeURIComponent(d.path)}&id=${encodeURIComponent(d.id)}`;
+
+    const card = document.createElement("div");
+    card.className = "file-card is-saved";
+    card.innerHTML = `
+        <div class="file-top"><span>${icon} ${escapeHtmlText(cleanName)} <span class="file-size" style="font-size:0.8em;opacity:0.7;margin-left:5px;">(${formatBytes(d.bytes || d.size)})</span></span></div>
+        <div class="saved-folder">📁 ${escapeHtmlText(folder || "Library")}</div>
+        ${badge}
+        <div class="file-actions">
+            ${ext === "pdf"
+                ? `<a href="${viewerUrl}" target="_blank">Open</a>`
+                : `<a href="#" class="saved-open" target="_blank">Open</a>`}
+            <a href="#" download class="saved-export">Download</a>
+            <button type="button" class="btn-remove-saved">Remove</button>
+        </div>
+    `;
+
+    const doExport = (e) => {
+        e.preventDefault();
+        WyOffline.exportFile(d.id, d.name).catch(err => showToast("⚠️ " + err.message));
+    };
+    card.querySelector(".saved-export").addEventListener("click", doExport);
+    const openOther = card.querySelector(".saved-open");
+    if (openOther) openOther.addEventListener("click", doExport);
+    card.querySelector(".btn-remove-saved").addEventListener("click", async () => {
+        if (!confirm(`Remove "${d.name}" from offline storage?`)) return;
+        try { await WyOffline.remove(d.id); }
+        catch (err) { showToast("⚠️ " + (err.message || "Could not remove it.")); }
+    });
+    return card;
+}
+
+// Banner text while offline: mention saved books
+function refreshOfflineBanner() {
+    const banner = document.getElementById("offlineBanner");
+    if (!banner || navigator.onLine || !offlineAvailable()) return;
+    WyOffline.ready().then(() => {
+        if (navigator.onLine || banner.classList.contains("hidden")) return;
+        const n = WyOffline.count();
+        banner.innerHTML = n > 0
+            ? `<span>📡 You are offline. ${n} saved book${n !== 1 ? "s are" : " is"} available. <a href="#/saved" class="banner-link" onclick="event.preventDefault(); loadSaved()">View saved</a></span>`
+            : `<span>📡 You are offline. Practice Quiz & cached materials are available.</span>`;
+    });
+}
+
+window.addEventListener("online", refreshAllFileCards);
+window.addEventListener("offline", refreshAllFileCards);
+window.addEventListener("wyoffline:changed", () => {
+    refreshAllFileCards();
+    updateSavedLink();
+    refreshOfflineBanner();
+    if (document.getElementById("savedList")) renderSavedList();
+});
 
 // ─── Load Folder ─────────────────────────────────────────────────────────────
 
@@ -1257,6 +1528,7 @@ function updateOnlineStatus() {
         banner.style.display = "flex";
         banner.classList.remove("hidden", "back-online");
         banner.innerHTML = '<span>📡 You are offline. Practice Quiz & cached materials are available.</span>';
+        refreshOfflineBanner();
     } else {
         if (banner.style.display === "flex" && !banner.classList.contains("hidden")) {
             banner.classList.add("back-online");
