@@ -40,7 +40,12 @@
         var timer = setTimeout(function () { say('Free books & past papers'); }, 900);
         getCatalog().then(function (files) {
             clearTimeout(timer);
-            say(files && files.length ? plural(files.length, 'file') + ' available' : 'Free books & past papers');
+            var cats = ['Books/', 'Exams/', 'Zips/', 'Q&A/'];
+            var count = (files || []).filter(function (f) {
+                var p = (f.path || '').replace(/\\/g, '/');
+                return cats.some(function (c) { return p.indexOf(c) === 0; });
+            }).length;
+            say(count ? plural(count, 'file') + ' available' : 'Free books & past papers');
         });
     }
 })();
