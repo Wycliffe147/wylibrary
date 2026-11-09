@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "node make-bundle.js",
     "build": "node generate-index.js",
     "vercel-build": "echo 'Using committed files-index.json'",
     "start": "node scripts/start-server.js"
