@@ -37,9 +37,10 @@
    - Re-organize misclassified files into correct subject/level directories.
    - Fix missing, truncated, or misleading document filenames in `files-index.json`.
 
-5. **Batch Multi-Select & Share Function**
+5. **Batch Multi-Select & Share / Download Function**
    - Allow selecting multiple files (checkboxes / multi-select mode).
    - Share multiple selected document links or files simultaneously via Web Share API / WhatsApp.
+   - **Multi-Download Fallback (Client-side ZIP):** Many mobile browsers block multiple simultaneous file downloads. Detect this restriction or provide an option to package selected files into a single `.zip` file client-side (using JSZip) for 1-click batch download.
 
 ---
 
