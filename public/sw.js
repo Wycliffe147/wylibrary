@@ -1,7 +1,7 @@
 // Wylibrary Service Worker — v10.0
 // Network-First with Cache Fallback for seamless online updates & full offline resilience
 
-const CACHE_NAME = 'wylibrary-v16-20261109';
+const CACHE_NAME = 'wylibrary-v17-20261109';
 
 // Books the reader chose to keep. Managed by offline-store.js and NEVER deleted
 // when the app updates (see the activate handler below).
@@ -119,17 +119,15 @@ self.addEventListener('fetch', event => {
         }
         return networkResponse;
       })
-      .catch(() => {
+      .catch(async () => {
         // Network failed (offline or slow disconnect) -> retrieve from cache
-        return caches.match(event.request, { ignoreSearch: true }).then(cachedResponse => {
-          if (cachedResponse) {
-            return cachedResponse;
-          }
-          // For navigation fallback to root / index.html
-          if (event.request.mode === 'navigate') {
-            return caches.match('/index.html', { ignoreSearch: true }) || caches.match('/');
-          }
-        });
+        const cached = await caches.match(event.request, { ignoreSearch: true });
+        if (cached) return cached;
+        // For navigation fallback to root / index.html
+        if (event.request.mode === 'navigate') {
+          return (await caches.match('/index.html', { ignoreSearch: true })) || (await caches.match('/')) || Response.error();
+        }
+        return Response.error();
       })
   );
 });
