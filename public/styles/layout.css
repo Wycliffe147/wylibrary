@@ -35,6 +35,55 @@
 .header h1 {
     font-size: 2rem;
     margin: 0;
+    transition: opacity 0.22s ease, transform 0.22s ease;
+}
+
+/* Title mid-flip (offline / back online messages) */
+.header h1.is-flipping {
+    opacity: 0;
+    transform: translateY(-8px);
+}
+
+/* Logo + tiny "you are offline" badge on its corner */
+.logo-wrap {
+    position: relative;
+    display: inline-flex;
+    flex: none;
+}
+
+.offline-badge {
+    display: none;
+    position: absolute;
+    right: -6px;
+    bottom: -6px;
+    width: 22px;
+    height: 22px;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    line-height: 1;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background: #f59e0b;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+    cursor: pointer;
+}
+
+.header-top.is-offline .offline-badge {
+    display: inline-flex;
+    animation: badgePop 0.35s ease;
+}
+
+@keyframes badgePop {
+    from { transform: scale(0); }
+    70%  { transform: scale(1.2); }
+    to   { transform: scale(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .header h1 { transition: none; }
+    .header-top.is-offline .offline-badge { animation: none; }
 }
 
 /* Nav container */

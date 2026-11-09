@@ -1,7 +1,7 @@
 // Wylibrary Service Worker — v10.0
 // Network-First with Cache Fallback for seamless online updates & full offline resilience
 
-const CACHE_NAME = 'wylibrary-v19-20261109';
+const CACHE_NAME = 'wylibrary-v20-20261109';
 
 // Books the reader chose to keep. Managed by offline-store.js and NEVER deleted
 // when the app updates (see the activate handler below).
@@ -92,42 +92,83 @@ self.addEventListener('message', event => {
   }
 });
 
-// Fetch Event: Network-First with Cache Fallback
-self.addEventListener('fetch', event => {
-  // Only handle GET requests
-  if (event.request.method !== 'GET') return;
+// If the network hasn't answered in this long AND we have a cached copy, use the
+// cached copy. This is what stops the white screen when the phone says it is
+// connected (Wi-Fi / mobile data on) but nothing actually gets through: such
+// requests hang for 30-60s instead of failing, so "network failed -> cache"
+// alone never kicks in.
+const NETWORK_TIMEOUT_MS = 3000;
 
-  const url = new URL(event.request.url);
+async function findCached(request) {
+  // ignoreVary: the install-time request and the real request often differ in
+  // headers the server lists in Vary, which would otherwise make a miss.
+  return caches.match(request, { ignoreSearch: true, ignoreVary: true });
+}
+
+// A response that came via a redirect can't be handed to a page navigation
+// (the browser rejects it). Re-wrap it as a plain response.
+async function usable(response) {
+  if (response && response.redirected) {
+    return new Response(await response.blob(), {
+      status: 200,
+      statusText: 'OK',
+      headers: response.headers
+    });
+  }
+  return response;
+}
+
+async function cacheFallback(request) {
+  const cached = await findCached(request);
+  if (cached) return usable(cached);
+  if (request.mode === 'navigate') {
+    const shell = (await caches.match('/', { ignoreVary: true })) ||
+                  (await caches.match('/index.html', { ignoreVary: true }));
+    if (shell) return usable(shell);
+  }
+  return Response.error();
+}
+
+// Fetch Event: Network-First with Cache Fallback (and a timeout)
+self.addEventListener('fetch', event => {
+  const request = event.request;
+
+  // Only handle GET requests
+  if (request.method !== 'GET') return;
+
+  const url = new URL(request.url);
 
   // Bypass Google Analytics & external trackers from service worker cache
   if (url.hostname.includes('google-analytics.com') || url.hostname.includes('googletagmanager.com')) {
     return;
   }
 
-  // Network-First strategy:
-  // 1. Try fetching fresh copy from network (Cloudflare/server)
-  // 2. If online: update cache with latest response
-  // 3. If offline/error: immediately serve from cache
-  event.respondWith(
-    fetch(event.request)
-      .then(networkResponse => {
-        if (shouldRuntimeCache(networkResponse)) {
-          const responseClone = networkResponse.clone();
-          caches.open(CACHE_NAME).then(cache => {
-            cache.put(event.request, responseClone);
-          });
-        }
-        return networkResponse;
-      })
-      .catch(async () => {
-        // Network failed (offline or slow disconnect) -> retrieve from cache
-        const cached = await caches.match(event.request, { ignoreSearch: true });
-        if (cached) return cached;
-        // For navigation fallback to root / index.html
-        if (event.request.mode === 'navigate') {
-          return (await caches.match('/index.html', { ignoreSearch: true })) || (await caches.match('/')) || Response.error();
-        }
-        return Response.error();
-      })
-  );
+  // Range requests (PDF streaming) and API calls are never served from the shell cache.
+  const skipTimeout = request.headers.has('range') || url.pathname.startsWith('/api/');
+
+  // 1. Ask the network. If it answers, refresh the cache and use it.
+  const network = fetch(request).then(networkResponse => {
+    if (shouldRuntimeCache(networkResponse)) {
+      const responseClone = networkResponse.clone();
+      caches.open(CACHE_NAME).then(cache => cache.put(request, responseClone));
+    }
+    return networkResponse;
+  });
+
+  // 2. Network failed outright (offline) -> cache.
+  const withFallback = network.catch(() => cacheFallback(request));
+
+  // 3. Network is hanging -> after a few seconds, cache (if we have one).
+  const timedOut = new Promise(resolve => {
+    if (skipTimeout) return;
+    setTimeout(async () => {
+      const cached = await findCached(request);
+      if (cached) resolve(usable(cached));
+      // no cached copy: keep waiting for the network
+    }, NETWORK_TIMEOUT_MS);
+  });
+
+  // Keep the worker alive so a slow response can still refresh the cache.
+  event.waitUntil(network.catch(() => {}));
+  event.respondWith(Promise.race([withFallback, timedOut]));
 });

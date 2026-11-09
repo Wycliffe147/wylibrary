@@ -1521,22 +1521,104 @@ function hideInstallModal() {
 
 // ─── Offline & Update Notification Architecture ──────────────────────────────
 
-function updateOnlineStatus() {
-    const banner = document.getElementById("offlineBanner");
-    if (!banner) return;
-    if (!navigator.onLine) {
-        banner.style.display = "flex";
-        banner.classList.remove("hidden", "back-online");
-        banner.innerHTML = '<span>📡 You are offline. Practice Quiz & cached materials are available.</span>';
-        refreshOfflineBanner();
-    } else {
-        if (banner.style.display === "flex" && !banner.classList.contains("hidden")) {
-            banner.classList.add("back-online");
-            banner.innerHTML = '<span>🟢 Back online!</span>';
+let isHeaderVisible = true;
+let pendingFlip = null; // 'offline' | 'online' | null
+let flipTimeout = null;
+const ORIGINAL_TITLE = "Wycliffe's e-library";
+
+function flipTitleTo(newText, durationMs = 3500) {
+    const titleEl = document.getElementById("siteTitle");
+    if (!titleEl) return;
+    if (flipTimeout) clearTimeout(flipTimeout);
+
+    titleEl.classList.add("is-flipping");
+    setTimeout(() => {
+        titleEl.textContent = newText;
+        titleEl.classList.remove("is-flipping");
+
+        flipTimeout = setTimeout(() => {
+            titleEl.classList.add("is-flipping");
             setTimeout(() => {
-                banner.classList.add("hidden");
-                banner.style.display = "none";
-            }, 3000);
+                titleEl.textContent = ORIGINAL_TITLE;
+                titleEl.classList.remove("is-flipping");
+            }, 220);
+        }, durationMs);
+    }, 220);
+}
+
+function triggerOfflineFlip() {
+    if (isHeaderVisible) {
+        flipTitleTo("📡 Offline Mode", 3500);
+        pendingFlip = null;
+    } else {
+        pendingFlip = 'offline';
+    }
+}
+
+function triggerOnlineFlip() {
+    if (isHeaderVisible) {
+        flipTitleTo("🟢 Back Online", 2500);
+        pendingFlip = null;
+    } else {
+        pendingFlip = 'online';
+    }
+}
+
+function initHeaderObserver() {
+    const headerTop = document.querySelector(".header-top");
+    if (!headerTop) return;
+
+    if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                isHeaderVisible = entry.isIntersecting;
+                if (isHeaderVisible && pendingFlip) {
+                    if (pendingFlip === 'offline') flipTitleTo("📡 Offline Mode", 3500);
+                    else if (pendingFlip === 'online') flipTitleTo("🟢 Back Online", 2500);
+                    pendingFlip = null;
+                }
+            });
+        }, { threshold: 0.15 });
+        observer.observe(headerTop);
+    }
+
+    const badge = document.getElementById("offlineBadge");
+    if (badge) {
+        badge.addEventListener("click", () => {
+            flipTitleTo("📡 Offline Mode", 3500);
+        });
+    }
+}
+
+function updateOnlineStatus(isInitial = false) {
+    const headerTop = document.querySelector(".header-top");
+    const isOnline = navigator.onLine;
+
+    if (!isOnline) {
+        if (headerTop) headerTop.classList.add("is-offline");
+        if (isInitial) {
+            // Give reader 1.5s to read original title first
+            setTimeout(() => triggerOfflineFlip(), 1500);
+        } else {
+            triggerOfflineFlip();
+        }
+    } else {
+        if (headerTop && headerTop.classList.contains("is-offline")) {
+            headerTop.classList.remove("is-offline");
+            triggerOnlineFlip();
+        }
+    }
+
+    // Refresh file card buttons state (grey out unsaved files when offline)
+    document.querySelectorAll(".file-card").forEach(refreshFileCard);
+
+    // Refresh offline banner if present
+    const banner = document.getElementById("offlineBanner");
+    if (banner) {
+        if (!isOnline) {
+            banner.style.display = "flex";
+            banner.classList.remove("hidden", "back-online");
+            refreshOfflineBanner();
         } else {
             banner.classList.add("hidden");
             banner.style.display = "none";
@@ -1544,8 +1626,8 @@ function updateOnlineStatus() {
     }
 }
 
-window.addEventListener("online", updateOnlineStatus);
-window.addEventListener("offline", updateOnlineStatus);
+window.addEventListener("online", () => updateOnlineStatus(false));
+window.addEventListener("offline", () => updateOnlineStatus(false));
 
 function checkVersionHandshake() {
     try {
@@ -1642,7 +1724,8 @@ function initServiceWorker() {
 
 window.addEventListener("DOMContentLoaded", () => {
     initServiceWorker();
-    updateOnlineStatus();
+    initHeaderObserver();
+    updateOnlineStatus(true);
     checkVersionHandshake();
 
     // PWA Install Button Logic
