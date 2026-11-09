@@ -62,6 +62,12 @@
     }
 }
 
+/* Touch feedback for the nav pills while pressed */
+.header nav a:active {
+    background-color: white;
+    color: #1565c0;
+}
+
 /* Mobile adjustments (stacking / spacing) */
 @media (max-width: 720px) {
     .header {

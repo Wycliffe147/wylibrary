@@ -33,6 +33,14 @@
     }
 }
 
+/* Touch feedback: same highlight while a finger is pressing the card,
+   released as soon as the finger lifts (no sticky state). */
+#card1 a:active, #card2 a:active, #card3 a:active, #card4 a:active {
+    transform: translateY(-5px);
+    background-color: #e0e0ff;
+    color: black;
+}
+
 #card1 a:focus-visible, #card2 a:focus-visible, #card3 a:focus-visible, #card4 a:focus-visible {
     outline: 3px solid #fff;
     outline-offset: 3px;
