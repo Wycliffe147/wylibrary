@@ -1779,6 +1779,8 @@ async function shareFile(name, path) {
 let deferredPrompt;
 
 function showInstallModal() {
+    // Don't interrupt a deep-link arrival — the user came to see a specific file
+    if (window.location.hash.startsWith('#/file/')) return;
     const installModal = document.getElementById('installModal');
     if (installModal) installModal.classList.remove('hidden');
 }
