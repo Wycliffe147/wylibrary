@@ -54,6 +54,12 @@
    - **Remove Selected** (saved books page): add a "Remove Selected" button next to "Download Selected" for bulk-deleting saved books. Suggested by Claude alongside the checkboxes feature (Nov 2026).
    - **Multi-Download Fallback (Client-side ZIP):** Many mobile browsers block multiple simultaneous file downloads. Detect this restriction or provide an option to package selected files into a single `.zip` file client-side (using JSZip) for 1-click batch download.
 
+6. **Smart In-App Deep-Link Sharing (Navigate, Auto-Focus & Highlight)**
+   - Instead of sharing a raw download URL that isolates the file from the platform:
+   - Share an in-app deep-link (e.g., `https://wylibrary.org/#/folder/Books/Physics?file=Excel_Phy.pdf` or `?id=file_id`).
+   - When opened by a peer, the link lands them directly inside Wylibrary at the exact folder location, auto-scrolls to the target card, and draws attention with a subtle pulse/glow animation (and/or checks its box).
+   - **Value:** Introduces students to the full library and surrounding past papers, letting them choose whether to Open, Download, or Save Offline with 1 tap.
+
 ---
 
 ## 🔧 PWA & Cache Architecture (Planned Improvements)
