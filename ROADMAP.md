@@ -133,6 +133,13 @@
   - **PayPal:** For international supporters wishing to contribute.
 - **Smart Suppression & Cooldown:** If a user contributes, suppress future donation prompts dynamically based on donation amount/tier (e.g., temporary exemption or tiered cool-off period tracked locally).
 
+### 16. Professional Vector Icon Migration (Lucide Icons)
+- **Visual Polish & Consistency:** Replace OS system emojis (`🏠`, `📝`, `ℹ️`, `📞`, `📚`, `💾`, `📥`, `⚡`, `📡`) with clean, minimalist vector line icons from [Lucide Icons](https://lucide.dev).
+- **Benefits:**
+  - Standardizes look across all operating systems (Samsung, iOS, Android, Windows, Linux) avoiding inconsistent or childish emoji renderings.
+  - Matches custom color palettes in both light and dark modes with uniform stroke weight.
+  - Offline-first implementation: inline SVG code or bundled local script (0 external CDN dependencies, 0 network overhead).
+
 ---
 
 ## 🧪 Development Workflow Reminder
