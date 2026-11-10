@@ -1,13 +1,20 @@
-const APP_VERSION = 'v10.0';
+const APP_VERSION = 'v11.1';
 const app = document.getElementById("app");
+
+// Capture deep-link flag immediately — before the hash is replaced by navigation.
+// window.location.hash changes as soon as the app routes to the folder view, so we
+// must snapshot it here, at the very top of the script, before any routing runs.
+window.__arrivedViaFileDeepLink = window.location.hash.startsWith('#/file/');
 
 let currentCategory = null;
 let currentPath = "";
+let pendingHighlightId = null;   // set by deep links (#/file/<id>); consumed after the folder renders
 
 // ─── Client-Side Catalog Manager ─────────────────────────────────────────────
 
 let catalogPromise = null;
 let catalog = [];
+let catalogByPath = new Map();   // normalized path -> catalog entry (has .id once add-ids.mjs has run)
 
 async function getCatalog() {
     if (catalog && catalog.length > 0) return catalog;
@@ -19,6 +26,10 @@ async function getCatalog() {
             })
             .then(data => {
                 catalog = Array.isArray(data) ? data : [];
+                catalogByPath = new Map(catalog.map(f => [normalizePath(f.path), f]));
+                // Online: make sure saved offline copies still match the library
+                // (handles renamed / moved / replaced / deleted files).
+                if (navigator.onLine && window.WyOffline) WyOffline.reconcile(catalog);
                 return catalog;
             })
             .catch(err => {
@@ -205,12 +216,21 @@ function trackEvent(eventName, params) {
 
 function handleRouteFromUrl() {
     const hash = window.location.hash || "";
-    if (hash.startsWith("#/about")) {
+    if (hash.startsWith("#/saved")) {
+        const sub = hash.replace(/^#\/saved\/?/, "").split("/").filter(Boolean).map(decodeURIComponent).join("/");
+        loadSaved(false, sub);
+    } else if (hash.startsWith("#/about")) {
         loadAbout(false);
     } else if (hash.startsWith("#/contact")) {
         loadRequest(false);
     } else if (hash.startsWith("#/practice")) {
         loadPractice(false);
+    } else if (hash.startsWith("#/file/")) {
+        // Deep link to one file: #/file/<id>  (id = stable catalog id, or the file path as a fallback)
+        const key = hash.slice("#/file/".length).split(/[?/]/)[0];
+        let decoded = "";
+        try { decoded = decodeURIComponent(key); } catch (_) { /* malformed link */ }
+        openSharedFile(decoded);
     } else if (hash.startsWith("#/folder/")) {
         const raw = hash.replace("#/folder/", "");
         const parts = raw.split("/");
@@ -300,6 +320,9 @@ function _renderHome() {
     ];
 
     app.innerHTML = `
+        <a href="#/saved" id="savedLink" class="saved-link hidden">
+            <span>📥 My saved books</span><span class="saved-count"></span>
+        </a>
         <div class="cards" id="homeCardsInApp">
             ${categories.map(c => `
                 <div id="${c.id}">
@@ -323,6 +346,8 @@ function _renderHome() {
             loadFolder(a.dataset.category);
         });
     });
+
+    initSavedLink();
 
     // Compute library counts and size directly from client catalog
     getCatalog().then(allFiles => {
@@ -384,6 +409,7 @@ function _renderAbout() {
                         because documents have to be sent every time someone new wants them."
                     </p>
                 </div>
+                <p><button type="button" class="wn-link wn-link-about" data-wn-open>What’s new in ${APP_VERSION}</button></p>
                 <div class="tech-stack">
                     <p><strong>Technologies:</strong> HTML5, CSS3, Modern JavaScript (ES6+), Node.js, Vercel Serverless Functions, GitHub API (for automation).</p>
                     <p><strong>Features:</strong> Single Page Application (SPA) navigation, real-time search, dark mode theme, ZIP file content preview, dynamic library statistics, automated "Last Updated" tracking, and a fully responsive mobile-first layout.</p>
@@ -632,12 +658,18 @@ function renderFileCard(file, filePath, isDownloads, size) {
     const card = document.createElement("div");
     card.className = "file-card";
 
+    // Stable id (survives renames/moves) once scripts/add-ids.mjs has been run;
+    // until then the path doubles as the id.
+    const catEntry = catalogByPath.get(normalizePath(filePath));
+    const docId = (catEntry && catEntry.id) ? catEntry.id : normalizePath(filePath);
+    card.dataset.docId = docId;
+
     let openUrl = `/api/download?file=${encodeURIComponent(filePath)}`;
     
     // Open PDFs in our built-in PDF.js viewer (works on all devices, no size limit).
     // Use Google Docs Viewer only for Office files (Word/Excel/PowerPoint).
     if (ext === "pdf") {
-        openUrl = `/pdf-viewer?file=${encodeURIComponent(filePath)}`;
+        openUrl = `/pdf-viewer?file=${encodeURIComponent(filePath)}&id=${encodeURIComponent(docId)}`;
     } else {
         const officeExts = ["doc", "docx", "xls", "xlsx", "ppt", "pptx"];
         if (officeExts.includes(ext)) {
@@ -659,7 +691,7 @@ function renderFileCard(file, filePath, isDownloads, size) {
             <div class="file-actions">
                 ${isZip ? `<button class="open-zip-btn" data-file="${file}" data-path="${filePath}">View Contents</button>` : ""}
                 <a href="/api/download?file=${encodeURIComponent(filePath)}&mode=download" download="${file}">Download</a>
-                <a href="#" onclick="event.preventDefault(); shareFile('${file.replace(/'/g, "\\'")}', '${filePath.replace(/'/g, "\\'")}')">Share</a>
+                <a href="#" class="share-link" onclick="event.preventDefault(); shareFile('${file.replace(/'/g, "\\'")}', '${filePath.replace(/'/g, "\\'")}')">Share</a>
             </div>
         `;
     } else {
@@ -671,10 +703,10 @@ function renderFileCard(file, filePath, isDownloads, size) {
             <div class="file-actions">
                 ${isZip ? 
                     `<button class="open-zip-btn" data-file="${file}" data-path="${filePath}">View Contents</button>` : 
-                    `<a href="${openUrl}" target="_blank">Open</a>`
+                    `<a href="${openUrl}" class="open-link"${ext === "pdf" ? "" : ' target="_blank"'}>Open</a>`
                 }
                 <a href="/api/download?file=${encodeURIComponent(filePath)}&mode=download" download="${file}">Download</a>
-                <a href="#" onclick="event.preventDefault(); shareFile('${file.replace(/'/g, "\\'")}', '${filePath.replace(/'/g, "\\'")}')">Share</a>
+                <a href="#" class="share-link" onclick="event.preventDefault(); shareFile('${file.replace(/'/g, "\\'")}', '${filePath.replace(/'/g, "\\'")}')">Share</a>
             </div>
         `;
     }
@@ -697,7 +729,7 @@ function renderFileCard(file, filePath, isDownloads, size) {
     }
 
     // Track "Open" clicks (PDF viewer / Office viewer)
-    const openLink = card.querySelector('a[target="_blank"]');
+    const openLink = card.querySelector('a.open-link');
     if (openLink) {
         openLink.addEventListener('click', () => {
             trackEvent('file_open', {
@@ -708,8 +740,462 @@ function renderFileCard(file, filePath, isDownloads, size) {
         });
     }
 
+    // Offline saving (not offered for big ZIP packages)
+    if (!isZip) {
+        decorateFileCard(card, {
+            id: docId,
+            path: filePath,
+            name: file,
+            size: size || (catEntry && catEntry.size) || 0,
+            version: (catEntry && (catEntry.etag || catEntry.version || catEntry.modified)) || null,
+            ext
+        });
+    }
+
     return card;
 }
+
+// ─── Offline: "Save offline" buttons & My Saved Books ───────────────────────
+
+function offlineAvailable() {
+    return !!(window.WyOffline && WyOffline.isSupported());
+}
+
+function escapeHtmlText(str) {
+    return String(str == null ? "" : str).replace(/[&<>"']/g, ch =>
+        ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[ch]));
+}
+
+function showToast(message) {
+    showUpdateSuccessToast(message);
+}
+
+// Anything marked .is-disabled (needs internet, not saved) explains itself instead of failing.
+document.addEventListener("click", (e) => {
+    const link = e.target.closest && e.target.closest("a.is-disabled");
+    if (link) {
+        e.preventDefault();
+        e.stopPropagation();
+        showToast("📡 Needs internet. Save books for offline while you're online.");
+    }
+}, true);
+
+function decorateFileCard(card, info) {
+    if (!offlineAvailable()) return;
+    const actions = card.querySelector(".file-actions");
+    if (!actions) return;
+
+    card._docInfo = info;
+    card.dataset.docId = info.id;
+
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "btn-save-offline";
+    actions.insertBefore(btn, actions.lastElementChild);   // Open, Download, Save offline, Share
+    btn.addEventListener("click", () => onSaveButton(card, btn));
+
+    // Offline + saved: hand over the saved copy instead of hitting the network.
+    const exportSaved = (e) => {
+        if (!navigator.onLine && WyOffline.get(info.id)) {
+            e.preventDefault();
+            WyOffline.exportFile(info.id, info.name).catch(err => showToast("⚠️ " + err.message));
+        }
+    };
+    const dl = card.querySelector("a[download]");
+    if (dl) dl.addEventListener("click", exportSaved);
+    const open = card.querySelector('a.open-link');
+    if (open && info.ext !== "pdf") open.addEventListener("click", exportSaved);
+
+    WyOffline.ready().then(() => refreshFileCard(card));
+}
+
+function refreshFileCard(card) {
+    const info = card._docInfo;
+    const btn = card.querySelector(".btn-save-offline");
+    if (!info || !btn) return;
+
+    const doc = WyOffline.get(info.id);
+    const online = navigator.onLine;
+    card.classList.toggle("is-saved", !!doc);
+
+    // Offline and not saved: Open/Download can't work, so say so up front.
+    card.querySelectorAll('.file-actions a[download], .file-actions a.open-link').forEach(a => {
+        const block = !online && !doc;
+        a.classList.toggle("is-disabled", block);
+        a.setAttribute("aria-disabled", block ? "true" : "false");
+        a.title = block ? "Needs internet. Save it for offline while online." : "";
+    });
+
+    if (btn.dataset.busy) return;
+    if (doc && doc.status === "outdated") {
+        btn.textContent = "Update";
+        btn.dataset.mode = "update";
+        btn.disabled = !online;
+        btn.title = "A newer version is in the library. Tap to update your saved copy.";
+    } else if (doc) {
+        btn.textContent = "✓ Saved";
+        btn.dataset.mode = "remove";
+        btn.disabled = false;
+        btn.title = "Tap to remove from offline storage";
+    } else {
+        btn.textContent = "Save offline";
+        btn.dataset.mode = "save";
+        btn.disabled = !online;
+        btn.title = online ? "" : "Needs internet";
+    }
+}
+
+function refreshAllFileCards() {
+    document.querySelectorAll(".file-card").forEach(refreshFileCard);
+}
+
+async function onSaveButton(card, btn) {
+    const info = card._docInfo;
+    if (btn.dataset.mode === "remove") {
+        if (!confirm(`Remove "${info.name}" from offline storage?`)) return;
+        try { await WyOffline.remove(info.id); }
+        catch (err) { showToast("⚠️ " + (err.message || "Could not remove it.")); }
+        return;
+    }
+
+    btn.dataset.busy = "1";
+    btn.disabled = true;
+    btn.title = "Saving for offline…";
+    btn.textContent = "0%";
+    try {
+        await WyOffline.save(info, p => { btn.textContent = `${Math.round(p * 100)}%`; });
+        trackEvent("offline_save", { file_name: info.name, file_path: info.path });
+    } catch (err) {
+        showToast("⚠️ " + (err.message || "Could not save this file."));
+    } finally {
+        delete btn.dataset.busy;
+        refreshFileCard(card);
+    }
+}
+
+// Home: "My saved books" shortcut (only shown when something is saved)
+function initSavedLink() {
+    const link = document.getElementById("savedLink");
+    if (!link) return;
+    link.addEventListener("click", (e) => { e.preventDefault(); loadSaved(); });
+    updateSavedLink();
+}
+
+function updateSavedLink() {
+    const link = document.getElementById("savedLink");
+    if (!link || !offlineAvailable()) return;
+    WyOffline.ready().then(() => {
+        const n = WyOffline.count();
+        link.classList.toggle("hidden", n === 0);
+        const c = link.querySelector(".saved-count");
+        if (c) c.textContent = `${n} saved`;
+    });
+}
+
+// Saved Books page (folders work like the library folders: tap to go in, breadcrumb to go back)
+let savedPath = "";
+
+async function loadSaved(push = true, subPath = "") {
+    savedPath = subPath || "";
+    if (push) {
+        const hash = savedPath
+            ? "#/saved/" + savedPath.split("/").map(encodeURIComponent).join("/")
+            : "#/saved";
+        history.pushState({ view: "saved", subPath: savedPath }, "", hash);
+        await navigateTo(_renderSaved, "Saved books - e-library");
+    } else {
+        _renderSaved();
+    }
+}
+
+async function _renderSaved() {
+    currentCategory = null;
+    currentPath = "";
+    app.innerHTML = `
+        <div class="breadcrumb-container" id="savedCrumbs"></div>
+        <div class="folder-meta"><span class="folder-file-count" id="savedMeta"></span></div>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search saved books..." />
+        </div>
+        <div class="folder-actions-bar">
+            <button id="downloadSelected">Download Selected</button>
+            <span id="selectAllToggle" class="select-all-toggle">Select All</span>
+        </div>
+        <div class="grid" id="savedList"></div>
+    `;
+    if (offlineAvailable()) await WyOffline.ready();
+    renderSavedList();
+    initSavedSelection();
+
+    const searchInput = document.getElementById("searchInput");
+    searchInput.addEventListener("input", () => renderSavedList());
+    const trackSavedSearch = debounce((query) => {
+        if (query.length < 2) return;
+        trackEvent('search', { search_term: query, search_folder: "Saved books" });
+    }, 1500);
+    searchInput.addEventListener("input", () => trackSavedSearch(searchInput.value.trim()));
+}
+
+function renderSavedCrumbs() {
+    const box = document.getElementById("savedCrumbs");
+    if (!box) return;
+    const parts = savedPath.split("/").filter(Boolean);
+    let html = `<span class="breadcrumb" data-home="true">Home</span> / <span class="breadcrumb" data-path="">Saved books</span>`;
+    let sofar = "";
+    parts.forEach(p => {
+        sofar = sofar ? `${sofar}/${p}` : p;
+        html += ` / <span class="breadcrumb" data-path="${escapeHtmlText(sofar)}">${escapeHtmlText(p)}</span>`;
+    });
+    box.innerHTML = html;
+    box.querySelectorAll(".breadcrumb").forEach(span => {
+        span.addEventListener("click", () => {
+            if (span.dataset.home) loadHome();
+            else loadSaved(true, span.dataset.path || "");
+        });
+    });
+}
+
+function renderSavedList() {
+    const list = document.getElementById("savedList");
+    const meta = document.getElementById("savedMeta");
+    if (!list) return;
+
+    const docs = offlineAvailable() ? WyOffline.list() : [];
+    const dirOf = d => normalizePath(d.path).split("/").filter(Boolean).slice(0, -1);
+
+    // If the current folder has emptied out (e.g. last book removed), step up to one that has files
+    while (savedPath && !docs.some(d => (dirOf(d).join("/") + "/").startsWith(savedPath + "/"))) {
+        savedPath = savedPath.split("/").slice(0, -1).join("/");
+        history.replaceState({ view: "saved", subPath: savedPath }, "",
+            savedPath ? "#/saved/" + savedPath.split("/").map(encodeURIComponent).join("/") : "#/saved");
+    }
+    renderSavedCrumbs();
+
+    const base = savedPath ? savedPath.split("/") : [];
+    const inScope = docs.filter(d => {
+        const dir = dirOf(d);
+        return base.every((p, i) => dir[i] === p);
+    });
+
+    // Direct subfolders and files of the current folder
+    const folders = new Map();   // name -> file count
+    const files = [];
+    inScope.forEach(d => {
+        const dir = dirOf(d);
+        if (dir.length === base.length) files.push(d);
+        else folders.set(dir[base.length], (folders.get(dir[base.length]) || 0) + 1);
+    });
+
+    const total = inScope.reduce((sum, d) => sum + (d.bytes || d.size || 0), 0);
+    if (meta) {
+        if (!docs.length) meta.textContent = "Nothing saved yet";
+        else if (folders.size && files.length) meta.textContent = `${folders.size} folder${folders.size !== 1 ? "s" : ""}, ${files.length} file${files.length !== 1 ? "s" : ""}`;
+        else if (folders.size) meta.textContent = `${folders.size} folder${folders.size !== 1 ? "s" : ""} in this section`;
+        else meta.textContent = `${files.length} file${files.length !== 1 ? "s" : ""} in this folder`;
+        if (docs.length) meta.textContent += ` · ${formatBytes(total)} on this device`;
+    }
+
+    list.innerHTML = "";
+    if (!docs.length) {
+        list.innerHTML = `<p class="empty-state">No saved books yet. Tap “Save offline” on any file while you’re online and it will show up here.</p>`;
+        return;
+    }
+
+    // Search: flat list of matching files in this folder (and below), like the library search
+    const searchInput = document.getElementById("searchInput");
+    const rawQuery = searchInput ? searchInput.value.trim() : "";
+    if (rawQuery) {
+        const words = rawQuery.toLowerCase().split(/\s+/);
+        const hits = inScope.filter(d => {
+            const hay = (d.name + " " + normalizePath(d.path)).toLowerCase();
+            return words.every(w => hay.includes(w));
+        });
+        if (!hits.length) {
+            list.innerHTML = `<p class="empty-state">No files found for "<strong>${escapeHtmlText(rawQuery)}</strong>" in this folder.</p>`;
+            return;
+        }
+        hits.forEach(d => list.appendChild(buildSavedCard(d)));
+        return;
+    }
+
+    [...folders.keys()]
+        .sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: "base" }))
+        .forEach(name => {
+            const n = folders.get(name);
+            const card = document.createElement("div");
+            card.className = "folder-card";
+            card.innerHTML = `
+                <div class="folder-top">
+                    <input type="checkbox" class="folder-checkbox">
+                    <span class="folder-name">📁 ${escapeHtmlText(name)}</span>
+                </div>
+                <span class="folder-count-badge">${n} file${n !== 1 ? "s" : ""}</span>
+            `;
+            const folderCb = card.querySelector(".folder-checkbox");
+            folderCb.dataset.path = savedPath ? `${savedPath}/${name}` : name;
+            folderCb.addEventListener("click", e => e.stopPropagation());   // don't open the folder
+            card.addEventListener("click", () => loadSaved(true, savedPath ? `${savedPath}/${name}` : name));
+            list.appendChild(card);
+        });
+    files.forEach(d => list.appendChild(buildSavedCard(d)));
+    updateSavedSelectToggle();
+}
+
+// ─── Saved Books: multi-select (checkboxes on files and folders) ─────────────
+
+function updateSavedSelectToggle() {
+    const toggle = document.getElementById("selectAllToggle");
+    if (!toggle) return;
+    const boxes = document.querySelectorAll("#savedList .file-checkbox, #savedList .folder-checkbox");
+    const allChecked = boxes.length > 0 && Array.from(boxes).every(cb => cb.checked);
+    toggle.textContent = allChecked ? "Deselect All" : "Select All";
+}
+
+function initSavedSelection() {
+    const list = document.getElementById("savedList");
+    const toggle = document.getElementById("selectAllToggle");
+    const btn = document.getElementById("downloadSelected");
+    if (!list || !toggle || !btn) return;
+
+    list.addEventListener("change", e => {
+        if (e.target.classList.contains("file-checkbox") || e.target.classList.contains("folder-checkbox")) {
+            updateSavedSelectToggle();
+        }
+    });
+
+    toggle.addEventListener("click", () => {
+        const boxes = list.querySelectorAll(".file-checkbox, .folder-checkbox");
+        const allChecked = Array.from(boxes).every(cb => cb.checked);
+        boxes.forEach(cb => { cb.checked = !allChecked; });
+        updateSavedSelectToggle();
+    });
+
+    btn.addEventListener("click", () => {
+        const docs = offlineAvailable() ? WyOffline.list() : [];
+        const dirOf = d => normalizePath(d.path).split("/").filter(Boolean).slice(0, -1).join("/");
+
+        const picked = new Map();   // id -> doc (dedupes a file picked directly and via its folder)
+        list.querySelectorAll(".file-checkbox:checked").forEach(cb => {
+            const d = docs.find(x => x.id === cb.dataset.id);
+            if (d) picked.set(d.id, d);
+        });
+        list.querySelectorAll(".folder-checkbox:checked").forEach(cb => {
+            const prefix = cb.dataset.path;
+            docs.forEach(d => {
+                const dir = dirOf(d);
+                if (dir === prefix || dir.startsWith(prefix + "/")) picked.set(d.id, d);
+            });
+        });
+
+        if (!picked.size) return alert("No items selected");
+        const items = Array.from(picked.values());
+        const total = items.reduce((sum, d) => sum + (d.bytes || d.size || 0), 0);
+        if (!confirm(`Download ${items.length} saved file${items.length !== 1 ? "s" : ""} (${formatBytes(total)})?`)) return;
+
+        trackEvent('batch_download', { file_count: items.length, folder: "Saved books" });
+        items.forEach((d, i) => {
+            setTimeout(() => {
+                WyOffline.exportFile(d.id, d.name).catch(err => showToast("⚠️ " + err.message));
+            }, i * 800);
+        });
+    });
+}
+
+function buildSavedCard(d) {
+    const ext = d.name.split(".").pop().toLowerCase();
+    const icon = ext === "pdf" ? "📕" : (["zip", "rar"].includes(ext) ? "🗜️" : "📄");
+    const cleanName = d.name.replace(/\.[^/.]+$/, "");
+    const folder = normalizePath(d.path).split("/").slice(0, -1).join(" / ");
+    const badge = d.status === "removed"
+        ? `<div class="saved-badge warn">No longer in the library. Your copy still works.</div>`
+        : d.status === "outdated"
+            ? `<div class="saved-badge info">A newer version is available. Open the folder to update.</div>`
+            : "";
+    const viewerUrl = `/pdf-viewer?file=${encodeURIComponent(d.path)}&id=${encodeURIComponent(d.id)}`;
+
+    const card = document.createElement("div");
+    card.className = "file-card is-saved";
+    card.innerHTML = `
+        <div class="file-top"><input type="checkbox" class="file-checkbox"><span>${icon} ${escapeHtmlText(cleanName)} <span class="file-size" style="font-size:0.8em;opacity:0.7;margin-left:5px;">(${formatBytes(d.bytes || d.size)})</span></span></div>
+        <div class="saved-folder">📁 ${escapeHtmlText(folder || "Library")}</div>
+        ${badge}
+        <div class="file-actions">
+            ${ext === "pdf"
+                ? `<a href="${viewerUrl}" class="open-link">Open</a>`
+                : `<a href="#" class="saved-open open-link" target="_blank">Open</a>`}
+            <a href="#" download class="saved-export">Download</a>
+            <button type="button" class="btn-remove-saved">Remove</button>
+        </div>
+    `;
+
+    const fileCb = card.querySelector(".file-checkbox");
+    fileCb.dataset.id = d.id;
+    fileCb.dataset.name = d.name;
+    const doExport = (e) => {
+        e.preventDefault();
+        WyOffline.exportFile(d.id, d.name).catch(err => showToast("⚠️ " + err.message));
+    };
+    card.querySelector(".saved-export").addEventListener("click", doExport);
+    const openOther = card.querySelector(".saved-open");
+    if (openOther) openOther.addEventListener("click", doExport);
+    card.querySelector(".btn-remove-saved").addEventListener("click", async () => {
+        if (!confirm(`Remove "${d.name}" from offline storage?`)) return;
+        try { await WyOffline.remove(d.id); }
+        catch (err) { showToast("⚠️ " + (err.message || "Could not remove it.")); }
+    });
+    return card;
+}
+
+// Pill shown while offline: says "Offline"; tap it to see how many saved books are available
+let offlinePillTimer = null;
+
+function refreshOfflineBanner() {
+    const banner = document.getElementById("offlineBanner");
+    if (!banner || navigator.onLine) return;
+    clearTimeout(offlinePillTimer);
+    banner.innerHTML = `<span role="button" tabindex="0">Offline</span>`;
+}
+
+function toggleOfflinePill() {
+    const banner = document.getElementById("offlineBanner");
+    const pill = banner && banner.querySelector("span");
+    if (!pill || navigator.onLine) return;
+
+    if (pill.dataset.expanded) {            // tap again: collapse
+        refreshOfflineBanner();
+        return;
+    }
+    const show = (n) => {
+        if (navigator.onLine) return;
+        pill.dataset.expanded = "1";
+        pill.textContent = n > 0
+            ? `${n} saved book${n !== 1 ? "s" : ""} available offline`
+            : "No saved books yet";
+        clearTimeout(offlinePillTimer);
+        offlinePillTimer = setTimeout(refreshOfflineBanner, 4000);
+    };
+    if (offlineAvailable()) WyOffline.ready().then(() => show(WyOffline.count()));
+    else show(0);
+}
+
+document.addEventListener("click", (e) => {
+    if (e.target.closest && e.target.closest("#offlineBanner span")) toggleOfflinePill();
+});
+document.addEventListener("keydown", (e) => {
+    if ((e.key === "Enter" || e.key === " ") && e.target.closest && e.target.closest("#offlineBanner span")) {
+        e.preventDefault();
+        toggleOfflinePill();
+    }
+});
+
+window.addEventListener("online", refreshAllFileCards);
+window.addEventListener("offline", refreshAllFileCards);
+window.addEventListener("wyoffline:changed", () => {
+    refreshAllFileCards();
+    updateSavedLink();
+    refreshOfflineBanner();
+    if (document.getElementById("savedList")) renderSavedList();
+});
 
 // ─── Load Folder ─────────────────────────────────────────────────────────────
 
@@ -725,7 +1211,7 @@ async function loadFolder(category, subFolder = "", push = true) {
         const folderTitle = subFolder ? `${category} > ${subFolder}` : category;
         await navigateTo(() => _renderFolder(category, subFolder), `${folderTitle} - e-library`);
     } else {
-        _renderFolder(category, subFolder);
+        await _renderFolder(category, subFolder);
     }
 }
 
@@ -843,6 +1329,7 @@ async function _renderFolder(category, subFolder) {
 
     renderFolderContents(data.folders, data.files);
     updateSelectAllToggleText();
+    applyPendingHighlight();
 
     document.getElementById("downloadSelected").addEventListener("click", async () => {
         const selectedFiles = Array.from(document.querySelectorAll(".file-checkbox:checked")).map(cb => ({
@@ -1191,8 +1678,85 @@ async function shareSite() {
     }
 }
 
+// In-app link to one file. Uses the stable catalog id so the link keeps working
+// after the file is renamed or moved; falls back to the path if ids aren't built yet.
+function fileDeepLink(path) {
+    const entry = catalogByPath.get(normalizePath(path));
+    const key = (entry && entry.id) ? entry.id : normalizePath(path);
+    return `${window.location.origin}/#/file/${encodeURIComponent(key)}`;
+}
+
+// Open a shared deep link: go to the file's folder, scroll to its card and highlight it.
+async function openSharedFile(key) {
+    const all = await getCatalog();
+
+    if (!all.length) {
+        history.replaceState({ view: "home" }, "", "#/");
+        await loadHome(false);
+        showToast("📡 Couldn't load the library. Check your connection and try again.");
+        return;
+    }
+
+    const entry = key && (all.find(f => f.id === key) || catalogByPath.get(normalizePath(key)));
+    const parts = entry ? normalizePath(entry.path).split("/").filter(Boolean) : [];
+
+    if (!entry || parts.length < 2) {
+        history.replaceState({ view: "home" }, "", "#/");
+        await loadHome(false);
+        showToast("That file is no longer available. Here's the full library.");
+        return;
+    }
+
+    const category = parts[0];
+    const subFolder = parts.slice(1, -1).join("/");
+    const hash = subFolder
+        ? `#/folder/${encodeURIComponent(category)}/${encodeURIComponent(subFolder)}`
+        : `#/folder/${encodeURIComponent(category)}`;
+
+    pendingHighlightId = entry.id || normalizePath(entry.path);
+    // Replace (not push) so Back leaves the app instead of bouncing through the deep link,
+    // and a refresh shows the plain folder without re-running the highlight.
+    history.replaceState({ view: "folder", category, subFolder }, "", hash);
+    await loadFolder(category, subFolder, false);
+}
+
+function applyPendingHighlight() {
+    if (!pendingHighlightId) return;
+    const id = pendingHighlightId;
+    pendingHighlightId = null;
+
+    function doHighlight() {
+        const card = Array.from(document.querySelectorAll(".file-card"))
+            .find(c => c.dataset.docId === id);
+        if (!card) return;
+
+        const reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        card.setAttribute("tabindex", "-1");
+        card.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "center" });
+        try { card.focus({ preventScroll: true }); } catch (_) {}
+        card.classList.add("shared-highlight");
+        setTimeout(() => card.classList.remove("shared-highlight"), 6000);
+        trackEvent("shared_file_opened", { file_id: id });
+    }
+
+    // Wait until splash screen has cleared if visible on cold load
+    const splash = document.getElementById('splash');
+    if (splash && !document.documentElement.classList.contains('no-splash')) {
+        let attempts = 0;
+        const interval = setInterval(() => {
+            attempts++;
+            if (!document.getElementById('splash') || splash.classList.contains('out') || attempts > 25) {
+                clearInterval(interval);
+                setTimeout(doHighlight, 300);
+            }
+        }, 100);
+    } else {
+        setTimeout(doHighlight, 120);
+    }
+}
+
 async function shareFile(name, path) {
-    const url = `${window.location.origin}/api/download?file=${encodeURIComponent(path)}&mode=download`;
+    const url = fileDeepLink(path);
     const shareData = {
         title: name,
         text: `Check out this resource from Wycliffe's e-library: ${name}`,
@@ -1204,11 +1768,13 @@ async function shareFile(name, path) {
             await navigator.share(shareData);
         } else {
             await navigator.clipboard.writeText(url);
-            alert("Link copied to clipboard!");
+            showToast("🔗 Link copied to clipboard!");
         }
+        trackEvent("file_share", { file_name: name, file_path: path });
     } catch (err) {
         if (err.name !== 'AbortError') {
             console.error("Error sharing file:", err);
+            showToast("⚠️ Couldn't share the link. Please try again.");
         }
     }
 }
@@ -1218,6 +1784,9 @@ async function shareFile(name, path) {
 let deferredPrompt;
 
 function showInstallModal() {
+    // Don't interrupt a deep-link arrival — the user came to see a specific file.
+    // Use the flag captured at script start; by now the hash may already be the folder URL.
+    if (window.__arrivedViaFileDeepLink) return;
     const installModal = document.getElementById('installModal');
     if (installModal) installModal.classList.remove('hidden');
 }
@@ -1250,21 +1819,104 @@ function hideInstallModal() {
 
 // ─── Offline & Update Notification Architecture ──────────────────────────────
 
-function updateOnlineStatus() {
-    const banner = document.getElementById("offlineBanner");
-    if (!banner) return;
-    if (!navigator.onLine) {
-        banner.style.display = "flex";
-        banner.classList.remove("hidden", "back-online");
-        banner.innerHTML = '<span>📡 You are offline. Practice Quiz & cached materials are available.</span>';
-    } else {
-        if (banner.style.display === "flex" && !banner.classList.contains("hidden")) {
-            banner.classList.add("back-online");
-            banner.innerHTML = '<span>🟢 Back online!</span>';
+let isHeaderVisible = true;
+let pendingFlip = null; // 'offline' | 'online' | null
+let flipTimeout = null;
+const ORIGINAL_TITLE = "Wycliffe's e-library";
+
+function flipTitleTo(newText, durationMs = 3500) {
+    const titleEl = document.getElementById("siteTitle");
+    if (!titleEl) return;
+    if (flipTimeout) clearTimeout(flipTimeout);
+
+    titleEl.classList.add("is-flipping");
+    setTimeout(() => {
+        titleEl.textContent = newText;
+        titleEl.classList.remove("is-flipping");
+
+        flipTimeout = setTimeout(() => {
+            titleEl.classList.add("is-flipping");
             setTimeout(() => {
-                banner.classList.add("hidden");
-                banner.style.display = "none";
-            }, 3000);
+                titleEl.textContent = ORIGINAL_TITLE;
+                titleEl.classList.remove("is-flipping");
+            }, 220);
+        }, durationMs);
+    }, 220);
+}
+
+function triggerOfflineFlip() {
+    if (isHeaderVisible) {
+        flipTitleTo("📡 Offline Mode", 3500);
+        pendingFlip = null;
+    } else {
+        pendingFlip = 'offline';
+    }
+}
+
+function triggerOnlineFlip() {
+    if (isHeaderVisible) {
+        flipTitleTo("🟢 Back Online", 2500);
+        pendingFlip = null;
+    } else {
+        pendingFlip = 'online';
+    }
+}
+
+function initHeaderObserver() {
+    const headerTop = document.querySelector(".header-top");
+    if (!headerTop) return;
+
+    if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                isHeaderVisible = entry.isIntersecting;
+                if (isHeaderVisible && pendingFlip) {
+                    if (pendingFlip === 'offline') flipTitleTo("📡 Offline Mode", 3500);
+                    else if (pendingFlip === 'online') flipTitleTo("🟢 Back Online", 2500);
+                    pendingFlip = null;
+                }
+            });
+        }, { threshold: 0.15 });
+        observer.observe(headerTop);
+    }
+
+    const badge = document.getElementById("offlineBadge");
+    if (badge) {
+        badge.addEventListener("click", () => {
+            flipTitleTo("📡 Offline Mode", 3500);
+        });
+    }
+}
+
+function updateOnlineStatus(isInitial = false) {
+    const headerTop = document.querySelector(".header-top");
+    const isOnline = navigator.onLine;
+
+    if (!isOnline) {
+        if (headerTop) headerTop.classList.add("is-offline");
+        if (isInitial) {
+            // Give reader 1.5s to read original title first
+            setTimeout(() => triggerOfflineFlip(), 1500);
+        } else {
+            triggerOfflineFlip();
+        }
+    } else {
+        if (headerTop && headerTop.classList.contains("is-offline")) {
+            headerTop.classList.remove("is-offline");
+            triggerOnlineFlip();
+        }
+    }
+
+    // Refresh file card buttons state (grey out unsaved files when offline)
+    document.querySelectorAll(".file-card").forEach(refreshFileCard);
+
+    // Refresh offline banner if present
+    const banner = document.getElementById("offlineBanner");
+    if (banner) {
+        if (!isOnline) {
+            banner.style.display = "flex";
+            banner.classList.remove("hidden", "back-online");
+            refreshOfflineBanner();
         } else {
             banner.classList.add("hidden");
             banner.style.display = "none";
@@ -1272,8 +1924,8 @@ function updateOnlineStatus() {
     }
 }
 
-window.addEventListener("online", updateOnlineStatus);
-window.addEventListener("offline", updateOnlineStatus);
+window.addEventListener("online", () => updateOnlineStatus(false));
+window.addEventListener("offline", () => updateOnlineStatus(false));
 
 function checkVersionHandshake() {
     try {
@@ -1325,6 +1977,9 @@ function showUpdatePrompt(waitingWorker) {
         try {
             localStorage.setItem("wylibrary_pending_version", APP_VERSION);
         } catch (e) {}
+        // Flag that this reload is user-initiated — controllerchange listener
+        // checks this so it doesn't auto-reload on every fresh SW install.
+        window.__swUpdateRequested = true;
         waitingWorker.postMessage({ type: "SKIP_WAITING" });
         toast.remove();
     });
@@ -1359,10 +2014,11 @@ function initServiceWorker() {
         })
         .catch(err => console.log('Service Worker registration failed', err));
 
-    let refreshing = false;
+    // Only reload when the user explicitly clicked "Update" (sets __swUpdateRequested).
+    // Without this guard, clients.claim() on first SW install triggers controllerchange
+    // and causes a double-load / auto-refresh on every fresh page open.
     navigator.serviceWorker.addEventListener('controllerchange', () => {
-        if (!refreshing) {
-            refreshing = true;
+        if (window.__swUpdateRequested) {
             window.location.reload();
         }
     });
@@ -1370,7 +2026,8 @@ function initServiceWorker() {
 
 window.addEventListener("DOMContentLoaded", () => {
     initServiceWorker();
-    updateOnlineStatus();
+    initHeaderObserver();
+    updateOnlineStatus(true);
     checkVersionHandshake();
 
     // PWA Install Button Logic

@@ -1,14 +1,19 @@
 /* Structural layout components: Header, Navigation pills, and Footer. */
 /* ─── Header Section ─── */
+/* Single merged definition (previously declared twice; the second copy
+   silently overrode padding/radius/alignment). Values below are the ones
+   that were actually being applied, so the look is unchanged. */
 .header {
     display: flex;
-    flex-direction: column;   /* stack content */
-    align-items: flex-start;
-    gap: 15px;                /* controlled spacing */
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
 
     background: var(--header-bg);
-    padding: 25px;
-    border-radius: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
     color: white;
 }
 
@@ -30,6 +35,55 @@
 .header h1 {
     font-size: 2rem;
     margin: 0;
+    transition: opacity 0.22s ease, transform 0.22s ease;
+}
+
+/* Title mid-flip (offline / back online messages) */
+.header h1.is-flipping {
+    opacity: 0;
+    transform: translateY(-8px);
+}
+
+/* Logo + tiny "you are offline" badge on its corner */
+.logo-wrap {
+    position: relative;
+    display: inline-flex;
+    flex: none;
+}
+
+.offline-badge {
+    display: none;
+    position: absolute;
+    right: -6px;
+    bottom: -6px;
+    width: 22px;
+    height: 22px;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    line-height: 1;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background: #f59e0b;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+    cursor: pointer;
+}
+
+.header-top.is-offline .offline-badge {
+    display: inline-flex;
+    animation: badgePop 0.35s ease;
+}
+
+@keyframes badgePop {
+    from { transform: scale(0); }
+    70%  { transform: scale(1.2); }
+    to   { transform: scale(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .header h1 { transition: none; }
+    .header-top.is-offline .offline-badge { animation: none; }
 }
 
 /* Nav container */
@@ -55,28 +109,13 @@
     color: #1565c0;
 }
 
-/* Alternative Header implementation from style.css legacy sections */
-.header {
-    display: flex;
-    flex-wrap: wrap; /* allow wrapping */
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(0,104,202); /* blue background */
-    padding: 10px 20px;
-    border-radius: 10px;
-    color: white;
-}
-
 /* Mobile adjustments (stacking / spacing) */
 @media (max-width: 720px) {
     .header {
-        flex-direction: column;
         align-items: flex-start;
     }
 
     .header nav {
-        display: flex;
-        flex-wrap: wrap;
         gap: 10px;
         width: 100%;
         margin-top: 5px;
@@ -220,7 +259,7 @@ html.dark #darkModeToggle {
     padding: 30px;
     max-width: 900px;
     margin: 40px auto;
-    background-color: rgba(255,255,255,0.9);
+    background-color: var(--bg-about);
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }

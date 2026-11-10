@@ -54,11 +54,12 @@
    - **Remove Selected** (saved books page): add a "Remove Selected" button next to "Download Selected" for bulk-deleting saved books. Suggested by Claude alongside the checkboxes feature (Nov 2026).
    - **Multi-Download Fallback (Client-side ZIP):** Many mobile browsers block multiple simultaneous file downloads. Detect this restriction or provide an option to package selected files into a single `.zip` file client-side (using JSZip) for 1-click batch download.
 
-6. **Smart In-App Deep-Link Sharing (Navigate, Auto-Focus & Highlight)**
+6. ✅ **Smart In-App Deep-Link Sharing (Navigate, Auto-Focus & Highlight)** — *implemented (app.js v5.2.0, SW v34): link format is `#/file/<stable-id>`; Share button now sends this link; unknown ids fall back to home with a toast*
    - Instead of sharing a raw download URL that isolates the file from the platform:
-   - Share an in-app deep-link (e.g., `https://wylibrary.org/#/folder/Books/Physics?file=Excel_Phy.pdf` or `?id=file_id`).
-   - When opened by a peer, the link lands them directly inside Wylibrary at the exact folder location, auto-scrolls to the target card, and draws attention with a subtle pulse/glow animation (and/or checks its box).
+   - Share an in-app deep-link (e.g., `https://wylibrary.org/#/file/<id>`).
+   - When opened by a peer, the link lands them directly inside Wylibrary at the exact folder location, auto-scrolls to the target card, and draws attention with a badge and pulse animation.
    - **Value:** Introduces students to the full library and surrounding past papers, letting them choose whether to Open, Download, or Save Offline with 1 tap.
+   - **Future Refinement (Highlight Persistence & Triggers):** Currently pulse fades on a timer. Make highlight duration longer or tie dismissal to user interaction (e.g., stop pulse when scrolling is detected, when the card scrolls out of viewport, or on directory navigation change) so slow readers don't miss the target item.
 
 ---
 
@@ -124,6 +125,13 @@
 
 ### 14. AI Assistant for Site Help & Navigation
 - **In-App AI Guide:** A lightweight assistant to help students find study materials, past papers, syllabus contents, and explain how to use library features (offline saving, search, practice quizzes).
+
+### 15. Post-Download Donation Prompt System (PayChangu & PayPal)
+- **Support Mechanism:** Prompt a non-intrusive donation appeal after file downloads to support platform hosting, bandwidth, and ongoing curation.
+- **Payment Gateways:**
+  - **PayChangu:** For Malawian domestic contributions (Airtel Money, TNM Mpamba, local bank cards).
+  - **PayPal:** For international supporters wishing to contribute.
+- **Smart Suppression & Cooldown:** If a user contributes, suppress future donation prompts dynamically based on donation amount/tier (e.g., temporary exemption or tiered cool-off period tracked locally).
 
 ---
 

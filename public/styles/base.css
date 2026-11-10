@@ -21,6 +21,7 @@
     --badge-bg:       #c2d4f0;
     --badge-color:    #1a3a6e;
     --transition-speed: 0.25s;
+    --bg-fallback:    #1d5fa8;   /* shown while/if the background photo fails to load */
 
     /* Header & Home Cards */
     --header-bg:      linear-gradient(135deg, #1565c0, #1e88e5);
@@ -40,6 +41,7 @@
    repaint on scroll. */
 body {
     position: relative;
+    background-color: var(--bg-fallback);
 }
 
 body::before {

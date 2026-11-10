@@ -381,6 +381,7 @@
     </div>
 
     <!-- PDF.js CDN -->
+    <script src="/offline-store.js?v=11.1"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.4.168/pdf.min.mjs" type="module"></script>
     <script type="module">
         import * as pdfjsLib from 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.4.168/pdf.min.mjs';
@@ -418,7 +419,11 @@
 
         document.getElementById('back-btn').onclick = (e) => {
             e.preventDefault();
-            location.href = folderHash;
+            // Behave exactly like the phone's back button when we came from the library.
+            let fromLibrary = false;
+            try { fromLibrary = document.referrer && new URL(document.referrer).origin === location.origin; } catch (_) {}
+            if (fromLibrary && history.length > 1) history.back();
+            else location.href = folderHash;
         };
 
         const container = document.getElementById('viewer-container');
@@ -524,17 +529,39 @@
             }
 
             try {
-                loadingText.textContent = 'Connecting to library...';
-                // Fetch the direct R2 URL with cache-busting version so CORS headers are fresh
-                const res = await fetch(`/api/pdf-url?file=${encodeURIComponent(fileParam)}`);
-                if (!res.ok) throw new Error('Could not resolve file location');
-                const data = await res.json();
-                if (!data.url) throw new Error('File URL not found');
+                // Prefer the copy the reader saved on this device (works offline,
+                // survives renames/moves because it is matched by id, then path).
+                let savedUrl = null;
+                if (window.WyOffline && WyOffline.isSupported()) {
+                    try {
+                        await WyOffline.ready();
+                        const savedDoc = WyOffline.find(params.get('id'), fileParam);
+                        if (savedDoc) {
+                            loadingText.textContent = 'Opening saved copy...';
+                            savedUrl = await WyOffline.getBlobUrl(savedDoc.id);
+                        }
+                    } catch (e) {
+                        console.warn('Saved copy unavailable, using network:', e);
+                    }
+                }
 
-                loadingText.textContent = 'Opening book...';
+                let pdfUrl = savedUrl;
+                if (!pdfUrl) {
+                    if (!navigator.onLine) {
+                        throw new Error('You are offline and this book has not been saved for offline reading.');
+                    }
+                    loadingText.textContent = 'Connecting to library...';
+                    // Fetch the direct R2 URL with cache-busting version so CORS headers are fresh
+                    const res = await fetch(`/api/pdf-url?file=${encodeURIComponent(fileParam)}`);
+                    if (!res.ok) throw new Error('Could not resolve file location');
+                    const data = await res.json();
+                    if (!data.url) throw new Error('File URL not found');
+                    pdfUrl = data.url;
+                    loadingText.textContent = 'Opening book...';
+                }
 
                 const loadingTask = pdfjsLib.getDocument({
-                    url: data.url,
+                    url: pdfUrl,
                     withCredentials: false,
                     enableRangeRequests: true,
                     disableAutoFetch: true
