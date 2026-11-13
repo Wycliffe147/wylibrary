@@ -22,11 +22,16 @@ async function getCatalog() {
         catalogPromise = fetch('/files-index.json')
             .then(res => {
                 if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                const etag = res.headers.get('etag');
+                if (etag) {
+                    try { localStorage.setItem('wylibrary_catalog_etag', etag); } catch (e) {}
+                }
                 return res.json();
             })
             .then(data => {
                 catalog = Array.isArray(data) ? data : [];
                 catalogByPath = new Map(catalog.map(f => [normalizePath(f.path), f]));
+                try { localStorage.setItem('wylibrary_catalog_count', String(catalog.length)); } catch (e) {}
                 // Online: make sure saved offline copies still match the library
                 // (handles renamed / moved / replaced / deleted files).
                 if (navigator.onLine && window.WyOffline) WyOffline.reconcile(catalog);
@@ -1930,9 +1935,20 @@ window.addEventListener("offline", () => updateOnlineStatus(false));
 function checkVersionHandshake() {
     try {
         const pending = localStorage.getItem("wylibrary_pending_version");
+        const updateType = localStorage.getItem("wylibrary_pending_update_type") || "all";
         if (pending) {
             localStorage.removeItem("wylibrary_pending_version");
-            showUpdateSuccessToast(`✅ Updated successfully to ${APP_VERSION}!`);
+            localStorage.removeItem("wylibrary_pending_update_type");
+
+            let msg = `✅ Updated successfully to ${APP_VERSION}!`;
+            if (updateType === "materials") {
+                msg = "✅ Library updated with fresh study materials!";
+            } else if (updateType === "features") {
+                msg = `✅ Updated successfully to ${APP_VERSION}!`;
+            } else if (updateType === "all") {
+                msg = "✅ Updated successfully with new materials & features!";
+            }
+            showUpdateSuccessToast(msg);
         }
     } catch (e) {
         console.warn("Version handshake check failed:", e);
@@ -1954,7 +1970,119 @@ function showUpdateSuccessToast(message) {
     }, 3800);
 }
 
-function showUpdatePrompt(waitingWorker) {
+async function resolveUpdateInfo(waitingWorker) {
+    let meta = { type: "auto", title: "", message: "", version: "" };
+    if (waitingWorker) {
+        try {
+            const msgPromise = new Promise((resolve) => {
+                const channel = new MessageChannel();
+                const timeout = setTimeout(() => resolve(null), 1200);
+                channel.port1.onmessage = (e) => {
+                    clearTimeout(timeout);
+                    resolve(e.data && e.data.meta ? e.data.meta : null);
+                };
+                waitingWorker.postMessage({ type: "GET_UPDATE_META" }, [channel.port2]);
+            });
+            const received = await msgPromise;
+            if (received) meta = Object.assign(meta, received);
+        } catch (e) {
+            console.warn("Could not query worker update meta:", e);
+        }
+    }
+
+    // 1. Explicit custom title provided
+    if (meta.title) {
+        let icon = "⚡";
+        if (meta.type === "materials") icon = "📚";
+        else if (meta.type === "all") icon = "🚀";
+        return {
+            type: meta.type || "all",
+            icon: meta.icon || icon,
+            title: meta.title,
+            message: meta.message || "Tap to update now"
+        };
+    }
+
+    // 2. Explicit manual type override
+    if (meta.type === "materials") {
+        return {
+            type: "materials",
+            icon: "📚",
+            title: "New Study Materials",
+            message: meta.message || "New past papers & books ready to explore"
+        };
+    }
+    if (meta.type === "features") {
+        return {
+            type: "features",
+            icon: "⚡",
+            title: "New Features Ready",
+            message: meta.message || "App improvements & fixes ready"
+        };
+    }
+    if (meta.type === "all") {
+        return {
+            type: "all",
+            icon: "🚀",
+            title: "Update Available",
+            message: meta.message || "New study materials & features ready"
+        };
+    }
+
+    // 3. Automatic detection ('auto'):
+    let materialsChanged = false;
+    let featuresChanged = false;
+
+    // Check version difference
+    if (meta.version && meta.version !== APP_VERSION) {
+        featuresChanged = true;
+    }
+
+    // Check if catalog has changed via HEAD request to /files-index.json
+    try {
+        const headRes = await fetch("/files-index.json", { method: "HEAD", cache: "no-store" });
+        if (headRes.ok) {
+            const newEtag = headRes.headers.get("etag");
+            const storedEtag = localStorage.getItem("wylibrary_catalog_etag");
+            if (storedEtag && newEtag && storedEtag !== newEtag) {
+                materialsChanged = true;
+            }
+        }
+    } catch (e) {
+        // Fallback if HEAD check fails
+    }
+
+    if (materialsChanged && !featuresChanged) {
+        return {
+            type: "materials",
+            icon: "📚",
+            title: "New Study Materials",
+            message: meta.message || "New past papers & books ready to explore"
+        };
+    }
+
+    if (featuresChanged && !materialsChanged) {
+        return {
+            type: "features",
+            icon: "⚡",
+            title: "New Features Ready",
+            message: meta.message || "App improvements & fixes ready"
+        };
+    }
+
+    // Default when both changed or unknown
+    return {
+        type: "all",
+        icon: "⚡",
+        title: "Update Available",
+        message: meta.message || "New materials & features ready"
+    };
+}
+
+async function showUpdatePrompt(waitingWorker) {
+    if (document.getElementById("updateToast")) return;
+
+    const info = await resolveUpdateInfo(waitingWorker);
     if (document.getElementById("updateToast")) return;
 
     const toast = document.createElement("div");
@@ -1962,10 +2090,10 @@ function showUpdatePrompt(waitingWorker) {
     toast.className = "update-toast";
     toast.innerHTML = `
         <div class="update-toast-content">
-            <span class="update-icon">⚡</span>
+            <span class="update-icon">${info.icon}</span>
             <div class="update-text">
-                <strong>Update Available</strong>
-                <span>New materials & features ready</span>
+                <strong>${escapeHtmlText(info.title)}</strong>
+                <span>${escapeHtmlText(info.message)}</span>
             </div>
         </div>
         <button id="btnApplyUpdate" class="btn-update-now">Update</button>
@@ -1976,6 +2104,7 @@ function showUpdatePrompt(waitingWorker) {
     document.getElementById("btnApplyUpdate").addEventListener("click", () => {
         try {
             localStorage.setItem("wylibrary_pending_version", APP_VERSION);
+            localStorage.setItem("wylibrary_pending_update_type", info.type || "all");
         } catch (e) {}
         // Flag that this reload is user-initiated - controllerchange listener
         // checks this so it doesn't auto-reload on every fresh SW install.

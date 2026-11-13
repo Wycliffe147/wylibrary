@@ -1,7 +1,18 @@
 // Wylibrary Service Worker - v10.0
 // Network-First with Cache Fallback for seamless online updates & full offline resilience
 
-const CACHE_NAME = 'wylibrary-v39-20261113';
+const CACHE_NAME = 'wylibrary-v40-20261113';
+
+// Update notification metadata (hybrid system):
+// Set type to 'auto' to let the app automatically detect materials vs features,
+// or explicitly set 'materials', 'features', or 'all'.
+// Optional custom title/message can announce specific drops (e.g. 2026 exam papers).
+const UPDATE_META = {
+  version: 'v11.1',
+  type: 'auto',    // 'auto' | 'materials' | 'features' | 'all'
+  title: '',       // optional custom title override
+  message: ''      // optional custom message override
+};
 
 // Books the reader chose to keep. Managed by offline-store.js and NEVER deleted
 // when the app updates (see the activate handler below).
@@ -116,10 +127,18 @@ self.addEventListener('activate', event => {
   );
 });
 
-// Listen for direct SKIP_WAITING command from the Update Button
+// Listen for SKIP_WAITING and metadata requests from the Update Toast
 self.addEventListener('message', event => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
     self.skipWaiting();
+  }
+  if (event.data && event.data.type === 'GET_UPDATE_META') {
+    if (event.ports && event.ports[0]) {
+      event.ports[0].postMessage({
+        cacheName: CACHE_NAME,
+        meta: UPDATE_META
+      });
+    }
   }
 });
 
