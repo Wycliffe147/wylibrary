@@ -46,6 +46,7 @@
      - Script to validate filenames against the naming convention before upload.
      - Auto-generate / update `files-index.json` entries (description, category, path, ID) on upload rather than editing JSON manually.
      - Community submission workflow: WhatsApp group members submit files → ingestion script renames, places, and indexes them → they appear in the library automatically.
+     - **File deduplication via content hash:** At ingestion, the script computes a short hash (first 8 chars of SHA-256) from each file’s content and stores it in `files-index.json`. Before adding any new file, the script checks existing hashes and rejects exact duplicates automatically, even if the file was renamed or moved. The hash also doubles as a stable `id` tied to the actual content, not just the filename.
 
 5. **Batch Multi-Select & Share / Download Function**
    - Allow selecting multiple files (checkboxes / multi-select mode).
