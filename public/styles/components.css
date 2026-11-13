@@ -52,10 +52,17 @@ h2 {
     text-align: center;
 }
 
-#searchInput {
+.search-input-wrapper {
+    position: relative;
+    display: inline-block;
     width: 80%;
     max-width: 400px;
-    padding: 6px 10px;
+}
+
+#searchInput {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 32px 6px 10px;
     font-size: 14px;
     border: 1px solid var(--border-input);
     background: var(--bg-input);
@@ -67,6 +74,34 @@ h2 {
 #searchInput:focus {
     border-color: #0073e6;
     box-shadow: 0 0 3px rgba(0,115,230,0.5);
+}
+
+.search-clear-btn {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    font-size: 13px;
+    cursor: pointer;
+    padding: 4px 6px;
+    border-radius: 50%;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.15s, opacity 0.15s;
+}
+
+.search-clear-btn:hover {
+    color: var(--text-main);
+    opacity: 1;
+}
+
+.search-clear-btn.hidden {
+    display: none !important;
 }
 
 /* ─── Explorer Cards & Actions ─── */

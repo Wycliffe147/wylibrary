@@ -137,6 +137,25 @@ function searchCatalog(allFiles, category, subFolder = "", query = "") {
         .sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true, sensitivity: 'base' }));
 }
 
+function setupSearchClear(inputEl, clearBtnEl) {
+    if (!inputEl || !clearBtnEl) return;
+    const toggle = () => {
+        if (inputEl.value.trim().length > 0) {
+            clearBtnEl.classList.remove("hidden");
+        } else {
+            clearBtnEl.classList.add("hidden");
+        }
+    };
+    inputEl.addEventListener("input", toggle);
+    clearBtnEl.addEventListener("click", () => {
+        inputEl.value = "";
+        toggle();
+        inputEl.focus();
+        inputEl.dispatchEvent(new Event("input"));
+    });
+    toggle();
+}
+
 // ─── Dark Mode ───────────────────────────────────────────────────────────────
 
 function initDarkMode() {
@@ -467,6 +486,9 @@ async function _renderPractice() {
             <div id="quiz-header">
                 <h2>Interactive Practice</h2>
                 <p>Test your knowledge with these practice questions.</p>
+                <div class="practice-upcoming-badge">
+                    <span>✨ More past paper questions, subject quizzes & timed exam modes are on the way!</span>
+                </div>
             </div>
             <div id="quiz-app">
                 <div class="skeleton-line skeleton-pulse" style="width:100%;height:100px;margin-bottom:20px"></div>
@@ -507,6 +529,7 @@ function initQuiz(questions) {
                 <div class="quiz-results">
                     <h3>Practice Complete!</h3>
                     <p>Your score: <strong>${score} / ${questions.length}</strong></p>
+                    <p class="quiz-upcoming-note">Stay tuned! More past paper questions and subject sets are being added regularly.</p>
                     <button class="btn-confirm" onclick="loadPractice()">Restart</button>
                     <button class="btn-cancel" onclick="loadHome()">Back Home</button>
                 </div>
@@ -920,7 +943,10 @@ async function _renderSaved() {
         <div class="breadcrumb-container" id="savedCrumbs"></div>
         <div class="folder-meta"><span class="folder-file-count" id="savedMeta"></span></div>
         <div class="search-container">
-            <input type="text" id="searchInput" placeholder="Search saved books..." />
+            <div class="search-input-wrapper">
+                <input type="text" id="searchInput" placeholder="Search saved books..." autocomplete="off" />
+                <button type="button" id="searchClearBtn" class="search-clear-btn hidden" aria-label="Clear search">✕</button>
+            </div>
         </div>
         <div class="folder-actions-bar">
             <button id="downloadSelected">Download Selected</button>
@@ -933,6 +959,8 @@ async function _renderSaved() {
     initSavedSelection();
 
     const searchInput = document.getElementById("searchInput");
+    const searchClearBtn = document.getElementById("searchClearBtn");
+    setupSearchClear(searchInput, searchClearBtn);
     searchInput.addEventListener("input", () => renderSavedList());
     const trackSavedSearch = debounce((query) => {
         if (query.length < 2) return;
@@ -1253,7 +1281,10 @@ async function _renderFolder(category, subFolder) {
             <span class="folder-file-count">${folderMetaText}</span>
         </div>
         <div class="search-container">
-            <input type="text" id="searchInput" placeholder="Search in this folder..." />
+            <div class="search-input-wrapper">
+                <input type="text" id="searchInput" placeholder="Search in this folder..." autocomplete="off" />
+                <button type="button" id="searchClearBtn" class="search-clear-btn hidden" aria-label="Clear search">✕</button>
+            </div>
         </div>
         <div class="folder-actions-bar">
             <button id="downloadSelected">Download Selected</button>
@@ -1460,6 +1491,8 @@ async function _renderFolder(category, subFolder) {
 
     // ─── Search (Instant client-side search, scoped to current folder) ──────────
     const searchInput = document.getElementById("searchInput");
+    const searchClearBtn = document.getElementById("searchClearBtn");
+    setupSearchClear(searchInput, searchClearBtn);
 
     const handleSearch = () => {
         const query = searchInput.value.trim();
