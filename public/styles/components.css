@@ -289,7 +289,7 @@ h2 {
     }
 }
 
-/* Open button (PDFs, docs, office) — consistent forest green */
+/* Open button (PDFs, docs, office) - consistent forest green */
 .file-actions a.open-link,
 .file-actions a[target="_blank"] {
     background-color: #2e7d32;
@@ -300,7 +300,7 @@ h2 {
     background-color: #1b5e20;
 }
 
-/* Download / View Contents — primary cobalt blue */
+/* Download / View Contents - primary cobalt blue */
 .file-actions a[download],
 .file-actions .open-zip-btn {
     background-color: #0069d9;
@@ -313,7 +313,7 @@ h2 {
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-/* Share — vibrant sky/cyan blue, distinct from Download's dark cobalt */
+/* Share - vibrant sky/cyan blue, distinct from Download's dark cobalt */
 .file-actions a.share-link,
 .file-actions a[onclick*="shareFile"] {
     background-color: #0284c7;

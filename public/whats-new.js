@@ -218,7 +218,7 @@
     }
     function autoOpen() {
         if (getSeen()) return;
-        // Don't interrupt a deep-link arrival — the user came to see a specific file.
+        // Don't interrupt a deep-link arrival - the user came to see a specific file.
         // Use the flag captured at app.js start; the hash is already the folder URL by now.
         if (window.__arrivedViaFileDeepLink) return;
         var started = Date.now();

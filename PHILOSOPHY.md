@@ -1,7 +1,7 @@
-# Wylibrary — Philosophy & Guiding Ideology
+# Wylibrary - Philosophy & Guiding Ideology
 
-> *"Like my users all appreciate how user friendly it is & I see 1 of the reasons is tht it rlly feels like it was made by a kid & it makes them feel like wow someone like me made this. I know I can't but this boy makes it feel doable.... it's got a unique design tht's coz it was my design. The og html was all my own work. Tht's why I feel so attached to it. My mind was very creative at the time. & I like having tht reminder... We need to update it but in a way tht still carries over these feelings tht my visitors & I share."*  
-> — **Wycliffe Mwanganda**, Creator of Wylibrary (November 2026)
+> *"my users all appreciate how user friendly it is & I see 1 of the reasons is tht it rlly feels like it was made by a kid & it makes them feel like wow someone like me made this. I know I can't but this boy makes it feel doable.... it's got a unique design tht's coz it was my design. The og html was all my own work. Tht's why I feel so attached to it. My mind was very creative at the time. & I like having tht reminder... We need to update it but in a way tht still carries over these feelings tht my visitors & I share."*  
+> - **Wycliffe Mwanganda**, Creator of Wylibrary (November 9, 2026)
 
 ---
 
@@ -30,7 +30,7 @@ Every design choice, engineering decision, and future upgrade must serve this mi
 
 ### 3. Radical Accessibility & Data Consciousness
 - Wylibrary is engineered for the ground reality of Malawi and developing regions:
-  - Budget smartphones (e.g., Samsung Galaxy A14, entry-level Android devices).
+  - Budget smartphones with modest processing power and storage.
   - Unstable, slow 2G/3G connections where every byte costs real money.
   - Expensive mobile data packages.
 - **Offline-First by Design:** Once a student saves or downloads a book, it belongs to them permanently. It must open instantly offline without costing another kwacha.
@@ -43,10 +43,10 @@ Every design choice, engineering decision, and future upgrade must serve this mi
 
 ---
 
-## 🛠️ Note for Future Contributors & AI Assistants
+## 🛠️ Note for Future Contributors
 
 If you are writing code, proposing UI designs, or refactoring components for Wylibrary:
 
 1. **Do not sanitize the soul out of the interface.** If a feature or visual change makes Wylibrary feel like a generic SaaS template or an institutional government archive, it has failed.
-2. **Listen to the creator’s aesthetic instinct.** The layout, colors, and metaphors carry history and community trust.
-3. **Respect device and data constraints.** Always test for low-end mobile viewports (360px–412px), keep dependencies minimal, and ensure 100% offline survivability.
+2. **Listen to the creator's aesthetic instinct.** The layout, colors, and metaphors carry history and community trust.
+3. **Respect device and data constraints.** Always test for low-end mobile viewports (360px-412px), keep dependencies minimal, and ensure 100% offline survivability.

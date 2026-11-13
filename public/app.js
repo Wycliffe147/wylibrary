@@ -1,7 +1,7 @@
 const APP_VERSION = 'v11.1';
 const app = document.getElementById("app");
 
-// Capture deep-link flag immediately — before the hash is replaced by navigation.
+// Capture deep-link flag immediately - before the hash is replaced by navigation.
 // window.location.hash changes as soon as the app routes to the folder view, so we
 // must snapshot it here, at the very top of the script, before any routing runs.
 window.__arrivedViaFileDeepLink = window.location.hash.startsWith('#/file/');
@@ -1483,7 +1483,7 @@ async function _renderFolder(category, subFolder) {
 
     searchInput.addEventListener("input", handleSearch);
 
-    // Track search queries (debounced — fires 1.5 s after user stops typing)
+    // Track search queries (debounced - fires 1.5 s after user stops typing)
     const trackSearch = debounce((query) => {
         if (query.length < 2) return;
         trackEvent('search', {
@@ -1784,7 +1784,7 @@ async function shareFile(name, path) {
 let deferredPrompt;
 
 function showInstallModal() {
-    // Don't interrupt a deep-link arrival — the user came to see a specific file.
+    // Don't interrupt a deep-link arrival - the user came to see a specific file.
     // Use the flag captured at script start; by now the hash may already be the folder URL.
     if (window.__arrivedViaFileDeepLink) return;
     const installModal = document.getElementById('installModal');
@@ -1977,7 +1977,7 @@ function showUpdatePrompt(waitingWorker) {
         try {
             localStorage.setItem("wylibrary_pending_version", APP_VERSION);
         } catch (e) {}
-        // Flag that this reload is user-initiated — controllerchange listener
+        // Flag that this reload is user-initiated - controllerchange listener
         // checks this so it doesn't auto-reload on every fresh SW install.
         window.__swUpdateRequested = true;
         waitingWorker.postMessage({ type: "SKIP_WAITING" });
@@ -2049,7 +2049,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
     if (modalMaybeLater) {
         modalMaybeLater.addEventListener('click', () => {
-            // Just hide — no cooldown. Will show again next visit when
+            // Just hide - no cooldown. Will show again next visit when
             // Chrome fires beforeinstallprompt again.
             hideInstallModal();
             trackEvent('pwa_install_prompt_shown', { action: 'maybe_later' });

@@ -1,4 +1,4 @@
-// Wylibrary Service Worker — v10.0
+// Wylibrary Service Worker - v10.0
 // Network-First with Cache Fallback for seamless online updates & full offline resilience
 
 const CACHE_NAME = 'wylibrary-v38-20261110';

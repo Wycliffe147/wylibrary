@@ -1,4 +1,4 @@
-/* Wylibrary — "Save for offline" storage.
+/* Wylibrary - "Save for offline" storage.
  *
  * Saved files live in their own Cache Storage bucket (never touched by app
  * updates) under a key built from the file's stable ID, NOT its path. Details

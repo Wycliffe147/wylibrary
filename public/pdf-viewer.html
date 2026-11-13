@@ -11,7 +11,7 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-    <title>PDF Reader — Wylibrary</title>
+    <title>PDF Reader - Wylibrary</title>
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
     <link rel="apple-touch-icon" href="/icon-192.png">
@@ -396,7 +396,7 @@
         const titleEl = document.getElementById('file-title');
         const cleanName = decodeURIComponent(fileName).replace(/\.[^/.]+$/, '');
         titleEl.textContent = cleanName;
-        document.title = `${cleanName} — Wylibrary`;
+        document.title = `${cleanName} - Wylibrary`;
 
         const downloadUrl = fileParam ? `/api/download?file=${encodeURIComponent(fileParam)}&mode=download` : '#';
         const topDlBtn = document.getElementById('top-download-btn');
