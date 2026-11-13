@@ -20,6 +20,7 @@ Every design choice, engineering decision, and future upgrade must serve this mi
 - It is personal, relatable, and authentic.
 - When students open Wylibrary, they should feel that it was created by someone who understands their struggle, walks their path, and shares their dreams.
 - That approachable, handmade quality gives students confidence: *"If a student like me built this, then passing my exams and building something great is doable for me too."*
+- **Peer-to-Peer Mutual Aid:** The community is designed so students can help each other in the creator's absence. If someone gets stuck, asks how to study a topic, or needs guidance on past papers, fellow peers step in to assist.
 
 ### 2. Warmth & Character Over Sterile "Corporate Professionalism"
 - Well-meaning developers often rush to make everything look "standard" or "corporate" by stripping away personality, muting colors, and replacing playful elements with thin monochrome wireframes.
@@ -35,6 +36,7 @@ Every design choice, engineering decision, and future upgrade must serve this mi
   - Expensive mobile data packages.
 - **Offline-First by Design:** Once a student saves or downloads a book, it belongs to them permanently. It must open instantly offline without costing another kwacha.
 - **Fast & Bloat-Free:** The app shell must remain feather-light (vanilla JavaScript, zero heavy frameworks, zero bloated 500 KB asset bundles). Pages and past papers must load fast on the slowest connections.
+- **Quiet Engineering Resilience:** Unlike many platforms in Malawi that buckle and throw "503 Server Busy" errors during peak exam seasons, Wylibrary is built on modern serverless edge architecture. A subtle, quiet confidence: no flashy bragging, just rock-solid reliability that never leaves a studying student locked out.
 
 ### 4. Direct, Respectful User Experience
 - No paywalls, no forced subscription gates, no intrusive popups blocking reading.
