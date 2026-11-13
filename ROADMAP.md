@@ -101,7 +101,13 @@
   - Dedicated group for users, students, and teachers to support the project.
   - **Crowdsourcing Study Materials:** Let members submit exam papers, mock tests, syllabi, and textbooks for Wycliffe to index and add to the library.
   - **Feedback & Support Channel:** Report broken files, report bugs, ask study questions, and propose new features.
-  - **Broader Community & Social Reach:** Connect the group with Wycliffe's personal Facebook presence/page to foster community engagement without managing fragmented separate brands.
+- **Dedicated Wylibrary Facebook Page Creation & Launch Support:**
+  - Launch an official Facebook page for Wylibrary (addressing and solving what went wrong in the previous attempt).
+  - Prepare professional branding (profile icon, cover banner, description, website link).
+  - Step-by-step guidance to avoid Meta account verification hurdles or automated flagging traps.
+  - Draft initial announcements and connect with Malawian secondary school and student groups.
+- **Google Analytics (GA4) Reporting & Insights Integration:**
+  - Connect GA4 Data API (or weekly CSV reports) to track top-downloaded books, search trends, and student traffic patterns across Malawi.
 - **Developer Branding & Portfolio Showcase:**
   - Showcase Wylibrary as a live demonstration of Wycliffe's full-stack & PWA development skills.
   - Include an elegant, non-intrusive credit/footer link ("Crafted by Wycliffe") linking to:
