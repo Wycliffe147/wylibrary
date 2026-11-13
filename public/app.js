@@ -32,6 +32,7 @@ async function getCatalog() {
                 catalog = Array.isArray(data) ? data : [];
                 catalogByPath = new Map(catalog.map(f => [normalizePath(f.path), f]));
                 try { localStorage.setItem('wylibrary_catalog_count', String(catalog.length)); } catch (e) {}
+                updateGlobalFooterStats(catalog);
                 // Online: make sure saved offline copies still match the library
                 // (handles renamed / moved / replaced / deleted files).
                 if (navigator.onLine && window.WyOffline) WyOffline.reconcile(catalog);
@@ -189,6 +190,17 @@ function formatSize(bytes) {
     const sizes = ["B", "KB", "MB", "GB", "TB"];
     const i = Math.floor(Math.log(bytes) / Math.log(k));
     return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + " " + sizes[i];
+}
+
+function updateGlobalFooterStats(allFiles) {
+    if (!allFiles || !allFiles.length) return;
+    const totalEl = document.getElementById("total-books");
+    const sizeEl = document.getElementById("total-size");
+    if (!totalEl && !sizeEl) return;
+    let totalSize = 0;
+    allFiles.forEach(f => { totalSize += (f.size || 0); });
+    if (totalEl) totalEl.textContent = allFiles.length.toLocaleString();
+    if (sizeEl) sizeEl.textContent = formatSize(totalSize);
 }
 
 // ─── Page Transitions ────────────────────────────────────────────────────────
@@ -697,12 +709,14 @@ function renderFileCard(file, filePath, isDownloads, size) {
     // Open PDFs in our built-in PDF.js viewer (works on all devices, no size limit).
     // Use Google Docs Viewer only for Office files (Word/Excel/PowerPoint).
     if (ext === "pdf") {
-        openUrl = `/pdf-viewer?file=${encodeURIComponent(filePath)}&id=${encodeURIComponent(docId)}`;
+        openUrl = `/pdf-viewer?file=${encodeURIComponent(filePath)}&id=${encodeURIComponent(docId)}&title=${encodeURIComponent(cleanName)}`;
     } else {
         const officeExts = ["doc", "docx", "xls", "xlsx", "ppt", "pptx"];
         if (officeExts.includes(ext)) {
-            const absoluteUrl = window.location.origin + `/api/download?file=${encodeURIComponent(filePath)}`;
-            openUrl = `https://docs.google.com/viewer?url=${encodeURIComponent(absoluteUrl)}&embedded=true`;
+            const bucketBase = filePath.startsWith('Books/') ? 'https://media1.wylibrary.org' : 'https://pub-de3a22d4e4324e8ba9a0690313176f71.r2.dev';
+            const cleanStoragePath = filePath.split('/').map(encodeURIComponent).join('/');
+            const directUrl = `${bucketBase}/${cleanStoragePath}`;
+            openUrl = `https://docs.google.com/viewer?url=${encodeURIComponent(directUrl)}&embedded=true`;
         }
     }
 
@@ -2187,6 +2201,7 @@ function initServiceWorker() {
 }
 
 window.addEventListener("DOMContentLoaded", () => {
+    getCatalog().then(updateGlobalFooterStats);
     initServiceWorker();
     initHeaderObserver();
     updateOnlineStatus(true);

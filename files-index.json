@@ -256,11 +256,11 @@
     "id": "fb2e7912c8"
   },
   {
-    "name": "AGRICULTURE_I.pdf",
-    "path": "Books/Agriculture/AGRICULTURE_I.pdf",
+    "name": "Agr 2020 Mzuzu Diocese Form 4 Mock Paper 1.pdf",
+    "path": "Exams/Agriculture/Agr 2020 Mzuzu Diocese Form 4 Mock Paper I.pdf",
     "size": 561379,
     "repo": "e-library-media",
-    "bucket": 1,
+    "bucket": 2,
     "id": "f9807348f3"
   },
   {
@@ -304,16 +304,16 @@
     "id": "fc7c605413"
   },
   {
-    "name": "Agriculture form 3 new syllabus.pdf",
-    "path": "Books/Agriculture/Agriculture form 3 new syllabus (1).pdf",
+    "name": "Agriculture Form 3 New Syllabus.pdf",
+    "path": "Books/Syllabuses/Agriculture form 3 new syllabus.pdf",
     "size": 4046570,
     "repo": "e-library-media",
     "bucket": 1,
     "id": "fcb7b2e31c"
   },
   {
-    "name": "Agriculture syllabus Forms 3-4.doc",
-    "path": "Books/Agriculture/Agriculture syllabus Forms 3-4.doc",
+    "name": "Agriculture Syllabus Forms 3-4.doc",
+    "path": "Books/Syllabuses/Agriculture syllabus Forms 3-4.doc",
     "size": 898048,
     "repo": "e-library-media",
     "bucket": 1,
@@ -4694,14 +4694,6 @@
     "repo": "e-library-media",
     "bucket": 1,
     "id": "fca890a5e6"
-  },
-  {
-    "name": "~$20 physics 1 large print.docx",
-    "path": "Books/Physics/~$20 physics 1 large print.docx",
-    "size": 162,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f13a45f916"
   },
   {
     "name": "FORM_1_SOCIAL_STUDIES_NOTES.pdf",
@@ -18008,7 +18000,7 @@
     "id": "f59c674204"
   },
   {
-    "name": "$Form_3_@griculture$_Πotes-1-1-1.pdf",
+    "name": "Form 3 Agriculture Notes.pdf",
     "path": "Books/Agriculture/$Form_3_@griculture$_Πotes-1-1-1.pdf",
     "size": 623436,
     "repo": "e-library-media-2",
@@ -18016,19 +18008,19 @@
     "id": "f3ad148a68"
   },
   {
-    "name": "2021 MSCE AGRICULTURE 1 & 2.pdf",
-    "path": "Books/Agriculture/2021 MSCE AGRICULTURE 1 & 2.pdf",
+    "name": "Chief Examiners Report 2021 MSCE Agriculture Paper 1 & 2.pdf",
+    "path": "Exams/Agriculture/Chief Examiners Report 2021 MSCE AGRICULTURE Paper I & II.pdf",
     "size": 747418,
     "repo": "e-library-media-2",
-    "bucket": 1,
+    "bucket": 2,
     "id": "fc27718cc5"
   },
   {
-    "name": "2021_MSCE__agriculture_II.pdf",
-    "path": "Books/Agriculture/2021_MSCE__agriculture_II.pdf",
+    "name": "Agriculture Nkhamenya Cluster Form 4 Mock 2021 Paper 2.pdf",
+    "path": "Exams/Agriculture/Agriculture Nkhamenya Cluster Form 4 Mock 2021 Paper II.pdf",
     "size": 161520,
     "repo": "e-library-media-2",
-    "bucket": 1,
+    "bucket": 2,
     "id": "f7c4218396"
   },
   {
@@ -18080,11 +18072,11 @@
     "id": "f57fec5c75"
   },
   {
-    "name": "AGRICULTURE-1.pdf",
-    "path": "Books/Agriculture/AGRICULTURE-1_(2).pdf",
+    "name": "2019 MANEB Confidential Chief Examiner's Report Paper 1 & 2.pdf",
+    "path": "Exams/Agriculture/2019 MANEB Confidential Chief Examiner's Report Paper I & II.pdf",
     "size": 97609,
     "repo": "e-library-media-2",
-    "bucket": 1,
+    "bucket": 2,
     "id": "f584049cf4"
   },
   {
@@ -18112,7 +18104,7 @@
     "id": "f987e14538"
   },
   {
-    "name": "AGRICULTURE_3.pdf",
+    "name": "Agriculture Form 3 Revision Booklet (202 Pages).pdf",
     "path": "Books/Agriculture/AGRICULTURE_3.pdf",
     "size": 4371852,
     "repo": "e-library-media-2",
@@ -18184,7 +18176,7 @@
     "id": "f16fe1c136"
   },
   {
-    "name": "AGRI_B_3.pdf",
+    "name": "Agriculture Form 3 Modular Notes & Exercises (152 Pages).pdf",
     "path": "Books/Agriculture/AGRI_B_3.pdf",
     "size": 1902437,
     "repo": "e-library-media-2",
@@ -18222,14 +18214,6 @@
     "repo": "e-library-media-2",
     "bucket": 1,
     "id": "f59fad7ee2"
-  },
-  {
-    "name": "Agri_blend-1.pdf",
-    "path": "Books/Agriculture/Agri_blend-1_(1).pdf",
-    "size": 4310619,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f30183f4ab"
   },
   {
     "name": "Agriclture_bok2.pdf",
@@ -18272,19 +18256,19 @@
     "id": "ff83cdb7bd"
   },
   {
-    "name": "Agriculture syllabus Forms 3-4.pdf",
-    "path": "Books/Agriculture/Agriculture syllabus Forms 3-4(1).pdf",
+    "name": "Agriculture Syllabus Forms 3-4.pdf",
+    "path": "Books/Syllabuses/Agriculture syllabus Forms 3-4.pdf",
     "size": 714808,
     "repo": "e-library-media-2",
     "bucket": 1,
     "id": "fad95ed0f1"
   },
   {
-    "name": "Agriculture-1.pdf",
-    "path": "Books/Agriculture/Agriculture-1 (1).pdf",
+    "name": "MANEB 2021 JCE Agr Sample Paper.pdf",
+    "path": "Exams/Agriculture/MANEB 2021 JCE Agr Sample Paper.pdf",
     "size": 4051800,
     "repo": "e-library-media-2",
-    "bucket": 1,
+    "bucket": 2,
     "id": "f3f42723f1"
   },
   {
@@ -18312,11 +18296,11 @@
     "id": "f6b9ceacbd"
   },
   {
-    "name": "Agriculture_1.pdf",
-    "path": "Books/Agriculture/Agriculture_1.pdf",
+    "name": "2019 Mzuzu Diocese Form 4 Agr Paper 1.pdf",
+    "path": "Exams/Agriculture/2019 Mzuzu Diocese Form 4 Agr Paper I.pdf",
     "size": 1347758,
     "repo": "e-library-media-2",
-    "bucket": 1,
+    "bucket": 2,
     "id": "ff807e275f"
   },
   {
@@ -18368,16 +18352,16 @@
     "id": "fca0d9a73f"
   },
   {
-    "name": "Agriculture_syllabus_Forms_1-2.pdf",
-    "path": "Books/Agriculture/Agriculture_syllabus_Forms_1-2.pdf",
+    "name": "Agriculture Syllabus Forms 1-2.pdf",
+    "path": "Books/Syllabuses/Agriculture_syllabus_Forms_1-2.pdf",
     "size": 1512332,
     "repo": "e-library-media-2",
     "bucket": 1,
     "id": "f87a1b7b3c"
   },
   {
-    "name": "Agriculture_syllabus_Forms_3-4.pdf",
-    "path": "Books/Agriculture/Agriculture_syllabus_Forms_3-4.pdf",
+    "name": "Agriculture Syllabus Forms 3-4.pdf",
+    "path": "Books/Syllabuses/Agriculture_syllabus_Forms_3-4.pdf",
     "size": 1541797,
     "repo": "e-library-media-2",
     "bucket": 1,
@@ -18440,11 +18424,11 @@
     "id": "f0b9a72069"
   },
   {
-    "name": "MSCE_AGRICULTURE_PI.pdf",
-    "path": "Books/Agriculture/MSCE_AGRICULTURE_PI.pdf",
+    "name": "Agr Mock St Mary's GSS 2021 Paper 1.pdf",
+    "path": "Exams/Agriculture/Agr Mock St Mary's GSS 2021 paper I.pdf",
     "size": 830318,
     "repo": "e-library-media-2",
-    "bucket": 1,
+    "bucket": 2,
     "id": "f645c4f74a"
   },
   {
@@ -18472,11 +18456,11 @@
     "id": "f60792ce1f"
   },
   {
-    "name": "agriculture_I.pdf",
-    "path": "Books/Agriculture/agriculture_I(1).pdf",
+    "name": "Agr 2021 Mzuzu Diocese Form 4 Mock Paper 1.pdf",
+    "path": "Exams/Agriculture/Agr 2021 Mzuzu Diocese Form 4 Mock Paper I.pdf",
     "size": 461603,
     "repo": "e-library-media-2",
-    "bucket": 1,
+    "bucket": 2,
     "id": "f093727679"
   },
   {
@@ -20928,14 +20912,6 @@
     "id": "fad243dccf"
   },
   {
-    "name": "~$NGLISH_GRAMMAR_-1.docx",
-    "path": "Books/English/~$NGLISH_GRAMMAR_-1.docx",
-    "size": 162,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fce85c146d"
-  },
-  {
     "name": "1._NOTES_PHYSICAL_GEOGRAPHY_MSCE.pdf",
     "path": "Books/Geography/1._NOTES_PHYSICAL_GEOGRAPHY_MSCE.pdf",
     "size": 5683063,
@@ -21238,14 +21214,6 @@
     "repo": "e-library-media-2",
     "bucket": 1,
     "id": "fd077b4a02"
-  },
-  {
-    "name": "~$apers_MSCE_GEOGRAPHY_PI-1.pdf",
-    "path": "Books/Geography/~$apers_MSCE_GEOGRAPHY_PI-1.pdf",
-    "size": 162,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fcda1d3978"
   },
   {
     "name": "2006 history.pdf",

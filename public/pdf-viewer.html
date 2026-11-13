@@ -392,16 +392,17 @@
         const params = new URLSearchParams(location.search);
         const fileParam = params.get('file');
         const fileName = fileParam ? fileParam.split('/').pop() : 'Document.pdf';
+        const titleParam = params.get('title');
 
         const titleEl = document.getElementById('file-title');
-        const cleanName = decodeURIComponent(fileName).replace(/\.[^/.]+$/, '');
+        const cleanName = titleParam ? decodeURIComponent(titleParam) : decodeURIComponent(fileName).replace(/\.[^/.]+$/, '');
         titleEl.textContent = cleanName;
         document.title = `${cleanName} - Wylibrary`;
 
         const downloadUrl = fileParam ? `/api/download?file=${encodeURIComponent(fileParam)}&mode=download` : '#';
         const topDlBtn = document.getElementById('top-download-btn');
         topDlBtn.href = downloadUrl;
-        topDlBtn.setAttribute('download', fileName);
+        topDlBtn.setAttribute('download', `${cleanName}.pdf`);
         document.getElementById('fallback-download-btn').href = downloadUrl;
 
         // Calculate the exact folder this document lives in
