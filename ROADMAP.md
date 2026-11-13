@@ -133,12 +133,17 @@
   - **PayPal:** For international supporters wishing to contribute.
 - **Smart Suppression & Cooldown:** If a user contributes, suppress future donation prompts dynamically based on donation amount/tier (e.g., temporary exemption or tiered cool-off period tracked locally).
 
-### 16. Professional Vector Icon Migration (Lucide Icons)
-- **Visual Polish & Consistency:** Replace OS system emojis (`🏠`, `📝`, `ℹ️`, `📞`, `📚`, `💾`, `📥`, `⚡`, `📡`) with clean, minimalist vector line icons from [Lucide Icons](https://lucide.dev).
-- **Benefits:**
-  - Standardizes look across all operating systems (Samsung, iOS, Android, Windows, Linux) avoiding inconsistent or childish emoji renderings.
-  - Matches custom color palettes in both light and dark modes with uniform stroke weight.
-  - Offline-first implementation: inline SVG code or bundled local script (0 external CDN dependencies, 0 network overhead).
+### 16. Consistent, Warm & Colorful Icon System (Future Middle Ground)
+- **Goal:** Fix the core problem with system emojis (they render inconsistently across Samsung, iOS, Android, and Windows) while **preserving the warmth, color, and informal relatable charm** that students love about Wylibrary.
+- **Design Principles & Direction (User Vision):**
+  - Avoid cold, thin, corporate monochrome line icons that strip away the app's personality.
+  - Explore a colorful, chunky, rounded middle ground:
+    - Folders remain cheerful yellow folders.
+    - PDFs remain red closed books (like the classic 📕).
+    - Office files (Word, Excel, Slides) and ZIP packages each retain distinct signature colors.
+    - Footer stats retain vibrant books, drive, and calendar motifs.
+  - Alternative: Self-hosted consistent SVG emoji artwork (e.g., Twemoji or Microsoft Fluent Emoji) bundled locally for 100% offline consistency across devices.
+  - **Status:** Deferred for a thoughtful future design pass; keep current familiar emojis for now and focus on functional milestones.
 
 ---
 
