@@ -3,6 +3,8 @@
 > [!IMPORTANT]
 > **READ THIS BEFORE MAKING ANY CODE CHANGES.**
 > This file is for Wycliffe and any AI agent/assistant working on this project.
+>
+> **Core Ideology:** Always read [`PHILOSOPHY.md`](PHILOSOPHY.md) before proposing UI or design changes. Do **NOT** strip away Wylibrary's warmth, colorfulness, or relatable peer-built character in an attempt to make it look like a sterile corporate product. Solve real technical issues while preserving the app's soul and character.
 
 ---
 
