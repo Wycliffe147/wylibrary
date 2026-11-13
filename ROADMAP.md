@@ -17,6 +17,8 @@
 | **Offline detection banner** (`📡 You are offline...`) | `fcb7909` | Nov 8 |
 | Fix offline banner always showing + move update toast to top | `a7b22b6` | Nov 8 |
 | **Staging branch & AGENTS.md** (test-before-deploy workflow) | `8e193de` | Nov 9 |
+| **Clean 477 file display names** (Task 4 Phase 1) | `4573e9a` | Nov 13 |
+| **Hybrid update notification system** (materials vs features vs custom) | `c7929d4` | Nov 13 |
 
 ---
 
