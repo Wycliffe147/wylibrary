@@ -521,9 +521,9 @@ function _renderAbout() {
                     Join fellow students, share study resources, and get notified about new books and syllabus drops:
                 </p>
                 <div class="social-links-grid reveal">
-                    <button type="button" class="social-badge-btn btn-whatsapp" onclick="_showComingSoon('WhatsApp Community')">
+                    <a href="https://chat.whatsapp.com/Ks3oJ046vMdInp4dR7pK3r" target="_blank" rel="noopener noreferrer" class="social-badge-btn btn-whatsapp" onclick="trackEvent('join_community', { platform: 'whatsapp' })">
                         💬 WhatsApp Community
-                    </button>
+                    </a>
                     <button type="button" class="social-badge-btn btn-facebook" onclick="_showComingSoon('Facebook Page')">
                         📘 Facebook Page
                     </button>
@@ -580,7 +580,8 @@ function _renderRequest() {
             <p>If you want a specific book, pamphlet, or exam paper added to the library, reach out:</p>
             <ul>
                 <li>Email: <a href="mailto:wycliffemwanganda@gmail.com">Email me</a></li>
-                <li>WhatsApp: <a href="https://wa.me/265984153455" target="_blank">Let's talk</a></li>
+                <li>WhatsApp (Direct): <a href="https://wa.me/265984153455" target="_blank">Let's talk</a></li>
+                <li>WhatsApp Community: <a href="https://chat.whatsapp.com/Ks3oJ046vMdInp4dR7pK3r" target="_blank" rel="noopener noreferrer">Join Student Group</a></li>
             </ul>
         </section>
     `;
