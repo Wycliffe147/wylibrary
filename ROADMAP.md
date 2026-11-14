@@ -160,6 +160,10 @@
 - **Privacy First:** 100% voluntary, zero intrusive browser GPS permission popups, fully respectful of student privacy.
 - **Priority:** Low / Optional future exploration.
 
+### 18. Origin Story Expansion (Pre-18 Concept & Early Roots)
+- **Concept:** The idea for Wylibrary originated long before age 18. Save for future expansion in the About story once Wycliffe details the early background, challenges, and journey that sparked the vision before the first release in March 2026.
+- **Priority:** Backlog / Narrative polish when ready.
+
 ---
 
 ## 🧪 Development Workflow Reminder

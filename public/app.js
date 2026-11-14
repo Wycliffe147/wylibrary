@@ -490,7 +490,7 @@ function _renderAbout() {
                     <div class="timeline-item reveal" style="--tl-delay: 0ms">
                         <div class="timeline-bullet"></div>
                         <div class="timeline-date">March 2, 2026</div>
-                        <div class="timeline-title">Conceived & Launched at 18</div>
+                        <div class="timeline-title">Built & Launched at 18</div>
                         <div class="timeline-desc">
                             I coded and published the first version at 18 years old to give fellow Malawian secondary students
                             a unified, searchable catalog of study materials - no more "please resend the PDF."
