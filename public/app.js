@@ -420,7 +420,7 @@ async function loadAbout(push = true) {
 }
 
 function _renderAbout() {
-    const totalBooks = (Array.isArray(booksData) && booksData.length > 0) ? booksData.length.toLocaleString() : "3,078";
+    const totalBooks = (Array.isArray(catalog) && catalog.length > 0) ? catalog.length.toLocaleString() : "3,077";
 
     app.innerHTML = `
         <section class="about-section">
