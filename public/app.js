@@ -420,35 +420,123 @@ async function loadAbout(push = true) {
 }
 
 function _renderAbout() {
+    const totalBooks = (Array.isArray(booksData) && booksData.length > 0) ? booksData.length.toLocaleString() : "3,078";
+
     app.innerHTML = `
         <section class="about-section">
             <div class="developer-card reveal">
                 <h3>About the Developer</h3>
                 <p>
-                    Hi, I'm Wycliffe Mwanganda 👋, a student developer passionate about building
-                    practical tech solutions for schools and any interested institutions.
+                    Hi, I'm Wycliffe Mwanganda 👋, a student developer from Malawi building practical,
+                    lightweight digital tools for secondary students and educators across the country.
                 </p>
-                <a href="https://wyport.vercel.app" target="_blank" class="dev-link">
-                    Visit My Portfolio
-                </a>
+                <div style="margin-top: 16px; display: flex; flex-wrap: wrap; gap: 12px;">
+                    <a href="https://wyport.vercel.app" target="_blank" class="dev-link" rel="noopener">
+                        Visit My Portfolio
+                    </a>
+                    <a href="mailto:wycliffemwanganda@gmail.com" class="dev-link" style="border-color: #64748b; color: inherit;">
+                        Email Developer
+                    </a>
+                </div>
+            </div>
+
+            <div class="about-stats-grid reveal">
+                <div class="about-stat-card">
+                    <div class="about-stat-num">${totalBooks}</div>
+                    <div class="about-stat-label">Curriculum Books & Exams</div>
+                </div>
+                <div class="about-stat-card">
+                    <div class="about-stat-num">800+</div>
+                    <div class="about-stat-label">Active Students</div>
+                </div>
+                <div class="about-stat-card">
+                    <div class="about-stat-num">100%</div>
+                    <div class="about-stat-label">Free & Ad-Free</div>
+                </div>
             </div>
 
             <div class="about-content">
-                <h2>About This Project</h2>
+                <h2>About Wylibrary</h2>
                 <p>
-                    This e-library allows students to browse, search, and read educational resources online.
+                    Wylibrary is an offline-first educational platform designed for Malawian secondary school students
+                    (Forms 1 to 4, JCE and MSCE). It brings textbooks, notes, syllabuses, and past papers into one clean,
+                    organized space that works seamlessly on any phone.
                 </p>
+
                 <div class="about-flex reveal">
-                    <img src="https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/about.png" alt="About image" class="about-image" />
+                    <img src="https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/about.png" alt="Wylibrary mobile reading" class="about-image" />
+                    <div>
+                        <p style="font-style: italic; margin-bottom: 12px;">
+                            "I built this website because relying solely on WhatsApp groups for study materials is frustrating.
+                            Files get lost in chat history, new members have to ask for the same documents again, and valuable mobile data gets wasted re-downloading things."
+                        </p>
+                        <p style="font-size: 0.95rem; opacity: 0.85;">
+                            With Wylibrary, every document has a permanent home. You can read online or save once to your offline shelf and open it anytime without spending data.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="resilience-box reveal">
+                    <h4>Quiet Resilience - Built for Real Networks</h4>
                     <p>
-                        "I think having this website is better than relying on WhatsApp groups alone
-                        because documents have to be sent every time someone new wants them."
+                        Unlike heavy web portals that crash with "503 Service Unavailable" errors when students flood them before exams,
+                        Wylibrary is built on static edge architecture. Zero tracking ads, zero database slowdowns, and instant offline caching.
+                        Even when your internet connection is slow or drops, your saved library stays open.
                     </p>
                 </div>
-                <p><button type="button" class="wn-link wn-link-about" data-wn-open>What’s new in ${APP_VERSION}</button></p>
-                <div class="tech-stack">
-                    <p><strong>Technologies:</strong> HTML5, CSS3, Modern JavaScript (ES6+), Node.js, Vercel Serverless Functions, GitHub API (for automation).</p>
-                    <p><strong>Features:</strong> Single Page Application (SPA) navigation, real-time search, dark mode theme, ZIP file content preview, dynamic library statistics, automated "Last Updated" tracking, and a fully responsive mobile-first layout.</p>
+
+                <h3 style="margin-top: 35px; margin-bottom: 15px;">Project Milestones</h3>
+                <div class="about-timeline reveal">
+                    <div class="timeline-item">
+                        <div class="timeline-bullet"></div>
+                        <div class="timeline-date">March 2, 2026</div>
+                        <div class="timeline-title">Conceived & Launched at 18</div>
+                        <div class="timeline-desc">
+                            The original e-library was coded and published by Wycliffe at age 18 to give fellow Malawian secondary students
+                            a unified, searchable catalog of study materials.
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-bullet"></div>
+                        <div class="timeline-date">July 11, 2026</div>
+                        <div class="timeline-title">wylibrary.org Goes Live</div>
+                        <div class="timeline-desc">
+                            The very first custom web domain purchased by the developer, establishing Wylibrary as an independent,
+                            permanent open educational resource.
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-bullet"></div>
+                        <div class="timeline-date">November 2026</div>
+                        <div class="timeline-title">Offline PWA & The 3,000+ Resource Milestone</div>
+                        <div class="timeline-desc">
+                            Upgraded to a full Progressive Web App (PWA) with built-in mobile PDF reader, offline device saving,
+                            and over 3,070 curated books, exams, and syllabuses.
+                        </div>
+                    </div>
+                </div>
+
+                <h3 style="margin-top: 35px; margin-bottom: 10px;">Community & Updates</h3>
+                <p style="font-size: 0.95rem; margin-bottom: 12px;">
+                    Join fellow students, share study resources, and get notified about new books and syllabus drops:
+                </p>
+                <div class="social-links-grid reveal">
+                    <a href="https://wa.me/265984153455?text=Hi%20Wycliffe,%20I%20would%20like%20to%20join%20the%20Wylibrary%20WhatsApp%20community" target="_blank" class="social-badge-btn btn-whatsapp" rel="noopener">
+                        💬 WhatsApp Community
+                    </a>
+                    <a href="https://facebook.com" target="_blank" class="social-badge-btn btn-facebook" rel="noopener">
+                        📘 Facebook Page (Coming Soon)
+                    </a>
+                    <a href="https://youtube.com" target="_blank" class="social-badge-btn btn-youtube" rel="noopener">
+                        ▶️ YouTube Channel (Coming Soon)
+                    </a>
+                </div>
+
+                <p style="margin-top: 25px;"><button type="button" class="wn-link wn-link-about" data-wn-open>What’s new in ${APP_VERSION}</button></p>
+
+                <div class="tech-stack reveal">
+                    <p><strong>Architecture & Infrastructure:</strong> Cloudflare Pages edge delivery, dual Cloudflare R2 media distribution buckets, Service Worker PWA with IndexedDB offline storage.</p>
+                    <p><strong>Client Technology:</strong> Vanilla JavaScript (Zero bloated frameworks), custom responsive CSS, and PDF.js client-side reader with pinch-to-zoom and multi-page rendering.</p>
                 </div>
             </div>
         </section>

@@ -1,17 +1,17 @@
 // Wylibrary Service Worker - v10.0
 // Network-First with Cache Fallback for seamless online updates & full offline resilience
 
-const CACHE_NAME = 'wylibrary-v43-20261114';
+const CACHE_NAME = 'wylibrary-v44-20261114';
 
 // Update notification metadata (hybrid system):
 // Set type to 'auto' to let the app automatically detect materials vs features,
 // or explicitly set 'materials', 'features', or 'all'.
 // Optional custom title/message can announce specific drops (e.g. 2026 exam papers).
 const UPDATE_META = {
-  version: 'v11.2',
+  version: 'v11.3',
   type: 'features',    // 'auto' | 'materials' | 'features' | 'all'
-  title: 'Improved Document Reader',
-  message: 'Fixed document opening support for Samsung Galaxy and older Android devices.'
+  title: 'Updated About Page & Community',
+  message: 'Discover the story, milestones, and community links behind Wylibrary.'
 };
 
 // Books the reader chose to keep. Managed by offline-store.js and NEVER deleted

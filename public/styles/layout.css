@@ -294,6 +294,124 @@ html.dark #darkModeToggle {
     border-top: 1px solid #eee;
 }
 
+/* ─── About Stats Grid ─── */
+.about-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+    margin: 25px 0;
+}
+.about-stat-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+}
+.about-stat-num {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #2563eb;
+    line-height: 1.2;
+}
+.about-stat-label {
+    font-size: 0.85rem;
+    color: #64748b;
+    margin-top: 4px;
+    font-weight: 500;
+}
+
+/* ─── Milestones Timeline ─── */
+.about-timeline {
+    margin: 30px 0;
+    position: relative;
+    padding-left: 24px;
+    border-left: 2px solid #cbd5e1;
+}
+.timeline-item {
+    position: relative;
+    margin-bottom: 24px;
+}
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+.timeline-bullet {
+    position: absolute;
+    left: -31px;
+    top: 2px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #2563eb;
+    border: 3px solid #ffffff;
+    box-shadow: 0 0 0 2px #2563eb;
+}
+.timeline-date {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #2563eb;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+}
+.timeline-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.timeline-desc {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #475569;
+}
+
+/* ─── Quiet Resilience Box ─── */
+.resilience-box {
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin: 25px 0;
+}
+.resilience-box h4 {
+    color: #166534;
+    margin-bottom: 6px;
+    font-size: 1.05rem;
+}
+.resilience-box p {
+    color: #15803d;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* ─── Social & Community Links ─── */
+.social-links-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 15px;
+}
+.social-badge-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 18px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 0.92rem;
+    text-decoration: none;
+    transition: transform 0.15s, opacity 0.15s;
+}
+.social-badge-btn:hover {
+    transform: translateY(-2px);
+    opacity: 0.92;
+}
+.btn-whatsapp { background: #25D366; color: #ffffff !important; }
+.btn-facebook { background: #1877F2; color: #ffffff !important; }
+.btn-youtube { background: #FF0000; color: #ffffff !important; }
+
 @media (max-width: 768px) {
     .about-flex {
         flex-direction: column;
