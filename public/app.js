@@ -443,7 +443,7 @@ function _renderAbout() {
             <div class="about-stats-grid reveal">
                 <div class="about-stat-card">
                     <div class="about-stat-num">${totalBooks}</div>
-                    <div class="about-stat-label">Curriculum Books & Exams</div>
+                    <div class="about-stat-label">Academic Resources</div>
                 </div>
                 <div class="about-stat-card">
                     <div class="about-stat-num">800+</div>
