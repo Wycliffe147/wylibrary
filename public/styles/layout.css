@@ -424,9 +424,10 @@ html.dark #darkModeToggle {
         max-width: 250px;
     }
 
-    .about-section {
+    .about-section,
+    .contact-section {
         padding: 20px;
-        margin: 20px;
+        margin: 20px auto;
     }
 }
 
@@ -439,6 +440,10 @@ html.dark #darkModeToggle {
 .reveal.active {
     opacity: 1;
     transform: translateY(0);
+}
+
+.timeline-item.reveal {
+    transition-delay: var(--tl-delay, 0ms);
 }
 
 .developer-card {

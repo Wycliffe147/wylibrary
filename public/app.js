@@ -425,17 +425,17 @@ function _renderAbout() {
     app.innerHTML = `
         <section class="about-section">
             <div class="developer-card reveal">
-                <h3>About the Developer</h3>
+                <h3>Hi, I'm Wycliffe 👋</h3>
                 <p>
-                    Hi, I'm Wycliffe Mwanganda 👋, a student developer from Malawi building practical,
-                    lightweight digital tools for secondary students and educators across the country.
+                    I'm a student developer from Malawi building practical, lightweight digital tools
+                    for secondary students and educators across the country.
                 </p>
                 <div style="margin-top: 16px; display: flex; flex-wrap: wrap; gap: 12px;">
                     <a href="https://wyport.vercel.app" target="_blank" class="dev-link" rel="noopener">
                         Visit My Portfolio
                     </a>
                     <a href="mailto:wycliffemwanganda@gmail.com" class="dev-link" style="border-color: #64748b; color: inherit;">
-                        Email Developer
+                        Email Me
                     </a>
                 </div>
             </div>
@@ -456,9 +456,9 @@ function _renderAbout() {
             </div>
 
             <div class="about-content">
-                <h2>About Wylibrary</h2>
+                <h2>About This Project</h2>
                 <p>
-                    Wylibrary is an offline-first educational platform designed for Malawian secondary school students
+                    Wylibrary is an offline-first educational platform I built for Malawian secondary school students
                     (Forms 1 to 4, JCE and MSCE). It brings textbooks, notes, syllabuses, and past papers into one clean,
                     organized space that works seamlessly on any phone.
                 </p>
@@ -467,7 +467,7 @@ function _renderAbout() {
                     <img src="https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/about.png" alt="Wylibrary mobile reading" class="about-image" />
                     <div>
                         <p style="font-style: italic; margin-bottom: 12px;">
-                            "I built this website because relying solely on WhatsApp groups for study materials is frustrating.
+                            "I built this because relying solely on WhatsApp groups for study materials is frustrating.
                             Files get lost in chat history, new members have to ask for the same documents again, and valuable mobile data gets wasted re-downloading things."
                         </p>
                         <p style="font-size: 0.95rem; opacity: 0.85;">
@@ -477,41 +477,41 @@ function _renderAbout() {
                 </div>
 
                 <div class="resilience-box reveal">
-                    <h4>Quiet Resilience - Built for Real Networks</h4>
+                    <h4>Built for Real Networks</h4>
                     <p>
                         Unlike heavy web portals that crash with "503 Service Unavailable" errors when students flood them before exams,
-                        Wylibrary is built on static edge architecture. Zero tracking ads, zero database slowdowns, and instant offline caching.
+                        Wylibrary runs on static edge architecture. Zero tracking ads, zero database slowdowns, and instant offline caching.
                         Even when your internet connection is slow or drops, your saved library stays open.
                     </p>
                 </div>
 
-                <h3 style="margin-top: 35px; margin-bottom: 15px;">Project Milestones</h3>
-                <div class="about-timeline reveal">
-                    <div class="timeline-item">
+                <h3 style="margin-top: 35px; margin-bottom: 15px;">How It Started</h3>
+                <div class="about-timeline">
+                    <div class="timeline-item reveal" style="--tl-delay: 0ms">
                         <div class="timeline-bullet"></div>
                         <div class="timeline-date">March 2, 2026</div>
                         <div class="timeline-title">Conceived & Launched at 18</div>
                         <div class="timeline-desc">
-                            The original e-library was coded and published by Wycliffe at age 18 to give fellow Malawian secondary students
-                            a unified, searchable catalog of study materials.
+                            I coded and published the first version at 18 years old to give fellow Malawian secondary students
+                            a unified, searchable catalog of study materials - no more "please resend the PDF."
                         </div>
                     </div>
-                    <div class="timeline-item">
+                    <div class="timeline-item reveal" style="--tl-delay: 150ms">
                         <div class="timeline-bullet"></div>
                         <div class="timeline-date">July 11, 2026</div>
                         <div class="timeline-title">wylibrary.org Goes Live</div>
                         <div class="timeline-desc">
-                            The very first custom web domain purchased by the developer, establishing Wylibrary as an independent,
-                            permanent open educational resource.
+                            My very first custom domain purchase. Wylibrary moved from a GitHub Pages link to its own permanent address
+                            as an independent, open educational resource.
                         </div>
                     </div>
-                    <div class="timeline-item">
+                    <div class="timeline-item reveal" style="--tl-delay: 300ms">
                         <div class="timeline-bullet"></div>
                         <div class="timeline-date">November 2026</div>
-                        <div class="timeline-title">Offline PWA & The 3,000+ Resource Milestone</div>
+                        <div class="timeline-title">Offline PWA & 3,000+ Resources</div>
                         <div class="timeline-desc">
-                            Upgraded to a full Progressive Web App (PWA) with built-in mobile PDF reader, offline device saving,
-                            and over 3,070 curated books, exams, and syllabuses.
+                            Upgraded to a full Progressive Web App with a built-in mobile PDF reader, offline device saving,
+                            and over 3,070 curated books, exams, and syllabuses available free of charge.
                         </div>
                     </div>
                 </div>
@@ -521,27 +521,44 @@ function _renderAbout() {
                     Join fellow students, share study resources, and get notified about new books and syllabus drops:
                 </p>
                 <div class="social-links-grid reveal">
-                    <a href="https://wa.me/265984153455?text=Hi%20Wycliffe,%20I%20would%20like%20to%20join%20the%20Wylibrary%20WhatsApp%20community" target="_blank" class="social-badge-btn btn-whatsapp" rel="noopener">
+                    <button type="button" class="social-badge-btn btn-whatsapp" onclick="_showComingSoon('WhatsApp Community')">
                         💬 WhatsApp Community
-                    </a>
-                    <a href="https://facebook.com" target="_blank" class="social-badge-btn btn-facebook" rel="noopener">
-                        📘 Facebook Page (Coming Soon)
-                    </a>
-                    <a href="https://youtube.com" target="_blank" class="social-badge-btn btn-youtube" rel="noopener">
-                        ▶️ YouTube Channel (Coming Soon)
-                    </a>
+                    </button>
+                    <button type="button" class="social-badge-btn btn-facebook" onclick="_showComingSoon('Facebook Page')">
+                        📘 Facebook Page
+                    </button>
+                    <button type="button" class="social-badge-btn btn-youtube" onclick="_showComingSoon('YouTube Channel')">
+                        ▶️ YouTube Channel
+                    </button>
                 </div>
 
-                <p style="margin-top: 25px;"><button type="button" class="wn-link wn-link-about" data-wn-open>What’s new in ${APP_VERSION}</button></p>
+                <p style="margin-top: 25px;"><button type="button" class="wn-link wn-link-about" data-wn-open>What's new in ${APP_VERSION}</button></p>
 
                 <div class="tech-stack reveal">
                     <p><strong>Architecture & Infrastructure:</strong> Cloudflare Pages edge delivery, dual Cloudflare R2 media distribution buckets, Service Worker PWA with IndexedDB offline storage.</p>
-                    <p><strong>Client Technology:</strong> Vanilla JavaScript (Zero bloated frameworks), custom responsive CSS, and PDF.js client-side reader with pinch-to-zoom and multi-page rendering.</p>
+                    <p><strong>Client Technology:</strong> Vanilla JavaScript (zero frameworks), custom responsive CSS, and PDF.js client-side reader with pinch-to-zoom and multi-page rendering.</p>
                 </div>
             </div>
         </section>
+
+        <!-- Coming Soon popup -->
+        <div id="coming-soon-overlay" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.55); z-index:200; align-items:center; justify-content:center;" onclick="if(event.target===this)this.style.display='none'">
+            <div style="background:var(--bg-about,#fff); color:var(--text-primary,inherit); border:1px solid var(--border-input,rgba(0,0,0,0.1)); border-radius:16px; padding:28px 24px; max-width:320px; width:90%; text-align:center; box-shadow:0 20px 60px rgba(0,0,0,0.3);">
+                <div style="font-size:2.2rem; margin-bottom:10px;">🚀</div>
+                <h3 id="coming-soon-title" style="margin:0 0 8px; font-size:1.1rem; color:var(--text-primary,inherit);"></h3>
+                <p style="margin:0 0 20px; font-size:0.92rem; line-height:1.5; color:var(--text-secondary,#64748b);">We're setting this up! Check back soon.</p>
+                <button onclick="document.getElementById('coming-soon-overlay').style.display='none'" style="background:#2563eb; color:#fff; border:none; border-radius:10px; padding:10px 24px; font-size:0.95rem; font-weight:600; cursor:pointer; width:100%;">Got it</button>
+            </div>
+        </div>
     `;
     activateScrollReveal();
+}
+
+function _showComingSoon(name) {
+    const overlay = document.getElementById('coming-soon-overlay');
+    if (!overlay) return;
+    document.getElementById('coming-soon-title').textContent = name + ' - Coming Soon';
+    overlay.style.display = 'flex';
 }
 
 // ─── Request ─────────────────────────────────────────────────────────────────
@@ -565,7 +582,7 @@ function _renderRequest() {
                 <li>Email: <a href="mailto:wycliffemwanganda@gmail.com">Email me</a></li>
                 <li>WhatsApp: <a href="https://wa.me/265984153455" target="_blank">Let's talk</a></li>
             </ul>
-        </div>
+        </section>
     `;
 }
 
