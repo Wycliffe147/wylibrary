@@ -10,4 +10,8 @@ pending-questions.json
 .wrangler/
 *-bundle.zip
 *-bundle.txt
+*credentials*
+*service-account*.json
+analytics-key*.json
+scripts/*.json
 

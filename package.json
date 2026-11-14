@@ -10,6 +10,8 @@
     "build": "node generate-index.js && node scripts/add-ids.mjs",
     "ids": "node scripts/add-ids.mjs",
     "vercel-build": "echo 'Using committed files-index.json'",
+    "analytics": "uv run --with google-analytics-data scripts/analytics-report.py",
+    "analytics:live": "uv run --with google-analytics-data scripts/analytics-report.py --realtime",
     "start": "node scripts/start-server.js"
   },
   "keywords": [],
