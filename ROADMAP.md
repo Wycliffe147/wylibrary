@@ -154,6 +154,12 @@
   - Alternative: Self-hosted consistent SVG emoji artwork (e.g., Twemoji or Microsoft Fluent Emoji) bundled locally for 100% offline consistency across devices.
   - **Status:** Deferred for a thoughtful future design pass; keep current familiar emojis for now and focus on functional milestones.
 
+### 17. Voluntary Student District Selector (Analytics & Regional Reach)
+- **Concept (Idea for future consideration):** Because telecom providers in Malawi (Airtel and TNM) route mobile data through centralized gateway breakout points in Lilongwe and Blantyre, standard IP geolocation maps almost all students to Lilongwe (even when studying in Mzuzu, Zomba, Karonga, Kasungu, etc.).
+- **Implementation:** An optional, friendly dropdown or setting (e.g. "Where are you studying from? [Mzuzu, Lilongwe, Blantyre, Zomba...]") saved in `localStorage` and sent as an anonymous custom event or dimension to Google Analytics (`student_district`).
+- **Privacy First:** 100% voluntary, zero intrusive browser GPS permission popups, fully respectful of student privacy.
+- **Priority:** Low / Optional future exploration.
+
 ---
 
 ## 🧪 Development Workflow Reminder
