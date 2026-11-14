@@ -1,17 +1,17 @@
 // Wylibrary Service Worker - v10.0
 // Network-First with Cache Fallback for seamless online updates & full offline resilience
 
-const CACHE_NAME = 'wylibrary-v42-20261113';
+const CACHE_NAME = 'wylibrary-v43-20261114';
 
 // Update notification metadata (hybrid system):
 // Set type to 'auto' to let the app automatically detect materials vs features,
 // or explicitly set 'materials', 'features', or 'all'.
 // Optional custom title/message can announce specific drops (e.g. 2026 exam papers).
 const UPDATE_META = {
-  version: 'v11.1',
-  type: 'auto',    // 'auto' | 'materials' | 'features' | 'all'
-  title: '',       // optional custom title override
-  message: ''      // optional custom message override
+  version: 'v11.2',
+  type: 'features',    // 'auto' | 'materials' | 'features' | 'all'
+  title: 'Improved Document Reader',
+  message: 'Fixed document opening support for Samsung Galaxy and older Android devices.'
 };
 
 // Books the reader chose to keep. Managed by offline-store.js and NEVER deleted
@@ -68,8 +68,8 @@ const OPTIONAL_ASSETS = [
 // Cross-origin files (background, logos, card covers, PDF.js). These must be
 // fetched in CORS mode so the response is readable and can be stored.
 const REMOTE_ASSETS = [
-  'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.4.168/pdf.min.mjs',
-  'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.4.168/pdf.worker.min.mjs',
+  'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js',
+  'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js',
   'https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/bg.jpg',
   'https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/logo.png',
   'https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/logo-dark.png',

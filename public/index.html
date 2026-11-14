@@ -13,6 +13,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script>
+      // Polyfills for older Android browsers (Samsung Internet / Chrome < 119)
+      if (typeof Promise.withResolvers === 'undefined') {
+        Promise.withResolvers = function () {
+          let resolve, reject;
+          const promise = new Promise((res, rej) => { resolve = res; reject = rej; });
+          return { promise, resolve, reject };
+        };
+      }
+      if (typeof Object.hasOwn === 'undefined') {
+        Object.hasOwn = function (obj, prop) { return Object.prototype.hasOwnProperty.call(obj, prop); };
+      }
+      if (!Array.prototype.at) {
+        Array.prototype.at = function (n) {
+          n = Math.trunc(n) || 0;
+          if (n < 0) n += this.length;
+          if (n < 0 || n >= this.length) return undefined;
+          return this[n];
+        };
+      }
+    </script>
+    <script>
       // Automatically force-update any old cached service workers on page load
       if ('serviceWorker' in navigator) {
         navigator.serviceWorker.getRegistrations().then(function(regs) {
