@@ -22,6 +22,7 @@ if not KEY_PATH.exists():
         sys.exit(1)
 
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = str(KEY_PATH)
+os.environ["GRPC_DNS_RESOLVER"] = "native"
 PROPERTY_ID = os.environ.get("GA4_PROPERTY_ID", "540974263")
 
 from google.analytics.data_v1beta import BetaAnalyticsDataClient
@@ -34,7 +35,8 @@ from google.analytics.data_v1beta.types import (
     OrderBy,
 )
 
-client = BetaAnalyticsDataClient()
+# Use standard HTTPS REST transport instead of gRPC to prevent c-ares DNS resolve errors on mobile networks
+client = BetaAnalyticsDataClient(transport="rest")
 
 def print_header(title):
     print("\n" + "=" * 60)
@@ -195,6 +197,11 @@ if __name__ == "__main__":
     parser.add_argument("--realtime", action="store_true", help="Show realtime active users")
     args = parser.parse_args()
 
-    if args.realtime:
-        run_realtime()
-    run_summary(args.days)
+    try:
+        if args.realtime:
+            run_realtime()
+        run_summary(args.days)
+    except Exception as e:
+        print(f"\n[!] Connection Notice: Could not retrieve analytics data.")
+        print(f"    Details: {e}")
+        print("    Tip: Check your internet connection or mobile data and try again.")
