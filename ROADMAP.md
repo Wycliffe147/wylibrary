@@ -164,6 +164,24 @@
 - **Concept:** The idea for Wylibrary originated long before age 18. Save for future expansion in the About story once Wycliffe details the early background, challenges, and journey that sparked the vision before the first release in March 2026.
 - **Priority:** Backlog / Narrative polish when ready.
 
+### 19. Competitor & Ecosystem Tracking (Mabuku Site)
+- **Reference:** `https://free.mabuku.site/` (Mabuku - "Books" in Chichewa).
+- **Context:** An alternative Malawian digital study resource repository offering secondary school notes and past exam papers.
+- **Points of Comparison & Opportunities for Wylibrary:**
+  - **Uptime & Network Resilience:** Many alternative portals run on basic hosting stacks and frequently suffer 520/503 origin outages or slow loading on spotty mobile data. Wylibrary's static edge architecture (Cloudflare Pages + R2) provides superior reliability and instant page loads.
+  - **Offline Capability:** Wylibrary's PWA allows complete offline document saving with IndexedDB, which competitors generally lack.
+  - **Resource Curation:** Track missing past paper years, marking keys, and syllabuses to ensure Wylibrary remains the most complete and up-to-date repository (3,104+ resources).
+
+### 20. Automated Book & Exam Ingestion Script
+- **Goal:** CLI tool to automate adding new books and exam papers to Cloudflare R2 and updating the catalog without manual JSON editing.
+- **Key Architecture Lessons:**
+  - **R2 Bucket Routing:** Route `Books/` to Bucket 1 (`wylibrary-media-1`), and `Exams/`, `Zips/`, `Q&A/` to Bucket 2 (`wylibrary-media-2`).
+  - **Dual Catalog Synchronization:** Must update both `/files-index.json` and `/public/files-index.json`.
+  - **Stable IDs:** Must run `node scripts/add-ids.mjs` and commit `/public/id-map.json` to keep students' saved offline documents intact.
+  - **Filename Normalization:** Standardize titles (e.g. `2026 MANEB Biology Paper I.pdf`) and align directory naming (e.g. `Exams/Computer studies`).
+  - **Explicit MIME Types:** Always upload with explicit `ContentType` (`application/pdf`, `application/zip`).
+  - **Service Worker Invalidation:** Auto-bump `CACHE_NAME` and update `UPDATE_META` (`materials` drop notification).
+
 ---
 
 ## 🧪 Development Workflow Reminder
