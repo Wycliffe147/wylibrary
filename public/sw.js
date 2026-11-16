@@ -1,17 +1,17 @@
 // Wylibrary Service Worker - v10.0
 // Network-First with Cache Fallback for seamless online updates & full offline resilience
 
-const CACHE_NAME = 'wylibrary-v49-20261114';
+const CACHE_NAME = 'wylibrary-v50-20261116';
 
 // Update notification metadata (hybrid system):
 // Set type to 'auto' to let the app automatically detect materials vs features,
 // or explicitly set 'materials', 'features', or 'all'.
 // Optional custom title/message can announce specific drops (e.g. 2026 exam papers).
 const UPDATE_META = {
-  version: 'v11.6',
-  type: 'materials',    // 'auto' | 'materials' | 'features' | 'all'
-  title: '2026 MANEB Exam Papers Available',
-  message: 'Official 2026 MANEB MSCE exam papers across all subjects and full zip bundle are now available.'
+  version: 'v11.7',
+  type: 'features',
+  title: 'UI Polish',
+  message: 'Restored social button styling on the About page.'
 };
 
 // Books the reader chose to keep. Managed by offline-store.js and NEVER deleted

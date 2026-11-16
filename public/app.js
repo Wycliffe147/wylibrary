@@ -524,12 +524,12 @@ function _renderAbout() {
                     <a href="https://chat.whatsapp.com/Ks3oJ046vMdInp4dR7pK3r" target="_blank" rel="noopener noreferrer" class="social-badge-btn btn-whatsapp" onclick="trackEvent('join_community', { platform: 'whatsapp' })">
                         💬 WhatsApp Community
                     </a>
-                    <button type="button" class="social-badge-btn btn-facebook" onclick="_showComingSoon('Facebook Page')">
+                    <a href="javascript:void(0)" class="social-badge-btn btn-facebook" onclick="_showComingSoon('Facebook Page')">
                         📘 Facebook Page
-                    </button>
-                    <button type="button" class="social-badge-btn btn-youtube" onclick="_showComingSoon('YouTube Channel')">
+                    </a>
+                    <a href="javascript:void(0)" class="social-badge-btn btn-youtube" onclick="_showComingSoon('YouTube Channel')">
                         ▶️ YouTube Channel
-                    </button>
+                    </a>
                 </div>
 
                 <p style="margin-top: 25px;"><button type="button" class="wn-link wn-link-about" data-wn-open>What's new in ${APP_VERSION}</button></p>
