@@ -1,17 +1,17 @@
 // Wylibrary Service Worker - v10.0
 // Network-First with Cache Fallback for seamless online updates & full offline resilience
 
-const CACHE_NAME = 'wylibrary-v51-20261116';
+const CACHE_NAME = 'wylibrary-v52-20261116';
 
 // Update notification metadata (hybrid system):
 // Set type to 'auto' to let the app automatically detect materials vs features,
 // or explicitly set 'materials', 'features', or 'all'.
 // Optional custom title/message can announce specific drops (e.g. 2026 exam papers).
 const UPDATE_META = {
-  version: 'v11.7',
+  version: 'v11.8',
   type: 'features',
-  title: 'UI Polish',
-  message: 'Restored social button styling on the About page.'
+  title: 'Live Stats Synchronization',
+  message: 'Synchronized live resource counts between the About page and footer statistics.'
 };
 
 // Books the reader chose to keep. Managed by offline-store.js and NEVER deleted

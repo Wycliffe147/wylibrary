@@ -33,6 +33,10 @@ async function getCatalog() {
                 catalogByPath = new Map(catalog.map(f => [normalizePath(f.path), f]));
                 try { localStorage.setItem('wylibrary_catalog_count', String(catalog.length)); } catch (e) {}
                 updateGlobalFooterStats(catalog);
+                const aboutStatEl = document.getElementById("about-total-resources");
+                if (aboutStatEl) {
+                    aboutStatEl.textContent = catalog.length.toLocaleString();
+                }
                 // Online: make sure saved offline copies still match the library
                 // (handles renamed / moved / replaced / deleted files).
                 if (navigator.onLine && window.WyOffline) WyOffline.reconcile(catalog);
@@ -411,6 +415,7 @@ function _renderHome() {
 // ─── About ──────────────────────────────────────────────────────────────────
 
 async function loadAbout(push = true) {
+    await getCatalog();
     if (push) {
         history.pushState({ view: "about" }, "", "#/about");
         await navigateTo(_renderAbout, "About - e-library");
@@ -420,7 +425,10 @@ async function loadAbout(push = true) {
 }
 
 function _renderAbout() {
-    const totalBooks = (Array.isArray(catalog) && catalog.length > 0) ? catalog.length.toLocaleString() : "3,077";
+    const totalCount = (Array.isArray(catalog) && catalog.length > 0)
+        ? catalog.length
+        : (parseInt(localStorage.getItem('wylibrary_catalog_count') || '0', 10) || 3104);
+    const totalBooks = totalCount.toLocaleString();
 
     app.innerHTML = `
         <section class="about-section">
@@ -442,7 +450,7 @@ function _renderAbout() {
 
             <div class="about-stats-grid reveal">
                 <div class="about-stat-card">
-                    <div class="about-stat-num">${totalBooks}</div>
+                    <div class="about-stat-num" id="about-total-resources">${totalBooks}</div>
                     <div class="about-stat-label">Academic Resources</div>
                 </div>
                 <div class="about-stat-card">
@@ -511,7 +519,7 @@ function _renderAbout() {
                         <div class="timeline-title">Offline PWA & 3,000+ Resources</div>
                         <div class="timeline-desc">
                             Upgraded to a full Progressive Web App with a built-in mobile PDF reader, offline device saving,
-                            and over 3,070 curated books, exams, and syllabuses available free of charge.
+                            and over 3,100 curated books, exams, and syllabuses available free of charge.
                         </div>
                     </div>
                 </div>
