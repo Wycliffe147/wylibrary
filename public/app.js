@@ -521,15 +521,15 @@ function _renderAbout() {
                     Join fellow students, share study resources, and get notified about new books and syllabus drops:
                 </p>
                 <div class="social-links-grid reveal">
-                    <a href="https://chat.whatsapp.com/Ks3oJ046vMdInp4dR7pK3r" target="_blank" rel="noopener noreferrer" class="social-badge-btn btn-whatsapp" onclick="trackEvent('join_community', { platform: 'whatsapp' })">
+                    <button type="button" class="social-badge-btn btn-whatsapp" onclick="trackEvent('join_community', { platform: 'whatsapp' }); window.open('https://chat.whatsapp.com/Ks3oJ046vMdInp4dR7pK3r', '_blank', 'noopener,noreferrer')">
                         💬 WhatsApp Community
-                    </a>
-                    <a href="javascript:void(0)" class="social-badge-btn btn-facebook" onclick="_showComingSoon('Facebook Page')">
+                    </button>
+                    <button type="button" class="social-badge-btn btn-facebook" onclick="_showComingSoon('Facebook Page')">
                         📘 Facebook Page
-                    </a>
-                    <a href="javascript:void(0)" class="social-badge-btn btn-youtube" onclick="_showComingSoon('YouTube Channel')">
+                    </button>
+                    <button type="button" class="social-badge-btn btn-youtube" onclick="_showComingSoon('YouTube Channel')">
                         ▶️ YouTube Channel
-                    </a>
+                    </button>
                 </div>
 
                 <p style="margin-top: 25px;"><button type="button" class="wn-link wn-link-about" data-wn-open>What's new in ${APP_VERSION}</button></p>

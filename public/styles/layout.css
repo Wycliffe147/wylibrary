@@ -399,18 +399,13 @@ html.dark #darkModeToggle {
     gap: 8px;
     padding: 10px 18px;
     border-radius: 10px;
-    border: none;
-    cursor: pointer;
-    font-family: inherit;
     font-weight: 600;
     font-size: 0.92rem;
     text-decoration: none;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
-    transition: transform 0.15s, box-shadow 0.15s, opacity 0.15s;
+    transition: transform 0.15s, opacity 0.15s;
 }
 .social-badge-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.22);
     opacity: 0.92;
 }
 .btn-whatsapp { background: #25D366; color: #ffffff !important; }
