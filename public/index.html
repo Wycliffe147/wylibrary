@@ -104,6 +104,15 @@
     <script>
       // Splash: skip if already shown this session; apply saved dark mode before first paint.
       try {
+        if (location.search.includes('clean_preview')) {
+          sessionStorage.setItem('wy_splash', '1');
+          localStorage.setItem('wy_seen_v11_1_guide', '1');
+          document.documentElement.classList.add('no-splash');
+        }
+        if (location.search.includes('dark_preview')) {
+          document.documentElement.classList.add('dark');
+          localStorage.setItem('darkMode', 'true');
+        }
         if (sessionStorage.getItem('wy_splash')) document.documentElement.classList.add('no-splash');
         if (localStorage.getItem('darkMode') === 'true') document.documentElement.classList.add('dark');
       } catch (e) {}

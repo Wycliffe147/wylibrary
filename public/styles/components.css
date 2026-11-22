@@ -46,6 +46,90 @@ h2 {
     } 
 }
 
+/* ─── Level Filter Segmented Control (Preview) ─── */
+.level-selector-wrap {
+    display: flex;
+    align-items: center;
+    margin: 16px 0 8px 0;
+}
+
+.level-segmented-bar {
+    display: inline-flex;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 999px;
+    padding: 3px;
+    gap: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.level-chip-btn {
+    appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    background: transparent;
+    padding: 6px 20px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: inherit;
+    color: rgba(255, 255, 255, 0.95);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    min-height: 34px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+
+.level-chip-btn:hover {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.level-chip-btn.active {
+    background: #ffffff;
+    color: #1565c0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+html.dark .level-segmented-bar {
+    background: rgba(30, 36, 48, 0.85);
+    border-color: rgba(255, 255, 255, 0.16);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+}
+
+html.dark .level-chip-btn {
+    color: #94a3b8;
+}
+
+html.dark .level-chip-btn:hover {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+html.dark .level-chip-btn.active {
+    background: #3b82f6;
+    color: #ffffff;
+    box-shadow: 0 2px 10px rgba(59, 130, 246, 0.5);
+}
+
+.folder-meta-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 6px 0 10px 4px;
+}
+
+.folder-level-wrap {
+    margin: 0;
+}
+
 /* ─── Search Bar ─── */
 .search-container {
     margin-bottom: 10px;

@@ -54,16 +54,55 @@ async function getCatalog() {
 // Start loading the catalog in the background immediately
 getCatalog();
 
+let currentLevelFilter = 'all'; // 'all' | 'jce' | 'msce'
+try {
+    const urlLevel = new URLSearchParams(window.location.search).get("level");
+    if (urlLevel && ["all", "jce", "msce"].includes(urlLevel.toLowerCase())) {
+        currentLevelFilter = urlLevel.toLowerCase();
+    }
+} catch (e) {}
+
 function normalizePath(p) {
     return (p || "").replace(/\\/g, "/");
 }
 
-function getCategoryStats(allFiles, category) {
+function matchesLevel(file, level = currentLevelFilter) {
+    if (!level || level === 'all') return true;
+
+    const name = file.name || "";
+    const path = normalizePath(file.path);
+    const text = (name + " " + path).toUpperCase();
+
+    const parts = path.split("/");
+    const subject = parts.length > 1 ? parts[1].trim().toLowerCase() : "";
+
+    // Subjects exclusive to MSCE in Malawi secondary curriculum
+    if (subject === "additional mathematics" || subject === "physical science") {
+        return level === "msce";
+    }
+
+    const isJce = /\bJCE\b|J\.C\.E|\bFORM\s*[12]\b|\bF[12]\b|\bJUNIOR\b/.test(text);
+    const isMsce = /\bMSCE\b|M\.S\.C\.E|\bFORM\s*[34]\b|\bF[34]\b|\bSENIOR\b/.test(text);
+
+    if (level === "jce") {
+        if (isMsce && !isJce) return false;
+        return true;
+    }
+    if (level === "msce") {
+        if (isJce && !isMsce) return false;
+        return true;
+    }
+    return true;
+}
+
+function getCategoryStats(allFiles, category, level = currentLevelFilter) {
     const cleanCat = category.replace(/^\/+|\/+$/g, "");
     const prefix = cleanCat + "/";
     const matching = allFiles.filter(f => {
         const p = normalizePath(f.path);
-        return p === cleanCat || p.startsWith(prefix);
+        const inCat = p === cleanCat || p.startsWith(prefix);
+        if (!inCat) return false;
+        return matchesLevel(f, level);
     });
     const total = matching.length;
     const size = matching.reduce((sum, f) => sum + (f.size || 0), 0);
@@ -363,6 +402,13 @@ function _renderHome() {
         <a href="#/saved" id="savedLink" class="saved-link hidden">
             <span>📥 My saved books</span><span class="saved-count"></span>
         </a>
+        <div class="level-selector-wrap">
+            <div class="level-segmented-bar" role="tablist" aria-label="Filter by level">
+                <button type="button" class="level-chip-btn ${currentLevelFilter === 'all' ? 'active' : ''}" data-level="all" role="tab" aria-selected="${currentLevelFilter === 'all'}">All</button>
+                <button type="button" class="level-chip-btn ${currentLevelFilter === 'jce' ? 'active' : ''}" data-level="jce" role="tab" aria-selected="${currentLevelFilter === 'jce'}">JCE</button>
+                <button type="button" class="level-chip-btn ${currentLevelFilter === 'msce' ? 'active' : ''}" data-level="msce" role="tab" aria-selected="${currentLevelFilter === 'msce'}">MSCE</button>
+            </div>
+        </div>
         <div class="cards" id="homeCardsInApp">
             ${categories.map(c => `
                 <div id="${c.id}">
@@ -389,13 +435,38 @@ function _renderHome() {
 
     initSavedLink();
 
+    let cachedCatalogFiles = null;
+
+    function renderHomeStats(allFiles, level) {
+        categories.forEach(({ category }) => {
+            const stats = getCategoryStats(allFiles, category, level);
+            const el = document.getElementById(`count-${category}`);
+            if (el) el.textContent = `${stats.total} file${stats.total !== 1 ? "s" : ""}`;
+        });
+    }
+
+    document.querySelectorAll('.level-chip-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            currentLevelFilter = btn.dataset.level || 'all';
+            document.querySelectorAll('.level-chip-btn').forEach(b => {
+                const isActive = b === btn;
+                b.classList.toggle('active', isActive);
+                b.setAttribute('aria-selected', isActive ? 'true' : 'false');
+            });
+            if (cachedCatalogFiles) {
+                renderHomeStats(cachedCatalogFiles, currentLevelFilter);
+            }
+        });
+    });
+
     // Compute library counts and size directly from client catalog
     getCatalog().then(allFiles => {
+        cachedCatalogFiles = allFiles;
         let totalFiles = 0;
         let totalSize = 0;
 
         categories.forEach(({ category }) => {
-            const stats = getCategoryStats(allFiles, category);
+            const stats = getCategoryStats(allFiles, category, currentLevelFilter);
             const el = document.getElementById(`count-${category}`);
             if (el) el.textContent = `${stats.total} file${stats.total !== 1 ? "s" : ""}`;
             totalFiles += stats.total;
@@ -1380,7 +1451,8 @@ async function _renderFolder(category, subFolder) {
     showFolderSkeleton();
 
     const allFiles = await getCatalog();
-    const data = getFolderContents(allFiles, category, subFolder);
+    const activeLevelFiles = allFiles.filter(f => matchesLevel(f, currentLevelFilter));
+    const data = getFolderContents(activeLevelFiles, category, subFolder);
 
     const breadcrumbParts = ["Home", category, ...subFolder.split("/").filter(Boolean)];
     let breadcrumbHTML = "";
@@ -1405,8 +1477,15 @@ async function _renderFolder(category, subFolder) {
 
     app.innerHTML = `
         <div class="breadcrumb-container">${breadcrumbHTML}</div>
-        <div class="folder-meta">
+        <div class="folder-meta-bar">
             <span class="folder-file-count">${folderMetaText}</span>
+            <div class="level-selector-wrap folder-level-wrap">
+                <div class="level-segmented-bar" role="tablist" aria-label="Filter by level">
+                    <button type="button" class="level-chip-btn ${currentLevelFilter === 'all' ? 'active' : ''}" data-level="all" role="tab" aria-selected="${currentLevelFilter === 'all'}">All</button>
+                    <button type="button" class="level-chip-btn ${currentLevelFilter === 'jce' ? 'active' : ''}" data-level="jce" role="tab" aria-selected="${currentLevelFilter === 'jce'}">JCE</button>
+                    <button type="button" class="level-chip-btn ${currentLevelFilter === 'msce' ? 'active' : ''}" data-level="msce" role="tab" aria-selected="${currentLevelFilter === 'msce'}">MSCE</button>
+                </div>
+            </div>
         </div>
         <div class="search-container">
             <div class="search-input-wrapper">
@@ -1420,6 +1499,13 @@ async function _renderFolder(category, subFolder) {
         </div>
         <div class="grid"></div>
     `;
+
+    document.querySelectorAll(".folder-level-wrap .level-chip-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+            currentLevelFilter = btn.dataset.level || "all";
+            _renderFolder(category, subFolder);
+        });
+    });
 
     const selectAllToggle = document.getElementById("selectAllToggle");
     
@@ -1487,7 +1573,8 @@ async function _renderFolder(category, subFolder) {
         });
 
         if (folders.length === 0 && files.length === 0) {
-            grid.innerHTML = `<p class="empty-state">No files here yet.</p>`;
+            const levelLabel = currentLevelFilter !== 'all' ? ` for ${currentLevelFilter.toUpperCase()}` : '';
+            grid.innerHTML = `<p class="empty-state">No files here${levelLabel} yet.</p>`;
         }
     }
 
@@ -1631,7 +1718,7 @@ async function _renderFolder(category, subFolder) {
             return;
         }
 
-        const results = searchCatalog(allFiles, category, subFolder, query);
+        const results = searchCatalog(activeLevelFiles, category, subFolder, query);
 
         grid.innerHTML = "";
 
