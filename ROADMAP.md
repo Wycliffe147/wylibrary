@@ -19,6 +19,11 @@
 | **Staging branch & AGENTS.md** (test-before-deploy workflow) | `8e193de` | Nov 9 |
 | **Clean 477 file display names** (Task 4 Phase 1) | `4573e9a` | Nov 13 |
 | **Hybrid update notification system** (materials vs features vs custom) | `c7929d4` | Nov 13 |
+| **Save for Offline (IndexedDB), Batch Downloads & Bookshelf Splash (v11.1)** | `2e7cc0a` | Nov 13 |
+| **2026 MANEB exam papers and full ZIP package drop** | `5683108` | Nov 16 |
+| **WhatsApp student community integration** | `24383d3` | Nov 16 |
+| **Live academic resource count synchronization (v11.8)** | `aa97b99` | Nov 16 |
+| **JCE & MSCE Curriculum Level Selector & Title Flip (v12.0)** | `db52eda` | Nov 25 |
 
 ---
 
