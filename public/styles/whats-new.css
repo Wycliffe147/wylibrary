@@ -1,4 +1,4 @@
-/* "What's new" guide (v11.1). Bottom sheet on phones, centred card on wider screens.
+/* "What's new" guide (v12.0). Bottom sheet on phones, centred card on wider screens.
    Dark mode is handled at the bottom via html.dark, same switch as the rest of the app. */
 
 html.wn-lock, html.wn-lock body { overflow: hidden; }
@@ -124,7 +124,55 @@ html.wn-lock, html.wn-lock body { overflow: hidden; }
     font-size: 0.8rem;
     color: var(--wn-text);
 }
-/* ── Card 1: Authentic File Card ── */
+/* ── Card 1: Level Filter ── */
+.wn-level-scene {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 90%;
+    max-width: 290px;
+}
+.wn-level-pill span {
+    background: #ffc107;
+    color: #1b2333;
+    font-size: 0.78rem;
+    font-weight: 700;
+    padding: 3px 12px;
+    border-radius: 999px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
+.wn-level-sheet-mock {
+    width: 100%;
+    background: var(--wn-mock);
+    border: 1px solid var(--wn-mock-line);
+    border-radius: 10px;
+    padding: 6px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    box-sizing: border-box;
+}
+.wn-level-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.76rem;
+    padding: 3px 6px;
+    border-radius: 6px;
+    color: var(--wn-text);
+}
+.wn-level-row.active {
+    background: rgba(245, 158, 11, 0.15);
+    border: 1px solid rgba(245, 158, 11, 0.4);
+}
+.wn-level-row small {
+    color: var(--wn-muted);
+    font-size: 0.7rem;
+}
+
+/* ── Card 2: Authentic File Card ── */
 .wn-real-card {
     background: var(--wn-mock);
     border: 1px solid var(--wn-mock-line);

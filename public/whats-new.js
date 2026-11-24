@@ -1,14 +1,25 @@
-// Wylibrary "What's new in v11.1" guide.
+// Wylibrary "What's new in v12.0" guide.
 // Vanilla JS, no dependencies. Shows once after the upgrade, and can be re-opened
 // from the footer or About page (any element with data-wn-open).
 (function () {
     'use strict';
 
-    var VERSION = 'v11.1';
-    var SEEN_KEY = 'wy_seen_v11_1_guide';
+    var VERSION = 'v12.0';
+    var SEEN_KEY = 'wy_seen_v12_0_guide';
 
     // rgb = accent for that card (same palette as the launch bookshelf).
     var SLIDES = [
+        {
+            rgb: '245,158,11',
+            title: '🎓 JCE & MSCE Level Filter',
+            text: 'Switch between All, JCE (Forms 1 & 2), and MSCE (Forms 3 & 4) using the Level pill in the header to focus only on your curriculum.',
+            art: '<div class="wn-level-scene">' +
+                 '<div class="wn-level-pill"><span>🎓 MSCE ▾</span></div>' +
+                 '<div class="wn-level-sheet-mock">' +
+                 '<div class="wn-level-row active"><span>🎓</span><strong>MSCE</strong> <small>(Forms 3 & 4)</small></div>' +
+                 '<div class="wn-level-row"><span>📘</span><strong>JCE</strong> <small>(Forms 1 & 2)</small></div>' +
+                 '</div></div>'
+        },
         {
             rgb: '37,99,235',
             title: '📥 Save for Offline',
