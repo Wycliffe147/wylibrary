@@ -481,3 +481,77 @@
         transform: translate(-50%, -25px);
     }
 }
+
+/* ─── Level picker bottom sheet ─── */
+.level-sheet {
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: 10001;
+}
+.level-sheet[hidden] { display: none; }
+
+.level-sheet-scrim {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background: rgba(0, 0, 0, 0.55);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.level-sheet-panel {
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    max-width: 520px;
+    margin: 0 auto;
+    padding: 10px 16px calc(24px + env(safe-area-inset-bottom, 0px));
+    border-radius: 22px 22px 0 0;
+    background: var(--bg-card);
+    color: var(--text-primary);
+    box-shadow: 0 -8px 30px rgba(0, 0, 0, 0.3);
+    transform: translateY(100%);
+    transition: transform 0.22s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.level-sheet.is-open .level-sheet-scrim { opacity: 1; }
+.level-sheet.is-open .level-sheet-panel { transform: translateY(0); }
+
+.level-sheet-handle {
+    width: 40px;
+    height: 5px;
+    margin: 0 auto 14px;
+    border-radius: 99px;
+    background: #bbb;
+}
+.level-sheet-panel h2 { margin: 0 0 4px; font-size: 1.2rem; background: none; color: inherit; }
+.level-sheet-panel p { margin: 0 0 6px; font-size: 0.9rem; color: var(--text-secondary); }
+
+.level-opt {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 60px;
+    margin-top: 8px;
+    padding: 8px 14px;
+    border: 2px solid var(--border-input);
+    border-radius: 16px;
+    background: var(--bg-folder);
+    color: inherit;
+    font: inherit;
+    text-align: left;
+    cursor: pointer;
+}
+.level-opt-icon { font-size: 1.6rem; }
+.level-opt-text b { display: block; font-size: 1.05rem; }
+.level-opt-text small { font-size: 0.82rem; color: var(--text-secondary); }
+.level-opt-check { display: none; margin-left: auto; font-weight: 800; color: #8a5a00; }
+.level-opt.is-selected { border-color: #ffc107; background: rgba(255, 193, 7, 0.18); }
+.level-opt.is-selected .level-opt-check { display: inline; }
+html.dark .level-opt-check { color: #ffc107; }
+
+body.level-sheet-open { overflow: hidden; }
+
+@media (prefers-reduced-motion: reduce) {
+    .level-sheet-scrim, .level-sheet-panel { transition: none; }
+}

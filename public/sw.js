@@ -1,7 +1,7 @@
 // Wylibrary Service Worker - v10.0
 // Network-First with Cache Fallback for seamless online updates & full offline resilience
 
-const CACHE_NAME = 'wylibrary-v53-20261122';
+const CACHE_NAME = 'wylibrary-v62-20261125-wordjoiner';
 
 // Update notification metadata (hybrid system):
 // Set type to 'auto' to let the app automatically detect materials vs features,
@@ -100,6 +100,7 @@ async function storeRemote(cache, url) {
 
 // Install Event: Pre-cache core shell
 self.addEventListener('install', event => {
+  self.skipWaiting();
   event.waitUntil(
     caches.open(CACHE_NAME).then(async cache => {
       await cache.addAll(CORE_ASSETS);

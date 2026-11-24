@@ -579,3 +579,45 @@ html.dark .file-card.shared-highlight::before {
 @media (prefers-reduced-motion: reduce) {
     .file-card.shared-highlight { animation: none; transform: none; }
 }
+
+/* ─── Level badges (shown in the All view) ─── */
+.level-badge {
+    display: inline-block;
+    margin-left: 6px;
+    padding: 1px 8px;
+    border-radius: 12px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.level-badge.level-jce  { background: #e1f2e4; color: #14532d; }
+.level-badge.level-msce { background: #e3ecfb; color: #0d3b8a; }
+.level-badge.level-both { background: #efe3fa; color: #4a148c; }
+html.dark .level-badge.level-jce  { background: #1c3d2a; color: #9fe0b4; }
+html.dark .level-badge.level-msce { background: #1e3060; color: #9cc4ff; }
+html.dark .level-badge.level-both { background: #3a2459; color: #d9b8ff; }
+
+/* ─── Friendly empty state when a level has nothing here ─── */
+.level-empty {
+    grid-column: 1 / -1;
+    margin-top: 12px;
+    padding: 22px 16px;
+    border-radius: 12px;
+    background: var(--bg-card);
+    color: var(--text-primary);
+    text-align: center;
+}
+.level-empty-icon { font-size: 2.6rem; }
+.level-empty b { display: block; margin: 6px 0; font-size: 1.15rem; }
+.level-empty p { margin: 0 0 14px; color: var(--text-secondary); font-size: 0.9rem; }
+.level-empty-btn {
+    height: 40px;
+    padding: 0 20px;
+    border: 0;
+    border-radius: 10px;
+    background: #0b63d6;
+    color: #fff;
+    font: 700 0.9rem sans-serif;
+    cursor: pointer;
+}

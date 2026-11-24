@@ -118,7 +118,7 @@
       } catch (e) {}
     </script>
     <link rel="stylesheet" href="/styles/base.css">
-    <link rel="stylesheet" href="/styles/layout.css">
+    <link rel="stylesheet" href="/styles/layout.css?v=6">
     <link rel="stylesheet" href="/styles/components.css?v=4">
     <link rel="stylesheet" href="/styles/navigation.css">
     <link rel="stylesheet" href="/styles/modals.css">
@@ -150,7 +150,7 @@
             <img class="logo logo-dark" src="https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/logo-dark.png" alt="Logo"/>
             <button type="button" id="offlineBadge" class="offline-badge" aria-label="You are offline" title="You are offline">📡</button>
         </span>
-        <h1 id="siteTitle" aria-live="polite">Wycliffe's e-library</h1>
+        <h1 id="siteTitle" aria-live="polite">Wycliffe's e-⁠library</h1>
     </div>
 
     <nav>
@@ -158,8 +158,9 @@
         <a href="#" onclick="event.preventDefault(); loadPractice()">Practice</a>
         <a href="#" onclick="event.preventDefault(); loadAbout()">About</a>
         <a href="#" onclick="event.preventDefault(); loadRequest()">Contact</a>
-        <a href="#" id="shareBtn" onclick="event.preventDefault(); shareSite()">Share Site</a>
+        <a href="#" id="shareBtn" onclick="event.preventDefault(); shareSite()">Share</a>
         <button id="darkModeToggle" aria-label="Toggle dark mode">☀️</button>
+        <button type="button" id="levelBtn" class="level-btn" aria-haspopup="dialog" aria-label="Choose your level">Level <span class="level-chev" aria-hidden="true">▾</span></button>
         </nav>
         </div>
 
@@ -237,7 +238,7 @@
     </footer>
 
     <script src="/offline-store.js?v=11.1"></script>
-    <script src="/app.js?v=5.2.4"></script>
+    <script src="/app.js?v=6.1.0"></script>
     <script src="/splash.js?v=2"></script>
     <script src="/whats-new.js?v=11.1.4"></script>
 </body>

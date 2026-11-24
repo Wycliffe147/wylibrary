@@ -34,14 +34,24 @@
 /* Title */
 .header h1 {
     font-size: 2rem;
+    line-height: 1.25;
+    min-width: 0;
+    white-space: normal;
     margin: 0;
-    transition: opacity 0.22s ease, transform 0.22s ease;
+    transition: opacity 0.35s cubic-bezier(0.25, 1, 0.5, 1), transform 0.35s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* Very narrow devices under 340px */
+@media (max-width: 340px) {
+    .header h1 {
+        font-size: 1.7rem;
+    }
 }
 
 /* Title mid-flip (offline / back online messages) */
 .header h1.is-flipping {
     opacity: 0;
-    transform: translateY(-8px);
+    transform: translateY(-6px);
 }
 
 /* Logo + tiny "you are offline" badge on its corner */
@@ -113,6 +123,12 @@
 @media (max-width: 720px) {
     .header {
         align-items: flex-start;
+        padding: 10px 14px;
+    }
+
+    .header-top {
+        gap: 12px;
+        width: 100%;
     }
 
     .header nav {
@@ -150,6 +166,47 @@
 /* Rotate the icon based on the active theme state instead of just hover */
 html.dark #darkModeToggle {
     transform: rotate(360deg);
+}
+
+/* ─── Level pill (All / JCE / MSCE) ─── */
+.level-btn {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.25);
+    color: white;
+    font: inherit;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.2s ease;
+    flex-shrink: 0;
+}
+
+.level-btn:hover {
+    background-color: white;
+    color: #1565c0;
+}
+
+/* A level is chosen: warm amber, so the state shows without taking any space */
+.level-btn.is-active {
+    background-color: #ffc107;
+    color: #3b2a00;
+}
+
+.level-btn.is-active:hover {
+    background-color: #ffca2c;
+    color: #3b2a00;
+}
+
+@media (max-width: 720px) {
+    .header nav .level-btn {
+        margin-bottom: 5px; /* same spacing as the other nav pills */
+    }
+}
+
+/* Very narrow phones: drop the arrow so the pill stays on row 2 */
+@media (max-width: 370px) {
+    .level-btn .level-chev { display: none; }
 }
 
 /* ─── Footer Styles ─── */

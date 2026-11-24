@@ -54,23 +54,37 @@ async function getCatalog() {
 // Start loading the catalog in the background immediately
 getCatalog();
 
-let currentLevelFilter = 'all'; // 'all' | 'jce' | 'msce'
+// ─── Level filter (All / JCE / MSCE) ────────────────────────────────────────
+// One global choice, kept on this device only. It is deliberately NOT in the URL,
+// so a shared link never arrives pre-filtered.
+const LEVEL_KEY = 'wylibrary_level';
+const LEVEL_NUDGE_KEY = 'wylibrary_level_nudged';
+const LEVEL_INFO = {
+    all:  { short: 'All',  icon: '📚', title: 'All levels' },
+    jce:  { short: 'JCE',  icon: '📘', title: 'JCE' },
+    msce: { short: 'MSCE', icon: '🎓', title: 'MSCE' }
+};
+let currentLevel = null;   // null = never chosen (the button says "Level"), else 'all' | 'jce' | 'msce'
 try {
-    const urlLevel = new URLSearchParams(window.location.search).get("level");
-    if (urlLevel && ["all", "jce", "msce"].includes(urlLevel.toLowerCase())) {
-        currentLevelFilter = urlLevel.toLowerCase();
-    }
+    const savedLevel = localStorage.getItem(LEVEL_KEY);
+    if (savedLevel && LEVEL_INFO[savedLevel]) currentLevel = savedLevel;
 } catch (e) {}
+
+function isLevelFilterActive() {
+    return currentLevel === 'jce' || currentLevel === 'msce';
+}
 
 function normalizePath(p) {
     return (p || "").replace(/\\/g, "/");
 }
 
-function matchesLevel(file, level = currentLevelFilter) {
-    if (!level || level === 'all') return true;
+function getFileLevel(entry) {
+    if (!entry) return 'both';
+    const explicit = String(entry.level || '').toLowerCase();
+    if (explicit === 'jce' || explicit === 'msce' || explicit === 'both') return explicit;
 
-    const name = file.name || "";
-    const path = normalizePath(file.path);
+    const name = entry.name || "";
+    const path = normalizePath(entry.path);
     const text = (name + " " + path).toUpperCase();
 
     const parts = path.split("/");
@@ -78,38 +92,43 @@ function matchesLevel(file, level = currentLevelFilter) {
 
     // Subjects exclusive to MSCE in Malawi secondary curriculum
     if (subject === "additional mathematics" || subject === "physical science") {
-        return level === "msce";
+        return "msce";
     }
 
     const isJce = /\bJCE\b|J\.C\.E|\bFORM\s*[12]\b|\bF[12]\b|\bJUNIOR\b/.test(text);
     const isMsce = /\bMSCE\b|M\.S\.C\.E|\bFORM\s*[34]\b|\bF[34]\b|\bSENIOR\b/.test(text);
 
-    if (level === "jce") {
-        if (isMsce && !isJce) return false;
-        return true;
-    }
-    if (level === "msce") {
-        if (isJce && !isMsce) return false;
-        return true;
-    }
-    return true;
+    if (isJce && !isMsce) return "jce";
+    if (isMsce && !isJce) return "msce";
+    return "both";
 }
 
-function getCategoryStats(allFiles, category, level = currentLevelFilter) {
+function matchesLevel(file, level = currentLevel) {
+    if (!level || level === 'all') return true;
+    const l = getFileLevel(file);
+    return l === 'both' || l === level;
+}
+
+function applyLevelFilter(files, ignoreLevel = false) {
+    if (ignoreLevel || !isLevelFilterActive()) return files;
+    return files.filter(f => matchesLevel(f, currentLevel));
+}
+
+function getCategoryStats(allFiles, category, ignoreLevel = false) {
+    const filesToCount = applyLevelFilter(allFiles, ignoreLevel);
     const cleanCat = category.replace(/^\/+|\/+$/g, "");
     const prefix = cleanCat + "/";
-    const matching = allFiles.filter(f => {
+    const matching = filesToCount.filter(f => {
         const p = normalizePath(f.path);
-        const inCat = p === cleanCat || p.startsWith(prefix);
-        if (!inCat) return false;
-        return matchesLevel(f, level);
+        return p === cleanCat || p.startsWith(prefix);
     });
     const total = matching.length;
     const size = matching.reduce((sum, f) => sum + (f.size || 0), 0);
     return { total, size };
 }
 
-function getFolderContents(allFiles, category, subFolder = "") {
+function getFolderContents(allFiles, category, subFolder = "", ignoreLevel = false) {
+    allFiles = applyLevelFilter(allFiles, ignoreLevel);
     const cleanSub = subFolder.replace(/^\/+|\/+$/g, "");
     const normalizedRequestPath = (category + (cleanSub ? "/" + cleanSub : "")).replace(/\\/g, "/");
     const currentPrefix = normalizedRequestPath.endsWith("/") ? normalizedRequestPath : normalizedRequestPath + "/";
@@ -144,7 +163,8 @@ function getFolderContents(allFiles, category, subFolder = "") {
     return { folders, files };
 }
 
-function getRecursiveFiles(allFiles, category, folderPath = "") {
+function getRecursiveFiles(allFiles, category, folderPath = "", ignoreLevel = false) {
+    allFiles = applyLevelFilter(allFiles, ignoreLevel);
     const cleanSub = folderPath.replace(/^\/+|\/+$/g, "");
     const normalizedRequestPath = (category + (cleanSub ? "/" + cleanSub : "")).replace(/\\/g, "/");
     const prefix = normalizedRequestPath.endsWith("/") ? normalizedRequestPath : normalizedRequestPath + "/";
@@ -158,7 +178,8 @@ function getRecursiveFiles(allFiles, category, folderPath = "") {
         }));
 }
 
-function searchCatalog(allFiles, category, subFolder = "", query = "") {
+function searchCatalog(allFiles, category, subFolder = "", query = "", ignoreLevel = false) {
+    allFiles = applyLevelFilter(allFiles, ignoreLevel);
     const cleanSub = subFolder.replace(/^\/+|\/+$/g, "");
     const normalizedRequestPath = (category + (cleanSub ? "/" + cleanSub : "")).replace(/\\/g, "/");
     const prefix = normalizedRequestPath.endsWith("/") ? normalizedRequestPath : normalizedRequestPath + "/";
@@ -402,13 +423,6 @@ function _renderHome() {
         <a href="#/saved" id="savedLink" class="saved-link hidden">
             <span>📥 My saved books</span><span class="saved-count"></span>
         </a>
-        <div class="level-selector-wrap">
-            <div class="level-segmented-bar" role="tablist" aria-label="Filter by level">
-                <button type="button" class="level-chip-btn ${currentLevelFilter === 'all' ? 'active' : ''}" data-level="all" role="tab" aria-selected="${currentLevelFilter === 'all'}">All</button>
-                <button type="button" class="level-chip-btn ${currentLevelFilter === 'jce' ? 'active' : ''}" data-level="jce" role="tab" aria-selected="${currentLevelFilter === 'jce'}">JCE</button>
-                <button type="button" class="level-chip-btn ${currentLevelFilter === 'msce' ? 'active' : ''}" data-level="msce" role="tab" aria-selected="${currentLevelFilter === 'msce'}">MSCE</button>
-            </div>
-        </div>
         <div class="cards" id="homeCardsInApp">
             ${categories.map(c => `
                 <div id="${c.id}">
@@ -435,42 +449,19 @@ function _renderHome() {
 
     initSavedLink();
 
-    let cachedCatalogFiles = null;
-
-    function renderHomeStats(allFiles, level) {
-        categories.forEach(({ category }) => {
-            const stats = getCategoryStats(allFiles, category, level);
-            const el = document.getElementById(`count-${category}`);
-            if (el) el.textContent = `${stats.total} file${stats.total !== 1 ? "s" : ""}`;
-        });
-    }
-
-    document.querySelectorAll('.level-chip-btn').forEach(btn => {
-        btn.addEventListener('click', () => {
-            currentLevelFilter = btn.dataset.level || 'all';
-            document.querySelectorAll('.level-chip-btn').forEach(b => {
-                const isActive = b === btn;
-                b.classList.toggle('active', isActive);
-                b.setAttribute('aria-selected', isActive ? 'true' : 'false');
-            });
-            if (cachedCatalogFiles) {
-                renderHomeStats(cachedCatalogFiles, currentLevelFilter);
-            }
-        });
-    });
-
     // Compute library counts and size directly from client catalog
     getCatalog().then(allFiles => {
-        cachedCatalogFiles = allFiles;
         let totalFiles = 0;
         let totalSize = 0;
 
         categories.forEach(({ category }) => {
-            const stats = getCategoryStats(allFiles, category, currentLevelFilter);
+            const stats = getCategoryStats(allFiles, category);
             const el = document.getElementById(`count-${category}`);
             if (el) el.textContent = `${stats.total} file${stats.total !== 1 ? "s" : ""}`;
-            totalFiles += stats.total;
-            totalSize += stats.size;
+            // Library-wide totals ignore the level filter
+            const fullStats = getCategoryStats(allFiles, category, true);
+            totalFiles += fullStats.total;
+            totalSize += fullStats.size;
         });
 
         const totalEl = document.getElementById("total-books");
@@ -1451,8 +1442,7 @@ async function _renderFolder(category, subFolder) {
     showFolderSkeleton();
 
     const allFiles = await getCatalog();
-    const activeLevelFiles = allFiles.filter(f => matchesLevel(f, currentLevelFilter));
-    const data = getFolderContents(activeLevelFiles, category, subFolder);
+    const data = getFolderContents(allFiles, category, subFolder);
 
     const breadcrumbParts = ["Home", category, ...subFolder.split("/").filter(Boolean)];
     let breadcrumbHTML = "";
@@ -1475,17 +1465,15 @@ async function _renderFolder(category, subFolder) {
         folderMetaText = `${data.folders.length} folder${data.folders.length !== 1 ? "s" : ""}, ${data.files.length} file${data.files.length !== 1 ? "s" : ""}`;
     }
 
+    const levelOn = isLevelFilterActive();
+    if (levelOn) {
+        folderMetaText += ` (${LEVEL_INFO[currentLevel].short})`;
+    }
+
     app.innerHTML = `
         <div class="breadcrumb-container">${breadcrumbHTML}</div>
-        <div class="folder-meta-bar">
+        <div class="folder-meta">
             <span class="folder-file-count">${folderMetaText}</span>
-            <div class="level-selector-wrap folder-level-wrap">
-                <div class="level-segmented-bar" role="tablist" aria-label="Filter by level">
-                    <button type="button" class="level-chip-btn ${currentLevelFilter === 'all' ? 'active' : ''}" data-level="all" role="tab" aria-selected="${currentLevelFilter === 'all'}">All</button>
-                    <button type="button" class="level-chip-btn ${currentLevelFilter === 'jce' ? 'active' : ''}" data-level="jce" role="tab" aria-selected="${currentLevelFilter === 'jce'}">JCE</button>
-                    <button type="button" class="level-chip-btn ${currentLevelFilter === 'msce' ? 'active' : ''}" data-level="msce" role="tab" aria-selected="${currentLevelFilter === 'msce'}">MSCE</button>
-                </div>
-            </div>
         </div>
         <div class="search-container">
             <div class="search-input-wrapper">
@@ -1499,13 +1487,6 @@ async function _renderFolder(category, subFolder) {
         </div>
         <div class="grid"></div>
     `;
-
-    document.querySelectorAll(".folder-level-wrap .level-chip-btn").forEach(btn => {
-        btn.addEventListener("click", () => {
-            currentLevelFilter = btn.dataset.level || "all";
-            _renderFolder(category, subFolder);
-        });
-    });
 
     const selectAllToggle = document.getElementById("selectAllToggle");
     
@@ -1573,8 +1554,21 @@ async function _renderFolder(category, subFolder) {
         });
 
         if (folders.length === 0 && files.length === 0) {
-            const levelLabel = currentLevelFilter !== 'all' ? ` for ${currentLevelFilter.toUpperCase()}` : '';
-            grid.innerHTML = `<p class="empty-state">No files here${levelLabel} yet.</p>`;
+            const hiddenCount = levelOn ? getRecursiveFiles(allFiles, category, subFolder, true).length : 0;
+            if (hiddenCount > 0) {
+                const lvl = LEVEL_INFO[currentLevel].short;
+                grid.innerHTML = `
+                    <div class="level-empty">
+                        <div class="level-empty-icon">📁</div>
+                        <b>Nothing for ${lvl} here yet</b>
+                        <p>This folder only has books for other levels so far.</p>
+                        <button type="button" class="level-empty-btn" data-level-all>Show all levels</button>
+                    </div>`;
+                const showAllBtn = grid.querySelector("[data-level-all]");
+                if (showAllBtn) showAllBtn.addEventListener("click", () => setLevel("all"));
+            } else {
+                grid.innerHTML = `<p class="empty-state">No files here yet.</p>`;
+            }
         }
     }
 
@@ -1718,12 +1712,20 @@ async function _renderFolder(category, subFolder) {
             return;
         }
 
-        const results = searchCatalog(activeLevelFiles, category, subFolder, query);
+        const results = searchCatalog(allFiles, category, subFolder, query);
 
         grid.innerHTML = "";
 
         if (results.length === 0) {
-            grid.innerHTML = `<p class="empty-state">No files found for "<strong>${query}</strong>" in this folder.</p>`;
+            const hiddenMatches = levelOn ? searchCatalog(allFiles, category, subFolder, query, true).length : 0;
+            grid.innerHTML = `<p class="empty-state">No files found for "<strong>${query}</strong>" in this folder.</p>`
+                + (hiddenMatches > 0 ? `
+                    <div class="level-empty">
+                        <p>${hiddenMatches} more match${hiddenMatches !== 1 ? "es" : ""} in other levels.</p>
+                        <button type="button" class="level-empty-btn" data-level-all>Show all levels</button>
+                    </div>` : "");
+            const showAllBtn = grid.querySelector("[data-level-all]");
+            if (showAllBtn) showAllBtn.addEventListener("click", () => setLevel("all"));
             updateSelectAllToggleText();
             return;
         }
@@ -1745,6 +1747,144 @@ async function _renderFolder(category, subFolder) {
         });
     }, 1500);
     searchInput.addEventListener("input", () => trackSearch(searchInput.value.trim()));
+}
+
+// ─── Level picker (header pill + bottom sheet) ──────────────────────────────
+
+let levelSheetEl = null;
+let levelSheetOpener = null;
+let levelSheetTimer = null;
+
+function updateLevelButton() {
+    const btn = document.getElementById("levelBtn");
+    if (!btn) return;
+    const label = currentLevel ? LEVEL_INFO[currentLevel].short : "Level";
+    btn.innerHTML = `${label} <span class="level-chev" aria-hidden="true">▾</span>`;
+    btn.classList.toggle("is-active", isLevelFilterActive());
+    btn.setAttribute("aria-label", currentLevel
+        ? `Level: ${LEVEL_INFO[currentLevel].title}. Tap to change`
+        : "Choose your level");
+}
+
+function setLevel(level) {
+    if (!LEVEL_INFO[level]) return;
+    currentLevel = level;
+    try { localStorage.setItem(LEVEL_KEY, level); } catch (e) {}
+    updateLevelButton();
+    closeLevelSheet();
+
+    if (isLevelFilterActive()) {
+        startLevelFlipInterval();
+    } else {
+        stopLevelFlipInterval();
+    }
+
+    // Home and folder views depend on the level; the other pages don't.
+    const hash = window.location.hash || "";
+    if (hash === "" || hash === "#" || hash === "#/" || hash.startsWith("#/folder/")) {
+        handleRouteFromUrl();
+    }
+
+    // Confirm in the header title (no extra row, same trick as Offline Mode)
+    flipTitleTo(level === "all"
+        ? `${LEVEL_INFO.all.icon} All levels`
+        : `${LEVEL_INFO[level].icon} ${LEVEL_INFO[level].short} view`, 3000);
+}
+
+function buildLevelSheet() {
+    const options = [
+        ["all",  "All levels", "Everything in the library"],
+        ["jce",  "JCE",        "Junior Certificate (Forms 1 & 2)"],
+        ["msce", "MSCE",       "Malawi School Certificate (Forms 3 & 4)"]
+    ];
+    const el = document.createElement("div");
+    el.id = "levelSheet";
+    el.className = "level-sheet";
+    el.hidden = true;
+    el.setAttribute("role", "dialog");
+    el.setAttribute("aria-modal", "true");
+    el.setAttribute("aria-labelledby", "levelSheetTitle");
+    el.innerHTML = `
+        <div class="level-sheet-scrim" data-close></div>
+        <div class="level-sheet-panel">
+            <div class="level-sheet-handle"></div>
+            <h2 id="levelSheetTitle">Which level are you studying?</h2>
+            <p>You can change this anytime.</p>
+            ${options.map(([key, title, sub]) => `
+                <button type="button" class="level-opt" data-level="${key}">
+                    <span class="level-opt-icon">${LEVEL_INFO[key].icon}</span>
+                    <span class="level-opt-text"><b>${title}</b><small>${sub}</small></span>
+                    <span class="level-opt-check" aria-hidden="true">✓</span>
+                </button>
+            `).join("")}
+        </div>
+    `;
+    el.addEventListener("click", e => {
+        if (e.target.closest("[data-close]")) { closeLevelSheet(); return; }
+        const opt = e.target.closest(".level-opt");
+        if (opt) setLevel(opt.dataset.level);
+    });
+    document.body.appendChild(el);
+    return el;
+}
+
+function openLevelSheet() {
+    if (!levelSheetEl) levelSheetEl = buildLevelSheet();
+    clearTimeout(levelSheetTimer);
+    levelSheetEl.querySelectorAll(".level-opt").forEach(btn => {
+        const selected = btn.dataset.level === currentLevel;
+        btn.classList.toggle("is-selected", selected);
+        btn.setAttribute("aria-pressed", selected ? "true" : "false");
+    });
+    levelSheetOpener = document.activeElement;
+    levelSheetEl.hidden = false;
+    document.body.classList.add("level-sheet-open");
+    // next frame, so the slide-up transition actually runs
+    requestAnimationFrame(() => levelSheetEl.classList.add("is-open"));
+    const first = levelSheetEl.querySelector(".level-opt.is-selected") || levelSheetEl.querySelector(".level-opt");
+    if (first) first.focus();
+}
+
+function closeLevelSheet() {
+    if (!levelSheetEl || levelSheetEl.hidden) return;
+    levelSheetEl.classList.remove("is-open");
+    document.body.classList.remove("level-sheet-open");
+    clearTimeout(levelSheetTimer);
+    levelSheetTimer = setTimeout(() => { levelSheetEl.hidden = true; }, 220);
+    if (levelSheetOpener && typeof levelSheetOpener.focus === "function") levelSheetOpener.focus();
+}
+
+function initLevelPicker() {
+    const btn = document.getElementById("levelBtn");
+    if (!btn) return;
+    updateLevelButton();
+    btn.addEventListener("click", openLevelSheet);
+
+    if (isLevelFilterActive()) {
+        startLevelFlipInterval();
+    }
+
+    document.addEventListener("keydown", e => {
+        if (!levelSheetEl || levelSheetEl.hidden) return;
+        if (e.key === "Escape") { closeLevelSheet(); return; }
+        if (e.key === "Tab") {   // keep keyboard focus inside the open sheet
+            const items = Array.from(levelSheetEl.querySelectorAll(".level-opt"));
+            const i = items.indexOf(document.activeElement);
+            if (e.shiftKey && i <= 0) { e.preventDefault(); items[items.length - 1].focus(); }
+            else if (!e.shiftKey && i === items.length - 1) { e.preventDefault(); items[0].focus(); }
+        }
+    });
+
+    // One-time, transient hint for first-time visitors (no permanent row)
+    let nudged = true;
+    try { nudged = !!localStorage.getItem(LEVEL_NUDGE_KEY); } catch (e) {}
+    if (!currentLevel && !nudged && navigator.onLine) {
+        setTimeout(() => {
+            if (currentLevel) return;
+            flipTitleTo("🎓 Pick your level", 3500);
+            try { localStorage.setItem(LEVEL_NUDGE_KEY, "1"); } catch (e) {}
+        }, 4500);
+    }
 }
 
 // ─── Scroll reveal ───────────────────────────────────────────────────────────
@@ -2074,28 +2214,81 @@ function hideInstallModal() {
 
 let isHeaderVisible = true;
 let pendingFlip = null; // 'offline' | 'online' | null
+let flipPhaseTimer = null;
 let flipTimeout = null;
-const ORIGINAL_TITLE = "Wycliffe's e-library";
+let flipResetTimer = null;
+let levelFlipInterval = null;
+let hasScrolledPastHeader = false;
+let isFlippingNow = false;
+let lastFlipTime = Date.now();
+const FLIP_COOLDOWN_MS = 45000; // at least 45s between non-manual flips to avoid visual fatigue
+const ORIGINAL_TITLE = "Wycliffe's e-\u2060library";
+
+function triggerLevelFlip() {
+    if (!isLevelFilterActive()) return;
+    lastFlipTime = Date.now();
+    const text = `${LEVEL_INFO[currentLevel].icon} ${LEVEL_INFO[currentLevel].short} view`;
+    flipTitleTo(text, 3000);
+}
+
+function startLevelFlipInterval() {
+    stopLevelFlipInterval();
+    if (!isLevelFilterActive()) return;
+    levelFlipInterval = setInterval(() => {
+        const scrollY = window.scrollY || document.documentElement.scrollTop;
+        const elapsed = Date.now() - lastFlipTime;
+        if ((scrollY < 120 || isHeaderVisible) && elapsed >= 60000 && isLevelFilterActive() && !isFlippingNow && !pendingFlip && !document.hidden) {
+            triggerLevelFlip();
+        }
+    }, 60000);
+}
+
+function stopLevelFlipInterval() {
+    if (levelFlipInterval) {
+        clearInterval(levelFlipInterval);
+        levelFlipInterval = null;
+    }
+}
 
 function flipTitleTo(newText, durationMs = 3500) {
     const titleEl = document.getElementById("siteTitle");
     if (!titleEl) return;
+    if (flipPhaseTimer) clearTimeout(flipPhaseTimer);
     if (flipTimeout) clearTimeout(flipTimeout);
+    if (flipResetTimer) clearTimeout(flipResetTimer);
 
+    isFlippingNow = true;
     titleEl.classList.add("is-flipping");
-    setTimeout(() => {
+    flipPhaseTimer = setTimeout(() => {
         titleEl.textContent = newText;
         titleEl.classList.remove("is-flipping");
 
         flipTimeout = setTimeout(() => {
             titleEl.classList.add("is-flipping");
-            setTimeout(() => {
+            flipResetTimer = setTimeout(() => {
                 titleEl.textContent = ORIGINAL_TITLE;
                 titleEl.classList.remove("is-flipping");
-            }, 220);
+                isFlippingNow = false;
+            }, 350);
         }, durationMs);
-    }, 220);
+    }, 350);
 }
+
+// Scroll-based re-entry detector: whenever user scrolls down into content
+// and returns back up towards the top, flip the title to remind them of the active level,
+// guarded by a 45s cooldown to avoid distraction while browsing.
+window.addEventListener('scroll', () => {
+    const scrollY = window.scrollY || document.documentElement.scrollTop;
+    if (scrollY > 120) {
+        hasScrolledPastHeader = true;
+    } else if (scrollY < 50 && hasScrolledPastHeader) {
+        hasScrolledPastHeader = false;
+        const elapsed = Date.now() - lastFlipTime;
+        if (elapsed >= FLIP_COOLDOWN_MS && isLevelFilterActive() && !isFlippingNow && !pendingFlip) {
+            triggerLevelFlip();
+        }
+    }
+}, { passive: true });
 
 function triggerOfflineFlip() {
     if (isHeaderVisible) {
@@ -2122,11 +2315,18 @@ function initHeaderObserver() {
     if ('IntersectionObserver' in window) {
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
-                isHeaderVisible = entry.isIntersecting;
-                if (isHeaderVisible && pendingFlip) {
-                    if (pendingFlip === 'offline') flipTitleTo("📡 Offline Mode", 3500);
-                    else if (pendingFlip === 'online') flipTitleTo("🟢 Back Online", 2500);
-                    pendingFlip = null;
+                const nowVisible = entry.isIntersecting;
+                if (nowVisible && !isHeaderVisible) {
+                    isHeaderVisible = true;
+                    if (pendingFlip) {
+                        if (pendingFlip === 'offline') flipTitleTo("📡 Offline Mode", 3500);
+                        else if (pendingFlip === 'online') flipTitleTo("🟢 Back Online", 2500);
+                        pendingFlip = null;
+                    } else if (isLevelFilterActive() && !isFlippingNow && (Date.now() - lastFlipTime >= FLIP_COOLDOWN_MS)) {
+                        triggerLevelFlip();
+                    }
+                } else if (!nowVisible && isHeaderVisible) {
+                    isHeaderVisible = false;
                 }
             });
         }, { threshold: 0.15 });
@@ -2448,6 +2648,7 @@ window.addEventListener("DOMContentLoaded", () => {
     if (toggleBtn) toggleBtn.addEventListener("click", toggleDarkMode);
 
     initDarkMode();
+    initLevelPicker();
     initMagicNav();
     handleRouteFromUrl();
 });
