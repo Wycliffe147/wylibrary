@@ -1,7 +1,7 @@
 // Wylibrary Service Worker - v10.0
 // Network-First with Cache Fallback for seamless online updates & full offline resilience
 
-const CACHE_NAME = 'wylibrary-v62-20261125-wordjoiner';
+const CACHE_NAME = 'wylibrary-v63-20261125-senior';
 
 // Update notification metadata (hybrid system):
 // Set type to 'auto' to let the app automatically detect materials vs features,

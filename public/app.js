@@ -1795,7 +1795,7 @@ function buildLevelSheet() {
     const options = [
         ["all",  "All levels", "Everything in the library"],
         ["jce",  "JCE",        "Junior Certificate (Forms 1 & 2)"],
-        ["msce", "MSCE",       "Malawi School Certificate (Forms 3 & 4)"]
+        ["msce", "MSCE",       "Malawi Senior Certificate (Forms 3 & 4)"]
     ];
     const el = document.createElement("div");
     el.id = "levelSheet";
