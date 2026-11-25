@@ -552,3 +552,85 @@ html.dark #darkModeToggle {
     margin-bottom: 30px;
     font-size: 2rem;
 }
+
+/* ─── About page - Story / Mission / Support boxes ─── */
+.about-story-box {
+    background: #fffbeb;
+    border: 1px solid #fde68a;
+    border-radius: 12px;
+    padding: 20px 22px;
+    margin: 25px 0;
+}
+.about-story-box h3 {
+    color: #92400e;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+.about-story-box p {
+    color: #78350f;
+    font-size: 0.95rem;
+    line-height: 1.65;
+    margin: 0 0 10px;
+}
+.about-story-box p:last-child {
+    margin-bottom: 0;
+}
+.about-story-cost {
+    font-style: italic;
+    opacity: 0.88;
+}
+
+.about-mission-box {
+    background: #f0f9ff;
+    border: 1px solid #bae6fd;
+    border-radius: 12px;
+    padding: 20px 22px;
+    margin: 25px 0;
+}
+.about-mission-box h3 {
+    color: #0c4a6e;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+.about-mission-box p {
+    color: #0369a1;
+    font-size: 0.95rem;
+    line-height: 1.65;
+    margin: 0 0 10px;
+}
+.about-mission-box p:last-child {
+    margin-bottom: 0;
+}
+
+.about-support-box {
+    background: #fdf4ff;
+    border: 1px solid #e9d5ff;
+    border-radius: 12px;
+    padding: 20px 22px;
+    margin: 25px 0;
+}
+.about-support-box h3 {
+    color: #581c87;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+.about-support-box > p {
+    color: #6b21a8;
+    font-size: 0.95rem;
+    line-height: 1.65;
+    margin: 0 0 10px;
+}
+.about-support-list {
+    margin: 8px 0 0;
+    padding-left: 0;
+    list-style: none;
+}
+.about-support-list li {
+    color: #6b21a8;
+    font-size: 0.93rem;
+    line-height: 1.6;
+    padding: 3px 0;
+}

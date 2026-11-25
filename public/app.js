@@ -1,4 +1,4 @@
-const APP_VERSION = 'v12.0';
+const APP_VERSION = 'v12.1';
 const app = document.getElementById("app");
 
 // Capture deep-link flag immediately - before the hash is replaced by navigation.
@@ -497,15 +497,18 @@ function _renderAbout() {
 
     app.innerHTML = `
         <section class="about-section">
+
+            <!-- Developer card -->
             <div class="developer-card reveal">
                 <h3>Hi, I'm Wycliffe 👋</h3>
                 <p>
-                    I'm a student developer from Malawi building practical, lightweight digital tools
-                    for secondary students and educators across the country.
+                    I'm a software developer from Malawi. I build web apps, Android apps, and full systems -
+                    Wylibrary is one of them. I'm 18, self-taught, and I genuinely enjoy building things that
+                    solve real problems around me.
                 </p>
                 <div style="margin-top: 16px; display: flex; flex-wrap: wrap; gap: 12px;">
                     <a href="https://wyport.vercel.app" target="_blank" class="dev-link" rel="noopener">
-                        Visit My Portfolio
+                        My Portfolio
                     </a>
                     <a href="mailto:wycliffemwanganda@gmail.com" class="dev-link" style="border-color: #64748b; color: inherit;">
                         Email Me
@@ -513,6 +516,7 @@ function _renderAbout() {
                 </div>
             </div>
 
+            <!-- Stats -->
             <div class="about-stats-grid reveal">
                 <div class="about-stat-card">
                     <div class="about-stat-num" id="about-total-resources">${totalBooks}</div>
@@ -524,16 +528,16 @@ function _renderAbout() {
                 </div>
                 <div class="about-stat-card">
                     <div class="about-stat-num">100%</div>
-                    <div class="about-stat-label">Free & Ad-Free</div>
+                    <div class="about-stat-label">Free &amp; Ad-Free</div>
                 </div>
             </div>
 
             <div class="about-content">
                 <h2>About This Project</h2>
                 <p>
-                    Wylibrary is an offline-first educational platform I built for Malawian secondary school students
-                    (Forms 1 to 4, JCE and MSCE). It brings textbooks, notes, syllabuses, and past papers into one clean,
-                    organized space that works seamlessly on any phone.
+                    Wylibrary is an offline-first educational platform built for Malawian secondary school students
+                    (Forms 1-4, JCE and MSCE). Textbooks, notes, syllabuses, and past papers - all in one clean,
+                    organized space that works on any phone, even when your data runs out.
                 </p>
 
                 <div class="about-flex reveal">
@@ -541,32 +545,60 @@ function _renderAbout() {
                     <div>
                         <p style="font-style: italic; margin-bottom: 12px;">
                             "I built this because relying solely on WhatsApp groups for study materials is frustrating.
-                            Files get lost in chat history, new members have to ask for the same documents again, and valuable mobile data gets wasted re-downloading things."
+                            Files get lost in chat history, new members have to ask for the same documents again and again,
+                            and precious mobile data gets wasted re-downloading the same things."
                         </p>
                         <p style="font-size: 0.95rem; opacity: 0.85;">
-                            With Wylibrary, every document has a permanent home. You can read online or save once to your offline shelf and open it anytime without spending data.
+                            With Wylibrary, every resource has a permanent home. Read online or save once to your offline
+                            shelf and open it anytime - no data needed.
                         </p>
                     </div>
                 </div>
 
-                <div class="resilience-box reveal">
-                    <h4>Built for Real Networks</h4>
+                <!-- The Real Story -->
+                <div class="about-story-box reveal">
+                    <h3>The Real Story</h3>
                     <p>
-                        Unlike heavy web portals that crash with "503 Service Unavailable" errors when students flood them before exams,
-                        Wylibrary runs on static edge architecture. Zero tracking ads, zero database slowdowns, and instant offline caching.
-                        Even when your internet connection is slow or drops, your saved library stays open.
+                        Nobody assigned this. No teacher asked me to. No organisation paid me. This is a passion project -
+                        built because I saw a problem and had the ability to do something about it.
+                    </p>
+                    <p>
+                        Back in 2021, in Form 1, I saw the chairperson of my school's ICT club build a simple offline
+                        e-library. It was nothing fancy, but it sparked something. I wanted to build my own - online,
+                        bigger, better. The problem was storage. How do you host thousands of PDFs for free? I didn't
+                        know. So I kept planning. Writing snippets. Jotting pseudocode. Thinking it through for years.
+                    </p>
+                    <p>
+                        In January 2026, I cracked it - Cloudflare R2 storage, free tier. That was the missing piece.
+                        Two months later, on March 2, 2026, I launched. I was 18.
+                    </p>
+                    <p class="about-story-cost">
+                        What I put in: sleep, time, and a lot of mobile data - real money out of my own pocket.
+                        What I get back: experience, sharpened skills, and the chance to show up as a software developer,
+                        not just a student.
                     </p>
                 </div>
 
+                <!-- Built for Real Networks -->
+                <div class="resilience-box reveal">
+                    <h4>Built for Real Networks</h4>
+                    <p>
+                        Unlike heavy portals that collapse with "503 Service Unavailable" when students rush them before
+                        exams, Wylibrary runs on static edge architecture - no database, no server crashes, no ads.
+                        Your offline library stays open even when your connection drops.
+                    </p>
+                </div>
+
+                <!-- Timeline -->
                 <h3 style="margin-top: 35px; margin-bottom: 15px;">How It Started</h3>
                 <div class="about-timeline">
                     <div class="timeline-item reveal" style="--tl-delay: 0ms">
                         <div class="timeline-bullet"></div>
                         <div class="timeline-date">March 2, 2026</div>
-                        <div class="timeline-title">Built & Launched at 18</div>
+                        <div class="timeline-title">Built &amp; Launched at 18</div>
                         <div class="timeline-desc">
-                            I coded and published the first version at 18 years old to give fellow Malawian secondary students
-                            a unified, searchable catalog of study materials - no more "please resend the PDF."
+                            Launched the first version at 18 to give Malawian secondary students a single,
+                            searchable home for study materials - no more "please resend the PDF."
                         </div>
                     </div>
                     <div class="timeline-item reveal" style="--tl-delay: 150ms">
@@ -574,24 +606,64 @@ function _renderAbout() {
                         <div class="timeline-date">July 11, 2026</div>
                         <div class="timeline-title">wylibrary.org Goes Live</div>
                         <div class="timeline-desc">
-                            My very first custom domain purchase. Wylibrary moved from a GitHub Pages link to its own permanent address
-                            as an independent, open educational resource.
+                            My first ever custom domain. Wylibrary moved from a GitHub Pages link to its own
+                            permanent address as an independent, open educational resource.
                         </div>
                     </div>
                     <div class="timeline-item reveal" style="--tl-delay: 300ms">
                         <div class="timeline-bullet"></div>
                         <div class="timeline-date">November 2026</div>
-                        <div class="timeline-title">Offline PWA & 3,000+ Resources</div>
+                        <div class="timeline-title">Offline PWA &amp; 3,000+ Resources</div>
                         <div class="timeline-desc">
-                            Upgraded to a full Progressive Web App with a built-in mobile PDF reader, offline device saving,
-                            and over 3,100 curated books, exams, and syllabuses available free of charge.
+                            Upgraded to a full Progressive Web App with a built-in PDF reader, offline device saving,
+                            and over 3,100 curated books, exams, and syllabuses - 100% free.
                         </div>
                     </div>
                 </div>
 
-                <h3 style="margin-top: 35px; margin-bottom: 10px;">Community & Updates</h3>
+                <!-- The Bigger Picture -->
+                <div class="about-mission-box reveal">
+                    <h3>The Bigger Picture</h3>
+                    <p>
+                        Wylibrary is about more than resource access. It's proof that young people in Malawi
+                        can build real, meaningful things. Right now. Without waiting for permission.
+                    </p>
+                    <p>
+                        If you're a student reading this: you don't need a university course or a corporate job
+                        to start building. Learn. Experiment. Solve the problems you see around you. The tools are
+                        free and the problems are real. That's enough to begin.
+                    </p>
+                </div>
+
+                <!-- Support Wylibrary -->
+                <div class="about-support-box reveal">
+                    <h3>Support Wylibrary</h3>
+                    <p>
+                        Mobile money (PayChangu, Airtel Money, TNM Mpamba) is coming - but you don't need money
+                        to make a real difference right now:
+                    </p>
+                    <ul class="about-support-list">
+                        <li>📚 Share a book or resource you have</li>
+                        <li>📣 Tell a classmate or teacher about Wylibrary</li>
+                        <li>🐛 Report a bug or broken link</li>
+                        <li>💡 Suggest a missing subject, topic, or improvement</li>
+                        <li>🎓 Teach someone in your school how to use it</li>
+                    </ul>
+                    <div style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 16px;">
+                        <button type="button" class="social-badge-btn btn-whatsapp"
+                            onclick="trackEvent('support_whatsapp'); window.open('https://chat.whatsapp.com/Ks3oJ046vMdInp4dR7pK3r', '_blank', 'noopener,noreferrer')">
+                            💬 Join Community
+                        </button>
+                        <a href="mailto:wycliffemwanganda@gmail.com" class="social-badge-btn" style="text-decoration:none; display:inline-flex; align-items:center;">
+                            ✉️ Contact Me
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Community & Updates -->
+                <h3 style="margin-top: 35px; margin-bottom: 10px;">Community &amp; Updates</h3>
                 <p style="font-size: 0.95rem; margin-bottom: 12px;">
-                    Join fellow students, share study resources, and get notified about new books and syllabus drops:
+                    Join fellow students, get notified about new resources, and share what you have:
                 </p>
                 <div class="social-links-grid reveal">
                     <button type="button" class="social-badge-btn btn-whatsapp" onclick="trackEvent('join_community', { platform: 'whatsapp' }); window.open('https://chat.whatsapp.com/Ks3oJ046vMdInp4dR7pK3r', '_blank', 'noopener,noreferrer')">
@@ -608,7 +680,7 @@ function _renderAbout() {
                 <p style="margin-top: 25px;"><button type="button" class="wn-link wn-link-about" data-wn-open>What's new in ${APP_VERSION}</button></p>
 
                 <div class="tech-stack reveal">
-                    <p><strong>Architecture & Infrastructure:</strong> Cloudflare Pages edge delivery, dual Cloudflare R2 media distribution buckets, Service Worker PWA with IndexedDB offline storage.</p>
+                    <p><strong>Architecture &amp; Infrastructure:</strong> Cloudflare Pages edge delivery, dual Cloudflare R2 media distribution buckets, Service Worker PWA with IndexedDB offline storage.</p>
                     <p><strong>Client Technology:</strong> Vanilla JavaScript (zero frameworks), custom responsive CSS, and PDF.js client-side reader with pinch-to-zoom and multi-page rendering.</p>
                 </div>
             </div>
@@ -626,7 +698,6 @@ function _renderAbout() {
     `;
     activateScrollReveal();
 }
-
 function _showComingSoon(name) {
     const overlay = document.getElementById('coming-soon-overlay');
     if (!overlay) return;

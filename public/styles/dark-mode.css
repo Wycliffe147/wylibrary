@@ -285,3 +285,38 @@ html.dark .file-actions .btn-remove-saved:hover {
 
 html.dark .saved-badge.warn { background-color: #4a1d1d; color: #fca5a5; }
 html.dark .saved-badge.info { background-color: #4a3410; color: #fcd34d; }
+
+/* ─── About page - Story / Mission / Support boxes (dark) ─── */
+html.dark .about-story-box {
+    background: #1c1500;
+    border-color: #78350f;
+}
+html.dark .about-story-box h3 {
+    color: #fbbf24;
+}
+html.dark .about-story-box p {
+    color: #fde68a;
+}
+
+html.dark .about-mission-box {
+    background: #001f30;
+    border-color: #0369a1;
+}
+html.dark .about-mission-box h3 {
+    color: #38bdf8;
+}
+html.dark .about-mission-box p {
+    color: #7dd3fc;
+}
+
+html.dark .about-support-box {
+    background: #1a0a2e;
+    border-color: #6b21a8;
+}
+html.dark .about-support-box h3 {
+    color: #d8b4fe;
+}
+html.dark .about-support-box > p,
+html.dark .about-support-list li {
+    color: #c4b5fd;
+}
