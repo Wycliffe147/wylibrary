@@ -4,8 +4,8 @@
 (function () {
     'use strict';
 
-    var VERSION = 'v12.0';
-    var SEEN_KEY = 'wy_seen_v12_0_guide';
+    var VERSION = 'v12.1';
+    var SEEN_KEY = 'wy_seen_v12_1_guide';
 
     // rgb = accent for that card (same palette as the launch bookshelf).
     var SLIDES = [
@@ -21,54 +21,81 @@
                  '</div></div>'
         },
         {
-            rgb: '37,99,235',
-            title: '📥 Save for Offline',
-            text: 'Save books, exams, and notes directly to the app and read them without using internet data.',
-            art: '<div class="wn-real-card">' +
-                 '<div class="wn-real-file-top"><span class="wn-real-icon">📄</span><span class="wn-real-title">Mathematics_Paper_1.pdf <span class="wn-real-size">(2.4 MB)</span></span></div>' +
-                 '<div class="wn-real-actions">' +
-                 '<span class="wn-real-btn open">Open</span>' +
-                 '<span class="wn-real-btn download">Download</span>' +
-                 '<span class="wn-real-btn saved">✓ Saved</span>' +
-                 '<span class="wn-real-btn share">Share</span>' +
-                 '</div></div>'
-        },
-        {
-            rgb: '22,163,74',
-            title: '📂 Organized Saved Books',
-            text: 'Browse your offline collection by folder, search inside it, and tick the checkboxes to Download Selected in one go.',
-            art: '<div class="wn-mock wn-list">' +
-                 '<div class="wn-row"><i class="wn-cb on"></i>📂 Physics</div>' +
-                 '<div class="wn-row"><i class="wn-cb on"></i>📂 Mathematics</div>' +
-                 '<div class="wn-row"><i class="wn-cb"></i>📂 Notes</div>' +
-                 '<div class="wn-dl">Download Selected (2)</div></div>'
-        },
-        {
-            rgb: '245,158,11',
-            title: '📡 Offline Awareness',
-            text: 'An amber pill appears at the top when offline. Tap it to see how many books are saved, and look for the 📡 badge on the logo.',
-            art: '<div class="wn-offline-scene">' +
-                 '<div class="wn-real-pill"><span>Offline · 12 saved books</span></div>' +
-                 '<div class="wn-real-header">' +
-                 '<div class="wn-real-logo-box">' +
-                 '<img class="logo-light" src="https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/logo.png" alt="Logo" onerror="this.style.display=\'none\'"/>' +
-                 '<img class="logo-dark" src="https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/logo-dark.png" alt="Logo" onerror="this.style.display=\'none\'"/>' +
-                 '<span class="wn-real-logo-badge">📡</span>' +
-                 '</div>' +
-                 '<span class="wn-real-header-title">Wycliffe’s e-library</span>' +
-                 '</div></div>'
-        },
-        {
             rgb: '147,51,234',
-            title: '📚 Fast & Light',
-            text: 'A smooth bookshelf animation when the app launches, and a layout tuned for phones so everything stays quick and easy to tap.',
-            art: '<div class="wn-shelf"><div class="wn-books">' +
-                 '<i style="--c:#2563eb;--h:46px"></i><i style="--c:#16a34a;--h:58px"></i>' +
-                 '<i style="--c:#f59e0b;--h:42px"></i><i style="--c:#9333ea;--h:54px"></i>' +
-                 '<i style="--c:#2563eb;--h:50px"></i><i style="--c:#ef4444;--h:60px"></i></div>' +
-                 '<div class="wn-plank"></div></div>'
+            title: '📖 Our Story & Mission',
+            text: 'Visit the redesigned About page to read how Wylibrary started in Form 1, our vision to inspire young builders, and ways to support us.',
+            art: '<div class="wn-story-scene">' +
+                 '<div class="wn-story-pill"><span>🇲🇼 Built in Malawi</span></div>' +
+                 '<div class="wn-story-card">' +
+                 '<div class="wn-story-header"><span>🌟</span><strong>The Real Story</strong></div>' +
+                 '<div class="wn-story-tags">' +
+                 '<span class="wn-story-tag">📚 Share Books</span>' +
+                 '<span class="wn-story-tag">💡 Inspire Youth</span>' +
+                 '<span class="wn-story-tag">💬 Community</span>' +
+                 '</div></div></div>'
         }
     ];
+
+    /* =========================================================================
+       CARD ARCHIVE & TEMPLATE GALLERY (Historical Slides & Design Patterns)
+       Preserved for design reference and future release cards (v13+).
+       -------------------------------------------------------------------------
+       1. Offline Save Card (File Action Buttons):
+          {
+              rgb: '37,99,235',
+              title: '📥 Save for Offline',
+              text: 'Save books, exams, and notes directly to the app and read them without using internet data.',
+              art: '<div class="wn-real-card">' +
+                   '<div class="wn-real-file-top"><span class="wn-real-icon">📄</span><span class="wn-real-title">Mathematics_Paper_1.pdf <span class="wn-real-size">(2.4 MB)</span></span></div>' +
+                   '<div class="wn-real-actions">' +
+                   '<span class="wn-real-btn open">Open</span>' +
+                   '<span class="wn-real-btn download">Download</span>' +
+                   '<span class="wn-real-btn saved">✓ Saved</span>' +
+                   '<span class="wn-real-btn share">Share</span>' +
+                   '</div></div>'
+          }
+
+       2. Folder & Batch Download List:
+          {
+              rgb: '22,163,74',
+              title: '📂 Organized Saved Books',
+              text: 'Browse your offline collection by folder, search inside it, and tick the checkboxes to Download Selected in one go.',
+              art: '<div class="wn-mock wn-list">' +
+                   '<div class="wn-row"><i class="wn-cb on"></i>📂 Physics</div>' +
+                   '<div class="wn-row"><i class="wn-cb on"></i>📂 Mathematics</div>' +
+                   '<div class="wn-row"><i class="wn-cb"></i>📂 Notes</div>' +
+                   '<div class="wn-dl">Download Selected (2)</div></div>'
+          }
+
+       3. Offline Status Pill & Logo Scene:
+          {
+              rgb: '245,158,11',
+              title: '📡 Offline Awareness',
+              text: 'An amber pill appears at the top when offline. Tap it to see how many books are saved, and look for the 📡 badge on the logo.',
+              art: '<div class="wn-offline-scene">' +
+                   '<div class="wn-real-pill"><span>Offline · 12 saved books</span></div>' +
+                   '<div class="wn-real-header">' +
+                   '<div class="wn-real-logo-box">' +
+                   '<img class="logo-light" src="https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/logo.png" alt="Logo" onerror="this.style.display=\'none\'"/>' +
+                   '<img class="logo-dark" src="https://raw.githubusercontent.com/Wycliffe147/e-library-media/main/images/logo-dark.png" alt="Logo" onerror="this.style.display=\'none\'"/>' +
+                   '<span class="wn-real-logo-badge">📡</span>' +
+                   '</div>' +
+                   '<span class="wn-real-header-title">Wycliffe’s e-library</span>' +
+                   '</div></div>'
+          }
+
+       4. Animated Bookshelf:
+          {
+              rgb: '147,51,234',
+              title: '📚 Fast & Light',
+              text: 'A smooth bookshelf animation when the app launches, and a layout tuned for phones so everything stays quick and easy to tap.',
+              art: '<div class="wn-shelf"><div class="wn-books">' +
+                   '<i style="--c:#2563eb;--h:46px"></i><i style="--c:#16a34a;--h:58px"></i>' +
+                   '<i style="--c:#f59e0b;--h:42px"></i><i style="--c:#9333ea;--h:54px"></i>' +
+                   '<i style="--c:#2563eb;--h:50px"></i><i style="--c:#ef4444;--h:60px"></i></div>' +
+                   '<div class="wn-plank"></div></div>'
+          }
+       ========================================================================= */
 
     var root = null, view = null, track = null, btnBack = null, btnNext = null, spineBox = null;
     var idx = 0, isOpen = false, lastFocus = null, touchX = null, touchY = null;
