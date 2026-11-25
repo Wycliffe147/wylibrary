@@ -189,7 +189,7 @@
   },
   {
     "name": "MSCE Agriculture Forms 3 & 4 Questions & Model Answers (Kamphonje).pdf",
-    "path": "Books/Agriculture/AGRI-KUDINKULA-KAMPHONJE-1_260404_064711.pdf",
+    "path": "Q&A/Agriculture/MSCE Agriculture Forms 3 & 4 Questions & Model Answers (Kamphonje).pdf",
     "size": 1711328,
     "repo": "e-library-media",
     "bucket": 1,
@@ -376,30 +376,12 @@
     "level": "msce"
   },
   {
-    "name": "MSCE Agriculture Soil Structures Essays.docx",
-    "path": "Books/Agriculture/AGRICULTURE_ESSAY(1).docx",
-    "size": 13137,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f7f1964912",
-    "level": "msce"
-  },
-  {
-    "name": "MSCE Agriculture Soil Structure & Improvement Essays.pdf",
-    "path": "Books/Agriculture/AGRICULTURE_ESSAY-1-1-1.pdf",
+    "name": "MSCE Agriculture Essay Examination Questions.pdf",
+    "path": "Exams/Agriculture/MSCE Agriculture Essay Examination Questions.pdf",
     "size": 184649,
     "repo": "e-library-media",
     "bucket": 1,
     "id": "fb2e7912c8",
-    "level": "msce"
-  },
-  {
-    "name": "MSCE Agriculture Soil Structures Essays (Alternative Edition).pdf",
-    "path": "Books/Agriculture/AGRICULTURE_ESSAY_(1).pdf",
-    "size": 219699,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f694dd0ae5",
     "level": "msce"
   },
   {
@@ -422,7 +404,7 @@
   },
   {
     "name": "MSCE Agriculture Module 1 - Soil Degradation Questions & Answers (20 Pages).pdf",
-    "path": "Books/Agriculture/AGRICULTURE_QUESTIONS_&ANSWERS_BOOK4-1.pdf",
+    "path": "Q&A/Agriculture/MSCE Agriculture Module 1 - Soil Degradation Questions & Answers (20 Pages).pdf",
     "size": 68918,
     "repo": "e-library-media-2",
     "bucket": 1,
@@ -825,7 +807,7 @@
   },
   {
     "name": "MSCE Agriculture Practical Examination Questions (58 Pages).pdf",
-    "path": "Books/Agriculture/MSCE Agriculture Practical Examination Questions (58 Pages).pdf",
+    "path": "Q&A/Agriculture/MSCE Agriculture Practical Examination Questions (58 Pages).pdf",
     "size": 3777108,
     "repo": "e-library-media",
     "bucket": 1,
