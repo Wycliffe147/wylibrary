@@ -272,11 +272,11 @@
     "id": "f631e2158b"
   },
   {
-    "name": "AGRICULTURE P2.zip",
-    "path": "Books/Agriculture/AGRICULTURE P2.zip",
+    "name": "2026 MSCE Agriculture Paper 2 SHED Mock (Special Needs).zip",
+    "path": "Zips/2026 MSCE Agriculture Paper 2 SHED Mock (Special Needs).zip",
     "size": 1213767,
     "repo": "e-library-media",
-    "bucket": 1,
+    "bucket": 2,
     "id": "f245c6afe8"
   },
   {
@@ -334,14 +334,6 @@
     "repo": "e-library-media-2",
     "bucket": 1,
     "id": "fd8da60ef9"
-  },
-  {
-    "name": "AGRICULTURE_4&3_COMBINED-1.pdf",
-    "path": "Books/Agriculture/AGRICULTURE_4&3_COMBINED-1.pdf",
-    "size": 777031,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fa4a29b192"
   },
   {
     "name": "AGRICULTURE_4&3_COMBINED.pdf",
@@ -641,7 +633,7 @@
   },
   {
     "name": "Biology diagrams.pdf",
-    "path": "Books/Agriculture/Biology diagrams.pdf",
+    "path": "Books/Biology/Biology diagrams.pdf",
     "size": 710443,
     "repo": "e-library-media",
     "bucket": 1,
@@ -654,14 +646,6 @@
     "repo": "e-library-media",
     "bucket": 1,
     "id": "f76bc3bd17"
-  },
-  {
-    "name": "EXCELL_AGRICULTURE_BOOK_1-1-1-1.pdf",
-    "path": "Books/Agriculture/EXCELL_AGRICULTURE_BOOK_1-1-1-1.pdf",
-    "size": 53207347,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "ff31fb47c8"
   },
   {
     "name": "EXCELL_AGRICULTURE_BOOK_1.pdf",
