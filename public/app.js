@@ -85,7 +85,7 @@ function getFileLevel(entry) {
 
     const name = entry.name || "";
     const path = normalizePath(entry.path);
-    const text = (name + " " + path).toUpperCase();
+    const text = (name + " " + path).replace(/[_.-]/g, " ").toUpperCase();
 
     const parts = path.split("/");
     const subject = parts.length > 1 ? parts[1].trim().toLowerCase() : "";
@@ -98,8 +98,8 @@ function getFileLevel(entry) {
     // Explicit combined range across whole secondary cycle (Forms 1-4) -> both
     if (/\b1\s*(TO|-)\s*4\b|FORMS?\s*1\s*,\s*2\s*,\s*3\s*,\s*4/.test(text)) return "both";
 
-    const isJce = /\bJCE\b|J\.C\.E|\bFORM\s*[12]\b|\bF[12]\b|\bFORM\s*(ONE|TWO)\b|\bBOOK\s*[12]\b|\bJUNIOR\b/.test(text);
-    const isMsce = /\bMSCE\b|M\.S\.C\.E|\bFORM\s*[34]\b|\bF[34]\b|\bFORM\s*(THREE|FOUR)\b|\bBOOK\s*[34]\b|\bSENIOR\b|\b[34]\s*(&|\+|AND)\s*[34]\b/.test(text);
+    const isJce = /\b(JCE|J C E|FORM\s*[12]|F[12]|FORM\s*(ONE|TWO)|BOOK\s*[12]|BK\s*[12]|JUNIOR)\b/.test(text);
+    const isMsce = /\b(MSCE|M S C E|FORM\s*[34]|F[34]|FORM\s*(THREE|FOUR)|BOOK\s*[34]|BK\s*[34]|SENIOR|[34]\s*(&|\+|AND)\s*[34])\b/.test(text);
 
     if (isJce && !isMsce) return "jce";
     if (isMsce && !isJce) return "msce";
