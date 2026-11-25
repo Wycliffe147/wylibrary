@@ -198,6 +198,13 @@
   - Wylibrary mission summary and direct What's New guide link.
 - **Priority:** High / Pair with About page update.
 
+### 22. Level Filter Notification Pill (Offline-Style or Merged Header Banner)
+- **Concept:** When filtered to JCE or MSCE, show a clear status pill styled like the existing amber offline indicator banner (`#offlineBanner`).
+- **Ideas to Explore:**
+  - Dedicated top status pill: e.g. `🎓 MSCE active · Tap to change` anchored at the top of the header.
+  - Unified / merged banner: When both offline and filtered to a level, gracefully merge or cycle the status (e.g. `Offline · 12 saved books | 🎓 MSCE`) to maintain a clean, zero-clutter interface.
+- **Priority:** Backlog / Saved for future design pass.
+
 ---
 
 ## 🧪 Development Workflow Reminder
