@@ -165,9 +165,12 @@
 - **Privacy First:** 100% voluntary, zero intrusive browser GPS permission popups, fully respectful of student privacy.
 - **Priority:** Low / Optional future exploration.
 
-### 18. Origin Story Expansion (Pre-18 Concept & Early Roots)
-- **Concept:** The idea for Wylibrary originated long before age 18. Save for future expansion in the About story once Wycliffe details the early background, challenges, and journey that sparked the vision before the first release in March 2026.
-- **Priority:** Backlog / Narrative polish when ready.
+### 18. About Page Story & Vision Expansion
+- **Story Details to Incorporate:**
+  - **Who Wycliffe Is & What He Does:** Background on Wycliffe Mwanganda, what he does, and his dedication to software development and student empowerment.
+  - **The 2021 Form 4 Origin:** The early roots of Wylibrary dating back to 2021 when Wycliffe was in Form 4, experiencing firsthand the scarcity of textbooks, syllabi, and past exam papers for secondary school students in Malawi.
+  - **The Vision:** Transforming education accessibility across Malawi through a free, ultra-fast, and data-friendly digital library built specifically for local learners.
+- **Priority:** High / Scheduled for narrative and personal story polish.
 
 ### 19. Competitor & Ecosystem Tracking (Mabuku Site)
 - **Reference:** `https://free.mabuku.site/` (Mabuku - "Books" in Chichewa).
@@ -186,6 +189,14 @@
   - **Filename Normalization:** Standardize titles (e.g. `2026 MANEB Biology Paper I.pdf`) and align directory naming (e.g. `Exams/Computer studies`).
   - **Explicit MIME Types:** Always upload with explicit `ContentType` (`application/pdf`, `application/zip`).
   - **Service Worker Invalidation:** Auto-bump `CACHE_NAME` and update `UPDATE_META` (`materials` drop notification).
+
+### 21. Footer Expansion & Structured Links
+- **Goal:** Update the footer across all views by adding more comprehensive information and clear navigation links.
+- **Key Elements to Include:**
+  - Quick links (Home, Practice, About, Contact, WhatsApp Student Community).
+  - Resource categories (JCE Resources, MSCE Resources, MANEB Past Papers, Textbooks).
+  - Wylibrary mission summary and direct What's New guide link.
+- **Priority:** High / Pair with About page update.
 
 ---
 
