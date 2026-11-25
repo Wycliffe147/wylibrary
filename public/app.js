@@ -95,8 +95,11 @@ function getFileLevel(entry) {
         return "msce";
     }
 
-    const isJce = /\bJCE\b|J\.C\.E|\bFORM\s*[12]\b|\bF[12]\b|\bJUNIOR\b/.test(text);
-    const isMsce = /\bMSCE\b|M\.S\.C\.E|\bFORM\s*[34]\b|\bF[34]\b|\bSENIOR\b/.test(text);
+    // Explicit combined range across whole secondary cycle (Forms 1-4) -> both
+    if (/\b1\s*(TO|-)\s*4\b|FORMS?\s*1\s*,\s*2\s*,\s*3\s*,\s*4/.test(text)) return "both";
+
+    const isJce = /\bJCE\b|J\.C\.E|\bFORM\s*[12]\b|\bF[12]\b|\bFORM\s*(ONE|TWO)\b|\bBOOK\s*[12]\b|\bJUNIOR\b/.test(text);
+    const isMsce = /\bMSCE\b|M\.S\.C\.E|\bFORM\s*[34]\b|\bF[34]\b|\bFORM\s*(THREE|FOUR)\b|\bBOOK\s*[34]\b|\bSENIOR\b|\b[34]\s*(&|\+|AND)\s*[34]\b/.test(text);
 
     if (isJce && !isMsce) return "jce";
     if (isMsce && !isJce) return "msce";
@@ -1563,6 +1566,7 @@ async function _renderFolder(category, subFolder) {
                         <b>Nothing for ${lvl} here yet</b>
                         <p>This folder only has books for other levels so far.</p>
                         <button type="button" class="level-empty-btn" data-level-all>Show all levels</button>
+                        <p class="level-empty-hint">Think a file is misplaced? Tap above to view all materials.</p>
                     </div>`;
                 const showAllBtn = grid.querySelector("[data-level-all]");
                 if (showAllBtn) showAllBtn.addEventListener("click", () => setLevel("all"));
@@ -1817,6 +1821,7 @@ function buildLevelSheet() {
                     <span class="level-opt-check" aria-hidden="true">✓</span>
                 </button>
             `).join("")}
+            <p class="level-sheet-note">💡 Level filtering is actively being refined. If you cannot find a book, switch to <b>All levels</b> to see everything.</p>
         </div>
     `;
     el.addEventListener("click", e => {

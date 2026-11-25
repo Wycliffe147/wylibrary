@@ -611,6 +611,7 @@ html.dark .level-badge.level-both { background: #3a2459; color: #d9b8ff; }
 .level-empty-icon { font-size: 2.6rem; }
 .level-empty b { display: block; margin: 6px 0; font-size: 1.15rem; }
 .level-empty p { margin: 0 0 14px; color: var(--text-secondary); font-size: 0.9rem; }
+.level-empty .level-empty-hint { margin: 12px 0 0; font-size: 0.8rem; opacity: 0.82; }
 .level-empty-btn {
     height: 40px;
     padding: 0 20px;

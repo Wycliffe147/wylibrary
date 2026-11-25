@@ -550,6 +550,18 @@
 .level-opt.is-selected .level-opt-check { display: inline; }
 html.dark .level-opt-check { color: #ffc107; }
 
+.level-sheet-note {
+    margin: 14px 4px 2px;
+    font-size: 0.78rem;
+    line-height: 1.45;
+    color: var(--text-secondary);
+    text-align: center;
+    opacity: 0.9;
+}
+.level-sheet-note b {
+    color: var(--text-primary);
+}
+
 body.level-sheet-open { overflow: hidden; }
 
 @media (prefers-reduced-motion: reduce) {
