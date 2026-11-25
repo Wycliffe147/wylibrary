@@ -44,7 +44,7 @@
    - **Goal:** Go through every folder one at a time (starting with `Books/`), clean file names, verify JCE/MSCE classification accuracy, fix duplicates, and document conventions. Each folder is a learning step toward building a smart ingestion script.
    - **Progress so far:**
      - ✅ `Books/Additional Mathematics` (commit `2c901cb`, Nov 13)
-     - ✅ `Books/Agriculture` (commit `854f816`, Nov 13)
+     - ✅ `Books/Agriculture` (deep audit complete: 71 clean books with 100% level tagging, 9 mock exams transferred to Exams/, 4 duplicates deleted from R2)
      - ✅ `Books/Bible Knowledge` (merged casing duplicate, moved 5 mock exams to Exams/, deleted 4 sermons/duplicates, 25 clean books)
      - ⬜ `Books/Biology`
      - ⬜ `Books/Business Studies`
