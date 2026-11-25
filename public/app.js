@@ -569,7 +569,7 @@ function _renderAbout() {
                         know. So I kept planning. Writing snippets. Jotting pseudocode. Thinking it through for years.
                     </p>
                     <p>
-                        In January 2026, I cracked it - Cloudflare R2 storage, free tier. That was the missing piece.
+                        In January 2026, I cracked it. That was the missing piece.
                         Two months later, on March 2, 2026, I launched. I was 18.
                     </p>
                     <p class="about-story-cost">

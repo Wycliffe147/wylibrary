@@ -42,13 +42,15 @@ He is not a university/college student doing coursework. He builds because he se
 
 From 2021 to 2025 he kept the idea alive: writing snippets of code, pseudocode, notes, sketches - whenever inspiration struck.
 
-**January 2026:** Cracked the storage and cost problem - Cloudflare R2 and Pages, free tier covers it.
+**January 2026:** Cracked the initial storage problem without spending money. He had looked into GitHub Packages (hit limits early), then invented a creative Git LFS architecture: spanned files across 5 separate GitHub media repositories (each with a 10GB limit), yielding 50GB of free, expandable storage. People assumed he was paying for a proprietary database software.
 
 **March 2, 2026:** Launched the first version at 18 years old.
 
+**Late June / Early July 2026:** Hit the Vercel hobbyist plan bandwidth limits as traffic climbed; parts of the site began failing. Migrated hosting to Cloudflare Pages edge network to resolve hosting limits.
+
 **July 11, 2026:** Registered wylibrary.org - his first ever custom domain.
 
-**November 2026:** Full PWA, offline saving, 3,100+ resources, JCE/MSCE level filtering (v12.0).
+**November 2026:** Git LFS download bandwidth hit over 90% of its 10GB/month account quota due to heavy student usage. Dug deeper and migrated media storage to dual Cloudflare R2 buckets, eliminating Git LFS bandwidth limits completely. Also upgraded to a full PWA with offline saving, 3,100+ resources, and JCE/MSCE level filtering (v12.0).
 
 ---
 
