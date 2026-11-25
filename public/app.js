@@ -503,7 +503,7 @@ function _renderAbout() {
                 <h3>Hi, I'm Wycliffe 👋</h3>
                 <p>
                     I'm a software developer from Malawi. I build web apps, Android apps, and full systems -
-                    Wylibrary is one of them. I'm 18, self-taught, and I genuinely enjoy building things that
+                    Wylibrary is one of them. I'm self-taught, and I genuinely enjoy building things that
                     solve real problems around me.
                 </p>
                 <div style="margin-top: 16px; display: flex; flex-wrap: wrap; gap: 12px;">
