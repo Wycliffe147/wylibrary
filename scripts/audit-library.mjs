@@ -53,12 +53,25 @@ report('ZIP Files sitting in Books/ (belong in Zips/)', zipsInBooks);
 
 // ─── 3. EXAMS MISTAKENLY IN BOOKS ─────────────────────────────────────────
 // Exclude revision books or study text that legitimately discuss exams
-const legitimateBookKeywords = /practical examination questions|study guide|revision booklet|syllabus/i;
-const examRegex = /\b(MANEB|MOCK|PAPER\s*[123I]|PAST\s*PAPERS?|ANSWER_)\b/i;
+const legitimateBookKeywords = /practical examination questions|study guide|revision booklet|syllabus|module|notes/i;
+const examRegex = /\b(MANEB|MOCK|PAPER\s*[123IV]|PAST\s*PAPERS?|ANSWER_|DIOCESE|CLUSTER|MARKING\s*SCHEME|MARKING\s*KEY)\b/i;
 const examsInBooks = catalog
     .filter(f => f.path.startsWith('Books/') && examRegex.test(f.name) && !legitimateBookKeywords.test(f.name))
     .map(f => f.path);
 report('Exam Papers / Answers sitting inside Books/', examsInBooks);
+
+// ─── 3b. SUSPICIOUS / CRYPTIC CHARACTERS IN NAMES ─────────────────────────
+const crypticRegex = /[$@#Π]|\bCopy\s*-\s*Copy\b|[-_]1-1-1|_1_1/;
+const crypticNames = catalog
+    .filter(f => crypticRegex.test(f.name))
+    .map(f => `${f.name} [${f.path}]`);
+report('Cryptic / Garbled Filenames (e.g. $, @, #, Copy-Copy)', crypticNames);
+
+// ─── 3c. SUSPICIOUSLY TINY FILES (< 1KB) ───────────────────────────────────
+const tinyFiles = catalog
+    .filter(f => (f.size || 0) > 0 && f.size < 1024)
+    .map(f => `${f.name} (${f.size} bytes) [${f.path}]`);
+report('Suspiciously Tiny Files (< 1KB, possible corrupt or dummy metadata)', tinyFiles);
 
 // ─── 4. NON-CURRICULUM CHURCH SERMONS ─────────────────────────────────────
 const sermonRegex = /\b(SERMON|SABBATH|CHURCH|STEWARDSHIP|PASTOR)\b/i;
