@@ -40,20 +40,43 @@
 3. **2026 & Recent Document Additions**
    - Ingest and index new past papers, mock exams, and syllabi from 2026 / recent school years.
 
-4. **Document Naming, Metadata & Ingestion Workflow**
-   - **Fix existing filenames:** Clean up vague, truncated, and inconsistent names across Books, Exams, and Q&A. Many files currently have raw upload names that give users no hint of what's inside.
-   - **Establish a naming convention:** Agree on a standard pattern before uploading new files, for example:
+4. **Document Naming, Metadata & Ingestion Workflow (Folder-by-Folder)**
+   - **Goal:** Go through every folder one at a time (starting with `Books/`), clean file names, verify JCE/MSCE classification accuracy, fix duplicates, and document conventions. Each folder is a learning step toward building a smart ingestion script.
+   - **Progress so far:**
+     - ✅ `Books/Additional Mathematics` (commit `2c901cb`, Nov 13)
+     - ✅ `Books/Agriculture` (commit `854f816`, Nov 13)
+     - ⬜ `Books/Bible Knowledge` (casing mismatch: merge `Bible knowledge` into `Bible Knowledge`)
+     - ⬜ `Books/Biology`
+     - ⬜ `Books/Business Studies`
+     - ⬜ `Books/Chemistry`
+     - ⬜ `Books/Chichewa`
+     - ⬜ `Books/Computer studies`
+     - ⬜ `Books/English`
+     - ⬜ `Books/Geography`
+     - ⬜ `Books/History`
+     - ⬜ `Books/Home Economics`
+     - ⬜ `Books/Life Skills`
+     - ⬜ `Books/Mathematics`
+     - ⬜ `Books/Physical Science`
+     - ⬜ `Books/Physics`
+     - ⬜ `Books/Social Studies`
+     - ⬜ `Books/Syllabuses`
+     - ⬜ All `Exams/` subfolders
+     - ⬜ `Q&A/`
+     - ⬜ **Unzip `Zips/` folder:** Review all 56 ZIP archives, extract contents, and distribute individual files across the correct subject folders in `Books/` and `Exams/`. Remove ZIP duplicates from R2 once distributed and verified.
+   - **Fix existing filenames:** Clean up vague, truncated, and inconsistent names. Many files have raw upload names with no hint of what's inside.
+   - **Establish a naming convention** (locked in after the folder pass):
      ```
      [Category]_[Subject]_[Level]_[Year]_[Description].pdf
      Exams_Mathematics_MSCE_2024_Paper1.pdf
      Books_Biology_JCE_MaladeSyllabus.pdf
      ```
    - **Re-organize misclassified files** into correct subject/level directories.
-   - **Automate new resource ingestion:** When adding new materials, automate as much of the pipeline as possible:
-     - Script to validate filenames against the naming convention before upload.
-     - Auto-generate / update `files-index.json` entries (description, category, path, ID) on upload rather than editing JSON manually.
+   - **Automate new resource ingestion** (built from lessons learned folder-by-folder):
+     - Validates filenames against the naming convention before upload.
+     - Auto-generates / updates `files-index.json` entries (description, category, path, ID) on upload.
      - Community submission workflow: WhatsApp group members submit files → ingestion script renames, places, and indexes them → they appear in the library automatically.
-     - **File deduplication via content hash:** At ingestion, the script computes a short hash (first 8 chars of SHA-256) from each file’s content and stores it in `files-index.json`. Before adding any new file, the script checks existing hashes and rejects exact duplicates automatically, even if the file was renamed or moved. The hash also doubles as a stable `id` tied to the actual content, not just the filename.
+     - **File deduplication via content hash:** Computes a short SHA-256 hash per file; rejects exact duplicates at ingestion even if renamed or moved.
 
 5. **Batch Multi-Select & Share / Download Function**
    - Allow selecting multiple files (checkboxes / multi-select mode).
