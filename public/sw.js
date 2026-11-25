@@ -8,7 +8,7 @@ const CACHE_NAME = 'wylibrary-v65-20261125-v12';
 // or explicitly set 'materials', 'features', or 'all'.
 // Optional custom title/message can announce specific drops (e.g. 2026 exam papers).
 const UPDATE_META = {
-  version: 'v12.1',
+  version: 'v12.0',
   type: 'features',
   title: '🎓 JCE & MSCE Level Filter',
   message: 'Filter study materials by education level (All, JCE, MSCE) with a clean mobile view.'

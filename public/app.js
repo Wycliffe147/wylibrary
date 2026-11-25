@@ -1,4 +1,4 @@
-const APP_VERSION = 'v12.1';
+const APP_VERSION = 'v12.0';
 const app = document.getElementById("app");
 
 // Capture deep-link flag immediately - before the hash is replaced by navigation.

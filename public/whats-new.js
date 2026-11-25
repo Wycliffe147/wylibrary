@@ -4,8 +4,8 @@
 (function () {
     'use strict';
 
-    var VERSION = 'v12.1';
-    var SEEN_KEY = 'wy_seen_v12_1_guide';
+    var VERSION = 'v12.0';
+    var SEEN_KEY = 'wy_seen_v12_0_guide';
 
     // rgb = accent for that card (same palette as the launch bookshelf).
     var SLIDES = [
@@ -22,8 +22,8 @@
         },
         {
             rgb: '147,51,234',
-            title: '📖 Our Story & Mission',
-            text: 'Visit the redesigned About page to read how Wylibrary started in Form 1, our vision to inspire young builders, and ways to support us.',
+            title: '📖 The Real Story & Mission',
+            text: 'Visit the redesigned About page to read how I started Wylibrary in Form 1, the vision to inspire young builders, and ways you can support the project.',
             art: '<div class="wn-story-scene">' +
                  '<div class="wn-story-pill"><span>🇲🇼 Built in Malawi</span></div>' +
                  '<div class="wn-story-card">' +
