@@ -45,7 +45,7 @@
    - **Progress so far:**
      - ✅ `Books/Additional Mathematics` (commit `2c901cb`, Nov 13)
      - ✅ `Books/Agriculture` (commit `854f816`, Nov 13)
-     - ⬜ `Books/Bible Knowledge` (casing mismatch: merge `Bible knowledge` into `Bible Knowledge`)
+     - ✅ `Books/Bible Knowledge` (merged casing duplicate, moved 5 mock exams to Exams/, deleted 4 sermons/duplicates, 25 clean books)
      - ⬜ `Books/Biology`
      - ⬜ `Books/Business Studies`
      - ⬜ `Books/Chemistry`
