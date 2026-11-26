@@ -1023,12 +1023,13 @@
     "id": "f5032d7356"
   },
   {
-    "name": "Senior Secondary Bible Knowledge Syllabus (Forms 3 & 4).pdf",
-    "path": "Books/Bible Knowledge/Senior Secondary Bible Knowledge Syllabus (Forms 3 & 4).pdf",
+    "name": "Bible Knowledge Syllabus (Forms 3 & 4).pdf",
+    "path": "Books/Syllabuses/Bible Knowledge Syllabus (Forms 3 & 4).pdf",
     "size": 744020,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "faad86bb44"
+    "id": "faad86bb44",
+    "level": "msce"
   },
   {
     "name": "MSCE Bible Knowledge Complete Guide - Rev. J.F. M'bwana.pdf",
@@ -1523,8 +1524,8 @@
     "level": "msce"
   },
   {
-    "name": "Malawi National Curriculum Biology Syllabus.pdf",
-    "path": "Books/Biology/BIO SYLLABUS-1 (1).pdf",
+    "name": "Biology Curriculum Syllabus.pdf",
+    "path": "Books/Syllabuses/Biology Curriculum Syllabus.pdf",
     "size": 137982,
     "repo": "e-library-media-2",
     "bucket": 1,
@@ -2135,8 +2136,8 @@
     "level": "msce"
   },
   {
-    "name": "Malawi National Curriculum Biology Syllabus (Forms 3-4).doc",
-    "path": "Books/Biology/Biology_syllabus_Forms_3-4.doc",
+    "name": "Biology Syllabus (Forms 3 and 4).doc",
+    "path": "Books/Syllabuses/Biology Syllabus (Forms 3 and 4).doc",
     "size": 850944,
     "repo": "e-library-media-2",
     "bucket": 1,
@@ -2684,8 +2685,8 @@
     "level": "jce"
   },
   {
-    "name": "Malawi Secondary Curriculum Business Studies Syllabus (Forms 3 and 4).doc",
-    "path": "Books/Business Studies/Business studies preamble Forms 3-4_1.doc",
+    "name": "Business Studies Syllabus (Forms 3 and 4).doc",
+    "path": "Books/Syllabuses/Business Studies Syllabus (Forms 3 and 4).doc",
     "size": 220160,
     "repo": "e-library-media-2",
     "bucket": 1,
@@ -2693,8 +2694,8 @@
     "level": "msce"
   },
   {
-    "name": "Malawi Secondary Curriculum Business Studies Syllabus (Forms 1 and 2).doc",
-    "path": "Books/Business Studies/Business studies syllabus Forms 1-2.doc",
+    "name": "Business Studies Syllabus (Forms 1 and 2).doc",
+    "path": "Books/Syllabuses/Business Studies Syllabus (Forms 1 and 2).doc",
     "size": 221184,
     "repo": "e-library-media-3",
     "bucket": 1,
@@ -2702,8 +2703,8 @@
     "level": "jce"
   },
   {
-    "name": "Malawi Secondary Curriculum Business Studies Teaching Syllabus (Forms 1 and 2).doc",
-    "path": "Books/Business Studies/Business studies syllabus Forms 1-2_1.doc",
+    "name": "Business Studies Teaching Syllabus (Forms 1 and 2).doc",
+    "path": "Books/Syllabuses/Business Studies Teaching Syllabus (Forms 1 and 2).doc",
     "size": 241664,
     "repo": "e-library-media-4",
     "bucket": 1,
@@ -2711,8 +2712,8 @@
     "level": "jce"
   },
   {
-    "name": "Malawi Secondary Curriculum Business Studies Scope and Sequence Chart (Forms 1 to 4).doc",
-    "path": "Books/Business Studies/Business studies syllabus form 3 and 4.doc",
+    "name": "Business Studies Scope and Sequence Chart (Forms 1 to 4).doc",
+    "path": "Books/Syllabuses/Business Studies Scope and Sequence Chart (Forms 1 to 4).doc",
     "size": 222208,
     "repo": "e-library-media-5",
     "bucket": 1,
@@ -2720,8 +2721,8 @@
     "level": "both"
   },
   {
-    "name": "Malawi Secondary Curriculum Business Studies Teaching Syllabus (Forms 3 and 4).doc",
-    "path": "Books/Business Studies/Business syllabus_1.doc",
+    "name": "Business Studies Teaching Syllabus (Forms 3 and 4).doc",
+    "path": "Books/Syllabuses/Business Studies Teaching Syllabus (Forms 3 and 4).doc",
     "size": 307200,
     "repo": "e-library-media",
     "bucket": 1,
