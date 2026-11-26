@@ -56,8 +56,8 @@
      - ⬜ `Books/History`
      - ⬜ `Books/Home Economics`
      - ✅ `Books/Life Skills` (deep audit complete: 2 clean books with 100% level tagging, 2 exams moved to Exams/)
-     - ⬜ `Books/Mathematics`
-     - ⬜ `Books/Physical Science`
+     - ✅ `Books/Mathematics` (deep audit complete: 39 clean books with 100% level tagging, 28 mock exams moved to Exams/, 21 Q&A moved to Q&A/, 1 syllabus moved to Syllabuses/, 26 deleted)
+     - ✅ `Books/Physical Science` (deep audit complete: 1 clean book with 100% level tagging)
      - ⬜ `Books/Physics`
      - ⬜ `Books/Social Studies`
      - ⬜ `Books/Syllabuses`

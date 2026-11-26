@@ -6163,932 +6163,994 @@
     "level": "both"
   },
   {
-    "name": "0199142432_PureMath.pdf",
-    "path": "Books/Mathematics/0199142432_PureMath.pdf",
+    "name": "Pure Mathematics 1 (Bostock and Chandler).pdf",
+    "path": "Books/Mathematics/Pure Mathematics 1 (Bostock and Chandler).pdf",
     "size": 19952478,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f80f0d17d0"
-  },
-  {
-    "name": "05_SETS.docx",
-    "path": "Books/Mathematics/05_SETS.docx",
-    "size": 19614,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f16f5f45b2"
-  },
-  {
-    "name": "1300_MATH'S_FORMULAS.pdf",
-    "path": "Books/Mathematics/1300_MATH'S_FORMULAS.pdf",
-    "size": 7405956,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f74381779f"
-  },
-  {
-    "name": "2006_maths_msce_que.pdf",
-    "path": "Books/Mathematics/2006_maths_msce_que.pdf",
-    "size": 307721,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f4683b284d"
-  },
-  {
-    "name": "2014 Additional Maths.pdf",
-    "path": "Books/Mathematics/2014 Additional Maths.pdf",
-    "size": 1740533,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f4afa06f2e"
-  },
-  {
-    "name": "2016_JCE_MATHS.pdf",
-    "path": "Books/Mathematics/2016_JCE_MATHS (1).pdf",
-    "size": 3197705,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fadb2c815f"
-  },
-  {
-    "name": "2016_MATHE_PI_FINAL_(1).pdf",
-    "path": "Books/Mathematics/2016_MATHE_PI_FINAL_(1)_(2).pdf",
-    "size": 474692,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f56f3bb026"
-  },
-  {
-    "name": "2019 mathsMARANATHA-1.pdf",
-    "path": "Books/Mathematics/2019 mathsMARANATHA-1.pdf",
-    "size": 79713,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f9b886c82e"
-  },
-  {
-    "name": "2019_MATH_II.ed-1.pdf",
-    "path": "Books/Mathematics/2019_MATH_II.ed-1.pdf",
-    "size": 338634,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f0bd1ed378"
-  },
-  {
-    "name": "2019_maths_1_MARANATHA(1)-1.pdf",
-    "path": "Books/Mathematics/2019_maths_1_MARANATHA(1)-1.pdf",
-    "size": 72093,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f4bb305fc1"
-  },
-  {
-    "name": "2019_maths_1_MARANATHA.pdf",
-    "path": "Books/Mathematics/2019_maths_1_MARANATHA.pdf",
-    "size": 475283,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f09dde2671"
-  },
-  {
-    "name": "2020_maths_I-1.pdf",
-    "path": "Books/Mathematics/2020_maths_I-1.pdf",
-    "size": 733697,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fcc2090999"
-  },
-  {
-    "name": "2021 final maths 11.pdf",
-    "path": "Books/Mathematics/2021 final maths 11.pdf",
-    "size": 1654035,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f381934627"
-  },
-  {
-    "name": "2021_MSCE_RESENDING_MATHEMATICS_P2.docx",
-    "path": "Books/Mathematics/2021_MSCE_RESENDING_MATHEMATICS_P2 - Copy.docx",
-    "size": 496908,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f13537ff65"
-  },
-  {
-    "name": "2022 MSCE MATHEMATICS.pdf",
-    "path": "Books/Mathematics/2022 MSCE MATHEMATICS.pdf",
-    "size": 989023,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fa4e886806"
-  },
-  {
-    "name": "2022 PRIMARY MATHEMATICS.pdf",
-    "path": "Books/Mathematics/2022 PRIMARY MATHEMATICS.pdf",
-    "size": 9139893,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "ffa4735644"
-  },
-  {
-    "name": "2022_CHIKHWAZA_CLUSTER_MAT_II.pdf",
-    "path": "Books/Mathematics/2022_CHIKHWAZA_CLUSTER_MAT_II.pdf",
-    "size": 729308,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fbba5dc09c"
-  },
-  {
-    "name": "2023_CEED_Maths_1.pdf",
-    "path": "Books/Mathematics/2023_CEED_Maths_1.pdf",
-    "size": 676333,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fd2ca5ed85"
-  },
-  {
-    "name": "2023_LLCM_MATHEMATICS_PI.pdf",
-    "path": "Books/Mathematics/2023_LLCM_MATHEMATICS_PI.pdf",
-    "size": 1560968,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f56d425cd6"
-  },
-  {
-    "name": "2023_LLCM_MATHEMATICS_PII.pdf",
-    "path": "Books/Mathematics/2023_LLCM_MATHEMATICS_PII (1).pdf",
-    "size": 287791,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f8a2af47df"
-  },
-  {
-    "name": "2O21 SYNOD MATHS 1.pdf",
-    "path": "Books/Mathematics/2O21 SYNOD MATHS 1.pdf",
-    "size": 1413860,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f9a861e78c"
-  },
-  {
-    "name": "7_Arise_in_Mathematics_Students_Book_3 (1).pdf",
-    "path": "Books/Mathematics/7_Arise_in_Mathematics_Students_Book_3 (1) (1).pdf",
-    "size": 2634406,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f649d24182"
-  },
-  {
-    "name": "7_Arise_in_Mathematics_Students_Book_3.pdf",
-    "path": "Books/Mathematics/7_Arise_in_Mathematics_Students_Book_3 - Copy (2).pdf",
-    "size": 2313193,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f3f1ce2052"
+    "id": "f80f0d17d0",
+    "level": "msce",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "7_Arise_in_Mathematics_Students_Book_3.pdf",
-    "path": "Books/Mathematics/7_Arise_in_Mathematics_Students_Book_3.pdf",
+    "name": "MSCE Mathematics Topical Sets Questions and Solutions.docx",
+    "path": "Q&A/Mathematics/MSCE Mathematics Topical Sets Questions and Solutions.docx",
+    "size": 19614,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f16f5f45b2",
+    "level": "msce",
+    "category": "Q&A",
+    "subject": "Mathematics"
+  },
+  {
+    "name": "1300 Mathematics Formulas Handbook.pdf",
+    "path": "Books/Mathematics/1300 Mathematics Formulas Handbook.pdf",
+    "size": 7405956,
+    "repo": "e-library-media-2",
+    "bucket": 1,
+    "id": "f74381779f",
+    "level": "both",
+    "category": "Books",
+    "subject": "Mathematics"
+  },
+  {
+    "name": "2006 MANEB MSCE Mathematics Paper 1 Questions.pdf",
+    "path": "Exams/Mathematics/2006 MANEB MSCE Mathematics Paper 1 Questions.pdf",
+    "size": 307721,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f4683b284d",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "Mathematics"
+  },
+  {
+    "name": "2014 MANEB MSCE Additional Mathematics Paper 1.pdf",
+    "path": "Exams/Additional Mathematics/2014 MANEB MSCE Additional Mathematics Paper 1.pdf",
+    "size": 1740533,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f4afa06f2e",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "Additional Mathematics"
+  },
+  {
+    "name": "2016 MANEB JCE Mathematics.pdf",
+    "path": "Exams/Mathematics/2016 MANEB JCE Mathematics.pdf",
+    "size": 3197705,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fadb2c815f",
+    "level": "jce",
+    "category": "Exams",
+    "subject": "Mathematics"
+  },
+  {
+    "name": "2016 Mzuzu Diocese MSCE Mathematics Paper 1 Mock.pdf",
+    "path": "Exams/Mathematics/2016 Mzuzu Diocese MSCE Mathematics Paper 1 Mock.pdf",
+    "size": 474692,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f56f3bb026",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "Mathematics"
+  },
+  {
+    "name": "2019 Providence Cluster MSCE Mathematics Paper 2 Mock.pdf",
+    "path": "Exams/Mathematics/2019 Providence Cluster MSCE Mathematics Paper 2 Mock.pdf",
+    "size": 338634,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f0bd1ed378",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "Mathematics"
+  },
+  {
+    "name": "2019 Maranatha MSCE Mathematics Paper 1 Mock.pdf",
+    "path": "Exams/Mathematics/2019 Maranatha MSCE Mathematics Paper 1 Mock.pdf",
+    "size": 475283,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f09dde2671",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "Mathematics"
+  },
+  {
+    "name": "2020 MANEB MSCE Mathematics Paper 1.pdf",
+    "path": "Exams/Mathematics/2020 MANEB MSCE Mathematics Paper 1.pdf",
+    "size": 733697,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fcc2090999",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "Mathematics"
+  },
+  {
+    "name": "2021 CCAP Synod of Livingstonia MSCE Mathematics Paper 2 Mock.pdf",
+    "path": "Exams/Mathematics/2021 CCAP Synod of Livingstonia MSCE Mathematics Paper 2 Mock.pdf",
+    "size": 1654035,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f381934627",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "Mathematics"
+  },
+  {
+    "name": "2021 Nkhamenya Cluster MSCE Mathematics Paper 2 Mock.docx",
+    "path": "Exams/Mathematics/2021 Nkhamenya Cluster MSCE Mathematics Paper 2 Mock.docx",
+    "size": 496908,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f13537ff65",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "Mathematics"
+  },
+  {
+    "name": "2022 MANEB MSCE Mathematics Examination Chief Examiners Report.pdf",
+    "path": "Exams/Mathematics/2022 MANEB MSCE Mathematics Examination Chief Examiners Report.pdf",
+    "size": 989023,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fa4e886806",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "Mathematics"
+  },
+  {
+    "name": "2022 Chikhwaza Cluster MSCE Mathematics Paper 2 Mock.pdf",
+    "path": "Exams/Mathematics/2022 Chikhwaza Cluster MSCE Mathematics Paper 2 Mock.pdf",
+    "size": 729308,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fbba5dc09c",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "Mathematics"
+  },
+  {
+    "name": "2023 CEED MSCE Mathematics Paper 1 Mock.pdf",
+    "path": "Exams/Mathematics/2023 CEED MSCE Mathematics Paper 1 Mock.pdf",
+    "size": 676333,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fd2ca5ed85",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "Mathematics"
+  },
+  {
+    "name": "2023 Lilongwe City MSCE Mathematics Paper 1 Mock.pdf",
+    "path": "Exams/Mathematics/2023 Lilongwe City MSCE Mathematics Paper 1 Mock.pdf",
+    "size": 1560968,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f56d425cd6",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "Mathematics"
+  },
+  {
+    "name": "2023 Lilongwe City MSCE Mathematics Paper 2 Mock.pdf",
+    "path": "Exams/Mathematics/2023 Lilongwe City MSCE Mathematics Paper 2 Mock.pdf",
+    "size": 287791,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f8a2af47df",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "Mathematics"
+  },
+  {
+    "name": "2021 CCAP Synod of Livingstonia MSCE Mathematics Paper 1 Mock.pdf",
+    "path": "Exams/Mathematics/2021 CCAP Synod of Livingstonia MSCE Mathematics Paper 1 Mock.pdf",
+    "size": 1413860,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f9a861e78c",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "Mathematics"
+  },
+  {
+    "name": "Arise in Mathematics Students Book 3.pdf",
+    "path": "Books/Mathematics/Arise in Mathematics Students Book 3.pdf",
     "size": 2637544,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fdfb8a79ac"
+    "id": "fdfb8a79ac",
+    "level": "msce",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "ADDITIONA___MATHEMATICS___ASSIGNMENT.pdf",
-    "path": "Books/Mathematics/ADDITIONA___MATHEMATICS___ASSIGNMENT.pdf",
+    "name": "Additional Mathematics Assignment and Model Solutions (Sam Mhango).pdf",
+    "path": "Q&A/Additional Mathematics/Additional Mathematics Assignment and Model Solutions (Sam Mhango).pdf",
     "size": 471611,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fe3b44692c"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fe3b44692c",
+    "level": "msce",
+    "category": "Q&A",
+    "subject": "Additional Mathematics"
   },
   {
-    "name": "ASSESSMENT IN MATHEMATICS.pdf",
-    "path": "Books/Mathematics/ASSESSMENT IN MATHEMATICS.pdf",
-    "size": 617879,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f8926bb6a9"
-  },
-  {
-    "name": "Additional maths_2019.pdf",
-    "path": "Books/Mathematics/Additional maths_2019.pdf",
+    "name": "2019 MANEB MSCE Additional Mathematics Paper 2.pdf",
+    "path": "Exams/Additional Mathematics/2019 MANEB MSCE Additional Mathematics Paper 2.pdf",
     "size": 2220215,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f1ae10e253"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f1ae10e253",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "Additional Mathematics"
   },
   {
     "name": "Advance Dictionary of Mathematics Formulas.pdf",
     "path": "Books/Mathematics/Advance Dictionary of Mathematics Formulas.pdf",
     "size": 3524669,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fbe39117de"
+    "id": "fbe39117de",
+    "level": "both",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "Ans_MSCE_MATHⅡ_01Irrational_numbers.pdf",
-    "path": "Books/Mathematics/Ans_MSCE_MATHⅡ_01Irrational_numbers.pdf",
+    "name": "MSCE Mathematics Paper 2 - Irrational Numbers Model Solutions.pdf",
+    "path": "Q&A/Mathematics/MSCE Mathematics Paper 2 - Irrational Numbers Model Solutions.pdf",
     "size": 404448,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f2820d0d0c"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f2820d0d0c",
+    "level": "msce",
+    "category": "Q&A",
+    "subject": "Mathematics"
   },
   {
-    "name": "Ans_MSCE_MathⅠ_10_Mapping_and_functions.pdf",
-    "path": "Books/Mathematics/Ans_MSCE_MathⅠ_10_Mapping_and_functions.pdf",
+    "name": "MSCE Mathematics Paper 1 - Mapping and Functions Model Solutions.pdf",
+    "path": "Q&A/Mathematics/MSCE Mathematics Paper 1 - Mapping and Functions Model Solutions.pdf",
     "size": 438098,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f503b4e572"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f503b4e572",
+    "level": "msce",
+    "category": "Q&A",
+    "subject": "Mathematics"
   },
   {
-    "name": "Ans_MSCE_MathⅠ_11_Change_of_subject_of_a_formula.pdf",
-    "path": "Books/Mathematics/Ans_MSCE_MathⅠ_11_Change_of_subject_of_a_formula.pdf",
+    "name": "MSCE Mathematics Paper 1 - Change of Subject of a Formula Model Solutions.pdf",
+    "path": "Q&A/Mathematics/MSCE Mathematics Paper 1 - Change of Subject of a Formula Model Solutions.pdf",
     "size": 452845,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f22733754a"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f22733754a",
+    "level": "msce",
+    "category": "Q&A",
+    "subject": "Mathematics"
   },
   {
-    "name": "Ans_MSCE_MathⅠ_12_Variations.pdf",
-    "path": "Books/Mathematics/Ans_MSCE_MathⅠ_12_Variations.pdf",
+    "name": "MSCE Mathematics Paper 1 - Variations Model Solutions.pdf",
+    "path": "Q&A/Mathematics/MSCE Mathematics Paper 1 - Variations Model Solutions.pdf",
     "size": 445148,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f845bfd5b0"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f845bfd5b0",
+    "level": "msce",
+    "category": "Q&A",
+    "subject": "Mathematics"
   },
   {
-    "name": "Ans_MSCE_MathⅠ_13_Polynomials.pdf",
-    "path": "Books/Mathematics/Ans_MSCE_MathⅠ_13_Polynomials.pdf",
+    "name": "MSCE Mathematics Paper 1 - Polynomials Model Solutions.pdf",
+    "path": "Q&A/Mathematics/MSCE Mathematics Paper 1 - Polynomials Model Solutions.pdf",
     "size": 437632,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fc90e39645"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fc90e39645",
+    "level": "msce",
+    "category": "Q&A",
+    "subject": "Mathematics"
   },
   {
-    "name": "Ans_MSCE_MathⅠ_14_Coordinate_geometry.pdf",
-    "path": "Books/Mathematics/Ans_MSCE_MathⅠ_14_Coordinate_geometry.pdf",
+    "name": "MSCE Mathematics Paper 1 - Coordinate Geometry Model Solutions.pdf",
+    "path": "Q&A/Mathematics/MSCE Mathematics Paper 1 - Coordinate Geometry Model Solutions.pdf",
     "size": 460046,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f70527e87e"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f70527e87e",
+    "level": "msce",
+    "category": "Q&A",
+    "subject": "Mathematics"
   },
   {
-    "name": "Ans_MSCE_MathⅠ_16_Graphs_of_functions.pdf",
-    "path": "Books/Mathematics/Ans_MSCE_MathⅠ_16_Graphs_of_functions.pdf",
+    "name": "MSCE Mathematics Paper 1 - Graphs of Functions Model Solutions.pdf",
+    "path": "Q&A/Mathematics/MSCE Mathematics Paper 1 - Graphs of Functions Model Solutions.pdf",
     "size": 461078,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f4888dc501"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f4888dc501",
+    "level": "msce",
+    "category": "Q&A",
+    "subject": "Mathematics"
   },
   {
-    "name": "Ans_MSCE_MathⅠ_17_Travel_graph.pdf",
-    "path": "Books/Mathematics/Ans_MSCE_MathⅠ_17_Travel_graph.pdf",
+    "name": "MSCE Mathematics Paper 1 - Travel Graph Model Solutions.pdf",
+    "path": "Q&A/Mathematics/MSCE Mathematics Paper 1 - Travel Graph Model Solutions.pdf",
     "size": 509099,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fe06a92b1c"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fe06a92b1c",
+    "level": "msce",
+    "category": "Q&A",
+    "subject": "Mathematics"
   },
   {
-    "name": "Ans_MSCE_MathⅠ_1_Irrational_numbers.pdf",
-    "path": "Books/Mathematics/Ans_MSCE_MathⅠ_1_Irrational_numbers.pdf",
+    "name": "MSCE Mathematics Paper 1 - Irrational Numbers Model Solutions.pdf",
+    "path": "Q&A/Mathematics/MSCE Mathematics Paper 1 - Irrational Numbers Model Solutions.pdf",
     "size": 422357,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f5895bfcc5"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f5895bfcc5",
+    "level": "msce",
+    "category": "Q&A",
+    "subject": "Mathematics"
   },
   {
-    "name": "Ans_MSCE_MathⅠ_20_Trigonometry.pdf",
-    "path": "Books/Mathematics/Ans_MSCE_MathⅠ_20_Trigonometry.pdf",
+    "name": "MSCE Mathematics Paper 1 - Trigonometry Model Solutions.pdf",
+    "path": "Q&A/Mathematics/MSCE Mathematics Paper 1 - Trigonometry Model Solutions.pdf",
     "size": 488128,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f880462d8c"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f880462d8c",
+    "level": "msce",
+    "category": "Q&A",
+    "subject": "Mathematics"
   },
   {
-    "name": "Ans_MSCE_MathⅠ_21_Similarity.pdf",
-    "path": "Books/Mathematics/Ans_MSCE_MathⅠ_21_Similarity.pdf",
+    "name": "MSCE Mathematics Paper 1 - Similarity Model Solutions.pdf",
+    "path": "Q&A/Mathematics/MSCE Mathematics Paper 1 - Similarity Model Solutions.pdf",
     "size": 451691,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "feb777150a"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "feb777150a",
+    "level": "msce",
+    "category": "Q&A",
+    "subject": "Mathematics"
   },
   {
-    "name": "Ans_MSCE_MathⅠ_22_Vectors.pdf",
-    "path": "Books/Mathematics/Ans_MSCE_MathⅠ_22_Vectors.pdf",
+    "name": "MSCE Mathematics Paper 1 - Vectors Model Solutions.pdf",
+    "path": "Q&A/Mathematics/MSCE Mathematics Paper 1 - Vectors Model Solutions.pdf",
     "size": 443156,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f32d317de5"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f32d317de5",
+    "level": "msce",
+    "category": "Q&A",
+    "subject": "Mathematics"
   },
   {
-    "name": "Ans_MSCE_MathⅠ_24_Constructing_geometry.pdf",
-    "path": "Books/Mathematics/Ans_MSCE_MathⅠ_24_Constructing_geometry.pdf",
+    "name": "MSCE Mathematics Paper 1 - Constructing Geometry Model Solutions.pdf",
+    "path": "Q&A/Mathematics/MSCE Mathematics Paper 1 - Constructing Geometry Model Solutions.pdf",
     "size": 419174,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fcb2a2a38e"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fcb2a2a38e",
+    "level": "msce",
+    "category": "Q&A",
+    "subject": "Mathematics"
   },
   {
-    "name": "Ans_MSCE_MathⅠ_3_Statistics.pdf",
-    "path": "Books/Mathematics/Ans_MSCE_MathⅠ_3_Statistics.pdf",
+    "name": "MSCE Mathematics Paper 1 - Statistics Model Solutions.pdf",
+    "path": "Q&A/Mathematics/MSCE Mathematics Paper 1 - Statistics Model Solutions.pdf",
     "size": 473918,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f866d322fb"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f866d322fb",
+    "level": "msce",
+    "category": "Q&A",
+    "subject": "Mathematics"
   },
   {
-    "name": "Ans_MSCE_MathⅠ_4_Matrices.pdf",
-    "path": "Books/Mathematics/Ans_MSCE_MathⅠ_4_Matrices.pdf",
+    "name": "MSCE Mathematics Paper 1 - Matrices Model Solutions.pdf",
+    "path": "Q&A/Mathematics/MSCE Mathematics Paper 1 - Matrices Model Solutions.pdf",
     "size": 427234,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f64bb32db6"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f64bb32db6",
+    "level": "msce",
+    "category": "Q&A",
+    "subject": "Mathematics"
   },
   {
-    "name": "Ans_MSCE_MathⅠ_８_Quadratic_expressions_and_equations.pdf",
-    "path": "Books/Mathematics/Ans_MSCE_MathⅠ_８_Quadratic_expressions_and_equations.pdf",
+    "name": "MSCE Mathematics Paper 1 - Quadratic Expressions and Equations Model Solutions.pdf",
+    "path": "Q&A/Mathematics/MSCE Mathematics Paper 1 - Quadratic Expressions and Equations Model Solutions.pdf",
     "size": 446804,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fb651875e1"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fb651875e1",
+    "level": "msce",
+    "category": "Q&A",
+    "subject": "Mathematics"
   },
   {
-    "name": "Ans_MSCE_MathⅠ_９_Algebraic_fraction.pdf",
-    "path": "Books/Mathematics/Ans_MSCE_MathⅠ_９_Algebraic_fraction.pdf",
+    "name": "MSCE Mathematics Paper 1 - Algebraic Fractions Model Solutions.pdf",
+    "path": "Q&A/Mathematics/MSCE Mathematics Paper 1 - Algebraic Fractions Model Solutions.pdf",
     "size": 430840,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f60bee33cc"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f60bee33cc",
+    "level": "msce",
+    "category": "Q&A",
+    "subject": "Mathematics"
   },
   {
-    "name": "Arise_in_mathematics_book_1_1.pdf",
-    "path": "Books/Mathematics/Arise_in_mathematics_book_1_1.pdf",
+    "name": "Arise in Mathematics Students Book 1.pdf",
+    "path": "Books/Mathematics/Arise in Mathematics Students Book 1.pdf",
     "size": 3051040,
-    "repo": "e-library-media-4",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f62dad0d5c"
+    "id": "f62dad0d5c",
+    "level": "jce",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "BSS_MSCE_MATHEMATICS_II-1.docx",
-    "path": "Books/Mathematics/BSS_MSCE_MATHEMATICS_II-1.docx",
+    "name": "2023 Blantyre Secondary School Cluster MSCE Mathematics Paper 2 Mock.docx",
+    "path": "Exams/Mathematics/2023 Blantyre Secondary School Cluster MSCE Mathematics Paper 2 Mock.docx",
     "size": 213877,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f8b8924bc9"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f8b8924bc9",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "Mathematics"
   },
   {
-    "name": "Basic Engineering Mathematics.pdf",
-    "path": "Books/Mathematics/Basic Engineering Mathematics.pdf",
+    "name": "Basic Engineering Mathematics (John Bird).pdf",
+    "path": "Books/Mathematics/Basic Engineering Mathematics (John Bird).pdf",
     "size": 3511707,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fdf9ac915d"
+    "id": "fdf9ac915d",
+    "level": "msce",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "Bearing and Angles-1.pdf",
-    "path": "Books/Mathematics/Bearing and Angles-1.pdf",
-    "size": 58288,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f582a5d471"
-  },
-  {
-    "name": "CIRCLE GEOMETRY-1.pdf",
-    "path": "Books/Mathematics/CIRCLE GEOMETRY-1.pdf",
+    "name": "Circle Geometry Comprehensive Study Guide.pdf",
+    "path": "Books/Mathematics/Circle Geometry Comprehensive Study Guide.pdf",
     "size": 2820604,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f49cdc17d2"
+    "id": "f49cdc17d2",
+    "level": "msce",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "Calculus for the Clueless - Calc.I - Bob Miller's.pdf",
-    "path": "Books/Mathematics/Calculus for the Clueless - Calc.I - Bob Miller's.pdf",
-    "size": 5109746,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fb4f6b9b48"
-  },
-  {
-    "name": "Chikwakwa_book_3_maths_1.pdf",
-    "path": "Books/Mathematics/Chikwakwa_book_3_maths_1.pdf",
+    "name": "Chikwakwa Secondary Mathematics Book 3.pdf",
+    "path": "Books/Mathematics/Chikwakwa Secondary Mathematics Book 3.pdf",
     "size": 60032282,
-    "repo": "e-library-media-5",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fd21acd23b"
+    "id": "fd21acd23b",
+    "level": "msce",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "Chimteka MATHS.pdf",
-    "path": "Books/Mathematics/Chimteka MATHS.pdf",
-    "size": 391298,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f8b590dec9"
-  },
-  {
-    "name": "Edexcel-IGCSE-MathsBook2-Answers.pdf",
-    "path": "Books/Mathematics/Edexcel-IGCSE-MathsBook2-Answers.pdf",
-    "size": 2027803,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fd3a59f424"
-  },
-  {
-    "name": "Excel Mathematics Book_1.pdf",
-    "path": "Books/Mathematics/Excel Mathematics Book_1.pdf",
+    "name": "Excel & Succeed Secondary Mathematics Book 1.pdf",
+    "path": "Books/Mathematics/Excel & Succeed Secondary Mathematics Book 1.pdf",
     "size": 3023391,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f5ba2b9223"
+    "id": "f5ba2b9223",
+    "level": "jce",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "Excel and succeed Maths form 1.pdf",
-    "path": "Books/Mathematics/Excel and succeed Maths form 1.pdf",
+    "name": "Excel and Succeed Mathematics Form 1.pdf",
+    "path": "Books/Mathematics/Excel and Succeed Mathematics Form 1.pdf",
     "size": 7029889,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f1d4ca55e4"
+    "id": "f1d4ca55e4",
+    "level": "jce",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "Excell_mathematics_2.pdf",
-    "path": "Books/Mathematics/Excell_mathematics_2.pdf",
+    "name": "Excel & Succeed Secondary Mathematics Book 2.pdf",
+    "path": "Books/Mathematics/Excel & Succeed Secondary Mathematics Book 2.pdf",
     "size": 6579711,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fb0658e6f5"
+    "id": "fb0658e6f5",
+    "level": "jce",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "FSMA Vectors teacher.pdf",
-    "path": "Books/Mathematics/FSMA Vectors teacher.pdf",
-    "size": 474963,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f2463149ec"
-  },
-  {
-    "name": "Form 2 Arise in Mathematics.-1.pdf",
-    "path": "Books/Mathematics/Form 2 Arise in Mathematics.  - Copy-1.pdf",
+    "name": "Arise in Mathematics Students Book 2.pdf",
+    "path": "Books/Mathematics/Arise in Mathematics Students Book 2.pdf",
     "size": 20622705,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fdbf6f03f4"
+    "id": "fdbf6f03f4",
+    "level": "jce",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "Geometry_1.pdf",
-    "path": "Books/Mathematics/Geometry_1.pdf",
+    "name": "Secondary Mathematics Geometry Study Notes.pdf",
+    "path": "Books/Mathematics/Secondary Mathematics Geometry Study Notes.pdf",
     "size": 121899,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fca06ae5c5"
+    "id": "fca06ae5c5",
+    "level": "both",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "Gre - Math Review_1.pdf",
-    "path": "Books/Mathematics/Gre - Math Review_1.pdf",
-    "size": 2540734,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fbd39610c8"
-  },
-  {
-    "name": "How to study mathematics by danquah_1.pdf",
-    "path": "Books/Mathematics/How to study mathematics by danquah_1.pdf",
+    "name": "How to Study Mathematics (Duncan Kamanula Danquah).pdf",
+    "path": "Books/Mathematics/How to Study Mathematics (Duncan Kamanula Danquah).pdf",
     "size": 694807,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f8663e9116"
+    "id": "f8663e9116",
+    "level": "both",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "MAT PI.docx",
-    "path": "Books/Mathematics/MAT PI.docx",
+    "name": "2025 Shire Highlands Education Division MSCE Mathematics Paper 1 Mock.docx",
+    "path": "Exams/Mathematics/2025 Shire Highlands Education Division MSCE Mathematics Paper 1 Mock.docx",
     "size": 847240,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f63cd5510e"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f63cd5510e",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "Mathematics"
   },
   {
-    "name": "MAT PI.pdf",
-    "path": "Books/Mathematics/MAT PI.pdf",
+    "name": "2025 Shire Highlands Education Division MSCE Mathematics Paper 1 Mock.pdf",
+    "path": "Exams/Mathematics/2025 Shire Highlands Education Division MSCE Mathematics Paper 1 Mock.pdf",
     "size": 894688,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fce61e716a"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fce61e716a",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "Mathematics"
   },
   {
-    "name": "MATHEMATICS.docx",
-    "path": "Books/Mathematics/MATHEMATICS.docx",
+    "name": "2026 Northern Education Division JCE Mathematics Mock.docx",
+    "path": "Exams/Mathematics/2026 Northern Education Division JCE Mathematics Mock.docx",
     "size": 934848,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f1d79423df"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f1d79423df",
+    "level": "jce",
+    "category": "Exams",
+    "subject": "Mathematics"
   },
   {
-    "name": "MATHEMATICS_(DISCOVERING_)_BOOK_3.pdf",
-    "path": "Books/Mathematics/MATHEMATICS_(DISCOVERING_)_BOOK_3.pdf",
+    "name": "Discovering Secondary Mathematics Book 3.pdf",
+    "path": "Books/Mathematics/Discovering Secondary Mathematics Book 3.pdf",
     "size": 52562425,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f027cdd3ed"
+    "id": "f027cdd3ed",
+    "level": "msce",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "MATHEMATICS_3_AND_4_1.pdf",
-    "path": "Books/Mathematics/MATHEMATICS_3_AND_4_1.pdf",
+    "name": "Secondary Mathematics Forms 3 and 4 (Lawrence & Geoffrey Motto).pdf",
+    "path": "Books/Mathematics/Secondary Mathematics Forms 3 and 4 (Lawrence & Geoffrey Motto).pdf",
     "size": 2155538,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "ffa759e8f1"
+    "id": "ffa759e8f1",
+    "level": "msce",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "MATHEMATICS_BOOK_2-1.pdf",
-    "path": "Books/Mathematics/MATHEMATICS_BOOK_2-1.pdf",
+    "name": "Secondary Mathematics Book 2.pdf",
+    "path": "Books/Mathematics/Secondary Mathematics Book 2.pdf",
     "size": 54088969,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f11532bb62"
+    "id": "f11532bb62",
+    "level": "jce",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "MATHEMATICS_BOOK_2_1.pdf",
-    "path": "Books/Mathematics/MATHEMATICS_BOOK_2_1.pdf",
-    "size": 6570721,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fbd4601ae1"
-  },
-  {
-    "name": "MATHEMATICS_BOOK_4_NEW_1.pdf",
-    "path": "Books/Mathematics/MATHEMATICS_BOOK_4_NEW_1.pdf",
+    "name": "Secondary Mathematics Book 4.pdf",
+    "path": "Books/Mathematics/Secondary Mathematics Book 4.pdf",
     "size": 30020035,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f2d2a1a232"
+    "id": "f2d2a1a232",
+    "level": "msce",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "MATHEMATICS_BOOK_FULL_1.pdf",
-    "path": "Books/Mathematics/MATHEMATICS_BOOK_FULL_1.pdf",
+    "name": "Secondary Mathematics Complete Coursebook.pdf",
+    "path": "Books/Mathematics/Secondary Mathematics Complete Coursebook.pdf",
     "size": 40954055,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "feac3da8d0"
+    "id": "feac3da8d0",
+    "level": "both",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "MATHS PAMPHLET.pdf",
-    "path": "Books/Mathematics/MATHS PAMPHLET.pdf",
+    "name": "MSCE Mathematics Revision Pamphlet (Limbani).pdf",
+    "path": "Books/Mathematics/MSCE Mathematics Revision Pamphlet (Limbani).pdf",
     "size": 1793844,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f08491c5ca"
+    "id": "f08491c5ca",
+    "level": "msce",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "MATHS-GARETA_(0993853382_whatsapp).pdf",
-    "path": "Books/Mathematics/MATHS-GARETA_(0993853382_whatsapp).pdf",
+    "name": "MSCE Mathematics Mock Paper 1 Questions and Model Solutions (K. Gareta).pdf",
+    "path": "Q&A/Mathematics/MSCE Mathematics Mock Paper 1 Questions and Model Solutions (K. Gareta).pdf",
     "size": 636082,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fee2df8452"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fee2df8452",
+    "level": "msce",
+    "category": "Q&A",
+    "subject": "Mathematics"
   },
   {
-    "name": "MATHS_BY_MOTTO_3&4.pdf",
-    "path": "Books/Mathematics/MATHS_BY_MOTTO_3&4 (1).pdf",
-    "size": 2094796,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f97e40d4f2"
-  },
-  {
-    "name": "Math Additional SB 4 book 4.pdf",
-    "path": "Books/Mathematics/Math Additional SB 4 book 4.pdf",
+    "name": "Additional Mathematics Students Book 4.pdf",
+    "path": "Books/Mathematics/Additional Mathematics Students Book 4.pdf",
     "size": 10062107,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f86db09171"
+    "id": "f86db09171",
+    "level": "msce",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "Math formula _1.pdf",
-    "path": "Books/Mathematics/Math formula _1.pdf",
+    "name": "Secondary Common Mathematics Formulas Reference Sheet.pdf",
+    "path": "Books/Mathematics/Secondary Common Mathematics Formulas Reference Sheet.pdf",
     "size": 85755,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fcce0b6590"
+    "id": "fcce0b6590",
+    "level": "both",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "MathTeacher[1]_1.pdf",
-    "path": "Books/Mathematics/MathTeacher[1]_1.pdf",
-    "size": 243374,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f10701d884"
-  },
-  {
-    "name": "Mathematic target_book_4.pdf",
-    "path": "Books/Mathematics/Mathematic target_book_4_251005_170417_1.pdf",
-    "size": 73360545,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f74180c67a"
-  },
-  {
-    "name": "Mathematics Book Layout 2017 Final for print(1) (1)_1.pdf",
-    "path": "Books/Mathematics/Mathematics Book Layout 2017 Final  for print(1) (1)_1.pdf",
-    "size": 2143130,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f5502de95c"
-  },
-  {
-    "name": "Mathematics Vectors_1.pdf",
-    "path": "Books/Mathematics/Mathematics Vectors_1.pdf",
+    "name": "Secondary Mathematics Vectors Study Guide.pdf",
+    "path": "Books/Mathematics/Secondary Mathematics Vectors Study Guide.pdf",
     "size": 238950,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f1e4686000"
+    "id": "f1e4686000",
+    "level": "msce",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "Mathematics sibaleeeeeeeeee.pdf",
-    "path": "Books/Mathematics/Mathematics sibaleeeeeeeeee.pdf",
+    "name": "2026 Loyola Jesuit Secondary School JCE Mathematics Mock.pdf",
+    "path": "Exams/Mathematics/2026 Loyola Jesuit Secondary School JCE Mathematics Mock.pdf",
     "size": 942881,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f002444a43"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f002444a43",
+    "level": "jce",
+    "category": "Exams",
+    "subject": "Mathematics"
   },
   {
-    "name": "Mathematics-1.pdf",
-    "path": "Books/Mathematics/Mathematics-1.pdf",
+    "name": "2021 MANEB JCE Mathematics Sample Paper.pdf",
+    "path": "Exams/Mathematics/2021 MANEB JCE Mathematics Sample Paper.pdf",
     "size": 1770658,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f0d5af0aa6"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f0d5af0aa6",
+    "level": "jce",
+    "category": "Exams",
+    "subject": "Mathematics"
   },
   {
-    "name": "Mathematics_-__Factorisation_1.pdf",
-    "path": "Books/Mathematics/Mathematics_-__Factorisation_1.pdf",
+    "name": "Secondary Mathematics Factorisation Study Guide.pdf",
+    "path": "Books/Mathematics/Secondary Mathematics Factorisation Study Guide.pdf",
     "size": 1038584,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fc72ddd1a6"
+    "id": "fc72ddd1a6",
+    "level": "both",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "Mathematics_Book4_KLB_1.pdf",
-    "path": "Books/Mathematics/Mathematics_Book4_KLB_1.pdf",
+    "name": "Secondary Mathematics Students Book 4 (KLB).pdf",
+    "path": "Books/Mathematics/Secondary Mathematics Students Book 4 (KLB).pdf",
     "size": 21934654,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f73bb2d058"
+    "id": "f73bb2d058",
+    "level": "msce",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "Mathematics_Excel_book_3_1.pdf",
-    "path": "Books/Mathematics/Mathematics_Excel_book_3_1.pdf",
+    "name": "Excel in Mathematics Book 3.pdf",
+    "path": "Books/Mathematics/Excel in Mathematics Book 3.pdf",
     "size": 38376673,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fbc0991fe9"
+    "id": "fbc0991fe9",
+    "level": "msce",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "Mathematics_P1.pdf",
-    "path": "Books/Mathematics/Mathematics_P1.pdf",
+    "name": "2025 Central West Education Division MSCE Mathematics Paper 1 Mock.pdf",
+    "path": "Exams/Mathematics/2025 Central West Education Division MSCE Mathematics Paper 1 Mock.pdf",
     "size": 1340832,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f0e2a0c97b"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f0e2a0c97b",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "Mathematics"
   },
   {
-    "name": "Mathematics_P2.pdf",
-    "path": "Books/Mathematics/Mathematics_P2.pdf",
+    "name": "2025 Central West Education Division MSCE Mathematics Paper 2 Mock.pdf",
+    "path": "Exams/Mathematics/2025 Central West Education Division MSCE Mathematics Paper 2 Mock.pdf",
     "size": 883581,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f8d03e847d"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f8d03e847d",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "Mathematics"
   },
   {
-    "name": "Mathematics_formulas_1_to_4.pdf",
-    "path": "Books/Mathematics/Mathematics_formulas_1_to_4(0).pdf",
+    "name": "Secondary Mathematics Notes and Formulas Forms 1-4.pdf",
+    "path": "Books/Mathematics/Secondary Mathematics Notes and Formulas Forms 1-4.pdf",
     "size": 778132,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fc9539da8f"
+    "id": "fc9539da8f",
+    "level": "both",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "Maths Excel and succes book1_1.pdf",
-    "path": "Books/Mathematics/Maths Excel and succes book1_1.pdf",
+    "name": "Excel & Succeed Mathematics Book 1 (MSCE2020).pdf",
+    "path": "Books/Mathematics/Excel & Succeed Mathematics Book 1 (MSCE2020).pdf",
     "size": 971544,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f21f93ecab"
+    "id": "f21f93ecab",
+    "level": "jce",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "Maths excel book 4_1.pdf",
-    "path": "Books/Mathematics/Maths excel book 4_1.pdf",
+    "name": "Excel in Mathematics Book 4.pdf",
+    "path": "Books/Mathematics/Excel in Mathematics Book 4.pdf",
     "size": 7441558,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f3a1efb714"
+    "id": "f3a1efb714",
+    "level": "msce",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "Maths syllabus Forms 3-4.doc",
-    "path": "Books/Mathematics/Maths syllabus Forms 3-4.doc",
+    "name": "Mathematics Syllabus Forms 3-4 (MIE 2013).doc",
+    "path": "Books/Syllabuses/Mathematics Syllabus Forms 3-4 (MIE 2013).doc",
     "size": 508928,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f4bcec72c0"
+    "id": "f4bcec72c0",
+    "level": "msce",
+    "category": "Books",
+    "subject": "Syllabuses"
   },
   {
-    "name": "Maths-Form-3-Notes-Teacher.co_.ke__1.pdf",
-    "path": "Books/Mathematics/Maths-Form-3-Notes-Teacher.co_.ke__1.pdf",
+    "name": "Secondary Mathematics Form 3 Revision Notes.pdf",
+    "path": "Books/Mathematics/Secondary Mathematics Form 3 Revision Notes.pdf",
     "size": 20223796,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fac69f1854"
+    "id": "fac69f1854",
+    "level": "msce",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "Maths-SSS_Year_3-Term_1_SeniorSecondarySchool-LessonPlan_1.pdf",
-    "path": "Books/Mathematics/Maths-SSS_Year_3-Term_1_SeniorSecondarySchool-LessonPlan_1.pdf",
+    "name": "Senior Secondary Mathematics Lesson Plans (Forms 3-4).pdf",
+    "path": "Books/Mathematics/Senior Secondary Mathematics Lesson Plans (Forms 3-4).pdf",
     "size": 5827028,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f2557052a1"
+    "id": "f2557052a1",
+    "level": "msce",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "Maths_-_Q_and_Answers.pdf",
-    "path": "Books/Mathematics/Maths_-_Q_and_Answers.pdf",
+    "name": "MSCE Mathematics Past Examination Questions and Model Answers (2002-2015).pdf",
+    "path": "Q&A/Mathematics/MSCE Mathematics Past Examination Questions and Model Answers (2002-2015).pdf",
     "size": 2276362,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f6d4ffecc1"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f6d4ffecc1",
+    "level": "msce",
+    "category": "Q&A",
+    "subject": "Mathematics"
   },
   {
-    "name": "Maths_Book3_Excel.pdf",
-    "path": "Books/Mathematics/Maths_Book3_Excel.pdf",
-    "size": 38371545,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f6938a36cd"
-  },
-  {
-    "name": "Mr P Maths Book 2.pdf",
-    "path": "Books/Mathematics/Mr P Maths Book 2.pdf",
+    "name": "Mr P Secondary Mathematics Book 2.pdf",
+    "path": "Books/Mathematics/Mr P Secondary Mathematics Book 2.pdf",
     "size": 3421549,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "faf12a12b6"
+    "id": "faf12a12b6",
+    "level": "jce",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "New_General_Mathematics_-.pdf",
-    "path": "Books/Mathematics/New_General_Mathematics_-.pdf",
+    "name": "New General Mathematics for Senior Secondary Schools Teachers Guide.pdf",
+    "path": "Books/Mathematics/New General Mathematics for Senior Secondary Schools Teachers Guide.pdf",
     "size": 1284709,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f8e1868d6a"
+    "id": "f8e1868d6a",
+    "level": "msce",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "TxtBook_Maths_Book4_Chikwakwa_MacMillian_1.pdf",
-    "path": "Books/Mathematics/TxtBook_Maths_Book4_Chikwakwa_MacMillian_1.pdf",
-    "size": 6731711,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f545cd6e31"
-  },
-  {
-    "name": "Vectors.pdf",
-    "path": "Books/Mathematics/Vectors.pdf",
+    "name": "Scalars and Vectors Secondary Study Notes.pdf",
+    "path": "Books/Mathematics/Scalars and Vectors Secondary Study Notes.pdf",
     "size": 170831,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fd62fd88ae"
+    "id": "fd62fd88ae",
+    "level": "both",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "Mathematics_1~5.pdf",
-    "path": "Books/Mathematics/____Mathematics_1~5.pdf",
+    "name": "Secondary Mathematics Comprehensive Formulas and Notes Forms 1-4.pdf",
+    "path": "Books/Mathematics/Secondary Mathematics Comprehensive Formulas and Notes Forms 1-4.pdf",
     "size": 5929878,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "ff9603edce"
+    "id": "ff9603edce",
+    "level": "both",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "chanco_additional_mathematics_1.pdf",
-    "path": "Books/Mathematics/chanco_additional_mathematics_1.pdf",
+    "name": "Chancellor College Additional Mathematics Module.pdf",
+    "path": "Books/Mathematics/Chancellor College Additional Mathematics Module.pdf",
     "size": 23051748,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f01e321e0a"
+    "id": "f01e321e0a",
+    "level": "msce",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "chikwakwa_maths_book_4-1_1.pdf",
-    "path": "Books/Mathematics/chikwakwa_maths_book_4-1_1.pdf",
+    "name": "Chikwakwa Secondary Mathematics Book 4.pdf",
+    "path": "Books/Mathematics/Chikwakwa Secondary Mathematics Book 4.pdf",
     "size": 53873777,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f420d5d6c2"
+    "id": "f420d5d6c2",
+    "level": "msce",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "mathematics_1-1.pdf",
-    "path": "Books/Mathematics/mathematics_1-1.pdf",
+    "name": "MSCE Mathematics Paper 1 Mock Examination.pdf",
+    "path": "Exams/Mathematics/MSCE Mathematics Paper 1 Mock Examination.pdf",
     "size": 272428,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fdf0f508d6"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fdf0f508d6",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "Mathematics"
   },
   {
-    "name": "mathematics_I.pdf",
-    "path": "Books/Mathematics/mathematics_I.pdf",
+    "name": "2020 Mzuzu Diocese MSCE Mathematics Paper 1 Mock.pdf",
+    "path": "Exams/Mathematics/2020 Mzuzu Diocese MSCE Mathematics Paper 1 Mock.pdf",
     "size": 173843,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fecfcf72eb"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fecfcf72eb",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "Mathematics"
   },
   {
-    "name": "mathematics_II.pdf",
-    "path": "Books/Mathematics/mathematics_II.pdf",
+    "name": "2020 Mzuzu Diocese MSCE Mathematics Paper 2 Mock.pdf",
+    "path": "Exams/Mathematics/2020 Mzuzu Diocese MSCE Mathematics Paper 2 Mock.pdf",
     "size": 684615,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f1a2a77948"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f1a2a77948",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "Mathematics"
   },
   {
-    "name": "maths_1.pdf",
-    "path": "Books/Mathematics/maths_1.pdf",
+    "name": "2020 St Marys Secondary School MSCE Mathematics Paper 1 Mock.pdf",
+    "path": "Exams/Mathematics/2020 St Marys Secondary School MSCE Mathematics Paper 1 Mock.pdf",
     "size": 1606721,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f44f92b12e"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f44f92b12e",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "Mathematics"
   },
   {
-    "name": "maths_11111-1.pdf",
-    "path": "Books/Mathematics/maths_11111-1.pdf",
-    "size": 2460463,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f006720b00"
-  },
-  {
-    "name": "maths_practice_1998.PDF",
-    "path": "Books/Mathematics/maths_practice_1998.PDF",
-    "size": 342530,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fb5be42df5"
-  },
-  {
-    "name": "maths_practice_2000.PDF",
-    "path": "Books/Mathematics/maths_practice_2000.PDF",
-    "size": 300441,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "faeb6b09c0"
-  },
-  {
-    "name": "maths_practice_2001.PDF",
-    "path": "Books/Mathematics/maths_practice_2001.PDF",
-    "size": 227668,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "ff761b830a"
-  },
-  {
-    "name": "maths_practice_2005.PDF",
-    "path": "Books/Mathematics/maths_practice_2005.PDF",
-    "size": 298083,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fb00353f9d"
-  },
-  {
-    "name": "maths_practice_2006.PDF",
-    "path": "Books/Mathematics/maths_practice_2006.PDF",
-    "size": 274767,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fd5c7d40bb"
-  },
-  {
-    "name": "target_Maths book 4_1.pdf",
-    "path": "Books/Mathematics/target_Maths book 4_1.pdf",
+    "name": "Target Secondary Mathematics Book 4.pdf",
+    "path": "Books/Mathematics/Target Secondary Mathematics Book 4.pdf",
     "size": 73386203,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fc68e8a81b"
+    "id": "fc68e8a81b",
+    "level": "msce",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "target_book_3_mathematics-1_1.pdf",
-    "path": "Books/Mathematics/target_book_3_mathematics-1_1.pdf",
+    "name": "Target Secondary Mathematics Book 3.pdf",
+    "path": "Books/Mathematics/Target Secondary Mathematics Book 3.pdf",
     "size": 44301104,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f3c54dc646"
+    "id": "f3c54dc646",
+    "level": "msce",
+    "category": "Books",
+    "subject": "Mathematics"
   },
   {
-    "name": "x02_Maths Module 1_FINAL_1.pdf",
-    "path": "Books/Mathematics/x02_Maths Module 1_FINAL_1.pdf",
-    "size": 1017946,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f3b20b66ce"
-  },
-  {
-    "name": "Gr12_PhysicalSciences_Teacher_Eng.pdf",
-    "path": "Books/Physical Science/Gr12_PhysicalSciences_Teacher_Eng.pdf",
+    "name": "Physical Sciences Grade 12 Teacher's Guide (Siyavula).pdf",
+    "path": "Books/Physical Science/Physical Sciences Grade 12 Teachers Guide (Siyavula).pdf",
     "size": 5399083,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f2d559b2c2"
+    "id": "f2d559b2c2",
+    "level": "msce",
+    "category": "Books",
+    "subject": "Physical Science"
   },
   {
     "name": "02_Electricity-1-1.pdf",

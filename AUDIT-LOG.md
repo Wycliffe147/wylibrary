@@ -22,8 +22,8 @@ The "After" number represents the clean, frozen count at the moment the folder a
 | **Books/History** | ⬜ Queued | 24 | *Pending* | - | - | - | - | - |
 | **Books/Home Economics** | ⬜ Queued | 8 | *Pending* | - | - | - | - | - |
 | **Books/Life Skills** | ✅ Audited | 4 | 2 | 2 | 0 | 0 | 100% Explicit | Nov 26, 2026 |
-| **Books/Mathematics** | ⬜ Queued | 72 | *Pending* | - | - | - | - | - |
-| **Books/Physical Science** | ⬜ Queued | 19 | *Pending* | - | - | - | - | - |
+| **Books/Mathematics** | ✅ Audited | 115 | 39 | 28 | 21 | 26 | 100% Explicit | Nov 27, 2026 |
+| **Books/Physical Science** | ✅ Audited | 1 | 1 | 0 | 0 | 0 | 100% Explicit | Nov 27, 2026 |
 | **Books/Physics** | ⬜ Queued | 90 | *Pending* | - | - | - | - | - |
 | **Books/Social Studies** | ⬜ Queued | 6 | *Pending* | - | - | - | - | - |
 
@@ -118,6 +118,29 @@ The "After" number represents the clean, frozen count at the moment the folder a
 - **Initial Count:** 4 files
 - **Clean Books Retained:** 2 clean study guides (1 JCE, 1 Both)
 - **Transferred to Exams:** 2 mock exams to `Exams/Life Skills/` on Bucket 2 (St Marys Girls Secondary School MSCE Life Skills Mock Exam 2020, Michiru View Secondary School MSCE Life Skills Mock Exam 2022)
+- **Transferred to Q&A:** 0
+- **Transferred to Syllabuses:** 0
+- **Deleted from R2:** 0
+- **Level Tagging Coverage:** 100% Explicit
+
+### 12. Books/Mathematics
+- **Initial Count:** 115 files
+- **Clean Books Retained:** 39 clean textbooks, modular coursebooks, formula compendiums, and revision pamphlets (21 MSCE, 8 JCE, 10 Both)
+- **Transferred to Exams:** 28 mock exams and past papers to Bucket 2:
+  - 25 files to `Exams/Mathematics/` (MANEB 2006 Paper 1, MANEB 2016 JCE, 2016 Mzuzu Diocese Mock Paper 1, 2019 Maranatha Mock Paper 1, 2019 Providence Cluster Mock Paper 2, MANEB 2020 Paper 1, 2021 CCAP Synod of Livingstonia Mock Papers 1 & 2, 2021 Nkhamenya Cluster Mock Paper 2, 2022 MANEB Chief Examiners Report, 2022 Chikhwaza Cluster Mock Paper 2, 2023 CEED Mock Paper 1, 2023 Lilongwe City Mock Papers 1 & 2, 2023 Blantyre Secondary School Cluster Mock Paper 2, 2023 Shire Highlands Education Division Mock Paper 1, 2025 Shire Highlands Education Division Mock Paper 1 PDF & DOCX, 2026 Northern Education Division JCE Mock, 2026 Loyola Jesuit Secondary School JCE Mock, 2021 MANEB JCE Sample Paper, 2025 Central West Education Division Mock Papers 1 & 2, MSCE Mock Paper 1, and 2020 Mzuzu Diocese Mock Papers 1 & 2, 2020 St Marys Mock Paper 1)
+  - 3 files to `Exams/Additional Mathematics/` (MANEB 2014 MSCE Additional Mathematics Paper 1, MANEB 2019 MSCE Additional Mathematics Paper 2)
+- **Transferred to Q&A:** 21 topical model answers and solution booklets to Bucket 2:
+  - 20 files to `Q&A/Mathematics/` (17 topical Ans_MSCE_Math model solutions for Irrational Numbers, Mapping & Functions, Change of Subject, Variations, Polynomials, Coordinate Geometry, Graphs of Functions, Travel Graph, Trigonometry, Similarity, Vectors, Constructing Geometry, Statistics, Matrices, Quadratics, Algebraic Fractions; plus MSCE Mathematics Past Exam Questions & Model Answers 2002-2015, Topical Sets Questions and Solutions, and K. Gareta 2017 Mock Paper 1 Model Solutions)
+  - 1 file to `Q&A/Additional Mathematics/` (Additional Mathematics Assignment and Model Solutions by Sam Mhango)
+- **Transferred to Syllabuses:** 1 official national curriculum syllabus moved to `Books/Syllabuses/` (Mathematics Syllabus Forms 3-4, MIE 2013)
+- **Deleted from R2:** 26 files (5 corrupted PDFs with invalid catalogs/xref tables: maths_practice_1998, 2000, 2001, 2005, 2006; 12 non-curriculum/primary/trade: 2022 Primary Mathematics, Chimteka Zone PSLCE exam, IPTE primary teacher college module, 4-page US journal article, GRE exam review, 7-page illegible student notebook scribbles, Bob Miller Calculus trade book, Edexcel IGCSE teacher answers, FSMA UK vectors worksheet, MEP Year 8 angles worksheet, continuous assessment workshop slides, USAID AMAA NGO layout; and 9 duplicate uploads of Arise Book 3, Maranatha Mock, Excel Book 3, Target Book 4, Motto Mathematics, Chikwakwa Book 4, and Mathematics Book 2)
+- **Level Tagging Coverage:** 100% Explicit (21 MSCE, 8 JCE, 10 Both)
+
+### 13. Books/Physical Science
+- **Initial Count:** 1 file
+- **Clean Books Retained:** 1 clean comprehensive teacher guide (1 MSCE)
+- **Normalized Title:** Physical Sciences Grade 12 Teacher's Guide (Siyavula).pdf (Level: msce)
+- **Transferred to Exams:** 0
 - **Transferred to Q&A:** 0
 - **Transferred to Syllabuses:** 0
 - **Deleted from R2:** 0
