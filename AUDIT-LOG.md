@@ -17,11 +17,11 @@ The "After" number represents the clean, frozen count at the moment the folder a
 | **Books/Chemistry** | ✅ Audited | 80 | 44 | 18 | 3 | 14 | 100% Explicit | Nov 26, 2026 |
 | **Books/Chichewa** | ✅ Audited | 50 | 24 | 21 | 0 | 3 | 100% Explicit | Nov 26, 2026 |
 | **Books/Computer studies** | ✅ Audited | 32 | 28 | 1 | 0 | 3 | 100% Explicit | Nov 26, 2026 |
-| **Books/English** | ⬜ Queued | 191 | *Pending* | - | - | - | - | - |
+| **Books/English** | ✅ Audited | 191 | 116 | 33 | 5 | 34 | 100% Explicit | Nov 26, 2026 |
 | **Books/Geography** | ✅ Audited | 64 | 35 | 21 | 1 | 7 | 100% Explicit | Nov 26, 2026 |
 | **Books/History** | ⬜ Queued | 24 | *Pending* | - | - | - | - | - |
 | **Books/Home Economics** | ⬜ Queued | 8 | *Pending* | - | - | - | - | - |
-| **Books/Life Skills** | ⬜ Queued | 7 | *Pending* | - | - | - | - | - |
+| **Books/Life Skills** | ✅ Audited | 4 | 2 | 2 | 0 | 0 | 100% Explicit | Nov 26, 2026 |
 | **Books/Mathematics** | ⬜ Queued | 72 | *Pending* | - | - | - | - | - |
 | **Books/Physical Science** | ⬜ Queued | 19 | *Pending* | - | - | - | - | - |
 | **Books/Physics** | ⬜ Queued | 90 | *Pending* | - | - | - | - | - |
@@ -103,4 +103,22 @@ The "After" number represents the clean, frozen count at the moment the folder a
 - **Transferred to Q&A:** 1 model answer booklet to `Q&A/Geography/` on Bucket 2 (Geography Model Examination Questions and Answers by K. Gareta)
 - **Transferred to Syllabuses:** 0
 - **Deleted from R2:** 7 files (1 external Cambridge IGCSE 2012 revision guide, 1 draft 485KB copy of Marist Mock, 1 duplicate 9.8MB copy of Form 3/4 notes, 1 duplicate 79-page upload of Human & Economic Geography, 1 duplicate 64-page upload of Human Geography, 1 duplicate 84-page upload of Form 4 Geography, and 1 duplicate upload of Book 3 with Map Work Elements)
+- **Level Tagging Coverage:** 100% Explicit
+
+### 10. Books/English
+- **Initial Count:** 191 files
+- **Clean Books Retained:** 116 clean textbooks, literature companions, drama/novel texts, grammar workbooks, and teacher training manuals (31 MSCE, 8 JCE, 77 Both)
+- **Transferred to Exams:** 33 files to `Exams/English/` on Bucket 2 (MANEB 2015 JCE Paper I, MANEB 2019 MSCE Paper I, Mzuzu Diocese 2020, Answer Private Academy Paper III, Mvera Girls Form 1 Papers I & II, Dedza Diocese Paper III, Northern Education Division Papers I & II & III, Mulanje District Council, Mulanje Cluster Paper III, Zingwangwa Cluster Paper III, St Marys Papers I & II, Hill Crescent Papers I & II & III, Blantyre Secondary School Cluster Papers I & II & III, New Vision Form 4, Likuni Boys 2012, BSS Zone 2017, JCE Sample Paper II, Shire Highlands Education Division Paper I, and Paper III Note Making Mock)
+- **Transferred to Q&A:** 5 literature model question and essay analysis booklets to `Q&A/English/` on Bucket 2 (Essay Questions and Model Analysis on Macbeth, Macbeth and The Pearl Literature Essays with Insights, Macbeth Model Essay Questions and Answers by Scott Lessons, Compilation of Essay Questions from Macbeth 2020, and The Pearl Questions and Answers Study Plan)
+- **Transferred to Syllabuses:** 3 national curriculum syllabus documents moved to `Books/Syllabuses/` (English Syllabus Forms 1 and 2, English Senior Secondary Syllabus Forms 3 and 4, and MANEB English Examination Syllabus)
+- **Deleted from R2:** 34 files (1 UAE private school handbook, 1 OraQuick HIV test kit leaflet, 1 non-curriculum apocryphal Book of Enoch, 1 romance novel paperback, 2 primary school textbooks/guides, 1 primary PSLCE mock exam, 3 external bank/Hindi exam web scrapes, 1 TOEFL vocabulary trade book, 4 misfiled Chichewa literature drafts, 1 draft notes with emoji title, and 18 duplicate uploads of grammar books, literature summaries, and setbook texts)
+- **Level Tagging Coverage:** 100% Explicit
+
+### 11. Books/Life Skills
+- **Initial Count:** 4 files
+- **Clean Books Retained:** 2 clean study guides (1 JCE, 1 Both)
+- **Transferred to Exams:** 2 mock exams to `Exams/Life Skills/` on Bucket 2 (St Marys Girls Secondary School MSCE Life Skills Mock Exam 2020, Michiru View Secondary School MSCE Life Skills Mock Exam 2022)
+- **Transferred to Q&A:** 0
+- **Transferred to Syllabuses:** 0
+- **Deleted from R2:** 0
 - **Level Tagging Coverage:** 100% Explicit

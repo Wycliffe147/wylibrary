@@ -4017,788 +4017,724 @@
     "level": "msce"
   },
   {
-    "name": "'BASIC_ENGLISH_GRAMMAR_STRUCTURES_AND_VOCABULARY-1-1_1.pdf",
+    "name": "Basic English Grammar Structures and Vocabulary.pdf",
     "path": "Books/English/'BASIC_ENGLISH_GRAMMAR_STRUCTURES_AND_VOCABULARY-1-1_1.pdf",
     "size": 2740673,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f961342b39"
+    "id": "f961342b39",
+    "level": "both"
   },
   {
-    "name": "083-Macbeth - William Shakespeare.pdf",
+    "name": "Macbeth - Complete Play (William Shakespeare).pdf",
     "path": "Books/English/083-Macbeth - William Shakespeare.pdf",
     "size": 381607,
     "repo": "e-library-media-3",
     "bucket": 1,
-    "id": "f9f6015e97"
+    "id": "f9f6015e97",
+    "level": "both"
   },
   {
-    "name": "1000 Phrasal Verbs In Context ( PDFDrive )_1.pdf",
+    "name": "1000 Phrasal Verbs in Context.pdf",
     "path": "Books/English/1000 Phrasal Verbs In Context ( PDFDrive )_1.pdf",
     "size": 2849121,
     "repo": "e-library-media-5",
     "bucket": 1,
-    "id": "f0bb5a4f4d"
+    "id": "f0bb5a4f4d",
+    "level": "both"
   },
   {
-    "name": "150_English_Prepositions_List.pdf-1-1-1-1.pdf",
+    "name": "150 English Prepositions Illustrated Guide.pdf",
     "path": "Books/English/150_English_Prepositions_List.pdf-1-1-1-1.pdf",
     "size": 273960,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fbaf8de99d"
+    "id": "fbaf8de99d",
+    "level": "both"
   },
   {
-    "name": "2.Direct_and_Indirect_Speech.pptx",
+    "name": "Direct and Indirect Speech Presentation.pptx",
     "path": "Books/English/2.Direct_and_Indirect_Speech.pptx",
     "size": 185486,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f35d166f54"
+    "id": "f35d166f54",
+    "level": "both"
   },
   {
-    "name": "2015 JCE ENGLISH P1.pdf",
-    "path": "Books/English/2015 JCE ENGLISH P1 (1).pdf",
+    "name": "MANEB JCE English Paper I Past Paper (2015).pdf",
+    "path": "Exams/English/MANEB JCE English Paper I Past Paper (2015).pdf",
     "size": 2409462,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f30eec83f5"
+    "bucket": 2,
+    "id": "f30eec83f5",
+    "level": "jce"
   },
   {
-    "name": "2019MSCE_ENGLISH_P_I.PDF.pdf",
-    "path": "Books/English/2019MSCE_ENGLISH_P_I.PDF.pdf",
+    "name": "MANEB MSCE English Paper I Past Paper (2019).pdf",
+    "path": "Exams/English/MANEB MSCE English Paper I Past Paper (2019).pdf",
     "size": 2894946,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fc3d39d85b"
+    "bucket": 2,
+    "id": "fc3d39d85b",
+    "level": "msce"
   },
   {
-    "name": "2020 ENGLISH 1-1.pdf",
-    "path": "Books/English/2020 ENGLISH 1-1.pdf",
+    "name": "Mzuzu Diocese Schools MSCE English Paper I Mock Exam (2020).pdf",
+    "path": "Exams/English/Mzuzu Diocese Schools MSCE English Paper I Mock Exam (2020).pdf",
     "size": 149743,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f216bbbd08"
+    "bucket": 2,
+    "id": "f216bbbd08",
+    "level": "msce"
   },
   {
-    "name": "24-25-student-handbook-(english)_1.pdf",
-    "path": "Books/English/24-25-student-handbook-(english)_1.pdf",
-    "size": 4222903,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f2c28382c5"
-  },
-  {
-    "name": "50 Common English Phrasal Verbs – (DreamBiginstitution)-1.pdf",
-    "path": "Books/English/50 Common English Phrasal Verbs – (DreamBiginstitution)-1 (1).pdf",
-    "size": 734856,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f7ed4e6a56"
-  },
-  {
-    "name": "50-common-English-phrasal-verbs.pdf",
+    "name": "50 Common English Phrasal Verbs Guide.pdf",
     "path": "Books/English/50-common-English-phrasal-verbs.pdf",
     "size": 682173,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fcd72ceef1"
+    "id": "fcd72ceef1",
+    "level": "both"
   },
   {
-    "name": "501-vocabulary-questions1.pdf",
+    "name": "501 Vocabulary Questions and Exercises.pdf",
     "path": "Books/English/501-vocabulary-questions1.pdf",
     "size": 487769,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "ffec95c43c"
+    "id": "ffec95c43c",
+    "level": "both"
   },
   {
-    "name": "501_Synonym_&_Antonym_Questions_-_Govtedu_(_PDFDrive.com_)-1.pdf",
+    "name": "501 Synonym and Antonym Questions.pdf",
     "path": "Books/English/501_Synonym_&_Antonym_Questions_-_Govtedu_(_PDFDrive.com_)-1.pdf",
     "size": 239509,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fc71c27545"
+    "id": "fc71c27545",
+    "level": "both"
   },
   {
-    "name": "650_English_Phrases_for_Everyday_Speaking.pdf",
+    "name": "650 English Phrases for Everyday Speaking.pdf",
     "path": "Books/English/650_English_Phrases_for_Everyday_Speaking (1).pdf",
     "size": 473438,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fc96ee8dfb"
+    "id": "fc96ee8dfb",
+    "level": "both"
   },
   {
-    "name": "ACTIVE_AND_PASSIVE_VOICES-2.pdf",
+    "name": "Active and Passive Voice Comprehensive Guide.pdf",
     "path": "Books/English/ACTIVE_AND_PASSIVE_VOICES-2.pdf",
     "size": 796673,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f4f3719a92"
+    "id": "f4f3719a92",
+    "level": "both"
   },
   {
-    "name": "ACTIVE_AND_PASSIVE_VOICES_(1).pdf",
+    "name": "Active and Passive Voice Study Notes (Banda).pdf",
     "path": "Books/English/ACTIVE_AND_PASSIVE_VOICES_(1) (1).pdf",
     "size": 148040,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f4424e6c04"
+    "id": "f4424e6c04",
+    "level": "both"
   },
   {
-    "name": "ANSWER_english_paper_3.pdf",
-    "path": "Books/English/ANSWER_english_paper_3.pdf",
+    "name": "Answer Private Academy MSCE English Paper III Mock Exam (2020).pdf",
+    "path": "Exams/English/Answer Private Academy MSCE English Paper III Mock Exam (2020).pdf",
     "size": 451997,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fdf7f7d4a0"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fdf7f7d4a0",
+    "level": "msce"
   },
   {
-    "name": "Achebe Chinua - Things Fall Apart-1-1.pdf",
+    "name": "Things Fall Apart - Complete Novel (Chinua Achebe).pdf",
     "path": "Books/English/Achebe Chinua - Things Fall Apart-1-1 (1).pdf",
     "size": 555646,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f59bad9655"
+    "id": "f59bad9655",
+    "level": "both"
   },
   {
-    "name": "African_short_stories-2.pdf",
+    "name": "African Short Stories Study Notes (Kachulu).pdf",
     "path": "Books/English/African_short_stories-2.pdf",
     "size": 512074,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "faf648b892"
+    "id": "faf648b892",
+    "level": "msce"
   },
   {
-    "name": "Arise_with_English_Note_Taking_and_Comprehension_REVISED.pdf",
+    "name": "Arise with English Note Taking and Comprehension.pdf",
     "path": "Books/English/Arise_with_English_Note_Taking_and_Comprehension_REVISED.pdf",
     "size": 2008736,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fdf55977fb"
+    "id": "fdf55977fb",
+    "level": "both"
   },
   {
-    "name": "Articles (1).pdf",
-    "path": "Books/English/Articles (1) (1).pdf",
-    "size": 319399,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fb621f6f05"
-  },
-  {
-    "name": "Basic English Grammar Book 2 for ELLs (US) - 154p.pdf",
+    "name": "Basic English Grammar Student Book 2.pdf",
     "path": "Books/English/Basic English Grammar Book 2 for ELLs (US) - 154p.pdf",
     "size": 2072106,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f956d6529e"
+    "id": "f956d6529e",
+    "level": "jce"
   },
   {
-    "name": "Basic_English_Grammar_Book_2 (2)_1.pdf",
-    "path": "Books/English/Basic_English_Grammar_Book_2 (2)_1.pdf",
-    "size": 1999133,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f7e39059ef"
-  },
-  {
-    "name": "CLAUSES AND PHRASES.pdf",
+    "name": "Clauses and Phrases Teaching Resources.pdf",
     "path": "Books/English/CLAUSES AND PHRASES (1).pdf",
     "size": 459662,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f18059f50b"
+    "id": "f18059f50b",
+    "level": "both"
   },
   {
-    "name": "CLAUSES.pdf",
+    "name": "Clauses and Sentence Structure Notes (Banda).pdf",
     "path": "Books/English/CLAUSES(1).pdf",
     "size": 145946,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f1a275d27a"
+    "id": "f1a275d27a",
+    "level": "both"
   },
   {
-    "name": "CLAUSES_AND_PHRASES.pdf",
+    "name": "English Language Clauses and Phrases (Nelson).pdf",
     "path": "Books/English/CLAUSES_AND_PHRASES(1).pdf",
     "size": 829080,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f5e4c39796"
+    "id": "f5e4c39796",
+    "level": "both"
   },
   {
-    "name": "CNTHONDO_SUMMARY.pdf",
-    "path": "Books/English/CNTHONDO_SUMMARY (1).pdf",
-    "size": 356931,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fea0952875"
-  },
-  {
-    "name": "COMPLETE MSCE ENGLISH GRAMMAR By WONGANI CHIPETA(BAED).pdf",
-    "path": "Books/English/COMPLETE MSCE ENGLISH GRAMMAR By WONGANI CHIPETA(BAED).pdf",
-    "size": 1332599,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f38a5cdb25"
-  },
-  {
-    "name": "COMPLETE MSCE ENGLISSH GRAMMAR by WONGNI CHIPETA(BAED)_1.pdf",
+    "name": "Complete MSCE English Grammar (Wongani Chipeta).pdf",
     "path": "Books/English/COMPLETE MSCE ENGLISSH GRAMMAR by WONGNI CHIPETA(BAED)_1.pdf",
     "size": 1792455,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f5d07bd21f"
+    "id": "f5d07bd21f",
+    "level": "msce"
   },
   {
-    "name": "COMPOSITIONS,_NOTE_MAKING,_SUMMARY_WRITING,SPEECH,REPORT(1)-1.pdf",
-    "path": "Books/English/COMPOSITIONS,_NOTE_MAKING,_SUMMARY_WRITING,SPEECH,REPORT(1)-1.pdf",
-    "size": 225196,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f8e81ec98c"
-  },
-  {
-    "name": "COMPOSITIONS,_NOTE_MAKING,_SUMMARY_WRITING,SPEECH,REPORT(1)-1_1.pdf",
+    "name": "English Composition, Note Making, and Speech Writing Guide (Kamatuwa).pdf",
     "path": "Books/English/COMPOSITIONS,_NOTE_MAKING,_SUMMARY_WRITING,SPEECH,REPORT(1)-1_1.pdf",
     "size": 1179131,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f05d827414"
+    "id": "f05d827414",
+    "level": "both"
   },
   {
-    "name": "Chamdothe Summary_1.pdf",
-    "path": "Books/English/Chamdothe Summary_1.pdf",
-    "size": 809783,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fcb0f5b4af"
-  },
-  {
-    "name": "Champion's English literature.pdf",
+    "name": "Champions English Literature Companion.pdf",
     "path": "Books/English/Champion's   English   literature (1).pdf",
     "size": 1126545,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f398afc961"
+    "id": "f398afc961",
+    "level": "both"
   },
   {
-    "name": "Chimteka ENGLISH.pdf",
-    "path": "Books/English/Chimteka ENGLISH.pdf",
-    "size": 291453,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fa0b4e9351"
-  },
-  {
-    "name": "Common Mistakes In English-1.pdf",
+    "name": "Common Mistakes in English (Comprehensive Edition).pdf",
     "path": "Books/English/Common Mistakes In English-1.pdf",
     "size": 4684717,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f4464c596b"
+    "id": "f4464c596b",
+    "level": "both"
   },
   {
-    "name": "Common mistake in English_1.pdf",
-    "path": "Books/English/Common mistake in English_1.pdf",
-    "size": 5053946,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f9db943165"
-  },
-  {
-    "name": "Common_Mistakes_in_English_(Grammar_Practice)_by_T.J._Fitikides_(z-lib.org).pdf",
+    "name": "Common Mistakes in English (T.J. Fitikides).pdf",
     "path": "Books/English/Common_Mistakes_in_English_(Grammar_Practice)_by_T.J._Fitikides_(z-lib.org).pdf",
     "size": 3299759,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f26dbfbbb7"
+    "id": "f26dbfbbb7",
+    "level": "both"
   },
   {
-    "name": "Common_mistakes.pdf",
-    "path": "Books/English/Common_mistakes_(1).pdf",
-    "size": 4684716,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fb934c84ab"
-  },
-  {
-    "name": "Complete_English_Grammar_Rules__Examples,_Exceptions,_Exercises,_and_Everyth_1.pdf",
+    "name": "Complete English Grammar Rules and Exercises.pdf",
     "path": "Books/English/Complete_English_Grammar_Rules__Examples,_Exceptions,_Exercises,_and_Everyth_1.pdf",
     "size": 3645327,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f24cda8062"
+    "id": "f24cda8062",
+    "level": "both"
   },
   {
-    "name": "Copy(2)_Macbeth_Notes_including-summary-1kbn64n-1-1.pdf",
+    "name": "Macbeth Summary and Context Study Notes.pdf",
     "path": "Books/English/Copy(2)_Macbeth_Notes_including-summary-1kbn64n-1-1.pdf",
     "size": 138728,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f0cc4e6fb3"
+    "id": "f0cc4e6fb3",
+    "level": "msce"
   },
   {
-    "name": "DISTINCTION IN MSCE ENGLISH REGISTERS.pdf",
+    "name": "Distinction in MSCE English Registers (Lymon).pdf",
     "path": "Books/English/DISTINCTION IN MSCE ENGLISH REGISTERS.pdf",
     "size": 413989,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fdc5eeba22"
+    "id": "fdc5eeba22",
+    "level": "msce"
   },
   {
-    "name": "DZUKA-ENGLISH GRAMMAR FOR SCHOOLS_20201119_0001-Compressed.pdf",
+    "name": "Dzuka English Grammar for Schools (Comprehensive Edition).pdf",
     "path": "Books/English/DZUKA-ENGLISH GRAMMAR FOR SCHOOLS_20201119_0001-Compressed.pdf",
     "size": 15330442,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f504e948ce"
+    "id": "f504e948ce",
+    "level": "both"
   },
   {
-    "name": "Dance of the Jakaranda.pdf",
+    "name": "Dance of the Jakaranda - Novel (Peter Kimani).pdf",
     "path": "Books/English/Dance of the Jakaranda.pdf",
     "size": 1954006,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f0221cbf05"
+    "id": "f0221cbf05",
+    "level": "both"
   },
   {
-    "name": "Dzuka-English grammar for schools Compressed_1.pdf",
+    "name": "Dzuka English Grammar for Schools.pdf",
     "path": "Books/English/Dzuka-English grammar for schools Compressed_1.pdf",
     "size": 10283068,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f5ef23774e"
+    "id": "f5ef23774e",
+    "level": "both"
   },
   {
-    "name": "ELEMENTS_OF_LITERATURE_IV_MASSIVE-1.pdf",
+    "name": "Elements of Literature and Literary Devices (Evangelist).pdf",
     "path": "Books/English/ELEMENTS_OF_LITERATURE_IV_MASSIVE-1.pdf",
     "size": 142659,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "ff0cff0eb4"
+    "id": "ff0cff0eb4",
+    "level": "both"
   },
   {
-    "name": "ENG F1 P1.docx",
-    "path": "Books/English/ENG F1 P1.docx",
+    "name": "Mvera Girls Secondary School Form 1 English Paper I Exam (2021).docx",
+    "path": "Exams/English/Mvera Girls Secondary School Form 1 English Paper I Exam (2021).docx",
     "size": 27904,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f2ea5c557f"
+    "bucket": 2,
+    "id": "f2ea5c557f",
+    "level": "jce"
   },
   {
-    "name": "ENG III.pdf",
-    "path": "Books/English/ENG III.pdf",
+    "name": "Dedza Diocese MSCE English Paper III Mock Exam.pdf",
+    "path": "Exams/English/Dedza Diocese MSCE English Paper III Mock Exam.pdf",
     "size": 263196,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fcd7a749a4"
+    "bucket": 2,
+    "id": "fcd7a749a4",
+    "level": "msce"
   },
   {
-    "name": "ENGLISH P3.docx",
-    "path": "Books/English/ENGLISH  P3.docx",
+    "name": "Northern Education Division MSCE English Paper III Mock Exam (2026).docx",
+    "path": "Exams/English/Northern Education Division MSCE English Paper III Mock Exam (2026).docx",
     "size": 85515,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fbcd50a2ce"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fbcd50a2ce",
+    "level": "msce"
   },
   {
-    "name": "ENGLISH FINAL.pdf",
-    "path": "Books/English/ENGLISH FINAL.pdf",
+    "name": "Mulanje District Council MSCE English Mock Exam.pdf",
+    "path": "Exams/English/Mulanje District Council MSCE English Mock Exam.pdf",
     "size": 546503,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f3b7daca14"
+    "bucket": 2,
+    "id": "f3b7daca14",
+    "level": "msce"
   },
   {
-    "name": "ENGLISH GRAMMAR.pdf",
+    "name": "Malawi Secondary Certificate English Grammar Coursebook.pdf",
     "path": "Books/English/ENGLISH GRAMMAR (1).pdf",
     "size": 361856,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f34084472b"
+    "id": "f34084472b",
+    "level": "both"
   },
   {
-    "name": "ENGLISH GRAMMAR 1.pdf",
+    "name": "English Grammar Pamphlet (J.L. Mwakawanga).pdf",
     "path": "Books/English/ENGLISH GRAMMAR 1.pdf",
     "size": 943907,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f16f3180ed"
+    "id": "f16f3180ed",
+    "level": "both"
   },
   {
-    "name": "ENGLISH GRAMMAR FOR PRIMARY SCHOOL-2.pdf",
-    "path": "Books/English/ENGLISH GRAMMAR FOR PRIMARY SCHOOL-2.pdf",
-    "size": 510111,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f77306dbca"
-  },
-  {
-    "name": "ENGLISH GRAMMAR NOTES-2_1.pdf",
+    "name": "English Grammar Verb Tenses and Syntax Notes.pdf",
     "path": "Books/English/ENGLISH GRAMMAR NOTES-2_1.pdf",
     "size": 683134,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f7562b0747"
+    "id": "f7562b0747",
+    "level": "both"
   },
   {
-    "name": "ENGLISH III.docx",
-    "path": "Books/English/ENGLISH III.docx",
+    "name": "Mulanje Cluster MSCE English Paper III Mock Exam (2021).docx",
+    "path": "Exams/English/Mulanje Cluster MSCE English Paper III Mock Exam (2021).docx",
     "size": 32719,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f8773e519a"
+    "bucket": 2,
+    "id": "f8773e519a",
+    "level": "msce"
   },
   {
-    "name": "ENGLISH P1.docx",
-    "path": "Books/English/ENGLISH P1.docx",
+    "name": "Northern Education Division MSCE English Paper I Mock Exam (2026).docx",
+    "path": "Exams/English/Northern Education Division MSCE English Paper I Mock Exam (2026).docx",
     "size": 90942,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f44e3b07b7"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f44e3b07b7",
+    "level": "msce"
   },
   {
-    "name": "ENGLISH P2.doc",
-    "path": "Books/English/ENGLISH P2.doc",
+    "name": "Northern Education Division MSCE English Paper II Mock Exam (2026).doc",
+    "path": "Exams/English/Northern Education Division MSCE English Paper II Mock Exam (2026).doc",
     "size": 119808,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fc08423896"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fc08423896",
+    "level": "msce"
   },
   {
-    "name": "ENGLISH PIII QUESTION.pdf",
-    "path": "Books/English/ENGLISH PIII QUESTION.pdf",
+    "name": "Zingwangwa Cluster MSCE English Paper III Mock Exam (2022).pdf",
+    "path": "Exams/English/Zingwangwa Cluster MSCE English Paper III Mock Exam (2022).pdf",
     "size": 159047,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "ff7730bfc3"
+    "bucket": 2,
+    "id": "ff7730bfc3",
+    "level": "msce"
   },
   {
-    "name": "ENGLISH PROVERBS -1.pdf",
+    "name": "English Proverbs and Meanings (Zikomo Banda).pdf",
     "path": "Books/English/ENGLISH PROVERBS -1.pdf",
     "size": 343562,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f0fd8b1ad5"
+    "id": "f0fd8b1ad5",
+    "level": "both"
   },
   {
-    "name": "ENGLISH-GRAMMAR-BOOK.pdf",
+    "name": "Secondary English Grammar Handbook.pdf",
     "path": "Books/English/ENGLISH-GRAMMAR-BOOK.pdf",
     "size": 1093199,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fe567a9f2d"
+    "id": "fe567a9f2d",
+    "level": "both"
   },
   {
-    "name": "ENGLISH-Passive-and-Active-Voice.pdf",
+    "name": "Passive and Active Voice Handbook.pdf",
     "path": "Books/English/ENGLISH-Passive-and-Active-Voice.pdf",
     "size": 91968,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fae850ded7"
+    "id": "fae850ded7",
+    "level": "both"
   },
   {
-    "name": "ENGLISH-phrase_verb.pdf",
+    "name": "Complete Phrasal Verbs Reference List.pdf",
     "path": "Books/English/ENGLISH-phrase_verb.pdf",
     "size": 494924,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fe7cee1e3a"
+    "id": "fe7cee1e3a",
+    "level": "both"
   },
   {
-    "name": "ENGLISH_2-1.pdf",
-    "path": "Books/English/ENGLISH_2-1.pdf",
+    "name": "Saint Marys Secondary School MSCE English Paper II Mock Exam (2020).pdf",
+    "path": "Exams/English/Saint Marys Secondary School MSCE English Paper II Mock Exam (2020).pdf",
     "size": 153837,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f2165ad30d"
+    "bucket": 2,
+    "id": "f2165ad30d",
+    "level": "msce"
   },
   {
-    "name": "ENGLISH_EXAM_SYLLABUS.pdf",
-    "path": "Books/English/ENGLISH_EXAM_SYLLABUS_(1).pdf",
+    "name": "MANEB English Examination Syllabus.pdf",
+    "path": "Books/Syllabuses/MANEB English Examination Syllabus.pdf",
     "size": 3874658,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fe5bff0c8b"
+    "id": "fe5bff0c8b",
+    "level": "both"
   },
   {
-    "name": "ENGLISH_GRAMMAR-1-1.pdf",
-    "path": "Books/English/ENGLISH_GRAMMAR-1-1.pdf",
-    "size": 356261,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f47633a273"
-  },
-  {
-    "name": "ENGLISH_GRAMMAR-1-2.pdf",
-    "path": "Books/English/ENGLISH_GRAMMAR-1-2.pdf",
-    "size": 358578,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f3e2ad5f15"
-  },
-  {
-    "name": "ENGLISH_GRAMMAR-1-3.pdf",
+    "name": "Secondary English Grammar and Syntax Coursebook.pdf",
     "path": "Books/English/ENGLISH_GRAMMAR-1-3.pdf",
     "size": 1381535,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f6e234c8d6"
+    "id": "f6e234c8d6",
+    "level": "both"
   },
   {
-    "name": "ENGLISH_GRAMMAR.pdf",
+    "name": "English Study Notes for Secondary School (Lughano Mwangwegho).pdf",
     "path": "Books/English/ENGLISH_GRAMMAR.pdf",
     "size": 646699,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f3b290de9d"
+    "id": "f3b290de9d",
+    "level": "msce"
   },
   {
-    "name": "ENGLISH_GRAMMAR.pdf",
+    "name": "Comprehensive English Grammar and Composition.pdf",
     "path": "Books/English/ENGLISH_GRAMMAR_(1).pdf",
     "size": 3274657,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fd22746b43"
+    "id": "fd22746b43",
+    "level": "both"
   },
   {
-    "name": "ENGLISH_GRAMMAR_-kamoza-1.pdf",
-    "path": "Books/English/ENGLISH_GRAMMAR_-kamoza-1.pdf",
-    "size": 168733,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f0c35ef5ee"
-  },
-  {
-    "name": "ENGLISH_GRAMMAR_-kamoza-2-1-1.pdf",
+    "name": "English Grammar Student Notes (Kamoza).pdf",
     "path": "Books/English/ENGLISH_GRAMMAR_-kamoza-2-1-1.pdf",
     "size": 172032,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f2b524aefe"
+    "id": "f2b524aefe",
+    "level": "both"
   },
   {
-    "name": "ENGLISH_GRAMMAR_BOOK-1.pdf",
+    "name": "English Grammar Practical Handbook.pdf",
     "path": "Books/English/ENGLISH_GRAMMAR_BOOK-1.pdf",
     "size": 1940291,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fa675c2ada"
+    "id": "fa675c2ada",
+    "level": "both"
   },
   {
-    "name": "ENGLISH_GRAMMAR_FOR_SECONDARY.pdf",
+    "name": "English Grammar for Secondary Schools Comprehensive.pdf",
     "path": "Books/English/ENGLISH_GRAMMAR_FOR_SECONDARY.pdf",
     "size": 52596659,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fad2a7d57c"
+    "id": "fad2a7d57c",
+    "level": "both"
   },
   {
-    "name": "ENGLISH_LANGUAGE,_CORRECTIONS_-_Copy.pdf",
+    "name": "English Language Corrections and Model Structures.pdf",
     "path": "Books/English/ENGLISH_LANGUAGE,_CORRECTIONS_-_Copy.pdf",
     "size": 498846,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f5c1530588"
+    "id": "f5c1530588",
+    "level": "both"
   },
   {
-    "name": "ENGLISH_LETTER_WRITING_BY_KD.pdf",
-    "path": "Books/English/ENGLISH_LETTER_WRITING_BY_KD.pdf",
-    "size": 151603,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f22e6c2188"
-  },
-  {
-    "name": "ENG_I.pdf",
-    "path": "Books/English/ENG_I(1).pdf",
+    "name": "Hill Crescent Private Secondary School MSCE English Paper I Mock Exam.pdf",
+    "path": "Exams/English/Hill Crescent Private Secondary School MSCE English Paper I Mock Exam.pdf",
     "size": 327243,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f6a427d658"
+    "bucket": 2,
+    "id": "f6a427d658",
+    "level": "msce"
   },
   {
-    "name": "ENG_I.pdf",
-    "path": "Books/English/ENG_I.pdf",
+    "name": "Blantyre Secondary School Cluster MSCE English Paper I Mock Exam (2018).pdf",
+    "path": "Exams/English/Blantyre Secondary School Cluster MSCE English Paper I Mock Exam (2018).pdf",
     "size": 404044,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f92671c58d"
+    "bucket": 2,
+    "id": "f92671c58d",
+    "level": "msce"
   },
   {
-    "name": "ENG_II.pdf",
-    "path": "Books/English/ENG_II(1).pdf",
+    "name": "Hill Crescent Private Secondary School MSCE English Paper II Mock Exam.pdf",
+    "path": "Exams/English/Hill Crescent Private Secondary School MSCE English Paper II Mock Exam.pdf",
     "size": 313875,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f89f432d65"
+    "bucket": 2,
+    "id": "f89f432d65",
+    "level": "msce"
   },
   {
-    "name": "ENG_III.pdf",
-    "path": "Books/English/ENG_III.pdf",
+    "name": "Blantyre Secondary School Cluster MSCE English Paper III Mock Exam (2018).pdf",
+    "path": "Exams/English/Blantyre Secondary School Cluster MSCE English Paper III Mock Exam (2018).pdf",
     "size": 219168,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fd57b18db7"
+    "bucket": 2,
+    "id": "fd57b18db7",
+    "level": "msce"
   },
   {
-    "name": "ENG_II.pdf",
-    "path": "Books/English/ENG_II_.pdf",
+    "name": "Blantyre Secondary School Cluster MSCE English Paper II Mock Exam (2018).pdf",
+    "path": "Exams/English/Blantyre Secondary School Cluster MSCE English Paper II Mock Exam (2018).pdf",
     "size": 192554,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f7b1e3afd6"
+    "bucket": 2,
+    "id": "f7b1e3afd6",
+    "level": "msce"
   },
   {
-    "name": "ENG_PIII.pdf",
-    "path": "Books/English/ENG_PIII(1).pdf",
+    "name": "Hill Crescent Private Secondary School MSCE English Paper III Mock Exam.pdf",
+    "path": "Exams/English/Hill Crescent Private Secondary School MSCE English Paper III Mock Exam.pdf",
     "size": 371248,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "faa27a47a4"
+    "bucket": 2,
+    "id": "faa27a47a4",
+    "level": "msce"
   },
   {
-    "name": "ENG_PROVERBS-1.pdf",
+    "name": "1000 English Proverbs and Idioms.pdf",
     "path": "Books/English/ENG_PROVERBS-1.pdf",
     "size": 794397,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f58c9b364c"
+    "id": "f58c9b364c",
+    "level": "both"
   },
   {
-    "name": "ESSAYS_MACBETH.pdf",
-    "path": "Books/English/ESSAYS_MACBETH.pdf",
+    "name": "Essay Questions and Model Analysis on Macbeth.pdf",
+    "path": "Q&A/English/Essay Questions and Model Analysis on Macbeth.pdf",
     "size": 63443,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f8ed977374"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f8ed977374",
+    "level": "msce"
   },
   {
-    "name": "ESSAY_MACBETH_AND_PEARL2_1.doc",
+    "name": "Macbeth and The Pearl Character Analysis and Essay Guide.doc",
     "path": "Books/English/ESSAY_MACBETH_AND_PEARL2_1.doc",
     "size": 175104,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "ffebef9b00"
+    "id": "ffebef9b00",
+    "level": "msce"
   },
   {
-    "name": "Eng.pdf",
-    "path": "Books/English/Eng.pdf",
+    "name": "MSCE English Mock Examination.pdf",
+    "path": "Exams/English/MSCE English Mock Examination.pdf",
     "size": 204967,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f56657e768"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f56657e768",
+    "level": "msce"
   },
   {
-    "name": "Eng_MAJOR_THEMES_IN_Macbeth-1.pdf",
+    "name": "Major Themes and Characters in Macbeth.pdf",
     "path": "Books/English/Eng_MAJOR_THEMES_IN_Macbeth-1.pdf",
     "size": 147051,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fb68c610bd"
+    "id": "fb68c610bd",
+    "level": "msce"
   },
   {
-    "name": "Eng_MSCE_COMPOSITIONS_--1.pdf",
+    "name": "MSCE English Compositions Guide.pdf",
     "path": "Books/English/Eng_MSCE_COMPOSITIONS_--1.pdf",
     "size": 431915,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f1994cc214"
+    "id": "f1994cc214",
+    "level": "msce"
   },
   {
-    "name": "Eng_Poetic_devices-1.pdf",
+    "name": "Junior Secondary Literature Study Guide and Poetic Devices (Mwakawanga).pdf",
     "path": "Books/English/Eng_Poetic_devices-1.pdf",
     "size": 979818,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fbc352f27e"
+    "id": "fbc352f27e",
+    "level": "jce"
   },
   {
-    "name": "Eng_SIMILES-1.pdf",
+    "name": "English Similes Study Handbook (Zikomo Banda).pdf",
     "path": "Books/English/Eng_SIMILES-1.pdf",
     "size": 243601,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f57537d671"
+    "id": "f57537d671",
+    "level": "both"
   },
   {
-    "name": "Eng_The_Rain_Came_Short-1.pdf",
+    "name": "The Rain Came - Literature Study Guide (Grace Ogot).pdf",
     "path": "Books/English/Eng_The_Rain_Came_Short-1.pdf",
     "size": 347108,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f10759fa04"
+    "id": "f10759fa04",
+    "level": "both"
   },
   {
-    "name": "Eng_The_Tragedy_of_Macbeth-1.pdf",
+    "name": "The Tragedy of Macbeth - Student Study Guide.pdf",
     "path": "Books/English/Eng_The_Tragedy_of_Macbeth-1.pdf",
     "size": 629145,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f5478d3603"
+    "id": "f5478d3603",
+    "level": "msce"
   },
   {
-    "name": "Eng_Themes_Mcbeth-1.pdf",
+    "name": "Themes and Dramatic Structure in Macbeth.pdf",
     "path": "Books/English/Eng_Themes_Mcbeth-1.pdf",
     "size": 122356,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f96beafc24"
+    "id": "f96beafc24",
+    "level": "msce"
   },
   {
-    "name": "Eng_p1_new_vision.pdf",
-    "path": "Books/English/Eng_p1_new_vision.pdf",
+    "name": "New Vision Private Secondary School Form 4 English Paper I Examination.pdf",
+    "path": "Exams/English/New Vision Private Secondary School Form 4 English Paper I Examination.pdf",
     "size": 167468,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "faf6867207"
+    "bucket": 2,
+    "id": "faf6867207",
+    "level": "msce"
   },
   {
-    "name": "Eng_the_pearl_book-1.pdf",
+    "name": "The Pearl - Literature Study Edition (John Steinbeck).pdf",
     "path": "Books/English/Eng_the_pearl_book-1.pdf",
     "size": 168232,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f58c801920"
+    "id": "f58c801920",
+    "level": "both"
   },
   {
-    "name": "Eng_the_pearl_notes-2-1-1.pdf",
+    "name": "The Pearl Comprehensive Study Notes (E.D. Makaka).pdf",
     "path": "Books/English/Eng_the_pearl_notes-2-1-1.pdf",
     "size": 634186,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f615ec619c"
+    "id": "f615ec619c",
+    "level": "msce"
   },
   {
-    "name": "English 4.pdf",
-    "path": "Books/English/English 4.pdf",
+    "name": "Likuni Boys Secondary School Form 4 English Mock Exam (2012).pdf",
+    "path": "Exams/English/Likuni Boys Secondary School Form 4 English Mock Exam (2012).pdf",
     "size": 15164,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fe4d393634"
+    "bucket": 2,
+    "id": "fe4d393634",
+    "level": "msce"
   },
   {
-    "name": "English Grammar Book 2 kudinkula_1.pdf",
-    "path": "Books/English/English Grammar Book 2 kudinkula_1.pdf",
-    "size": 2001014,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f50abe86fa"
-  },
-  {
-    "name": "English Grammar Notes-1-1_1.pdf",
+    "name": "Secondary English Grammar Study Notes.pdf",
     "path": "Books/English/English Grammar Notes-1-1_1.pdf",
     "size": 1484752,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f3c4e52057"
-  },
-  {
-    "name": "English Grammar Notes.pdf",
-    "path": "Books/English/English Grammar Notes.pdf",
-    "size": 813217,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fbd1b50791"
+    "id": "f3c4e52057",
+    "level": "both"
   },
   {
     "name": "English Grammar Simplified.pdf",
@@ -4806,743 +4742,692 @@
     "size": 10456742,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fbff899897"
+    "id": "fbff899897",
+    "level": "both"
   },
   {
-    "name": "English Grammar Topic Noun Verb ( For More Book - www.gktrickhindi.com ).pdf",
-    "path": "Books/English/English Grammar Topic Noun Verb ( For More Book - www.gktrickhindi.com ).pdf",
-    "size": 1661372,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fda639b7ce"
-  },
-  {
-    "name": "English Grammar and Punctuation_1.pdf",
+    "name": "English Grammar and Punctuation Guide.pdf",
     "path": "Books/English/English Grammar and Punctuation_1.pdf",
     "size": 2102508,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f0832b5695"
+    "id": "f0832b5695",
+    "level": "both"
   },
   {
-    "name": "English Language & Literature [4].pdf",
+    "name": "English Language and Literature Modular Guide (Form 4).pdf",
     "path": "Books/English/English Language & Literature [4].pdf",
     "size": 175188,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f6e68db9a3"
+    "id": "f6e68db9a3",
+    "level": "msce"
   },
   {
-    "name": "English PII.pdf",
-    "path": "Books/English/English PII.pdf",
+    "name": "St Marys Girls Secondary School MSCE English Paper II Mock Exam (2025).pdf",
+    "path": "Exams/English/St Marys Girls Secondary School MSCE English Paper II Mock Exam (2025).pdf",
     "size": 634302,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fbaf44f4ca"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fbaf44f4ca",
+    "level": "msce"
   },
   {
-    "name": "English Pp 2 Sample JCE.pdf",
-    "path": "Books/English/English Pp 2 Sample JCE.pdf",
+    "name": "JCE English Paper II Sample Examination.pdf",
+    "path": "Exams/English/JCE English Paper II Sample Examination.pdf",
     "size": 3305809,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f7f2946327"
+    "bucket": 2,
+    "id": "f7f2946327",
+    "level": "jce"
   },
   {
-    "name": "English grammar secrets.pdf",
+    "name": "English Grammar Secrets (Caroline Brown).pdf",
     "path": "Books/English/English grammar secrets.pdf",
     "size": 410702,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f0ed8d0273"
+    "id": "f0ed8d0273",
+    "level": "both"
   },
   {
-    "name": "English literature 4 in 1_1.pdf",
+    "name": "English Literature 4 in 1 Study Guide.pdf",
     "path": "Books/English/English literature 4 in 1_1.pdf",
     "size": 1097671,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f4bbd2da7a"
+    "id": "f4bbd2da7a",
+    "level": "both"
   },
   {
-    "name": "English report writting.pdf",
+    "name": "Secondary English Report Writing Guide (Chande).pdf",
     "path": "Books/English/English report writting.pdf",
     "size": 188117,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f00e488185"
+    "id": "f00e488185",
+    "level": "both"
   },
   {
-    "name": "English syllabus Forms 1-2_1.doc",
-    "path": "Books/English/English syllabus Forms 1-2_1.doc",
+    "name": "English Syllabus (Forms 1 and 2).doc",
+    "path": "Books/Syllabuses/English Syllabus (Forms 1 and 2).doc",
     "size": 1124864,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f552ab3ccc"
+    "id": "f552ab3ccc",
+    "level": "jce"
   },
   {
-    "name": "English syllabus Forms 3-4_1.doc",
-    "path": "Books/English/English syllabus Forms 3-4_1.doc",
+    "name": "English Senior Secondary Syllabus (Forms 3 and 4).doc",
+    "path": "Books/Syllabuses/English Senior Secondary Syllabus (Forms 3 and 4).doc",
     "size": 1194496,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f93f0c091a"
+    "id": "f93f0c091a",
+    "level": "msce"
   },
   {
-    "name": "English the Pearl summary_1.pdf",
+    "name": "The Pearl Narrative and Character Summary.pdf",
     "path": "Books/English/English the Pearl summary_1.pdf",
     "size": 312751,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fb1ee75e65"
+    "id": "fb1ee75e65",
+    "level": "both"
   },
   {
-    "name": "English-GRAMMAR.pdf",
-    "path": "Books/English/English-GRAMMAR.pdf",
-    "size": 208979,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fb4b1cb174"
-  },
-  {
-    "name": "English_-__Grammer_-__Phrasal-1.pdf",
+    "name": "English Grammar - Phrases and Phrasal Verbs.pdf",
     "path": "Books/English/English_-__Grammer_-__Phrasal-1.pdf",
     "size": 338010,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f335103a39"
+    "id": "f335103a39",
+    "level": "both"
   },
   {
-    "name": "English.pdf",
-    "path": "Books/English/English_.pdf",
+    "name": "Blantyre Secondary School Zone MSCE English Mock Exam (2017).pdf",
+    "path": "Exams/English/Blantyre Secondary School Zone MSCE English Mock Exam (2017).pdf",
     "size": 193413,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f034f1f72a"
+    "bucket": 2,
+    "id": "f034f1f72a",
+    "level": "msce"
   },
   {
-    "name": "English_Grammar_-_488_Pages.pdf",
+    "name": "Comprehensive English Grammar (488 Pages).pdf",
     "path": "Books/English/English_Grammar_-_488_Pages.pdf",
     "size": 2053154,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f7b25c0689"
+    "id": "f7b25c0689",
+    "level": "both"
   },
   {
-    "name": "English_Grammar_Book_2.pdf",
+    "name": "Secondary English Grammar Book 2.pdf",
     "path": "Books/English/English_Grammar_Book_2.pdf",
     "size": 1971715,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fe0d2bcdb6"
+    "id": "fe0d2bcdb6",
+    "level": "jce"
   },
   {
-    "name": "English_Grammar_Rules(_TRIGGER).pdf",
-    "path": "Books/English/English_Grammar_Rules(_TRIGGER).pdf",
-    "size": 3580354,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f33f59d13e"
-  },
-  {
-    "name": "English_Grammar_Rules-1.pdf",
+    "name": "Complete English Grammar Rules.pdf",
     "path": "Books/English/English_Grammar_Rules-1.pdf",
     "size": 3578870,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f525538bd3"
+    "id": "f525538bd3",
+    "level": "both"
   },
   {
-    "name": "English_Grammar__by_wren_and_martin.pdf",
+    "name": "High School English Grammar and Composition (Wren and Martin).pdf",
     "path": "Books/English/English_Grammar__by_wren_and_martin.pdf",
     "size": 3034207,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fadc0ce5ec"
+    "id": "fadc0ce5ec",
+    "level": "both"
   },
   {
-    "name": "English_Grammar_for_Scools_by_M._A._Banda_1.pdf",
+    "name": "English Grammar for Schools (M.A. Banda).pdf",
     "path": "Books/English/English_Grammar_for_Scools_by_M._A._Banda_1.pdf",
     "size": 21858994,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fcaaf949e2"
+    "id": "fcaaf949e2",
+    "level": "both"
   },
   {
-    "name": "English_How_to_Write_a_Summary_1.pdf",
+    "name": "How to Write a Summary - English Revision Guide.pdf",
     "path": "Books/English/English_How_to_Write_a_Summary_1.pdf",
     "size": 156093,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "faaaf3e4a6"
+    "id": "faaaf3e4a6",
+    "level": "both"
   },
   {
-    "name": "English_I-1.pdf",
-    "path": "Books/English/English_I-1_(1).pdf",
+    "name": "Northern Education Division MSCE English Paper I Mock Exam (2020).pdf",
+    "path": "Exams/English/Northern Education Division MSCE English Paper I Mock Exam (2020).pdf",
     "size": 224880,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f2314aed2e"
+    "bucket": 2,
+    "id": "f2314aed2e",
+    "level": "msce"
   },
   {
-    "name": "English_Literature_JCE_Notes_1.pdf",
+    "name": "JCE English Literature Notes.pdf",
     "path": "Books/English/English_Literature_JCE_Notes - Copy_1.pdf",
     "size": 1017444,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f256f3d303"
+    "id": "f256f3d303",
+    "level": "jce"
   },
   {
-    "name": "English_Literature_MSCE_The_Pearl-1-1.pdf",
-    "path": "Books/English/English_Literature_MSCE_The_Pearl-1-1.pdf",
-    "size": 241025,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f8dc02bd5b"
-  },
-  {
-    "name": "English_Literature_MSCE_The_Pearl-1.pdf",
-    "path": "Books/English/English_Literature_MSCE_The_Pearl-1.pdf",
-    "size": 245413,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f7d42dc723"
-  },
-  {
-    "name": "English_P1.pdf",
-    "path": "Books/English/English_P1.pdf",
+    "name": "MSCE English Paper I Mock Examination.pdf",
+    "path": "Exams/English/MSCE English Paper I Mock Examination.pdf",
     "size": 2464675,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f5eacc6f18"
+    "bucket": 2,
+    "id": "f5eacc6f18",
+    "level": "msce"
   },
   {
-    "name": "English_P2.pdf",
-    "path": "Books/English/English_P2.pdf",
+    "name": "MSCE English Paper II Mock Examination.pdf",
+    "path": "Exams/English/MSCE English Paper II Mock Examination.pdf",
     "size": 3766102,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f899a13f06"
+    "bucket": 2,
+    "id": "f899a13f06",
+    "level": "msce"
   },
   {
-    "name": "English_Phrasal Verb Dictionary.pdf",
+    "name": "English Phrasal Verbs Dictionary.pdf",
     "path": "Books/English/English_Phrasal Verb Dictionary.pdf",
     "size": 381590,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f1f951298b"
+    "id": "f1f951298b",
+    "level": "both"
   },
   {
-    "name": "English_Verb_Tense.pdf",
+    "name": "English Verb Tenses and Syntax Guide.pdf",
     "path": "Books/English/English_Verb_Tense.pdf",
     "size": 1117038,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fbbaa2c7b7"
+    "id": "fbbaa2c7b7",
+    "level": "both"
   },
   {
-    "name": "English_literature_4_in_1-1.pdf",
-    "path": "Books/English/English_literature_4_in_1-1.pdf",
-    "size": 1099256,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f0408b56ef"
-  },
-  {
-    "name": "English Grammar Notes.pdf",
-    "path": "Books/English/English❤ Grammar Notes.pdf",
-    "size": 370861,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fb03248b10"
-  },
-  {
-    "name": "Essay_on_Macbeth's_Evil.pdf",
+    "name": "Black and Deep Desires - An Essay on Evil in Macbeth.pdf",
     "path": "Books/English/Essay_on_Macbeth's_Evil.pdf",
     "size": 321368,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fa38efd0f7"
+    "id": "fa38efd0f7",
+    "level": "msce"
   },
   {
-    "name": "FORM_4,_ENGLISH_PP_II_-_Copy-1.pdf",
-    "path": "Books/English/FORM_4,_ENGLISH_PP_II_-_Copy-1(1).pdf",
+    "name": "MSCE Form 4 English Paper II Mock Exam.pdf",
+    "path": "Exams/English/MSCE Form 4 English Paper II Mock Exam.pdf",
     "size": 1161833,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f383569967"
+    "bucket": 2,
+    "id": "f383569967",
+    "level": "msce"
   },
   {
-    "name": "Familiar Stranger Study Guide for Poems only_1.pdf",
+    "name": "The Familiar Stranger Poetry Study Guide.pdf",
     "path": "Books/English/Familiar Stranger Study Guide for Poems only_1.pdf",
     "size": 848878,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f7bb492f4e"
+    "id": "f7bb492f4e",
+    "level": "both"
   },
   {
-    "name": "Girls at War - Chinua Achebe.pdf",
+    "name": "Girls at War and Other Stories (Chinua Achebe).pdf",
     "path": "Books/English/Girls at War - Chinua Achebe.pdf",
     "size": 585842,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f1d0421cf5"
+    "id": "f1d0421cf5",
+    "level": "both"
   },
   {
-    "name": "How_to_Write_a_summary_Packet.pdf",
+    "name": "How to Write Formal Summaries Student Packet.pdf",
     "path": "Books/English/How_to_Write_a_summary_Packet.pdf",
     "size": 146727,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f13b1fab77"
+    "id": "f13b1fab77",
+    "level": "both"
   },
   {
-    "name": "I_FELL_INLOVE_WITH_A_BLIND_MAN.pdf",
-    "path": "Books/English/I_FELL_INLOVE_WITH_A_BLIND_MAN.pdf",
-    "size": 3533234,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f215b4164b"
-  },
-  {
-    "name": "Introduction To Literature [2].pdf",
+    "name": "Introduction to Literature (Unit E2).pdf",
     "path": "Books/English/Introduction To Literature [2] (1).pdf",
     "size": 279286,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fd0091661c"
+    "id": "fd0091661c",
+    "level": "both"
   },
   {
-    "name": "KUGWETSA MACBETH & PEARL Final(1).pdf",
-    "path": "Books/English/KUGWETSA MACBETH & PEARL Final(1) (2).pdf",
-    "size": 1381523,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f51d6f90a2"
-  },
-  {
-    "name": "LONGMAN - English Grammar Practice.pdf",
+    "name": "Longman English Grammar Practice.pdf",
     "path": "Books/English/LONGMAN - English Grammar Practice (1).pdf",
     "size": 6236195,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f99f4d92cb"
+    "id": "f99f4d92cb",
+    "level": "both"
   },
   {
-    "name": "Literary_Devices.pdf",
+    "name": "Literary Devices Techniques and Elements.pdf",
     "path": "Books/English/Literary_Devices.pdf",
     "size": 139210,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fb8f25eb62"
+    "id": "fb8f25eb62",
+    "level": "both"
   },
   {
-    "name": "Literature-1.pdf",
+    "name": "Simplified Notes of Literature in English (K.D. Kumitengo).pdf",
     "path": "Books/English/Literature-1.pdf",
     "size": 887680,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f762f4133b"
+    "id": "f762f4133b",
+    "level": "both"
   },
   {
-    "name": "MACBERTH WITH MODERN ENGLISH_1.pdf",
+    "name": "Macbeth with Modern English Translation.pdf",
     "path": "Books/English/MACBERTH WITH MODERN ENGLISH_1.pdf",
     "size": 516114,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f31f986677"
+    "id": "f31f986677",
+    "level": "msce"
   },
   {
-    "name": "MACBETH SUMMARY (EVA)-1_1.pdf",
+    "name": "Macbeth Act by Act Summary (Eva).pdf",
     "path": "Books/English/MACBETH SUMMARY (EVA)-1_1.pdf",
     "size": 810030,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f0b7cf5b67"
+    "id": "f0b7cf5b67",
+    "level": "msce"
   },
   {
-    "name": "MACBETH_AND_THE_PEARL_ESSAYS_1.pdf",
-    "path": "Books/English/MACBETH_AND_THE_PEARL_ESSAYS_1.pdf",
+    "name": "Macbeth and The Pearl Literature Essays with Insights.pdf",
+    "path": "Q&A/English/Macbeth and The Pearl Literature Essays with Insights.pdf",
     "size": 499662,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f027065e27"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f027065e27",
+    "level": "msce"
   },
   {
-    "name": "MACBETH_MODEL_ESSAYQUESTION_AND_ANSWER_ONE_1.pdf",
-    "path": "Books/English/MACBETH_MODEL_ESSAYQUESTION_AND_ANSWER_ONE_1.pdf",
+    "name": "Macbeth Model Essay Questions and Answers (Scott Lessons).pdf",
+    "path": "Q&A/English/Macbeth Model Essay Questions and Answers (Scott Lessons).pdf",
     "size": 246006,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f5808e4d79"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f5808e4d79",
+    "level": "msce"
   },
   {
-    "name": "MACBETH__ESSAYS_2020.pdf",
-    "path": "Books/English/MACBETH__ESSAYS_2020.pdf",
+    "name": "Compilation of Essay Questions from Macbeth (2020).pdf",
+    "path": "Q&A/English/Compilation of Essay Questions from Macbeth (2020).pdf",
     "size": 271299,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f59cc16eca"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f59cc16eca",
+    "level": "msce"
   },
   {
-    "name": "MSCE ENGLISH BOOK FOR ALL GENERATIONS.pdf",
+    "name": "MSCE English Book for All Generations.pdf",
     "path": "Books/English/MSCE ENGLISH BOOK FOR ALL GENERATIONS.pdf",
     "size": 2099100,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f13a8ab46d"
+    "id": "f13a8ab46d",
+    "level": "msce"
   },
   {
-    "name": "Mabeth-PDF.pdf",
-    "path": "Books/English/Mabeth-PDF.pdf",
-    "size": 378452,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "ff49bab68a"
-  },
-  {
-    "name": "Macbeth - Character, Themes, Symbols and Motifs copy-1_1.pdf",
+    "name": "Macbeth - Characters, Themes, Symbols and Motifs.pdf",
     "path": "Books/English/Macbeth - Character, Themes, Symbols and Motifs copy-1 - Copy_1.pdf",
     "size": 269674,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fc0d0ec870"
+    "id": "fc0d0ec870",
+    "level": "msce"
   },
   {
-    "name": "Macbeth-1.pdf",
+    "name": "Macbeth Literature Companion and Analysis.pdf",
     "path": "Books/English/Macbeth-1.pdf",
     "size": 7095039,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f5f293150e"
+    "id": "f5f293150e",
+    "level": "msce"
   },
   {
-    "name": "Mastering JCE English 2nd Ed.pdf",
+    "name": "Mastering JCE English (2nd Edition).pdf",
     "path": "Books/English/Mastering JCE English 2nd Ed.pdf",
     "size": 1627929,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f615157aa6"
+    "id": "f615157aa6",
+    "level": "jce"
   },
   {
-    "name": "NTHONDO_SUMMARY_01.pdf",
-    "path": "Books/English/NTHONDO_SUMMARY_01.pdf",
-    "size": 358581,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f939711b52"
-  },
-  {
-    "name": "OQHIVST_CE_IFU_-_English_1.pdf",
-    "path": "Books/English/OQHIVST_CE_IFU_-_English_1.pdf",
-    "size": 2319874,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f4316754b7"
-  },
-  {
-    "name": "Oxford Guide To English Grammar.pdf",
+    "name": "Oxford Guide to English Grammar (John Eastwood).pdf",
     "path": "Books/English/Oxford Guide To English Grammar.pdf",
     "size": 5998694,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fde5352d3c"
+    "id": "fde5352d3c",
+    "level": "both"
   },
   {
-    "name": "PEARL & MACBETH NOTES.pdf",
+    "name": "The Pearl and Macbeth Combined Literature Notes.pdf",
     "path": "Books/English/PEARL & MACBETH NOTES.pdf",
     "size": 1469260,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f50b26e6b3"
+    "id": "f50b26e6b3",
+    "level": "msce"
   },
   {
-    "name": "PEARL_GUIDE_NOTES.pdf",
+    "name": "The Pearl MSCE Literature Guide Notes (Kachulu).pdf",
     "path": "Books/English/PEARL_GUIDE_NOTES.pdf",
     "size": 488799,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "ff5dd546b5"
+    "id": "ff5dd546b5",
+    "level": "msce"
   },
   {
-    "name": "PEARL_THEMES_summarized_by_Mc_Cullagh_king_11_1.pdf",
+    "name": "The Pearl Themes and Analysis (McCullagh King).pdf",
     "path": "Books/English/PEARL_THEMES_summarized_by_Mc_Cullagh_king_11_1.pdf",
     "size": 240418,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fe1684b9c0"
+    "id": "fe1684b9c0",
+    "level": "msce"
   },
   {
-    "name": "PHRASAL_VERBS_book_@englishscholars (1) (1)_1.pdf",
+    "name": "Essential Phrasal Verbs Coursebook.pdf",
     "path": "Books/English/PHRASAL_VERBS_book_@englishscholars (1) (1)_1.pdf",
     "size": 1805391,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f0ed429a2d"
+    "id": "f0ed429a2d",
+    "level": "both"
   },
   {
-    "name": "POETRY_1.docx",
+    "name": "Secondary Poetry Anthology and Study Notes.docx",
     "path": "Books/English/POETRY_1.docx",
     "size": 20051,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f737c16aac"
+    "id": "f737c16aac",
+    "level": "both"
   },
   {
-    "name": "Poetic_devices.pdf",
+    "name": "Poetic Devices and Analysis Handbook.pdf",
     "path": "Books/English/Poetic_devices.pdf",
     "size": 160427,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f6deeb6ee7"
+    "id": "f6deeb6ee7",
+    "level": "both"
   },
   {
-    "name": "SEED LTA CPD HANDOUT- ENGLISH.pdf",
+    "name": "South East Education Division English Teachers CPD Training Manual.pdf",
     "path": "Books/English/SEED LTA CPD HANDOUT- ENGLISH.pdf",
     "size": 1378938,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f8bb59270d"
+    "id": "f8bb59270d",
+    "level": "both"
   },
   {
-    "name": "SHED 2026 ENG HI.docx",
-    "path": "Books/English/SHED 2026 ENG HI.docx",
+    "name": "Shire Highlands Education Division MSCE English Paper I Mock Exam (2026).docx",
+    "path": "Exams/English/Shire Highlands Education Division MSCE English Paper I Mock Exam (2026).docx",
     "size": 55137,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fe30561e75"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fe30561e75",
+    "level": "msce"
   },
   {
-    "name": "SPEECH_WRITTING.pdf",
+    "name": "Speech Writing Guide for Secondary Schools.pdf",
     "path": "Books/English/SPEECH_WRITTING.pdf",
     "size": 115342,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "faadeaaa52"
+    "id": "faadeaaa52",
+    "level": "both"
   },
   {
-    "name": "TALE OF TAMALI.docx",
+    "name": "Introduction to Literature and Tale of Tamali Study Notes.docx",
     "path": "Books/English/TALE OF TAMALI.docx",
     "size": 66640,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f3e4a81a27"
+    "id": "f3e4a81a27",
+    "level": "both"
   },
   {
-    "name": "THEMES IN MACBETH-1.pdf",
+    "name": "Themes and Characterization in Macbeth.pdf",
     "path": "Books/English/THEMES IN MACBETH-1.pdf",
     "size": 42020,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "ffd0aa406e"
+    "id": "ffd0aa406e",
+    "level": "msce"
   },
   {
-    "name": "THE_PEARL.pdf",
+    "name": "The Pearl Summary and Plot Analysis (Nyenga).pdf",
     "path": "Books/English/THE_PEARL.pdf",
     "size": 161356,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f0c17f0c02"
+    "id": "f0c17f0c02",
+    "level": "both"
   },
   {
-    "name": "The Best Analysis of Macbeth 2ND_1.pdf",
+    "name": "The Best Analysis of Macbeth (2nd Edition).pdf",
     "path": "Books/English/The Best Analysis of Macbeth 2ND_1.pdf",
     "size": 1660987,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f5a822eec0"
+    "id": "f5a822eec0",
+    "level": "msce"
   },
   {
-    "name": "The Best Pearl Analysis - Soft Copy PDF_1.pdf",
+    "name": "The Best Pearl Analysis - Student Edition.pdf",
     "path": "Books/English/The Best Pearl Analysis - Soft Copy PDF_1.pdf",
     "size": 1108354,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f07cd80387"
+    "id": "f07cd80387",
+    "level": "msce"
   },
   {
-    "name": "The Complete Book of Enoch, Standard English Version - Jay Winter.pdf",
-    "path": "Books/English/The Complete Book of Enoch, Standard English Version - Jay Winter.pdf",
-    "size": 2952283,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fd55d7c88c"
-  },
-  {
-    "name": "USE_OF_ARTICLES.pdf",
+    "name": "Use of Articles Grammar Guide.pdf",
     "path": "Books/English/USE_OF_ARTICLES.pdf",
     "size": 213978,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f78a95a3ad"
+    "id": "f78a95a3ad",
+    "level": "both"
   },
   {
-    "name": "[@IELTSforeverybody]Things Fall Apart.pdf",
-    "path": "Books/English/[@IELTSforeverybody]Things Fall Apart.pdf",
-    "size": 956824,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f2f57b2c09"
-  },
-  {
-    "name": "Chamdothe_Summary_1.pdf",
-    "path": "Books/English/_Chamdothe_Summary_1.pdf",
-    "size": 868084,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f913f76ccc"
-  },
-  {
-    "name": "ENGLISH_GRAMMAR_-1.docx",
+    "name": "Unabridged English Grammar for Junior Secondary (C.H. Nkhoma).docx",
     "path": "Books/English/_ENGLISH_GRAMMAR_-1.docx",
     "size": 70164,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fe24e8606b"
+    "id": "fe24e8606b",
+    "level": "jce"
   },
   {
-    "name": "Literary_Devices!!__Figure_of_speech!!__English_literature_1.pdf",
+    "name": "Literary Devices and Figures of Speech in English Literature.pdf",
     "path": "Books/English/_Literary_Devices!!__Figure_of_speech!!__English_literature_1.pdf",
     "size": 1037272,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f5b3985847"
+    "id": "f5b3985847",
+    "level": "both"
   },
   {
-    "name": "NOTE_MAKING--_ENGLISH_(1)-1.pdf",
-    "path": "Books/English/_NOTE_MAKING--_ENGLISH_(1)-1_(1).pdf",
+    "name": "MSCE English Paper III Note Making and Comprehension Mock Exam.pdf",
+    "path": "Exams/English/MSCE English Paper III Note Making and Comprehension Mock Exam.pdf",
     "size": 355808,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f64bcbb0af"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f64bcbb0af",
+    "level": "msce"
   },
   {
-    "name": "Your_English_Vocabulary_for_TOEFL_4th_ed-1.pdf",
-    "path": "Books/English/_Your_English_Vocabulary_for_TOEFL_4th_ed-1.pdf",
-    "size": 688810,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f9a326a07e"
-  },
-  {
-    "name": "10._MAJOR_THEMES_IN_THE_BOOK_MACBETH.pdf",
+    "name": "Major Themes and Characters in Macbeth (Study Guide).pdf",
     "path": "Books/English/__10._MAJOR_THEMES_IN_THE_BOOK_MACBETH.pdf",
     "size": 266291,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f33080ec14"
+    "id": "f33080ec14",
+    "level": "msce"
   },
   {
-    "name": "african_stories-1.pdf",
+    "name": "African Short Stories Anthology.pdf",
     "path": "Books/English/african_stories-1.pdf",
     "size": 6534973,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f5dfc1e23e"
+    "id": "f5dfc1e23e",
+    "level": "msce"
   },
   {
-    "name": "basic-english-grammar-1.pdf",
+    "name": "Basic English Grammar Foundations.pdf",
     "path": "Books/English/basic-english-grammar-1.pdf",
     "size": 6537171,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "ff48b1fffa"
+    "id": "ff48b1fffa",
+    "level": "jce"
   },
   {
-    "name": "eng f1 p2.docx",
-    "path": "Books/English/eng f1 p2.docx",
+    "name": "Mvera Girls Private Secondary School Form 1 English Paper II Exam (2021).docx",
+    "path": "Exams/English/Mvera Girls Private Secondary School Form 1 English Paper II Exam (2021).docx",
     "size": 34759,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fd820cff74"
+    "bucket": 2,
+    "id": "fd820cff74",
+    "level": "jce"
   },
   {
-    "name": "english-grammar-modal-verbs.pdf",
+    "name": "English Grammar Modal Verbs Handbook.pdf",
     "path": "Books/English/english-grammar-modal-verbs_(1).pdf",
     "size": 16724,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f53cd17d66"
+    "id": "f53cd17d66",
+    "level": "both"
   },
   {
-    "name": "english.pdf",
-    "path": "Books/English/english.pdf",
+    "name": "Hill Crescent Private Secondary School MSCE English Mock Exam (2021).pdf",
+    "path": "Exams/English/Hill Crescent Private Secondary School MSCE English Mock Exam (2021).pdf",
     "size": 130958,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fad243dccf"
+    "bucket": 2,
+    "id": "fad243dccf",
+    "level": "msce"
   },
   {
-    "name": "english_literature_jce_1.pdf",
+    "name": "JCE English Literature Complete Guide.pdf",
     "path": "Books/English/english_literature_jce_1.pdf",
     "size": 1223097,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f9fac40aac"
+    "id": "f9fac40aac",
+    "level": "jce"
   },
   {
-    "name": "kugwetsa final pdf macbeth n pearl-1_1.pdf",
+    "name": "Kugwetsa Macbeth and The Pearl Literature Guide (Complete Edition).pdf",
     "path": "Books/English/kugwetsa final pdf macbeth n pearl-1_1.pdf",
     "size": 1350178,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f6a4047ac2"
+    "id": "f6a4047ac2",
+    "level": "msce"
   },
   {
-    "name": "macbeth.pdf",
+    "name": "Macbeth - Student Edition (Shakespeare).pdf",
     "path": "Books/English/macbeth.pdf",
     "size": 9858966,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fc05eeab0d"
+    "id": "fc05eeab0d",
+    "level": "both"
   },
   {
-    "name": "macbeth_full_novel.pdf",
+    "name": "Macbeth Study Guide and Scene Breakdown (Quintus).pdf",
     "path": "Books/English/macbeth_full_novel.pdf",
     "size": 268734,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fee9a69276"
+    "id": "fee9a69276",
+    "level": "msce"
   },
   {
-    "name": "macbeth_kamwetsa_1.pdf",
+    "name": "Macbeth Comprehensive Commentary (Taurai N. Kamwetsa).pdf",
     "path": "Books/English/macbeth_kamwetsa_1.pdf",
     "size": 604342,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f9a11b1c13"
+    "id": "f9a11b1c13",
+    "level": "msce"
   },
   {
-    "name": "pearl_question_&_answers.pdf",
-    "path": "Books/English/pearl_question_&_answers_(1).pdf",
+    "name": "The Pearl Questions and Answers Study Plan.pdf",
+    "path": "Q&A/English/The Pearl Questions and Answers Study Plan.pdf",
     "size": 185256,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fc7c45ac44"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fc7c45ac44",
+    "level": "both"
   },
   {
-    "name": "pt_English_Mastering-Msce-English_Mkhwayi.pdf",
+    "name": "Mastering MSCE English Language and Literature (Mkhwayi).pdf",
     "path": "Books/English/pt_English_Mastering-Msce-English_Mkhwayi.pdf",
     "size": 5313918,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f2e6d99bf3"
+    "id": "f2e6d99bf3",
+    "level": "msce"
   },
   {
-    "name": "the_pearl_by_john_steinbeck_entire_text_1.pdf",
+    "name": "The Pearl - Complete Text (John Steinbeck).pdf",
     "path": "Books/English/the_pearl_by_john_steinbeck_entire_text_1.pdf",
     "size": 243156,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fe1430c9b4"
+    "id": "fe1430c9b4",
+    "level": "both"
   },
   {
-    "name": "themes_in_pearl-mode.pdf",
+    "name": "Themes and Character Analysis in The Pearl.pdf",
     "path": "Books/English/themes_in_pearl-mode.pdf",
     "size": 221963,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f553335197"
+    "id": "f553335197",
+    "level": "msce"
   },
   {
     "name": "MSCE Physical Geography Notes.pdf",
@@ -6242,36 +6127,40 @@
     "id": "f926ba0472"
   },
   {
-    "name": "2020 life st marys.pdf",
-    "path": "Books/Life Skills/2020 life st marys.pdf",
+    "name": "St Marys Girls Secondary School MSCE Life Skills Mock Exam (2020).pdf",
+    "path": "Exams/Life Skills/St Marys Girls Secondary School MSCE Life Skills Mock Exam (2020).pdf",
     "size": 552200,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "ff8d83ab37"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "ff8d83ab37",
+    "level": "msce"
   },
   {
-    "name": "2022 MSCE LIFE SKILLS.pdf",
-    "path": "Books/Life Skills/2022 MSCE LIFE SKILLS.pdf",
+    "name": "Michiru View Secondary School MSCE Life Skills Mock Exam (2022).pdf",
+    "path": "Exams/Life Skills/Michiru View Secondary School MSCE Life Skills Mock Exam (2022).pdf",
     "size": 348991,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fd69082a99"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fd69082a99",
+    "level": "msce"
   },
   {
-    "name": "FORM_2_LIFE_SKILLS_NOTES_1.pdf",
+    "name": "JCE Life Skills Form 2 Study Notes.pdf",
     "path": "Books/Life Skills/FORM_2_LIFE_SKILLS_NOTES_1.pdf",
     "size": 702170,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fc4e4423d7"
+    "id": "fc4e4423d7",
+    "level": "jce"
   },
   {
-    "name": "Life Skills Notes 1.pdf",
+    "name": "Secondary Life Skills Comprehensive Notes.pdf",
     "path": "Books/Life Skills/Life Skills Notes 1.pdf",
     "size": 467428,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fed0ed4fcd"
+    "id": "fed0ed4fcd",
+    "level": "both"
   },
   {
     "name": "0199142432_PureMath.pdf",
