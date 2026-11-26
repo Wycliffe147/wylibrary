@@ -3379,660 +3379,688 @@
     "id": "f35e5b2b88"
   },
   {
-    "name": "1-_CHICHEWA_BUKU_-_CHAMDOTHE-1.pdf",
+    "name": "Chamdothi ndi Zisudzo Zina - Buku Lathunthu (E.J. Chadza).pdf",
     "path": "Books/Chichewa/1-_CHICHEWA_BUKU_-_CHAMDOTHE-1.pdf",
     "size": 5349052,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "ff37c743ef"
+    "id": "ff37c743ef",
+    "level": "msce"
   },
   {
-    "name": "2026 CEED CHICHEWA I.pdf",
-    "path": "Books/Chichewa/2026 CEED CHICHEWA I.pdf",
+    "name": "Central East Education Division MSCE Chichewa Paper I Mock Exam (2026).pdf",
+    "path": "Exams/Chichewa/Central East Education Division MSCE Chichewa Paper I Mock Exam (2026).pdf",
     "size": 671369,
-    "repo": "e-library-media-3",
-    "bucket": 1,
-    "id": "ff677569e2"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "ff677569e2",
+    "level": "msce"
   },
   {
-    "name": "2026 CEED CHICHEWA II.pdf",
-    "path": "Books/Chichewa/2026 CEED CHICHEWA II.pdf",
+    "name": "Central East Education Division MSCE Chichewa Paper II Mock Exam (2026).pdf",
+    "path": "Exams/Chichewa/Central East Education Division MSCE Chichewa Paper II Mock Exam (2026).pdf",
     "size": 644348,
-    "repo": "e-library-media-4",
-    "bucket": 1,
-    "id": "fec1cc8f5f"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fec1cc8f5f",
+    "level": "msce"
   },
   {
-    "name": "2026 CEED CHICHEWA III.pdf",
-    "path": "Books/Chichewa/2026 CEED CHICHEWA III.pdf",
+    "name": "Central East Education Division MSCE Chichewa Paper III Mock Exam (2026).pdf",
+    "path": "Exams/Chichewa/Central East Education Division MSCE Chichewa Paper III Mock Exam (2026).pdf",
     "size": 520114,
-    "repo": "e-library-media-5",
-    "bucket": 1,
-    "id": "fefd10718d"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fefd10718d",
+    "level": "msce"
   },
   {
-    "name": "BWAMPINI_SUMMARY_2-1-1.pdf",
+    "name": "Bwampini Buku la Mabuku - Literature Summary.pdf",
     "path": "Books/Chichewa/BWAMPINI_SUMMARY_2-1-1 (1).pdf",
     "size": 410252,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f0b20dee58"
+    "id": "f0b20dee58",
+    "level": "msce"
   },
   {
-    "name": "CHAMDOTHI SUMMARY.pdf",
+    "name": "Chamdothi ndi Zisudzo Zina - Summary ndi Malangizo (Phiri).pdf",
     "path": "Books/Chichewa/CHAMDOTHI SUMMARY (1).pdf",
     "size": 457834,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fb30e314f1"
+    "id": "fb30e314f1",
+    "level": "msce"
   },
   {
-    "name": "CHAMDOTHI-1-1_2.pdf",
-    "path": "Books/Chichewa/CHAMDOTHI-1-1_2 (1).pdf",
-    "size": 2676496,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fe7ccd0af9"
-  },
-  {
-    "name": "CHI PII.docx",
-    "path": "Books/Chichewa/CHI PII.docx",
+    "name": "Machinga District MSCE Chichewa Paper II Mock Exam (2022).docx",
+    "path": "Exams/Chichewa/Machinga District MSCE Chichewa Paper II Mock Exam (2022).docx",
     "size": 35667,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fbb3f73c95"
+    "bucket": 2,
+    "id": "fbb3f73c95",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA 3.pdf",
-    "path": "Books/Chichewa/CHICHEWA 3.pdf",
+    "name": "St Marys Secondary School MSCE Chichewa Paper III Post Mock Exam (2025).pdf",
+    "path": "Exams/Chichewa/St Marys Secondary School MSCE Chichewa Paper III Post Mock Exam (2025).pdf",
     "size": 288385,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fc62c7c7e2"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fc62c7c7e2",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA FINAL--1.pdf",
-    "path": "Books/Chichewa/CHICHEWA FINAL--1.pdf",
+    "name": "Mulanje District Council Chichewa Mock Examination.pdf",
+    "path": "Exams/Chichewa/Mulanje District Council Chichewa Mock Examination.pdf",
     "size": 435910,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f577244132"
+    "bucket": 2,
+    "id": "f577244132",
+    "level": "jce"
   },
   {
-    "name": "CHICHEWA FORM 2_1.pdf",
+    "name": "JCE Chichewa Form 2 Zolemba ndi Maphunziro.pdf",
     "path": "Books/Chichewa/CHICHEWA FORM 2_1.pdf",
     "size": 482461,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f28af999d2"
+    "id": "f28af999d2",
+    "level": "jce"
   },
   {
-    "name": "CHICHEWA NOTES- VERY NEW.docx",
+    "name": "Chichewa Comprehensive Notes and Study Guide.docx",
     "path": "Books/Chichewa/CHICHEWA NOTES- VERY NEW.docx",
     "size": 429871,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fe347d9701"
+    "id": "fe347d9701",
+    "level": "both"
   },
   {
-    "name": "CHICHEWA P2 HI.docx",
-    "path": "Books/Chichewa/CHICHEWA P2 HI.docx",
+    "name": "Shire Highlands Education Division MSCE Chichewa Paper II Mock Exam (2026).docx",
+    "path": "Exams/Chichewa/Shire Highlands Education Division MSCE Chichewa Paper II Mock Exam (2026).docx",
     "size": 60753,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f34b8a0344"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f34b8a0344",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA PIII MADISI 2020.pdf",
-    "path": "Books/Chichewa/CHICHEWA PIII MADISI 2020.pdf",
+    "name": "Madisi Secondary School MSCE Chichewa Paper III Mock Exam (2020).pdf",
+    "path": "Exams/Chichewa/Madisi Secondary School MSCE Chichewa Paper III Mock Exam (2020).pdf",
     "size": 117930,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f3d94a0212"
+    "bucket": 2,
+    "id": "f3d94a0212",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA PIII MULANJE 2021.pdf",
-    "path": "Books/Chichewa/CHICHEWA PIII MULANJE 2021 .pdf",
+    "name": "Mulanje Cluster MSCE Chichewa Paper III Mock Exam (2021).pdf",
+    "path": "Exams/Chichewa/Mulanje Cluster MSCE Chichewa Paper III Mock Exam (2021).pdf",
     "size": 623717,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f7f457494f"
+    "bucket": 2,
+    "id": "f7f457494f",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA TRAINING MANUAL(1)_1.pdf",
+    "name": "Chichewa Teachers and Students Training Manual.pdf",
     "path": "Books/Chichewa/CHICHEWA TRAINING MANUAL(1)_1.pdf",
     "size": 158885,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f6b772140d"
+    "id": "f6b772140d",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA.docx",
-    "path": "Books/Chichewa/CHICHEWA.docx",
+    "name": "Kamuzu Barracks Chichewa Mock Examination.docx",
+    "path": "Exams/Chichewa/Kamuzu Barracks Chichewa Mock Examination.docx",
     "size": 33937,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fc33dbe0b9"
+    "bucket": 2,
+    "id": "fc33dbe0b9",
+    "level": "jce"
   },
   {
-    "name": "CHICHEWA_II.pdf",
-    "path": "Books/Chichewa/CHICHEWA_II(1).pdf",
+    "name": "Hill Crescent Secondary School MSCE Chichewa Paper II Mock Exam (2022).pdf",
+    "path": "Exams/Chichewa/Hill Crescent Secondary School MSCE Chichewa Paper II Mock Exam (2022).pdf",
     "size": 309470,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f06429a6d0"
+    "bucket": 2,
+    "id": "f06429a6d0",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA_PPI.pdf",
-    "path": "Books/Chichewa/CHICHEWA_PPI(1).pdf",
+    "name": "Hill Crescent Secondary School MSCE Chichewa Paper I Mock Exam (2022).pdf",
+    "path": "Exams/Chichewa/Hill Crescent Secondary School MSCE Chichewa Paper I Mock Exam (2022).pdf",
     "size": 265276,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f61cf6f682"
+    "bucket": 2,
+    "id": "f61cf6f682",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA_PPIII.pdf",
-    "path": "Books/Chichewa/CHICHEWA_PPIII.pdf",
+    "name": "Hill Crescent Secondary School MSCE Chichewa Paper III Mock Exam (2022).pdf",
+    "path": "Exams/Chichewa/Hill Crescent Secondary School MSCE Chichewa Paper III Mock Exam (2022).pdf",
     "size": 291518,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f4b3fcab0d"
+    "bucket": 2,
+    "id": "f4b3fcab0d",
+    "level": "msce"
   },
   {
-    "name": "CHICH_Form_1.pdf",
+    "name": "JCE Chichewa Form 1 Zolemba ndi Maphunziro.pdf",
     "path": "Books/Chichewa/CHICH_Form_1.pdf",
     "size": 329854,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f1a34697d7"
+    "id": "f1a34697d7",
+    "level": "jce"
   },
   {
-    "name": "Chichewa chamdothe.pdf",
+    "name": "Chamdothi ndi Zisudzo Zina - Zolemba za Zisudzo.pdf",
     "path": "Books/Chichewa/Chichewa  chamdothe (1).pdf",
     "size": 675226,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "ffdbec9014"
+    "id": "ffdbec9014",
+    "level": "msce"
   },
   {
-    "name": "Chichewa PI.docx",
-    "path": "Books/Chichewa/Chichewa PI.docx",
+    "name": "Kamuzu Barracks CDSS JCE Chichewa Paper I Mock Exam (2016).docx",
+    "path": "Exams/Chichewa/Kamuzu Barracks CDSS JCE Chichewa Paper I Mock Exam (2016).docx",
     "size": 25895,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f1373e57e3"
+    "bucket": 2,
+    "id": "f1373e57e3",
+    "level": "jce"
   },
   {
-    "name": "Chichewa PII.docx",
-    "path": "Books/Chichewa/Chichewa PII (2).docx",
+    "name": "Kamuzu Barracks CDSS MSCE Chichewa Paper II Mock Exam (2016).docx",
+    "path": "Exams/Chichewa/Kamuzu Barracks CDSS MSCE Chichewa Paper II Mock Exam (2016).docx",
     "size": 22593,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fdde5f3476"
+    "bucket": 2,
+    "id": "fdde5f3476",
+    "level": "msce"
   },
   {
-    "name": "Chichewa PII.docx",
-    "path": "Books/Chichewa/Chichewa PII.docx",
+    "name": "Kamuzu Barracks CDSS Form 1 Chichewa Paper II Exam (2016).docx",
+    "path": "Exams/Chichewa/Kamuzu Barracks CDSS Form 1 Chichewa Paper II Exam (2016).docx",
     "size": 23273,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f2f870fdc6"
+    "bucket": 2,
+    "id": "f2f870fdc6",
+    "level": "jce"
   },
   {
-    "name": "Chichewa Pll.docx",
-    "path": "Books/Chichewa/Chichewa Pll.docx",
+    "name": "Kamuzu Barracks CDSS JCE Chichewa Paper II Mock Exam (2016).docx",
+    "path": "Exams/Chichewa/Kamuzu Barracks CDSS JCE Chichewa Paper II Mock Exam (2016).docx",
     "size": 23068,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f8f1476242"
+    "bucket": 2,
+    "id": "f8f1476242",
+    "level": "jce"
   },
   {
-    "name": "Chichewa kachitidwe ka aneni.pdf",
+    "name": "Chichewa Gramara - Kachitidwe ka Aneni (Whosper).pdf",
     "path": "Books/Chichewa/Chichewa kachitidwe ka aneni (1).pdf",
     "size": 2505,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fdc32c5d19"
+    "id": "fdc32c5d19",
+    "level": "both"
   },
   {
-    "name": "Chichewa kumasulira.pdf",
+    "name": "Chichewa Kumasulira Translation and Comprehension.pdf",
     "path": "Books/Chichewa/Chichewa kumasulira (1).pdf",
     "size": 81625,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fc70a4a1a7"
+    "id": "fc70a4a1a7",
+    "level": "both"
   },
   {
-    "name": "Chichewa ntchito zamaina.pdf",
+    "name": "Chichewa Gramara - Ntchito za Mayina (Whosper).pdf",
     "path": "Books/Chichewa/Chichewa ntchito zamaina (1).pdf",
     "size": 2381,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fabeedf292"
+    "id": "fabeedf292",
+    "level": "both"
   },
   {
-    "name": "Chichewa syllabus Forms 1-2.pdf",
-    "path": "Books/Chichewa/Chichewa syllabus Forms 1-2 (1).pdf",
+    "name": "Chichewa Syllabus (Forms 1 and 2).pdf",
+    "path": "Books/Syllabuses/Chichewa Syllabus (Forms 1 and 2).pdf",
     "size": 1596597,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f5c9ddaaac"
+    "id": "f5c9ddaaac",
+    "level": "jce"
   },
   {
-    "name": "Chichewa.pdf",
+    "name": "Chichewa Language and Literature Study Notes.pdf",
     "path": "Books/Chichewa/Chichewa.pdf",
     "size": 579979,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f076201828"
+    "id": "f076201828",
+    "level": "both"
   },
   {
-    "name": "Chichewa_-__Literature_-__Kuimba_kwa_mlakaturi.pdf",
+    "name": "Kuimba kwa Mlakatuli - Ndakatulo za Chichewa Literature Guide.pdf",
     "path": "Books/Chichewa/Chichewa_-__Literature_-__Kuimba_kwa_mlakaturi.pdf",
     "size": 220984,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fe68c1ef03"
+    "id": "fe68c1ef03",
+    "level": "msce"
   },
   {
-    "name": "Chichewa_Nsinjiro-Za-Chiyankhulo.pdf",
+    "name": "Chichewa Nsinjiro za Chiyankhulo Buku.pdf",
     "path": "Books/Chichewa/Chichewa_Nsinjiro-Za-Chiyankhulo.pdf",
     "size": 666282,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f751225d22"
+    "id": "f751225d22",
+    "level": "both"
   },
   {
-    "name": "Chichewa_grama_JC.pdf",
+    "name": "JCE Chichewa Gramara Buku la Ophunzira.pdf",
     "path": "Books/Chichewa/Chichewa_grama_JC.pdf",
     "size": 599439,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fdf4391e37"
+    "id": "fdf4391e37",
+    "level": "jce"
   },
   {
-    "name": "Chichewa_maneb.pdf",
-    "path": "Books/Chichewa/Chichewa_maneb.pdf",
+    "name": "MANEB MSCE Chichewa Past Examination Papers Compilation.pdf",
+    "path": "Exams/Chichewa/MANEB MSCE Chichewa Past Examination Papers Compilation.pdf",
     "size": 7996307,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f1464a476f"
+    "bucket": 2,
+    "id": "f1464a476f",
+    "level": "msce"
   },
   {
-    "name": "Chimteka CHICHEWA.pdf",
+    "name": "Chichewa Grammar and Composition (Chimteka).pdf",
     "path": "Books/Chichewa/Chimteka CHICHEWA.pdf",
     "size": 369967,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fb3d1eb957"
+    "id": "fb3d1eb957",
+    "level": "both"
   },
   {
-    "name": "JC CHICHEWA FORM 1-1_1.pdf",
+    "name": "JCE Chichewa Form 1 Coursebook.pdf",
     "path": "Books/Chichewa/JC CHICHEWA FORM 1-1_1.pdf",
     "size": 829840,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f1648e025e"
+    "id": "f1648e025e",
+    "level": "jce"
   },
   {
-    "name": "JC CHICHEWA FORM 2_1.pdf",
+    "name": "JCE Chichewa Form 2 Coursebook.pdf",
     "path": "Books/Chichewa/JC CHICHEWA FORM 2_1.pdf",
     "size": 847541,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f12cb8df03"
+    "id": "f12cb8df03",
+    "level": "jce"
   },
   {
-    "name": "KUZAMA_MCHIYANKULO_CHA_CHICHEWA_(1)_1.pdf",
+    "name": "Kuzama mChiyankhulo cha Chichewa Coursebook.pdf",
     "path": "Books/Chichewa/KUZAMA_MCHIYANKULO_CHA_CHICHEWA_(1)_1.pdf",
     "size": 4336095,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f13c6d3e6b"
+    "id": "f13c6d3e6b",
+    "level": "both"
   },
   {
-    "name": "KWALIMBA_UTA.pdf",
-    "path": "Books/Chichewa/KWALIMBA_UTA.pdf",
-    "size": 328128,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f41eab1a7f"
-  },
-  {
-    "name": "KWALIMBA_UTA_NDI_NTHANO_ZINA_(MODE)-1.pdf",
+    "name": "Kwalimba Uta ndi Nthano Zina - Buku Lathunthu (Gonthi).pdf",
     "path": "Books/Chichewa/KWALIMBA_UTA_NDI_NTHANO_ZINA_(MODE)-1.pdf",
     "size": 854929,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fcd3f8ee8c"
+    "id": "fcd3f8ee8c",
+    "level": "msce"
   },
   {
-    "name": "Kuphunzira Chichewa_1.pdf",
+    "name": "Kuphunzira Chichewa Buku la Ophunzira.pdf",
     "path": "Books/Chichewa/Kuphunzira Chichewa_1.pdf",
     "size": 1800880,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f833da441c"
+    "id": "f833da441c",
+    "level": "both"
   },
   {
-    "name": "NED_Chichewa_Training_Manual_2024-1_1.pdf",
+    "name": "NED Chichewa Training Manual (2024).pdf",
     "path": "Books/Chichewa/NED_Chichewa_Training_Manual_2024-1_1.pdf",
     "size": 992418,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f3004706fe"
+    "id": "f3004706fe",
+    "level": "msce"
   },
   {
-    "name": "NTHONDO_SUMMARY-1-1.pdf",
+    "name": "Nthondo - Literature Summary (S.J. Nthara).pdf",
     "path": "Books/Chichewa/NTHONDO_SUMMARY-1-1.pdf",
     "size": 435097,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fe661a047c"
+    "id": "fe661a047c",
+    "level": "msce"
   },
   {
-    "name": "New_Chichewa_Senior_Syllabus.pdf",
-    "path": "Books/Chichewa/New_Chichewa_Senior_Syllabus.pdf",
+    "name": "Chichewa Senior Secondary Syllabus (Forms 3 and 4).pdf",
+    "path": "Books/Syllabuses/Chichewa Senior Secondary Syllabus (Forms 3 and 4).pdf",
     "size": 1667878,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f1b394396f"
+    "id": "f1b394396f",
+    "level": "msce"
   },
   {
-    "name": "Tizame m'chichewa_1.pdf",
+    "name": "Tizame mChichewa Buku la Malangizo.pdf",
     "path": "Books/Chichewa/Tizame m'chichewa_1.pdf",
     "size": 918386,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "ffd9dfda92"
+    "id": "ffd9dfda92",
+    "level": "both"
   },
   {
-    "name": "Chamdothi_(student).pdf",
-    "path": "Books/Chichewa/_Chamdothi_(student).pdf",
-    "size": 621393,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f7b5e21f08"
-  },
-  {
-    "name": "chichewa 1.pdf",
-    "path": "Books/Chichewa/chichewa 1.pdf",
+    "name": "St Marys Secondary School MSCE Chichewa Paper I Post Mock Exam (2025).pdf",
+    "path": "Exams/Chichewa/St Marys Secondary School MSCE Chichewa Paper I Post Mock Exam (2025).pdf",
     "size": 316556,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fc664649f5"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fc664649f5",
+    "level": "msce"
   },
   {
-    "name": "chichewa 2.pdf",
-    "path": "Books/Chichewa/chichewa 2.pdf",
+    "name": "St Marys Secondary School MSCE Chichewa Paper II Mock Exam (2025).pdf",
+    "path": "Exams/Chichewa/St Marys Secondary School MSCE Chichewa Paper II Mock Exam (2025).pdf",
     "size": 303204,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f5ca91529c"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f5ca91529c",
+    "level": "msce"
   },
   {
-    "name": "chichewa p111.pdf",
-    "path": "Books/Chichewa/chichewa p111.pdf",
+    "name": "Nanjiriri Cluster MSCE Chichewa Paper III Mock Exam.pdf",
+    "path": "Exams/Chichewa/Nanjiriri Cluster MSCE Chichewa Paper III Mock Exam.pdf",
     "size": 343652,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f62951e513"
+    "bucket": 2,
+    "id": "f62951e513",
+    "level": "msce"
   },
   {
-    "name": "100 Java Programs with Output_ Useful collection of Java Programs ( PDFDrive ).pdf",
+    "name": "Java Programming Practical Examples with Output.pdf",
     "path": "Books/Computer studies/100+ Java Programs with Output_ Useful collection of Java Programs ( PDFDrive ).pdf",
     "size": 5076637,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fe3a2a3e0b"
+    "id": "fe3a2a3e0b",
+    "level": "msce"
   },
   {
-    "name": "2021 JCE COMPUTER Loyola.pdf",
-    "path": "Books/Computer studies/2021 JCE COMPUTER Loyola.pdf",
+    "name": "Loyola Jesuit Secondary School JCE Computer Studies Mock Exam (2021).pdf",
+    "path": "Exams/Computer Studies/Loyola Jesuit Secondary School JCE Computer Studies Mock Exam (2021).pdf",
     "size": 699940,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f8fcb713ef"
+    "bucket": 2,
+    "id": "f8fcb713ef",
+    "level": "jce"
   },
   {
-    "name": "6.Computer Fundamentals and Office Automation.pdf",
+    "name": "Computer Fundamentals and Office Automation Coursebook.pdf",
     "path": "Books/Computer studies/6.Computer  Fundamentals and Office Automation.pdf",
     "size": 3474469,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fcda734c49"
+    "id": "fcda734c49",
+    "level": "both"
   },
   {
-    "name": "COMPUTER-FORM-2-NOTES.pdf",
+    "name": "JCE Computer Studies Form 2 Notes.pdf",
     "path": "Books/Computer studies/COMPUTER-FORM-2-NOTES.pdf",
     "size": 5920381,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f4a0c6960e"
+    "id": "f4a0c6960e",
+    "level": "jce"
   },
   {
-    "name": "COMPUTER-STUDIES-SECONDARY-COMPREHENSIVE-NOTES.pdf",
+    "name": "Secondary Computer Studies Comprehensive Notes (Forms 1-4).pdf",
     "path": "Books/Computer studies/COMPUTER-STUDIES-SECONDARY-COMPREHENSIVE-NOTES.pdf",
     "size": 3466767,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f3fd43f447"
+    "id": "f3fd43f447",
+    "level": "both"
   },
   {
-    "name": "ComputerBas_1.pdf",
+    "name": "Computer Basics Module 1 - Introduction.pdf",
     "path": "Books/Computer studies/Comp Basics/ComputerBas_1.pdf",
     "size": 495773,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f3aa18a05e"
+    "id": "f3aa18a05e",
+    "level": "jce"
   },
   {
-    "name": "ComputerBas_2.pdf",
+    "name": "Computer Basics Module 2 - Input and Output Devices.pdf",
     "path": "Books/Computer studies/Comp Basics/ComputerBas_2.pdf",
     "size": 295753,
     "repo": "e-library-media-3",
     "bucket": 1,
-    "id": "f31707eb71"
+    "id": "f31707eb71",
+    "level": "jce"
   },
   {
-    "name": "ComputerBas_3.pdf",
+    "name": "Computer Basics Module 3 - Storage Devices.pdf",
     "path": "Books/Computer studies/Comp Basics/ComputerBas_3.pdf",
     "size": 275235,
     "repo": "e-library-media-4",
     "bucket": 1,
-    "id": "f3924b9b5c"
+    "id": "f3924b9b5c",
+    "level": "jce"
   },
   {
-    "name": "ComputerBas_5.pdf",
+    "name": "Computer Basics Module 5 - System Software.pdf",
     "path": "Books/Computer studies/Comp Basics/ComputerBas_5.pdf",
     "size": 337333,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f4ad2990fe"
+    "id": "f4ad2990fe",
+    "level": "jce"
   },
   {
-    "name": "ComputerBas_6.pdf",
+    "name": "Computer Basics Module 6 - Application Software.pdf",
     "path": "Books/Computer studies/Comp Basics/ComputerBas_6.pdf",
     "size": 318014,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f828585327"
+    "id": "f828585327",
+    "level": "jce"
   },
   {
-    "name": "ComputerBas_7.pdf",
+    "name": "Computer Basics Module 7 - Word Processing.pdf",
     "path": "Books/Computer studies/Comp Basics/ComputerBas_7.pdf",
     "size": 221909,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f10e6ac280"
+    "id": "f10e6ac280",
+    "level": "jce"
   },
   {
-    "name": "ComputerBas_8.pdf",
+    "name": "Computer Basics Module 8 - Spreadsheets.pdf",
     "path": "Books/Computer studies/Comp Basics/ComputerBas_8.pdf",
     "size": 202593,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f77dacbaa4"
+    "id": "f77dacbaa4",
+    "level": "jce"
   },
   {
-    "name": "ComputerBas_9.pdf",
+    "name": "Computer Basics Module 9 - Internet and Email.pdf",
     "path": "Books/Computer studies/Comp Basics/ComputerBas_9.pdf",
     "size": 494994,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f05ec6b0f5"
+    "id": "f05ec6b0f5",
+    "level": "jce"
   },
   {
-    "name": "Unit 1(pp2-4)_What is a computer.pdf",
+    "name": "Computer Basics Unit 1 - What is a Computer.pdf",
     "path": "Books/Computer studies/Comp Basics/Unit 1(pp2-4)_What is a computer.pdf",
     "size": 3646901,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f12085297b"
+    "id": "f12085297b",
+    "level": "jce"
   },
   {
-    "name": "Unit 6(pp90-99)_What is an OS.pdf",
+    "name": "Computer Basics Unit 6 - Operating Systems.pdf",
     "path": "Books/Computer studies/Comp Basics/Unit 6(pp90-99)_What is an OS.pdf",
     "size": 640418,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f19686e60b"
+    "id": "f19686e60b",
+    "level": "jce"
   },
   {
-    "name": "Comp Excel_3.pdf",
+    "name": "Computer Studies Spreadsheets and Excel Guide.pdf",
     "path": "Books/Computer studies/Comp Excel_3.pdf",
     "size": 11719121,
     "repo": "e-library-media-3",
     "bucket": 1,
-    "id": "f625f9cbc0"
+    "id": "f625f9cbc0",
+    "level": "both"
   },
   {
-    "name": "Computer ( F1-4) Malawi_1.pdf",
+    "name": "Computer Studies for Malawi Secondary Schools (Forms 1-4).pdf",
     "path": "Books/Computer studies/Computer ( F1-4) Malawi_1.pdf",
     "size": 16465377,
     "repo": "e-library-media-4",
     "bucket": 1,
-    "id": "f39b6d9020"
+    "id": "f39b6d9020",
+    "level": "both"
   },
   {
-    "name": "Computer Hacking A beginners guide to computer hacking how to hack inter.pdf",
-    "path": "Books/Computer studies/Computer Hacking A beginners guide to computer hacking  how to hack  inter.pdf",
-    "size": 349891,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f44e4e72d8"
-  },
-  {
-    "name": "Computer Networks I Lesson 2.pdf",
+    "name": "Computer Networks Lesson Notes.pdf",
     "path": "Books/Computer studies/Computer Networks I Lesson 2.pdf",
     "size": 767531,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f85e4f30a6"
+    "id": "f85e4f30a6",
+    "level": "msce"
   },
   {
-    "name": "Computer Shortcuts.pdf",
+    "name": "Essential Computer Keyboard Shortcuts Handbook.pdf",
     "path": "Books/Computer studies/Computer Shortcuts .pdf",
     "size": 484436,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f01d50c936"
+    "id": "f01d50c936",
+    "level": "both"
   },
   {
-    "name": "Computer shortcut part 2.pdf",
+    "name": "Computer Keyboard Shortcuts (Part 2).pdf",
     "path": "Books/Computer studies/Computer shortcut part 2(1).pdf",
     "size": 236888,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "feb2c1da3c"
+    "id": "feb2c1da3c",
+    "level": "both"
   },
   {
-    "name": "Computer studies f2 Notes.docx",
+    "name": "JCE Computer Studies Form 2 Study Notes.docx",
     "path": "Books/Computer studies/Computer studies f2 Notes.docx",
     "size": 24494186,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f5a05c3f05"
+    "id": "f5a05c3f05",
+    "level": "jce"
   },
   {
-    "name": "Computer-Networks-and-Internets-Fifth-Edition.pdf",
+    "name": "Computer Networks and Internets (Comer 5th Edition).pdf",
     "path": "Books/Computer studies/Computer-Networks-and-Internets-Fifth-Edition.pdf",
     "size": 4998835,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f397d54f3f"
+    "id": "f397d54f3f",
+    "level": "msce"
   },
   {
-    "name": "Computer_Applications_Module__-__PRACTICAL_-_first_Draft.pdf",
+    "name": "Computer Applications Practical Module Handbook.pdf",
     "path": "Books/Computer studies/Computer_Applications_Module__-__PRACTICAL_-_first_Draft.pdf",
     "size": 2060164,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f12e32b11f"
+    "id": "f12e32b11f",
+    "level": "both"
   },
   {
-    "name": "Computers-for-Beginners.pdf",
+    "name": "Computers for Beginners Foundation Handbook.pdf",
     "path": "Books/Computer studies/Computers-for-Beginners.pdf",
     "size": 1464695,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f37bcd2af9"
+    "id": "f37bcd2af9",
+    "level": "jce"
   },
   {
-    "name": "DATA SCIENCE LEVEL1 WEEKEND.pdf",
-    "path": "Books/Computer studies/DATA SCIENCE LEVEL1 WEEKEND.pdf",
-    "size": 140510,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fab97d9b53"
-  },
-  {
-    "name": "Data Science for Business Professionals by Probyto Data Science and Consulting Pvt. Ltd. (z-lib.org).pdf",
+    "name": "Data Science and Business Technology Reference.pdf",
     "path": "Books/Computer studies/Data Science for  Business  Professionals by Probyto Data Science and  Consulting Pvt. Ltd. (z-lib.org).pdf",
     "size": 24522648,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fc565718c3"
+    "id": "fc565718c3",
+    "level": "msce"
   },
   {
-    "name": "Form_1_To_Form_4_Complete_Computer_Studies_Notes_Teacher_co_ke__1.pdf",
+    "name": "Computer Studies Complete Secondary Notes (Forms 1-4).pdf",
     "path": "Books/Computer studies/Form_1_To_Form_4_Complete_Computer_Studies_Notes_Teacher_co_ke_ - Copy_1.pdf",
     "size": 17775000,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f53bdb7d20"
+    "id": "f53bdb7d20",
+    "level": "both"
   },
   {
-    "name": "Hacking_ Computer Hacking Beginners Guide ( PDFDrive ).pdf",
-    "path": "Books/Computer studies/Hacking_ Computer Hacking Beginners Guide ( PDFDrive ).pdf",
-    "size": 2358308,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fd683ffc42"
-  },
-  {
-    "name": "computer form 1 final.pdf",
+    "name": "JCE Computer Studies Form 1 Textbook.pdf",
     "path": "Books/Computer studies/computer form 1 final.pdf",
     "size": 2215654,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f883f75981"
+    "id": "f883f75981",
+    "level": "jce"
   },
   {
-    "name": "computer notes form 1_1.pdf",
+    "name": "JCE Computer Studies Form 1 Notes.pdf",
     "path": "Books/Computer studies/computer notes form 1_1.pdf",
     "size": 1273356,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fe75e9438d"
+    "id": "fe75e9438d",
+    "level": "jce"
   },
   {
-    "name": "computer_programming_tutorial.pdf",
+    "name": "Computer Programming Foundations Tutorial.pdf",
     "path": "Books/Computer studies/computer_programming_tutorial.pdf",
     "size": 1161303,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f527bcb42f"
+    "id": "f527bcb42f",
+    "level": "msce"
   },
   {
     "name": "'BASIC_ENGLISH_GRAMMAR_STRUCTURES_AND_VOCABULARY-1-1_1.pdf",

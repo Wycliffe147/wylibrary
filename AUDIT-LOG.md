@@ -15,8 +15,8 @@ The "After" number represents the clean, frozen count at the moment the folder a
 | **Books/Biology** | ✅ Audited | 203 | 112 | 44 | 15 | 30 | 100% Explicit | Nov 26, 2026 |
 | **Books/Business Studies** | ✅ Audited | 7 | 0 | 2 | 0 | 0 | 100% Explicit | Nov 26, 2026 |
 | **Books/Chemistry** | ⬜ Queued | 57 | *Pending* | - | - | - | - | - |
-| **Books/Chichewa** | ⬜ Queued | 12 | *Pending* | - | - | - | - | - |
-| **Books/Computer studies** | ⬜ Queued | 21 | *Pending* | - | - | - | - | - |
+| **Books/Chichewa** | ✅ Audited | 50 | 24 | 21 | 0 | 3 | 100% Explicit | Nov 26, 2026 |
+| **Books/Computer studies** | ✅ Audited | 32 | 28 | 1 | 0 | 3 | 100% Explicit | Nov 26, 2026 |
 | **Books/English** | ⬜ Queued | 191 | *Pending* | - | - | - | - | - |
 | **Books/Geography** | ⬜ Queued | 50 | *Pending* | - | - | - | - | - |
 | **Books/History** | ⬜ Queued | 24 | *Pending* | - | - | - | - | - |
@@ -67,4 +67,22 @@ The "After" number represents the clean, frozen count at the moment the folder a
 - **Transferred to Syllabuses:** 5 files (Teaching Syllabuses, General Syllabuses, Scope & Sequence Chart)
 - **Transferred to Q&A:** 0
 - **Deleted from R2:** 0
+- **Level Tagging Coverage:** 100% Explicit
+
+### 6. Books/Chichewa
+- **Initial Count:** 50 files
+- **Clean Books Retained:** 24 clean setbooks, grammar guides, and coursebooks (10 MSCE, 5 JCE, 9 Both)
+- **Transferred to Exams:** 21 mock exams moved to `Exams/Chichewa/` on Bucket 2 (CEED Papers 1-3, Machinga, St Marys, Shire Highlands, Madisi, Mulanje, Hill Crescent, Kamuzu Barracks, Nanjiriri, MANEB compilation)
+- **Transferred to Syllabuses:** 2 national curriculum syllabuses moved to `Books/Syllabuses/` (JCE Forms 1-2 Syllabus, Senior Secondary Forms 3-4 Syllabus)
+- **Transferred to Q&A:** 0
+- **Deleted from R2:** 3 files (1 incomplete draft and 2 duplicate uploads)
+- **Level Tagging Coverage:** 100% Explicit
+
+### 7. Books/Computer studies
+- **Initial Count:** 32 files
+- **Clean Books Retained:** 28 clean textbooks, modular units, and reference handbooks (6 MSCE, 12 JCE, 10 Both)
+- **Transferred to Exams:** 1 mock exam moved to `Exams/Computer Studies/` on Bucket 2 (Loyola Jesuit Secondary School JCE Computer Studies Mock 2021)
+- **Transferred to Syllabuses:** 0
+- **Transferred to Q&A:** 0
+- **Deleted from R2:** 3 files (1 non-curriculum student personal letter to Mzuzu University, 2 external hacking trade paperbacks from PDFDrive)
 - **Level Tagging Coverage:** 100% Explicit

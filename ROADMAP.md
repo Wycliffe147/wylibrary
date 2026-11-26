@@ -45,12 +45,12 @@
    - **Progress so far:**
      - ✅ `Books/Additional Mathematics` (commit `2c901cb`, Nov 13)
      - ✅ `Books/Agriculture` (deep audit complete: 71 clean books with 100% level tagging, 9 mock exams transferred to Exams/, 4 duplicates deleted from R2)
-     - ✅ `Books/Bible Knowledge` (merged casing duplicate, moved 5 mock exams to Exams/, deleted 4 sermons/duplicates, 25 clean books)
-     - ⬜ `Books/Biology`
-     - ⬜ `Books/Business Studies`
+     - ✅ `Books/Bible Knowledge` (merged casing duplicate, moved 5 mock exams to Exams/, deleted 4 sermons/duplicates, 24 clean books)
+     - ✅ `Books/Biology` (deep audit complete: 112 clean books with 100% level tagging, 44 mock exams moved to Exams/, 15 Q&A moved to Q&A, 2 syllabuses moved to Syllabuses, 30 deleted)
+     - ✅ `Books/Business Studies` (deep audit complete: 2 mock exams moved to Exams/, 5 syllabuses moved to Syllabuses)
      - ⬜ `Books/Chemistry`
-     - ⬜ `Books/Chichewa`
-     - ⬜ `Books/Computer studies`
+     - ✅ `Books/Chichewa` (deep audit complete: 24 clean books with 100% level tagging, 21 mock exams moved to Exams/, 2 syllabuses moved to Syllabuses, 3 duplicates deleted)
+     - ✅ `Books/Computer studies` (deep audit complete: 28 clean books with 100% level tagging, 1 mock exam moved to Exams/, 3 non-curriculum deleted)
      - ⬜ `Books/English`
      - ⬜ `Books/Geography`
      - ⬜ `Books/History`
@@ -78,7 +78,18 @@
      - Community submission workflow: WhatsApp group members submit files → ingestion script renames, places, and indexes them → they appear in the library automatically.
      - **File deduplication via content hash:** Computes a short SHA-256 hash per file; rejects exact duplicates at ingestion even if renamed or moved.
 
-5. **Batch Multi-Select & Share / Download Function**
+5. **Missing Subjects Sourcing & Collection (Curriculum Expansion)**
+   - Source, curate, and ingest textbooks and exam papers for secondary subjects currently missing or lacking textbook coverage in MSCE/JCE:
+     - **Business Studies:** Source student textbooks (currently has 25 exam papers and 5 syllabus docs in `Books/Syllabuses/`, but needs core textbooks).
+     - **French:** Malawian secondary curriculum elective.
+     - **Woodwork / Carpentry & Joinery:** Technical subjects.
+     - **Metalwork:** Technical subjects.
+     - **Technical Drawing:** Technical subjects.
+     - **Performing Arts / Expressive Arts:** Music, Dance, Drama.
+     - **Art & Design:** Creative arts elective.
+     - **Physical Education (PE):** Sports science and physical education.
+
+6. **Batch Multi-Select & Share / Download Function**
    - Allow selecting multiple files (checkboxes / multi-select mode).
    - Share multiple selected document links or files simultaneously via Web Share API / WhatsApp.
    - **Save Selected Folder(s) Offline:** Allow selecting folder checkboxes in the main library to batch-save all files within a folder to offline storage with 1 tap (including total download size preview & confirmation).
