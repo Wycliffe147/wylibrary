@@ -654,12 +654,13 @@
     "level": "msce"
   },
   {
-    "name": "Biology diagrams.pdf",
+    "name": "Secondary School Biology Diagrams Reference.pdf",
     "path": "Books/Biology/Biology diagrams.pdf",
     "size": 710443,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "ff4b332e01"
+    "id": "ff4b332e01",
+    "level": "both"
   },
   {
     "name": "JCE Agriculture Form 1 Chapter 11 - Classes of Livestock (LearnMalawi).pdf",
@@ -1126,1620 +1127,1552 @@
     "id": "f231e474fe"
   },
   {
-    "name": "#1HEART DISEASE – Specifically heart failure.#1.pdf",
-    "path": "Books/Biology/#1HEART DISEASE – Specifically heart failure.#1.pdf",
-    "size": 131,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f9cb66841d"
-  },
-  {
-    "name": "#Biology Essays_1.pdf",
-    "path": "Books/Biology/#Biology Essays_1.pdf",
-    "size": 131,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fb931e74d8"
-  },
-  {
-    "name": "--bio_locomotion.pdf",
+    "name": "MSCE Biology - Locomotion and Support.pdf",
     "path": "Books/Biology/--bio_locomotion.pdf",
     "size": 363875,
     "repo": "e-library-media-3",
     "bucket": 1,
-    "id": "f2f5e404c9"
+    "id": "f2f5e404c9",
+    "level": "msce"
   },
   {
-    "name": "006_Cell_injury.pdf",
+    "name": "Cellular Pathology and Cell Injury Notes.pdf",
     "path": "Books/Biology/006_Cell_injury.pdf",
     "size": 752737,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fcff6a5762"
+    "id": "fcff6a5762",
+    "level": "msce"
   },
   {
-    "name": "01_Photosynthesis.pdf",
+    "name": "MSCE Biology Chapter 1 - Photosynthesis.pdf",
     "path": "Books/Biology/01_Photosynthesis.pdf",
     "size": 420302,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f5d9e0099a"
+    "id": "f5d9e0099a",
+    "level": "msce"
   },
   {
-    "name": "02-_Cell_Division_Mitosis_Meiosis_Notes.pdf",
+    "name": "MSCE Biology Chapter 2 - Cell Division Mitosis and Meiosis.pdf",
     "path": "Books/Biology/02-_Cell_Division_Mitosis_Meiosis_Notes_(1).pdf",
     "size": 346740,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fc113a4076"
+    "id": "fc113a4076",
+    "level": "msce"
   },
   {
-    "name": "04_Digestive_system-1.pdf",
+    "name": "MSCE Biology Chapter 4 - Digestive System.pdf",
     "path": "Books/Biology/04_Digestive_system-1.pdf",
     "size": 446198,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f24e434552"
+    "id": "f24e434552",
+    "level": "msce"
   },
   {
-    "name": "06_Respiratory_system-1.pdf",
+    "name": "MSCE Biology Chapter 6 - Respiratory System.pdf",
     "path": "Books/Biology/06_Respiratory_system-1.pdf",
     "size": 388860,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fa238ed7e6"
+    "id": "fa238ed7e6",
+    "level": "msce"
   },
   {
-    "name": "08_Reproduction.pdf",
-    "path": "Books/Biology/08_Reproduction.pdf",
-    "size": 492432,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fb66667349"
-  },
-  {
-    "name": "08_Reproduction.pdf",
+    "name": "MSCE Biology Chapter 8 - Reproduction.pdf",
     "path": "Books/Biology/08_Reproduction_(1).pdf",
     "size": 553129,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fb279c2277"
+    "id": "fb279c2277",
+    "level": "msce"
   },
   {
-    "name": "09_Excretion.pdf",
+    "name": "MSCE Biology Chapter 9 - Excretion.pdf",
     "path": "Books/Biology/09_Excretion.pdf",
     "size": 370737,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f8309e00d0"
+    "id": "f8309e00d0",
+    "level": "msce"
   },
   {
-    "name": "1.2_Nervous_System_MS.pdf",
-    "path": "Books/Biology/1.2_Nervous_System_MS (1).pdf",
+    "name": "MSCE Biology Nervous System Marking Scheme.pdf",
+    "path": "Exams/Biology/MSCE Biology Nervous System Marking Scheme.pdf",
     "size": 220410,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f0823b9308"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f0823b9308",
+    "level": "msce"
   },
   {
-    "name": "1._Biology_1_Book.pdf",
+    "name": "JCE Biology Form 1 Textbook.pdf",
     "path": "Books/Biology/1._Biology_1_Book.pdf",
     "size": 3040938,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f0021fcfe6"
+    "id": "f0021fcfe6",
+    "level": "jce"
   },
   {
-    "name": "10_Excretion_Biology_Notes_IGCSE_2014.pdf",
+    "name": "IGCSE Biology Excretion Notes (2014).pdf",
     "path": "Books/Biology/10_Excretion_Biology_Notes_IGCSE_2014.pdf",
     "size": 1136082,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f49c3b5f8f"
+    "id": "f49c3b5f8f",
+    "level": "msce"
   },
   {
-    "name": "10_Human_digestive_system.pdf",
+    "name": "MSCE Biology Chapter 10 - Human Digestive System.pdf",
     "path": "Books/Biology/10_Human_digestive_system.pdf",
     "size": 339791,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f80467d742"
+    "id": "f80467d742",
+    "level": "msce"
   },
   {
-    "name": "11 Human disease (1).pdf",
+    "name": "MSCE Biology Chapter 11 - Human Diseases.pdf",
     "path": "Books/Biology/11 Human disease (1) (1).pdf",
     "size": 420019,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f52cb78e2f"
+    "id": "f52cb78e2f",
+    "level": "msce"
   },
   {
-    "name": "11_Human_circulatory_system.pdf",
+    "name": "MSCE Biology Chapter 11 - Human Circulatory System.pdf",
     "path": "Books/Biology/11_Human_circulatory_system.pdf",
     "size": 341613,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f86e09fc1c"
+    "id": "f86e09fc1c",
+    "level": "msce"
   },
   {
-    "name": "12__Worm_Infestations.pdf",
+    "name": "MSCE Biology Chapter 12 - Worm Infestations.pdf",
     "path": "Books/Biology/12__Worm_Infestations.pdf",
     "size": 757189,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f88ab61312"
+    "id": "f88ab61312",
+    "level": "msce"
   },
   {
-    "name": "13 Genetics (1).pdf",
+    "name": "MSCE Biology Chapter 13 - Genetics.pdf",
     "path": "Books/Biology/13 Genetics (1) (1).pdf",
     "size": 532188,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fb3b7e6b8c"
+    "id": "fb3b7e6b8c",
+    "level": "msce"
   },
   {
-    "name": "13_Genetics.pdf",
-    "path": "Books/Biology/13_Genetics.pdf",
-    "size": 491855,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f0e6b7415a"
-  },
-  {
-    "name": "14_Evolution.pdf",
+    "name": "MSCE Biology Chapter 14 - Evolution.pdf",
     "path": "Books/Biology/14_Evolution.pdf",
     "size": 390036,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f2e5d22ada"
+    "id": "f2e5d22ada",
+    "level": "msce"
   },
   {
-    "name": "16_Ecosystem-1.pdf",
+    "name": "MSCE Biology Chapter 16 - Ecosystem.pdf",
     "path": "Books/Biology/16_Ecosystem-1.pdf",
     "size": 636726,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fb1c82626b"
+    "id": "fb1c82626b",
+    "level": "msce"
   },
   {
-    "name": "16_Ecosystem.pdf",
-    "path": "Books/Biology/16_Ecosystem_(1).pdf",
-    "size": 577673,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f496b19808"
-  },
-  {
-    "name": "2-Leaf_Characteristics (1).pdf",
+    "name": "MSCE Biology - Leaf Characteristics.pdf",
     "path": "Books/Biology/2-Leaf_Characteristics (1) (1).pdf",
     "size": 507491,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f9a295cb7e"
+    "id": "f9a295cb7e",
+    "level": "msce"
   },
   {
-    "name": "2._MALNUTRITION.txt",
-    "path": "Books/Biology/2._MALNUTRITION.txt",
+    "name": "MSCE Biology - Malnutrition Presentation.pptx",
+    "path": "Books/Biology/MSCE Biology - Malnutrition Presentation.pptx",
     "size": 2644938,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f851bc4092"
+    "id": "f851bc4092",
+    "level": "msce"
   },
   {
-    "name": "2006_Bio_P2-1.pdf",
-    "path": "Books/Biology/2006_Bio_P2-1.pdf",
+    "name": "MANEB MSCE Biology Paper 2 (2006).pdf",
+    "path": "Exams/Biology/MANEB MSCE Biology Paper 2 (2006).pdf",
     "size": 358243,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f24f779fd7"
+    "bucket": 2,
+    "id": "f24f779fd7",
+    "level": "msce"
   },
   {
-    "name": "2013_Bio_P1-1.pdf",
-    "path": "Books/Biology/2013_Bio_P1-1.pdf",
+    "name": "MANEB MSCE Biology Paper 1 (2013).pdf",
+    "path": "Exams/Biology/MANEB MSCE Biology Paper 1 (2013).pdf",
     "size": 359335,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f4fe45a9b6"
+    "bucket": 2,
+    "id": "f4fe45a9b6",
+    "level": "msce"
   },
   {
-    "name": "2017_marist_Bio_P_I-1.pdf",
-    "path": "Books/Biology/2017_marist_Bio_P_I-1.pdf",
+    "name": "Marist MSCE Biology Paper I Mock Exam (2017).pdf",
+    "path": "Exams/Biology/Marist MSCE Biology Paper I Mock Exam (2017).pdf",
     "size": 2712966,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fb6dcbe6ca"
+    "bucket": 2,
+    "id": "fb6dcbe6ca",
+    "level": "msce"
   },
   {
-    "name": "2019_Biology_2_MARANATHA-1.docx",
-    "path": "Books/Biology/2019_Biology_2_MARANATHA-1(0).docx",
+    "name": "Maranatha MSCE Biology Paper 2 Practical Mock Exam (2019).docx",
+    "path": "Exams/Biology/Maranatha MSCE Biology Paper 2 Practical Mock Exam (2019).docx",
     "size": 54728,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f266546137"
+    "bucket": 2,
+    "id": "f266546137",
+    "level": "msce"
   },
   {
-    "name": "2019_ZOMBA_BIOS_P1.pdf",
-    "path": "Books/Biology/2019_ZOMBA_BIOS_P1.pdf",
+    "name": "Zomba Catholic Secondary School MSCE Biology Paper 1 Mock Exam (2019).pdf",
+    "path": "Exams/Biology/Zomba Catholic Secondary School MSCE Biology Paper 1 Mock Exam (2019).pdf",
     "size": 677926,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f2882b831e"
+    "bucket": 2,
+    "id": "f2882b831e",
+    "level": "msce"
   },
   {
-    "name": "2020 BIOLOGY I.docx",
-    "path": "Books/Biology/2020 BIOLOGY I.docx",
+    "name": "Northern Education Division MSCE Biology Paper I Mock Exam (2020).docx",
+    "path": "Exams/Biology/Northern Education Division MSCE Biology Paper I Mock Exam (2020).docx",
     "size": 1579617,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f7208b817d"
+    "bucket": 2,
+    "id": "f7208b817d",
+    "level": "msce"
   },
   {
-    "name": "2020_Biology_Confidential_1-1.pdf",
-    "path": "Books/Biology/2020_Biology_Confidential_1-1.pdf",
-    "size": 21949,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f92cca1528"
-  },
-  {
-    "name": "2021_predicted_biology_essays.pdf",
-    "path": "Books/Biology/2021_predicted_biology_essays.pdf",
+    "name": "MSCE Biology Predicted Essays and Solutions (2021).pdf",
+    "path": "Q&A/Biology/MSCE Biology Predicted Essays and Solutions (2021).pdf",
     "size": 180542,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f556570912"
+    "bucket": 2,
+    "id": "f556570912",
+    "level": "msce"
   },
   {
-    "name": "2022 MZUZU DIOCESE BIOLOGY PII confidential Instruction.pdf",
-    "path": "Books/Biology/2022 MZUZU DIOCESE  BIOLOGY PII  confidential Instruction.pdf",
+    "name": "Mzuzu Diocese MSCE Biology Paper II Confidential Instructions (2022).pdf",
+    "path": "Exams/Biology/Mzuzu Diocese MSCE Biology Paper II Confidential Instructions (2022).pdf",
     "size": 199934,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fa33b243dc"
+    "bucket": 2,
+    "id": "fa33b243dc",
+    "level": "msce"
   },
   {
-    "name": "2024 KUGWETSA BIOLOGY PRACATICAL_1.pdf",
-    "path": "Books/Biology/2024 KUGWETSA BIOLOGY PRACATICAL_1.pdf",
+    "name": "Kugwetsa MSCE Biology Practical Exam (2024).pdf",
+    "path": "Exams/Biology/Kugwetsa MSCE Biology Practical Exam (2024).pdf",
     "size": 488821,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fb43a26554"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fb43a26554",
+    "level": "msce"
   },
   {
-    "name": "2025 Kugwetsa biology practical_1.pdf",
-    "path": "Books/Biology/2025 Kugwetsa biology practical🔥_1.pdf",
+    "name": "Kugwetsa MSCE Biology Practical Exam (2025).pdf",
+    "path": "Exams/Biology/Kugwetsa MSCE Biology Practical Exam (2025).pdf",
     "size": 5214790,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f0db377ab8"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f0db377ab8",
+    "level": "msce"
   },
   {
-    "name": "2025 Kugwetsa biology theory_1.pdf",
-    "path": "Books/Biology/2025 Kugwetsa biology theory🔥_1.pdf",
+    "name": "Kugwetsa MSCE Biology Theory Exam (2025).pdf",
+    "path": "Exams/Biology/Kugwetsa MSCE Biology Theory Exam (2025).pdf",
     "size": 3904850,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f897e11d04"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f897e11d04",
+    "level": "msce"
   },
   {
-    "name": "23_biology_questions_(Whosper)-1.pdf",
-    "path": "Books/Biology/23_biology_questions_(Whosper)-1.pdf",
+    "name": "MSCE Biology Examination Questions (Whosper).pdf",
+    "path": "Exams/Biology/MSCE Biology Examination Questions (Whosper).pdf",
     "size": 265758,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f55033205b"
+    "bucket": 2,
+    "id": "f55033205b",
+    "level": "msce"
   },
   {
-    "name": "24_Digestive_System.pdf",
+    "name": "MSCE Biology Chapter 24 - Digestive System (Detailed).pdf",
     "path": "Books/Biology/24_Digestive_System (1).pdf",
     "size": 10133742,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fb65100118"
+    "id": "fb65100118",
+    "level": "msce"
   },
   {
-    "name": "ALL_2021_MANEB_PRACTICAL_DRAWING_FOR_AGR_AND_BIOLOGY.pdf",
+    "name": "Comprehensive Agriculture and Biology Practical Drawings (Sir Godfrey).pdf",
     "path": "Books/Biology/ALL_2021_MANEB_PRACTICAL_DRAWING_FOR_AGR_AND_BIOLOGY.pdf",
     "size": 31943835,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f1fa4ad9dd"
+    "id": "f1fa4ad9dd",
+    "level": "both"
   },
   {
-    "name": "ANSWER BIOLOGY PI.pdf",
-    "path": "Books/Biology/ANSWER BIOLOGY   PI.pdf",
+    "name": "MSCE Biology Paper I Exam Solutions.pdf",
+    "path": "Exams/Biology/MSCE Biology Paper I Exam Solutions.pdf",
     "size": 840483,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f8ce4b0c1d"
+    "bucket": 2,
+    "id": "f8ce4b0c1d",
+    "level": "msce"
   },
   {
-    "name": "ANSWER_BIOLOGY___PII.pdf",
-    "path": "Books/Biology/ANSWER_BIOLOGY___PII.pdf",
+    "name": "MSCE Biology Paper II Exam Solutions.pdf",
+    "path": "Exams/Biology/MSCE Biology Paper II Exam Solutions.pdf",
     "size": 315233,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f466a65c71"
+    "bucket": 2,
+    "id": "f466a65c71",
+    "level": "msce"
   },
   {
-    "name": "Amino.acids.Mlml.Misiri.pdf",
+    "name": "MSCE Biology - Amino Acids and Proteins (Misiri).pdf",
     "path": "Books/Biology/Amino.acids.Mlml.Misiri.pdf",
     "size": 629320,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f143cdbadf"
+    "id": "f143cdbadf",
+    "level": "msce"
   },
   {
-    "name": "BASIC_BIOLOGY_BOOK_3_N_4_1.pdf",
+    "name": "Basic Biology Books 3 and 4 Coursebook.pdf",
     "path": "Books/Biology/BASIC_BIOLOGY_BOOK_3_N_4_1.pdf",
     "size": 8873200,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fa3a447596"
+    "id": "fa3a447596",
+    "level": "msce"
   },
   {
-    "name": "BIO F4 NEW-1-1.pdf",
+    "name": "MSCE Biology Form 4 Complete Notes (New Edition).pdf",
     "path": "Books/Biology/BIO F4 NEW-1-1.pdf",
     "size": 2826137,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f01e977005"
+    "id": "f01e977005",
+    "level": "msce"
   },
   {
-    "name": "BIO II.docx",
-    "path": "Books/Biology/BIO II.docx",
+    "name": "Shire Highlands Education Division MSCE Biology Paper II Mock Exam (2025).docx",
+    "path": "Exams/Biology/Shire Highlands Education Division MSCE Biology Paper II Mock Exam (2025).docx",
     "size": 45078,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f88b070792"
-  },
-  {
-    "name": "BIO II.pdf",
-    "path": "Books/Biology/BIO II.pdf",
-    "size": 104185,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fa2569e78c"
-  },
-  {
-    "name": "BIO MASSIVE PRACTICAL DIRECTING-1-1.pdf",
-    "path": "Books/Biology/BIO MASSIVE PRACTICAL DIRECTING-1-1 (1).pdf",
-    "size": 1391898,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f0e07b1e4a"
+    "bucket": 2,
+    "id": "f88b070792",
+    "level": "msce"
   },
   {
-    "name": "BIO PI.docx",
-    "path": "Books/Biology/BIO PI.docx",
+    "name": "Shire Highlands Education Division MSCE Biology Paper II Mock Exam (2025).pdf",
+    "path": "Exams/Biology/Shire Highlands Education Division MSCE Biology Paper II Mock Exam (2025).pdf",
+    "size": 104185,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fa2569e78c",
+    "level": "msce"
+  },
+  {
+    "name": "Shire Highlands Education Division MSCE Biology Paper I Mock Exam (2025).docx",
+    "path": "Exams/Biology/Shire Highlands Education Division MSCE Biology Paper I Mock Exam (2025).docx",
     "size": 188827,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f23274c51d"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f23274c51d",
+    "level": "msce"
   },
   {
-    "name": "BIO PI.pdf",
-    "path": "Books/Biology/BIO PI.pdf",
+    "name": "Shire Highlands Education Division MSCE Biology Paper I Mock Exam (2025).pdf",
+    "path": "Exams/Biology/Shire Highlands Education Division MSCE Biology Paper I Mock Exam (2025).pdf",
     "size": 236920,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f95739b6cc"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f95739b6cc",
+    "level": "msce"
   },
   {
-    "name": "BIO PRACTICAL vol 2.pdf",
+    "name": "MSCE Biology Practical Guide (Volume 2).pdf",
     "path": "Books/Biology/BIO PRACTICAL vol 2.pdf",
     "size": 185062,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f019229150"
+    "id": "f019229150",
+    "level": "msce"
   },
   {
-    "name": "BIO SYLLABUS-1.pdf",
+    "name": "Malawi National Curriculum Biology Syllabus.pdf",
     "path": "Books/Biology/BIO SYLLABUS-1 (1).pdf",
     "size": 137982,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f15e8edcd9"
+    "id": "f15e8edcd9",
+    "level": "both"
   },
   {
-    "name": "BIO-GENETICS-1.pdf",
+    "name": "MSCE Biology - Genetics Notes.pdf",
     "path": "Books/Biology/BIO-GENETICS-1.pdf",
     "size": 797132,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f1a65318e2"
+    "id": "f1a65318e2",
+    "level": "msce"
   },
   {
-    "name": "BIOLOGY.pdf",
+    "name": "Comprehensive Secondary Biology Textbook.pdf",
     "path": "Books/Biology/BIOLOGY  (1).pdf",
     "size": 13551490,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f982eace24"
+    "id": "f982eace24",
+    "level": "both"
   },
   {
-    "name": "BIOLOGY 3 (Gloria M_1.pdf",
+    "name": "MSCE Biology Form 3 (Gloria M).pdf",
     "path": "Books/Biology/BIOLOGY 3 (Gloria M_1.pdf",
     "size": 4333210,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f5a1a0f506"
+    "id": "f5a1a0f506",
+    "level": "msce"
   },
   {
-    "name": "BIOLOGY EXCEL - BOOK 4_1.pdf",
+    "name": "MSCE Biology Excel Book 4.pdf",
     "path": "Books/Biology/BIOLOGY EXCEL - BOOK 4_1.pdf",
     "size": 5220779,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "ff60872a6b"
+    "id": "ff60872a6b",
+    "level": "msce"
   },
   {
-    "name": "BIOLOGY FORM 3 by SoLM_1.pdf",
+    "name": "MSCE Biology Form 3 (SoLM Edition).pdf",
     "path": "Books/Biology/BIOLOGY FORM 3 by SoLM_1.pdf",
     "size": 2831180,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f652d98304"
+    "id": "f652d98304",
+    "level": "msce"
   },
   {
-    "name": "BIOLOGY I.docx",
-    "path": "Books/Biology/BIOLOGY I.docx",
+    "name": "Mangochi Catholic Diocese MSCE Biology Paper I Mock Exam (2025).docx",
+    "path": "Exams/Biology/Mangochi Catholic Diocese MSCE Biology Paper I Mock Exam (2025).docx",
     "size": 1228931,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f62ba55582"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f62ba55582",
+    "level": "msce"
   },
   {
-    "name": "BIOLOGY II-1.pdf",
-    "path": "Books/Biology/BIOLOGY II-1.pdf",
+    "name": "St Marys Secondary School MSCE Biology Paper II Mock Exam (2025).pdf",
+    "path": "Exams/Biology/St Marys Secondary School MSCE Biology Paper II Mock Exam (2025).pdf",
     "size": 264745,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f54823fcff"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f54823fcff",
+    "level": "msce"
   },
   {
-    "name": "BIOLOGY II.docx",
-    "path": "Books/Biology/BIOLOGY II.docx",
+    "name": "Mangochi Catholic Diocese MSCE Biology Paper II Mock Exam (2025).docx",
+    "path": "Exams/Biology/Mangochi Catholic Diocese MSCE Biology Paper II Mock Exam (2025).docx",
     "size": 331812,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fec2445713"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fec2445713",
+    "level": "msce"
   },
   {
-    "name": "BIOLOGY II.pdf",
-    "path": "Books/Biology/BIOLOGY II.pdf",
+    "name": "Chiradzulu District MSCE Biology Paper II Mock Exam (2023).pdf",
+    "path": "Exams/Biology/Chiradzulu District MSCE Biology Paper II Mock Exam (2023).pdf",
     "size": 325986,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f28554a4a1"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f28554a4a1",
+    "level": "msce"
   },
   {
-    "name": "BIOLOGY NOTES-1.pdf",
+    "name": "Complete Secondary Biology Notes (Forms 1-4).pdf",
     "path": "Books/Biology/BIOLOGY NOTES-1.pdf",
     "size": 7754536,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fd20d82510"
+    "id": "fd20d82510",
+    "level": "both"
   },
   {
-    "name": "BIOLOGY QUESTIONS AND SUGGESTED SOLUTIONS.pdf",
-    "path": "Books/Biology/BIOLOGY QUESTIONS AND SUGGESTED SOLUTIONS  (1).pdf",
+    "name": "MSCE Biology Questions and Suggested Solutions.pdf",
+    "path": "Exams/Biology/MSCE Biology Questions and Suggested Solutions.pdf",
     "size": 1201190,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f111407c9f"
+    "bucket": 2,
+    "id": "f111407c9f",
+    "level": "msce"
   },
   {
-    "name": "BIOLOGY form 3.pdf",
+    "name": "MSCE Biology Form 3 Coursebook.pdf",
     "path": "Books/Biology/BIOLOGY form 3.pdf",
     "size": 3467258,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "febce97f32"
+    "id": "febce97f32",
+    "level": "msce"
   },
   {
-    "name": "BIOLOGY invertebrates summary.pdf",
+    "name": "MSCE Biology - Invertebrates Summary.pdf",
     "path": "Books/Biology/BIOLOGY invertebrates summary.pdf",
     "size": 114132,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "feeb42768f"
+    "id": "feeb42768f",
+    "level": "msce"
   },
   {
-    "name": "BIOLOGY-lesson_cont_2.pdf",
+    "name": "JCE Biology Form 2 Lessons Continuation.pdf",
     "path": "Books/Biology/BIOLOGY-lesson_cont_2.pdf",
     "size": 486577,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fbf28f2ed4"
+    "id": "fbf28f2ed4",
+    "level": "jce"
   },
   {
-    "name": "BIOLOGY.docx",
-    "path": "Books/Biology/BIOLOGY.docx",
+    "name": "Northern Education Division JCE Biology Mock Exam (2026).docx",
+    "path": "Exams/Biology/Northern Education Division JCE Biology Mock Exam (2026).docx",
     "size": 991426,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fa674d9a51"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fa674d9a51",
+    "level": "jce"
   },
   {
-    "name": "BIOLOGY_2021_NED11_Low_quality.pdf",
-    "path": "Books/Biology/BIOLOGY_2021_NED11_Low_quality.pdf",
+    "name": "Northern Education Division MSCE Biology NED11 Exam (2021).pdf",
+    "path": "Exams/Biology/Northern Education Division MSCE Biology NED11 Exam (2021).pdf",
     "size": 726940,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f1df8db1ef"
+    "bucket": 2,
+    "id": "f1df8db1ef",
+    "level": "msce"
   },
   {
-    "name": "BIOLOGY_ASSESSM.doc",
-    "path": "Books/Biology/BIOLOGY_ASSESSM.doc",
+    "name": "MSCE Biology Assessment Examination.doc",
+    "path": "Exams/Biology/MSCE Biology Assessment Examination.doc",
     "size": 30720,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f71a784c95"
+    "bucket": 2,
+    "id": "f71a784c95",
+    "level": "msce"
   },
   {
-    "name": "BIOLOGY_BY_ME.pdf",
+    "name": "MSCE Biology Student Study Guide.pdf",
     "path": "Books/Biology/BIOLOGY_BY_ME.pdf",
     "size": 820962,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f9a6e5ea7c"
+    "id": "f9a6e5ea7c",
+    "level": "msce"
   },
   {
-    "name": "BIOLOGY_EXCEL_-_BOOK_4-1.pdf",
-    "path": "Books/Biology/BIOLOGY_EXCEL_-_BOOK_4-1.pdf",
-    "size": 5249107,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f2c2a0d4b5"
-  },
-  {
-    "name": "BIOLOGY_F4_PII_TERM_1.pdf",
-    "path": "Books/Biology/BIOLOGY_F4_PII_TERM_1_.pdf",
+    "name": "St Godfrey Secondary School MSCE Biology Paper II Practical Exam (2021).pdf",
+    "path": "Exams/Biology/St Godfrey Secondary School MSCE Biology Paper II Practical Exam (2021).pdf",
     "size": 1514753,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fdc4d2a411"
+    "bucket": 2,
+    "id": "fdc4d2a411",
+    "level": "msce"
   },
   {
-    "name": "BIOLOGY_FORM_1.pdf",
+    "name": "JCE Biology Form 1 Notes and Exercises.pdf",
     "path": "Books/Biology/BIOLOGY_FORM_1.pdf",
     "size": 1403882,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fde21d9534"
+    "id": "fde21d9534",
+    "level": "jce"
   },
   {
-    "name": "BIOLOGY_FORM_2_NOTES-1.pdf",
+    "name": "JCE Biology Form 2 Notes.pdf",
     "path": "Books/Biology/BIOLOGY_FORM_2_NOTES-1.pdf",
     "size": 1540165,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fb4c1a47c5"
+    "id": "fb4c1a47c5",
+    "level": "jce"
   },
   {
-    "name": "BIOLOGY_FORM_3.pdf",
+    "name": "MSCE Biology Form 3 Complete Textbook.pdf",
     "path": "Books/Biology/BIOLOGY_FORM_3.pdf",
     "size": 5833929,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f4f4000d21"
+    "id": "f4f4000d21",
+    "level": "msce"
   },
   {
-    "name": "BIOLOGY_FORMs_2-1.pdf",
+    "name": "JCE Biology Form 2 Topic Notes.pdf",
     "path": "Books/Biology/BIOLOGY_FORMs_2-1.pdf",
     "size": 171202,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f60c0db78d"
+    "id": "f60c0db78d",
+    "level": "jce"
   },
   {
-    "name": "BIOLOGY_FORMs_2.pdf",
+    "name": "JCE Biology Form 2 Lesson Summaries.pdf",
     "path": "Books/Biology/BIOLOGY_FORMs_2.pdf",
     "size": 261046,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f6a39f09e2"
+    "id": "f6a39f09e2",
+    "level": "jce"
   },
   {
-    "name": "BIOLOGY_FORMs_2Lolas_Chauta.pdf",
+    "name": "JCE Biology Form 2 Notes (Lolas Chauta).pdf",
     "path": "Books/Biology/BIOLOGY_FORMs_2Lolas_Chauta.pdf",
     "size": 206124,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "faa7586784"
+    "id": "faa7586784",
+    "level": "jce"
   },
   {
-    "name": "BIOLOGY_I-1.pdf",
-    "path": "Books/Biology/BIOLOGY_I-1 (1).pdf",
+    "name": "Northern Education Division MSCE Biology Paper I Exam (2020).pdf",
+    "path": "Exams/Biology/Northern Education Division MSCE Biology Paper I Exam (2020).pdf",
     "size": 393163,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f6a653e7c4"
+    "bucket": 2,
+    "id": "f6a653e7c4",
+    "level": "msce"
   },
   {
-    "name": "BIOLOGY_PP_I.pdf",
-    "path": "Books/Biology/BIOLOGY_PP_I(1).pdf",
+    "name": "Hill Crescent Secondary School MSCE Biology Paper I Mock Exam (2022).pdf",
+    "path": "Exams/Biology/Hill Crescent Secondary School MSCE Biology Paper I Mock Exam (2022).pdf",
     "size": 1849605,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f436ac97d4"
+    "bucket": 2,
+    "id": "f436ac97d4",
+    "level": "msce"
   },
   {
-    "name": "BIOLOGY_PRACTICAL_TRAINING_102848.pdf",
-    "path": "Books/Biology/BIOLOGY_PRACTICAL_TRAINING_102848.pdf",
+    "name": "MSCE Biology Practical Questions and Model Solutions (Winners).pdf",
+    "path": "Q&A/Biology/MSCE Biology Practical Questions and Model Solutions (Winners).pdf",
     "size": 16888,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fe2398989d"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fe2398989d",
+    "level": "msce"
   },
   {
-    "name": "BIOLOGY_REVISION_BOOKLET-1.pdf",
+    "name": "MSCE Biology Comprehensive Revision Booklet.pdf",
     "path": "Books/Biology/BIOLOGY_REVISION_BOOKLET-1_(1).pdf",
     "size": 527781,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f7c2036026"
+    "id": "f7c2036026",
+    "level": "msce"
   },
   {
-    "name": "BIOLOGY_REVISION_BOOKLET_-1.pdf",
-    "path": "Books/Biology/BIOLOGY_REVISION_BOOKLET_-1.pdf",
-    "size": 519510,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f9e4045266"
-  },
-  {
-    "name": "BIOLOGY_TRANSPIRATION_ESSAY_1.pdf",
-    "path": "Books/Biology/BIOLOGY_TRANSPIRATION_ESSAY_1.pdf",
+    "name": "MSCE Biology Transpiration Essay and Model Answer.pdf",
+    "path": "Q&A/Biology/MSCE Biology Transpiration Essay and Model Answer.pdf",
     "size": 197134,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fe39d67ba8"
+    "bucket": 2,
+    "id": "fe39d67ba8",
+    "level": "msce"
   },
   {
-    "name": "BIOLOGY__FORM_1_TO_FORM_4_.uthenga.pdf",
+    "name": "Secondary Biology Forms 1 to 4 Complete (Uthenga).pdf",
     "path": "Books/Biology/BIOLOGY__FORM_1_TO_FORM_4_.uthenga.pdf",
     "size": 2572911,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f4d43d3363"
+    "id": "f4d43d3363",
+    "level": "both"
   },
   {
-    "name": "BIOLOGY___FORM_2._NOTES.pdf",
+    "name": "JCE Biology Form 2 Notes (Alternative Edition).pdf",
     "path": "Books/Biology/BIOLOGY___FORM_2._NOTES_(1).pdf",
     "size": 1455501,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f646003b68"
+    "id": "f646003b68",
+    "level": "jce"
   },
   {
-    "name": "BIOLOLGY_NOTES.pdf",
+    "name": "Secondary Biology Comprehensive Notes.pdf",
     "path": "Books/Biology/BIOLOLGY_NOTES.pdf",
     "size": 1533602,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fb5bd50f2c"
+    "id": "fb5bd50f2c",
+    "level": "both"
   },
   {
-    "name": "BIOS_ESSY.pdf",
-    "path": "Books/Biology/BIOS_ESSY.pdf",
+    "name": "MSCE Biology Essays and Solutions.pdf",
+    "path": "Q&A/Biology/MSCE Biology Essays and Solutions.pdf",
     "size": 149287,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fb3523479f"
+    "bucket": 2,
+    "id": "fb3523479f",
+    "level": "msce"
   },
   {
-    "name": "BIOTECHNOLOGY(EVA).pdf",
+    "name": "MSCE Biology - Biotechnology (Eva).pdf",
     "path": "Books/Biology/BIOTECHNOLOGY(EVA)(1).pdf",
     "size": 211081,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f4cee2e975"
+    "id": "f4cee2e975",
+    "level": "msce"
   },
   {
-    "name": "BIOZ_ESSAY.pdf",
-    "path": "Books/Biology/BIOZ_ESSAY.pdf",
+    "name": "BIOZ Comprehensive Biology Essays Booklet.pdf",
+    "path": "Q&A/Biology/BIOZ Comprehensive Biology Essays Booklet.pdf",
     "size": 2140728,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f49d51b8f3"
+    "bucket": 2,
+    "id": "f49d51b8f3",
+    "level": "msce"
   },
   {
-    "name": "BIO_1.pdf",
+    "name": "JCE Biology Form 1 Concise Coursebook.pdf",
     "path": "Books/Biology/BIO_1(0).pdf",
     "size": 773193,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f39006706a"
+    "id": "f39006706a",
+    "level": "jce"
   },
   {
-    "name": "BIO_11.pdf",
-    "path": "Books/Biology/BIO_11.pdf",
-    "size": 773654,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f162433084"
-  },
-  {
-    "name": "BIO_1_F4.pdf",
-    "path": "Books/Biology/BIO_1_F4.pdf",
+    "name": "Lizulu CDSS MSCE Biology Theory Paper I Mock Exam (2020).pdf",
+    "path": "Exams/Biology/Lizulu CDSS MSCE Biology Theory Paper I Mock Exam (2020).pdf",
     "size": 973907,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f543e9feef"
+    "bucket": 2,
+    "id": "f543e9feef",
+    "level": "msce"
   },
   {
-    "name": "BIO_3.pdf",
-    "path": "Books/Biology/BIO_3_(1).pdf",
-    "size": 5588438,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f977033989"
-  },
-  {
-    "name": "BIO_3_(EXCEL_AND_SUCCEED)_(1)_1.pdf",
+    "name": "Excel and Succeed Biology Book 3 (Expanded Edition).pdf",
     "path": "Books/Biology/BIO_3_(EXCEL_AND_SUCCEED)_(1)_1.pdf",
     "size": 77930243,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f0ec0d8056"
+    "id": "f0ec0d8056",
+    "level": "msce"
   },
   {
-    "name": "BIO_BOOK_3.pdf",
+    "name": "MSCE Biology Book 3.pdf",
     "path": "Books/Biology/BIO_BOOK_3.pdf",
     "size": 6016709,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f5fd373f29"
+    "id": "f5fd373f29",
+    "level": "msce"
   },
   {
-    "name": "BIO_BOOK_3_EXCEL (1)_1.pdf",
-    "path": "Books/Biology/BIO_BOOK_3_EXCEL (1)_1.pdf",
-    "size": 39323844,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fc121dbb30"
-  },
-  {
-    "name": "BIO_BOOK_4_EXCEL_1.pdf",
+    "name": "MSCE Biology Book 4 (Excel Edition).pdf",
     "path": "Books/Biology/BIO_BOOK_4_EXCEL_1.pdf",
     "size": 52973516,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "ffe9885bf7"
+    "id": "ffe9885bf7",
+    "level": "msce"
   },
   {
-    "name": "BIO_CHANCO_BOOK (1)_1.pdf",
+    "name": "Chanco Secondary and College Biology Textbook.pdf",
     "path": "Books/Biology/BIO_CHANCO_BOOK (1)_1.pdf",
     "size": 21530292,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fa18b8edc7"
+    "id": "fa18b8edc7",
+    "level": "both"
   },
   {
-    "name": "BIO_F_1_-__END_OFTERM_II-1.pdf",
-    "path": "Books/Biology/BIO_F_1_-__END_OFTERM_II-1_(1).pdf",
+    "name": "Maranatha Academy JCE Biology Form 1 End of Term II Exam (2019).pdf",
+    "path": "Exams/Biology/Maranatha Academy JCE Biology Form 1 End of Term II Exam (2019).pdf",
     "size": 597601,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fe9dd6ffc9"
+    "bucket": 2,
+    "id": "fe9dd6ffc9",
+    "level": "jce"
   },
   {
-    "name": "BIO_HELP.pdf",
+    "name": "Secondary Biology Quick Revision Guide.pdf",
     "path": "Books/Biology/BIO_HELP(1).pdf",
     "size": 165299,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f00b0095c5"
+    "id": "f00b0095c5",
+    "level": "both"
   },
   {
-    "name": "BIO_MASSIVE_PRACTICAL_DIRECTING-1.pdf",
+    "name": "MSCE Biology Practical Directing Guide.pdf",
     "path": "Books/Biology/BIO_MASSIVE_PRACTICAL_DIRECTING-1.pdf",
     "size": 1393392,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f89da60d07"
+    "id": "f89da60d07",
+    "level": "msce"
   },
   {
-    "name": "BIO_P1.RUMPHI_EDUCATION_CLUSTER.-1-1.pdf",
-    "path": "Books/Biology/BIO_P1.RUMPHI_EDUCATION_CLUSTER.-1-1.pdf",
+    "name": "Rumphi Education Cluster MSCE Biology Paper 1 Mock Exam.pdf",
+    "path": "Exams/Biology/Rumphi Education Cluster MSCE Biology Paper 1 Mock Exam.pdf",
     "size": 700568,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fe62407577"
+    "bucket": 2,
+    "id": "fe62407577",
+    "level": "msce"
   },
   {
-    "name": "BIO_PP_2_BGA.pdf",
-    "path": "Books/Biology/BIO_PP_2_BGA (1).pdf",
+    "name": "Beautiful Gate Academy MSCE Biology Paper II Mock Exam (2019).pdf",
+    "path": "Exams/Biology/Beautiful Gate Academy MSCE Biology Paper II Mock Exam (2019).pdf",
     "size": 161165,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f05a941ff4"
+    "bucket": 2,
+    "id": "f05a941ff4",
+    "level": "msce"
   },
   {
-    "name": "BIO_PRACTICAL.pdf",
-    "path": "Books/Biology/BIO_PRACTICAL.pdf",
+    "name": "Hill Crescent Secondary School MSCE Biology Paper II Practical Mock Exam (2021).pdf",
+    "path": "Exams/Biology/Hill Crescent Secondary School MSCE Biology Paper II Practical Mock Exam (2021).pdf",
     "size": 319706,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f67daa7cfa"
+    "bucket": 2,
+    "id": "f67daa7cfa",
+    "level": "msce"
   },
   {
-    "name": "BIO_PRACTICALS_1.pdf",
-    "path": "Books/Biology/BIO_PRACTICALS_1.pdf",
-    "size": 1469989,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "feca25d150"
-  },
-  {
-    "name": "BIO_PRACTICAL_BOOK.pdf",
+    "name": "MSCE Biology Practical Handbook.pdf",
     "path": "Books/Biology/BIO_PRACTICAL_BOOK.pdf",
     "size": 1481662,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f7d91ac4ba"
+    "id": "f7d91ac4ba",
+    "level": "msce"
   },
   {
-    "name": "BIO_PRACTICAL_PASS_CODE_BY_J.YAMBANI.pdf",
+    "name": "MSCE Biology Practical Pass Code (Yambani).pdf",
     "path": "Books/Biology/BIO_PRACTICAL_PASS_CODE_BY_J.YAMBANI (1).pdf",
     "size": 539405,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fdeac63450"
+    "id": "fdeac63450",
+    "level": "msce"
   },
   {
-    "name": "BIO_THEORY.pdf",
-    "path": "Books/Biology/BIO_THEORY.pdf",
+    "name": "Hill Crescent Secondary School MSCE Biology Paper I Mock Exam (2021).pdf",
+    "path": "Exams/Biology/Hill Crescent Secondary School MSCE Biology Paper I Mock Exam (2021).pdf",
     "size": 446547,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f3bbbfea07"
+    "bucket": 2,
+    "id": "f3bbbfea07",
+    "level": "msce"
   },
   {
-    "name": "BIO_maristPI-1(1)-1.pdf",
-    "path": "Books/Biology/BIO_maristPI-1(1)-1.pdf",
+    "name": "Marist MSCE Biology Paper I Mock Exam (2018).pdf",
+    "path": "Exams/Biology/Marist MSCE Biology Paper I Mock Exam (2018).pdf",
     "size": 830995,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f39e99cd1e"
+    "bucket": 2,
+    "id": "f39e99cd1e",
+    "level": "msce"
   },
   {
-    "name": "BLANTYRE_Bio_II-1.pdf",
-    "path": "Books/Biology/BLANTYRE_Bio_II-1.pdf",
+    "name": "Blantyre District MSCE Biology Paper II Mock Exam.pdf",
+    "path": "Exams/Biology/Blantyre District MSCE Biology Paper II Mock Exam.pdf",
     "size": 310452,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f6246bcb3e"
+    "bucket": 2,
+    "id": "f6246bcb3e",
+    "level": "msce"
   },
   {
-    "name": "Bio(1)dichotomous_key.pdf",
+    "name": "MSCE Biology - Dichotomous Keys.pdf",
     "path": "Books/Biology/Bio(1)dichotomous_key_.pdf",
     "size": 101907,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fee0a13681"
+    "id": "fee0a13681",
+    "level": "msce"
   },
   {
-    "name": "Bio_Book_3_exc_(1).pdf",
+    "name": "MSCE Biology Book 3 (Excel Edition).pdf",
     "path": "Books/Biology/Bio_Book_3_exc_(1)_(1).pdf",
     "size": 5173118,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f04f64e3c9"
+    "id": "f04f64e3c9",
+    "level": "msce"
   },
   {
-    "name": "Bio_Form_4_book.pdf",
+    "name": "MSCE Biology Form 4 Coursebook.pdf",
     "path": "Books/Biology/Bio_Form_4_book.pdf",
     "size": 1346003,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f8c61a1dca"
+    "id": "f8c61a1dca",
+    "level": "msce"
   },
   {
-    "name": "Bio_Rita_dent.pdf",
+    "name": "MSCE Biology Form 4 (Rita Dent Edition).pdf",
     "path": "Books/Biology/Bio_Rita_dent (1).pdf",
     "size": 5093807,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f372fcb970"
+    "id": "f372fcb970",
+    "level": "msce"
   },
   {
-    "name": "Bio_book_3_&_4_1.pdf",
-    "path": "Books/Biology/Bio_book_3_&_4_1.pdf",
-    "size": 8873200,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fc2a2650d5"
-  },
-  {
-    "name": "Bio_easy_question_&_answer-1.pdf",
-    "path": "Books/Biology/Bio_easy_question_&_answer-1.pdf",
+    "name": "MSCE Biology Questions and Answers Made Easy.pdf",
+    "path": "Q&A/Biology/MSCE Biology Questions and Answers Made Easy.pdf",
     "size": 487736,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f2cbaab34c"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f2cbaab34c",
+    "level": "msce"
   },
   {
-    "name": "Bio_practical_Pido.pdf",
-    "path": "Books/Biology/Bio_practical_Pido.pdf",
-    "size": 2733,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fdd952687c"
-  },
-  {
-    "name": "Biology Practical.pdf",
+    "name": "MSCE Biology Practical Study Guide.pdf",
     "path": "Books/Biology/Biology Practical.pdf",
     "size": 268705,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f1adc9b2ca"
+    "id": "f1adc9b2ca",
+    "level": "msce"
   },
   {
-    "name": "Biology book 3 KANYIMBO.pdf",
+    "name": "MSCE Biology Book 3 (Kanyimbo).pdf",
     "path": "Books/Biology/Biology book 3 KANYIMBO.pdf",
     "size": 4304797,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f8324b7063"
+    "id": "f8324b7063",
+    "level": "msce"
   },
   {
-    "name": "Biology-Form-2-1(0).pdf",
-    "path": "Books/Biology/Biology-Form-2-1(0)_(2).pdf",
-    "size": 1454348,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f41e62247e"
-  },
-  {
-    "name": "Biology-Form-2-1.pdf",
+    "name": "JCE Biology Form 2 Textbook.pdf",
     "path": "Books/Biology/Biology-Form-2-1.pdf",
     "size": 1451078,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fff3e46017"
+    "id": "fff3e46017",
+    "level": "jce"
   },
   {
-    "name": "Biology_(Form_3).pdf",
-    "path": "Books/Biology/Biology_(Form_3).pdf",
-    "size": 2702046,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fca06b687b"
-  },
-  {
-    "name": "Biology_(Form_3)_(1).pdf",
+    "name": "MSCE Biology Form 3 (Comprehensive).pdf",
     "path": "Books/Biology/Biology_(Form_3)_(1) (1).pdf",
     "size": 2916962,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "ffe712cdc6"
+    "id": "ffe712cdc6",
+    "level": "msce"
   },
   {
-    "name": "Biology_3_$_4.pdf",
+    "name": "MSCE Biology Forms 3 and 4 Modular Coursebook.pdf",
     "path": "Books/Biology/Biology_3_$_4.pdf",
     "size": 4846917,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f6887b2dcc"
+    "id": "f6887b2dcc",
+    "level": "msce"
   },
   {
-    "name": "Biology_Essay.pdf",
-    "path": "Books/Biology/Biology_Essay_(1).pdf",
+    "name": "MSCE Biology Essays and Explanations.pdf",
+    "path": "Q&A/Biology/MSCE Biology Essays and Explanations.pdf",
     "size": 430351,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fa1f068df0"
+    "bucket": 2,
+    "id": "fa1f068df0",
+    "level": "msce"
   },
   {
-    "name": "Biology_Essays_&_Answers_pdf3.pdf",
-    "path": "Books/Biology/Biology_Essays_&_Answers_pdf3.pdf",
+    "name": "MSCE Biology Essays and Answers (Part 3).pdf",
+    "path": "Q&A/Biology/MSCE Biology Essays and Answers (Part 3).pdf",
     "size": 166670,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f89b5a0365"
+    "bucket": 2,
+    "id": "f89b5a0365",
+    "level": "msce"
   },
   {
-    "name": "Biology_Essays_&_Answers_pdf3.pdf",
-    "path": "Books/Biology/Biology_Essays_&_Answers_pdf3_(1).pdf",
-    "size": 162472,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f2ca8d9e6e"
-  },
-  {
-    "name": "Biology_Essays.pdf",
-    "path": "Books/Biology/Biology_Essays_(2).pdf",
-    "size": 49274,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fa6f2faa9c"
-  },
-  {
-    "name": "Biology_F4.docx",
-    "path": "Books/Biology/Biology_F4.docx",
+    "name": "Masongola Secondary School MSCE Biology Paper II Practical Exam (2021).docx",
+    "path": "Exams/Biology/Masongola Secondary School MSCE Biology Paper II Practical Exam (2021).docx",
     "size": 35146,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f4353ceb98"
+    "bucket": 2,
+    "id": "f4353ceb98",
+    "level": "msce"
   },
   {
-    "name": "Biology_book_3_&_4-1-1.pdf",
+    "name": "MSCE Biology Forms 3 and 4 Comprehensive Textbook.pdf",
     "path": "Books/Biology/Biology_book_3_&_4-1-1.pdf",
     "size": 7706006,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fd0dfb2b49"
+    "id": "fd0dfb2b49",
+    "level": "msce"
   },
   {
-    "name": "Biology_syllabus_Forms_3-4.doc",
+    "name": "Malawi National Curriculum Biology Syllabus (Forms 3-4).doc",
     "path": "Books/Biology/Biology_syllabus_Forms_3-4.doc",
     "size": 850944,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f8fb9bdf84"
+    "id": "f8fb9bdf84",
+    "level": "msce"
   },
   {
-    "name": "Bios_EXPERIMENTS-1.pdf",
+    "name": "MSCE Biology Experiments Guide (Bioz).pdf",
     "path": "Books/Biology/Bios_EXPERIMENTS-1.pdf",
     "size": 708183,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fb82bc1063"
+    "id": "fb82bc1063",
+    "level": "msce"
   },
   {
-    "name": "Bioz Essays & Answers (1).pdf",
-    "path": "Books/Biology/Bioz Essays & Answers (1) (1).pdf",
-    "size": 299670,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fbdaff6ebf"
-  },
-  {
-    "name": "Bioz essays_1.pdf",
-    "path": "Books/Biology/Bioz essays_1.pdf",
+    "name": "Bioz MSCE Biology Model Essays and Answers.pdf",
+    "path": "Q&A/Biology/Bioz MSCE Biology Model Essays and Answers.pdf",
     "size": 550283,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fd3b38edd0"
-  },
-  {
-    "name": "Bioz_Essays_&_Answers.pdf",
-    "path": "Books/Biology/Bioz_Essays_&_Answers(0).pdf",
-    "size": 212401,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fc49a8bd11"
-  },
-  {
-    "name": "Bioz_Essays_&_Answers(1)-1_1.pdf",
-    "path": "Books/Biology/Bioz_Essays_&_Answers(1)-1_1.pdf",
-    "size": 271045,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f977e440a7"
-  },
-  {
-    "name": "Bioz_Essays_&_Answers_1.docx",
-    "path": "Books/Biology/Bioz_Essays_&_Answers_1.docx",
-    "size": 54752,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fd7873f964"
-  },
-  {
-    "name": "Bioz_book_3(2)_1.pdf",
-    "path": "Books/Biology/Bioz_book_3(2)_1.pdf",
-    "size": 6016709,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f281fbb553"
-  },
-  {
-    "name": "Bioz_book_3-1.pdf",
-    "path": "Books/Biology/Bioz_book_3-1_(1).pdf",
-    "size": 6026316,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f29bd2bb5b"
+    "bucket": 2,
+    "id": "fd3b38edd0",
+    "level": "msce"
   },
   {
-    "name": "Bioz_book_3.pdf",
+    "name": "MSCE Biology Book 3 (Bioz Edition).pdf",
     "path": "Books/Biology/Bioz_book_3.pdf",
     "size": 6030442,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f89eeaa3bc"
+    "id": "f89eeaa3bc",
+    "level": "msce"
   },
   {
-    "name": "Bioz_essays.pdf",
-    "path": "Books/Biology/Bioz_essays.pdf",
-    "size": 549837,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f049adfab3"
-  },
-  {
-    "name": "CHOLERA TRAINING FORM.pdf",
+    "name": "Epidemiology and Cholera Pathology Notes.pdf",
     "path": "Books/Biology/CHOLERA TRAINING FORM.pdf",
     "size": 733788,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fa699323c8"
+    "id": "fa699323c8",
+    "level": "msce"
   },
   {
-    "name": "Chanco_bio_que_&_answ_(1).pdf",
-    "path": "Books/Biology/Chanco_bio_que_&_answ_(1)_(1).pdf",
+    "name": "Chancellor College Biology Questions and Answers.pdf",
+    "path": "Q&A/Biology/Chancellor College Biology Questions and Answers.pdf",
     "size": 5100967,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f68528b58d"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f68528b58d",
+    "level": "msce"
   },
   {
-    "name": "Chemistry_&_biology__questions.pdf",
-    "path": "Books/Biology/Chemistry_&_biology__questions.pdf",
+    "name": "Secondary School Chemistry and Biology Review Questions.pdf",
+    "path": "Q&A/Biology/Secondary School Chemistry and Biology Review Questions.pdf",
     "size": 6417148,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f209662940"
+    "bucket": 2,
+    "id": "f209662940",
+    "level": "both"
   },
   {
-    "name": "DRUGS_AFFECTING_THE_NERVOUS_STSYTEM_2019_-_Copy.pdf",
+    "name": "Pharmacology - Drugs Affecting the Nervous System.pdf",
     "path": "Books/Biology/DRUGS_AFFECTING_THE_NERVOUS_STSYTEM_2019_-_Copy.pdf",
     "size": 159153,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fc4a9a15cd"
+    "id": "fc4a9a15cd",
+    "level": "msce"
   },
   {
-    "name": "DRUGS_AFFECTING_cardiovascular_system.pptx",
+    "name": "Pharmacology - Drugs Affecting the Cardiovascular System.pptx",
     "path": "Books/Biology/DRUGS_AFFECTING_cardiovascular_system.pptx",
     "size": 133295,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f652bfd39e"
+    "id": "f652bfd39e",
+    "level": "msce"
   },
   {
-    "name": "Digestion.pdf",
+    "name": "MSCE Biology - Digestion Notes.pdf",
     "path": "Books/Biology/Digestion_(1).pdf",
     "size": 1142014,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f5e3d391bb"
+    "id": "f5e3d391bb",
+    "level": "msce"
   },
   {
-    "name": "Drugs_acting_on_urinary_system_2.pptx",
+    "name": "Pharmacology - Drugs Acting on the Urinary System.pptx",
     "path": "Books/Biology/Drugs_acting_on_urinary_system_2_(1).pptx",
     "size": 214961,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f0b2d4d9bb"
+    "id": "f0b2d4d9bb",
+    "level": "msce"
   },
   {
-    "name": "EXCEL & SUCCEED BIO 4.pdf",
+    "name": "Excel and Succeed Biology Book 4 (Complete).pdf",
     "path": "Books/Biology/EXCEL & SUCCEED BIO 4.pdf",
     "size": 55318102,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fb79ba71d4"
+    "id": "fb79ba71d4",
+    "level": "msce"
   },
   {
-    "name": "EXCELL_BIOLOGY_BOOK_1.pdf",
+    "name": "Excel and Succeed Biology Book 1 (Complete).pdf",
     "path": "Books/Biology/EXCELL_BIOLOGY_BOOK_1.pdf",
     "size": 38208228,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "ff0b1e7e67"
+    "id": "ff0b1e7e67",
+    "level": "jce"
   },
   {
-    "name": "EXCELL_BIOLOGY_BOOK_2-1.pdf",
+    "name": "Excel and Succeed Biology Book 2 (Complete).pdf",
     "path": "Books/Biology/EXCELL_BIOLOGY_BOOK_2-1_(1).pdf",
     "size": 35273294,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f0f781756e"
+    "id": "f0f781756e",
+    "level": "jce"
   },
   {
-    "name": "EXCELL_BIOLOGY_BOOK_3.pdf",
+    "name": "Excel and Succeed Biology Book 3 (Complete).pdf",
     "path": "Books/Biology/EXCELL_BIOLOGY_BOOK_3.pdf",
     "size": 53039245,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fbe094ed9c"
+    "id": "fbe094ed9c",
+    "level": "msce"
   },
   {
-    "name": "EXCELL_BIOLOGY_BOOK_4.pdf",
+    "name": "Excel and Succeed Biology Book 4 (Deluxe Edition).pdf",
     "path": "Books/Biology/EXCELL_BIOLOGY_BOOK_4.pdf",
     "size": 59490974,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "ffaa461937"
+    "id": "ffaa461937",
+    "level": "msce"
   },
   {
-    "name": "EXCEL_BIO4.pdf",
+    "name": "Excel Biology Book 4 (Study Edition).pdf",
     "path": "Books/Biology/EXCEL_BIO4.pdf",
     "size": 15459755,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f3fa5bdf7b"
+    "id": "f3fa5bdf7b",
+    "level": "msce"
   },
   {
-    "name": "Excel Bio 3 old syllabus.pdf",
-    "path": "Books/Biology/Excel Bio 3 old syllabus.pdf",
-    "size": 2,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fe7dc1c2c8"
-  },
-  {
-    "name": "Excel_bio_book_2.pdf",
+    "name": "Excel Biology Book 2.pdf",
     "path": "Books/Biology/Excel_bio_book_2_(1).pdf",
     "size": 12660328,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fdb04eae6b"
+    "id": "fdb04eae6b",
+    "level": "jce"
   },
   {
-    "name": "Excel_biology_3_1.pdf",
+    "name": "Excel Biology Book 3 (Compact Edition).pdf",
     "path": "Books/Biology/Excel_biology_3_1.pdf",
     "size": 5673025,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fcd804ceb4"
+    "id": "fcd804ceb4",
+    "level": "msce"
   },
   {
-    "name": "Experiment_for_biology.pdf",
+    "name": "MSCE Biology Laboratory Experiments Guide.pdf",
     "path": "Books/Biology/Experiment_for_biology_(1).pdf",
     "size": 1370669,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fabcb07088"
+    "id": "fabcb07088",
+    "level": "msce"
   },
   {
-    "name": "FORM 3 BIOLOGY- THOKOZANI-TARGET.pdf",
+    "name": "MSCE Biology Form 3 (Thokozani Target).pdf",
     "path": "Books/Biology/FORM 3 BIOLOGY- THOKOZANI-TARGET.pdf",
     "size": 3709843,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f28134f6c0"
+    "id": "f28134f6c0",
+    "level": "msce"
   },
   {
-    "name": "FORM_2_BIO-1.pdf",
+    "name": "JCE Biology Form 2 Coursebook.pdf",
     "path": "Books/Biology/FORM_2_BIO-1_(1).pdf",
     "size": 1749201,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f486715982"
+    "id": "f486715982",
+    "level": "jce"
   },
   {
-    "name": "FORM_4_BIOLOGY._SIR_LITA_1.pdf",
+    "name": "MSCE Biology Form 4 (Sir Lita).pdf",
     "path": "Books/Biology/FORM_4_BIOLOGY._SIR_LITA_1.pdf",
     "size": 9617254,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fc2e4ab82a"
+    "id": "fc2e4ab82a",
+    "level": "msce"
   },
   {
-    "name": "GENETICS__2_NOTES.pdf",
+    "name": "MSCE Biology - Genetics Notes (Part 2).pdf",
     "path": "Books/Biology/GENETICS__2_NOTES.pdf",
     "size": 274955,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fc3230a3cc"
+    "id": "fc3230a3cc",
+    "level": "msce"
   },
   {
-    "name": "HOW TO WRITE BIOLOGY ESSAY.pdf",
-    "path": "Books/Biology/HOW TO WRITE BIOLOGY ESSAY.pdf",
+    "name": "How to Write MSCE Biology Essays Guide.pdf",
+    "path": "Q&A/Biology/How to Write MSCE Biology Essays Guide.pdf",
     "size": 550470,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fe34f3cbd7"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fe34f3cbd7",
+    "level": "msce"
   },
   {
-    "name": "IMMUNITY_NOTES-1.pdf",
+    "name": "MSCE Biology - Immunity and Defense Mechanisms.pdf",
     "path": "Books/Biology/IMMUNITY_NOTES-1.pdf",
     "size": 212593,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f41cfc83d8"
+    "id": "f41cfc83d8",
+    "level": "msce"
   },
   {
-    "name": "JC BIOLOGY FORM 1.pdf",
+    "name": "JCE Biology Form 1 Complete Textbook.pdf",
     "path": "Books/Biology/JC BIOLOGY FORM 1.pdf",
     "size": 5182862,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f344fc4ab2"
+    "id": "f344fc4ab2",
+    "level": "jce"
   },
   {
-    "name": "JCE BIOLOGY.pdf",
+    "name": "JCE Biology Modular Textbook.pdf",
     "path": "Books/Biology/JCE BIOLOGY.pdf",
     "size": 1169406,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f2b1e7c085"
+    "id": "f2b1e7c085",
+    "level": "jce"
   },
   {
-    "name": "KANYIMBO- BIO PRACTICAL HANDBOOK.pdf",
+    "name": "MSCE Biology Practical Handbook (Kanyimbo).pdf",
     "path": "Books/Biology/KANYIMBO- BIO PRACTICAL HANDBOOK.pdf",
     "size": 9038297,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f52a46d959"
+    "id": "f52a46d959",
+    "level": "msce"
   },
   {
-    "name": "KUDINKULA_BIOLOGY-1.pdf",
-    "path": "Books/Biology/KUDINKULA_BIOLOGY-1.pdf",
+    "name": "Kudinkula MSCE Biology Questions with Solutions.pdf",
+    "path": "Q&A/Biology/Kudinkula MSCE Biology Questions with Solutions.pdf",
     "size": 3273574,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f4cf041cca"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f4cf041cca",
+    "level": "msce"
   },
   {
-    "name": "LECTURE 2 Sexual Reproductive System [Compatibility Mode].pdf",
+    "name": "Human Anatomy - Sexual Reproductive System Lecture Notes.pdf",
     "path": "Books/Biology/LECTURE 2 Sexual Reproductive System [Compatibility Mode].pdf",
     "size": 2695045,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f657149e8e"
+    "id": "f657149e8e",
+    "level": "msce"
   },
   {
-    "name": "LECTURE 3 Skeletal System [Compatibility Mode].pdf",
+    "name": "Human Anatomy - Skeletal System Lecture Notes.pdf",
     "path": "Books/Biology/LECTURE 3 Skeletal System [Compatibility Mode].pdf",
     "size": 1419458,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fd4e2950a8"
+    "id": "fd4e2950a8",
+    "level": "msce"
   },
   {
-    "name": "LILONGWE_RURAL_WEST Bio II.docx",
-    "path": "Books/Biology/LILONGWE_RURAL_WEST Bio II.docx",
+    "name": "Lilongwe Rural West MSCE Biology Paper II Practical Mock Exam (2024).docx",
+    "path": "Exams/Biology/Lilongwe Rural West MSCE Biology Paper II Practical Mock Exam (2024).docx",
     "size": 33886,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f8b8df7ce7"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f8b8df7ce7",
+    "level": "msce"
   },
   {
-    "name": "LILONGWE_RURAL_WEST Bio II.pdf",
-    "path": "Books/Biology/LILONGWE_RURAL_WEST Bio II.pdf",
+    "name": "Lilongwe Rural West MSCE Biology Paper II Practical Mock Exam (2024).pdf",
+    "path": "Exams/Biology/Lilongwe Rural West MSCE Biology Paper II Practical Mock Exam (2024).pdf",
     "size": 106657,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f1e8e08c16"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f1e8e08c16",
+    "level": "msce"
   },
   {
-    "name": "MASTERING BIO ESSAYS KUGWETSA-1_1.pdf",
-    "path": "Books/Biology/MASTERING BIO ESSAYS KUGWETSA-1_1.pdf",
-    "size": 4824973,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fe23e06066"
-  },
-  {
-    "name": "MASTERING_BIO_ESSAYS_KUGWETSA.pdf",
-    "path": "Books/Biology/MASTERING_BIO_ESSAYS_KUGWETSA.pdf",
+    "name": "Mastering MSCE Biology Essays (Kugwetsa).pdf",
+    "path": "Q&A/Biology/Mastering MSCE Biology Essays (Kugwetsa).pdf",
     "size": 4827936,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fb46884754"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fb46884754",
+    "level": "msce"
   },
   {
-    "name": "MODERN_Biology_(Form_3).pdf",
+    "name": "Modern Biology Form 3 Textbook.pdf",
     "path": "Books/Biology/MODERN_Biology_(Form_3).pdf",
     "size": 2705234,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fed3fd67a4"
+    "id": "fed3fd67a4",
+    "level": "msce"
   },
   {
-    "name": "MSCE_BIOLOGY_PI.pdf",
-    "path": "Books/Biology/MSCE_BIOLOGY_PI.pdf",
+    "name": "St Marys Secondary School MSCE Biology Paper I Mock Exam (2021).pdf",
+    "path": "Exams/Biology/St Marys Secondary School MSCE Biology Paper I Mock Exam (2021).pdf",
     "size": 246696,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f9c3454605"
+    "bucket": 2,
+    "id": "f9c3454605",
+    "level": "msce"
   },
   {
-    "name": "Mwitana's Biology Form 4 Notes-1.pdf",
+    "name": "MSCE Biology Form 4 Notes (Mwitana).pdf",
     "path": "Books/Biology/Mwitana's Biology Form 4 Notes-1.pdf",
     "size": 2182119,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f7e36eba31"
+    "id": "f7e36eba31",
+    "level": "msce"
   },
   {
-    "name": "Mwitana's Form 1 Biology notes.pdf",
+    "name": "JCE Biology Form 1 Notes (Mwitana).pdf",
     "path": "Books/Biology/Mwitana's Form 1 Biology notes.pdf",
     "size": 2772939,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f11aa2f437"
+    "id": "f11aa2f437",
+    "level": "jce"
   },
   {
-    "name": "Oyimbo-biology book.pdf",
+    "name": "Secondary Biology Textbook (Oyimbo).pdf",
     "path": "Books/Biology/Oyimbo-biology book_.pdf",
     "size": 13075297,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f29eeb650a"
+    "id": "f29eeb650a",
+    "level": "msce"
   },
   {
-    "name": "Reproduction_Notes_09-1.pdf",
+    "name": "MSCE Biology - Reproduction Notes.pdf",
     "path": "Books/Biology/Reproduction_Notes_09-1 (1).pdf",
     "size": 675656,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f001852fad"
+    "id": "f001852fad",
+    "level": "msce"
   },
   {
-    "name": "Respiration_and_Fermentation2-1.pdf",
+    "name": "MSCE Biology - Respiration and Fermentation.pdf",
     "path": "Books/Biology/Respiration_and_Fermentation2-1 (1).pdf",
     "size": 509969,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f10d1ed5d6"
+    "id": "f10d1ed5d6",
+    "level": "msce"
   },
   {
-    "name": "Respiratory.pdf",
+    "name": "MSCE Biology - Respiratory System.pdf",
     "path": "Books/Biology/Respiratory_.pdf",
     "size": 465842,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f71c71b744"
+    "id": "f71c71b744",
+    "level": "msce"
   },
   {
-    "name": "SENIOR_BIOLOGY_3-1-1.pdf",
+    "name": "Senior Biology Form 3 Textbook.pdf",
     "path": "Books/Biology/SENIOR_BIOLOGY_3-1-1(0).pdf",
     "size": 6030663,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f5f3251be1"
+    "id": "f5f3251be1",
+    "level": "msce"
   },
   {
-    "name": "THEDIGESTIVESYSTEM.pdf",
+    "name": "MSCE Biology - Digestive System Summary.pdf",
     "path": "Books/Biology/THEDIGESTIVESYSTEM.pdf",
     "size": 41311,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f4ab0b3b06"
+    "id": "f4ab0b3b06",
+    "level": "msce"
   },
   {
-    "name": "TIPS ON HOW TO MARK BIOLOGY 1_1.pdf",
-    "path": "Books/Biology/TIPS ON HOW TO MARK BIOLOGY 1_1.pdf",
+    "name": "Tips on How to Mark MSCE Biology (Mwale).pdf",
+    "path": "Exams/Biology/Tips on How to Mark MSCE Biology (Mwale).pdf",
     "size": 267327,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f9fa019caf"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f9fa019caf",
+    "level": "msce"
   },
   {
-    "name": "BIOLOGY_BOOK_1.pdf",
+    "name": "JCE Biology Book 1 Coursebook.pdf",
     "path": "Books/Biology/_BIOLOGY_BOOK_1.pdf",
     "size": 3763668,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f041417643"
+    "id": "f041417643",
+    "level": "jce"
   },
   {
-    "name": "BIOLOGY_BOOK_4-1.pdf",
+    "name": "MSCE Biology Book 4 Coursebook.pdf",
     "path": "Books/Biology/_BIOLOGY_BOOK_4-1.pdf",
     "size": 1516336,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "feb4d811eb"
+    "id": "feb4d811eb",
+    "level": "msce"
   },
   {
-    "name": "Biology_Essays.pdf",
-    "path": "Books/Biology/_Biology_Essays_231209_152136_1.pdf",
-    "size": 226657,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f3b2855a4d"
-  },
-  {
-    "name": "ENZYMES_BIOLGY_EXPERIME.pdf",
+    "name": "MSCE Biology - Enzymes Experiments.pdf",
     "path": "Books/Biology/_ENZYMES_BIOLGY_EXPERIME_(1).pdf",
     "size": 180264,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f7a86ef208"
+    "id": "f7a86ef208",
+    "level": "msce"
   },
   {
-    "name": "anatomy first.pdf",
+    "name": "Human Anatomy and Physiology Foundations.pdf",
     "path": "Books/Biology/anatomy first.pdf",
     "size": 2754479,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fc37117d5d"
+    "id": "fc37117d5d",
+    "level": "msce"
   },
   {
-    "name": "bio_book_4_by_mbereleh.pdf",
+    "name": "MSCE Biology Form 4 (Mbereleh).pdf",
     "path": "Books/Biology/bio_book_4_by_mbereleh.pdf",
     "size": 1628201,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f4b0824fda"
+    "id": "f4b0824fda",
+    "level": "msce"
   },
   {
-    "name": "bio_essay_questions_and_ans.pdf",
-    "path": "Books/Biology/bio_essay_questions_and_ans_(1).pdf",
+    "name": "MSCE Biology Essay Questions and Model Answers.pdf",
+    "path": "Q&A/Biology/MSCE Biology Essay Questions and Model Answers.pdf",
     "size": 264454,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f23fe672bf"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f23fe672bf",
+    "level": "msce"
   },
   {
-    "name": "bio_notes-1.pdf",
+    "name": "MSCE Biology Comprehensive Study Notes.pdf",
     "path": "Books/Biology/bio_notes-1.pdf",
     "size": 2251749,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fe2ad8b6a3"
+    "id": "fe2ad8b6a3",
+    "level": "msce"
   },
   {
-    "name": "bio_oyimbo chanco_1.pdf",
+    "name": "Secondary and College Biology Textbook (Oyimbo Chanco Edition).pdf",
     "path": "Books/Biology/bio_oyimbo chanco_1.pdf",
     "size": 23021633,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f9a46ee38c"
+    "id": "f9a46ee38c",
+    "level": "both"
   },
   {
-    "name": "bio_practical_drawings_@_Degoss.pdf",
+    "name": "Biology Practical Drawings Handbook (Degoss).pdf",
     "path": "Books/Biology/bio_practical_drawings_@_Degoss.pdf",
     "size": 3061306,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f75ec9fe51"
+    "id": "f75ec9fe51",
+    "level": "both"
   },
   {
-    "name": "bio_practical_questions.pdf",
+    "name": "Biology Practical Examination Handbook (Kalonde Thocco).pdf",
     "path": "Books/Biology/bio_practical_questions_(1).pdf",
     "size": 1640565,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f0a7e24389"
+    "id": "f0a7e24389",
+    "level": "msce"
   },
   {
-    "name": "biology_I-1.pdf",
-    "path": "Books/Biology/biology_I-1.pdf",
+    "name": "MSCE Biology Paper I Mock Exam.pdf",
+    "path": "Exams/Biology/MSCE Biology Paper I Mock Exam.pdf",
     "size": 310523,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fa16c98bdb"
+    "bucket": 2,
+    "id": "fa16c98bdb",
+    "level": "msce"
   },
   {
-    "name": "biology_II.pdf",
-    "path": "Books/Biology/biology_II.pdf",
+    "name": "Mzuzu Diocese Schools MSCE Biology Paper II Mock Exam (2020).pdf",
+    "path": "Exams/Biology/Mzuzu Diocese Schools MSCE Biology Paper II Mock Exam (2020).pdf",
     "size": 130692,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f513f5daa3"
+    "bucket": 2,
+    "id": "f513f5daa3",
+    "level": "msce"
   },
   {
-    "name": "excel_&_succeed_bio.pdf",
+    "name": "Excel and Succeed Secondary Biology (Combined Edition).pdf",
     "path": "Books/Biology/excel_&_succeed_bio.pdf",
     "size": 18661480,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f188507978"
+    "id": "f188507978",
+    "level": "both"
   },
   {
-    "name": "farm sales.xlsx",
-    "path": "Books/Biology/farm sales.xlsx",
-    "size": 11118,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f820e8df09"
-  },
-  {
-    "name": "form3_Bios_notes.pdf",
+    "name": "MSCE Biology Form 3 Notes.pdf",
     "path": "Books/Biology/form3_Bios_notes.pdf",
     "size": 6019081,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fb5786aa04"
+    "id": "fb5786aa04",
+    "level": "msce"
   },
   {
     "name": "Business Studies sample JCE (1).pdf",

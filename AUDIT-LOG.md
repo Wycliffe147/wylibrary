@@ -12,7 +12,7 @@ The "After" number represents the clean, frozen count at the moment the folder a
 | **Books/Additional Mathematics** | ✅ Audited | 19 | 19 | 0 | 0 | 0 | 100% MSCE | Nov 13, 2026 |
 | **Books/Bible Knowledge** | ✅ Audited | 34 | 25 | 5 | 0 | 4 | 100% Explicit | Nov 25, 2026 |
 | **Books/Agriculture** | ✅ Audited | 84 | 67 | 10 | 3 | 6 | 100% Explicit | Nov 25, 2026 |
-| **Books/Biology** | ⏳ Scheduled | 203 | *Pending* | - | - | - | - | *Scheduled for 11 PM Night Flex* |
+| **Books/Biology** | ✅ Audited | 203 | 114 | 44 | 15 | 30 | 100% Explicit | Nov 26, 2026 |
 | **Books/Business Studies** | ⬜ Queued | 13 | *Pending* | - | - | - | - | - |
 | **Books/Chemistry** | ⬜ Queued | 57 | *Pending* | - | - | - | - | - |
 | **Books/Chichewa** | ⬜ Queued | 12 | *Pending* | - | - | - | - | - |
@@ -49,3 +49,11 @@ The "After" number represents the clean, frozen count at the moment the folder a
 - **Transferred to Q&A:** 3 comprehensive booklets (Kamphonje Q&A, Soil Degradation Q&A, Practical Exam Q&A)
 - **Deleted from R2:** 6 files (4 duplicate uploads of Q&A/Kayembe/Achievers + 2 rough essay drafts)
 - **Metadata Fixes:** Fixed size of `Agriculture Made Simple (Thoko Slim)` from 131 bytes dummy to 699 KB.
+
+### 4. Books/Biology
+- **Initial Count:** 203 files
+- **Clean Books Retained:** 114 clean textbooks, form modules, and practical handbooks (84 MSCE, 18 JCE, 12 Both)
+- **Transferred to Exams:** 44 files (Cluster, Diocese, School, and Division mock exams, MANEB past papers, marking schemes, practical examination papers)
+- **Transferred to Q&A:** 15 files (Kudinkula Q&A, Bioz Model Essays, Chancellor College Q&A, Mastering Biology Essays, Transpiration Essay, Predicted Essays)
+- **Deleted from R2:** 30 files (5 non-curriculum/corrupt/spam: church medical missionary quotes, 2-byte corrupt dummy, farm sales spreadsheet, WhatsApp prediction spam, crude 2.7KB draft; plus 25 duplicate/superseded uploads)
+- **Format and Metadata Fixes:** Converted and renamed `2._MALNUTRITION.txt` (a PowerPoint presentation) to `.pptx` format in storage and catalog.

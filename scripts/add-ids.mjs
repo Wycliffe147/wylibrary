@@ -67,6 +67,18 @@ export function assignIds(entries, oldMap = {}) {
         stats[kind]++;
     };
 
+    // 1b. Preserved id match (entry has existing e.id matching an orphan)
+    for (let i = unmatched.length - 1; i >= 0; i--) {
+        const e = unmatched[i];
+        if (e.id) {
+            const cand = orphans.find((o) => o.id === e.id);
+            if (cand) {
+                claim(e, cand, 'moved');
+                unmatched.splice(i, 1);
+            }
+        }
+    }
+
     // 2. Move: same file name + same size (unique on both sides)
     const key = (name, size) => `${(name || '').toLowerCase()}|${size ?? ''}`;
     const pending = [];
