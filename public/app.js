@@ -642,7 +642,7 @@ function _renderAbout() {
                         If you would like to support running costs, you can donate directly via mobile money:
                     </p>
                     <div style="margin: 12px 0 16px; padding: 12px 14px; background: rgba(147, 51, 234, 0.08); border: 1px solid rgba(147, 51, 234, 0.25); border-radius: 10px; font-size: 0.92rem;">
-                        📱 <strong>Airtel Money / TNM Mpamba:</strong> <code style="font-size: 0.95rem; font-weight: 700; color: inherit;">+265 984 153 455</code> (Wycliffe Mwanganda)
+                        <strong>Airtel Money / TNM Mpamba:</strong> <code style="font-size: 0.95rem; font-weight: 700; color: inherit;">+265 984 153 455</code> (Shamiso Mtsukwa)
                         <div style="font-size: 0.8rem; opacity: 0.8; margin-top: 4px;">Automated payment via PayChangu is in the works!</div>
                     </div>
                     <p style="margin-top: 14px; margin-bottom: 8px;">
