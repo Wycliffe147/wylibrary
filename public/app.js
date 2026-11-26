@@ -492,7 +492,7 @@ async function loadAbout(push = true) {
 function _renderAbout() {
     const totalCount = (Array.isArray(catalog) && catalog.length > 0)
         ? catalog.length
-        : (parseInt(localStorage.getItem('wylibrary_catalog_count') || '0', 10) || 3104);
+        : (parseInt(localStorage.getItem('wylibrary_catalog_count') || '0', 10) || 3035);
     const totalBooks = totalCount.toLocaleString();
 
     app.innerHTML = `
@@ -523,7 +523,7 @@ function _renderAbout() {
                     <div class="about-stat-label">Academic Resources</div>
                 </div>
                 <div class="about-stat-card">
-                    <div class="about-stat-num">800+</div>
+                    <div class="about-stat-num">1,200+</div>
                     <div class="about-stat-label">Active Students</div>
                 </div>
                 <div class="about-stat-card">
@@ -606,7 +606,7 @@ function _renderAbout() {
                         <div class="timeline-date">July 11, 2026</div>
                         <div class="timeline-title">wylibrary.org Goes Live</div>
                         <div class="timeline-desc">
-                            My first ever custom domain. Wylibrary moved from a GitHub Pages link to its own
+                            My first ever custom domain. Wylibrary moved from a Vercel link to its own
                             permanent address as an independent, open educational resource.
                         </div>
                     </div>
@@ -616,7 +616,7 @@ function _renderAbout() {
                         <div class="timeline-title">Offline PWA &amp; 3,000+ Resources</div>
                         <div class="timeline-desc">
                             Upgraded to a full Progressive Web App with a built-in PDF reader, offline device saving,
-                            and over 3,100 curated books, exams, and syllabuses - 100% free.
+                            and over 3,000 curated books, exams, and syllabuses - 100% free.
                         </div>
                     </div>
                 </div>
@@ -639,8 +639,14 @@ function _renderAbout() {
                 <div class="about-support-box reveal">
                     <h3>Support Wylibrary</h3>
                     <p>
-                        Mobile money (PayChangu, Airtel Money, TNM Mpamba) is coming - but you don't need money
-                        to make a real difference right now:
+                        If you would like to support running costs, you can donate directly via mobile money:
+                    </p>
+                    <div style="margin: 12px 0 16px; padding: 12px 14px; background: rgba(147, 51, 234, 0.08); border: 1px solid rgba(147, 51, 234, 0.25); border-radius: 10px; font-size: 0.92rem;">
+                        📱 <strong>Airtel Money / TNM Mpamba:</strong> <code style="font-size: 0.95rem; font-weight: 700; color: inherit;">+265 984 153 455</code> (Wycliffe Mwanganda)
+                        <div style="font-size: 0.8rem; opacity: 0.8; margin-top: 4px;">Automated payment via PayChangu is in the works!</div>
+                    </div>
+                    <p style="margin-top: 14px; margin-bottom: 8px;">
+                        You can also make a huge difference without spending money:
                     </p>
                     <ul class="about-support-list">
                         <li>📚 Share a book or resource you have</li>
@@ -649,13 +655,9 @@ function _renderAbout() {
                         <li>💡 Suggest a missing subject, topic, or improvement</li>
                         <li>🎓 Teach someone in your school how to use it</li>
                     </ul>
-                    <div style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 16px;">
-                        <button type="button" class="social-badge-btn btn-whatsapp"
-                            onclick="trackEvent('support_whatsapp'); window.open('https://chat.whatsapp.com/Ks3oJ046vMdInp4dR7pK3r', '_blank', 'noopener,noreferrer')">
-                            💬 Join Community
-                        </button>
+                    <div style="margin-top: 16px;">
                         <a href="mailto:wycliffemwanganda@gmail.com" class="social-badge-btn" style="text-decoration:none; display:inline-flex; align-items:center;">
-                            ✉️ Contact Me
+                            ✉️ Contact Me / Send Resources
                         </a>
                     </div>
                 </div>

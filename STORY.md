@@ -50,7 +50,7 @@ From 2021 to 2025 he kept the idea alive: writing snippets of code, pseudocode, 
 
 **July 11, 2026:** Registered wylibrary.org - his first ever custom domain.
 
-**November 2026:** Git LFS download bandwidth hit over 90% of its 10GB/month account quota due to heavy student usage. Dug deeper and migrated media storage to dual Cloudflare R2 buckets, eliminating Git LFS bandwidth limits completely. Also upgraded to a full PWA with offline saving, 3,100+ resources, and JCE/MSCE level filtering (v12.0).
+**November 2026:** Git LFS download bandwidth hit over 90% of its 10GB/month account quota due to heavy student usage. Dug deeper and migrated media storage to dual Cloudflare R2 buckets, eliminating Git LFS bandwidth limits completely. Also upgraded to a full PWA with offline saving, 3,000+ resources, and JCE/MSCE level filtering (v12.0). Active user base reached 1,200+ monthly students.
 
 ---
 
