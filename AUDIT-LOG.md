@@ -14,11 +14,11 @@ The "After" number represents the clean, frozen count at the moment the folder a
 | **Books/Agriculture** | ✅ Audited | 84 | 67 | 10 | 3 | 6 | 100% Explicit | Nov 25, 2026 |
 | **Books/Biology** | ✅ Audited | 203 | 112 | 44 | 15 | 30 | 100% Explicit | Nov 26, 2026 |
 | **Books/Business Studies** | ✅ Audited | 7 | 0 | 2 | 0 | 0 | 100% Explicit | Nov 26, 2026 |
-| **Books/Chemistry** | ⬜ Queued | 57 | *Pending* | - | - | - | - | - |
+| **Books/Chemistry** | ✅ Audited | 80 | 44 | 18 | 3 | 14 | 100% Explicit | Nov 26, 2026 |
 | **Books/Chichewa** | ✅ Audited | 50 | 24 | 21 | 0 | 3 | 100% Explicit | Nov 26, 2026 |
 | **Books/Computer studies** | ✅ Audited | 32 | 28 | 1 | 0 | 3 | 100% Explicit | Nov 26, 2026 |
 | **Books/English** | ⬜ Queued | 191 | *Pending* | - | - | - | - | - |
-| **Books/Geography** | ⬜ Queued | 50 | *Pending* | - | - | - | - | - |
+| **Books/Geography** | ✅ Audited | 64 | 35 | 21 | 1 | 7 | 100% Explicit | Nov 26, 2026 |
 | **Books/History** | ⬜ Queued | 24 | *Pending* | - | - | - | - | - |
 | **Books/Home Economics** | ⬜ Queued | 8 | *Pending* | - | - | - | - | - |
 | **Books/Life Skills** | ⬜ Queued | 7 | *Pending* | - | - | - | - | - |
@@ -85,4 +85,22 @@ The "After" number represents the clean, frozen count at the moment the folder a
 - **Transferred to Syllabuses:** 0
 - **Transferred to Q&A:** 0
 - **Deleted from R2:** 3 files (1 non-curriculum student personal letter to Mzuzu University, 2 external hacking trade paperbacks from PDFDrive)
+- **Level Tagging Coverage:** 100% Explicit
+
+### 8. Books/Chemistry
+- **Initial Count:** 80 files
+- **Clean Books Retained:** 44 clean textbooks, coursebooks, and experimental practical guides (24 MSCE, 12 JCE, 8 Both)
+- **Transferred to Exams:** 18 files (17 mock exams to `Exams/Chemistry/` on Bucket 2: CEED Form 4, Answer Private Academy Papers 1 & 2, Providence Cluster Papers 1 & 2, Bangwe Cluster Practical, Nkula CDSS Form 2, Nsanje District, Mzalangwe Cluster, JCE Sample Paper, Loyola Jesuit Papers 1 & 2, Hill Crescent, Mzuzu Diocese Papers 1 & 2, Evergreen Garden Form 1; plus 1 misplaced CWED MSCE Life Skills Paper II Marking Scheme moved to `Exams/Life Skills/`)
+- **Transferred to Q&A:** 3 comprehensive booklets to `Q&A/Chemistry/` on Bucket 2 (Model Chemistry Practical Questions & Answers by Sir James, Chemistry Model Examination Questions & Answers, Master Tutors Chemistry Questions & Model Answers)
+- **Transferred to Syllabuses:** 1 official curriculum syllabus moved to `Books/Syllabuses/` (Chemistry Senior Secondary Syllabus Forms 3 and 4)
+- **Deleted from R2:** 14 files (1 UNIMA application form, 1 primary school teacher induction presentation, 1 Turkish high school IB thesis, 1 UK GCSE blog post, 1 US university lab guide, 2 Indian exam blog scrapes, 1 incomplete 8-page fragment, 1 redundant 130MB uncompressed copy, and 5 duplicate uploads)
+- **Level Tagging Coverage:** 100% Explicit
+
+### 9. Books/Geography
+- **Initial Count:** 64 files
+- **Clean Books Retained:** 35 clean textbooks, physical/human geography coursebooks, and map reading guides (20 MSCE, 8 JCE, 7 Both)
+- **Transferred to Exams:** 21 mock exams and past papers to `Exams/Geography/` on Bucket 2 (Karonga/Mzuzu Diocesan, Karonga Diocese, MANEB MSCE Paper 2, MSCE Paper 2 2020, St Godfrey Papers 1 & 2, Answer Private Academy Paper 2, Blantyre Secondary School Cluster, MANEB Chief Examiners Report 2019, St Marys 2016 & 2021 & 2018, New Vision Form 4, JCE Sample Papers 1 & 2, Northern Education Division Papers 1 & 2, Hill Crescent Paper 2, Marist Secondary School Papers 1 & 2, Mzuzu Diocese Paper 2)
+- **Transferred to Q&A:** 1 model answer booklet to `Q&A/Geography/` on Bucket 2 (Geography Model Examination Questions and Answers by K. Gareta)
+- **Transferred to Syllabuses:** 0
+- **Deleted from R2:** 7 files (1 external Cambridge IGCSE 2012 revision guide, 1 draft 485KB copy of Marist Mock, 1 duplicate 9.8MB copy of Form 3/4 notes, 1 duplicate 79-page upload of Human & Economic Geography, 1 duplicate 64-page upload of Human Geography, 1 duplicate 84-page upload of Form 4 Geography, and 1 duplicate upload of Book 3 with Map Work Elements)
 - **Level Tagging Coverage:** 100% Explicit

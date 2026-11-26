@@ -48,11 +48,11 @@
      - ✅ `Books/Bible Knowledge` (merged casing duplicate, moved 5 mock exams to Exams/, deleted 4 sermons/duplicates, 24 clean books)
      - ✅ `Books/Biology` (deep audit complete: 112 clean books with 100% level tagging, 44 mock exams moved to Exams/, 15 Q&A moved to Q&A, 2 syllabuses moved to Syllabuses, 30 deleted)
      - ✅ `Books/Business Studies` (deep audit complete: 2 mock exams moved to Exams/, 5 syllabuses moved to Syllabuses)
-     - ⬜ `Books/Chemistry`
+     - ✅ `Books/Chemistry` (deep audit complete: 44 clean books with 100% level tagging, 18 exams moved to Exams/, 3 Q&A moved to Q&A/, 1 syllabus moved to Syllabuses/, 14 deleted)
      - ✅ `Books/Chichewa` (deep audit complete: 24 clean books with 100% level tagging, 21 mock exams moved to Exams/, 2 syllabuses moved to Syllabuses, 3 duplicates deleted)
      - ✅ `Books/Computer studies` (deep audit complete: 28 clean books with 100% level tagging, 1 mock exam moved to Exams/, 3 non-curriculum deleted)
      - ⬜ `Books/English`
-     - ⬜ `Books/Geography`
+     - ✅ `Books/Geography` (deep audit complete: 35 clean books with 100% level tagging, 21 mock exams moved to Exams/, 1 Q&A moved to Q&A/, 7 deleted)
      - ⬜ `Books/History`
      - ⬜ `Books/Home Economics`
      - ⬜ `Books/Life Skills`

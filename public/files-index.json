@@ -2739,644 +2739,598 @@
     "level": "msce"
   },
   {
-    "name": "100-Questions-on-Chemistry-with-explanation.pdf",
-    "path": "Books/Chemistry/100-Questions-on-Chemistry-with-explanation_(1).pdf",
-    "size": 364968,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "ff24502add"
-  },
-  {
-    "name": "11_Organic_chemistry-1.pdf",
+    "name": "Organic Chemistry Senior Secondary Guide.pdf",
     "path": "Books/Chemistry/11_Organic_chemistry-1_(1).pdf",
     "size": 782475,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f7847b7b34"
+    "id": "f7847b7b34",
+    "level": "msce"
   },
   {
-    "name": "11_organic_chemistry.pdf",
-    "path": "Books/Chemistry/11_organic_chemistry.pdf",
-    "size": 530523,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fde4d1e130"
-  },
-  {
-    "name": "2019_CHEMESTRY_f_4_p_1(1)-1.pdf",
-    "path": "Books/Chemistry/2019_CHEMESTRY_f_4_p_1(1)-1.pdf",
+    "name": "Central East Education Division Form 4 Chemistry Paper I Mock Exam (2019).pdf",
+    "path": "Exams/Chemistry/Central East Education Division Form 4 Chemistry Paper I Mock Exam (2019).pdf",
     "size": 353314,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f534be19c7"
+    "bucket": 2,
+    "id": "f534be19c7",
+    "level": "msce"
   },
   {
-    "name": "20_CHEMISTRY_PRACTICAL_SAMPLES-1.pdf",
-    "path": "Books/Chemistry/20_CHEMISTRY_PRACTICAL_SAMPLES-1(2).pdf",
+    "name": "Model Chemistry Practical Questions and Answers (Sir James).pdf",
+    "path": "Q&A/Chemistry/Model Chemistry Practical Questions and Answers (Sir James).pdf",
     "size": 595257,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f2ef7e9fc2"
+    "bucket": 2,
+    "id": "f2ef7e9fc2",
+    "level": "msce"
   },
   {
-    "name": "5.-Chemistry-30.11.17-Practicals-Making-observations-in-Chemistry.pdf",
-    "path": "Books/Chemistry/5.-Chemistry-30.11.17-Practicals-Making-observations-in-Chemistry.pdf",
-    "size": 250250,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f6483d09be"
-  },
-  {
-    "name": "ANSWER_CHEMISTRY_F4_pII_2020.pdf",
-    "path": "Books/Chemistry/ANSWER_CHEMISTRY_F4_pII_2020.pdf",
+    "name": "Answer Private Academy MSCE Chemistry Paper II Mock Exam (2020).pdf",
+    "path": "Exams/Chemistry/Answer Private Academy MSCE Chemistry Paper II Mock Exam (2020).pdf",
     "size": 479306,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f58e409cdf"
+    "bucket": 2,
+    "id": "f58e409cdf",
+    "level": "msce"
   },
   {
-    "name": "ANSWER_CHEMISTRY_PI.pdf",
-    "path": "Books/Chemistry/ANSWER_CHEMISTRY_PI (1).pdf",
+    "name": "Answer Private Academy MSCE Chemistry Paper I Mock Exam (2020).pdf",
+    "path": "Exams/Chemistry/Answer Private Academy MSCE Chemistry Paper I Mock Exam (2020).pdf",
     "size": 337099,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f00f8a7e9b"
+    "bucket": 2,
+    "id": "f00f8a7e9b",
+    "level": "msce"
   },
   {
-    "name": "Application Form-Short Courses in Chemistry 2021.pdf",
-    "path": "Books/Chemistry/Application Form-Short Courses in Chemistry 2021.pdf",
-    "size": 306076,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fed5993cd9"
-  },
-  {
-    "name": "CHEM.pdf",
-    "path": "Books/Chemistry/CHEM.pdf",
+    "name": "Providence Cluster JCE Chemistry Mock Exam (2021).pdf",
+    "path": "Exams/Chemistry/Providence Cluster JCE Chemistry Mock Exam (2021).pdf",
     "size": 278974,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f36429c103"
+    "bucket": 2,
+    "id": "f36429c103",
+    "level": "jce"
   },
   {
-    "name": "CHEMICAL_REACTIONS_I_NOTES_Chipapa_(1).pdf",
+    "name": "Chemical Reactions I Notes (Chipapa).pdf",
     "path": "Books/Chemistry/CHEMICAL_REACTIONS_I_NOTES_Chipapa_(1)_(1).pdf",
     "size": 182910,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f6e90536f2"
+    "id": "f6e90536f2",
+    "level": "msce"
   },
   {
-    "name": "CHEMIS.pdf",
+    "name": "Secondary Chemistry Practical Study Guide.pdf",
     "path": "Books/Chemistry/CHEMIS.pdf",
     "size": 1657377,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fe3cfb71ad"
+    "id": "fe3cfb71ad",
+    "level": "msce"
   },
   {
-    "name": "CHEMISTRY NOTES f3 new_1.pdf",
+    "name": "Chemistry Form 3 Senior Secondary Notes.pdf",
     "path": "Books/Chemistry/CHEMISTRY  NOTES f3 new_1.pdf",
     "size": 4033764,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f32c36fa34"
+    "id": "f32c36fa34",
+    "level": "msce"
   },
   {
-    "name": "CHEMISTRY BK 1.pdf",
+    "name": "Introduction to Chemistry Book 1.pdf",
     "path": "Books/Chemistry/CHEMISTRY BK 1.pdf",
     "size": 269067,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fab1f60da1"
+    "id": "fab1f60da1",
+    "level": "jce"
   },
   {
-    "name": "CHEMISTRY FORM 3 NEW SYLLABUS_1.pdf",
+    "name": "Chemistry Form 3 Study Notes.pdf",
     "path": "Books/Chemistry/CHEMISTRY FORM 3 NEW SYLLABUS_1.pdf",
     "size": 2358441,
     "repo": "e-library-media-3",
     "bucket": 1,
-    "id": "ff3df31cda"
+    "id": "ff3df31cda",
+    "level": "msce"
   },
   {
-    "name": "CHEMISTRY JUNIOR NOTES_1.pdf",
+    "name": "JCE Chemistry Comprehensive Junior Notes.pdf",
     "path": "Books/Chemistry/CHEMISTRY JUNIOR NOTES_1.pdf",
     "size": 2286230,
     "repo": "e-library-media-4",
     "bucket": 1,
-    "id": "f76a4cfcef"
+    "id": "f76a4cfcef",
+    "level": "jce"
   },
   {
-    "name": "CHEMISTRY TARGET 4.pdf",
+    "name": "Target Chemistry Form 4 Coursebook.pdf",
     "path": "Books/Chemistry/CHEMISTRY TARGET 4.pdf",
     "size": 23926371,
     "repo": "e-library-media-5",
     "bucket": 1,
-    "id": "f3b6a4719b"
+    "id": "f3b6a4719b",
+    "level": "msce"
   },
   {
-    "name": "CHEMISTRY pamphlet BOOK 4.pdf",
-    "path": "Books/Chemistry/CHEMISTRY pamphlet BOOK 4.pdf",
-    "size": 940683,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fd281f9821"
-  },
-  {
-    "name": "CHEMISTRY_2.pdf",
+    "name": "Secondary Chemistry Form 2 Notes.pdf",
     "path": "Books/Chemistry/CHEMISTRY_2.pdf",
     "size": 1911413,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f60778cc92"
+    "id": "f60778cc92",
+    "level": "jce"
   },
   {
-    "name": "CHEMISTRY_3_(target).pdf",
+    "name": "Target Chemistry Form 3 Coursebook.pdf",
     "path": "Books/Chemistry/CHEMISTRY_3_(target).pdf",
     "size": 34804767,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fd49328aa8"
+    "id": "fd49328aa8",
+    "level": "msce"
   },
   {
-    "name": "CHEMISTRY_BOOK,_3&4.pdf",
-    "path": "Books/Chemistry/CHEMISTRY_BOOK,_3&4 - Copy_080555_1.pdf",
-    "size": 4026792,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f8f22d3718"
-  },
-  {
-    "name": "CHEMISTRY_BOOK,_3&4_(1) (1) (1)_1.pdf",
+    "name": "Chemistry Book for Senior Secondary (Forms 3 and 4).pdf",
     "path": "Books/Chemistry/CHEMISTRY_BOOK,_3&4_(1) (1) (1)_1.pdf",
     "size": 4034924,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fb09170b51"
+    "id": "fb09170b51",
+    "level": "msce"
   },
   {
-    "name": "CHEMISTRY_BOOK_1.pdf",
+    "name": "Chemistry Book 1 Coursebook.pdf",
     "path": "Books/Chemistry/CHEMISTRY_BOOK_1.pdf",
     "size": 685044,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fe065b35c3"
+    "id": "fe065b35c3",
+    "level": "jce"
   },
   {
-    "name": "CHEMISTRY_BOOK_4-1-1.pdf",
-    "path": "Books/Chemistry/CHEMISTRY_BOOK_4-1-1.pdf",
-    "size": 943435,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f5c7283dcd"
-  },
-  {
-    "name": "CHEMISTRY_II_-_PRACTICAL.pdf",
-    "path": "Books/Chemistry/CHEMISTRY_II_-_PRACTICAL.pdf",
+    "name": "Bangwe Cluster MSCE Chemistry Paper II Practical Exam (2022).pdf",
+    "path": "Exams/Chemistry/Bangwe Cluster MSCE Chemistry Paper II Practical Exam (2022).pdf",
     "size": 354978,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "ff216d5d33"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "ff216d5d33",
+    "level": "msce"
   },
   {
-    "name": "CHEMISTRY_I_SAMPLE-1-1.pdf",
+    "name": "Senior Chemistry Theory and Practical Guide.pdf",
     "path": "Books/Chemistry/CHEMISTRY_I_SAMPLE-1-1.pdf",
     "size": 2970581,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f056560cee"
+    "id": "f056560cee",
+    "level": "msce"
   },
   {
-    "name": "CHEMISTRY_MODEL_QUESTIONS.pdf",
-    "path": "Books/Chemistry/CHEMISTRY_MODEL_QUESTIONS.pdf",
+    "name": "Chemistry Model Examination Questions and Answers.pdf",
+    "path": "Q&A/Chemistry/Chemistry Model Examination Questions and Answers.pdf",
     "size": 1438212,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f419481499"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f419481499",
+    "level": "both"
   },
   {
-    "name": "CHEMISTRY_PII.pdf",
-    "path": "Books/Chemistry/CHEMISTRY_PII.pdf",
+    "name": "Providence Cluster MSCE Chemistry Paper II Mock Exam (2019).pdf",
+    "path": "Exams/Chemistry/Providence Cluster MSCE Chemistry Paper II Mock Exam (2019).pdf",
     "size": 848551,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f50e826264"
+    "bucket": 2,
+    "id": "f50e826264",
+    "level": "msce"
   },
   {
-    "name": "CHEM_FORM_2.pdf",
-    "path": "Books/Chemistry/CHEM_FORM_2.pdf",
+    "name": "Nkula CDSS Form 2 Chemistry Examination (2018).pdf",
+    "path": "Exams/Chemistry/Nkula CDSS Form 2 Chemistry Examination (2018).pdf",
     "size": 338552,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fc2f0c8f66"
+    "bucket": 2,
+    "id": "fc2f0c8f66",
+    "level": "jce"
   },
   {
-    "name": "CHE_EXCEL_AND_SUCCEED_BOOK_1-2.pdf",
+    "name": "Excel and Succeed in Chemistry Book 1 (JCE).pdf",
     "path": "Books/Chemistry/CHE_EXCEL_AND_SUCCEED_BOOK_1-2.pdf",
     "size": 2050989,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f9dff3c87e"
+    "id": "f9dff3c87e",
+    "level": "jce"
   },
   {
-    "name": "CHE_EXCEL_AND_SUCCEED_BOOK_2_(0)-2.pdf",
+    "name": "Excel and Succeed in Chemistry Book 2 (JCE).pdf",
     "path": "Books/Chemistry/CHE_EXCEL_AND_SUCCEED_BOOK_2_(0)-2.pdf",
     "size": 1914737,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f112de35be"
+    "id": "f112de35be",
+    "level": "jce"
   },
   {
-    "name": "CHemistry_Book_3_final-1-1-1.pdf",
-    "path": "Books/Chemistry/CHemistry_Book_3_final-1-1-1.pdf",
-    "size": 968897,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f0b25d7127"
-  },
-  {
-    "name": "CHemistry_Book_3_final.pdf",
+    "name": "Chemistry Book 3 Coursebook (Experimental Techniques).pdf",
     "path": "Books/Chemistry/CHemistry_Book_3_final_(1).pdf",
     "size": 1058638,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fbbf9c9aa1"
+    "id": "fbbf9c9aa1",
+    "level": "msce"
   },
   {
-    "name": "ChemicalReactions.pdf",
+    "name": "Stoichiometry of Chemical Reactions Handbook.pdf",
     "path": "Books/Chemistry/ChemicalReactions.pdf",
     "size": 755237,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f537a0aff2"
+    "id": "f537a0aff2",
+    "level": "both"
   },
   {
-    "name": "Chemistry (F1-4)Malawi 🇲🇼_1.pdf",
+    "name": "Chemistry for Malawi Secondary Schools (Forms 1-4).pdf",
     "path": "Books/Chemistry/Chemistry (F1-4)Malawi 🇲🇼_1.pdf",
     "size": 8145617,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "febd6fe7dc"
+    "id": "febd6fe7dc",
+    "level": "both"
   },
   {
-    "name": "Chemistry Complete Senior Secondary.pdf",
+    "name": "Complete Senior Secondary Chemistry (Forms 3 and 4).pdf",
     "path": "Books/Chemistry/Chemistry Complete Senior Secondary_080857_1.pdf",
     "size": 15974001,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f2f1a0543f"
+    "id": "f2f1a0543f",
+    "level": "msce"
   },
   {
-    "name": "Chemistry.pdf",
+    "name": "Secondary Chemistry Comprehensive Notes.pdf",
     "path": "Books/Chemistry/Chemistry.pdf",
     "size": 2476577,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f10527fd77"
+    "id": "f10527fd77",
+    "level": "both"
   },
   {
-    "name": "Chemistry_&_Physics.pdf",
+    "name": "Physical Science Combined Chemistry and Physics Guide.pdf",
     "path": "Books/Chemistry/Chemistry_&_Physics.pdf",
     "size": 2624106,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fb1833dbdc"
+    "id": "fb1833dbdc",
+    "level": "both"
   },
   {
-    "name": "Chemistry_-_Rates_of_Reactions.pdf",
+    "name": "Rates of Chemical Reactions (SMASSE Malawi).pdf",
     "path": "Books/Chemistry/Chemistry_-_Rates_of_Reactions.pdf",
     "size": 876318,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f3758d86e2"
+    "id": "f3758d86e2",
+    "level": "msce"
   },
   {
-    "name": "Chemistry_Book_3_(pamphlet).pdf",
+    "name": "Senior Secondary Chemistry Book 3 Handbook.pdf",
     "path": "Books/Chemistry/Chemistry_Book_3_(pamphlet).pdf",
     "size": 68261241,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f35368de2d"
+    "id": "f35368de2d",
+    "level": "msce"
   },
   {
-    "name": "Chemistry_Excel_&_Succeed_2.pdf",
+    "name": "Excel and Succeed in Chemistry Book 2.pdf",
     "path": "Books/Chemistry/Chemistry_Excel_&_Succeed_2.pdf",
     "size": 1894878,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f2c367c22b"
+    "id": "f2c367c22b",
+    "level": "jce"
   },
   {
-    "name": "Chemistry_I-1.docx",
-    "path": "Books/Chemistry/Chemistry_I-1.docx",
+    "name": "Nsanje District MSCE Chemistry Paper I Mock Exam.docx",
+    "path": "Exams/Chemistry/Nsanje District MSCE Chemistry Paper I Mock Exam.docx",
     "size": 82725,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f7d6197dde"
+    "bucket": 2,
+    "id": "f7d6197dde",
+    "level": "msce"
   },
   {
-    "name": "Chemistry_I.ed.pdf",
-    "path": "Books/Chemistry/Chemistry_I.ed.pdf",
+    "name": "Providence Cluster MSCE Chemistry Paper I Mock Exam (2019).pdf",
+    "path": "Exams/Chemistry/Providence Cluster MSCE Chemistry Paper I Mock Exam (2019).pdf",
     "size": 274638,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f895655bcd"
+    "bucket": 2,
+    "id": "f895655bcd",
+    "level": "msce"
   },
   {
-    "name": "Chemistry_Mumba_01.pdf",
+    "name": "Chemistry Secondary Guide (Mumba).pdf",
     "path": "Books/Chemistry/Chemistry_Mumba_01.pdf",
     "size": 4811493,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f04c38c112"
+    "id": "f04c38c112",
+    "level": "both"
   },
   {
-    "name": "Chemistry_Notes_for_Form_2-1-1.pdf",
+    "name": "JCE Chemistry Notes for Form 2.pdf",
     "path": "Books/Chemistry/Chemistry_Notes_for_Form_2-1-1.pdf",
     "size": 886012,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f6f8049ed6"
+    "id": "f6f8049ed6",
+    "level": "jce"
   },
   {
-    "name": "Chemistry_Questions.pdf",
-    "path": "Books/Chemistry/Chemistry_Questions__(1).pdf",
-    "size": 61701,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f924117a9e"
-  },
-  {
-    "name": "Chemistry_blend.pdf",
+    "name": "Chemistry Secondary Revision Blend.pdf",
     "path": "Books/Chemistry/Chemistry_blend.pdf",
     "size": 4107431,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f105147841"
+    "id": "f105147841",
+    "level": "both"
   },
   {
-    "name": "Chemistry_questions_[Master_tutors].pdf",
-    "path": "Books/Chemistry/Chemistry_questions_[Master_tutors].pdf",
+    "name": "Chemistry Revision Questions and Answers (Master Tutors).pdf",
+    "path": "Q&A/Chemistry/Chemistry Revision Questions and Answers (Master Tutors).pdf",
     "size": 2752666,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f8ec853d03"
+    "bucket": 2,
+    "id": "f8ec853d03",
+    "level": "both"
   },
   {
-    "name": "Chemistry_syllabus_Forms_3-4_--1.pdf",
-    "path": "Books/Chemistry/Chemistry_syllabus_Forms_3-4_--1.pdf",
+    "name": "Chemistry Senior Secondary Syllabus (Forms 3 and 4).pdf",
+    "path": "Books/Syllabuses/Chemistry Senior Secondary Syllabus (Forms 3 and 4).pdf",
     "size": 442001,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fa70bd448d"
+    "id": "fa70bd448d",
+    "level": "msce"
   },
   {
-    "name": "Chemistry_theory.pdf",
-    "path": "Books/Chemistry/Chemistry_theory.pdf",
+    "name": "Mzalangwe Cluster MSCE Chemistry Paper I Mock Exam (2019).pdf",
+    "path": "Exams/Chemistry/Mzalangwe Cluster MSCE Chemistry Paper I Mock Exam (2019).pdf",
     "size": 230876,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f7ac97e4fa"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f7ac97e4fa",
+    "level": "msce"
   },
   {
-    "name": "EXCELL_CHEMISTRY_BOOK_1.pdf",
+    "name": "Excel and Succeed in Chemistry Book 1.pdf",
     "path": "Books/Chemistry/EXCELL_CHEMISTRY_BOOK_1 (1).pdf",
     "size": 36557271,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fae12a6c80"
+    "id": "fae12a6c80",
+    "level": "jce"
   },
   {
-    "name": "EXCELL_CHEMISTRY_BOOK_1-1.pdf",
-    "path": "Books/Chemistry/EXCELL_CHEMISTRY_BOOK_1-1.pdf",
-    "size": 130035112,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f2dec60b06"
-  },
-  {
-    "name": "EXCELL_CHEMISTRY_BOOK_3.pdf",
+    "name": "Excel and Succeed in Chemistry Book 3.pdf",
     "path": "Books/Chemistry/EXCELL_CHEMISTRY_BOOK_3.pdf",
     "size": 70350689,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fc79e9e626"
+    "id": "fc79e9e626",
+    "level": "msce"
   },
   {
-    "name": "EXCELL_CHEMISTRY_BOOK_4.pdf",
+    "name": "Excel and Succeed in Chemistry Book 4.pdf",
     "path": "Books/Chemistry/EXCELL_CHEMISTRY_BOOK_4 (1).pdf",
     "size": 47836164,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f19984d269"
+    "id": "f19984d269",
+    "level": "msce"
   },
   {
-    "name": "Elements_and_chemical_bonding.pdf",
+    "name": "Elements and Chemical Bonding Study Guide.pdf",
     "path": "Books/Chemistry/Elements_and_chemical_bonding_(1).pdf",
     "size": 461524,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f6b704f84c"
+    "id": "f6b704f84c",
+    "level": "both"
   },
   {
-    "name": "FORM-4-CHEM-NOTES.pdf",
+    "name": "Chemistry Form 4 Comprehensive Notes.pdf",
     "path": "Books/Chemistry/FORM-4-CHEM-NOTES(1).pdf",
     "size": 4647805,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f5b1470aa7"
+    "id": "f5b1470aa7",
+    "level": "msce"
   },
   {
-    "name": "FORM_3_EXCEL_&_SUCCEED_CHEMISTRY_SENIOR_SECONDARY_STUDENT_878_1.pdf",
+    "name": "Excel and Succeed Senior Chemistry Student Book 3.pdf",
     "path": "Books/Chemistry/FORM_3_EXCEL_&_SUCCEED_CHEMISTRY_SENIOR_SECONDARY_STUDENT_878_1.pdf",
     "size": 11389936,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f43e811441"
+    "id": "f43e811441",
+    "level": "msce"
   },
   {
-    "name": "INDUCTION_SCHEMES,_LESSON_PLAN.pdf",
-    "path": "Books/Chemistry/INDUCTION_SCHEMES,_LESSON_PLAN.pdf",
-    "size": 67333,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f6f07806ad"
-  },
-  {
-    "name": "JC CHEMISTRY FORM 2_1.pdf",
+    "name": "JCE Chemistry Form 2 Textbook.pdf",
     "path": "Books/Chemistry/JC CHEMISTRY FORM 2_1.pdf",
     "size": 1401132,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fdb1fecf29"
+    "id": "fdb1fecf29",
+    "level": "jce"
   },
   {
-    "name": "JC_Chemistry_Sample.pdf",
-    "path": "Books/Chemistry/JC_Chemistry_Sample.pdf",
+    "name": "JCE Chemistry Sample Examination Paper.pdf",
+    "path": "Exams/Chemistry/JCE Chemistry Sample Examination Paper.pdf",
     "size": 1002549,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fce4ab9905"
+    "bucket": 2,
+    "id": "fce4ab9905",
+    "level": "jce"
   },
   {
-    "name": "Jhango_BOOK 4 CHEMISTRY.pdf",
+    "name": "Jhango Chemistry Book 4 Student Guide.pdf",
     "path": "Books/Chemistry/Jhango_BOOK 4 CHEMISTRY (1).pdf",
     "size": 958795,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f8df7a28a7"
+    "id": "f8df7a28a7",
+    "level": "msce"
   },
   {
-    "name": "Jhango_Chemistry_book_3_1.pdf",
+    "name": "Jhango Chemistry Book 3 Student Guide.pdf",
     "path": "Books/Chemistry/Jhango_Chemistry_book_3_1.pdf",
     "size": 9134727,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f7d80de5f3"
+    "id": "f7d80de5f3",
+    "level": "msce"
   },
   {
-    "name": "Jhango_chemistry_book4_(1)_1.pdf",
+    "name": "Jhango Chemistry Book 4 Comprehensive Edition.pdf",
     "path": "Books/Chemistry/Jhango_chemistry_book4_(1)_1.pdf",
     "size": 28768468,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f73131423d"
+    "id": "f73131423d",
+    "level": "msce"
   },
   {
-    "name": "LOYOLA_CHEM_I.pdf",
-    "path": "Books/Chemistry/LOYOLA_CHEM_I.pdf",
+    "name": "Loyola Jesuit Secondary School MSCE Chemistry Paper I Mock Exam.pdf",
+    "path": "Exams/Chemistry/Loyola Jesuit Secondary School MSCE Chemistry Paper I Mock Exam.pdf",
     "size": 449426,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "faa1477c89"
+    "bucket": 2,
+    "id": "faa1477c89",
+    "level": "msce"
   },
   {
-    "name": "LOYOLA_CHEM_II.pdf",
-    "path": "Books/Chemistry/LOYOLA_CHEM_II.pdf",
+    "name": "Loyola Jesuit Secondary School MSCE Chemistry Paper II Mock Exam (2020).pdf",
+    "path": "Exams/Chemistry/Loyola Jesuit Secondary School MSCE Chemistry Paper II Mock Exam (2020).pdf",
     "size": 231106,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f8e345576b"
+    "bucket": 2,
+    "id": "f8e345576b",
+    "level": "msce"
   },
   {
-    "name": "SOC_ LIFE PPII_MARKING_SCHEME.pdf",
-    "path": "Books/Chemistry/SOC_ LIFE PPII_MARKING_SCHEME .pdf",
+    "name": "Central West Education Division MSCE Life Skills Paper II Mock Marking Scheme (2025).pdf",
+    "path": "Exams/Life Skills/Central West Education Division MSCE Life Skills Paper II Mock Marking Scheme (2025).pdf",
     "size": 169892,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f40231fc46"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f40231fc46",
+    "level": "msce"
   },
   {
-    "name": "CHEMISTRY_BOOK_2.pdf",
+    "name": "Chemistry Elements and Periodic Table Book 2.pdf",
     "path": "Books/Chemistry/_CHEMISTRY_BOOK_2.pdf",
     "size": 466118,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fa52e8178c"
+    "id": "fa52e8178c",
+    "level": "jce"
   },
   {
-    "name": "CHEMISTRY_BOOK_4 (1)_1.pdf",
-    "path": "Books/Chemistry/_CHEMISTRY_BOOK_4 (1)_1.pdf",
-    "size": 942426,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f6bb5c9403"
-  },
-  {
-    "name": "chem2.pdf",
+    "name": "Secondary Chemistry Form 2 Coursebook.pdf",
     "path": "Books/Chemistry/chem2.pdf",
     "size": 1556292,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fe07cdd5fa"
+    "id": "fe07cdd5fa",
+    "level": "jce"
   },
   {
-    "name": "chemi_book-1.pdf",
+    "name": "Secondary Chemistry Book 1.pdf",
     "path": "Books/Chemistry/chemi_book-1_(1).pdf",
     "size": 4724085,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f1a393fa71"
+    "id": "f1a393fa71",
+    "level": "jce"
   },
   {
-    "name": "chemistry essay_1.pdf",
-    "path": "Books/Chemistry/chemistry essay_1.pdf",
-    "size": 342785,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f4a1905fb8"
-  },
-  {
-    "name": "chemistry made simple book 3_1.pdf",
+    "name": "Chemistry Made Simple Book 3.pdf",
     "path": "Books/Chemistry/chemistry made simple book 3_1.pdf",
     "size": 17547325,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f79eba4b85"
+    "id": "f79eba4b85",
+    "level": "msce"
   },
   {
-    "name": "chemistry theory.pdf",
-    "path": "Books/Chemistry/chemistry theory.pdf",
+    "name": "Hill Crescent Secondary School MSCE Chemistry Theory Mock Exam.pdf",
+    "path": "Exams/Chemistry/Hill Crescent Secondary School MSCE Chemistry Theory Mock Exam.pdf",
     "size": 347677,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f57f7486f8"
+    "bucket": 2,
+    "id": "f57f7486f8",
+    "level": "msce"
   },
   {
-    "name": "chemistry_I.pdf",
-    "path": "Books/Chemistry/chemistry_I.pdf",
+    "name": "Mzuzu Diocese MSCE Chemistry Paper I Mock Exam (2020).pdf",
+    "path": "Exams/Chemistry/Mzuzu Diocese MSCE Chemistry Paper I Mock Exam (2020).pdf",
     "size": 834030,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f9c988a136"
+    "bucket": 2,
+    "id": "f9c988a136",
+    "level": "msce"
   },
   {
-    "name": "chemistry_II.pdf",
-    "path": "Books/Chemistry/chemistry_II.pdf",
+    "name": "Mzuzu Diocese MSCE Chemistry Paper II Mock Exam (2020).pdf",
+    "path": "Exams/Chemistry/Mzuzu Diocese MSCE Chemistry Paper II Mock Exam (2020).pdf",
     "size": 399872,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f15bdb7102"
+    "bucket": 2,
+    "id": "f15bdb7102",
+    "level": "msce"
   },
   {
-    "name": "chemistry_book_2.pdf",
+    "name": "Secondary Chemistry Book 2 Complete.pdf",
     "path": "Books/Chemistry/chemistry_book_2.pdf",
     "size": 9055594,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fbfeb86037"
+    "id": "fbfeb86037",
+    "level": "jce"
   },
   {
-    "name": "chemistry_form_1-1.pdf",
-    "path": "Books/Chemistry/chemistry_form_1-1.pdf",
+    "name": "Evergreen Garden Academy Form 1 Chemistry Examination (2016).pdf",
+    "path": "Exams/Chemistry/Evergreen Garden Academy Form 1 Chemistry Examination (2016).pdf",
     "size": 306588,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fec66e2bc0"
+    "bucket": 2,
+    "id": "fec66e2bc0",
+    "level": "jce"
   },
   {
-    "name": "chemistry_practicals_1.pdf",
+    "name": "Secondary Chemistry Practicals Manual.pdf",
     "path": "Books/Chemistry/chemistry_practicals_1.pdf",
     "size": 12394439,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f4917bb45c"
+    "id": "f4917bb45c",
+    "level": "msce"
   },
   {
-    "name": "excel_&_succeed_book_4_chemistry.pdf",
+    "name": "Excel and Succeed in Chemistry Book 4.pdf",
     "path": "Books/Chemistry/excel_&_succeed_book_4_chemistry.pdf",
     "size": 15924139,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "feb71b40ad"
-  },
-  {
-    "name": "guide to essays in chemistry_1.pdf",
-    "path": "Books/Chemistry/guide to essays in chemistry_1.pdf",
-    "size": 50907,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f35e5b2b88"
+    "id": "feb71b40ad",
+    "level": "msce"
   },
   {
     "name": "Chamdothi ndi Zisudzo Zina - Buku Lathunthu (E.J. Chadza).pdf",
@@ -5591,516 +5545,517 @@
     "id": "f553335197"
   },
   {
-    "name": "1._NOTES_PHYSICAL_GEOGRAPHY_MSCE.pdf",
+    "name": "MSCE Physical Geography Notes.pdf",
     "path": "Books/Geography/1._NOTES_PHYSICAL_GEOGRAPHY_MSCE.pdf",
     "size": 5683063,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f6e03750f0"
+    "id": "f6e03750f0",
+    "level": "msce"
   },
   {
-    "name": "2012_KARONGA_HUMAN_GEOGRAPHY(1)-1.pdf",
-    "path": "Books/Geography/2012_KARONGA_HUMAN_GEOGRAPHY(1)-1.pdf",
+    "name": "Karonga and Mzuzu Dioceses MSCE Human Geography Mock Exam (2012).pdf",
+    "path": "Exams/Geography/Karonga and Mzuzu Dioceses MSCE Human Geography Mock Exam (2012).pdf",
     "size": 159507,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f1781f00de"
+    "bucket": 2,
+    "id": "f1781f00de",
+    "level": "msce"
   },
   {
-    "name": "2017_GEOGRAPHY_I-1.pdf",
-    "path": "Books/Geography/2017_GEOGRAPHY_I-1.pdf",
+    "name": "Karonga Diocese MSCE Geography Paper I Mock Exam (2017).pdf",
+    "path": "Exams/Geography/Karonga Diocese MSCE Geography Paper I Mock Exam (2017).pdf",
     "size": 468168,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f0741938af"
+    "bucket": 2,
+    "id": "f0741938af",
+    "level": "msce"
   },
   {
-    "name": "2019 HUMAN GEOGRAPHY.pdf",
+    "name": "MSCE Human Geography Comprehensive Notes (2019).pdf",
     "path": "Books/Geography/2019 HUMAN GEOGRAPHY (1).pdf",
     "size": 5064582,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fdba57c622"
+    "id": "fdba57c622",
+    "level": "msce"
   },
   {
-    "name": "2019_GEO_2_MANEB.pdf",
-    "path": "Books/Geography/2019_GEO_2_MANEB.pdf",
+    "name": "MANEB MSCE Geography Paper II Exam (2019).pdf",
+    "path": "Exams/Geography/MANEB MSCE Geography Paper II Exam (2019).pdf",
     "size": 2977280,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f5e55db6cf"
+    "bucket": 2,
+    "id": "f5e55db6cf",
+    "level": "msce"
   },
   {
-    "name": "2020_geography_2.pdf",
-    "path": "Books/Geography/2020_geography_2.pdf",
+    "name": "MSCE Geography Paper II Mock Exam (2020).pdf",
+    "path": "Exams/Geography/MSCE Geography Paper II Mock Exam (2020).pdf",
     "size": 627534,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f2d8f09d0d"
+    "bucket": 2,
+    "id": "f2d8f09d0d",
+    "level": "msce"
   },
   {
-    "name": "2022-H.GEOGRAPHY.pdf",
-    "path": "Books/Geography/2022-H.GEOGRAPHY.pdf",
+    "name": "St Godfrey Secondary School MSCE Human Geography Paper II Exam (2022).pdf",
+    "path": "Exams/Geography/St Godfrey Secondary School MSCE Human Geography Paper II Exam (2022).pdf",
     "size": 187170,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fca4ae72d8"
+    "bucket": 2,
+    "id": "fca4ae72d8",
+    "level": "msce"
   },
   {
-    "name": "2022_PHYSICALGeography__I.pdf",
-    "path": "Books/Geography/2022_PHYSICALGeography__I.pdf",
+    "name": "St Godfrey Secondary School MSCE Physical Geography Paper I Exam (2022).pdf",
+    "path": "Exams/Geography/St Godfrey Secondary School MSCE Physical Geography Paper I Exam (2022).pdf",
     "size": 499969,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f5d485acbe"
+    "bucket": 2,
+    "id": "f5d485acbe",
+    "level": "msce"
   },
   {
-    "name": "ANSWER_GEOG_P2.pdf",
-    "path": "Books/Geography/ANSWER_GEOG_P2.pdf",
+    "name": "Answer Private Academy MSCE Geography Paper II Mock Exam.pdf",
+    "path": "Exams/Geography/Answer Private Academy MSCE Geography Paper II Mock Exam.pdf",
     "size": 399581,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f236feacb1"
+    "bucket": 2,
+    "id": "f236feacb1",
+    "level": "msce"
   },
   {
-    "name": "COMPLETE_GEO_BOOK_2.pdf",
+    "name": "Complete Geography Book 2 (JCE).pdf",
     "path": "Books/Geography/COMPLETE_GEO_BOOK_2.pdf",
     "size": 69716274,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f8f2e98a74"
+    "id": "f8f2e98a74",
+    "level": "jce"
   },
   {
-    "name": "Chap 7 form 2 lithosphere - Lakes and rivers.pdf",
+    "name": "Form 2 Lithosphere - Formation of Lakes and Rivers.pdf",
     "path": "Books/Geography/Chap 7 form 2 lithosphere - Lakes and rivers (1).pdf",
     "size": 517430,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fad1dfa828"
+    "id": "fad1dfa828",
+    "level": "jce"
   },
   {
-    "name": "Complete Physical Geography with Map Work Elements student Book 3.pdf",
+    "name": "Complete Physical Geography with Map Work Elements (Book 3).pdf",
     "path": "Books/Geography/Complete Physical Geography with Map Work Elements student Book 3.pdf",
     "size": 8441237,
     "repo": "e-library-media-3",
     "bucket": 1,
-    "id": "f6fb23188a"
+    "id": "f6fb23188a",
+    "level": "msce"
   },
   {
-    "name": "Complete_Geography_form_3_(part_1).pdf",
+    "name": "Complete Geography Form 3 (Part 1).pdf",
     "path": "Books/Geography/Complete_Geography_form_3_(part_1).pdf",
     "size": 127681837,
     "repo": "e-library-media-4",
     "bucket": 1,
-    "id": "fb7e863021"
+    "id": "fb7e863021",
+    "level": "msce"
   },
   {
-    "name": "Complete_Human_Geography;_By_F.mwase_compressed_85_1.pdf",
+    "name": "Complete Human Geography for MSCE (F. Mwase).pdf",
     "path": "Books/Geography/Complete_Human_Geography;_By_F.mwase_compressed_85_1.pdf",
     "size": 22281228,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f69a41617b"
+    "id": "f69a41617b",
+    "level": "msce"
   },
   {
-    "name": "Complete_Physical_Geography_with_Map_Work_Elements_student_Book_3.pdf",
-    "path": "Books/Geography/Complete_Physical_Geography_with_Map_Work_Elements_student_Book_3.pdf",
-    "size": 8441061,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f00b04b3a1"
-  },
-  {
-    "name": "FORM_1_GEOGRAPHY NOTES-1.pdf",
+    "name": "JCE Geography Form 1 Notes.pdf",
     "path": "Books/Geography/FORM_1_GEOGRAPHY NOTES-1.pdf",
     "size": 2139918,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f9da98988c"
+    "id": "f9da98988c",
+    "level": "jce"
   },
   {
-    "name": "FORM_3_GEOG-1_1.pdf",
+    "name": "MSCE Geography Form 3 Study Guide.pdf",
     "path": "Books/Geography/FORM_3_GEOG-1_1.pdf",
     "size": 7474865,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "ff727cef94"
+    "id": "ff727cef94",
+    "level": "msce"
   },
   {
-    "name": "FORM_3_GEOG_1.pdf",
+    "name": "MSCE Geography Form 3 Coursebook.pdf",
     "path": "Books/Geography/FORM_3_GEOG_1.pdf",
     "size": 6941627,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f63855e50d"
+    "id": "f63855e50d",
+    "level": "msce"
   },
   {
-    "name": "FORM_4_GEOG_(1).pdf",
+    "name": "MSCE Human Geography Form 4 Coursebook.pdf",
     "path": "Books/Geography/FORM_4_GEOG_(1)_(1).pdf",
     "size": 1818661,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f74740ef88"
+    "id": "f74740ef88",
+    "level": "msce"
   },
   {
-    "name": "GEO I.pdf",
-    "path": "Books/Geography/GEO I.pdf",
+    "name": "Blantyre Secondary School Cluster MSCE Geography Paper I Mock Exam (2018).pdf",
+    "path": "Exams/Geography/Blantyre Secondary School Cluster MSCE Geography Paper I Mock Exam (2018).pdf",
     "size": 319551,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f19e8693e7"
+    "bucket": 2,
+    "id": "f19e8693e7",
+    "level": "msce"
   },
   {
-    "name": "GEOGRAPHY (HUM & ECON).pdf",
+    "name": "Human and Economic Geography Coursebook.pdf",
     "path": "Books/Geography/GEOGRAPHY (HUM & ECON).pdf",
     "size": 2775199,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f4bac483b1"
+    "id": "f4bac483b1",
+    "level": "msce"
   },
   {
-    "name": "GEOGRAPHY I & II.pdf",
-    "path": "Books/Geography/GEOGRAPHY I & II.pdf",
+    "name": "MANEB MSCE Geography Papers I and II Chief Examiners Report (2019).pdf",
+    "path": "Exams/Geography/MANEB MSCE Geography Papers I and II Chief Examiners Report (2019).pdf",
     "size": 68092,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f6b585fd50"
+    "bucket": 2,
+    "id": "f6b585fd50",
+    "level": "msce"
   },
   {
-    "name": "GEOGRAPHY.pdf",
-    "path": "Books/Geography/GEOGRAPHY.pdf",
+    "name": "St Marys Secondary School MSCE Geography Mock Exam (2016).pdf",
+    "path": "Exams/Geography/St Marys Secondary School MSCE Geography Mock Exam (2016).pdf",
     "size": 308809,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f61310022e"
+    "bucket": 2,
+    "id": "f61310022e",
+    "level": "msce"
   },
   {
-    "name": "GEOGRAPHY_(HUM_&_ECON).pdf",
-    "path": "Books/Geography/GEOGRAPHY_(HUM_&_ECON).pdf",
-    "size": 2779744,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f5d140f4b6"
-  },
-  {
-    "name": "GEOGRAPHY_BOOK_COMPLETE.pdf",
+    "name": "Secondary Geography Complete Coursebook.pdf",
     "path": "Books/Geography/GEOGRAPHY_BOOK_COMPLETE.pdf",
     "size": 5424124,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fc902c9f3a"
+    "id": "fc902c9f3a",
+    "level": "both"
   },
   {
-    "name": "GEOGRAPHY__MAP_READING_1.pdf",
+    "name": "Geography Map Reading Coursebook.pdf",
     "path": "Books/Geography/GEOGRAPHY__MAP_READING_1.pdf",
     "size": 2438221,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f41203f3cd"
+    "id": "f41203f3cd",
+    "level": "both"
   },
   {
-    "name": "GEOG_NOTES_3_&_4_1.pdf",
+    "name": "MSCE Geography Complete Senior Notes (Forms 3 and 4).pdf",
     "path": "Books/Geography/GEOG_NOTES_3_&_4_1.pdf",
     "size": 9805696,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f7b7a66926"
+    "id": "f7b7a66926",
+    "level": "msce"
   },
   {
-    "name": "Geo_Map_Reading_Notes_1.pdf",
+    "name": "Topographical Map Reading Notes.pdf",
     "path": "Books/Geography/Geo_Map_Reading_Notes - Copy_1.pdf",
     "size": 881992,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f64813295c"
+    "id": "f64813295c",
+    "level": "both"
   },
   {
-    "name": "Geography.pdf",
-    "path": "Books/Geography/Geography (2).pdf",
+    "name": "New Vision Private Secondary School Form 4 Geography Examination.pdf",
+    "path": "Exams/Geography/New Vision Private Secondary School Form 4 Geography Examination.pdf",
     "size": 146913,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f04de9c1f0"
+    "bucket": 2,
+    "id": "f04de9c1f0",
+    "level": "msce"
   },
   {
-    "name": "Geography (F1-4)Malawi -1_1.pdf",
+    "name": "Geography for Malawi Secondary Schools (Forms 1-4).pdf",
     "path": "Books/Geography/Geography (F1-4)Malawi -1_1.pdf",
     "size": 22119034,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f6f47e3bfe"
+    "id": "f6f47e3bfe",
+    "level": "both"
   },
   {
-    "name": "Geography Book 3 Arise_1.pdf",
+    "name": "Arise in Geography Book 3 (Senior Secondary).pdf",
     "path": "Books/Geography/Geography Book 3 Arise_1.pdf",
     "size": 7977184,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fa19487975"
+    "id": "fa19487975",
+    "level": "msce"
   },
   {
-    "name": "Geography Book 4 Achievers.pdf",
+    "name": "Achievers Geography Book 4 (Senior Secondary).pdf",
     "path": "Books/Geography/Geography Book 4 Achievers.pdf",
     "size": 89677476,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "ff013dae21"
+    "id": "ff013dae21",
+    "level": "msce"
   },
   {
-    "name": "Geography Human Notes.pdf",
+    "name": "World Agriculture and Human Geography Notes.pdf",
     "path": "Books/Geography/Geography Human Notes.pdf",
     "size": 638130,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f151168a8e"
+    "id": "f151168a8e",
+    "level": "both"
   },
   {
-    "name": "Geography Sample JCE.pdf",
-    "path": "Books/Geography/Geography Sample JCE.pdf",
+    "name": "JCE Geography Sample Examination Paper.pdf",
+    "path": "Exams/Geography/JCE Geography Sample Examination Paper.pdf",
     "size": 3799638,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f256276ff8"
+    "bucket": 2,
+    "id": "f256276ff8",
+    "level": "jce"
   },
   {
-    "name": "Geography-1.pdf",
+    "name": "Secondary Geography Form 1 Textbook.pdf",
     "path": "Books/Geography/Geography-1 (1).pdf",
     "size": 4612749,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f2f7cbc241"
+    "id": "f2f7cbc241",
+    "level": "jce"
   },
   {
-    "name": "Geography._K_Gareta_Model_Answers_1.pdf",
-    "path": "Books/Geography/Geography._K_Gareta_Model_Answers_1.pdf",
+    "name": "Geography Model Examination Questions and Answers (K. Gareta).pdf",
+    "path": "Q&A/Geography/Geography Model Examination Questions and Answers (K. Gareta).pdf",
     "size": 21872420,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fb9d146f73"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fb9d146f73",
+    "level": "both"
   },
   {
-    "name": "Geography_Human_Notes_1.pdf",
-    "path": "Books/Geography/Geography_Human_Notes_1.pdf",
-    "size": 1289687,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fb57ccdf7e"
-  },
-  {
-    "name": "Geography_I-1.pdf",
-    "path": "Books/Geography/Geography_I-1.pdf",
+    "name": "Northern Education Division MSCE Geography Paper I Mock Exam (2020).pdf",
+    "path": "Exams/Geography/Northern Education Division MSCE Geography Paper I Mock Exam (2020).pdf",
     "size": 754132,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "feeff7c73d"
+    "bucket": 2,
+    "id": "feeff7c73d",
+    "level": "msce"
   },
   {
-    "name": "Geography_II-1.pdf",
-    "path": "Books/Geography/Geography_II-1.pdf",
+    "name": "Northern Education Division MSCE Geography Paper II Mock Exam (2020).pdf",
+    "path": "Exams/Geography/Northern Education Division MSCE Geography Paper II Mock Exam (2020).pdf",
     "size": 776018,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fa2cda8570"
+    "bucket": 2,
+    "id": "fa2cda8570",
+    "level": "msce"
   },
   {
-    "name": "Geography_Map_Reading-1.pdf",
+    "name": "Map Work and Practical Geography Guide.pdf",
     "path": "Books/Geography/Geography_Map_Reading-1.pdf",
     "size": 6351935,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fa0411e9a6"
+    "id": "fa0411e9a6",
+    "level": "both"
   },
   {
-    "name": "Geography_Map_Reading.pdf",
+    "name": "MSCE Map Work and Interpretation (Chipoza).pdf",
     "path": "Books/Geography/Geography_Map_Reading.pdf",
     "size": 407871,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f8c97e3af3"
+    "id": "f8c97e3af3",
+    "level": "msce"
   },
   {
-    "name": "HUMAN_AND_ECONOMIC_GEOGRAPHY.pdf",
+    "name": "Senior Secondary Human and Economic Geography.pdf",
     "path": "Books/Geography/HUMAN_AND_ECONOMIC_GEOGRAPHY.pdf",
     "size": 2330169,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f9cf75c7be"
+    "id": "f9cf75c7be",
+    "level": "msce"
   },
   {
-    "name": "HUMAN_AND_ECONOMIC_GEOG_F.4.pdf",
+    "name": "Human and Economic Geography Form 4 Coursebook.pdf",
     "path": "Books/Geography/HUMAN_AND_ECONOMIC_GEOG_F.4.pdf",
     "size": 4007684,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f111d6c811"
+    "id": "f111d6c811",
+    "level": "msce"
   },
   {
-    "name": "HUMAN_GEOGRAPHY.pdf",
-    "path": "Books/Geography/HUMAN_GEOGRAPHY.pdf",
+    "name": "Hill Crescent Secondary School MSCE Geography Paper II Mock Exam (2021).pdf",
+    "path": "Exams/Geography/Hill Crescent Secondary School MSCE Geography Paper II Mock Exam (2021).pdf",
     "size": 712575,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fcfdab8e28"
+    "bucket": 2,
+    "id": "fcfdab8e28",
+    "level": "msce"
   },
   {
-    "name": "HUMAN_GEOGRAPHY_NOTES.pdf",
+    "name": "Human Geography Secondary Study Notes.pdf",
     "path": "Books/Geography/HUMAN_GEOGRAPHY_NOTES.pdf",
     "size": 1286836,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f105cea2de"
+    "id": "f105cea2de",
+    "level": "msce"
   },
   {
-    "name": "Human_geography__form_4.pdf",
-    "path": "Books/Geography/Human_geography__form_4__(1).pdf",
-    "size": 1820305,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f9d66d60bc"
-  },
-  {
-    "name": "JC GEOGRAPHY FORM 2_1.pdf",
+    "name": "JCE Geography Form 2 Study Notes.pdf",
     "path": "Books/Geography/JC GEOGRAPHY FORM 2_1.pdf",
     "size": 761362,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f56b865b55"
+    "id": "f56b865b55",
+    "level": "jce"
   },
   {
-    "name": "JC_Geography_Sample.pdf",
-    "path": "Books/Geography/JC_Geography_Sample.pdf",
+    "name": "JCE Geography Sample Examination Paper 2.pdf",
+    "path": "Exams/Geography/JCE Geography Sample Examination Paper 2.pdf",
     "size": 843087,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "ff7818e281"
+    "bucket": 2,
+    "id": "ff7818e281",
+    "level": "jce"
   },
   {
-    "name": "JUNIOR_CERTIFCATE__GEOGRAPHY_1.pdf",
+    "name": "Junior Certificate Geography Complete Coursebook.pdf",
     "path": "Books/Geography/JUNIOR_CERTIFCATE__GEOGRAPHY_1.pdf",
     "size": 8269498,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fb9fa67f57"
+    "id": "fb9fa67f57",
+    "level": "jce"
   },
   {
-    "name": "MSCE_GEOGRAPHY_PII.pdf",
-    "path": "Books/Geography/MSCE_GEOGRAPHY_PII.pdf",
+    "name": "St Marys Secondary School MSCE Geography Paper II Mock Exam (2021).pdf",
+    "path": "Exams/Geography/St Marys Secondary School MSCE Geography Paper II Mock Exam (2021).pdf",
     "size": 918698,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f487a5dd2b"
+    "bucket": 2,
+    "id": "f487a5dd2b",
+    "level": "msce"
   },
   {
-    "name": "Map_reading_&_intepretation.pdf",
+    "name": "Map Reading and Map Interpretation Handbook.pdf",
     "path": "Books/Geography/Map_reading_&_intepretation_(1).pdf",
     "size": 2106012,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f7442cbeed"
+    "id": "f7442cbeed",
+    "level": "both"
   },
   {
-    "name": "PHYSICAL & HUMAN GEOGRAPHY.pdf",
+    "name": "Physical and Human Geography Senior Coursebook.pdf",
     "path": "Books/Geography/PHYSICAL & HUMAN GEOGRAPHY (1).pdf",
     "size": 4548465,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f73e0687f2"
+    "id": "f73e0687f2",
+    "level": "msce"
   },
   {
-    "name": "Phyz geograph.pdf",
+    "name": "MSCE Physical Geography Summary Notes (Chipoza).pdf",
     "path": "Books/Geography/Phyz geograph.pdf",
     "size": 977726,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f5a1c7d697"
+    "id": "f5a1c7d697",
+    "level": "msce"
   },
   {
-    "name": "complete geography note form 3.pdf",
-    "path": "Books/Geography/complete geography note form 3.pdf",
-    "size": 9805696,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f4cdf69463"
-  },
-  {
-    "name": "form_four_Geography__II.pdf",
-    "path": "Books/Geography/form_four_Geography__II.pdf",
-    "size": 485253,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fbed84e88a"
-  },
-  {
-    "name": "form_four_Geography__II_(Autosaved).pdf",
-    "path": "Books/Geography/form_four_Geography__II_(Autosaved).pdf",
+    "name": "Marist Secondary School Form 4 Geography Paper II Mock Exam.pdf",
+    "path": "Exams/Geography/Marist Secondary School Form 4 Geography Paper II Mock Exam.pdf",
     "size": 745294,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f28937a6e2"
+    "bucket": 2,
+    "id": "f28937a6e2",
+    "level": "msce"
   },
   {
-    "name": "form_four_Physical_Geography__I.pdf",
-    "path": "Books/Geography/form_four_Physical_Geography__I.pdf",
+    "name": "Marist Secondary School Form 4 Physical Geography Paper I Mock Exam.pdf",
+    "path": "Exams/Geography/Marist Secondary School Form 4 Physical Geography Paper I Mock Exam.pdf",
     "size": 710076,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fcb8ec4709"
+    "bucket": 2,
+    "id": "fcb8ec4709",
+    "level": "msce"
   },
   {
-    "name": "form_one_geography-1.pdf",
+    "name": "JCE Geography Form 1 Coursebook.pdf",
     "path": "Books/Geography/form_one_geography-1.pdf",
     "size": 1561413,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f72347ccc2"
+    "id": "f72347ccc2",
+    "level": "jce"
   },
   {
-    "name": "geography 2.pdf",
-    "path": "Books/Geography/geography 2.pdf",
+    "name": "Mzuzu Diocese MSCE Geography Paper II Mock Exam (2019).pdf",
+    "path": "Exams/Geography/Mzuzu Diocese MSCE Geography Paper II Mock Exam (2019).pdf",
     "size": 588459,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "febccbc558"
+    "bucket": 2,
+    "id": "febccbc558",
+    "level": "msce"
   },
   {
-    "name": "geography-igcse2.pdf",
-    "path": "Books/Geography/geography-igcse2 (1).pdf",
-    "size": 1299322,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f0da89ab21"
-  },
-  {
-    "name": "geography-notes-form-2_1.pdf",
+    "name": "JCE Geography Form 2 Notes.pdf",
     "path": "Books/Geography/geography-notes-form-2_1.pdf",
     "size": 1397283,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "ffd4866043"
+    "id": "ffd4866043",
+    "level": "jce"
   },
   {
-    "name": "geography_1_1.pdf",
-    "path": "Books/Geography/geography_1_1.pdf",
+    "name": "St Marys Secondary School MSCE Geography Paper I Mock Exam (2018).pdf",
+    "path": "Exams/Geography/St Marys Secondary School MSCE Geography Paper I Mock Exam (2018).pdf",
     "size": 196265,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fd077b4a02"
+    "bucket": 2,
+    "id": "fd077b4a02",
+    "level": "msce"
   },
   {
-    "name": "geography_notes_form_2-1_1.pdf",
+    "name": "JCE Geography Form 2 Teaching Notes.pdf",
     "path": "Books/Geography/geography_notes_form_2-1_1.pdf",
     "size": 861663,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "ff8cd780f9"
+    "id": "ff8cd780f9",
+    "level": "jce"
   },
   {
-    "name": "physical_geography.pdf",
+    "name": "Secondary Physical Geography Complete Textbook.pdf",
     "path": "Books/Geography/physical_geography.pdf",
     "size": 8397624,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fe1e41909e"
+    "id": "fe1e41909e",
+    "level": "both"
   },
   {
     "name": "2006 history.pdf",
