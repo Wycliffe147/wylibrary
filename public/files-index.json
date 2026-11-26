@@ -2675,60 +2675,67 @@
     "level": "msce"
   },
   {
-    "name": "Business Studies sample JCE (1).pdf",
-    "path": "Books/Business Studies/Business Studies sample JCE (1) (1).pdf",
+    "name": "MANEB JCE Business Studies Sample Examination Paper (2021).pdf",
+    "path": "Exams/Business Studies/MANEB JCE Business Studies Sample Examination Paper (2021).pdf",
     "size": 3160758,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "ffa4681463"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "ffa4681463",
+    "level": "jce"
   },
   {
-    "name": "Business studies preamble Forms 3-4_1.doc",
+    "name": "Malawi Secondary Curriculum Business Studies Syllabus (Forms 3 and 4).doc",
     "path": "Books/Business Studies/Business studies preamble Forms 3-4_1.doc",
     "size": 220160,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f86b6a2fa7"
+    "id": "f86b6a2fa7",
+    "level": "msce"
   },
   {
-    "name": "Business studies syllabus Forms 1-2.doc",
+    "name": "Malawi Secondary Curriculum Business Studies Syllabus (Forms 1 and 2).doc",
     "path": "Books/Business Studies/Business studies syllabus Forms 1-2.doc",
     "size": 221184,
     "repo": "e-library-media-3",
     "bucket": 1,
-    "id": "fa20c407fa"
+    "id": "fa20c407fa",
+    "level": "jce"
   },
   {
-    "name": "Business studies syllabus Forms 1-2_1.doc",
+    "name": "Malawi Secondary Curriculum Business Studies Teaching Syllabus (Forms 1 and 2).doc",
     "path": "Books/Business Studies/Business studies syllabus Forms 1-2_1.doc",
     "size": 241664,
     "repo": "e-library-media-4",
     "bucket": 1,
-    "id": "fcba0743cb"
+    "id": "fcba0743cb",
+    "level": "jce"
   },
   {
-    "name": "Business studies syllabus form 3 and 4.doc",
+    "name": "Malawi Secondary Curriculum Business Studies Scope and Sequence Chart (Forms 1 to 4).doc",
     "path": "Books/Business Studies/Business studies syllabus form 3 and 4.doc",
     "size": 222208,
     "repo": "e-library-media-5",
     "bucket": 1,
-    "id": "f9dd43c1c7"
+    "id": "f9dd43c1c7",
+    "level": "both"
   },
   {
-    "name": "Business syllabus_1.doc",
+    "name": "Malawi Secondary Curriculum Business Studies Teaching Syllabus (Forms 3 and 4).doc",
     "path": "Books/Business Studies/Business syllabus_1.doc",
     "size": 307200,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fefd59fc4b"
+    "id": "fefd59fc4b",
+    "level": "msce"
   },
   {
-    "name": "SHED 2026 Business. Studies.2.docx",
-    "path": "Books/Business Studies/SHED 2026 Business. Studies.2.docx",
+    "name": "Shire Highlands Education Division MSCE Business Studies Paper II Mock Exam (2026).docx",
+    "path": "Exams/Business Studies/Shire Highlands Education Division MSCE Business Studies Paper II Mock Exam (2026).docx",
     "size": 65752,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f0d20a8419"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f0d20a8419",
+    "level": "msce"
   },
   {
     "name": "100-Questions-on-Chemistry-with-explanation.pdf",

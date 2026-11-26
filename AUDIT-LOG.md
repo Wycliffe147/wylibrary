@@ -13,7 +13,7 @@ The "After" number represents the clean, frozen count at the moment the folder a
 | **Books/Bible Knowledge** | ✅ Audited | 34 | 25 | 5 | 0 | 4 | 100% Explicit | Nov 25, 2026 |
 | **Books/Agriculture** | ✅ Audited | 84 | 67 | 10 | 3 | 6 | 100% Explicit | Nov 25, 2026 |
 | **Books/Biology** | ✅ Audited | 203 | 114 | 44 | 15 | 30 | 100% Explicit | Nov 26, 2026 |
-| **Books/Business Studies** | ⬜ Queued | 13 | *Pending* | - | - | - | - | - |
+| **Books/Business Studies** | ✅ Audited | 7 | 5 | 2 | 0 | 0 | 100% Explicit | Nov 26, 2026 |
 | **Books/Chemistry** | ⬜ Queued | 57 | *Pending* | - | - | - | - | - |
 | **Books/Chichewa** | ⬜ Queued | 12 | *Pending* | - | - | - | - | - |
 | **Books/Computer studies** | ⬜ Queued | 21 | *Pending* | - | - | - | - | - |
@@ -57,3 +57,11 @@ The "After" number represents the clean, frozen count at the moment the folder a
 - **Transferred to Q&A:** 15 files (Kudinkula Q&A, Bioz Model Essays, Chancellor College Q&A, Mastering Biology Essays, Transpiration Essay, Predicted Essays)
 - **Deleted from R2:** 30 files (5 non-curriculum/corrupt/spam: church medical missionary quotes, 2-byte corrupt dummy, farm sales spreadsheet, WhatsApp prediction spam, crude 2.7KB draft; plus 25 duplicate/superseded uploads)
 - **Format and Metadata Fixes:** Converted and renamed `2._MALNUTRITION.txt` (a PowerPoint presentation) to `.pptx` format in storage and catalog.
+
+### 5. Books/Business Studies
+- **Initial Count:** 7 files
+- **Clean Books Retained:** 5 clean national curriculum syllabus documents (2 JCE, 2 MSCE, 1 Both)
+- **Transferred to Exams:** 2 files (1 MANEB JCE sample paper + 1 Shire Highlands Education Division MSCE Paper II mock exam)
+- **Transferred to Q&A:** 0
+- **Deleted from R2:** 0
+- **Level Tagging Coverage:** 100% Explicit
