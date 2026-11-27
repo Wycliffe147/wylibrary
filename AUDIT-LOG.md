@@ -277,3 +277,32 @@ The "After" number represents the clean, frozen count at the moment the folder a
   - **Q&A (1 file to Bucket 2):**
     - `Q&A/Mathematics/MSCE Mathematics Model Answers by Topic (Masiya and Malunga, 2nd Edition).pdf` (278 pages, topical worked solutions by Masiya Books)
 - **Library Catalog Total:** 2,950 entries reconciled with stable IDs
+
+### 21. Ingestion of Social Studies Book 1 & Upgraded Physics Book 3 (Nov 27, 2026)
+- **New Additions Breakdown:**
+  - `Books/Social Studies/Arise with Social Studies Students Book 1.pdf` (187 pages, Level: jce, Bucket 1)
+  - Upgraded `Books/Physics/Target in Physics Students Book 3.pdf` with clearer 41.2 MB scan (replacing older 37.8 MB scan).
+- **Library Catalog Total:** 2,951 entries
+
+### 22. Password Lock Audit & Removal of Locked Kugwetsa Papers (Nov 27, 2026)
+- **Context:** Student reported locked documents in the library. Inspection confirmed 5 commercial mock papers from the 2025 Kugwetsa drop were encrypted with user passwords.
+- **Removed from R2 and Catalog (5 files):**
+  - `Exams/Biology/Kugwetsa MSCE Biology Practical Exam (2025).pdf`
+  - `Exams/Biology/Kugwetsa MSCE Biology Theory Exam (2025).pdf`
+  - `Exams/Physics/2025 Kugwetsa physics practical 🔥🔥_1.pdf`
+  - `Exams/Physics/PHYSICS KUGWETSA THEORY-1-1_1.pdf`
+  - `Q&A/Chemistry/2025 kugwetsa chemistry practical sample-1_1.pdf`
+- **Library Catalog Total:** 2,946 entries
+
+### 23. Library-Wide Automated PDF Lock Scan Benchmark (Nov 27, 2026)
+- **Tool:** `scripts/scan-pdf-locks.py` using asynchronous HTTP byte-range requests (last 4 KB per PDF) with concurrency of 25 connections.
+- **Scope:** 2,094 PDF files (out of 2,946 total catalog entries; remaining 852 are `.docx`, `.pptx`, `.zip`).
+- **Performance Benchmark:**
+  - **Total PDFs Scanned:** 2,094
+  - **Total Elapsed Time:** 121.38 seconds (2.02 minutes)
+  - **Average Throughput:** 17.3 files/second
+  - **Total Data Transferred:** 8.13 MB (efficient trailer-only range sampling)
+- **Findings:**
+  - **Locked files found:** 0
+  - **Accessible:** 100% of all PDF resources in Wylibrary are completely open and readable.
+- **Safeguard Added:** Automated sub-20ms password detection integrated directly into `scripts/ingest.mjs` to block any future locked files at ingest time.
