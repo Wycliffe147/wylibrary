@@ -214,3 +214,58 @@ The "After" number represents the clean, frozen count at the moment the folder a
 - **Level Tagging Coverage:** 100% Explicit (all 44 retained books have explicit `jce`, `msce`, or `both` level tags)
 - **Catalog delta:** 2973 -> 2935 entries (38 deleted from catalog)
 - **npm run ids:** 0 new IDs, 38 removed, 67 moved - clean
+
+### 18. Books/Syllabus Reorganization (Subject Subfolders)
+- **Goal:** Decentralize syllabuses so that each subject has its own dedicated `Syllabus/` subfolder (e.g., `Books/Biology/Syllabus/`) instead of bundling all syllabuses into a single global folder.
+- **Operations:**
+  - **Transferred to Subject Subfolders (24 files):**
+    - `Books/Additional Mathematics/Syllabus/Additional Mathematics Syllabus Forms 3-4.doc`
+    - `Books/Agriculture/Syllabus/Agriculture Form 3 New Syllabus.pdf`
+    - `Books/Agriculture/Syllabus/Agriculture Syllabus Forms 3-4.doc`
+    - `Books/Agriculture/Syllabus/Agriculture Syllabus Forms 3-4 (MoEST).pdf`
+    - `Books/Agriculture/Syllabus/Agriculture Syllabus Forms 1-2.pdf`
+    - `Books/Agriculture/Syllabus/Agriculture Syllabus Forms 3-4 (Extended, MoEST).pdf`
+    - `Books/Bible Knowledge/Syllabus/Bible Knowledge Syllabus (Forms 3 and 4).pdf`
+    - `Books/Biology/Syllabus/Biology Curriculum Syllabus.pdf`
+    - `Books/Biology/Syllabus/Biology Syllabus (Forms 3 and 4).doc`
+    - `Books/Business Studies/Syllabus/Business Studies Scope and Sequence Chart (Forms 1 to 4).doc`
+    - `Books/Business Studies/Syllabus/Business Studies Syllabus (Forms 1 and 2).doc`
+    - `Books/Business Studies/Syllabus/Business Studies Syllabus (Forms 3 and 4).doc`
+    - `Books/Business Studies/Syllabus/Business Studies Teaching Syllabus (Forms 1 and 2).doc`
+    - `Books/Business Studies/Syllabus/Business Studies Teaching Syllabus (Forms 3 and 4).doc`
+    - `Books/Chemistry/Syllabus/Chemistry Senior Secondary Syllabus (Forms 3 and 4).pdf`
+    - `Books/Chichewa/Syllabus/Chichewa Senior Secondary Syllabus (Forms 3 and 4).pdf`
+    - `Books/Chichewa/Syllabus/Chichewa Syllabus (Forms 1 and 2).pdf`
+    - `Books/English/Syllabus/English Senior Secondary Syllabus (Forms 3 and 4).doc`
+    - `Books/English/Syllabus/English Syllabus (Forms 1 and 2).doc`
+    - `Books/English/Syllabus/MANEB English Examination Syllabus.pdf`
+    - `Books/Mathematics/Syllabus/Mathematics Syllabus Forms 3-4 (MIE 2013).doc`
+    - `Books/Physics/Syllabus/Physics Syllabus - Forms 1-2 (Malawi MoEST, 2013).doc`
+    - `Books/Physics/Syllabus/Physics Syllabus - Forms 3-4 (Malawi MoEST, 2013).doc`
+    - `Books/Physics/Syllabus/Physics Syllabus - Forms 3-4 (Zimbabwe O-Level, 2015-2022).pdf`
+  - **Retained in Central Syllabuses (1 file):**
+    - `Books/Syllabuses/MANEB MSCE Examination Regulations and Syllabuses (July 2020).pdf` (216-page complete national multi-subject regulations handbook)
+  - **Deleted from R2 (1 file):**
+    - `EXAMINATONS_SYLLABI_1.pdf` (149-page truncated, incomplete duplicate scan of the MANEB handbook)
+
+### 19. Ingestion of 14 New Academic Resources (Nov 27, 2026)
+- **Goal:** Ingest user-provided high-value study guides, textbooks, and multi-year past paper compilations into the library.
+- **New Additions Breakdown (14 files):**
+  - **Books (4 files to Bucket 1):**
+    - `Books/English/MSCE Revision English Language (Katoto Mtambo).pdf` (160 pages, Level: msce)
+    - `Books/English/English Grammar Handbook (Katoto Mtambo).pdf` (104 pages, Level: both)
+    - `Books/Agriculture/Excel and Succeed Agriculture Students Book 1.pdf` (222 pages, Level: jce)
+    - `Books/Business Studies/Best Approach to Business Studies - Forms 3 and 4.pdf` (65 pages, Level: msce)
+  - **Q&A (1 file to Bucket 2):**
+    - `Q&A/Business Studies/Business Studies Questions and Answers for MSCE (Boko).pdf` (19 pages)
+  - **Exams (9 multi-year compilations to Bucket 2):**
+    - `Exams/Agriculture/MSCE Agriculture Past Papers (2001-2026).pdf` (395 pages)
+    - `Exams/English/MANEB MSCE English Past Papers (2010-2026).pdf` (330 pages)
+    - `Exams/Mathematics/MSCE Mathematics Past Papers (2000-2026).pdf` (671 pages)
+    - `Exams/Geography/MSCE Geography Past Papers (2002-2026).pdf` (222 pages)
+    - `Exams/Computer Studies/MSCE Computer Studies Past Papers (2006-2026).pdf` (319 pages)
+    - `Exams/Biology/MANEB MSCE Biology Papers I and II (2000-2026).pdf` (443 pages)
+    - `Exams/Physics/MSCE Physics Past Papers (2019-2026).pdf` (149 pages)
+    - `Exams/Chemistry/All MSCE Chemistry Past Papers Compilation.pdf` (141 pages)
+    - `Exams/French/MSCE French Papers I, II and III Past Papers Combined.pdf` (117 pages)
+- **Library Catalog Total:** 2,948 entries reconciled with stable IDs

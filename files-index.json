@@ -1023,8 +1023,8 @@
     "id": "f5032d7356"
   },
   {
-    "name": "Bible Knowledge Syllabus (Forms 3 & 4).pdf",
-    "path": "Books/Syllabuses/Bible Knowledge Syllabus (Forms 3 & 4).pdf",
+    "name": "Bible Knowledge Syllabus (Forms 3 and 4).pdf",
+    "path": "Books/Bible Knowledge/Syllabus/Bible Knowledge Syllabus (Forms 3 and 4).pdf",
     "size": 744020,
     "repo": "e-library-media",
     "bucket": 1,
@@ -1525,7 +1525,7 @@
   },
   {
     "name": "Biology Curriculum Syllabus.pdf",
-    "path": "Books/Syllabuses/Biology Curriculum Syllabus.pdf",
+    "path": "Books/Biology/Syllabus/Biology Curriculum Syllabus.pdf",
     "size": 137982,
     "repo": "e-library-media-2",
     "bucket": 1,
@@ -2137,7 +2137,7 @@
   },
   {
     "name": "Biology Syllabus (Forms 3 and 4).doc",
-    "path": "Books/Syllabuses/Biology Syllabus (Forms 3 and 4).doc",
+    "path": "Books/Biology/Syllabus/Biology Syllabus (Forms 3 and 4).doc",
     "size": 850944,
     "repo": "e-library-media-2",
     "bucket": 1,
@@ -2686,7 +2686,7 @@
   },
   {
     "name": "Business Studies Syllabus (Forms 3 and 4).doc",
-    "path": "Books/Syllabuses/Business Studies Syllabus (Forms 3 and 4).doc",
+    "path": "Books/Business Studies/Syllabus/Business Studies Syllabus (Forms 3 and 4).doc",
     "size": 220160,
     "repo": "e-library-media-2",
     "bucket": 1,
@@ -2695,7 +2695,7 @@
   },
   {
     "name": "Business Studies Syllabus (Forms 1 and 2).doc",
-    "path": "Books/Syllabuses/Business Studies Syllabus (Forms 1 and 2).doc",
+    "path": "Books/Business Studies/Syllabus/Business Studies Syllabus (Forms 1 and 2).doc",
     "size": 221184,
     "repo": "e-library-media-3",
     "bucket": 1,
@@ -2704,7 +2704,7 @@
   },
   {
     "name": "Business Studies Teaching Syllabus (Forms 1 and 2).doc",
-    "path": "Books/Syllabuses/Business Studies Teaching Syllabus (Forms 1 and 2).doc",
+    "path": "Books/Business Studies/Syllabus/Business Studies Teaching Syllabus (Forms 1 and 2).doc",
     "size": 241664,
     "repo": "e-library-media-4",
     "bucket": 1,
@@ -2713,7 +2713,7 @@
   },
   {
     "name": "Business Studies Scope and Sequence Chart (Forms 1 to 4).doc",
-    "path": "Books/Syllabuses/Business Studies Scope and Sequence Chart (Forms 1 to 4).doc",
+    "path": "Books/Business Studies/Syllabus/Business Studies Scope and Sequence Chart (Forms 1 to 4).doc",
     "size": 222208,
     "repo": "e-library-media-5",
     "bucket": 1,
@@ -2722,7 +2722,7 @@
   },
   {
     "name": "Business Studies Teaching Syllabus (Forms 3 and 4).doc",
-    "path": "Books/Syllabuses/Business Studies Teaching Syllabus (Forms 3 and 4).doc",
+    "path": "Books/Business Studies/Syllabus/Business Studies Teaching Syllabus (Forms 3 and 4).doc",
     "size": 307200,
     "repo": "e-library-media",
     "bucket": 1,
@@ -3091,7 +3091,7 @@
   },
   {
     "name": "Chemistry Senior Secondary Syllabus (Forms 3 and 4).pdf",
-    "path": "Books/Syllabuses/Chemistry Senior Secondary Syllabus (Forms 3 and 4).pdf",
+    "path": "Books/Chemistry/Syllabus/Chemistry Senior Secondary Syllabus (Forms 3 and 4).pdf",
     "size": 442001,
     "repo": "e-library-media-2",
     "bucket": 1,
@@ -3586,7 +3586,7 @@
   },
   {
     "name": "Chichewa Syllabus (Forms 1 and 2).pdf",
-    "path": "Books/Syllabuses/Chichewa Syllabus (Forms 1 and 2).pdf",
+    "path": "Books/Chichewa/Syllabus/Chichewa Syllabus (Forms 1 and 2).pdf",
     "size": 1596597,
     "repo": "e-library-media-2",
     "bucket": 1,
@@ -3712,7 +3712,7 @@
   },
   {
     "name": "Chichewa Senior Secondary Syllabus (Forms 3 and 4).pdf",
-    "path": "Books/Syllabuses/Chichewa Senior Secondary Syllabus (Forms 3 and 4).pdf",
+    "path": "Books/Chichewa/Syllabus/Chichewa Senior Secondary Syllabus (Forms 3 and 4).pdf",
     "size": 1667878,
     "repo": "e-library-media-2",
     "bucket": 1,
@@ -4468,12 +4468,12 @@
   },
   {
     "name": "MANEB English Examination Syllabus.pdf",
-    "path": "Books/Syllabuses/MANEB English Examination Syllabus.pdf",
+    "path": "Books/English/Syllabus/MANEB English Examination Syllabus.pdf",
     "size": 3874658,
     "repo": "e-library-media",
     "bucket": 1,
     "id": "fe5bff0c8b",
-    "level": "both"
+    "level": "msce"
   },
   {
     "name": "Secondary English Grammar and Syntax Coursebook.pdf",
@@ -4810,7 +4810,7 @@
   },
   {
     "name": "English Syllabus (Forms 1 and 2).doc",
-    "path": "Books/Syllabuses/English Syllabus (Forms 1 and 2).doc",
+    "path": "Books/English/Syllabus/English Syllabus (Forms 1 and 2).doc",
     "size": 1124864,
     "repo": "e-library-media",
     "bucket": 1,
@@ -4819,7 +4819,7 @@
   },
   {
     "name": "English Senior Secondary Syllabus (Forms 3 and 4).doc",
-    "path": "Books/Syllabuses/English Senior Secondary Syllabus (Forms 3 and 4).doc",
+    "path": "Books/English/Syllabus/English Senior Secondary Syllabus (Forms 3 and 4).doc",
     "size": 1194496,
     "repo": "e-library-media",
     "bucket": 1,
@@ -7014,7 +7014,7 @@
   },
   {
     "name": "Mathematics Syllabus Forms 3-4 (MIE 2013).doc",
-    "path": "Books/Syllabuses/Mathematics Syllabus Forms 3-4 (MIE 2013).doc",
+    "path": "Books/Mathematics/Syllabus/Mathematics Syllabus Forms 3-4 (MIE 2013).doc",
     "size": 508928,
     "repo": "e-library-media-2",
     "bucket": 1,
@@ -7438,11 +7438,12 @@
   },
   {
     "name": "Physics Syllabus - Forms 3-4 (Zimbabwe O-Level, 2015-2022).pdf",
-    "path": "Books/Syllabuses/Physics Syllabus - Forms 3-4 (Zimbabwe O-Level, 2015-2022).pdf",
+    "path": "Books/Physics/Syllabus/Physics Syllabus - Forms 3-4 (Zimbabwe O-Level, 2015-2022).pdf",
     "size": 405330,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fcb34f5f60"
+    "id": "fcb34f5f60",
+    "level": "msce"
   },
   {
     "name": "Physics Teaching Notes - Form 4 (MSCE).pdf",
@@ -7650,19 +7651,21 @@
   },
   {
     "name": "Physics Syllabus - Forms 1-2 (Malawi MoEST, 2013).doc",
-    "path": "Books/Syllabuses/Physics Syllabus - Forms 1-2 (Malawi MoEST, 2013).doc",
+    "path": "Books/Physics/Syllabus/Physics Syllabus - Forms 1-2 (Malawi MoEST, 2013).doc",
     "size": 761344,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f357c77fc4"
+    "id": "f357c77fc4",
+    "level": "jce"
   },
   {
     "name": "Physics Syllabus - Forms 3-4 (Malawi MoEST, 2013).doc",
-    "path": "Books/Syllabuses/Physics Syllabus - Forms 3-4 (Malawi MoEST, 2013).doc",
+    "path": "Books/Physics/Syllabus/Physics Syllabus - Forms 3-4 (Malawi MoEST, 2013).doc",
     "size": 736256,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f661f0b9de"
+    "id": "f661f0b9de",
+    "level": "msce"
   },
   {
     "name": "Excel and Succeed Physics Students Book 4 (Condensed).pdf",
@@ -7869,67 +7872,66 @@
   },
   {
     "name": "Additional Mathematics Syllabus Forms 3-4.doc",
-    "path": "Books/Syllabuses/Additional maths syllabus Forms 3-4.doc",
+    "path": "Books/Additional Mathematics/Syllabus/Additional Mathematics Syllabus Forms 3-4.doc",
     "size": 662528,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f500374fd9"
+    "id": "f500374fd9",
+    "level": "msce"
   },
   {
     "name": "Agriculture Form 3 New Syllabus.pdf",
-    "path": "Books/Syllabuses/Agriculture form 3 new syllabus.pdf",
+    "path": "Books/Agriculture/Syllabus/Agriculture Form 3 New Syllabus.pdf",
     "size": 4046570,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fcb7b2e31c"
+    "id": "fcb7b2e31c",
+    "level": "msce"
   },
   {
     "name": "Agriculture Syllabus Forms 3-4.doc",
-    "path": "Books/Syllabuses/Agriculture syllabus Forms 3-4.doc",
+    "path": "Books/Agriculture/Syllabus/Agriculture Syllabus Forms 3-4.doc",
     "size": 898048,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fb4743dcfa"
+    "id": "fb4743dcfa",
+    "level": "msce"
   },
   {
-    "name": "Agriculture Syllabus Forms 3-4.pdf",
-    "path": "Books/Syllabuses/Agriculture syllabus Forms 3-4.pdf",
+    "name": "Agriculture Syllabus Forms 3-4 (MoEST).pdf",
+    "path": "Books/Agriculture/Syllabus/Agriculture Syllabus Forms 3-4 (MoEST).pdf",
     "size": 714808,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fad95ed0f1"
+    "id": "fad95ed0f1",
+    "level": "msce"
   },
   {
     "name": "Agriculture Syllabus Forms 1-2.pdf",
-    "path": "Books/Syllabuses/Agriculture_syllabus_Forms_1-2.pdf",
+    "path": "Books/Agriculture/Syllabus/Agriculture Syllabus Forms 1-2.pdf",
     "size": 1512332,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f87a1b7b3c"
+    "id": "f87a1b7b3c",
+    "level": "jce"
   },
   {
-    "name": "Agriculture Syllabus Forms 3-4.pdf",
-    "path": "Books/Syllabuses/Agriculture_syllabus_Forms_3-4.pdf",
+    "name": "Agriculture Syllabus Forms 3-4 (Extended, MoEST).pdf",
+    "path": "Books/Agriculture/Syllabus/Agriculture Syllabus Forms 3-4 (Extended, MoEST).pdf",
     "size": 1541797,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fba10246b7"
+    "id": "fba10246b7",
+    "level": "msce"
   },
   {
-    "name": "EXAM SYLLABUS.pdf",
-    "path": "Books/Syllabuses/EXAM SYLLABUS.pdf",
+    "name": "MANEB MSCE Examination Regulations and Syllabuses (July 2020).pdf",
+    "path": "Books/Syllabuses/MANEB MSCE Examination Regulations and Syllabuses (July 2020).pdf",
     "size": 9991675,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f98922a45c"
-  },
-  {
-    "name": "EXAMINATONS_SYLLABI_1.pdf",
-    "path": "Books/Syllabuses/EXAMINATONS_SYLLABI_1.pdf",
-    "size": 6170637,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f60ff830e5"
+    "id": "f98922a45c",
+    "level": "msce"
   },
   {
     "name": "2014 MANEB Additional maths PI.pdf",
@@ -24498,5 +24500,121 @@
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f81c27284f"
+  },
+  {
+    "name": "MSCE Revision English Language (Katoto Mtambo).pdf",
+    "path": "Books/English/MSCE Revision English Language (Katoto Mtambo).pdf",
+    "size": 5863721,
+    "repo": "e-library-media",
+    "bucket": 1,
+    "level": "msce",
+    "id": "fe14d1cd9a"
+  },
+  {
+    "name": "English Grammar Handbook (Katoto Mtambo).pdf",
+    "path": "Books/English/English Grammar Handbook (Katoto Mtambo).pdf",
+    "size": 6490351,
+    "repo": "e-library-media",
+    "bucket": 1,
+    "level": "both",
+    "id": "fdfb1b0f06"
+  },
+  {
+    "name": "Excel and Succeed Agriculture Students Book 1.pdf",
+    "path": "Books/Agriculture/Excel and Succeed Agriculture Students Book 1.pdf",
+    "size": 5339009,
+    "repo": "e-library-media",
+    "bucket": 1,
+    "level": "jce",
+    "id": "f435bf1569"
+  },
+  {
+    "name": "Best Approach to Business Studies - Forms 3 and 4.pdf",
+    "path": "Books/Business Studies/Best Approach to Business Studies - Forms 3 and 4.pdf",
+    "size": 1394085,
+    "repo": "e-library-media",
+    "bucket": 1,
+    "level": "msce",
+    "id": "ffd7a89093"
+  },
+  {
+    "name": "Business Studies Questions and Answers for MSCE (Boko).pdf",
+    "path": "Q&A/Business Studies/Business Studies Questions and Answers for MSCE (Boko).pdf",
+    "size": 480747,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f85d27a5a4"
+  },
+  {
+    "name": "MSCE Agriculture Past Papers (2001-2026).pdf",
+    "path": "Exams/Agriculture/MSCE Agriculture Past Papers (2001-2026).pdf",
+    "size": 33403058,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f7f246503f"
+  },
+  {
+    "name": "MANEB MSCE English Past Papers (2010-2026).pdf",
+    "path": "Exams/English/MANEB MSCE English Past Papers (2010-2026).pdf",
+    "size": 35491581,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f5a6be1dd5"
+  },
+  {
+    "name": "MSCE Mathematics Past Papers (2000-2026).pdf",
+    "path": "Exams/Mathematics/MSCE Mathematics Past Papers (2000-2026).pdf",
+    "size": 35897056,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f3ccb06e7d"
+  },
+  {
+    "name": "MSCE Geography Past Papers (2002-2026).pdf",
+    "path": "Exams/Geography/MSCE Geography Past Papers (2002-2026).pdf",
+    "size": 27858270,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f563967c41"
+  },
+  {
+    "name": "MSCE Computer Studies Past Papers (2006-2026).pdf",
+    "path": "Exams/Computer Studies/MSCE Computer Studies Past Papers (2006-2026).pdf",
+    "size": 25424048,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f0f96ab309"
+  },
+  {
+    "name": "MANEB MSCE Biology Papers I and II (2000-2026).pdf",
+    "path": "Exams/Biology/MANEB MSCE Biology Papers I and II (2000-2026).pdf",
+    "size": 36856487,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f999bd7e58"
+  },
+  {
+    "name": "MSCE Physics Past Papers (2019-2026).pdf",
+    "path": "Exams/Physics/MSCE Physics Past Papers (2019-2026).pdf",
+    "size": 20887340,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f1a2190713"
+  },
+  {
+    "name": "All MSCE Chemistry Past Papers Compilation.pdf",
+    "path": "Exams/Chemistry/All MSCE Chemistry Past Papers Compilation.pdf",
+    "size": 31449362,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f87a7413a9"
+  },
+  {
+    "name": "MSCE French Papers I, II and III Past Papers Combined.pdf",
+    "path": "Exams/French/MSCE French Papers I, II and III Past Papers Combined.pdf",
+    "size": 4874913,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f7fb0ffb91"
   }
 ]

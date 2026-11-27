@@ -60,7 +60,7 @@
      - ✅ `Books/Physical Science` (deep audit complete: 1 clean book with 100% level tagging)
      - ✅ `Books/Physics` - 44 clean books (15 exams, 5 Q&A, 3 syllabuses, 38 deleted); 100% level tagged; Nov 27, 2026
      - ✅ `Books/Social Studies` (deep audit complete: 7 clean books with 100% level tagging, 1 mock exam moved to Exams/)
-     - ⬜ `Books/Syllabuses`
+     - ✅ `Books/Syllabuses` - Decentralized 24 subject syllabuses into `Books/{Subject}/Syllabus/` subfolders; preserved complete national MANEB regulations handbook; Nov 27, 2026
      - ⬜ All `Exams/` subfolders
      - ⬜ `Q&A/`
      - ⬜ **Unzip `Zips/` folder:** Review all 56 ZIP archives, extract contents, and distribute individual files across the correct subject folders in `Books/` and `Exams/`. Remove ZIP duplicates from R2 once distributed and verified.
@@ -80,7 +80,7 @@
 
 5. **Missing Subjects Sourcing & Collection (Curriculum Expansion)**
    - Source, curate, and ingest textbooks and exam papers for secondary subjects currently missing or lacking textbook coverage in MSCE/JCE:
-     - **Business Studies:** Source student textbooks (currently has 25 exam papers and 5 syllabus docs in `Books/Syllabuses/`, but needs core textbooks).
+     - **Business Studies:** Added first core textbook (*Best Approach to Business Studies - Forms 3 and 4*) and model Q&A booklet (*Business Studies Q&A for MSCE by Boko*); 5 syllabuses organized into `Books/Business Studies/Syllabus/`.
      - **French:** Malawian secondary curriculum elective.
      - **Woodwork / Carpentry & Joinery:** Technical subjects.
      - **Metalwork:** Technical subjects.
