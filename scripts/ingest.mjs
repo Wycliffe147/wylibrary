@@ -182,42 +182,35 @@ function chooseBucket(category) {
   return (category === 'Books' || category === 'Syllabus') ? B1 : B2;
 }
 
-/** Upload a file to R2 using aws CLI (s3api put-object) */
+/** Upload a file to R2 using uv + boto3 (verified size) */
 function uploadToR2(bucket, destKey, localPath) {
-  const env = {
-    ...process.env,
-    AWS_ACCESS_KEY_ID     : bucket.key,
-    AWS_SECRET_ACCESS_KEY : bucket.secret,
-    AWS_DEFAULT_REGION    : 'auto',
-  };
-  const args = [
-    's3api', 'put-object',
-    '--endpoint-url', bucket.endpoint,
-    '--bucket', bucket.bucket,
-    '--key', destKey,
-    '--body', localPath,
-  ];
+  const pyScript = `
+import boto3, sys, os
+endpoint, key, secret, bucket_name, dest_key, local_path = sys.argv[1:7]
+client = boto3.client('s3', endpoint_url=endpoint, aws_access_key_id=key, aws_secret_access_key=secret)
+file_size = os.path.getsize(local_path)
+client.upload_file(local_path, bucket_name, dest_key)
+meta = client.head_object(Bucket=bucket_name, Key=dest_key)
+remote_size = meta['ContentLength']
+if remote_size != file_size:
+    raise ValueError(f"Size mismatch: local={file_size} remote={remote_size}")
+print(remote_size)
+`;
   const fileSize = fs.statSync(localPath).size;
-  const r = spawnSync('aws', args, { env, encoding: 'utf-8', timeout: 120000, maxBuffer: 4 * 1024 * 1024 });
+  const r = spawnSync('uv', [
+    'run', '--with', 'boto3', 'python3', '-c', pyScript,
+    bucket.endpoint, bucket.key, bucket.secret, bucket.bucket, destKey, localPath
+  ], { encoding: 'utf-8', timeout: 300000, maxBuffer: 4 * 1024 * 1024 });
+
   if (r.status !== 0) {
-    throw new Error(`aws s3api failed:\n${r.stderr || r.stdout}`);
+    throw new Error(`R2 upload failed:\n${r.stderr || r.stdout}`);
   }
 
-  // Verify via head-object
-  const hr = spawnSync('aws', [
-    's3api', 'head-object',
-    '--endpoint-url', bucket.endpoint,
-    '--bucket', bucket.bucket,
-    '--key', destKey,
-  ], { env, encoding: 'utf-8', timeout: 20000 });
-  if (hr.status === 0) {
-    const meta = JSON.parse(hr.stdout);
-    const uploadedSize = meta.ContentLength;
-    if (uploadedSize !== fileSize) {
-      throw new Error(`Size mismatch after upload: local=${fileSize} remote=${uploadedSize}`);
-    }
+  const uploadedSize = parseInt(r.stdout.trim(), 10);
+  if (uploadedSize !== fileSize) {
+    throw new Error(`Size mismatch after upload: local=${fileSize} remote=${uploadedSize}`);
   }
-  return fileSize;
+  return uploadedSize;
 }
 
 /** Append entry to both catalog files and keep them in sync */

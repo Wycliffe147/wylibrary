@@ -24633,5 +24633,14 @@
     "repo": "e-library-media-2",
     "bucket": 2,
     "id": "f6a4609943"
+  },
+  {
+    "name": "Arise with Social Studies Students Book 1.pdf",
+    "path": "Books/Social Studies/Arise with Social Studies Students Book 1.pdf",
+    "size": 4946215,
+    "repo": "e-library-media-2",
+    "bucket": 1,
+    "level": "jce",
+    "id": "f4dceac0d8"
   }
 ]
