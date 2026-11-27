@@ -222,7 +222,7 @@
   - **Stable IDs:** Must run `node scripts/add-ids.mjs` and commit `/public/id-map.json` to keep students' saved offline documents intact.
   - **Filename Normalization:** Standardize titles (e.g. `2026 MANEB Biology Paper I.pdf`) and align directory naming (e.g. `Exams/Computer studies`).
   - **Explicit MIME Types:** Always upload with explicit `ContentType` (`application/pdf`, `application/zip`).
-  - **Service Worker Invalidation:** Auto-bump `CACHE_NAME` and update `UPDATE_META` (`materials` drop notification).
+  - [x] **Service Worker Invalidation:** Auto-bump `CACHE_NAME` and update `UPDATE_META` (`materials` drop notification) implemented in `scripts/ingest.mjs`.
 
 ### 21. Footer Expansion & Structured Links
 - **Goal:** Update the footer across all views by adding more comprehensive information and clear navigation links.

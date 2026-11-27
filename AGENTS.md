@@ -128,6 +128,8 @@ Before merging to `main`, verify the following at `https://staging.wylibrary.pag
 - **Dark mode must remain intact** - never change dark theme styling unintentionally
 - **`files-index.json` must exist in both root AND `public/`**
 - **`generate-index.js` and `scripts/migrate_to_r2.py`** must both write to `public/files-index.json`
+- **Service Worker invalidation on deploy:** Any deploy that changes the catalog (`files-index.json`) or application code must also update `public/sw.js` (bump `CACHE_NAME` and update `UPDATE_META`). Browsers only check `sw.js` byte changes to discover updates; without this, users never see update notifications or cache refreshed assets.
+- **Service Worker install lifecycle:** Never call `self.skipWaiting()` inside the `install` event handler in `public/sw.js`. Immediate skip-waiting bypasses the waiting state and breaks the user-facing update toast reload handshake. Always trigger `skipWaiting()` via the `SKIP_WAITING` postMessage listener.
 
 ## 🔧 Useful Commands
 

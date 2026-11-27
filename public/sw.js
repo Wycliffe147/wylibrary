@@ -1,17 +1,17 @@
 // Wylibrary Service Worker - v10.0
 // Network-First with Cache Fallback for seamless online updates & full offline resilience
 
-const CACHE_NAME = 'wylibrary-v65-20261125-v12';
+const CACHE_NAME = 'wylibrary-v66-20261127-m1';
 
 // Update notification metadata (hybrid system):
 // Set type to 'auto' to let the app automatically detect materials vs features,
 // or explicitly set 'materials', 'features', or 'all'.
 // Optional custom title/message can announce specific drops (e.g. 2026 exam papers).
 const UPDATE_META = {
-  version: 'v12.0',
-  type: 'features',
-  title: '🎓 JCE & MSCE Level Filter',
-  message: 'Filter study materials by education level (All, JCE, MSCE) with a clean mobile view.'
+  version: 'v12.1',
+  type: 'materials',
+  title: '📚 2026 Exam Compilations & New Books',
+  message: 'Added 17+ new resources, MANEB past papers (2000-2026), and updated study materials.'
 };
 
 // Books the reader chose to keep. Managed by offline-store.js and NEVER deleted
@@ -100,7 +100,6 @@ async function storeRemote(cache, url) {
 
 // Install Event: Pre-cache core shell
 self.addEventListener('install', event => {
-  self.skipWaiting();
   event.waitUntil(
     caches.open(CACHE_NAME).then(async cache => {
       await cache.addAll(CORE_ASSETS);

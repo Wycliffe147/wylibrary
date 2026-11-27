@@ -239,6 +239,48 @@ function catalogRef(category) {
   return { repo: 'e-library-media', bucket: 1 };
 }
 
+/** Bump CACHE_NAME and UPDATE_META in public/sw.js so clients receive update toasts */
+function bumpServiceWorker(itemsAdded) {
+  const swPath = path.join(ROOT, 'public', 'sw.js');
+  if (!fs.existsSync(swPath)) return;
+
+  let content = fs.readFileSync(swPath, 'utf8');
+
+  const cacheMatch = content.match(/const CACHE_NAME = 'wylibrary-v(\d+)-[^']+';/);
+  const nextNum = cacheMatch ? parseInt(cacheMatch[1], 10) + 1 : 67;
+  const today = new Date().toISOString().slice(0, 10).replace(/-/g, '');
+  const newCacheName = `wylibrary-v${nextNum}-${today}-m1`;
+
+  content = content.replace(
+    /const CACHE_NAME = '[^']+';/,
+    `const CACHE_NAME = '${newCacheName}';`
+  );
+
+  const title = '📚 New Study Materials';
+  let message;
+  if (itemsAdded.length === 1) {
+    message = `Added ${itemsAdded[0]}.`;
+  } else if (itemsAdded.length <= 3) {
+    message = `Added ${itemsAdded.join(', ')}.`;
+  } else {
+    message = `Added ${itemsAdded.length} new academic resources to the library.`;
+  }
+  message = message.replace(/[\u2013\u2014]/g, '-');
+
+  const metaBlock = `const UPDATE_META = {
+  version: 'v${(nextNum / 10).toFixed(1)}',
+  type: 'materials',
+  title: '${title}',
+  message: '${message.replace(/'/g, "\\'")}'
+};`;
+
+  content = content.replace(/const UPDATE_META = \{[\s\S]*?\};/, metaBlock);
+
+  fs.writeFileSync(swPath, content, 'utf8');
+  console.log(`📱 Service Worker updated: ${newCacheName}`);
+  console.log(`   Notification: "${title}" - "${message}"`);
+}
+
 // ─── Interactive prompt ───────────────────────────────────────────────────────
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
 function ask(prompt) {
@@ -258,6 +300,7 @@ async function main() {
 
   let ingested = 0;
   let skipped  = 0;
+  const ingestedNames = [];
 
   for (const filePath of args) {
     if (!fs.existsSync(filePath)) {
@@ -382,6 +425,7 @@ async function main() {
     catalog.push(entry); // keep in-memory copy current for dupe checking
     console.log('   📚 Added to catalog');
 
+    ingestedNames.push(cleanName);
     ingested++;
   }
 
@@ -396,6 +440,9 @@ async function main() {
     } catch (err) {
       console.error('❌ npm run ids failed:', err.message);
     }
+
+    console.log('\n📱 Invalidation: Bumping Service Worker cache & update notification...');
+    bumpServiceWorker(ingestedNames);
   }
 
   rl.close();
