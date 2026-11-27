@@ -5,14 +5,16 @@
  *         node scripts/ingest.mjs /path/to/file.pdf
  *
  * What it does per file:
- *  1. Reads PDF text from first 3 pages (pdftotext fallback: OCR via pdftoppm+tesseract)
- *  2. Infers subject, level (jce/msce/both), category (Books/Exams/Q&A)
- *  3. Suggests a clean destination name & path
- *  4. Deduplicates by SHA-256 hash against catalog
- *  5. Interactively confirms with the user (y / e / s / q)
- *  6. Uploads to the correct R2 bucket (B1=Books, B2=Exams|Q&A)
- *  7. Appends entry to files-index.json + public/files-index.json
- *  8. Runs `npm run ids` to stamp stable IDs
+ *  1. Deduplicates by SHA-256 hash and name against existing catalog
+ *  2. Checks for PDF password protection / lock (sub-20ms) and offers to skip
+ *  3. Reads PDF text from first 3 pages (pdftotext fallback: OCR via pdftoppm+tesseract)
+ *  4. Infers subject, level (jce/msce/both), category (Books/Exams/Q&A)
+ *  5. Suggests a clean destination name & path
+ *  6. Interactively confirms with the user (y / e / s / q)
+ *  7. Uploads to the correct R2 bucket (B1=Books, B2=Exams|Q&A)
+ *  8. Appends entry to files-index.json + public/files-index.json
+ *  9. Runs `npm run ids` to stamp stable IDs
+ *  10. Bumps Service Worker cache & generates update drop notification
  *
  * Configuration (from .env or environment):
  *   R2_B1_ENDPOINT, R2_B1_KEY, R2_B1_SECRET, R2_B1_BUCKET
@@ -90,6 +92,25 @@ const SUBJECTS = [
 function sha256File(filePath) {
   const data = fs.readFileSync(filePath);
   return crypto.createHash('sha256').update(data).digest('hex');
+}
+
+/** Check if a PDF is password-protected / locked (sub-20ms) */
+function checkPdfLock(filePath) {
+  try {
+    const r = spawnSync('pdfinfo', [filePath], { encoding: 'utf-8', timeout: 5000 });
+    if (r.stderr && r.stderr.includes('Incorrect password')) {
+      return { locked: true, reason: 'requires user password' };
+    }
+    if (r.stdout && r.stdout.includes('Encrypted:') && !r.stdout.includes('Encrypted:       no')) {
+      const q = spawnSync('qpdf', ['--check', filePath], { encoding: 'utf-8', timeout: 5000 });
+      if (q.stderr && q.stderr.toLowerCase().includes('password')) {
+        return { locked: true, reason: 'password-protected' };
+      }
+    }
+    return { locked: false };
+  } catch (_) {
+    return { locked: false };
+  }
 }
 
 /** Extract text from first N pages via pdftotext, then OCR fallback */
@@ -330,7 +351,22 @@ async function main() {
       if (ans.trim().toLowerCase() !== 'y') { skipped++; continue; }
     }
 
-    // 2. Extract text
+    // 2. Encryption / Password lock check (sub-20ms)
+    if (ext === '.pdf') {
+      const lockCheck = checkPdfLock(filePath);
+      if (lockCheck.locked) {
+        console.log(`\n   🔒 LOCKED DOCUMENT: This PDF is password-protected (${lockCheck.reason}).`);
+        console.log('      Students cannot open or read this file without a password.');
+        const ans = await ask('      Skip this locked file? [Y/n]: ');
+        if (ans.trim().toLowerCase() !== 'n') {
+          console.log('   ⏭️  Skipped locked file.');
+          skipped++;
+          continue;
+        }
+      }
+    }
+
+    // 3. Extract text
     console.log('   Extracting text from PDF...');
     const text = ext === '.pdf' ? extractText(filePath) : '';
 
