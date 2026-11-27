@@ -53,13 +53,13 @@
      - ✅ `Books/Computer studies` (deep audit complete: 28 clean books with 100% level tagging, 1 mock exam moved to Exams/, 3 non-curriculum deleted)
      - ✅ `Books/English` (deep audit complete: 116 clean books with 100% level tagging, 33 exams moved to Exams/, 5 Q&A moved to Q&A/, 3 syllabuses moved to Syllabuses/, 34 deleted)
      - ✅ `Books/Geography` (deep audit complete: 35 clean books with 100% level tagging, 21 mock exams moved to Exams/, 1 Q&A moved to Q&A/, 7 deleted)
-     - ⬜ `Books/History`
-     - ⬜ `Books/Home Economics`
+     - ✅ `Books/History` (deep audit complete: 9 clean books with 100% level tagging, 10 mock exams moved to Exams/)
+     - ✅ `Books/Home Economics` (deep audit complete: 2 clean books with 100% level tagging, 2 non-curriculum deleted)
      - ✅ `Books/Life Skills` (deep audit complete: 2 clean books with 100% level tagging, 2 exams moved to Exams/)
      - ✅ `Books/Mathematics` (deep audit complete: 39 clean books with 100% level tagging, 28 mock exams moved to Exams/, 21 Q&A moved to Q&A/, 1 syllabus moved to Syllabuses/, 26 deleted)
      - ✅ `Books/Physical Science` (deep audit complete: 1 clean book with 100% level tagging)
      - ⬜ `Books/Physics`
-     - ⬜ `Books/Social Studies`
+     - ✅ `Books/Social Studies` (deep audit complete: 7 clean books with 100% level tagging, 1 mock exam moved to Exams/)
      - ⬜ `Books/Syllabuses`
      - ⬜ All `Exams/` subfolders
      - ⬜ `Q&A/`

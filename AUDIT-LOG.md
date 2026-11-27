@@ -19,13 +19,13 @@ The "After" number represents the clean, frozen count at the moment the folder a
 | **Books/Computer studies** | ✅ Audited | 32 | 28 | 1 | 0 | 3 | 100% Explicit | Nov 26, 2026 |
 | **Books/English** | ✅ Audited | 191 | 116 | 33 | 5 | 34 | 100% Explicit | Nov 26, 2026 |
 | **Books/Geography** | ✅ Audited | 64 | 35 | 21 | 1 | 7 | 100% Explicit | Nov 26, 2026 |
-| **Books/History** | ⬜ Queued | 24 | *Pending* | - | - | - | - | - |
-| **Books/Home Economics** | ⬜ Queued | 8 | *Pending* | - | - | - | - | - |
+| **Books/History** | ✅ Audited | 19 | 9 | 10 | 0 | 0 | 100% Explicit | Nov 27, 2026 |
+| **Books/Home Economics** | ✅ Audited | 4 | 2 | 0 | 0 | 2 | 100% Explicit | Nov 27, 2026 |
 | **Books/Life Skills** | ✅ Audited | 4 | 2 | 2 | 0 | 0 | 100% Explicit | Nov 26, 2026 |
 | **Books/Mathematics** | ✅ Audited | 115 | 39 | 28 | 21 | 26 | 100% Explicit | Nov 27, 2026 |
 | **Books/Physical Science** | ✅ Audited | 1 | 1 | 0 | 0 | 0 | 100% Explicit | Nov 27, 2026 |
 | **Books/Physics** | ⬜ Queued | 90 | *Pending* | - | - | - | - | - |
-| **Books/Social Studies** | ⬜ Queued | 6 | *Pending* | - | - | - | - | - |
+| **Books/Social Studies** | ✅ Audited | 8 | 7 | 1 | 0 | 0 | 100% Explicit | Nov 27, 2026 |
 
 ---
 
@@ -145,3 +145,30 @@ The "After" number represents the clean, frozen count at the moment the folder a
 - **Transferred to Syllabuses:** 0
 - **Deleted from R2:** 0
 - **Level Tagging Coverage:** 100% Explicit
+
+### 14. Books/History
+- **Initial Count:** 19 files
+- **Clean Books Retained:** 9 clean textbooks, study notes, and essay guides (6 MSCE, 2 JCE, 1 Both)
+- **Transferred to Exams:** 10 mock exams and past papers to `Exams/History/` on Bucket 2 (MANEB 2006 MSCE Paper 1, 2021 Robert Blake Cluster JCE Mock, 2026 CEED MSCE Mock Papers 1 & 2, 2025 Mangochi Catholic Diocese MSCE Mock Papers 1 & 2, 2026 Northern Education Division JCE Mock, 2025 Central West Education Division MSCE Mock Papers 1 & 2, MANEB JCE History Sample Paper)
+- **Transferred to Q&A:** 0
+- **Transferred to Syllabuses:** 0
+- **Deleted from R2:** 0
+- **Level Tagging Coverage:** 100% Explicit (6 MSCE, 2 JCE, 1 Both)
+
+### 15. Books/Home Economics
+- **Initial Count:** 4 files
+- **Clean Books Retained:** 2 clean textbooks and study notes (1 JCE, 1 MSCE: Home Economics Form 1 Study Notes, Achievers Home Economics Book 3)
+- **Transferred to Exams:** 0
+- **Transferred to Q&A:** 0
+- **Transferred to Syllabuses:** 0
+- **Deleted from R2:** 2 files (1 presidential parliamentary speech: State of the Nation Address SONA February 2026; 1 blank 6-word planning sheet template)
+- **Level Tagging Coverage:** 100% Explicit (1 JCE, 1 MSCE)
+
+### 16. Books/Social Studies
+- **Initial Count:** 8 files
+- **Clean Books Retained:** 7 clean coursebooks and modular study notes (2 JCE, 5 MSCE: Social Studies Form 1 Notes, Form 2 Notes by Ndacheredwa, Form 3 Notes by Holly, Forms 3 & 4 Notes by Holly, Form 4 Notes by Harrison Benala, MSCE Coursebook by Godfrey Mhango, Forms 3 & 4 Complete Notes)
+- **Transferred to Exams:** 1 mock exam to `Exams/Social Studies/` on Bucket 2 (2026 Loyola Jesuit Secondary School JCE Social Studies Mock)
+- **Transferred to Q&A:** 0
+- **Transferred to Syllabuses:** 0
+- **Deleted from R2:** 0
+- **Level Tagging Coverage:** 100% Explicit (2 JCE, 5 MSCE)

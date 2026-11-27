@@ -5943,188 +5943,235 @@
     "level": "both"
   },
   {
-    "name": "2006 history.pdf",
-    "path": "Books/History/2006 history.pdf",
+    "name": "2006 MANEB MSCE History Paper 1 Questions.pdf",
+    "path": "Exams/History/2006 MANEB MSCE History Paper 1 Questions.pdf",
     "size": 1253583,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f08866bd39"
+    "bucket": 2,
+    "id": "f08866bd39",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "History"
   },
   {
-    "name": "2021_ROBERT_BLAKE_CLUSTER_HISTORY.docx",
-    "path": "Books/History/2021_ROBERT_BLAKE_CLUSTER_HISTORY_.docx",
+    "name": "2021 Robert Blake Cluster JCE History Mock.docx",
+    "path": "Exams/History/2021 Robert Blake Cluster JCE History Mock.docx",
     "size": 63870,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f8eec8ade9"
+    "bucket": 2,
+    "id": "f8eec8ade9",
+    "level": "jce",
+    "category": "Exams",
+    "subject": "History"
   },
   {
-    "name": "2026 CEED HISTORY I.pdf",
-    "path": "Books/History/2026 CEED HISTORY I.pdf",
+    "name": "2026 CEED MSCE History Paper 1 Mock.pdf",
+    "path": "Exams/History/2026 CEED MSCE History Paper 1 Mock.pdf",
     "size": 705961,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f2a6754615"
+    "bucket": 2,
+    "id": "f2a6754615",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "History"
   },
   {
-    "name": "2026 CEED HISTORY II.pdf",
-    "path": "Books/History/2026 CEED HISTORY II.pdf",
+    "name": "2026 CEED MSCE History Paper 2 Mock.pdf",
+    "path": "Exams/History/2026 CEED MSCE History Paper 2 Mock.pdf",
     "size": 254247,
-    "repo": "e-library-media-3",
-    "bucket": 1,
-    "id": "fb9df33f86"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fb9df33f86",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "History"
   },
   {
-    "name": "FORM 1 HISTORY.pdf",
-    "path": "Books/History/FORM 1 HISTORY.pdf",
+    "name": "History Form 1 Study Notes.pdf",
+    "path": "Books/History/History Form 1 Study Notes.pdf",
     "size": 4756649,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f053c09a25"
+    "id": "f053c09a25",
+    "level": "jce",
+    "category": "Books",
+    "subject": "History"
   },
   {
-    "name": "FORM_3_HISTORY.pdf",
-    "path": "Books/History/FORM_3_HISTORY_(1).pdf",
+    "name": "History Form 3 Teaching Notes (Kombo Joseph Bob).pdf",
+    "path": "Books/History/History Form 3 Teaching Notes (Kombo Joseph Bob).pdf",
     "size": 895345,
-    "repo": "e-library-media-4",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f725c3a2fd"
+    "id": "f725c3a2fd",
+    "level": "msce",
+    "category": "Books",
+    "subject": "History"
   },
   {
-    "name": "HISTORY I.docx",
-    "path": "Books/History/HISTORY I.docx",
+    "name": "2025 Mangochi Catholic Diocese MSCE History Paper 1 Mock.docx",
+    "path": "Exams/History/2025 Mangochi Catholic Diocese MSCE History Paper 1 Mock.docx",
     "size": 190312,
-    "repo": "e-library-media-5",
-    "bucket": 1,
-    "id": "f08851d8ca"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f08851d8ca",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "History"
   },
   {
-    "name": "HISTORY II.docx",
-    "path": "Books/History/HISTORY II.docx",
+    "name": "2025 Mangochi Catholic Diocese MSCE History Paper 2 Mock.docx",
+    "path": "Exams/History/2025 Mangochi Catholic Diocese MSCE History Paper 2 Mock.docx",
     "size": 179896,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fd12ad49a4"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fd12ad49a4",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "History"
   },
   {
-    "name": "HISTORY.docx",
-    "path": "Books/History/HISTORY.docx",
+    "name": "2026 Northern Education Division JCE History Mock.docx",
+    "path": "Exams/History/2026 Northern Education Division JCE History Mock.docx",
     "size": 53508,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f092d44625"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f092d44625",
+    "level": "jce",
+    "category": "Exams",
+    "subject": "History"
   },
   {
-    "name": "HISTORY_BOOK_3_&_4_1_(1)_(1).pdf",
-    "path": "Books/History/HISTORY_BOOK_3_&_4_1_(1)_(1) (1).pdf",
+    "name": "World History Forms 3 and 4 Study Notes.pdf",
+    "path": "Books/History/World History Forms 3 and 4 Study Notes.pdf",
     "size": 692595,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fd5e505e51"
+    "id": "fd5e505e51",
+    "level": "msce",
+    "category": "Books",
+    "subject": "History"
   },
   {
-    "name": "HISTORY_NOTES_F4.pdf",
-    "path": "Books/History/HISTORY_NOTES_F4_.pdf",
+    "name": "History Form 4 Study Notes (Benjamin Luqoto).pdf",
+    "path": "Books/History/History Form 4 Study Notes (Benjamin Luqoto).pdf",
     "size": 2276625,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "facf45598f"
+    "id": "facf45598f",
+    "level": "msce",
+    "category": "Books",
+    "subject": "History"
   },
   {
-    "name": "History 4 IN 1.pdf",
-    "path": "Books/History/History 4 IN 1 (1).pdf",
+    "name": "History Forms 1 and 2 Complete Notes (Brinol Banda).pdf",
+    "path": "Books/History/History Forms 1 and 2 Complete Notes (Brinol Banda).pdf",
     "size": 3122144,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "ff6e5b4f82"
+    "id": "ff6e5b4f82",
+    "level": "jce",
+    "category": "Books",
+    "subject": "History"
   },
   {
-    "name": "History PP2.pdf",
-    "path": "Books/History/History PP2.pdf",
+    "name": "2025 Central West Education Division MSCE History Paper 2 Mock.pdf",
+    "path": "Exams/History/2025 Central West Education Division MSCE History Paper 2 Mock.pdf",
     "size": 414996,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f5c1896d3a"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f5c1896d3a",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "History"
   },
   {
-    "name": "History PPI.pdf",
-    "path": "Books/History/History PPI.pdf",
+    "name": "2025 Central West Education Division MSCE History Paper 1 Mock.pdf",
+    "path": "Exams/History/2025 Central West Education Division MSCE History Paper 1 Mock.pdf",
     "size": 603965,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f1ddcc356f"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f1ddcc356f",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "History"
   },
   {
-    "name": "History Target F3_1.pdf",
-    "path": "Books/History/History Target F3_1.pdf",
+    "name": "Target History of Central Africa Form 3 (Bookland).pdf",
+    "path": "Books/History/Target History of Central Africa Form 3 (Bookland).pdf",
     "size": 28951242,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fac7e60ff0"
+    "id": "fac7e60ff0",
+    "level": "msce",
+    "category": "Books",
+    "subject": "History"
   },
   {
-    "name": "History_Notes_1.pdf",
-    "path": "Books/History/History_Notes_1.pdf",
+    "name": "African History Study Notes.pdf",
+    "path": "Books/History/African History Study Notes.pdf",
     "size": 227927,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f1afceb0af"
+    "id": "f1afceb0af",
+    "level": "both",
+    "category": "Books",
+    "subject": "History"
   },
   {
-    "name": "JC_History_Sample.pdf",
-    "path": "Books/History/JC_History_Sample.pdf",
+    "name": "MANEB JCE History Sample Paper.pdf",
+    "path": "Exams/History/MANEB JCE History Sample Paper.pdf",
     "size": 810516,
     "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fc348ca190"
+    "bucket": 2,
+    "id": "fc348ca190",
+    "level": "jce",
+    "category": "Exams",
+    "subject": "History"
   },
   {
-    "name": "TIPS ON WRITING A HISTORY ESSAY_1.pdf",
-    "path": "Books/History/TIPS ON WRITING A HISTORY ESSAY_1.pdf",
+    "name": "Tips on Writing an MSCE History Essay (Adha Mkolongo).pdf",
+    "path": "Books/History/Tips on Writing an MSCE History Essay (Adha Mkolongo).pdf",
     "size": 133176,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f1c5d0695c"
+    "id": "f1c5d0695c",
+    "level": "msce",
+    "category": "Books",
+    "subject": "History"
   },
   {
-    "name": "history_target_book_4.pdf",
-    "path": "Books/History/history_target_book_4.pdf",
+    "name": "Target History Form 4 Notes.pdf",
+    "path": "Books/History/Target History Form 4 Notes.pdf",
     "size": 624743,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fc751e94b3"
+    "id": "fc751e94b3",
+    "level": "msce",
+    "category": "Books",
+    "subject": "History"
   },
   {
-    "name": "FORM 1 HOME ECONOMICS STUDY NOTESs (1)_1.pdf",
-    "path": "Books/Home Economics/FORM 1 HOME ECONOMICS STUDY NOTESs (1)_1.pdf",
+    "name": "Home Economics Form 1 Study Notes.pdf",
+    "path": "Books/Home Economics/Home Economics Form 1 Study Notes.pdf",
     "size": 2224537,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fc700e3a18"
+    "id": "fc700e3a18",
+    "level": "jce",
+    "category": "Books",
+    "subject": "Home Economics"
   },
   {
-    "name": "HE._SONA_2026_FEBRUARY_13.pdf",
-    "path": "Books/Home Economics/HE._SONA_2026_FEBRUARY_13.pdf",
-    "size": 9564938,
-    "repo": "e-library-media-3",
-    "bucket": 1,
-    "id": "fc7a240069"
-  },
-  {
-    "name": "Home Economics Answee Sheet.docx",
-    "path": "Books/Home Economics/Home Economics Answee Sheet.docx",
-    "size": 15880,
-    "repo": "e-library-media-4",
-    "bucket": 1,
-    "id": "f0eecdb108"
-  },
-  {
-    "name": "home economics book 3 achievers.pdf",
-    "path": "Books/Home Economics/home economics book 3 achievers.pdf",
+    "name": "Achievers Home Economics Book 3.pdf",
+    "path": "Books/Home Economics/Achievers Home Economics Book 3.pdf",
     "size": 79213450,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f926ba0472"
+    "id": "f926ba0472",
+    "level": "msce",
+    "category": "Books",
+    "subject": "Home Economics"
   },
   {
     "name": "St Marys Girls Secondary School MSCE Life Skills Mock Exam (2020).pdf",
@@ -7993,68 +8040,92 @@
     "id": "fca890a5e6"
   },
   {
-    "name": "FORM 3 & 4 SOCIAL holly.pdf",
-    "path": "Books/Social Studies/FORM 3 & 4 SOCIAL holly.pdf",
+    "name": "Social Studies Forms 3 and 4 Study Notes (Holly).pdf",
+    "path": "Books/Social Studies/Social Studies Forms 3 and 4 Study Notes (Holly).pdf",
     "size": 1286746,
     "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f71ff007ae"
+    "id": "f71ff007ae",
+    "level": "msce",
+    "category": "Books",
+    "subject": "Social Studies"
   },
   {
-    "name": "FORM 3 SOCIAL.pdf",
-    "path": "Books/Social Studies/FORM 3 SOCIAL.pdf",
+    "name": "Social and Development Studies Form 3 Notes (Holly).pdf",
+    "path": "Books/Social Studies/Social and Development Studies Form 3 Notes (Holly).pdf",
     "size": 1807936,
-    "repo": "e-library-media-3",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fa1b2433d6"
+    "id": "fa1b2433d6",
+    "level": "msce",
+    "category": "Books",
+    "subject": "Social Studies"
   },
   {
-    "name": "FORM_1_SOCIAL_STUDIES_NOTES.pdf",
-    "path": "Books/Social Studies/FORM_1_SOCIAL_STUDIES_NOTES.pdf",
+    "name": "Social Studies Form 1 Study Notes.pdf",
+    "path": "Books/Social Studies/Social Studies Form 1 Study Notes.pdf",
     "size": 1446428,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f905845554"
+    "id": "f905845554",
+    "level": "jce",
+    "category": "Books",
+    "subject": "Social Studies"
   },
   {
-    "name": "FORM_2_SOCIAL_STUDIES_NOTES.pdf",
-    "path": "Books/Social Studies/FORM_2_SOCIAL_STUDIES_NOTES.pdf",
+    "name": "Social Studies Form 2 Study Notes (Ndacheredwa).pdf",
+    "path": "Books/Social Studies/Social Studies Form 2 Study Notes (Ndacheredwa).pdf",
     "size": 905552,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fe092fa5f8"
+    "id": "fe092fa5f8",
+    "level": "jce",
+    "category": "Books",
+    "subject": "Social Studies"
   },
   {
-    "name": "FORM_4_SOCIAL_STUDIES_NEW_SYLLABUS.pdf",
-    "path": "Books/Social Studies/FORM_4_SOCIAL_STUDIES_NEW_SYLLABUS.pdf",
+    "name": "Social Studies Form 4 Study Notes (Harrison Benala).pdf",
+    "path": "Books/Social Studies/Social Studies Form 4 Study Notes (Harrison Benala).pdf",
     "size": 914023,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "f242c39387"
+    "id": "f242c39387",
+    "level": "msce",
+    "category": "Books",
+    "subject": "Social Studies"
   },
   {
-    "name": "MSCE_SOCIAL_STUDIES_(3&4).pdf",
-    "path": "Books/Social Studies/MSCE_SOCIAL_STUDIES_(3&4).pdf",
+    "name": "MSCE Social Studies Coursebook Forms 3 and 4 (Godfrey Mhango).pdf",
+    "path": "Books/Social Studies/MSCE Social Studies Coursebook Forms 3 and 4 (Godfrey Mhango).pdf",
     "size": 1969672,
-    "repo": "e-library-media-4",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fe0993dfc5"
+    "id": "fe0993dfc5",
+    "level": "msce",
+    "category": "Books",
+    "subject": "Social Studies"
   },
   {
-    "name": "Social JCE 2026 Chipeta.docx",
-    "path": "Books/Social Studies/Social JCE 2026 Chipeta.docx",
+    "name": "2026 Loyola Jesuit Secondary School JCE Social Studies Mock.docx",
+    "path": "Exams/Social Studies/2026 Loyola Jesuit Secondary School JCE Social Studies Mock.docx",
     "size": 28609,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fa0802c530"
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fa0802c530",
+    "level": "jce",
+    "category": "Exams",
+    "subject": "Social Studies"
   },
   {
-    "name": "Social_Complete_3_&_4_Notes-1.pdf",
-    "path": "Books/Social Studies/Social_Complete_3_&_4_Notes-1.pdf",
+    "name": "Social Studies Forms 3 and 4 Complete Notes.pdf",
+    "path": "Books/Social Studies/Social Studies Forms 3 and 4 Complete Notes.pdf",
     "size": 1232770,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 1,
-    "id": "fdc51f650c"
+    "id": "fdc51f650c",
+    "level": "msce",
+    "category": "Books",
+    "subject": "Social Studies"
   },
   {
     "name": "Additional Mathematics Syllabus Forms 3-4.doc",
