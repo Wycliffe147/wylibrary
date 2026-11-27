@@ -220,11 +220,34 @@
     <footer class="footer">
         <div class="footer-content">
             <div class="footer-section">
-                <p class="footer-description">Empowering students through accessible academic resources.</p>
+                <p class="footer-description">A free digital library for Malawian secondary school students. Built to make quality study resources accessible to everyone, everywhere.</p>
+                <p class="footer-meta">By <a href="https://wycliffemwanganda.vercel.app" target="_blank" rel="noopener noreferrer" class="footer-link">Wycliffe Mwanganda</a></p>
             </div>
             <div class="footer-section">
-                <h3>Library Stats</h3>
-                <ul class="stats-list">
+                <h3>Explore</h3>
+                <nav class="footer-nav">
+                    <button type="button" class="footer-nav-btn" onclick="loadHome()">Home</button>
+                    <button type="button" class="footer-nav-btn" onclick="loadSaved()">Offline Saved Books</button>
+                    <button type="button" class="footer-nav-btn" onclick="loadPractice()">Practice Quiz</button>
+                    <button type="button" class="footer-nav-btn" onclick="loadAbout()">About</button>
+                    <button type="button" class="footer-nav-btn" onclick="history.pushState({},'','#/contact'); location.reload()">Contact / Request a Book</button>
+                </nav>
+            </div>
+            <div class="footer-section">
+                <h3>Curriculum</h3>
+                <nav class="footer-nav">
+                    <button type="button" class="footer-nav-btn" onclick="loadHome(); setTimeout(()=>{ const btn = document.querySelector('[data-level=\'jce\']'); if(btn) btn.click(); }, 500)">JCE Resources (Forms 1 &amp; 2)</button>
+                    <button type="button" class="footer-nav-btn" onclick="loadHome(); setTimeout(()=>{ const btn = document.querySelector('[data-level=\'msce\']'); if(btn) btn.click(); }, 500)">MSCE Resources (Forms 3 &amp; 4)</button>
+                    <button type="button" class="footer-nav-btn" onclick="loadHome(); setTimeout(()=>{ const btn = document.querySelector('[data-folder=\'Exams\']') || document.querySelector('[data-path=\'Exams\']'); if(btn) btn.click(); }, 500)">MANEB Past Papers</button>
+                    <button type="button" class="footer-nav-btn" onclick="loadHome(); setTimeout(()=>{ const btn = document.querySelector('[data-folder=\'Books\']') || document.querySelector('[data-path=\'Books\']'); if(btn) btn.click(); }, 500)">Textbooks &amp; Notes</button>
+                </nav>
+            </div>
+            <div class="footer-section">
+                <h3>Community</h3>
+                <button type="button" class="footer-whatsapp-btn" onclick="trackEvent('join_community', { platform: 'whatsapp', source: 'footer' }); window.open('https://chat.whatsapp.com/Ks3oJ046vMdInp4dR7pK3r', '_blank', 'noopener,noreferrer')">
+                    💬 Join Student WhatsApp Group
+                </button>
+                <ul class="stats-list footer-stats">
                     <li><span class="stat-icon">📚</span> <span id="total-books">Loading...</span> files available</li>
                     <li><span class="stat-icon">💾</span> <span id="total-size">Loading...</span> total size</li>
                     <li><span class="stat-icon">📅</span> Updated: <span id="last-updated">Loading...</span></li>
@@ -232,7 +255,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 Wycliffe Mwanganda. All rights reserved.</p>
+            <p>&copy; 2026 <a href="https://wycliffemwanganda.vercel.app" target="_blank" rel="noopener noreferrer" class="footer-link">Wycliffe Mwanganda</a>. All rights reserved.</p>
             <p><button type="button" class="wn-link" data-wn-open>What's new in v12.0</button></p>
         </div>
     </footer>

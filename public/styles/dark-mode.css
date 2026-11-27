@@ -201,6 +201,18 @@ html.dark .footer-section h3 {
     border-bottom-color: rgba(255, 255, 255, 0.1);
 }
 
+html.dark .footer-link {
+    color: #93c5fd;
+}
+
+html.dark .footer-nav-btn {
+    color: #e2e8f0;
+}
+
+html.dark .footer-bottom {
+    border-top-color: rgba(255, 255, 255, 0.08);
+}
+
 html.dark #quiz-feedback {
     background-color: rgba(255,255,255,0.05);
 }

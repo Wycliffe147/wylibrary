@@ -224,6 +224,28 @@
   - **Explicit MIME Types:** Always upload with explicit `ContentType` (`application/pdf`, `application/zip`).
   - [x] **Service Worker Invalidation:** Auto-bump `CACHE_NAME` and update `UPDATE_META` (`materials` drop notification) implemented in `scripts/ingest.mjs`.
 
+### 23. Christmas Theme (Dec 2026) - REMINDER
+- **Idea:** Try a subtle, time-limited Christmas theme for the last week of December. Festive color accents (reds/greens alongside the brand blue), maybe a light snowflake or star motif in the header or on the splash. Keep it gentle - does not distract from study content.
+- **Should auto-revert after Christmas week** (Dec 25-Jan 1 window). Could be toggled manually or via a date check in JS.
+- **Priority:** Seasonal / Try when December arrives.
+
+### 24. Exam Paper Organization (Community Suggestion)
+- **Suggested by:** Community member (+265 982 33 60 08) via WhatsApp, Nov 27 2026.
+- **Idea:** Reorganize `Exams/` subfolders into clearly separated sections:
+  - `Exams/MANEB Official/` - Official MANEB papers (MSCE + JCE by year, most sought-after)
+  - `Exams/Mock Exams/` - School mock/end-of-term papers (kept separate)
+- **Why:** Official MANEB papers are what students most urgently need; mixing them with school mocks makes them harder to find.
+- **Resource offer:** Community member has offered to supply MANEB papers 2000-2026 for English, Maths, Physics, Chemistry, Biology, Computer Studies, Agriculture, Geography.
+- **Priority:** Medium / Plan during Exams/ folder audit pass (after Books/ audit completes).
+
+### 25. Play Store Distribution
+- **Goal:** Get Wylibrary on Google Play Store.
+- **Cost:** $25 one-time Google Play Developer account fee (approx MWK 50k-80k after bank charges).
+- **Plan:** Fundraise through community donations to cover the fee.
+- **Technical approach:** Investigate Trusted Web Activity (TWA) - packages a PWA as an Android APK without rewriting the app. Tools: Bubblewrap CLI or PWA Builder.
+- **App Store (iOS):** Separate cost and process - explore later.
+- **Priority:** Medium / Target 2027 when funds available.
+
 ### 21. Footer Expansion & Structured Links
 - **Goal:** Update the footer across all views by adding more comprehensive information and clear navigation links.
 - **Key Elements to Include:**
