@@ -9,7 +9,7 @@ The "After" number represents the clean, frozen count at the moment the folder a
 
 | Subject Folder | Status | Before Count | After Clean Books | Transferred to Exams | Transferred to Q&A | Duplicates / Non-Curriculum Deleted | Level Tagging Coverage | Completion Date |
 |---|---|---|---|---|---|---|---|---|
-| **Books/Additional Mathematics** | ✅ Audited | 19 | 19 | 0 | 0 | 0 | 100% MSCE | Nov 13, 2026 |
+| **Books/Additional Mathematics** | ✅ Audited | 19 | 21 | 0 | 0 | 0 | 100% MSCE | Nov 13, 2026 |
 | **Books/Bible Knowledge** | ✅ Audited | 34 | 24 | 5 | 0 | 4 | 100% Explicit | Nov 25, 2026 |
 | **Books/Agriculture** | ✅ Audited | 84 | 67 | 10 | 3 | 6 | 100% Explicit | Nov 25, 2026 |
 | **Books/Biology** | ✅ Audited | 203 | 112 | 44 | 15 | 30 | 100% Explicit | Nov 26, 2026 |
@@ -22,7 +22,7 @@ The "After" number represents the clean, frozen count at the moment the folder a
 | **Books/History** | ✅ Audited | 19 | 9 | 10 | 0 | 0 | 100% Explicit | Nov 27, 2026 |
 | **Books/Home Economics** | ✅ Audited | 4 | 2 | 0 | 0 | 2 | 100% Explicit | Nov 27, 2026 |
 | **Books/Life Skills** | ✅ Audited | 4 | 2 | 2 | 0 | 0 | 100% Explicit | Nov 26, 2026 |
-| **Books/Mathematics** | ✅ Audited | 115 | 39 | 28 | 21 | 26 | 100% Explicit | Nov 27, 2026 |
+| **Books/Mathematics** | ✅ Audited | 115 | 37 | 28 | 21 | 26 | 100% Explicit | Nov 27, 2026 |
 | **Books/Physical Science** | ✅ Audited | 1 | 1 | 0 | 0 | 0 | 100% Explicit | Nov 27, 2026 |
 | **Books/Physics** | ⬜ Queued | 90 | *Pending* | - | - | - | - | - |
 | **Books/Social Studies** | ✅ Audited | 8 | 7 | 1 | 0 | 0 | 100% Explicit | Nov 27, 2026 |
@@ -33,7 +33,7 @@ The "After" number represents the clean, frozen count at the moment the folder a
 
 ### 1. Books/Additional Mathematics
 - **Initial Count:** 19 files
-- **Clean Books Retained:** 19
+- **Clean Books Retained:** 21 clean textbooks and modules (19 original + 2 transferred from Books/Mathematics: Additional Mathematics Students Book 4, and Chancellor College Additional Mathematics Module)
 - **Changes:** Subject rule hardcoded in `getFileLevel()` to 100% MSCE. No duplicates or misplaced exams found.
 
 ### 2. Books/Bible Knowledge
@@ -125,7 +125,7 @@ The "After" number represents the clean, frozen count at the moment the folder a
 
 ### 12. Books/Mathematics
 - **Initial Count:** 115 files
-- **Clean Books Retained:** 39 clean textbooks, modular coursebooks, formula compendiums, and revision pamphlets (21 MSCE, 8 JCE, 10 Both)
+- **Clean Books Retained:** 37 clean textbooks, modular coursebooks, formula compendiums, and revision pamphlets (19 MSCE, 8 JCE, 10 Both; 2 Additional Mathematics textbooks transferred to Books/Additional Mathematics/)
 - **Transferred to Exams:** 28 mock exams and past papers to Bucket 2:
   - 25 files to `Exams/Mathematics/` (MANEB 2006 Paper 1, MANEB 2016 JCE, 2016 Mzuzu Diocese Mock Paper 1, 2019 Maranatha Mock Paper 1, 2019 Providence Cluster Mock Paper 2, MANEB 2020 Paper 1, 2021 CCAP Synod of Livingstonia Mock Papers 1 & 2, 2021 Nkhamenya Cluster Mock Paper 2, 2022 MANEB Chief Examiners Report, 2022 Chikhwaza Cluster Mock Paper 2, 2023 CEED Mock Paper 1, 2023 Lilongwe City Mock Papers 1 & 2, 2023 Blantyre Secondary School Cluster Mock Paper 2, 2023 Shire Highlands Education Division Mock Paper 1, 2025 Shire Highlands Education Division Mock Paper 1 PDF & DOCX, 2026 Northern Education Division JCE Mock, 2026 Loyola Jesuit Secondary School JCE Mock, 2021 MANEB JCE Sample Paper, 2025 Central West Education Division Mock Papers 1 & 2, MSCE Mock Paper 1, and 2020 Mzuzu Diocese Mock Papers 1 & 2, 2020 St Marys Mock Paper 1)
   - 3 files to `Exams/Additional Mathematics/` (MANEB 2014 MSCE Additional Mathematics Paper 1, MANEB 2019 MSCE Additional Mathematics Paper 2)

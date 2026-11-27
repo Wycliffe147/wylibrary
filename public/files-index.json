@@ -6871,14 +6871,14 @@
   },
   {
     "name": "Additional Mathematics Students Book 4.pdf",
-    "path": "Books/Mathematics/Additional Mathematics Students Book 4.pdf",
+    "path": "Books/Additional Mathematics/Additional Mathematics Students Book 4.pdf",
     "size": 10062107,
     "repo": "e-library-media-2",
     "bucket": 1,
     "id": "f86db09171",
     "level": "msce",
     "category": "Books",
-    "subject": "Mathematics"
+    "subject": "Additional Mathematics"
   },
   {
     "name": "Secondary Common Mathematics Formulas Reference Sheet.pdf",
@@ -7102,14 +7102,14 @@
   },
   {
     "name": "Chancellor College Additional Mathematics Module.pdf",
-    "path": "Books/Mathematics/Chancellor College Additional Mathematics Module.pdf",
+    "path": "Books/Additional Mathematics/Chancellor College Additional Mathematics Module.pdf",
     "size": 23051748,
     "repo": "e-library-media-2",
     "bucket": 1,
     "id": "f01e321e0a",
     "level": "msce",
     "category": "Books",
-    "subject": "Mathematics"
+    "subject": "Additional Mathematics"
   },
   {
     "name": "Chikwakwa Secondary Mathematics Book 4.pdf",
