@@ -2461,6 +2461,14 @@
     "level": "msce"
   },
   {
+    "name": "MSCE Chemistry Form 4 Study Notes.pdf",
+    "path": "Books/Chemistry/MSCE Chemistry Form 4 Study Notes.pdf",
+    "size": 1687858,
+    "repo": "e-library-media",
+    "bucket": 1,
+    "id": "f81fd6748c"
+  },
+  {
     "name": "Chemistry Senior Secondary Syllabus (Forms 3 and 4).pdf",
     "path": "Books/Chemistry/Syllabus/Chemistry Senior Secondary Syllabus (Forms 3 and 4).pdf",
     "size": 442001,
@@ -10727,12 +10735,60 @@
     "level": "msce"
   },
   {
-    "name": "2019_CHEMISTRY_MOCK_PI-1(1)_1.pdf",
-    "path": "Exams/Chemistry/2019_CHEMISTRY_MOCK_PI-1(1)_1.pdf",
+    "name": "2019 Form 4 MSCE Chemistry Paper I Mock 2.pdf",
+    "path": "Exams/Chemistry/2019 Form 4 MSCE Chemistry Paper I Mock 2.pdf",
+    "size": 335346,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f055bc06be"
+  },
+  {
+    "name": "2019 MSCE Chemistry Paper I Mock Exam.pdf",
+    "path": "Exams/Chemistry/2019 MSCE Chemistry Paper I Mock Exam.pdf",
+    "size": 246412,
+    "repo": "e-library-media-3",
+    "bucket": 2,
+    "id": "f9d7ae3161"
+  },
+  {
+    "name": "2019 MSCE Chemistry Paper I Mock.pdf",
+    "path": "Exams/Chemistry/2019 MSCE Chemistry Paper I Mock.pdf",
     "size": 214685,
     "repo": "e-library-media-2",
     "bucket": 2,
     "id": "f1baedea00"
+  },
+  {
+    "name": "2019 MSCE Chemistry Paper I Practice Mock.pdf",
+    "path": "Exams/Chemistry/2019 MSCE Chemistry Paper I Practice Mock.pdf",
+    "size": 400760,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f679dec343"
+  },
+  {
+    "name": "2019 MSCE Chemistry Paper I Revision Mock.pdf",
+    "path": "Exams/Chemistry/2019 MSCE Chemistry Paper I Revision Mock.pdf",
+    "size": 401859,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "ffb17c4143"
+  },
+  {
+    "name": "2019 MSCE Chemistry Paper II Mock.pdf",
+    "path": "Exams/Chemistry/2019 MSCE Chemistry Paper II Mock.pdf",
+    "size": 181272,
+    "repo": "e-library-media-4",
+    "bucket": 2,
+    "id": "f236f8dd29"
+  },
+  {
+    "name": "2019 Magodi Secondary School Chemistry Mock.pdf",
+    "path": "Exams/Chemistry/2019 Magodi Secondary School Chemistry Mock.pdf",
+    "size": 517187,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f9ca60d7c3"
   },
   {
     "name": "2019_CHEMISTRY_MOCK_PI-1.docx",
@@ -10741,22 +10797,6 @@
     "repo": "e-library-media-2",
     "bucket": 2,
     "id": "f7ccc277c9"
-  },
-  {
-    "name": "2019_CHEMISTRY_MOCK_PI-1_1.pdf",
-    "path": "Exams/Chemistry/2019_CHEMISTRY_MOCK_PI-1_1.pdf",
-    "size": 246412,
-    "repo": "e-library-media-3",
-    "bucket": 2,
-    "id": "f9d7ae3161"
-  },
-  {
-    "name": "2019_CHEMISTRY_MOCK_PII(1)_1.pdf",
-    "path": "Exams/Chemistry/2019_CHEMISTRY_MOCK_PII(1)_1.pdf",
-    "size": 181272,
-    "repo": "e-library-media-4",
-    "bucket": 2,
-    "id": "f236f8dd29"
   },
   {
     "name": "2019_CHEMISTRY_PAPER_II.pdf",
@@ -10775,14 +10815,6 @@
     "id": "f25ca218ad"
   },
   {
-    "name": "2019_MAGODI_CHEMISTR-1_1.pdf",
-    "path": "Exams/Chemistry/2019_MAGODI_CHEMISTR-1_1.pdf",
-    "size": 517187,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f9ca60d7c3"
-  },
-  {
     "name": "2020 MSCE CHEMISTRY I KUGWETSA.pdf",
     "path": "Exams/Chemistry/2020 MSCE CHEMISTRY I KUGWETSA.pdf",
     "size": 1783639,
@@ -10791,8 +10823,16 @@
     "id": "f9abccf76d"
   },
   {
-    "name": "2020CHEMISTRY_MOCK_EXAMS_MBOMBA_SEC.pdf",
-    "path": "Exams/Chemistry/2020CHEMISTRY_MOCK_EXAMS_MBOMBA_SEC.pdf",
+    "name": "2020 MSCE Chemistry Paper I Mock.pdf",
+    "path": "Exams/Chemistry/2020 MSCE Chemistry Paper I Mock.pdf",
+    "size": 490088,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fb99a55282"
+  },
+  {
+    "name": "2020 Mbomba Secondary School Chemistry Mock Exam.pdf",
+    "path": "Exams/Chemistry/2020 Mbomba Secondary School Chemistry Mock Exam.pdf",
     "size": 440640,
     "repo": "e-library-media-2",
     "bucket": 2,
@@ -10807,14 +10847,6 @@
     "id": "f01306a262"
   },
   {
-    "name": "2020_chem_paper_1.pdf",
-    "path": "Exams/Chemistry/2020_chem_paper_1.pdf",
-    "size": 601265,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f7a1e832ff"
-  },
-  {
     "name": "2021 CHEM TONE.C STUDENT EXAMINER.pdf",
     "path": "Exams/Chemistry/2021 CHEM TONE.C STUDENT EXAMINER.pdf",
     "size": 202902,
@@ -10823,28 +10855,52 @@
     "id": "f6545dc27d"
   },
   {
-    "name": "2021 JCE Chemistry Loyola_1.pdf",
-    "path": "Exams/Chemistry/2021 JCE Chemistry Loyola_1.pdf",
+    "name": "2021 Loyola Jesuit Secondary School JCE Chemistry Exam.pdf",
+    "path": "Exams/Chemistry/2021 Loyola Jesuit Secondary School JCE Chemistry Exam.pdf",
     "size": 692118,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f6a79f4bad"
   },
   {
-    "name": "2021 MANEB Chemistry I_1.pdf",
-    "path": "Exams/Chemistry/2021 MANEB Chemistry I_1.pdf",
+    "name": "2021 Loyola Jesuit Secondary School JCE Chemistry Paper I.pdf",
+    "path": "Exams/Chemistry/2021 Loyola Jesuit Secondary School JCE Chemistry Paper I.pdf",
+    "size": 677907,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fb0f47124a"
+  },
+  {
+    "name": "2021 MANEB MSCE Chemistry Paper I.pdf",
+    "path": "Exams/Chemistry/2021 MANEB MSCE Chemistry Paper I.pdf",
     "size": 2995133,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f36a9160b2"
   },
   {
-    "name": "2021_JCE_Chemistry_Loyola_1.pdf",
-    "path": "Exams/Chemistry/2021_JCE_Chemistry_Loyola_1.pdf",
-    "size": 677907,
+    "name": "2021 MSCE Chemistry Paper I Mock.pdf",
+    "path": "Exams/Chemistry/2021 MSCE Chemistry Paper I Mock.pdf",
+    "size": 308075,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fb0f47124a"
+    "id": "fc2cc8b16b"
+  },
+  {
+    "name": "2021 MSCE Chemistry Papers I and II Mock.pdf",
+    "path": "Exams/Chemistry/2021 MSCE Chemistry Papers I and II Mock.pdf",
+    "size": 836691,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fc0c8bf615"
+  },
+  {
+    "name": "2021 Maranatha Academy MSCE Chemistry Theory Mock.pdf",
+    "path": "Exams/Chemistry/2021 Maranatha Academy MSCE Chemistry Theory Mock.pdf",
+    "size": 731861,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f5db229f2a"
   },
   {
     "name": "2021_MANEB_Chemistry_I.pdf",
@@ -10855,36 +10911,12 @@
     "id": "fd2f348bd9"
   },
   {
-    "name": "2021_MARANATHA_CHEMISTRY_THEOEY_1.pdf",
-    "path": "Exams/Chemistry/2021_MARANATHA_CHEMISTRY_THEOEY_1.pdf",
-    "size": 731861,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5db229f2a"
-  },
-  {
-    "name": "2021_MSCE_CHEMISTRY_1_&_II_1.pdf",
-    "path": "Exams/Chemistry/2021_MSCE_CHEMISTRY_1_&_II_1.pdf",
-    "size": 836691,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fc0c8bf615"
-  },
-  {
     "name": "2021_MSCE_CHEM_Paper_I_Loyola.docx.pdf",
     "path": "Exams/Chemistry/2021_MSCE_CHEM_Paper_I_Loyola.docx.pdf",
     "size": 257879,
     "repo": "e-library-media-2",
     "bucket": 2,
     "id": "f95b5c1486"
-  },
-  {
-    "name": "2021__MOCK_CHEMISTY_P1-1_1.pdf",
-    "path": "Exams/Chemistry/2021__MOCK_CHEMISTY_P1-1_1.pdf",
-    "size": 308075,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fc2cc8b16b"
   },
   {
     "name": "2022 Che I MOck Exams.pdf",
@@ -10895,22 +10927,6 @@
     "id": "f461001392"
   },
   {
-    "name": "2022 Che Loyola JCE_1.pdf",
-    "path": "Exams/Chemistry/2022 Che Loyola JCE_1.pdf",
-    "size": 786090,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "ffcd31881c"
-  },
-  {
-    "name": "2022 Chemistry Paper I (Theory) MJ CLUSTER_1.pdf",
-    "path": "Exams/Chemistry/2022 Chemistry Paper I (Theory) MJ CLUSTER_1.pdf",
-    "size": 645097,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f1fe238431"
-  },
-  {
     "name": "2022 DEDZA DISTRICT MOCK (CHEMISTRY paper II).pdf",
     "path": "Exams/Chemistry/2022 DEDZA  DISTRICT MOCK (CHEMISTRY paper II).pdf",
     "size": 522031,
@@ -10919,12 +10935,44 @@
     "id": "f4db7a31d9"
   },
   {
-    "name": "2022 JCE CHEMISTRY MANEB_1.pdf",
-    "path": "Exams/Chemistry/2022 JCE CHEMISTRY MANEB_1.pdf",
+    "name": "2022 Loyola Jesuit Secondary School JCE Chemistry Exam.pdf",
+    "path": "Exams/Chemistry/2022 Loyola Jesuit Secondary School JCE Chemistry Exam.pdf",
+    "size": 786090,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "ffcd31881c"
+  },
+  {
+    "name": "2022 MANEB JCE Chemistry.pdf",
+    "path": "Exams/Chemistry/2022 MANEB JCE Chemistry.pdf",
     "size": 3679810,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f6fbd1a020"
+  },
+  {
+    "name": "2022 MANEB MSCE Chemistry Paper I.pdf",
+    "path": "Exams/Chemistry/2022 MANEB MSCE Chemistry Paper I.pdf",
+    "size": 4597768,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fc0768b367"
+  },
+  {
+    "name": "2022 MJ Cluster MSCE Chemistry Paper I Theory Mock.pdf",
+    "path": "Exams/Chemistry/2022 MJ Cluster MSCE Chemistry Paper I Theory Mock.pdf",
+    "size": 645097,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f1fe238431"
+  },
+  {
+    "name": "2022 Maranatha Academy Form 4 Chemistry Paper I 6th Mock.pdf",
+    "path": "Exams/Chemistry/2022 Maranatha Academy Form 4 Chemistry Paper I 6th Mock.pdf",
+    "size": 688438,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f2da0b1761"
   },
   {
     "name": "2022 chem exam f1.pdf",
@@ -10951,14 +10999,6 @@
     "id": "f6761c0c3a"
   },
   {
-    "name": "2022_chemistry_1_maneb_1.pdf",
-    "path": "Exams/Chemistry/2022_chemistry_1_maneb_1.pdf",
-    "size": 4597768,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fc0768b367"
-  },
-  {
     "name": "2023 Chiradzulu CHEMISTRY I.pdf",
     "path": "Exams/Chemistry/2023 Chiradzulu CHEMISTRY I.pdf",
     "size": 694405,
@@ -10975,28 +11015,68 @@
     "id": "ffe448bf56"
   },
   {
-    "name": "2023 JCE CHEM_1.pdf",
-    "path": "Exams/Chemistry/2023 JCE CHEM_1.pdf",
+    "name": "2023 JCE Chemistry Exam.pdf",
+    "path": "Exams/Chemistry/2023 JCE Chemistry Exam.pdf",
     "size": 1810540,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f12f83402e"
   },
   {
-    "name": "2023 MSCE CHEMISTRY I - 1 theory_1.docx",
-    "path": "Exams/Chemistry/2023 MSCE CHEMISTRY I - 1 theory_1.docx",
+    "name": "2023 JCE Chemistry Mock Exam.docx",
+    "path": "Exams/Chemistry/2023 JCE Chemistry Mock Exam.docx",
+    "size": 281574,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "faf276ecfc"
+  },
+  {
+    "name": "2023 MANEB JCE Chemistry.pdf",
+    "path": "Exams/Chemistry/2023 MANEB JCE Chemistry.pdf",
+    "size": 1392688,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fc735eaf55"
+  },
+  {
+    "name": "2023 MANEB MSCE Chemistry Paper I.pdf",
+    "path": "Exams/Chemistry/2023 MANEB MSCE Chemistry Paper I.pdf",
+    "size": 1776741,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fb26c980f0"
+  },
+  {
+    "name": "2023 MSCE Chemistry Paper I Theory Mock.docx",
+    "path": "Exams/Chemistry/2023 MSCE Chemistry Paper I Theory Mock.docx",
     "size": 159246,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f2b7f1245f"
   },
   {
-    "name": "2023 MSCE CHEMISTRY PP I PHALOMBE DISTRICT_1.pdf",
-    "path": "Exams/Chemistry/2023 MSCE CHEMISTRY PP I PHALOMBE DISTRICT - Copy_1.pdf",
+    "name": "2023 Northern Education Division MSCE Chemistry Paper I Final Mock.pdf",
+    "path": "Exams/Chemistry/2023 Northern Education Division MSCE Chemistry Paper I Final Mock.pdf",
+    "size": 737800,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fc0344dd7d"
+  },
+  {
+    "name": "2023 Phalombe District MSCE Chemistry Paper I Mock.pdf",
+    "path": "Exams/Chemistry/2023 Phalombe District MSCE Chemistry Paper I Mock.pdf",
     "size": 759840,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f66de45f0b"
+  },
+  {
+    "name": "2023 Thyolo District MSCE Chemistry Paper I Mock Exam.pdf",
+    "path": "Exams/Chemistry/2023 Thyolo District MSCE Chemistry Paper I Mock Exam.pdf",
+    "size": 479646,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f3da28388e"
   },
   {
     "name": "2023_Chemistry_P1_Maneb_Msce.pdf",
@@ -11005,22 +11085,6 @@
     "repo": "e-library-media",
     "bucket": 2,
     "id": "ffb3ebdb9e"
-  },
-  {
-    "name": "2023_MANEB_JC_Chemistry_1.pdf",
-    "path": "Exams/Chemistry/2023_MANEB_JC_Chemistry_1.pdf",
-    "size": 1392688,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fc735eaf55"
-  },
-  {
-    "name": "2023_chemistry_1_Maneb_1.pdf",
-    "path": "Exams/Chemistry/2023_chemistry_1_Maneb_1.pdf",
-    "size": 1776741,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fb26c980f0"
   },
   {
     "name": "2024 - Chemistry Paper II.pdf",
@@ -11039,76 +11103,76 @@
     "id": "fc8eb4505f"
   },
   {
-    "name": "2024 Chem jce_1.pdf",
-    "path": "Exams/Chemistry/2024 Chem jce_1.pdf",
+    "name": "2024 JCE Chemistry Exam.pdf",
+    "path": "Exams/Chemistry/2024 JCE Chemistry Exam.pdf",
     "size": 3352978,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f79ba1c66f"
   },
   {
-    "name": "2024 MSCE CHEM P1 MWANZA CLUSTER MOCK_1.pdf",
-    "path": "Exams/Chemistry/2024 MSCE CHEM P1 MWANZA CLUSTER MOCK_1.pdf",
-    "size": 492189,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f8d37dda03"
-  },
-  {
-    "name": "2024 MSCE CHEMISTRY PII MWANZA CLUSTER MOCK_1.pdf",
-    "path": "Exams/Chemistry/2024 MSCE CHEMISTRY PII MWANZA CLUSTER MOCK_1.pdf",
-    "size": 142810,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f4af3746d0"
-  },
-  {
-    "name": "2024 SEED MOCK CHEM II_1.pdf",
-    "path": "Exams/Chemistry/2024 SEED MOCK CHEM II_1.pdf",
-    "size": 827907,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f54104b3f1"
-  },
-  {
-    "name": "2024 SEED MOCK CHEM I_1.pdf",
-    "path": "Exams/Chemistry/2024 SEED MOCK CHEM I_1.pdf",
-    "size": 1763956,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fc1a50f7ef"
-  },
-  {
-    "name": "2024-JCE Chemistry _1.pdf",
-    "path": "Exams/Chemistry/2024-JCE Chemistry _1.pdf",
+    "name": "2024 JCE Chemistry Examination.pdf",
+    "path": "Exams/Chemistry/2024 JCE Chemistry Examination.pdf",
     "size": 5295705,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f59e676c9f"
   },
   {
-    "name": "2024_-_Chemistry_Paper_I_1.pdf",
-    "path": "Exams/Chemistry/2024_-_Chemistry_Paper_I_1.pdf",
+    "name": "2024 MSCE Chemistry Paper I Mock 1.pdf",
+    "path": "Exams/Chemistry/2024 MSCE Chemistry Paper I Mock 1.pdf",
+    "size": 748221,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f9b32e05f4"
+  },
+  {
+    "name": "2024 MSCE Chemistry Paper I Mock.pdf",
+    "path": "Exams/Chemistry/2024 MSCE Chemistry Paper I Mock.pdf",
     "size": 759460,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f85c21e338"
   },
   {
-    "name": "2024_CHEMISTRY_FORM_3_TERM_1_PAPER_1_YOUTH_CARE_SECONDARY_SCHOOL_LL_1.pdf",
-    "path": "Exams/Chemistry/2024_CHEMISTRY_FORM_3_TERM_1_PAPER_1_YOUTH_CARE_SECONDARY_SCHOOL_LL_1.pdf",
+    "name": "2024 Mwanza Cluster MSCE Chemistry Paper I Mock.pdf",
+    "path": "Exams/Chemistry/2024 Mwanza Cluster MSCE Chemistry Paper I Mock.pdf",
+    "size": 492189,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f8d37dda03"
+  },
+  {
+    "name": "2024 Mwanza Cluster MSCE Chemistry Paper II Mock.pdf",
+    "path": "Exams/Chemistry/2024 Mwanza Cluster MSCE Chemistry Paper II Mock.pdf",
+    "size": 142810,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f4af3746d0"
+  },
+  {
+    "name": "2024 South East Education Division MSCE Chemistry Paper I Mock.pdf",
+    "path": "Exams/Chemistry/2024 South East Education Division MSCE Chemistry Paper I Mock.pdf",
+    "size": 1763956,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fc1a50f7ef"
+  },
+  {
+    "name": "2024 South East Education Division MSCE Chemistry Paper II Mock.pdf",
+    "path": "Exams/Chemistry/2024 South East Education Division MSCE Chemistry Paper II Mock.pdf",
+    "size": 827907,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f54104b3f1"
+  },
+  {
+    "name": "2024 Youth Care Secondary School Form 3 Term 1 Chemistry Paper I.pdf",
+    "path": "Exams/Chemistry/2024 Youth Care Secondary School Form 3 Term 1 Chemistry Paper I.pdf",
     "size": 501071,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f3f27a68ce"
-  },
-  {
-    "name": "2024_CHEMISTRY_MOCK_1_PAPER_1.pdf",
-    "path": "Exams/Chemistry/2024_CHEMISTRY_MOCK_1_PAPER_1__(1).pdf",
-    "size": 748221,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f9b32e05f4"
   },
   {
     "name": "2024_Chemistry_P2_Maneb.pdf",
@@ -11143,8 +11207,16 @@
     "id": "f3798f037a"
   },
   {
-    "name": "2025 JCE CHEM MANEB _1.pdf",
-    "path": "Exams/Chemistry/2025 JCE CHEM MANEB _1.pdf",
+    "name": "2025 JCE Chemistry Examination Paper.pdf",
+    "path": "Exams/Chemistry/2025 JCE Chemistry Examination Paper.pdf",
+    "size": 144542,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f2b82a98a2"
+  },
+  {
+    "name": "2025 MANEB JCE Chemistry.pdf",
+    "path": "Exams/Chemistry/2025 MANEB JCE Chemistry.pdf",
     "size": 3139526,
     "repo": "e-library-media",
     "bucket": 2,
@@ -11159,24 +11231,24 @@
     "id": "f69ffc2cc3"
   },
   {
-    "name": "2025 MSCE CHEMISTRY _1.pdf",
-    "path": "Exams/Chemistry/2025 MSCE CHEMISTRY _1.pdf",
+    "name": "2025 MSCE Chemistry Exam.pdf",
+    "path": "Exams/Chemistry/2025 MSCE Chemistry Exam.pdf",
     "size": 4174603,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f4fb6519c7"
   },
   {
-    "name": "2025 NED MOCK JCE CHEMISTRY PAPER_1.docx",
-    "path": "Exams/Chemistry/2025 NED MOCK JCE CHEMISTRY PAPER_1.docx",
+    "name": "2025 Northern Education Division JCE Chemistry Mock.docx",
+    "path": "Exams/Chemistry/2025 Northern Education Division JCE Chemistry Mock.docx",
     "size": 368421,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f1d60c1586"
   },
   {
-    "name": "2025 NED MOCK JCE CHEMISTRY PAPER_1.pdf",
-    "path": "Exams/Chemistry/2025 NED MOCK JCE CHEMISTRY PAPER_1.pdf",
+    "name": "2025 Northern Education Division JCE Chemistry Mock.pdf",
+    "path": "Exams/Chemistry/2025 Northern Education Division JCE Chemistry Mock.pdf",
     "size": 366032,
     "repo": "e-library-media",
     "bucket": 2,
@@ -11229,14 +11301,6 @@
     "repo": "e-library-media",
     "bucket": 2,
     "id": "ff4c0a8512"
-  },
-  {
-    "name": "2025_Chemistry_P1_Maneb-1.pdf",
-    "path": "Exams/Chemistry/2025_Chemistry_P1_Maneb-1.pdf",
-    "size": 4173122,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f7f1edc144"
   },
   {
     "name": "2026 CEED CHEMISTRY I.docx",
@@ -11474,54 +11538,6 @@
     "id": "f2bbd44f18"
   },
   {
-    "name": "CHEMISTRY 1 MSCE MOCK_1.pdf",
-    "path": "Exams/Chemistry/CHEMISTRY 1 MSCE MOCK_1.pdf",
-    "size": 835589,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f4347ecbef"
-  },
-  {
-    "name": "CHEMISTRY 2023 JCE MOCK_1.docx",
-    "path": "Exams/Chemistry/CHEMISTRY 2023  JCE MOCK_1.docx",
-    "size": 281574,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "faf276ecfc"
-  },
-  {
-    "name": "CHEMISTRY 2025 JCE_1.pdf",
-    "path": "Exams/Chemistry/CHEMISTRY 2025 JCE_1.pdf",
-    "size": 144542,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f2b82a98a2"
-  },
-  {
-    "name": "CHEMISTRY JCE_1.pdf",
-    "path": "Exams/Chemistry/CHEMISTRY JCE_1.pdf",
-    "size": 207895,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fdb19b1523"
-  },
-  {
-    "name": "CHEMISTRY MSCE PAPERS_1.pdf",
-    "path": "Exams/Chemistry/CHEMISTRY MSCE PAPERS_1.pdf",
-    "size": 9335426,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f7596193c5"
-  },
-  {
-    "name": "CHEMISTRY P I_1.pdf",
-    "path": "Exams/Chemistry/CHEMISTRY P I_1.pdf",
-    "size": 671629,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fb3a9ec24f"
-  },
-  {
     "name": "CHEMISTRY P1.docx",
     "path": "Exams/Chemistry/CHEMISTRY P1.docx",
     "size": 114161,
@@ -11544,14 +11560,6 @@
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f4924f5786"
-  },
-  {
-    "name": "CHEMISTRY PAPER 1 - MAKINA CLASSES_1.pdf",
-    "path": "Exams/Chemistry/CHEMISTRY PAPER 1 - MAKINA CLASSES_1.pdf",
-    "size": 795885,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "ff785d0e56"
   },
   {
     "name": "CHEMISTRY PAPER 1 MOCK 2021-1.docx",
@@ -11618,28 +11626,12 @@
     "id": "fb7e48db35"
   },
   {
-    "name": "CHEMISTRY_1.pdf",
-    "path": "Exams/Chemistry/CHEMISTRY_1.pdf",
-    "size": 283920,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f55cd7a9e4"
-  },
-  {
     "name": "CHEMISTRY_CHINSAPO_CLUSTER_MOCK.pdf",
     "path": "Exams/Chemistry/CHEMISTRY_CHINSAPO_CLUSTER_MOCK.pdf",
     "size": 253094,
     "repo": "e-library-media-2",
     "bucket": 2,
     "id": "ffb30f7c99"
-  },
-  {
-    "name": "CHEMISTRY_I_mock_2020_1.pdf",
-    "path": "Exams/Chemistry/CHEMISTRY_I_mock_2020_1.pdf",
-    "size": 490088,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fb99a55282"
   },
   {
     "name": "CHEMISTRY_JCE_MOCK.pdf",
@@ -11666,14 +11658,6 @@
     "id": "fc9454e4f0"
   },
   {
-    "name": "CHEMISTRY_MOCK_1.pdf",
-    "path": "Exams/Chemistry/CHEMISTRY_MOCK_1.pdf",
-    "size": 369433,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f53501a7b0"
-  },
-  {
     "name": "CHEMISTRY_MOCK_PAPER_I.pdf",
     "path": "Exams/Chemistry/CHEMISTRY_MOCK_PAPER_I_(1).pdf",
     "size": 413763,
@@ -11698,22 +11682,6 @@
     "id": "fca8713148"
   },
   {
-    "name": "CHEMISTRY_PAPER_1_2019_-1-1.pdf",
-    "path": "Exams/Chemistry/CHEMISTRY_PAPER_1_2019_-1-1.pdf",
-    "size": 401859,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "ffb17c4143"
-  },
-  {
-    "name": "CHEMISTRY_PAPER_1_2019_-1_1.pdf",
-    "path": "Exams/Chemistry/CHEMISTRY_PAPER_1_2019_-1_1.pdf",
-    "size": 400760,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f679dec343"
-  },
-  {
     "name": "CHEMISTRY_PAPER_I.docx",
     "path": "Exams/Chemistry/CHEMISTRY_PAPER_I.docx",
     "size": 87997,
@@ -11728,14 +11696,6 @@
     "repo": "e-library-media-2",
     "bucket": 2,
     "id": "fc65da844e"
-  },
-  {
-    "name": "CHEMISTRY__P1_1.pdf",
-    "path": "Exams/Chemistry/CHEMISTRY__P1_1.pdf",
-    "size": 478693,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fd7a13e472"
   },
   {
     "name": "CHEMISTRY___PAPER_II-1.pdf",
@@ -11859,22 +11819,6 @@
     "id": "f9afb14dcd"
   },
   {
-    "name": "Chemistry paper I_1.pdf",
-    "path": "Exams/Chemistry/Chemistry paper I_1.pdf",
-    "size": 717248,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5dc14aac1"
-  },
-  {
-    "name": "Chemistry_I-1_1.pdf",
-    "path": "Exams/Chemistry/Chemistry_I-1_1.pdf",
-    "size": 517575,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "ff2484febe"
-  },
-  {
     "name": "Chemistry_II.pdf",
     "path": "Exams/Chemistry/Chemistry_II.pdf",
     "size": 253697,
@@ -11891,14 +11835,6 @@
     "id": "f8b0603b4f"
   },
   {
-    "name": "Chemistry_Mock_2_Paper_1.pdf",
-    "path": "Exams/Chemistry/Chemistry_Mock_2_Paper_1.pdf",
-    "size": 194311,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fc1230ac93"
-  },
-  {
     "name": "Chemistry_Mock_2_Paper_2.pdf",
     "path": "Exams/Chemistry/Chemistry_Mock_2_Paper_2_(1).pdf",
     "size": 154450,
@@ -11907,36 +11843,12 @@
     "id": "f5a50a006d"
   },
   {
-    "name": "Chemistry_P1_1.pdf",
-    "path": "Exams/Chemistry/Chemistry_P1_1.pdf",
-    "size": 3115883,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fd0e334d1f"
-  },
-  {
     "name": "Chemistry_P2_F4_Mock_2_2019.pdf",
     "path": "Exams/Chemistry/Chemistry_P2_F4_Mock_2_2019.pdf",
     "size": 219218,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "fec0d6c74f"
-  },
-  {
-    "name": "Chemistry_PII_1.pdf",
-    "path": "Exams/Chemistry/Chemistry_PII_1.pdf",
-    "size": 344092,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fc07ee38b8"
-  },
-  {
-    "name": "Chemistry_PI_(1)_1.pdf",
-    "path": "Exams/Chemistry/Chemistry_PI_(1) - Copy_1.pdf",
-    "size": 403306,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fa616f9c12"
   },
   {
     "name": "Chemistry_PP2_confidential.pdf",
@@ -11963,28 +11875,12 @@
     "id": "fb73d49f03"
   },
   {
-    "name": "Chemistry_p1_Form_4_Mock_1.pdf",
-    "path": "Exams/Chemistry/Chemistry_p1_Form_4_Mock_1_(1).pdf",
-    "size": 815577,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "fd9b46725b"
-  },
-  {
-    "name": "Chemistry_p1_Form_4_Mock_2_2019_1.pdf",
-    "path": "Exams/Chemistry/Chemistry_p1_Form_4_Mock_2_2019_1.pdf",
-    "size": 335346,
+    "name": "Dessha MSCE Chemistry Paper I Mock.pdf",
+    "path": "Exams/Chemistry/Dessha MSCE Chemistry Paper I Mock.pdf",
+    "size": 655191,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f055bc06be"
-  },
-  {
-    "name": "END OF TERM RESULTS FORM 3 CHEMISTRY.pdf",
-    "path": "Exams/Chemistry/END OF TERM RESULTS FORM 3 CHEMISTRY.pdf",
-    "size": 186537,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f25b39a1aa"
+    "id": "fe57f5ad71"
   },
   {
     "name": "Evergreen Garden Academy Form 1 Chemistry Examination (2016).pdf",
@@ -12012,6 +11908,14 @@
     "id": "f348561c00"
   },
   {
+    "name": "Form 4 MSCE Chemistry Paper I Mock 1.pdf",
+    "path": "Exams/Chemistry/Form 4 MSCE Chemistry Paper I Mock 1.pdf",
+    "size": 815577,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fd9b46725b"
+  },
+  {
     "name": "Hill Crescent Secondary School MSCE Chemistry Theory Mock Exam.pdf",
     "path": "Exams/Chemistry/Hill Crescent Secondary School MSCE Chemistry Theory Mock Exam.pdf",
     "size": 347677,
@@ -12021,12 +11925,20 @@
     "level": "msce"
   },
   {
-    "name": "JCE CHEMISTRY_1.pdf",
-    "path": "Exams/Chemistry/JCE CHEMISTRY_1.pdf",
+    "name": "JCE Chemistry Examination Paper.pdf",
+    "path": "Exams/Chemistry/JCE Chemistry Examination Paper.pdf",
     "size": 463392,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "fb7b402c7a"
+  },
+  {
+    "name": "JCE Chemistry Mock Paper.pdf",
+    "path": "Exams/Chemistry/JCE Chemistry Mock Paper.pdf",
+    "size": 207895,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fdb19b1523"
   },
   {
     "name": "JCE Chemistry Sample Examination Paper.pdf",
@@ -12056,8 +11968,8 @@
     "level": "msce"
   },
   {
-    "name": "MANEB Chem PPapers_1.pdf",
-    "path": "Exams/Chemistry/MANEB Chem PPapers_1.pdf",
+    "name": "MANEB Chemistry Past Papers Collection.pdf",
+    "path": "Exams/Chemistry/MANEB Chemistry Past Papers Collection.pdf",
     "size": 3507762,
     "repo": "e-library-media",
     "bucket": 2,
@@ -12072,22 +11984,6 @@
     "id": "f80e466db3"
   },
   {
-    "name": "MARANATHA_CHEMISTRY_P._I.F.4._2022_6th_MOCK_1.pdf",
-    "path": "Exams/Chemistry/MARANATHA_CHEMISTRY_P._I.F.4._2022_6th_MOCK_1.pdf",
-    "size": 688438,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f2da0b1761"
-  },
-  {
-    "name": "MSCE Chemistry Model QUESTIONS and Answers_1.pdf",
-    "path": "Exams/Chemistry/MSCE  Chemistry Model QUESTIONS and Answers_1.pdf",
-    "size": 3444626,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f11313ada1"
-  },
-  {
     "name": "MSCE Basic Principles of Chemistry for Senior Secondary Students.pdf",
     "path": "Exams/Chemistry/MSCE Basic Principles of Chemistry for Senior Secondary Students.pdf",
     "size": 4017130,
@@ -12096,20 +11992,140 @@
     "id": "f18421ec32"
   },
   {
-    "name": "MSCE CHEMISTRY FORM 4_1.pdf",
-    "path": "Exams/Chemistry/MSCE CHEMISTRY FORM 4_1.pdf",
-    "size": 1687858,
+    "name": "MSCE Chemistry Examination Paper.pdf",
+    "path": "Exams/Chemistry/MSCE Chemistry Examination Paper.pdf",
+    "size": 283920,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f81fd6748c"
+    "id": "f55cd7a9e4"
   },
   {
-    "name": "MSCE CHEMISTRY PI_1.pdf",
-    "path": "Exams/Chemistry/MSCE CHEMISTRY PI_1.pdf",
+    "name": "MSCE Chemistry Mock 2 Paper I.pdf",
+    "path": "Exams/Chemistry/MSCE Chemistry Mock 2 Paper I.pdf",
+    "size": 194311,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fc1230ac93"
+  },
+  {
+    "name": "MSCE Chemistry Mock Examination.pdf",
+    "path": "Exams/Chemistry/MSCE Chemistry Mock Examination.pdf",
+    "size": 369433,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f53501a7b0"
+  },
+  {
+    "name": "MSCE Chemistry Paper I (Makina Classes).pdf",
+    "path": "Exams/Chemistry/MSCE Chemistry Paper I (Makina Classes).pdf",
+    "size": 795885,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "ff785d0e56"
+  },
+  {
+    "name": "MSCE Chemistry Paper I Examination.pdf",
+    "path": "Exams/Chemistry/MSCE Chemistry Paper I Examination.pdf",
+    "size": 671629,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fb3a9ec24f"
+  },
+  {
+    "name": "MSCE Chemistry Paper I Final Mock.pdf",
+    "path": "Exams/Chemistry/MSCE Chemistry Paper I Final Mock.pdf",
+    "size": 478693,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fd7a13e472"
+  },
+  {
+    "name": "MSCE Chemistry Paper I Mock Exam.pdf",
+    "path": "Exams/Chemistry/MSCE Chemistry Paper I Mock Exam.pdf",
+    "size": 835589,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f4347ecbef"
+  },
+  {
+    "name": "MSCE Chemistry Paper I Mock Test.pdf",
+    "path": "Exams/Chemistry/MSCE Chemistry Paper I Mock Test.pdf",
+    "size": 3115883,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fd0e334d1f"
+  },
+  {
+    "name": "MSCE Chemistry Paper I Model Mock.pdf",
+    "path": "Exams/Chemistry/MSCE Chemistry Paper I Model Mock.pdf",
     "size": 379109,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "fba4603947"
+  },
+  {
+    "name": "MSCE Chemistry Paper I Practice Exam.pdf",
+    "path": "Exams/Chemistry/MSCE Chemistry Paper I Practice Exam.pdf",
+    "size": 717248,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f5dc14aac1"
+  },
+  {
+    "name": "MSCE Chemistry Paper I Test.pdf",
+    "path": "Exams/Chemistry/MSCE Chemistry Paper I Test.pdf",
+    "size": 517575,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "ff2484febe"
+  },
+  {
+    "name": "MSCE Chemistry Paper I Trial Exam.pdf",
+    "path": "Exams/Chemistry/MSCE Chemistry Paper I Trial Exam.pdf",
+    "size": 403306,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fa616f9c12"
+  },
+  {
+    "name": "MSCE Chemistry Paper II Mock Test.pdf",
+    "path": "Exams/Chemistry/MSCE Chemistry Paper II Mock Test.pdf",
+    "size": 344092,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fc07ee38b8"
+  },
+  {
+    "name": "MSCE Chemistry Paper II Practical Examination.pdf",
+    "path": "Exams/Chemistry/MSCE Chemistry Paper II Practical Examination.pdf",
+    "size": 281588,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f010515b42"
+  },
+  {
+    "name": "MSCE Chemistry Paper II Practical Mock.pdf",
+    "path": "Exams/Chemistry/MSCE Chemistry Paper II Practical Mock.pdf",
+    "size": 233562,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f8eb1c95f4"
+  },
+  {
+    "name": "MSCE Chemistry Past Papers Compilation.pdf",
+    "path": "Exams/Chemistry/MSCE Chemistry Past Papers Compilation.pdf",
+    "size": 9335426,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f7596193c5"
+  },
+  {
+    "name": "MSCE Chemistry Theory Paper.pdf",
+    "path": "Exams/Chemistry/MSCE Chemistry Theory Paper.pdf",
+    "size": 346184,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f1e236a35f"
   },
   {
     "name": "MSCE_CHEMISTRY_FORM_3.pdf",
@@ -12120,36 +12136,20 @@
     "id": "ffc674067e"
   },
   {
-    "name": "MSCE_CHEMISTRY_I_DESHA_1.pdf",
-    "path": "Exams/Chemistry/MSCE_CHEMISTRY_I_DESHA_1.pdf",
-    "size": 655191,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe57f5ad71"
-  },
-  {
-    "name": "MSCE_CHEMISTRY_PII_(1).pdf",
-    "path": "Exams/Chemistry/MSCE_CHEMISTRY_PII_(1) (1).pdf",
-    "size": 233562,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f8eb1c95f4"
-  },
-  {
-    "name": "MZUZU DIOCESE CHEMISTRY PAPER I_1.pdf",
-    "path": "Exams/Chemistry/MZUZU DIOCESE CHEMISTRY PAPER I_1.pdf",
-    "size": 1730077,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "ff5b1df2cb"
-  },
-  {
     "name": "2021_SOCIAL_PAPER_II_MOCK_MARKING_SCHEME.pdf",
     "path": "Exams/Chemistry/Marking Keys/2021_SOCIAL_PAPER_II_MOCK_MARKING_SCHEME.pdf",
     "size": 347089,
     "repo": "e-library-media-2",
     "bucket": 2,
     "id": "f00f56efb0"
+  },
+  {
+    "name": "2022 Loyola Jesuit Secondary School JCE Chemistry Marking Key.docx",
+    "path": "Exams/Chemistry/Marking Keys/2022 Loyola Jesuit Secondary School JCE Chemistry Marking Key.docx",
+    "size": 54488,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fc720e5e8c"
   },
   {
     "name": "2022 MASAMBANJATI CLUSTER HUMAN AND ECONOMIC GEOGRAPHY MARKING SCHEME.docx",
@@ -12168,14 +12168,6 @@
     "id": "fbe5839066"
   },
   {
-    "name": "2022_CHEMISTRY_JCE_LOYOLA_JESUITS_SECONDARY_SCHOOL_MARKING_KEY_1.docx",
-    "path": "Exams/Chemistry/Marking Keys/2022_CHEMISTRY_JCE_LOYOLA_JESUITS_SECONDARY_SCHOOL_MARKING_KEY_1.docx",
-    "size": 54488,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "fc720e5e8c"
-  },
-  {
     "name": "2024 CEED CHEMISTRY MARKING KEY II.docx",
     "path": "Exams/Chemistry/Marking Keys/2024 CEED CHEMISTRY MARKING KEY II.docx",
     "size": 196182,
@@ -12184,8 +12176,8 @@
     "id": "f43a715cf9"
   },
   {
-    "name": "2024 JCE - CHEMISTRY CHIEF EXAMINER'S REPORT_1.pdf",
-    "path": "Exams/Chemistry/Marking Keys/2024 JCE - CHEMISTRY CHIEF EXAMINER'S REPORT_1.pdf",
+    "name": "2024 JCE Chemistry Chief Examiners Report.pdf",
+    "path": "Exams/Chemistry/Marking Keys/2024 JCE Chemistry Chief Examiners Report.pdf",
     "size": 675193,
     "repo": "e-library-media-4",
     "bucket": 2,
@@ -12296,14 +12288,6 @@
     "id": "fbdf23c1d7"
   },
   {
-    "name": "CHEMISTRY PAPER 2 ANSWER KEY HAC (1)_1.pdf",
-    "path": "Exams/Chemistry/Marking Keys/CHEMISTRY PAPER 2 ANSWER KEY HAC (1)_1.pdf",
-    "size": 658913,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f31f2ca6e2"
-  },
-  {
     "name": "CHEMISTRY PI MARKING KEY.docx",
     "path": "Exams/Chemistry/Marking Keys/CHEMISTRY PI MARKING KEY.docx",
     "size": 81864,
@@ -12334,14 +12318,6 @@
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f6562c216d"
-  },
-  {
-    "name": "Chemistry II 2026 SEED MOCK PROVISIONAL MARKING KEY.doc",
-    "path": "Exams/Chemistry/Marking Keys/Chemistry II  2026 SEED MOCK PROVISIONAL MARKING KEY.doc",
-    "size": 150528,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f4cafa363d"
   },
   {
     "name": "Chemistry II 2026 SEED MOCK PROVISIONAL MARKING KEY.doc",
@@ -12384,28 +12360,20 @@
     "id": "f1e4789fca"
   },
   {
-    "name": "JCE CHEMISTRY marking key_1.pdf",
-    "path": "Exams/Chemistry/Marking Keys/JCE CHEMISTRY marking key_1.pdf",
+    "name": "HAC MSCE Chemistry Paper II Marking Key.pdf",
+    "path": "Exams/Chemistry/Marking Keys/HAC MSCE Chemistry Paper II Marking Key.pdf",
+    "size": 658913,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f31f2ca6e2"
+  },
+  {
+    "name": "JCE Chemistry Marking Key.pdf",
+    "path": "Exams/Chemistry/Marking Keys/JCE Chemistry Marking Key.pdf",
     "size": 307940,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f22f398caf"
-  },
-  {
-    "name": "KASUNGU DISTRICT SCHEMES AND RECORDS OF WORK TERM 1-1_1.zip",
-    "path": "Exams/Chemistry/Marking Keys/KASUNGU DISTRICT SCHEMES AND RECORDS OF WORK TERM 1-1_1.zip",
-    "size": 1826419,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f94f28fff6"
-  },
-  {
-    "name": "MATHS_PAPER_1_MARKING_SCHEME.docx",
-    "path": "Exams/Chemistry/Marking Keys/MATHS_PAPER_1_MARKING_SCHEME.docx",
-    "size": 29955,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f5a7e78bf0"
   },
   {
     "name": "MSCE CHICHEWA PAPER I - MARKING SCHEME.pdf",
@@ -12432,84 +12400,12 @@
     "id": "f5a2af1cf0"
   },
   {
-    "name": "PHYSICS PAPER I MARKING SCHEME final.docx",
-    "path": "Exams/Chemistry/Marking Keys/PHYSICS PAPER I MARKING SCHEME final.docx",
-    "size": 530497,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f3945698e8"
-  },
-  {
-    "name": "PHYSICS PAPER I MARKING SCHEME final.pdf",
-    "path": "Exams/Chemistry/Marking Keys/PHYSICS PAPER I MARKING SCHEME final.pdf",
-    "size": 392510,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fd080a47f4"
-  },
-  {
-    "name": "SCHEME OF WORK FORM 3 T3.docx",
-    "path": "Exams/Chemistry/Marking Keys/SCHEME OF WORK FORM 3 T3.docx",
-    "size": 30070,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fa5799fb5b"
-  },
-  {
     "name": "SCHEME OF WORK, F4, T3.docx",
     "path": "Exams/Chemistry/Marking Keys/SCHEME OF WORK, F4, T3.docx",
     "size": 24075,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "fe59793a87"
-  },
-  {
-    "name": "SCHEMES OF WORK TERM 2_1.zip",
-    "path": "Exams/Chemistry/Marking Keys/SCHEMES OF WORK TERM 2_1.zip",
-    "size": 2043810,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fdcf4cb0bb"
-  },
-  {
-    "name": "SCHEMESWORD_1.zip",
-    "path": "Exams/Chemistry/Marking Keys/SCHEMESWORD_1.zip",
-    "size": 2828802,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f32da46fe4"
-  },
-  {
-    "name": "Schemes term1_1.zip",
-    "path": "Exams/Chemistry/Marking Keys/Schemes term1_1.zip",
-    "size": 3042390,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f4bef2bded"
-  },
-  {
-    "name": "TERM 1 SCHEMES_1.zip",
-    "path": "Exams/Chemistry/Marking Keys/TERM 1 SCHEMES_1.zip",
-    "size": 2262878,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f7b29d5edf"
-  },
-  {
-    "name": "Term 2 schemes mzimba north_1.zip",
-    "path": "Exams/Chemistry/Marking Keys/Term 2 schemes mzimba north_1.zip",
-    "size": 4178328,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f9b710cce8"
-  },
-  {
-    "name": "Term 3 schemes secondary _1.zip",
-    "path": "Exams/Chemistry/Marking Keys/Term 3 schemes secondary _1.zip",
-    "size": 1194535,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f3410f861b"
   },
   {
     "name": "che f1 mkey.doc",
@@ -12576,14 +12472,6 @@
     "id": "fe3bf730f6"
   },
   {
-    "name": "schemes for term 1_1.zip",
-    "path": "Exams/Chemistry/Marking Keys/schemes for term 1_1.zip",
-    "size": 6025399,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f57f20bfd0"
-  },
-  {
     "name": "Mzalangwe Cluster MSCE Chemistry Paper I Mock Exam (2019).pdf",
     "path": "Exams/Chemistry/Mzalangwe Cluster MSCE Chemistry Paper I Mock Exam (2019).pdf",
     "size": 230876,
@@ -12611,12 +12499,12 @@
     "level": "msce"
   },
   {
-    "name": "NED_CHEMIS_PI_2023_FINAL_1.pdf",
-    "path": "Exams/Chemistry/NED_CHEMIS_PI_2023_FINAL_1.pdf",
-    "size": 737800,
+    "name": "Mzuzu Diocese Schools MSCE Chemistry Paper I Mock.pdf",
+    "path": "Exams/Chemistry/Mzuzu Diocese Schools MSCE Chemistry Paper I Mock.pdf",
+    "size": 1730077,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fc0344dd7d"
+    "id": "ff5b1df2cb"
   },
   {
     "name": "Nkula CDSS Form 2 Chemistry Examination (2018).pdf",
@@ -12678,14 +12566,6 @@
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f778e19b1e"
-  },
-  {
-    "name": "THYOLO CHEMISTRY 1 QP_1.pdf",
-    "path": "Exams/Chemistry/THYOLO CHEMISTRY 1 QP_1.pdf",
-    "size": 479646,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f3da28388e"
   },
   {
     "name": "che f1.doc",
@@ -12752,28 +12632,12 @@
     "id": "f4c011f37f"
   },
   {
-    "name": "chemistry Paper II-1-1.pdf",
-    "path": "Exams/Chemistry/chemistry Paper II-1-1.pdf",
-    "size": 281588,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f010515b42"
-  },
-  {
     "name": "chemistry Paper II.pdf",
     "path": "Exams/Chemistry/chemistry Paper II.pdf",
     "size": 278662,
     "repo": "e-library-media-2",
     "bucket": 2,
     "id": "f06bf9b51c"
-  },
-  {
-    "name": "chemistry form 4_1.pdf",
-    "path": "Exams/Chemistry/chemistry form 4_1.pdf",
-    "size": 1113153,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f25fd33adf"
   },
   {
     "name": "chemistry paper 1.pdf",
@@ -12806,14 +12670,6 @@
     "repo": "e-library-media",
     "bucket": 2,
     "id": "fbe1124e89"
-  },
-  {
-    "name": "chemistry_theory_1.pdf",
-    "path": "Exams/Chemistry/chemistry_theory_1.pdf",
-    "size": 346184,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f1e236a35f"
   },
   {
     "name": "archivetempCHICHEWA PAPER II SWED 2025_1.pdf",
@@ -20968,6 +20824,14 @@
     "id": "fafcacac74"
   },
   {
+    "name": "MSCE Mathematics Paper I Marking Scheme.docx",
+    "path": "Exams/Mathematics/Marking Keys/MSCE Mathematics Paper I Marking Scheme.docx",
+    "size": 29955,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f5a7e78bf0"
+  },
+  {
     "name": "MSCE Mathematics Paper I Provisional Marking Key.docx",
     "path": "Exams/Mathematics/Marking Keys/MSCE Mathematics Paper I Provisional Marking Key.docx",
     "size": 317771,
@@ -22198,6 +22062,22 @@
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f09188b8d5"
+  },
+  {
+    "name": "MSCE Physics Paper I Marking Scheme.docx",
+    "path": "Exams/Physics/Marking Keys/MSCE Physics Paper I Marking Scheme.docx",
+    "size": 530497,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f3945698e8"
+  },
+  {
+    "name": "MSCE Physics Paper I Marking Scheme.pdf",
+    "path": "Exams/Physics/Marking Keys/MSCE Physics Paper I Marking Scheme.pdf",
+    "size": 392510,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fd080a47f4"
   },
   {
     "name": "PHY II Marking key.pdf",
@@ -23474,6 +23354,14 @@
     "bucket": 2,
     "id": "f8ec853d03",
     "level": "both"
+  },
+  {
+    "name": "Complete MSCE Chemistry Questions and Answers (Gelson Kalombola).pdf",
+    "path": "Q&A/Chemistry/Complete MSCE Chemistry Questions and Answers (Gelson Kalombola).pdf",
+    "size": 3444626,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f11313ada1"
   },
   {
     "name": "Model Chemistry Practical Questions and Answers (Sir James).pdf",

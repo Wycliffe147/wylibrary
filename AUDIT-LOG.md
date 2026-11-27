@@ -35,6 +35,7 @@ The "After" number represents the clean, frozen count at the moment the folder a
 |---|---|---|---|---|---|---|---|---|
 | **Exams/Biology** | ✅ Audited | 332 | 318 | 2 | 6 | 6 | 100% Explicit (25 JCE, 117 MSCE, 176 Both) | Nov 28, 2026 |
 | **Exams/Mathematics** | ✅ Audited | 272 | 260 | 2 | 4 (+1 to Add Maths) | 3 | 100% Explicit (39 JCE, 128 MSCE, 93 Both) | Nov 28, 2026 (12m 22s) |
+| **Exams/Chemistry** | ✅ Audited | 259 | 240 | 1 | 1 (+3 cross-subject) | 13 | 100% Explicit (34 JCE, 106 MSCE, 100 Both) | Nov 28, 2026 (12m 05s) |
 
 ---
 
@@ -371,5 +372,41 @@ The "After" number represents the clean, frozen count at the moment the folder a
 - **Catalog delta:** 2,940 -> 2,935 entries. Dual catalogs synchronized byte-for-byte (`files-index.json` and `public/files-index.json`).
 - **Stable IDs:** 2,817 kept, 118 moved, 5 removed recorded in `public/id-map.json`.
 - **Level Tagging Coverage:** 100% Explicit (39 JCE, 128 MSCE, 93 Both).
+
+### 26. Exams/Chemistry Folder Audit (Nov 28, 2026) [Timed Benchmark: 12m 05s]
+- **Timing & Throughput:**
+  - **Started:** 00:43:45 CAT
+  - **Completed:** 00:55:50 CAT
+  - **Total Elapsed Duration:** 12 minutes 05 seconds (725 seconds)
+  - **Scope:** 259 files deep-scanned, 13 deleted from R2, 1 transferred to Books, 1 transferred to Q&A, 3 transferred to cross-subjects (Maths/Physics), and 70 files renamed in R2 and dual catalogs.
+- **Initial Count:** 259 files (198 in `Exams/Chemistry/`, 61 in `Exams/Chemistry/Marking Keys/`, all on Bucket 2)
+- **Clean Exams Retained:** 240 clean examination papers (34 JCE, 106 MSCE, 100 Both)
+- **Transferred to Books (1 file to Bucket 1):**
+  - `Books/Chemistry/MSCE Chemistry Form 4 Study Notes.pdf` (81 pages complete senior secondary textbook)
+- **Transferred to Q&A (1 file to Bucket 2):**
+  - `Q&A/Chemistry/Complete MSCE Chemistry Questions and Answers (Gelson Kalombola).pdf` (72 pages comprehensive Q&A book)
+- **Cross-Subject Transfers (3 files to Bucket 2):**
+  - `Exams/Mathematics/Marking Keys/MSCE Mathematics Paper I Marking Scheme.docx` (transferred from Chemistry)
+  - `Exams/Physics/Marking Keys/MSCE Physics Paper I Marking Scheme.docx` (transferred from Chemistry)
+  - `Exams/Physics/Marking Keys/MSCE Physics Paper I Marking Scheme.pdf` (transferred from Chemistry)
+- **Deleted from R2 (13 files from Bucket 2):**
+  - `Exams/Chemistry/END OF TERM RESULTS FORM 3 CHEMISTRY.pdf` (private student names, marks, and percentages marksheet)
+  - `Exams/Chemistry/chemistry form 4_1.pdf` (handwritten student grade roster)
+  - `Exams/Chemistry/Marking Keys/KASUNGU DISTRICT SCHEMES FORM 1 TO 4 (MR MTAMBO 2024-2025)_1.zip` (teachers' term lesson planning scheme of work)
+  - `Exams/Chemistry/Marking Keys/SCHEMES OF WORK TERM 2_1.zip` (teachers' term lesson planning scheme of work)
+  - `Exams/Chemistry/Marking Keys/SCHEMESWORD_1.zip` (teachers' term lesson planning scheme of work)
+  - `Exams/Chemistry/Marking Keys/Schemes term1_1.zip` (teachers' term lesson planning scheme of work)
+  - `Exams/Chemistry/Marking Keys/TERM 1 SCHEMES_1.zip` (teachers' term lesson planning scheme of work)
+  - `Exams/Chemistry/Marking Keys/Term 2 schemes mzimba north_1.zip` (teachers' term lesson planning scheme of work)
+  - `Exams/Chemistry/Marking Keys/Term 3 schemes secondary _1.zip` (teachers' term lesson planning scheme of work)
+  - `Exams/Chemistry/Marking Keys/schemes for term 1_1.zip` (teachers' term lesson planning scheme of work)
+  - `Exams/Chemistry/Marking Keys/SCHEME OF WORK FORM 3 T3.docx` (teacher lesson plan template)
+  - `Exams/Chemistry/2025_Chemistry_P1_Maneb-1.pdf` (exact duplicate of 2025 MSCE CHEMISTRY MANEB.pdf)
+  - `Exams/Chemistry/Marking Keys/Chemistry II  2026 SEED MOCK PROVISIONAL MARKING KEY.doc` (exact duplicate of Chemistry II 2026 SEED MOCK PROVISIONAL MARKING KEY.pdf)
+- **Renamed within Exams (70 files):**
+  - Standardized all cryptic filenames, stripping raw suffixes (`_1`, `(1)`, `-Copy`), and uninformative abbreviations to clean titles.
+- **Catalog delta:** 2,935 -> 2,921 entries. Dual catalogs synchronized byte-for-byte (`files-index.json` and `public/files-index.json`).
+- **Stable IDs:** 2,847 kept, 74 moved, 0 renamed, 0 new, 14 removed recorded in `public/id-map.json`.
+- **Level Tagging Coverage:** 100% Explicit (34 JCE, 106 MSCE, 100 Both).
 
 
