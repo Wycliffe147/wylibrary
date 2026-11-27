@@ -4749,6 +4749,22 @@
     "subject": "Mathematics"
   },
   {
+    "name": "MSCE Mathematics Form 3 Study Notes.pdf",
+    "path": "Books/Mathematics/MSCE Mathematics Form 3 Study Notes.pdf",
+    "size": 3190741,
+    "repo": "e-library-media",
+    "bucket": 1,
+    "id": "f08fcb685f"
+  },
+  {
+    "name": "MSCE Mathematics Form 4 Study Notes.pdf",
+    "path": "Books/Mathematics/MSCE Mathematics Form 4 Study Notes.pdf",
+    "size": 1856645,
+    "repo": "e-library-media",
+    "bucket": 1,
+    "id": "fe92f255ec"
+  },
+  {
     "name": "MSCE Mathematics Revision Pamphlet (Limbani).pdf",
     "path": "Books/Mathematics/MSCE Mathematics Revision Pamphlet (Limbani).pdf",
     "size": 1793844,
@@ -5601,6 +5617,14 @@
     "repo": "e-library-media",
     "bucket": 2,
     "id": "fcf9fd9ff8"
+  },
+  {
+    "name": "2025 MSCE Additional Mathematics Paper I Mock Exam.pdf",
+    "path": "Exams/Additional Mathematics/2025 MSCE Additional Mathematics Paper I Mock Exam.pdf",
+    "size": 531353,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "ff9cc7def0"
   },
   {
     "name": "2025 SWED MOCK ADD MATHS PAPER I FINAL_1.pdf",
@@ -19077,8 +19101,8 @@
     "id": "fd1fee756a"
   },
   {
-    "name": "2000MSCEMATHPAPERⅡ-1-1.pdf",
-    "path": "Exams/Mathematics/2000MSCEMATHPAPERⅡ-1-1.pdf",
+    "name": "2000 MSCE Mathematics Paper II.pdf",
+    "path": "Exams/Mathematics/2000 MSCE Mathematics Paper II.pdf",
     "size": 150808,
     "repo": "e-library-media",
     "bucket": 2,
@@ -19093,8 +19117,8 @@
     "id": "f9d2db7482"
   },
   {
-    "name": "2002MSCE_MATH_PAPERⅡ-1-1-1.pdf",
-    "path": "Exams/Mathematics/2002MSCE_MATH_PAPERⅡ-1-1-1.pdf",
+    "name": "2002 MSCE Mathematics Paper II.pdf",
+    "path": "Exams/Mathematics/2002 MSCE Mathematics Paper II.pdf",
     "size": 272723,
     "repo": "e-library-media",
     "bucket": 2,
@@ -19109,32 +19133,32 @@
     "id": "f9a22e2a37"
   },
   {
-    "name": "2004MSCE_MATH_PAPERⅠ(0)-1.pdf",
-    "path": "Exams/Mathematics/2004MSCE_MATH_PAPERⅠ(0)-1.pdf",
+    "name": "2004 MSCE Mathematics Paper I.pdf",
+    "path": "Exams/Mathematics/2004 MSCE Mathematics Paper I.pdf",
     "size": 215447,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "fc8ba99611"
   },
   {
-    "name": "2004MSCE_MATH_PAPERⅡ.pdf",
-    "path": "Exams/Mathematics/2004MSCE_MATH_PAPERⅡ(0).pdf",
+    "name": "2004 MSCE Mathematics Paper II.pdf",
+    "path": "Exams/Mathematics/2004 MSCE Mathematics Paper II.pdf",
     "size": 322388,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "fe16e729c1"
   },
   {
-    "name": "2005MSCE_MATH_PAPERⅠ_1.pdf",
-    "path": "Exams/Mathematics/2005MSCE_MATH_PAPERⅠ_1.pdf",
+    "name": "2005 MSCE Mathematics Paper I.pdf",
+    "path": "Exams/Mathematics/2005 MSCE Mathematics Paper I.pdf",
     "size": 293218,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f8c269c701"
   },
   {
-    "name": "2005MSCE_MATH_PAPERⅡ-1.pdf",
-    "path": "Exams/Mathematics/2005MSCE_MATH_PAPERⅡ-1.pdf",
+    "name": "2005 MSCE Mathematics Paper II.pdf",
+    "path": "Exams/Mathematics/2005 MSCE Mathematics Paper II.pdf",
     "size": 231893,
     "repo": "e-library-media",
     "bucket": 2,
@@ -19152,8 +19176,8 @@
     "subject": "Mathematics"
   },
   {
-    "name": "2007MSCE_MATH_PAPERⅠ_1.pdf",
-    "path": "Exams/Mathematics/2007MSCE_MATH_PAPERⅠ_1.pdf",
+    "name": "2007 MSCE Mathematics Paper I.pdf",
+    "path": "Exams/Mathematics/2007 MSCE Mathematics Paper I.pdf",
     "size": 184115,
     "repo": "e-library-media",
     "bucket": 2,
@@ -19176,119 +19200,124 @@
     "id": "fa0143863e"
   },
   {
-    "name": "2009MSCE_MATH_PAPERⅠ.pdf",
-    "path": "Exams/Mathematics/2009MSCE_MATH_PAPERⅠ.pdf",
-    "size": 269837,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f3d1a117b2"
-  },
-  {
-    "name": "2009MSCE_MATH_PAPERⅡ-1.pdf",
-    "path": "Exams/Mathematics/2009MSCE_MATH_PAPERⅡ-1.pdf",
-    "size": 233603,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fb0e05eb8e"
-  },
-  {
-    "name": "2009_Maths_paper_1_1.pdf",
-    "path": "Exams/Mathematics/2009_Maths_paper_1_1.pdf",
+    "name": "2009 MSCE Mathematics Paper I Mock.pdf",
+    "path": "Exams/Mathematics/2009 MSCE Mathematics Paper I Mock.pdf",
     "size": 179113,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "fea0f877ef"
   },
   {
-    "name": "2010MSCE_MATH_PAPER_TWO-1-1.pdf",
-    "path": "Exams/Mathematics/2010MSCE_MATH_PAPER_TWO-1-1.pdf",
-    "size": 223732,
+    "name": "2009 MSCE Mathematics Paper I.pdf",
+    "path": "Exams/Mathematics/2009 MSCE Mathematics Paper I.pdf",
+    "size": 269837,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f5d864a984"
+    "id": "f3d1a117b2"
   },
   {
-    "name": "2010MSCE_MATH_PAPERⅠ.pdf",
-    "path": "Exams/Mathematics/2010MSCE_MATH_PAPERⅠ (1).pdf",
+    "name": "2009 MSCE Mathematics Paper II.pdf",
+    "path": "Exams/Mathematics/2009 MSCE Mathematics Paper II.pdf",
+    "size": 233603,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fb0e05eb8e"
+  },
+  {
+    "name": "2010 MSCE Mathematics Paper I.pdf",
+    "path": "Exams/Mathematics/2010 MSCE Mathematics Paper I.pdf",
     "size": 275997,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f9ab25f4ee"
   },
   {
-    "name": "2011MSCE_MATH_PAPERⅠ.pdf",
-    "path": "Exams/Mathematics/2011MSCE_MATH_PAPERⅠ.pdf",
+    "name": "2010 MSCE Mathematics Paper II.pdf",
+    "path": "Exams/Mathematics/2010 MSCE Mathematics Paper II.pdf",
+    "size": 223732,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f5d864a984"
+  },
+  {
+    "name": "2011 MANEB JCE Mathematics.pdf",
+    "path": "Exams/Mathematics/2011 MANEB JCE Mathematics.pdf",
+    "size": 3910911,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f76116fc06"
+  },
+  {
+    "name": "2011 MSCE Mathematics Paper I.pdf",
+    "path": "Exams/Mathematics/2011 MSCE Mathematics Paper I.pdf",
     "size": 428565,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "fd3c172406"
   },
   {
-    "name": "2011_p2_mathematics_1.pdf",
-    "path": "Exams/Mathematics/2011_p2_mathematics_1.pdf",
+    "name": "2011 MSCE Mathematics Paper II.pdf",
+    "path": "Exams/Mathematics/2011 MSCE Mathematics Paper II.pdf",
     "size": 600782,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "fabd168955"
   },
   {
-    "name": "2013_mock_mathematics_form_four_paper_1-1-1_-_Copy.docx",
-    "path": "Exams/Mathematics/2013_mock_mathematics_form_four_paper_1-1-1_-_Copy.docx",
+    "name": "2013 MANEB JCE Mathematics.pdf",
+    "path": "Exams/Mathematics/2013 MANEB JCE Mathematics.pdf",
+    "size": 6078426,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fc55de3136"
+  },
+  {
+    "name": "2013 MSCE Mathematics Form 4 Mock Paper I.docx",
+    "path": "Exams/Mathematics/2013 MSCE Mathematics Form 4 Mock Paper I.docx",
     "size": 34101,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f362d8d161"
   },
   {
-    "name": "2013_mock_mathematics_form_four_paper_1-1.pdf",
-    "path": "Exams/Mathematics/2013_mock_mathematics_form_four_paper_1-1_(2).pdf",
+    "name": "2013 MSCE Mathematics Form 4 Mock Paper I.pdf",
+    "path": "Exams/Mathematics/2013 MSCE Mathematics Form 4 Mock Paper I.pdf",
     "size": 358524,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f814ca9b46"
   },
   {
-    "name": "2014 JCE MATHS MANEB_1.pdf",
-    "path": "Exams/Mathematics/2014 JCE MATHS MANEB_1.pdf",
+    "name": "2014 MANEB JCE Mathematics.pdf",
+    "path": "Exams/Mathematics/2014 MANEB JCE Mathematics.pdf",
     "size": 4116958,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f30212e585"
   },
   {
-    "name": "2015%20MATHS%20MSCE%20MOCK%20EXAMS-1.pdf",
-    "path": "Exams/Mathematics/2015%20MATHS%20MSCE%20MOCK%20EXAMS-1.pdf",
-    "size": 131,
+    "name": "2015 MANEB JCE Mathematics.pdf",
+    "path": "Exams/Mathematics/2015 MANEB JCE Mathematics.pdf",
+    "size": 4794515,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f41d3a5d0e"
+    "id": "f04e5b0799"
   },
   {
     "name": "2016 MANEB JCE Mathematics.pdf",
     "path": "Exams/Mathematics/2016 MANEB JCE Mathematics.pdf",
-    "size": 3197705,
-    "repo": "e-library-media-2",
+    "size": 3995182,
+    "repo": "e-library-media",
     "bucket": 2,
-    "id": "fadb2c815f",
-    "level": "jce",
-    "category": "Exams",
-    "subject": "Mathematics"
+    "id": "fadb2c815f"
   },
   {
-    "name": "2016 MARY MOUNT MATHEMATICS1_1.docx",
-    "path": "Exams/Mathematics/2016 MARY MOUNT MATHEMATICS1_1.docx",
+    "name": "2016 Marymount Catholic Secondary School MSCE Mathematics Mock.docx",
+    "path": "Exams/Mathematics/2016 Marymount Catholic Secondary School MSCE Mathematics Mock.docx",
     "size": 39635,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f950c778e4"
-  },
-  {
-    "name": "2016 MATHS JCE MANEB_1.pdf",
-    "path": "Exams/Mathematics/2016 MATHS JCE MANEB_1.pdf",
-    "size": 3995182,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f29e9c01a6"
   },
   {
     "name": "2016 Mzuzu Diocese MSCE Mathematics Paper 1 Mock.pdf",
@@ -19300,6 +19329,14 @@
     "level": "msce",
     "category": "Exams",
     "subject": "Mathematics"
+  },
+  {
+    "name": "2017 Mthunzi Private Secondary School MSCE Mathematics Form 4 Paper I.pdf",
+    "path": "Exams/Mathematics/2017 Mthunzi Private Secondary School MSCE Mathematics Form 4 Paper I.pdf",
+    "size": 460145,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fb964ed92b"
   },
   {
     "name": "2017_MATHS_Mock_Paper_I-1.pdf",
@@ -19318,36 +19355,68 @@
     "id": "f4e2d59160"
   },
   {
-    "name": "2017_MThunz_pvt_MATT_FORM_4_PAPER_1.pdf",
-    "path": "Exams/Mathematics/2017_MThunz_pvt_MATT_FORM_4_PAPER_1.pdf",
-    "size": 460145,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fb964ed92b"
-  },
-  {
-    "name": "2018_DAPP_MATHEMATICS_MOCK_1.pdf",
-    "path": "Exams/Mathematics/2018_DAPP_MATHEMATICS_MOCK_1.pdf",
+    "name": "2018 DAPP Teachers Training College Mathematics Mock.pdf",
+    "path": "Exams/Mathematics/2018 DAPP Teachers Training College Mathematics Mock.pdf",
     "size": 478995,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f6b36533d2"
   },
   {
-    "name": "2018_MATHS_PAPER_1(1)-1.pdf",
-    "path": "Exams/Mathematics/2018_MATHS_PAPER_1(1)-1.pdf",
+    "name": "2018 MSCE Mathematics Paper I Mock.pdf",
+    "path": "Exams/Mathematics/2018 MSCE Mathematics Paper I Mock.pdf",
     "size": 424246,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "fdf0437e8b"
   },
   {
-    "name": "2018_math's_paper_1_2.pdf",
-    "path": "Exams/Mathematics/2018_math's_paper_1_2 (1).pdf",
+    "name": "2018 MSCE Mathematics Paper I.pdf",
+    "path": "Exams/Mathematics/2018 MSCE Mathematics Paper I.pdf",
+    "size": 871008,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f8ffe4d025"
+  },
+  {
+    "name": "2018 MSCE Mathematics Papers I and II.pdf",
+    "path": "Exams/Mathematics/2018 MSCE Mathematics Papers I and II.pdf",
     "size": 196373,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f7598bb621"
+  },
+  {
+    "name": "2019 Chisapi Girls Secondary School Mathematics Mock Paper I.pdf",
+    "path": "Exams/Mathematics/2019 Chisapi Girls Secondary School Mathematics Mock Paper I.pdf",
+    "size": 203469,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "feae584d58"
+  },
+  {
+    "name": "2019 MSCE Mathematics Mock Exam.pdf",
+    "path": "Exams/Mathematics/2019 MSCE Mathematics Mock Exam.pdf",
+    "size": 464573,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fb6495e789"
+  },
+  {
+    "name": "2019 MSCE Mathematics Paper I Mock Exam.pdf",
+    "path": "Exams/Mathematics/2019 MSCE Mathematics Paper I Mock Exam.pdf",
+    "size": 189162,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "ff3ee5b19f"
+  },
+  {
+    "name": "2019 MSCE Mathematics Paper I Mock.pdf",
+    "path": "Exams/Mathematics/2019 MSCE Mathematics Paper I Mock.pdf",
+    "size": 500836,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f769d7731b"
   },
   {
     "name": "2019 Maranatha MSCE Mathematics Paper 1 Mock.pdf",
@@ -19372,36 +19441,12 @@
     "subject": "Mathematics"
   },
   {
-    "name": "2019_Chisapi_girls_mock_maths_paper_1.pdf",
-    "path": "Exams/Mathematics/2019_Chisapi_girls_mock_maths_paper_1.pdf",
-    "size": 203469,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "feae584d58"
-  },
-  {
-    "name": "2019_MATHEMATICS_MOCK_PI(1)_(1)_1.pdf",
-    "path": "Exams/Mathematics/2019_MATHEMATICS_MOCK_PI(1)_(1)_1.pdf",
-    "size": 500836,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f769d7731b"
-  },
-  {
     "name": "2019_MATHEMATICS_PAPER_I-1.pdf",
     "path": "Exams/Mathematics/2019_MATHEMATICS_PAPER_I-1.pdf",
     "size": 3813161,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f2d4cb3463"
-  },
-  {
-    "name": "2019_MATHS_Mock (1)_1.pdf",
-    "path": "Exams/Mathematics/2019_MATHS_Mock (1)_1.pdf",
-    "size": 464573,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fb6495e789"
   },
   {
     "name": "2020 MANEB MSCE Mathematics Paper 1.pdf",
@@ -19413,6 +19458,14 @@
     "level": "msce",
     "category": "Exams",
     "subject": "Mathematics"
+  },
+  {
+    "name": "2020 MSCE Mathematics Predicted Questions.pdf",
+    "path": "Exams/Mathematics/2020 MSCE Mathematics Predicted Questions.pdf",
+    "size": 246036,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f5be0f8c18"
   },
   {
     "name": "2020 Mzuzu Diocese MSCE Mathematics Paper 1 Mock.pdf",
@@ -19448,14 +19501,6 @@
     "subject": "Mathematics"
   },
   {
-    "name": "2020_MSCE_MATHEMATICS_PREDICTIONS_1.pdf",
-    "path": "Exams/Mathematics/2020_MSCE_MATHEMATICS_PREDICTIONS_1.pdf",
-    "size": 246036,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5be0f8c18"
-  },
-  {
     "name": "2021 CCAP Synod of Livingstonia MSCE Mathematics Paper 1 Mock.pdf",
     "path": "Exams/Mathematics/2021 CCAP Synod of Livingstonia MSCE Mathematics Paper 1 Mock.pdf",
     "size": 1413860,
@@ -19478,12 +19523,36 @@
     "subject": "Mathematics"
   },
   {
-    "name": "2021 JCE Maths Loyola_1.pdf",
-    "path": "Exams/Mathematics/2021 JCE Maths Loyola_1.pdf",
+    "name": "2021 Loyola Jesuit Secondary School JCE Mathematics Exam.pdf",
+    "path": "Exams/Mathematics/2021 Loyola Jesuit Secondary School JCE Mathematics Exam.pdf",
     "size": 626184,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f2099f9786"
+  },
+  {
+    "name": "2021 Loyola Jesuit Secondary School MSCE Mathematics Paper I Mock.pdf",
+    "path": "Exams/Mathematics/2021 Loyola Jesuit Secondary School MSCE Mathematics Paper I Mock.pdf",
+    "size": 829859,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fdbd233ec3"
+  },
+  {
+    "name": "2021 Loyola Jesuit Secondary School MSCE Mathematics Paper II Mock.pdf",
+    "path": "Exams/Mathematics/2021 Loyola Jesuit Secondary School MSCE Mathematics Paper II Mock.pdf",
+    "size": 605672,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f76ec34f76"
+  },
+  {
+    "name": "2021 MANEB JCE Mathematics Paper I.pdf",
+    "path": "Exams/Mathematics/2021 MANEB JCE Mathematics Paper I.pdf",
+    "size": 521610,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f64aeec787"
   },
   {
     "name": "2021 MANEB JCE Mathematics Sample Paper.pdf",
@@ -19497,20 +19566,20 @@
     "subject": "Mathematics"
   },
   {
+    "name": "2021 MANEB MSCE Mathematics Paper I.pdf",
+    "path": "Exams/Mathematics/2021 MANEB MSCE Mathematics Paper I.pdf",
+    "size": 5063028,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fe70521354"
+  },
+  {
     "name": "2021 MSCE MATHS PAPER I.pdf",
     "path": "Exams/Mathematics/2021 MSCE MATHS PAPER I.pdf",
     "size": 1188301,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "ff42db1fcc"
-  },
-  {
-    "name": "2021 MSCE Maths Paper II Loyola (1)_1.pdf",
-    "path": "Exams/Mathematics/2021 MSCE Maths Paper II Loyola (1) - Copy_1.pdf",
-    "size": 605672,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f76ec34f76"
   },
   {
     "name": "2021 Maneb Maths Paper 2.pdf",
@@ -19521,12 +19590,12 @@
     "id": "f577943ddd"
   },
   {
-    "name": "2021 NED MOCK JCE MATHS_1.pdf",
-    "path": "Exams/Mathematics/2021 NED MOCK JCE MATHS_1.pdf",
-    "size": 541329,
+    "name": "2021 Maranatha Academy MSCE Mathematics Paper II Mock.pdf",
+    "path": "Exams/Mathematics/2021 Maranatha Academy MSCE Mathematics Paper II Mock.pdf",
+    "size": 639402,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f1e81fa9fe"
+    "id": "fdc8c6cd25"
   },
   {
     "name": "2021 Nkhamenya Cluster MSCE Mathematics Paper 2 Mock.docx",
@@ -19540,12 +19609,12 @@
     "subject": "Mathematics"
   },
   {
-    "name": "2021_JCE_Mathematics_Paper_1.pdf",
-    "path": "Exams/Mathematics/2021_JCE_Mathematics_Paper_1.pdf",
-    "size": 521610,
+    "name": "2021 Northern Education Division JCE Mathematics Mock.pdf",
+    "path": "Exams/Mathematics/2021 Northern Education Division JCE Mathematics Mock.pdf",
+    "size": 541329,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f64aeec787"
+    "id": "f1e81fa9fe"
   },
   {
     "name": "2021_MOCK_MATHEMATICS_PP2.pdf",
@@ -19554,22 +19623,6 @@
     "repo": "e-library-media",
     "bucket": 2,
     "id": "fe48fbbcb6"
-  },
-  {
-    "name": "2021_MSCE_Maths_Paper_I_Loyola_1.pdf",
-    "path": "Exams/Mathematics/2021_MSCE_Maths_Paper_I_Loyola_1.pdf",
-    "size": 829859,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fdbd233ec3"
-  },
-  {
-    "name": "2021_Maranatha_Maths_PP2_mock_(1)_1.pdf",
-    "path": "Exams/Mathematics/2021_Maranatha_Maths_PP2_mock_(1)_1.pdf",
-    "size": 639402,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fdc8c6cd25"
   },
   {
     "name": "2022 Chikhwaza Cluster MSCE Mathematics Paper 2 Mock.pdf",
@@ -19583,6 +19636,14 @@
     "subject": "Mathematics"
   },
   {
+    "name": "2022 JCE Mathematics Mock Exam.pdf",
+    "path": "Exams/Mathematics/2022 JCE Mathematics Mock Exam.pdf",
+    "size": 567149,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fdbd3eb83f"
+  },
+  {
     "name": "2022 MANEB MSCE Mathematics Examination Chief Examiners Report.pdf",
     "path": "Exams/Mathematics/2022 MANEB MSCE Mathematics Examination Chief Examiners Report.pdf",
     "size": 989023,
@@ -19594,20 +19655,28 @@
     "subject": "Mathematics"
   },
   {
+    "name": "2022 MANEB MSCE Mathematics Paper II.pdf",
+    "path": "Exams/Mathematics/2022 MANEB MSCE Mathematics Paper II.pdf",
+    "size": 5248183,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fda1910585"
+  },
+  {
+    "name": "2022 MANEB MSCE Mathematics.pdf",
+    "path": "Exams/Mathematics/2022 MANEB MSCE Mathematics.pdf",
+    "size": 4109512,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fdcd8d1542"
+  },
+  {
     "name": "2022 MATHS 2 MOCK 1.pdf",
     "path": "Exams/Mathematics/2022 MATHS 2 MOCK 1.pdf",
     "size": 523705,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f6281dbf9f"
-  },
-  {
-    "name": "2022 MATHS MANEB_1.pdf",
-    "path": "Exams/Mathematics/2022 MATHS MANEB_1.pdf",
-    "size": 4109512,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fdcd8d1542"
   },
   {
     "name": "2022 MATHS PAPER I.docx",
@@ -19618,14 +19687,6 @@
     "id": "f7110134a9"
   },
   {
-    "name": "2022 MATHS PAPER II_1.docx",
-    "path": "Exams/Mathematics/2022 MATHS PAPER II_1.docx",
-    "size": 127476,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f0b2602216"
-  },
-  {
     "name": "2022 MOCK 1 MATHEMATICS 11.pdf",
     "path": "Exams/Mathematics/2022 MOCK 1 MATHEMATICS 11.pdf",
     "size": 256282,
@@ -19634,12 +19695,28 @@
     "id": "faa9ea2187"
   },
   {
-    "name": "2022.MANEB.MATHEMATICS.PII (1) (1)_1.pdf",
-    "path": "Exams/Mathematics/2022.MANEB.MATHEMATICS.PII (1) (1)_1.pdf",
-    "size": 5248183,
+    "name": "2022 MSCE Mathematics Mock Examination.pdf",
+    "path": "Exams/Mathematics/2022 MSCE Mathematics Mock Examination.pdf",
+    "size": 662940,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fda1910585"
+    "id": "fc54a5246f"
+  },
+  {
+    "name": "2022 MSCE Mathematics Paper II Mock.pdf",
+    "path": "Exams/Mathematics/2022 MSCE Mathematics Paper II Mock.pdf",
+    "size": 749692,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f3d3542d97"
+  },
+  {
+    "name": "2022 MSCE Mathematics Paper II.docx",
+    "path": "Exams/Mathematics/2022 MSCE Mathematics Paper II.docx",
+    "size": 127476,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f0b2602216"
   },
   {
     "name": "2022_MATHEMATICS_FOR_KASUNGU_DISTRICT_MOCK_EXAMINATION.pdf",
@@ -19648,14 +19725,6 @@
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f0f540fdb0"
-  },
-  {
-    "name": "2022_Mat_II_MOck_Exams_1.pdf",
-    "path": "Exams/Mathematics/2022_Mat_II_MOck_Exams_1.pdf",
-    "size": 749692,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f3d3542d97"
   },
   {
     "name": "2022_Nguludi_Cluster_Mathematics_Paper_I.pdf",
@@ -19688,36 +19757,28 @@
     "subject": "Mathematics"
   },
   {
-    "name": "2023 JCE MATHS MOCK (3)_1.pdf",
-    "path": "Exams/Mathematics/2023 JCE  MATHS MOCK (3)_1.pdf",
+    "name": "2023 JCE Mathematics Examination.pdf",
+    "path": "Exams/Mathematics/2023 JCE Mathematics Examination.pdf",
+    "size": 1499650,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f6d3b332ce"
+  },
+  {
+    "name": "2023 JCE Mathematics Mock Exam 3.pdf",
+    "path": "Exams/Mathematics/2023 JCE Mathematics Mock Exam 3.pdf",
     "size": 617605,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "fd66fbd9b1"
   },
   {
-    "name": "2023 JCE MATHS MOCK_1.pdf",
-    "path": "Exams/Mathematics/2023 JCE  MATHS MOCK_1.pdf",
+    "name": "2023 JCE Mathematics Mock Exam.pdf",
+    "path": "Exams/Mathematics/2023 JCE Mathematics Mock Exam.pdf",
     "size": 356704,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "fb401a17e5"
-  },
-  {
-    "name": "2023 JCE MATHS MANEB_1.pdf",
-    "path": "Exams/Mathematics/2023 JCE MATHS MANEB_1.pdf",
-    "size": 2238276,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f3a71d4c5a"
-  },
-  {
-    "name": "2023 JCE Mathematics_1.pdf",
-    "path": "Exams/Mathematics/2023 JCE Mathematics_1.pdf",
-    "size": 1499650,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f6d3b332ce"
   },
   {
     "name": "2023 Lilongwe City MSCE Mathematics Paper 1 Mock.pdf",
@@ -19742,20 +19803,44 @@
     "subject": "Mathematics"
   },
   {
+    "name": "2023 MANEB JCE Mathematics.pdf",
+    "path": "Exams/Mathematics/2023 MANEB JCE Mathematics.pdf",
+    "size": 2238276,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f3a71d4c5a"
+  },
+  {
+    "name": "2023 MANEB MSCE Mathematics Paper II.pdf",
+    "path": "Exams/Mathematics/2023 MANEB MSCE Mathematics Paper II.pdf",
+    "size": 1106610,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f0364e7bad"
+  },
+  {
+    "name": "2023 MSCE Mathematics Paper I Mock.pdf",
+    "path": "Exams/Mathematics/2023 MSCE Mathematics Paper I Mock.pdf",
+    "size": 633444,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f41f4f3194"
+  },
+  {
+    "name": "2023 Maranatha Academy MSCE Mathematics Paper II Mock.pdf",
+    "path": "Exams/Mathematics/2023 Maranatha Academy MSCE Mathematics Paper II Mock.pdf",
+    "size": 969949,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f5399e9077"
+  },
+  {
     "name": "2023 Mathematics_Paper_I-1.pdf",
     "path": "Exams/Mathematics/2023 Mathematics_Paper_I-1.pdf",
     "size": 571750,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "fb4b5af6f6"
-  },
-  {
-    "name": "2023_MARANATHA_MOCK__MATHS_PII_(1)-1_1.pdf",
-    "path": "Exams/Mathematics/2023_MARANATHA_MOCK__MATHS_PII_(1)-1_1.pdf",
-    "size": 969949,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5399e9077"
   },
   {
     "name": "2023_MAT_MOCK_EXAMS.pdf",
@@ -19766,28 +19851,12 @@
     "id": "f181cdb028"
   },
   {
-    "name": "2023_MAT_P1_1.pdf",
-    "path": "Exams/Mathematics/2023_MAT_P1_1.pdf",
-    "size": 633444,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f41f4f3194"
-  },
-  {
     "name": "2023_MSCE_MAT__PAPER2.pdf",
     "path": "Exams/Mathematics/2023_MSCE_MAT__PAPER2.pdf",
     "size": 715600,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f114b6de43"
-  },
-  {
-    "name": "2023_Maneb_Maths_P2 (2) (1)_1.pdf",
-    "path": "Exams/Mathematics/2023_Maneb_Maths_P2 (2) (1)_1.pdf",
-    "size": 1106610,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f0364e7bad"
   },
   {
     "name": "2023__ADDITIONAL__MATHEMATICS_PAPER_II.docx.pdf",
@@ -19806,132 +19875,132 @@
     "id": "f128fedb32"
   },
   {
-    "name": "2024 HAC MATHS MOCK PP I_1.pdf",
-    "path": "Exams/Mathematics/2024 HAC  MATHS MOCK PP I_1.pdf",
-    "size": 375057,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f1bbbdc8d3"
-  },
-  {
-    "name": "2024 JCE MATHS MANEB_1.pdf",
-    "path": "Exams/Mathematics/2024 JCE MATHS MANEB_1.pdf",
-    "size": 4599066,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5578b5add"
-  },
-  {
-    "name": "2024 JCE NED Mathematics Moderated_1.docx",
-    "path": "Exams/Mathematics/2024 JCE NED Mathematics Moderated_1.docx",
-    "size": 1002459,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fd9e0c4a83"
-  },
-  {
-    "name": "2024 MADISI CLUSTER JCE MATHS 2024 PDF-2_1.pdf",
-    "path": "Exams/Mathematics/2024 MADISI CLUSTER JCE MATHS 2024 PDF-2_1.pdf",
-    "size": 1522957,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f8335f2f89"
-  },
-  {
-    "name": "2024 MANEB Mathematics II(1) (1) (1)_1.pdf",
-    "path": "Exams/Mathematics/2024 MANEB Mathematics II(1) (1) (1)_1.pdf",
-    "size": 2430689,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f61440b381"
-  },
-  {
-    "name": "2024 MANEB Mathematics I_1.pdf",
-    "path": "Exams/Mathematics/2024 MANEB Mathematics I_1.pdf",
-    "size": 1934577,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f7a79124f3"
-  },
-  {
-    "name": "2024 MAT PI_1.pdf",
-    "path": "Exams/Mathematics/2024 MAT PI_1.pdf",
-    "size": 689766,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f9aa1e86a6"
-  },
-  {
-    "name": "2024 MATH PII_1.pdf",
-    "path": "Exams/Mathematics/2024 MATH PII_1.pdf",
-    "size": 1433471,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f070927a3d"
-  },
-  {
-    "name": "2024 MATHEMATICS PAPER II (1)_1.pdf",
-    "path": "Exams/Mathematics/2024 MATHEMATICS  PAPER II  (1)_1.pdf",
-    "size": 342955,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f11ac87d2a"
-  },
-  {
-    "name": "2024 MATHEMATICS PAPER 1 MOCK 1 (1)_1.pdf",
-    "path": "Exams/Mathematics/2024 MATHEMATICS PAPER 1 MOCK 1 (1)_1.pdf",
-    "size": 346555,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f869f9b4b8"
-  },
-  {
-    "name": "2024 MPONDA ZONE MATHEMATICS PRE-MOCK EXAMINATIONS_1.pdf",
-    "path": "Exams/Mathematics/2024 MPONDA ZONE MATHEMATICS PRE-MOCK EXAMINATIONS_1.pdf",
-    "size": 634255,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f3cfd8029e"
-  },
-  {
-    "name": "2024 MSCE MATH PII mwanza cluster_1.pdf",
-    "path": "Exams/Mathematics/2024 MSCE MATH PII mwanza cluster_1.pdf",
-    "size": 1553309,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f9791ab2f1"
-  },
-  {
-    "name": "2024 MSCE MATHEMATICS PAPER I mwanza cluster mock_1.pdf",
-    "path": "Exams/Mathematics/2024 MSCE MATHEMATICS PAPER I mwanza cluster mock_1.pdf",
-    "size": 651544,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f2539b74f9"
-  },
-  {
-    "name": "2024 Mathematics I Dessha_1.pdf",
-    "path": "Exams/Mathematics/2024 Mathematics I Dessha_1.pdf",
+    "name": "2024 Dessha MSCE Mathematics Paper I Mock.pdf",
+    "path": "Exams/Mathematics/2024 Dessha MSCE Mathematics Paper I Mock.pdf",
     "size": 834107,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f192e36da1"
   },
   {
-    "name": "2024_MSCE_Maths_(II)_1.pdf",
-    "path": "Exams/Mathematics/2024_MSCE_Maths_(II)_1.pdf",
+    "name": "2024 Dessha MSCE Mathematics Paper II Mock.pdf",
+    "path": "Exams/Mathematics/2024 Dessha MSCE Mathematics Paper II Mock.pdf",
+    "size": 830657,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f604773abc"
+  },
+  {
+    "name": "2024 HAC MSCE Mathematics Paper I Mock.pdf",
+    "path": "Exams/Mathematics/2024 HAC MSCE Mathematics Paper I Mock.pdf",
+    "size": 375057,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f1bbbdc8d3"
+  },
+  {
+    "name": "2024 MANEB JCE Mathematics.pdf",
+    "path": "Exams/Mathematics/2024 MANEB JCE Mathematics.pdf",
+    "size": 4599066,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f5578b5add"
+  },
+  {
+    "name": "2024 MANEB MSCE Mathematics Paper I.pdf",
+    "path": "Exams/Mathematics/2024 MANEB MSCE Mathematics Paper I.pdf",
+    "size": 1934577,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f7a79124f3"
+  },
+  {
+    "name": "2024 MANEB MSCE Mathematics Paper II.pdf",
+    "path": "Exams/Mathematics/2024 MANEB MSCE Mathematics Paper II.pdf",
+    "size": 2430689,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f61440b381"
+  },
+  {
+    "name": "2024 MSCE Mathematics Paper I Mock 1.pdf",
+    "path": "Exams/Mathematics/2024 MSCE Mathematics Paper I Mock 1.pdf",
+    "size": 346555,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f869f9b4b8"
+  },
+  {
+    "name": "2024 MSCE Mathematics Paper I Mock.pdf",
+    "path": "Exams/Mathematics/2024 MSCE Mathematics Paper I Mock.pdf",
+    "size": 689766,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f9aa1e86a6"
+  },
+  {
+    "name": "2024 MSCE Mathematics Paper II Final Mock.pdf",
+    "path": "Exams/Mathematics/2024 MSCE Mathematics Paper II Final Mock.pdf",
+    "size": 342955,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f11ac87d2a"
+  },
+  {
+    "name": "2024 MSCE Mathematics Paper II Mock Exam.pdf",
+    "path": "Exams/Mathematics/2024 MSCE Mathematics Paper II Mock Exam.pdf",
     "size": 6425834,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "ff4c3446b2"
   },
   {
-    "name": "2024_Mathematics_II_Dessha_1.pdf",
-    "path": "Exams/Mathematics/2024_Mathematics_II_Dessha_1.pdf",
-    "size": 830657,
+    "name": "2024 MSCE Mathematics Paper II Mock.pdf",
+    "path": "Exams/Mathematics/2024 MSCE Mathematics Paper II Mock.pdf",
+    "size": 1433471,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f604773abc"
+    "id": "f070927a3d"
+  },
+  {
+    "name": "2024 Madisi Cluster JCE Mathematics Mock.pdf",
+    "path": "Exams/Mathematics/2024 Madisi Cluster JCE Mathematics Mock.pdf",
+    "size": 1522957,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f8335f2f89"
+  },
+  {
+    "name": "2024 Mponda Zone JCE Mathematics Pre-Mock Examination.pdf",
+    "path": "Exams/Mathematics/2024 Mponda Zone JCE Mathematics Pre-Mock Examination.pdf",
+    "size": 634255,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f3cfd8029e"
+  },
+  {
+    "name": "2024 Mwanza Cluster MSCE Mathematics Paper I Mock.pdf",
+    "path": "Exams/Mathematics/2024 Mwanza Cluster MSCE Mathematics Paper I Mock.pdf",
+    "size": 651544,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f2539b74f9"
+  },
+  {
+    "name": "2024 Mwanza Cluster MSCE Mathematics Paper II Mock.pdf",
+    "path": "Exams/Mathematics/2024 Mwanza Cluster MSCE Mathematics Paper II Mock.pdf",
+    "size": 1553309,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f9791ab2f1"
+  },
+  {
+    "name": "2024 Northern Education Division JCE Mathematics Mock.docx",
+    "path": "Exams/Mathematics/2024 Northern Education Division JCE Mathematics Mock.docx",
+    "size": 1002459,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fd9e0c4a83"
   },
   {
     "name": "2025 2nd SANTA MOCK MATHS PI.pdf",
@@ -19972,6 +20041,38 @@
     "id": "f60a6ff590"
   },
   {
+    "name": "2025 JCE Mathematics Pre-Mock Exam.pdf",
+    "path": "Exams/Mathematics/2025 JCE Mathematics Pre-Mock Exam.pdf",
+    "size": 648044,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fafab6d5dd"
+  },
+  {
+    "name": "2025 MANEB JCE Mathematics.pdf",
+    "path": "Exams/Mathematics/2025 MANEB JCE Mathematics.pdf",
+    "size": 2456741,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fb546822a1"
+  },
+  {
+    "name": "2025 MANEB MSCE Mathematics Exam.pdf",
+    "path": "Exams/Mathematics/2025 MANEB MSCE Mathematics Exam.pdf",
+    "size": 2184567,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fe8be0f9fb"
+  },
+  {
+    "name": "2025 MANEB MSCE Mathematics Paper II.pdf",
+    "path": "Exams/Mathematics/2025 MANEB MSCE Mathematics Paper II.pdf",
+    "size": 3227048,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f2c87c4172"
+  },
+  {
     "name": "2025 MAT PAP I.pdf",
     "path": "Exams/Mathematics/2025 MAT PAP I.pdf",
     "size": 1293326,
@@ -19988,32 +20089,40 @@
     "id": "f153cc36fb"
   },
   {
-    "name": "2025 MATHEMATICS I_1.pdf",
-    "path": "Exams/Mathematics/2025 MATHEMATICS I_1.pdf",
-    "size": 1203011,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "ff38ef81f8"
-  },
-  {
-    "name": "2025 MSCE MAT PP II_1.pdf",
-    "path": "Exams/Mathematics/2025 MSCE MAT PP II_1.pdf",
-    "size": 1631524,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5f2543a87"
-  },
-  {
-    "name": "2025 MSCE MAT PP I_1.pdf",
-    "path": "Exams/Mathematics/2025 MSCE MAT PP I_1.pdf",
+    "name": "2025 MSCE Mathematics Paper I Mock Exam.pdf",
+    "path": "Exams/Mathematics/2025 MSCE Mathematics Paper I Mock Exam.pdf",
     "size": 2381571,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "ffcea78fa8"
   },
   {
-    "name": "2025 Marathon Academy Mathematics paper II_1.pdf",
-    "path": "Exams/Mathematics/2025 Marathon Academy Mathematics paper II_1.pdf",
+    "name": "2025 MSCE Mathematics Paper I Mock.pdf",
+    "path": "Exams/Mathematics/2025 MSCE Mathematics Paper I Mock.pdf",
+    "size": 1842216,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f1c0ffe0ec"
+  },
+  {
+    "name": "2025 MSCE Mathematics Paper I.pdf",
+    "path": "Exams/Mathematics/2025 MSCE Mathematics Paper I.pdf",
+    "size": 2277895,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fe6835b1c4"
+  },
+  {
+    "name": "2025 MSCE Mathematics Paper II Mock Exam.pdf",
+    "path": "Exams/Mathematics/2025 MSCE Mathematics Paper II Mock Exam.pdf",
+    "size": 1631524,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f5f2543a87"
+  },
+  {
+    "name": "2025 Marathon Academy MSCE Mathematics Paper II Mock.pdf",
+    "path": "Exams/Mathematics/2025 Marathon Academy MSCE Mathematics Paper II Mock.pdf",
     "size": 3424193,
     "repo": "e-library-media",
     "bucket": 2,
@@ -20042,14 +20151,6 @@
     "repo": "e-library-media",
     "bucket": 2,
     "id": "fd320fd3b7"
-  },
-  {
-    "name": "2025 PRE MOCK JCE MATH MOCK_1.pdf",
-    "path": "Exams/Mathematics/2025 PRE MOCK JCE  MATH MOCK_1.pdf",
-    "size": 648044,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fafab6d5dd"
   },
   {
     "name": "2025 SANTA 2ND MOCK MATHS PII.pdf",
@@ -20098,20 +20199,12 @@
     "subject": "Mathematics"
   },
   {
-    "name": "2025 maneb maths p 2_1.pdf",
-    "path": "Exams/Mathematics/2025 maneb maths p 2_1.pdf",
-    "size": 3227048,
+    "name": "2025 South West Education Division MSCE Mathematics Paper I Mock.pdf",
+    "path": "Exams/Mathematics/2025 South West Education Division MSCE Mathematics Paper I Mock.pdf",
+    "size": 1583314,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f2c87c4172"
-  },
-  {
-    "name": "2025 paper1 Maths_1.pdf",
-    "path": "Exams/Mathematics/2025 paper1 Maths_1.pdf",
-    "size": 2277895,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe6835b1c4"
+    "id": "fd88b6a9d8"
   },
   {
     "name": "2025_SWED_MOCK_MATHEMATICS_PAPER_II_FINAL.pdf",
@@ -20120,14 +20213,6 @@
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f85bd47d75"
-  },
-  {
-    "name": "2025_SWED_MOCK_MAT_1_FINALISED.pdf",
-    "path": "Exams/Mathematics/2025_SWED_MOCK_MAT_1_FINALISED_(1).pdf",
-    "size": 1583314,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fd88b6a9d8"
   },
   {
     "name": "2026 BUMBA ZONE MOCK - MATHEMATICS.pdf",
@@ -20312,14 +20397,6 @@
     "id": "f4850a4849"
   },
   {
-    "name": "ADDITIONAL_MATHS_PAPER_1 2025_1.pdf",
-    "path": "Exams/Mathematics/ADDITIONAL_MATHS_PAPER_1 2025_1.pdf",
-    "size": 531353,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "ff9cc7def0"
-  },
-  {
     "name": "AGF_MATHEMATICS_PAPER_II-MOCK.pdf",
     "path": "Exams/Mathematics/AGF_MATHEMATICS_PAPER_II-MOCK.pdf",
     "size": 457053,
@@ -20334,22 +20411,6 @@
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f850244cd4"
-  },
-  {
-    "name": "Ans_MSCE_MATHⅡ_14Coordinate_geometry_1.pdf",
-    "path": "Exams/Mathematics/Ans_MSCE_MATHⅡ_14Coordinate_geometry_1.pdf",
-    "size": 468683,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe26345200"
-  },
-  {
-    "name": "Combined MSCE Math paper I answers_1.pdf",
-    "path": "Exams/Mathematics/Combined MSCE Math paper I answers_1.pdf",
-    "size": 9433189,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f855403c1c"
   },
   {
     "name": "FCAMaths_PP22.pdf",
@@ -20376,6 +20437,14 @@
     "id": "f03dc19fae"
   },
   {
+    "name": "Form 1 Mathematics End of Term Examination.docx",
+    "path": "Exams/Mathematics/Form 1 Mathematics End of Term Examination.docx",
+    "size": 51250,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f5b0ab8615"
+  },
+  {
     "name": "GIRLS MATHEMATICS.pdf",
     "path": "Exams/Mathematics/GIRLS MATHEMATICS.pdf",
     "size": 387079,
@@ -20384,28 +20453,12 @@
     "id": "f7fefa63d8"
   },
   {
-    "name": "JC MANEB math 2_1.pdf",
-    "path": "Exams/Mathematics/JC MANEB math 2_1.pdf",
-    "size": 31530462,
+    "name": "JCE Mathematics Examination Paper.pdf",
+    "path": "Exams/Mathematics/JCE Mathematics Examination Paper.pdf",
+    "size": 542143,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fc8e3b2cee"
-  },
-  {
-    "name": "JCE MATHS MANEB 2025_1.pdf",
-    "path": "Exams/Mathematics/JCE MATHS MANEB 2025_1.pdf",
-    "size": 2456741,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fb546822a1"
-  },
-  {
-    "name": "JCE MATHS_1.pdf",
-    "path": "Exams/Mathematics/JCE MATHS_1.pdf",
-    "size": 590882,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fd6975b19c"
+    "id": "f797f5b9db"
   },
   {
     "name": "JCE Mathematics Form 2 Study Notes.pdf",
@@ -20416,28 +20469,44 @@
     "id": "f6bbc3f691"
   },
   {
-    "name": "JCE Mathematics_1.pdf",
-    "path": "Exams/Mathematics/JCE Mathematics_1.pdf",
-    "size": 542143,
+    "name": "JCE Mathematics Mock Examinations.pdf",
+    "path": "Exams/Mathematics/JCE Mathematics Mock Examinations.pdf",
+    "size": 680801,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f797f5b9db"
+    "id": "ff22366075"
   },
   {
-    "name": "JCE_MATHS_MANEB_QNS_ONLY_1.pdf",
-    "path": "Exams/Mathematics/JCE_MATHS_MANEB_QNS_ONLY_1.pdf",
+    "name": "JCE Mathematics Mock Paper.pdf",
+    "path": "Exams/Mathematics/JCE Mathematics Mock Paper.pdf",
+    "size": 590882,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fd6975b19c"
+  },
+  {
+    "name": "JCE Mathematics Past Papers Compilation.pdf",
+    "path": "Exams/Mathematics/JCE Mathematics Past Papers Compilation.pdf",
+    "size": 5294533,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fd1d2df2a1"
+  },
+  {
+    "name": "MANEB JCE Mathematics Paper II Compilation.pdf",
+    "path": "Exams/Mathematics/MANEB JCE Mathematics Paper II Compilation.pdf",
+    "size": 31530462,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fc8e3b2cee"
+  },
+  {
+    "name": "MANEB JCE Mathematics Questions Compilation.pdf",
+    "path": "Exams/Mathematics/MANEB JCE Mathematics Questions Compilation.pdf",
     "size": 3110911,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f72e69735d"
-  },
-  {
-    "name": "MANEB MATH-2025_1.pdf",
-    "path": "Exams/Mathematics/MANEB MATH-2025_1.pdf",
-    "size": 2184567,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe8be0f9fb"
   },
   {
     "name": "MANEB_2020_MATHS_PII.pdf",
@@ -20448,14 +20517,6 @@
     "id": "f270cc2f28"
   },
   {
-    "name": "MARY MOUNT MATHS 2_1.docx",
-    "path": "Exams/Mathematics/MARY MOUNT MATHS 2_1.docx",
-    "size": 1754661,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fae34f0278"
-  },
-  {
     "name": "MATH FORM 11.pdf",
     "path": "Exams/Mathematics/MATH FORM 11.pdf",
     "size": 691606,
@@ -20464,44 +20525,12 @@
     "id": "f0fbedee0d"
   },
   {
-    "name": "MATHEMATICS (1)_1.docx",
-    "path": "Exams/Mathematics/MATHEMATICS (1)_1.docx",
-    "size": 69706,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f0fae7b734"
-  },
-  {
     "name": "MATHEMATICS - 2026 BSS JCE CLUSTER MOCK.pdf",
     "path": "Exams/Mathematics/MATHEMATICS - 2026 BSS JCE CLUSTER MOCK.pdf",
     "size": 2220896,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "fd44f8f7f2"
-  },
-  {
-    "name": "MATHEMATICS I_1.pdf",
-    "path": "Exams/Mathematics/MATHEMATICS I_1.pdf",
-    "size": 882836,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f6e032e320"
-  },
-  {
-    "name": "MATHEMATICS JCE PAPERS_1.pdf",
-    "path": "Exams/Mathematics/MATHEMATICS JCE PAPERS_1.pdf",
-    "size": 5294533,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fd1d2df2a1"
-  },
-  {
-    "name": "MATHEMATICS MOCK 2022_1.pdf",
-    "path": "Exams/Mathematics/MATHEMATICS MOCK 2022_1.pdf",
-    "size": 662940,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fc54a5246f"
   },
   {
     "name": "MATHEMATICS P1 QUESTION PAPER SHED MOCK final.docx",
@@ -20520,14 +20549,6 @@
     "id": "f2d06e36e6"
   },
   {
-    "name": "MATHEMATICS P1_1.pdf",
-    "path": "Exams/Mathematics/MATHEMATICS P1_1.pdf",
-    "size": 780831,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe942a705f"
-  },
-  {
     "name": "MATHEMATICS PAPER 1 - BSS 2026 CLUSTER MOCK.pdf",
     "path": "Exams/Mathematics/MATHEMATICS PAPER 1 - BSS 2026 CLUSTER MOCK.pdf",
     "size": 993396,
@@ -20536,44 +20557,12 @@
     "id": "fe0b4a4efc"
   },
   {
-    "name": "MATHEMATICS PAPER 1 2018-1_1.pdf",
-    "path": "Exams/Mathematics/MATHEMATICS PAPER 1 2018-1_1.pdf",
-    "size": 871008,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f8ffe4d025"
-  },
-  {
-    "name": "MATHEMATICS PAPER 1 2019 l (1)_1.pdf",
-    "path": "Exams/Mathematics/MATHEMATICS PAPER 1 2019 l (1)_1.pdf",
-    "size": 189162,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "ff3ee5b19f"
-  },
-  {
-    "name": "MATHEMATICS PAPER 1- MAKINA CLASSES_1.pdf",
-    "path": "Exams/Mathematics/MATHEMATICS PAPER 1- MAKINA CLASSES_1.pdf",
-    "size": 781775,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f558f2489e"
-  },
-  {
     "name": "MATHEMATICS PAPER 2 - BSS 2026 CLUSTER MOCK.pdf",
     "path": "Exams/Mathematics/MATHEMATICS PAPER 2 - BSS 2026 CLUSTER MOCK.pdf",
     "size": 1193265,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "fda0f6d592"
-  },
-  {
-    "name": "MATHEMATICS PAPER 2- MAKINA CLASSES_1.pdf",
-    "path": "Exams/Mathematics/MATHEMATICS PAPER 2- MAKINA CLASSES_1.pdf",
-    "size": 729112,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe531d9c27"
   },
   {
     "name": "MATHEMATICS PAPER I.docx",
@@ -20592,94 +20581,6 @@
     "id": "f34948774b"
   },
   {
-    "name": "MATHEMATICS PII_1.docx",
-    "path": "Exams/Mathematics/MATHEMATICS PII_1.docx",
-    "size": 568894,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5d1dd2943"
-  },
-  {
-    "name": "MATHEMATICS(JCE)2015_1.pdf",
-    "path": "Exams/Mathematics/MATHEMATICS(JCE)2015_1.pdf",
-    "size": 4794515,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f04e5b0799"
-  },
-  {
-    "name": "MATHEMATICS_(JCE)2011_1.pdf",
-    "path": "Exams/Mathematics/MATHEMATICS_(JCE)2011_1.pdf",
-    "size": 3910911,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f76116fc06"
-  },
-  {
-    "name": "MATHEMATICS_(JCE)2013_1.pdf",
-    "path": "Exams/Mathematics/MATHEMATICS_(JCE)2013_1.pdf",
-    "size": 6078426,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fc55de3136"
-  },
-  {
-    "name": "MATHEMATICS_2_1.pdf",
-    "path": "Exams/Mathematics/MATHEMATICS_2_1.pdf",
-    "size": 4805100,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f88b7fe0f8"
-  },
-  {
-    "name": "MATHEMATICS_P1_FINAL_MOCK_1.pdf",
-    "path": "Exams/Mathematics/MATHEMATICS_P1_FINAL_MOCK_1.pdf",
-    "size": 740353,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "faab8bda67"
-  },
-  {
-    "name": "MATHEMATICS_PAPER_II (1) (1)_1.docx",
-    "path": "Exams/Mathematics/MATHEMATICS_PAPER_II (1) (1)_1.docx",
-    "size": 90748,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f6bddda876"
-  },
-  {
-    "name": "MATHEMATICS_PII_(1)_1.pdf",
-    "path": "Exams/Mathematics/MATHEMATICS_PII_(1)_1.pdf",
-    "size": 373560,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fc6caf35ed"
-  },
-  {
-    "name": "MATHEMATICS_PSLCE_2010-2021_QUESTIONS_&_MODEL_ANSWERS_1.pdf",
-    "path": "Exams/Mathematics/MATHEMATICS_PSLCE_2010-2021_QUESTIONS_&_MODEL_ANSWERS_1.pdf",
-    "size": 5878212,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f8889d6fa0"
-  },
-  {
-    "name": "MATHS FORM 1_1.docx",
-    "path": "Exams/Mathematics/MATHS FORM 1_1.docx",
-    "size": 51250,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5b0ab8615"
-  },
-  {
-    "name": "MATHS JCE MOCK EXAMS_1.pdf",
-    "path": "Exams/Mathematics/MATHS JCE MOCK EXAMS_1.pdf",
-    "size": 680801,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "ff22366075"
-  },
-  {
     "name": "MATHS MSCE QUESTION & ANSWERS.pdf",
     "path": "Exams/Mathematics/MATHS MSCE QUESTION  & ANSWERS.pdf",
     "size": 1919979,
@@ -20696,46 +20597,6 @@
     "id": "f0e808ec9f"
   },
   {
-    "name": "MATHS, JCE MOCK 2022_1.pdf",
-    "path": "Exams/Mathematics/MATHS, JCE MOCK 2022_1.pdf",
-    "size": 567149,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fdbd3eb83f"
-  },
-  {
-    "name": "MATHS_MSCE__QUESTION_&_ANSWERS)_(2)_1.PDF",
-    "path": "Exams/Mathematics/MATHS_MSCE__QUESTION_&_ANSWERS)_(2)_1.PDF",
-    "size": 12700283,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe23a524a1"
-  },
-  {
-    "name": "MATH_ZOMBA_(1)_1.pdf",
-    "path": "Exams/Mathematics/MATH_ZOMBA_(1)_1.pdf",
-    "size": 548397,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f43d020ced"
-  },
-  {
-    "name": "MSCE MATHEMATICS FORM 3_1.pdf",
-    "path": "Exams/Mathematics/MSCE MATHEMATICS FORM 3_1.pdf",
-    "size": 3190741,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f08fcb685f"
-  },
-  {
-    "name": "MSCE MATHEMATICS FORM 4_1.pdf",
-    "path": "Exams/Mathematics/MSCE MATHEMATICS FORM 4_1.pdf",
-    "size": 1856645,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe92f255ec"
-  },
-  {
     "name": "MSCE Mathematics Paper 1 Mock Examination.pdf",
     "path": "Exams/Mathematics/MSCE Mathematics Paper 1 Mock Examination.pdf",
     "size": 272428,
@@ -20747,6 +20608,126 @@
     "subject": "Mathematics"
   },
   {
+    "name": "MSCE Mathematics Paper I (Makina Classes).pdf",
+    "path": "Exams/Mathematics/MSCE Mathematics Paper I (Makina Classes).pdf",
+    "size": 781775,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f558f2489e"
+  },
+  {
+    "name": "MSCE Mathematics Paper I Examination.pdf",
+    "path": "Exams/Mathematics/MSCE Mathematics Paper I Examination.pdf",
+    "size": 882836,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f6e032e320"
+  },
+  {
+    "name": "MSCE Mathematics Paper I Final Mock.pdf",
+    "path": "Exams/Mathematics/MSCE Mathematics Paper I Final Mock.pdf",
+    "size": 740353,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "faab8bda67"
+  },
+  {
+    "name": "MSCE Mathematics Paper I Mock.docx",
+    "path": "Exams/Mathematics/MSCE Mathematics Paper I Mock.docx",
+    "size": 69706,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f0fae7b734"
+  },
+  {
+    "name": "MSCE Mathematics Paper I Practice Mock.pdf",
+    "path": "Exams/Mathematics/MSCE Mathematics Paper I Practice Mock.pdf",
+    "size": 780831,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fe942a705f"
+  },
+  {
+    "name": "MSCE Mathematics Paper I Revision Mock.pdf",
+    "path": "Exams/Mathematics/MSCE Mathematics Paper I Revision Mock.pdf",
+    "size": 3341794,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f8f242c2b0"
+  },
+  {
+    "name": "MSCE Mathematics Paper I Revision.docx",
+    "path": "Exams/Mathematics/MSCE Mathematics Paper I Revision.docx",
+    "size": 69799,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f42ba68045"
+  },
+  {
+    "name": "MSCE Mathematics Paper II (Makina Classes).pdf",
+    "path": "Exams/Mathematics/MSCE Mathematics Paper II (Makina Classes).pdf",
+    "size": 729112,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fe531d9c27"
+  },
+  {
+    "name": "MSCE Mathematics Paper II Final Mock.docx",
+    "path": "Exams/Mathematics/MSCE Mathematics Paper II Final Mock.docx",
+    "size": 90748,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f6bddda876"
+  },
+  {
+    "name": "MSCE Mathematics Paper II Form 4 Mock.docx",
+    "path": "Exams/Mathematics/MSCE Mathematics Paper II Form 4 Mock.docx",
+    "size": 75058,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f4554e4949"
+  },
+  {
+    "name": "MSCE Mathematics Paper II Mock Exam.pdf",
+    "path": "Exams/Mathematics/MSCE Mathematics Paper II Mock Exam.pdf",
+    "size": 373560,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fc6caf35ed"
+  },
+  {
+    "name": "MSCE Mathematics Paper II Mock.docx",
+    "path": "Exams/Mathematics/MSCE Mathematics Paper II Mock.docx",
+    "size": 568894,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f5d1dd2943"
+  },
+  {
+    "name": "MSCE Mathematics Paper II Mock.pdf",
+    "path": "Exams/Mathematics/MSCE Mathematics Paper II Mock.pdf",
+    "size": 219226,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fed296f5b6"
+  },
+  {
+    "name": "MSCE Mathematics Paper II Practice Mock.pdf",
+    "path": "Exams/Mathematics/MSCE Mathematics Paper II Practice Mock.pdf",
+    "size": 4805100,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f88b7fe0f8"
+  },
+  {
+    "name": "MSCE Mathematics Paper II Revision.docx",
+    "path": "Exams/Mathematics/MSCE Mathematics Paper II Revision.docx",
+    "size": 66610,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f4dd9298b7"
+  },
+  {
     "name": "MSCE Mathematics Past Papers (2000-2026).pdf",
     "path": "Exams/Mathematics/MSCE Mathematics Past Papers (2000-2026).pdf",
     "size": 35897056,
@@ -20755,28 +20736,12 @@
     "id": "f3ccb06e7d"
   },
   {
-    "name": "MSCE Maths paper I 2025_1.pdf",
-    "path": "Exams/Mathematics/MSCE Maths paper I 2025_1.pdf",
-    "size": 1842216,
+    "name": "MSCE Mathematics Past Papers Collection.pdf",
+    "path": "Exams/Mathematics/MSCE Mathematics Past Papers Collection.pdf",
+    "size": 14622823,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f1c0ffe0ec"
-  },
-  {
-    "name": "MSCE_MATHS_MODEL_ANS_(1990-2021)_1.pdf",
-    "path": "Exams/Mathematics/MSCE_MATHS_MODEL_ANS_(1990-2021) - Copy - Copy_1.pdf",
-    "size": 8938887,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f99370e2af"
-  },
-  {
-    "name": "Maneb_Maths_1_2021 (1) (1).pdf",
-    "path": "Exams/Mathematics/Maneb_Maths_1_2021 (1) (1) (1).pdf",
-    "size": 5063028,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe70521354"
+    "id": "f169b3a05c"
   },
   {
     "name": "1 JC MAT KEY.docx",
@@ -20811,28 +20776,20 @@
     "id": "f78d3673b6"
   },
   {
-    "name": "2024 HAC MATHS PAPER I MARKING KEY_1.pdf",
-    "path": "Exams/Mathematics/Marking Keys/2024 HAC MATHS PAPER I MARKING KEY_1.pdf",
+    "name": "2024 HAC MSCE Mathematics Paper I Marking Key.pdf",
+    "path": "Exams/Mathematics/Marking Keys/2024 HAC MSCE Mathematics Paper I Marking Key.pdf",
     "size": 327813,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "fb39eadbdd"
   },
   {
-    "name": "2024 MSCE - MATHEMATICS CHIEF EXAMINERS REPORT_1.pdf",
-    "path": "Exams/Mathematics/Marking Keys/2024 MSCE - MATHEMATICS CHIEF EXAMINERS REPORT_1.pdf",
+    "name": "2024 MSCE Mathematics Chief Examiners Report.pdf",
+    "path": "Exams/Mathematics/Marking Keys/2024 MSCE Mathematics Chief Examiners Report.pdf",
     "size": 951911,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f828fd8e60"
-  },
-  {
-    "name": "2025 - MATHEMATICS I MARKING KEY_1.pdf",
-    "path": "Exams/Mathematics/Marking Keys/2025 - MATHEMATICS I MARKING KEY_1.pdf",
-    "size": 1167432,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f4c7de6d39"
   },
   {
     "name": "2025 JCE MATHEMATICS PROVISIONAL MARKING KEY.docx",
@@ -20843,12 +20800,20 @@
     "id": "f46216bde6"
   },
   {
-    "name": "2025 MSCE - MATHEMATICS CHIEF EXAMINER'S REPORT_1.pdf",
-    "path": "Exams/Mathematics/Marking Keys/2025 MSCE - MATHEMATICS CHIEF EXAMINER'S REPORT_1.pdf",
+    "name": "2025 MSCE Mathematics Chief Examiners Report.pdf",
+    "path": "Exams/Mathematics/Marking Keys/2025 MSCE Mathematics Chief Examiners Report.pdf",
     "size": 972355,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "fa8f6eefde"
+  },
+  {
+    "name": "2025 MSCE Mathematics Paper I Marking Key.pdf",
+    "path": "Exams/Mathematics/Marking Keys/2025 MSCE Mathematics Paper I Marking Key.pdf",
+    "size": 1167432,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f4c7de6d39"
   },
   {
     "name": "2025 mat marking key I.pdf",
@@ -20947,14 +20912,6 @@
     "id": "f47575eccf"
   },
   {
-    "name": "MATHEMATICS MARKING KEY_1.pdf",
-    "path": "Exams/Mathematics/Marking Keys/MATHEMATICS MARKING KEY_1.pdf",
-    "size": 3149771,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fafcacac74"
-  },
-  {
     "name": "MATHEMATICS P1 MARKING KEY SHED MOCK final.docx",
     "path": "Exams/Mathematics/Marking Keys/MATHEMATICS P1 MARKING KEY SHED MOCK final.docx",
     "size": 359057,
@@ -20969,14 +20926,6 @@
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f7d6ccfbc8"
-  },
-  {
-    "name": "MATHEMATICS PAPER 2 PROVISINAL MARKING KEY_1.docx",
-    "path": "Exams/Mathematics/Marking Keys/MATHEMATICS PAPER 2 PROVISINAL MARKING KEY_1.docx",
-    "size": 534233,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fde218e8a0"
   },
   {
     "name": "MATHEMATICS PAPER2 2 Marking Key.docx",
@@ -21003,20 +20952,36 @@
     "id": "f0b08c168a"
   },
   {
-    "name": "MATHS 8 MODEL ANSWERS_1.pdf",
-    "path": "Exams/Mathematics/Marking Keys/MATHS 8 MODEL ANSWERS_1.pdf",
+    "name": "MSCE Mathematics 8 Model Answers.pdf",
+    "path": "Exams/Mathematics/Marking Keys/MSCE Mathematics 8 Model Answers.pdf",
     "size": 734849,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f18953a0b5"
   },
   {
-    "name": "MATHS PAPER 1 PROVISIONAL MARKING KEY_1.docx",
-    "path": "Exams/Mathematics/Marking Keys/MATHS PAPER 1 PROVISIONAL MARKING KEY_1.docx",
+    "name": "MSCE Mathematics Marking Key.pdf",
+    "path": "Exams/Mathematics/Marking Keys/MSCE Mathematics Marking Key.pdf",
+    "size": 3149771,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fafcacac74"
+  },
+  {
+    "name": "MSCE Mathematics Paper I Provisional Marking Key.docx",
+    "path": "Exams/Mathematics/Marking Keys/MSCE Mathematics Paper I Provisional Marking Key.docx",
     "size": 317771,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "fd30030092"
+  },
+  {
+    "name": "MSCE Mathematics Paper II Provisional Marking Key.docx",
+    "path": "Exams/Mathematics/Marking Keys/MSCE Mathematics Paper II Provisional Marking Key.docx",
+    "size": 534233,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fde218e8a0"
   },
   {
     "name": "Marking Scheme for Maths Paper 1.pdf",
@@ -21115,6 +21080,14 @@
     "id": "f691cd9e70"
   },
   {
+    "name": "Marymount Catholic Secondary School MSCE Mathematics Paper II Mock.docx",
+    "path": "Exams/Mathematics/Marymount Catholic Secondary School MSCE Mathematics Paper II Mock.docx",
+    "size": 1754661,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fae34f0278"
+  },
+  {
     "name": "Mathematics I 2024 SEED MSCE MOCK.pdf",
     "path": "Exams/Mathematics/Mathematics I 2024 SEED MSCE MOCK.pdf",
     "size": 595029,
@@ -21147,14 +21120,6 @@
     "id": "f1dc41b41a"
   },
   {
-    "name": "Mathematics P1-1_1.pdf",
-    "path": "Exams/Mathematics/Mathematics P1-1_1.pdf",
-    "size": 3341794,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f8f242c2b0"
-  },
-  {
     "name": "Mathematics Paper 2 updated final.docx",
     "path": "Exams/Mathematics/Mathematics Paper 2 updated final.docx",
     "size": 172808,
@@ -21169,30 +21134,6 @@
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f839ffc48c"
-  },
-  {
-    "name": "Mathematics Past Papers_1.pdf",
-    "path": "Exams/Mathematics/Mathematics Past Papers_1.pdf",
-    "size": 14622823,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f169b3a05c"
-  },
-  {
-    "name": "Mathematics_Paper_I-1 (1) (1)_1.docx",
-    "path": "Exams/Mathematics/Mathematics_Paper_I-1 (1) (1)_1.docx",
-    "size": 69799,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f42ba68045"
-  },
-  {
-    "name": "Mathematics_Paper_II_(1)_(1) (1) (1)_1.docx",
-    "path": "Exams/Mathematics/Mathematics_Paper_II_(1)_(1) (1) (1)_1.docx",
-    "size": 66610,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f4dd9298b7"
   },
   {
     "name": "Maths jce.pdf",
@@ -21211,20 +21152,12 @@
     "id": "fe33446fdf"
   },
   {
-    "name": "NESS JCE MAT MOCK_1.pdf",
-    "path": "Exams/Mathematics/NESS JCE MAT MOCK_1.pdf",
+    "name": "NESS JCE Mathematics Mock Exam.pdf",
+    "path": "Exams/Mathematics/NESS JCE Mathematics Mock Exam.pdf",
     "size": 571571,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f752db955a"
-  },
-  {
-    "name": "Practice_Mathematics;_Questions_&_Model_Answers_for_MSCE_(1) (1)_1.pdf",
-    "path": "Exams/Mathematics/Practice_Mathematics;_Questions_&_Model_Answers_for_MSCE_(1) (1)_1.pdf",
-    "size": 8319528,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f09e815727"
   },
   {
     "name": "SHED ADDITIONAL MATHEMATICS P1.docx",
@@ -21241,6 +21174,14 @@
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f938b09692"
+  },
+  {
+    "name": "Zomba District MSCE Mathematics Mock Exam.pdf",
+    "path": "Exams/Mathematics/Zomba District MSCE Mathematics Mock Exam.pdf",
+    "size": 548397,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f43d020ced"
   },
   {
     "name": "mat f1.docx",
@@ -21299,14 +21240,6 @@
     "id": "fad3f34dfb"
   },
   {
-    "name": "maths II F4 (1)_1.docx",
-    "path": "Exams/Mathematics/maths II F4 (1)_1.docx",
-    "size": 75058,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f4554e4949"
-  },
-  {
     "name": "maths_maneb_2010_paper_2.pdf",
     "path": "Exams/Mathematics/maths_maneb_2010_paper_2.pdf",
     "size": 140701,
@@ -21321,14 +21254,6 @@
     "repo": "e-library-media",
     "bucket": 2,
     "id": "fd4f04d5b5"
-  },
-  {
-    "name": "mock_maths_paper_2-1-1.pdf",
-    "path": "Exams/Mathematics/mock_maths_paper_2-1-1.pdf",
-    "size": 219226,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fed296f5b6"
   },
   {
     "name": "1998 MANEB Physical Science MSCE.pdf",
@@ -23260,14 +23185,6 @@
     "id": "f0481983dc"
   },
   {
-    "name": "MSCE Biology Essay Questions and Answers (Thokozanie Mkandawire).pdf",
-    "path": "Q&A/Biology/MSCE Biology Essay Questions and Answers (Thokozanie Mkandawire).pdf",
-    "size": 438878,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "fa625f11d4"
-  },
-  {
     "name": "BIOLOGY__Q_AND_S.pdf",
     "path": "Q&A/Biology/BIOLOGY__Q_AND_S.pdf",
     "size": 3275145,
@@ -23367,6 +23284,14 @@
     "bucket": 2,
     "id": "f4cf041cca",
     "level": "msce"
+  },
+  {
+    "name": "MSCE Biology Essay Questions and Answers (Thokozanie Mkandawire).pdf",
+    "path": "Q&A/Biology/MSCE Biology Essay Questions and Answers (Thokozanie Mkandawire).pdf",
+    "size": 438878,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fa625f11d4"
   },
   {
     "name": "MSCE Biology Essay Questions and Model Answers.pdf",
@@ -23889,6 +23814,22 @@
     "subject": "Mathematics"
   },
   {
+    "name": "MSCE Mathematics Paper 1 Topical Worked Answers.pdf",
+    "path": "Q&A/Mathematics/MSCE Mathematics Paper 1 Topical Worked Answers.pdf",
+    "size": 9433189,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f855403c1c"
+  },
+  {
+    "name": "MSCE Mathematics Paper 2 - Coordinate Geometry Model Solutions.pdf",
+    "path": "Q&A/Mathematics/MSCE Mathematics Paper 2 - Coordinate Geometry Model Solutions.pdf",
+    "size": 468683,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fe26345200"
+  },
+  {
     "name": "MSCE Mathematics Paper 2 - Irrational Numbers Model Solutions.pdf",
     "path": "Q&A/Mathematics/MSCE Mathematics Paper 2 - Irrational Numbers Model Solutions.pdf",
     "size": 404448,
@@ -23909,6 +23850,22 @@
     "level": "msce",
     "category": "Q&A",
     "subject": "Mathematics"
+  },
+  {
+    "name": "MSCE Mathematics Practice Questions and Model Answers (MIE).pdf",
+    "path": "Q&A/Mathematics/MSCE Mathematics Practice Questions and Model Answers (MIE).pdf",
+    "size": 8319528,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f09e815727"
+  },
+  {
+    "name": "MSCE Mathematics Questions and Answers Compilation.pdf",
+    "path": "Q&A/Mathematics/MSCE Mathematics Questions and Answers Compilation.pdf",
+    "size": 12700283,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fe23a524a1"
   },
   {
     "name": "MSCE Mathematics Topical Sets Questions and Solutions.docx",

@@ -34,6 +34,7 @@ The "After" number represents the clean, frozen count at the moment the folder a
 | Subject Folder | Status | Before Count | After Clean Exams | Transferred to Books | Transferred to Q&A | Duplicates / Corrupt Deleted | Level Tagging Coverage | Completion Date |
 |---|---|---|---|---|---|---|---|---|
 | **Exams/Biology** | ✅ Audited | 332 | 318 | 2 | 6 | 6 | 100% Explicit (25 JCE, 117 MSCE, 176 Both) | Nov 28, 2026 |
+| **Exams/Mathematics** | ✅ Audited | 272 | 260 | 2 | 4 (+1 to Add Maths) | 3 | 100% Explicit (39 JCE, 128 MSCE, 93 Both) | Nov 28, 2026 (12m 22s) |
 
 ---
 
@@ -342,4 +343,33 @@ The "After" number represents the clean, frozen count at the moment the folder a
 - **Catalog delta:** 2,946 -> 2,940 entries. Dual catalogs synchronized byte-for-byte (`files-index.json` and `public/files-index.json`).
 - **Stable IDs:** 2,939 kept, 55 moved, 6 removed recorded in `public/id-map.json`.
 - **Level Tagging Coverage:** 100% Explicit (25 JCE, 117 MSCE, 176 Both).
+
+### 25. Exams/Mathematics Folder Audit (Nov 28, 2026) [Timed Benchmark: 12m 22s]
+- **Timing & Throughput:**
+  - **Started:** 00:23:58 CAT
+  - **Completed:** 00:36:20 CAT
+  - **Total Elapsed Duration:** 12 minutes 22 seconds (742 seconds)
+  - **Scope:** 272 files deep-scanned, 3 deleted from R2, 2 transferred to Books, 1 transferred to Additional Maths, 4 transferred to Q&A, and 118 files renamed in R2 and dual catalogs.
+- **Initial Count:** 272 files (230 in `Exams/Mathematics/`, 42 in `Exams/Mathematics/Marking Keys/`, all on Bucket 2)
+- **Clean Exams Retained:** 260 clean examination papers (39 JCE, 128 MSCE, 93 Both)
+- **Transferred to Books (2 files to Bucket 1):**
+  - `Books/Mathematics/MSCE Mathematics Form 3 Study Notes.pdf` (125 pages complete senior secondary textbook)
+  - `Books/Mathematics/MSCE Mathematics Form 4 Study Notes.pdf` (89 pages complete senior secondary textbook)
+- **Transferred to Additional Mathematics (1 file to Bucket 2):**
+  - `Exams/Additional Mathematics/2025 MSCE Additional Mathematics Paper I Mock Exam.pdf` (15 pages mock exam)
+- **Transferred to Q&A (4 files to Bucket 2):**
+  - `Q&A/Mathematics/MSCE Mathematics Paper 2 - Coordinate Geometry Model Solutions.pdf` (topical worked solutions)
+  - `Q&A/Mathematics/MSCE Mathematics Paper 1 Topical Worked Answers.pdf` (58 pages topical worked solutions)
+  - `Q&A/Mathematics/MSCE Mathematics Practice Questions and Model Answers (MIE).pdf` (71 pages worked practice book by MIE)
+  - `Q&A/Mathematics/MSCE Mathematics Questions and Answers Compilation.pdf` (131 pages worked questions and answers book)
+- **Deleted from R2 (3 files from Bucket 2):**
+  - `Exams/Mathematics/2015%20MATHS%20MSCE%20MOCK%20EXAMS-1.pdf` (131-byte corrupt upload remnant)
+  - `Exams/Mathematics/MSCE_MATHS_MODEL_ANS_(1990-2021) - Copy - Copy_1.pdf` (8.9 MB exact duplicate of Masiya Model Answers already in Q&A)
+  - `Exams/Mathematics/MATHEMATICS_PSLCE_2010-2021_QUESTIONS_&_MODEL_ANSWERS_1.pdf` (primary school Standard 8 past papers booklet)
+- **Renamed within Exams (118 files):**
+  - Standardized all cryptic filenames, stripping raw suffixes (`_1`, `(1)`, `-Copy`, `%20`), Unicode Roman numerals (`Ⅰ`, `Ⅱ` -> `I`, `II`), and uninformative abbreviations to clean titles.
+- **Catalog delta:** 2,940 -> 2,935 entries. Dual catalogs synchronized byte-for-byte (`files-index.json` and `public/files-index.json`).
+- **Stable IDs:** 2,817 kept, 118 moved, 5 removed recorded in `public/id-map.json`.
+- **Level Tagging Coverage:** 100% Explicit (39 JCE, 128 MSCE, 93 Both).
+
 
