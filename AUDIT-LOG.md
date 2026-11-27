@@ -5,7 +5,7 @@ The "After" number represents the clean, frozen count at the moment the folder a
 
 ---
 
-## 📊 Subject Folder Audit Summary
+## 📊 Subject Folder Audit Summary (Books)
 
 | Subject Folder | Status | Before Count | After Clean Books | Transferred to Exams | Transferred to Q&A | Duplicates / Non-Curriculum Deleted | Level Tagging Coverage | Completion Date |
 |---|---|---|---|---|---|---|---|---|
@@ -26,6 +26,14 @@ The "After" number represents the clean, frozen count at the moment the folder a
 | **Books/Physical Science** | ✅ Audited | 1 | 1 | 0 | 0 | 0 | 100% Explicit | Nov 27, 2026 |
 | **Books/Physics** | ✅ Audited | 105 | 44 | 15 | 5 | 38 | 100% Explicit | Nov 27, 2026 |
 | **Books/Social Studies** | ✅ Audited | 8 | 7 | 1 | 0 | 0 | 100% Explicit | Nov 27, 2026 |
+
+---
+
+## 📝 Exams Folder Audit Summary
+
+| Subject Folder | Status | Before Count | After Clean Exams | Transferred to Books | Transferred to Q&A | Duplicates / Corrupt Deleted | Level Tagging Coverage | Completion Date |
+|---|---|---|---|---|---|---|---|---|
+| **Exams/Biology** | ✅ Audited | 332 | 318 | 2 | 6 | 6 | 100% Explicit (25 JCE, 117 MSCE, 176 Both) | Nov 28, 2026 |
 
 ---
 
@@ -306,3 +314,32 @@ The "After" number represents the clean, frozen count at the moment the folder a
   - **Locked files found:** 0
   - **Accessible:** 100% of all PDF resources in Wylibrary are completely open and readable.
 - **Safeguard Added:** Automated sub-20ms password detection integrated directly into `scripts/ingest.mjs` to block any future locked files at ingest time.
+
+### 24. Exams/Biology Folder Audit (Nov 28, 2026)
+- **Initial Count:** 332 files (281 in `Exams/Biology/`, 51 in `Exams/Biology/Marking Keys/`, all on Bucket 2)
+- **Clean Exams Retained:** 318 clean examination papers (25 JCE, 117 MSCE, 176 Both)
+- **Transferred to Books (2 files to Bucket 1):**
+  - `Books/Biology/MSCE Biology Form 3 Study Notes (Paul Nsona).pdf` (164 pages complete curriculum textbook)
+  - `Books/Biology/MSCE Biology Form 4 Study Notes (Paul Nsona).pdf` (102 pages complete curriculum textbook)
+- **Transferred to Q&A (6 files to Bucket 2):**
+  - `Q&A/Biology/MSCE Biology Topical Questions and Model Answers (Thokozanie Mkandawire).pdf` (183 pages comprehensive topical question bank)
+  - `Q&A/Biology/MSCE Biology Questions and Suggested Solutions (Team Legends).pdf` (66 pages worked solutions)
+  - `Q&A/Biology/MSCE Biology MANEB Past Essay Questions.pdf` (targeted essay questions)
+  - `Q&A/Biology/MSCE Biology Topical Questions - Genetics (Whosper).pdf` (10 pages genetics revision workbook)
+  - `Q&A/Biology/MSCE Biology Practical Questions and Answers 2025 (Sir Chidzara).pdf` (16 pages practical Q&A)
+  - `Q&A/Biology/MSCE Biology Past Papers Questions Analysis and Solutions (2003-2013).pdf` (169 pages past papers worked solutions)
+- **Deleted from R2 (6 files from Bucket 2):**
+  - `Exams/Biology/2020_BIOLOGY_PAPER_I-1.pdf` (0-byte corrupt upload remnant)
+  - `Exams/Biology/2024_Biology_P2_Maneb-1.pdf` (exact byte duplicate of `2024 MANEB Biology II.pdf`)
+  - `Exams/Biology/Bio MSCE paper MANNEB_1.zip` (raw zip archive containing non-biology setbooks and duplicates)
+  - `Exams/Biology/biology past p_1.zip` (50.3 MB raw zip drop of 60 individual files already in library, plus foreign Kenyan papers)
+  - `Exams/Biology/2024 MADISI CLUSTER BIO JCE MOCK_1.pdf` (duplicate 450KB copy of Madisi Cluster Mock)
+  - `Exams/Biology/2022 JCE BIO MANEB_1.pdf` (duplicate 4.0MB scan of 2022 MANEB JCE Biology)
+- **Renamed within Exams (46 files):**
+  - Standardized all cryptic filenames, stripping raw suffixes (`_1`, `(1)`, `-Copy`), Unicode Roman numerals (`Ⅰ`, `Ⅱ` -> `I`, `II`), and uninformative abbreviations to clean titles.
+- **Q&A Normalization (1 file):**
+  - Renamed `Q&A/Biology/BIOLOGY_ESSAY_QUESTIONS_AND_ANSWERS(1)-1-1-2-2-1.pdf` -> `Q&A/Biology/MSCE Biology Essay Questions and Answers (Thokozanie Mkandawire).pdf`
+- **Catalog delta:** 2,946 -> 2,940 entries. Dual catalogs synchronized byte-for-byte (`files-index.json` and `public/files-index.json`).
+- **Stable IDs:** 2,939 kept, 55 moved, 6 removed recorded in `public/id-map.json`.
+- **Level Tagging Coverage:** 100% Explicit (25 JCE, 117 MSCE, 176 Both).
+
