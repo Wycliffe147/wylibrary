@@ -143,9 +143,9 @@ Object.entries(byFolder)
     .sort((a, b) => b[1].total - a[1].total)
     .slice(0, 10)
     .forEach(([fld, stats]) => {
-        const classified = stats.jce + stats.msce;
+        const classified = stats.jce + stats.msce + stats.both;
         const pct = Math.round((classified / stats.total) * 100);
-        console.log(`   ${fld.padEnd(28)} | Total: ${String(stats.total).padStart(3)} | JCE: ${String(stats.jce).padStart(3)} | MSCE: ${String(stats.msce).padStart(3)} | Classified: ${String(pct).padStart(3)}%`);
+        console.log(`   ${fld.padEnd(28)} | Total: ${String(stats.total).padStart(3)} | JCE: ${String(stats.jce).padStart(3)} | MSCE: ${String(stats.msce).padStart(3)} | Both: ${String(stats.both).padStart(3)} | Classified: ${String(pct).padStart(3)}%`);
     });
 
 console.log('\n────────────────────────────────────────────────────────');

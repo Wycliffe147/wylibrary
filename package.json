@@ -13,7 +13,8 @@
     "vercel-build": "echo 'Using committed files-index.json'",
     "analytics": "uv run --with google-analytics-data scripts/analytics-report.py",
     "analytics:live": "uv run --with google-analytics-data scripts/analytics-report.py --realtime",
-    "start": "node scripts/start-server.js"
+    "start": "node scripts/start-server.js",
+    "ingest": "node scripts/ingest.mjs"
   },
   "keywords": [],
   "author": "Wycliffe Mwanganda",
