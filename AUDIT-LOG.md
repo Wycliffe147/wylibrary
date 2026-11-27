@@ -269,3 +269,11 @@ The "After" number represents the clean, frozen count at the moment the folder a
     - `Exams/Chemistry/All MSCE Chemistry Past Papers Compilation.pdf` (141 pages)
     - `Exams/French/MSCE French Papers I, II and III Past Papers Combined.pdf` (117 pages)
 - **Library Catalog Total:** 2,948 entries reconciled with stable IDs
+
+### 20. Ingestion of Business Studies Form 3 Notes and Mathematics Topical Model Answers (Nov 27, 2026)
+- **New Additions Breakdown (2 files):**
+  - **Books (1 file to Bucket 1):**
+    - `Books/Business Studies/Business Studies Notes - Form 3 (2020).pdf` (44 pages, Level: msce)
+  - **Q&A (1 file to Bucket 2):**
+    - `Q&A/Mathematics/MSCE Mathematics Model Answers by Topic (Masiya and Malunga, 2nd Edition).pdf` (278 pages, topical worked solutions by Masiya Books)
+- **Library Catalog Total:** 2,950 entries reconciled with stable IDs
