@@ -24,7 +24,7 @@ The "After" number represents the clean, frozen count at the moment the folder a
 | **Books/Life Skills** | ✅ Audited | 4 | 2 | 2 | 0 | 0 | 100% Explicit | Nov 26, 2026 |
 | **Books/Mathematics** | ✅ Audited | 115 | 37 | 28 | 21 | 26 | 100% Explicit | Nov 27, 2026 |
 | **Books/Physical Science** | ✅ Audited | 1 | 1 | 0 | 0 | 0 | 100% Explicit | Nov 27, 2026 |
-| **Books/Physics** | ⬜ Queued | 90 | *Pending* | - | - | - | - | - |
+| **Books/Physics** | ✅ Audited | 105 | 44 | 15 | 5 | 38 | 100% Explicit | Nov 27, 2026 |
 | **Books/Social Studies** | ✅ Audited | 8 | 7 | 1 | 0 | 0 | 100% Explicit | Nov 27, 2026 |
 
 ---
@@ -172,3 +172,45 @@ The "After" number represents the clean, frozen count at the moment the folder a
 - **Transferred to Syllabuses:** 0
 - **Deleted from R2:** 0
 - **Level Tagging Coverage:** 100% Explicit (2 JCE, 5 MSCE)
+
+### 17. Books/Physics
+- **Initial Count:** 105 catalog files + 1 ghost key (MS Office temp file `~$20 physics 1 large print.docx`) = 106 total R2 objects audited
+- **Clean Books Retained:** 44 physics textbooks, revision notes, and study guides with 100% explicit level tagging
+  - **JCE (Form 1-2) books (17):** Excel and Succeed Physics Students Book 1, Excel and Succeed Physics Students Book 1 (Compact), Excel and Succeed Physics Students Book 2, Jhango Physics Students Book 1, Jhango Physics Students Book 2, JC Physics Study Notes - Form 2 (Junior Certificate), Physics Notes - Form 1, Physics Notes - Form 1 (Basic), Physics Notes - Form 2, Physics Study Notes - Form 1 (Core Curriculum), Physics Study Notes - Form 1 (Katsala, Syllabus Based), Physics Study Notes - Form 1 (Lisausyo), Physics Study Notes - Form 2 (Junior Certificate), Physics Study Notes - Form 2 (Lisausyo), Physics Study Notes - Form 2 (Temwanani Mweso, MZUNI), Physics Students Book 2 (Strides), Physics Study Notes - Forms 1 and 2 (Junior Level Core Elements)
+  - **MSCE (Form 3-4) books (26):** Arise with Physics Students Book 4, Daud Adam Physical Science Password Forms 3 and 4 (x2 copies), Excel and Succeed Physics Students Book 3, Excel and Succeed Physics Students Book 4, Excel and Succeed Physics Students Book 4 (Condensed), Jhango Physical Science Students Book, Jhango Physics Students Book 3, Jhango Physics Students Book 4, Physics Blend - MSCE Candidate Companion (Fr. Benedict Zele), Physics Made Simple - Book 4 (Rashid Mabuka), Physics Notes - Form 3, Physics Notes - Form 3 Pamphlet (New Syllabus), Physics Notes - Form 4, Physics Notes - Form 4 (The Physics Master, New Hope Publications), Physics Notes - Form 4 (Thin Lenses and Optics), Physics Notes - Form 4 (Waves and Electronics), Physics Notes - Form 4 Topic 12 Nuclear Physics, Physics Notes - Nuclear Physics (Chimtawira), Physics Notes - Electricity and Electromagnetic Induction 2 (Electronics), Physics Pamphlet with Answers (Tupaseko, Musonda), Physics Short Notes - New Syllabus (All Forms), Physics Study Notes - Form 3 (L.M. Manda), Physics Study Notes - Form 3 (New Syllabus), Physics Teaching Notes - Form 4 (MSCE), Physics Theory Notes - Kugwetsa (Bonda Education Group), Target in Physics Students Book 3, Understanding MSCE Physics - Form 3 (Malango)
+  - **Both levels (1):** Physics Short Notes - New Syllabus (All Forms)
+- **Transferred to Exams:** 15 mock and past papers to `Exams/Physics/` on Bucket 2
+  - 2018 St George Academy MSCE Mock - Physics Paper II (Practical)
+  - 2019 Zomba Catholic MSCE Mock - Physics Paper II (Practical)
+  - 2019-2020 Rumphi Education Cluster End of Term 1 - Physics Paper I (Form 4)
+  - 2020 Northern Education Division MSCE Mock - Physics Paper I
+  - 2021 Loyola Jesuit JCE Mock - Physics
+  - 2021 Nkhamenya Cluster MSCE Mock - Physics Paper II (Practical)
+  - 2021 St Marys MSCE Mock - Physics Paper II (Practical)
+  - 2022 Mzuzu Diocese MSCE Mock - Physics Paper I
+  - 2022 Nkhoma Synod MSCE Mock - Physics Paper I
+  - 2022 Nkhoma Synod MSCE Mock - Physics Paper II (Practical)
+  - 2022 Northern Education Division MSCE Mock - Physics Paper I
+  - 2022 Northern Education Division MSCE Mock - Physics Paper II (Practical)
+  - 2022 St Godfrey MSCE End of Term 1 - Physics Paper I
+  - 2025 St Marys MSCE Post-Mock - Physics Paper I
+  - MANEB MSCE Sample Paper - Physics Paper II (Practical)
+- **Transferred to Q&A:** 5 topical question-and-answer sets to `Q&A/Physics/` on Bucket 2
+  - Physics Topical Questions - Electricity 1 (MSCE year-tagged 2003-2012)
+  - Physics Topical Questions - Magnetism and Electromagnetic Induction (MSCE year-tagged 2003-2012)
+  - Physics Topical Questions - Oscillations and Waves (MSCE year-tagged 2004-2012)
+  - Physics Topical Questions - Nuclear Physics (MSCE year-tagged 2003-2012)
+  - Physics Q and A - Kudinkula Mwapa Eazy MSCE (Musonda-style)
+- **Transferred to Syllabuses:** 3 official syllabus documents to `Books/Syllabuses/`
+  - Physics Syllabus - Forms 1-2 (Malawi MoEST, 2013)
+  - Physics Syllabus - Forms 3-4 (Malawi MoEST, 2013)
+  - Physics Syllabus - Forms 3-4 (Zimbabwe O-Level, 2015-2022) [foreign reference copy]
+- **Deleted from R2:** 38 files (duplicates, foreign curriculum, corrupt, non-student resources)
+  - Duplicates removed: 03_Magnetisism duplicate, 05_Oscillations duplicate, 06_Nuclear_Physics duplicate, 11-NUCLEAR_PHYSICS garbled copy, Exel_and_succeed_Form_2 pair, EXCELL_PHYSICS_BOOK_2/3/4 giant uncompressed copies, Excel_Physics_Book_3-1 (81MB), Excel_physics_book_3_powered_by_Benzo, Jhango Book 3 pair (keeping corrected edition), Jhango_physicsBK_4_complete Copy, PHYSICS_NOTES_PDF_sense (exact duplicate), _PHYSICS_BOOK_4 (smaller duplicate), _PHYSICS_book 2 Copy, Form_4_Physics_Excell_and_succerd Copy, PHySICS BOOK 1-1 (89MB empty OCR), Physics_Book_1_Excel_and_Succeed_1 (31MB duplicate), Physics_book_4_excel (66MB duplicate), Target_In Physics Book 3 (41MB duplicate), The_Physics_of_Waves (empty OCR)
+  - Foreign curriculum: Chimistry&physics (SA FHSST Grade 10), College Physics PDFDrive (university-level), 100_PHYSICS_QUESTIONS (Pakistani), IGCSE Physics (Edexcel UK), FORM 1 PHYSICS NOTES Copy (Kenyan/KASNEB), PHY 111 LUANAR (university-level), grem_physics_FOR_FORM_O (Form 0/primary)
+  - Non-student resources: 2022 PHY II CONFIDENTIAL INSTRUCTION, PHYSICS_CONFIDENTIAL_INSTRUCTION, PHYCS REPORT (MANEB chief examiner report), ROBERT_BLAKE_PHYSICS_CONFIDENTIAL_2021
+  - Corrupt/mislabelled: PHYSICS FORM 4 NOTES.docx (corrupt zip), physics_notes_F4 Copy (mislabelled - Chemistry content inside), 300_Physics_Formulas (foreign), EXCELL_PHYSICS_BOOK_4 (kept compressed version instead)
+  - Ghost key (not in catalog): ~$20 physics 1 large print.docx (MS Office temp/lock file)
+- **Level Tagging Coverage:** 100% Explicit (all 44 retained books have explicit `jce`, `msce`, or `both` level tags)
+- **Catalog delta:** 2973 -> 2935 entries (38 deleted from catalog)
+- **npm run ids:** 0 new IDs, 38 removed, 67 moved - clean

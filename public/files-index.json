@@ -7200,844 +7200,584 @@
     "subject": "Physical Science"
   },
   {
-    "name": "02_Electricity-1-1.pdf",
-    "path": "Books/Physics/02_Electricity-1-1 (1).pdf",
+    "name": "Physics Topical Questions - Electricity 1.pdf",
+    "path": "Q&A/Physics/Physics Topical Questions - Electricity 1.pdf",
     "size": 308022,
-    "repo": "e-library-media",
-    "bucket": 1,
+    "repo": "e-library-media-2",
+    "bucket": 2,
     "id": "fe0ef05c37"
   },
   {
-    "name": "03_Magnetisism_and_Electromagnetic_Induction_I(1).pdf",
-    "path": "Books/Physics/03_Magnetisism_and_Electromagnetic_Induction_I(1)_(1).pdf",
-    "size": 288463,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f4ceefb0a3"
-  },
-  {
-    "name": "03_Magnetisism_and_Electromagnetic_Induction_I-1.pdf",
-    "path": "Books/Physics/03_Magnetisism_and_Electromagnetic_Induction_I-1.pdf",
+    "name": "Physics Topical Questions - Magnetism and Electromagnetic Induction.pdf",
+    "path": "Q&A/Physics/Physics Topical Questions - Magnetism and Electromagnetic Induction.pdf",
     "size": 268749,
-    "repo": "e-library-media",
-    "bucket": 1,
+    "repo": "e-library-media-2",
+    "bucket": 2,
     "id": "fd75416d9a"
   },
   {
-    "name": "05_Oscillations_and_Waves.pdf",
-    "path": "Books/Physics/05_Oscillations_and_Waves.pdf",
+    "name": "Physics Topical Questions - Oscillations and Waves.pdf",
+    "path": "Q&A/Physics/Physics Topical Questions - Oscillations and Waves.pdf",
     "size": 321147,
-    "repo": "e-library-media",
-    "bucket": 1,
+    "repo": "e-library-media-2",
+    "bucket": 2,
     "id": "ff13fb3364"
   },
   {
-    "name": "05_Oscillations_and_Waves.pdf",
-    "path": "Books/Physics/05_Oscillations_and_Waves_(1).pdf",
-    "size": 321269,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fc04bd977c"
-  },
-  {
-    "name": "06_Nuclear_Physics.pdf",
-    "path": "Books/Physics/06_Nuclear_Physics (1).pdf",
+    "name": "Physics Topical Questions - Nuclear Physics.pdf",
+    "path": "Q&A/Physics/Physics Topical Questions - Nuclear Physics.pdf",
     "size": 424043,
-    "repo": "e-library-media",
-    "bucket": 1,
+    "repo": "e-library-media-2",
+    "bucket": 2,
     "id": "f048362e19"
   },
   {
-    "name": "06_Nuclear_Physics-1-1.pdf",
-    "path": "Books/Physics/06_Nuclear_Physics-1-1.pdf",
-    "size": 422240,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f9011bace6"
-  },
-  {
-    "name": "09.ELECTRICITY__2_REVISED_-_Copy.pdf",
-    "path": "Books/Physics/09.ELECTRICITY__2_REVISED_-_Copy.pdf",
+    "name": "Physics Notes - Electricity and Electromagnetic Induction 2 (Electronics).pdf",
+    "path": "Books/Physics/Physics Notes - Electricity and Electromagnetic Induction 2 (Electronics).pdf",
     "size": 330678,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fd2ea86949"
+    "id": "fd2ea86949",
+    "level": "msce"
   },
   {
-    "name": "100_PHYSICS_QUESTIONS-1-1-1.pdf",
-    "path": "Books/Physics/100_PHYSICS_QUESTIONS-1-1-1.pdf",
-    "size": 108876,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f1150f6bfc"
-  },
-  {
-    "name": "11-NUCLEAR_PHYSICS(1)-1.pdf",
-    "path": "Books/Physics/11-NUCLEAR_PHYSICS(1)-1.pdf",
-    "size": 965959,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f6f73b9555"
-  },
-  {
-    "name": "11-NUCLEAR_PHYSICS.pdf",
-    "path": "Books/Physics/11-NUCLEAR_PHYSICS.pdf",
+    "name": "Physics Notes - Nuclear Physics (Chimtawira).pdf",
+    "path": "Books/Physics/Physics Notes - Nuclear Physics (Chimtawira).pdf",
     "size": 718737,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f081a70478"
+    "id": "f081a70478",
+    "level": "msce"
   },
   {
-    "name": "2018-_phyzo_practical-1.pdf",
-    "path": "Books/Physics/2018-_phyzo_practical-1.pdf",
+    "name": "2018 St George Academy MSCE Mock - Physics Paper II (Practical).pdf",
+    "path": "Exams/Physics/2018 St George Academy MSCE Mock - Physics Paper II (Practical).pdf",
     "size": 54472,
-    "repo": "e-library-media",
-    "bucket": 1,
+    "repo": "e-library-media-2",
+    "bucket": 2,
     "id": "f1e0293e39"
   },
   {
-    "name": "2019_PHYSICS-1.pdf",
-    "path": "Books/Physics/2019_PHYSICS-1.pdf",
+    "name": "2019 Zomba Catholic MSCE Mock - Physics Paper II (Practical).pdf",
+    "path": "Exams/Physics/2019 Zomba Catholic MSCE Mock - Physics Paper II (Practical).pdf",
     "size": 639188,
-    "repo": "e-library-media",
-    "bucket": 1,
+    "repo": "e-library-media-2",
+    "bucket": 2,
     "id": "f424aceac6"
   },
   {
-    "name": "2020 physics 1 large print.docx",
-    "path": "Books/Physics/2020 physics 1 large print.docx",
+    "name": "2020 Northern Education Division MSCE Mock - Physics Paper I.docx",
+    "path": "Exams/Physics/2020 Northern Education Division MSCE Mock - Physics Paper I.docx",
     "size": 467930,
-    "repo": "e-library-media",
-    "bucket": 1,
+    "repo": "e-library-media-2",
+    "bucket": 2,
     "id": "f6abdeea0a"
   },
   {
-    "name": "2021 JCE Physics Loyola.pdf",
-    "path": "Books/Physics/2021 JCE Physics Loyola.pdf",
+    "name": "2021 Loyola Jesuit JCE Mock - Physics.pdf",
+    "path": "Exams/Physics/2021 Loyola Jesuit JCE Mock - Physics.pdf",
     "size": 1223908,
-    "repo": "e-library-media",
-    "bucket": 1,
+    "repo": "e-library-media-2",
+    "bucket": 2,
     "id": "f1c2666052"
   },
   {
-    "name": "2021 MSCE Nkhamenya cluster 2021 phy 2.docx",
-    "path": "Books/Physics/2021 MSCE  Nkhamenya cluster 2021 phy 2.docx",
+    "name": "2021 Nkhamenya Cluster MSCE Mock - Physics Paper II (Practical).docx",
+    "path": "Exams/Physics/2021 Nkhamenya Cluster MSCE Mock - Physics Paper II (Practical).docx",
     "size": 1557137,
-    "repo": "e-library-media",
-    "bucket": 1,
+    "repo": "e-library-media-2",
+    "bucket": 2,
     "id": "f470de0d7b"
   },
   {
-    "name": "2022 MSCE PHY I.docx",
-    "path": "Books/Physics/2022 MSCE PHY I.docx",
+    "name": "2022 Northern Education Division MSCE Mock - Physics Paper I.docx",
+    "path": "Exams/Physics/2022 Northern Education Division MSCE Mock - Physics Paper I.docx",
     "size": 492331,
-    "repo": "e-library-media",
-    "bucket": 1,
+    "repo": "e-library-media-2",
+    "bucket": 2,
     "id": "f510f52c40"
   },
   {
-    "name": "2022 MSCE PHY II.docx",
-    "path": "Books/Physics/2022 MSCE PHY II.docx",
+    "name": "2022 Northern Education Division MSCE Mock - Physics Paper II (Practical).docx",
+    "path": "Exams/Physics/2022 Northern Education Division MSCE Mock - Physics Paper II (Practical).docx",
     "size": 566660,
-    "repo": "e-library-media",
-    "bucket": 1,
+    "repo": "e-library-media-2",
+    "bucket": 2,
     "id": "f91ae99f82"
   },
   {
-    "name": "2022 MZUZU DIOCESE PHYSICS 1.pdf",
-    "path": "Books/Physics/2022 MZUZU DIOCESE PHYSICS 1.pdf",
+    "name": "2022 Mzuzu Diocese MSCE Mock - Physics Paper I.pdf",
+    "path": "Exams/Physics/2022 Mzuzu Diocese MSCE Mock - Physics Paper I.pdf",
     "size": 487330,
-    "repo": "e-library-media",
-    "bucket": 1,
+    "repo": "e-library-media-2",
+    "bucket": 2,
     "id": "fa43ad9b69"
   },
   {
-    "name": "2022 PHY II CONFIDENTIAL INSTRUCTION.docx",
-    "path": "Books/Physics/2022 PHY II CONFIDENTIAL INSTRUCTION.docx",
-    "size": 16970,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f1897b35ae"
-  },
-  {
-    "name": "2022_NKHOMA_SYNOD_MSCE_PHYSICS_ONE.pdf",
-    "path": "Books/Physics/2022_NKHOMA_SYNOD_MSCE_PHYSICS_ONE.pdf",
+    "name": "2022 Nkhoma Synod MSCE Mock - Physics Paper I.pdf",
+    "path": "Exams/Physics/2022 Nkhoma Synod MSCE Mock - Physics Paper I.pdf",
     "size": 506842,
-    "repo": "e-library-media",
-    "bucket": 1,
+    "repo": "e-library-media-2",
+    "bucket": 2,
     "id": "f2fd94f954"
   },
   {
-    "name": "2022_NKHOMA_SYNOD_PHYSICS_II.pdf",
-    "path": "Books/Physics/2022_NKHOMA_SYNOD_PHYSICS_II.pdf",
+    "name": "2022 Nkhoma Synod MSCE Mock - Physics Paper II (Practical).pdf",
+    "path": "Exams/Physics/2022 Nkhoma Synod MSCE Mock - Physics Paper II (Practical).pdf",
     "size": 610249,
-    "repo": "e-library-media",
-    "bucket": 1,
+    "repo": "e-library-media-2",
+    "bucket": 2,
     "id": "f16ea12641"
   },
   {
-    "name": "2022_Physics_I.pdf",
-    "path": "Books/Physics/2022_Physics_I.pdf",
+    "name": "2022 St Godfrey MSCE End of Term 1 - Physics Paper I.pdf",
+    "path": "Exams/Physics/2022 St Godfrey MSCE End of Term 1 - Physics Paper I.pdf",
     "size": 483250,
-    "repo": "e-library-media",
-    "bucket": 1,
+    "repo": "e-library-media-2",
+    "bucket": 2,
     "id": "f73cb86253"
   },
   {
-    "name": "300_Physics_Formulas.pdf",
-    "path": "Books/Physics/300_Physics_Formulas.pdf",
-    "size": 1352645,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fc34916e90"
-  },
-  {
-    "name": "Arise_with_Physics_SB_4.pdf",
-    "path": "Books/Physics/Arise_with_Physics_SB_4_.pdf",
+    "name": "Arise with Physics Students Book 4.pdf",
+    "path": "Books/Physics/Arise with Physics Students Book 4.pdf",
     "size": 15547898,
     "repo": "e-library-media-4",
     "bucket": 1,
-    "id": "fdb8fe7299"
+    "id": "fdb8fe7299",
+    "level": "msce"
   },
   {
-    "name": "Chimistry&physics.pdf",
-    "path": "Books/Physics/Chimistry&physics (1).pdf",
-    "size": 2556975,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "ff277d3f0e"
-  },
-  {
-    "name": "College Physics ( PDFDrive ).pdf",
-    "path": "Books/Physics/College Physics ( PDFDrive ).pdf",
-    "size": 47703854,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fab398fd21"
-  },
-  {
-    "name": "DAUD ADAM - PHYSICS_BOOK_3__4pdf.pdf",
-    "path": "Books/Physics/DAUD ADAM - PHYSICS_BOOK_3__4pdf.pdf",
+    "name": "Physical Science Password - Forms 3 and 4 (Daud Adam).pdf",
+    "path": "Books/Physics/Physical Science Password - Forms 3 and 4 (Daud Adam).pdf",
     "size": 3112353,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f3df3c70ad"
+    "id": "f3df3c70ad",
+    "level": "msce"
   },
   {
-    "name": "EXCELL_PHYSICS_BOOK_2.pdf",
-    "path": "Books/Physics/EXCELL_PHYSICS_BOOK_2.pdf",
-    "size": 131846579,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fefdd49f9d"
-  },
-  {
-    "name": "EXCELL_PHYSICS_BOOK_3.pdf",
-    "path": "Books/Physics/EXCELL_PHYSICS_BOOK_3.pdf",
-    "size": 284630603,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fb20c465a7"
-  },
-  {
-    "name": "EXCELL_PHYSICS_BOOK_4.pdf",
-    "path": "Books/Physics/EXCELL_PHYSICS_BOOK_4.pdf",
-    "size": 70721359,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fb38a21196"
-  },
-  {
-    "name": "EXCELL_PHYSICS_BOOK_4_Compressed-1.pdf",
-    "path": "Books/Physics/EXCELL_PHYSICS_BOOK_4_Compressed-1.pdf",
+    "name": "Excel and Succeed Physics Students Book 4.pdf",
+    "path": "Books/Physics/Excel and Succeed Physics Students Book 4.pdf",
     "size": 70718603,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f637095fe7"
+    "id": "f637095fe7",
+    "level": "msce"
   },
   {
-    "name": "Excel and succeed physics form 1_1.pdf",
-    "path": "Books/Physics/Excel and succeed physics form 1_1.pdf",
+    "name": "Excel and Succeed Physics Students Book 1.pdf",
+    "path": "Books/Physics/Excel and Succeed Physics Students Book 1.pdf",
     "size": 3900390,
     "repo": "e-library-media-5",
     "bucket": 1,
-    "id": "f3b66b48bf"
+    "id": "f3b66b48bf",
+    "level": "jce"
   },
   {
-    "name": "Excel_Physics_Book_3-1.pdf",
-    "path": "Books/Physics/Excel_Physics_Book_3-1.pdf",
-    "size": 81747161,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f14eaaecce"
-  },
-  {
-    "name": "Excel_physics_2.pdf",
-    "path": "Books/Physics/Excel_physics_2.pdf",
+    "name": "Excel and Succeed Physics Students Book 2.pdf",
+    "path": "Books/Physics/Excel and Succeed Physics Students Book 2.pdf",
     "size": 2776512,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f8935d8f7b"
+    "id": "f8935d8f7b",
+    "level": "jce"
   },
   {
-    "name": "Excel_physics_book_3_1.pdf",
-    "path": "Books/Physics/Excel_physics_book_3_1.pdf",
+    "name": "Excel and Succeed Physics Students Book 3.pdf",
+    "path": "Books/Physics/Excel and Succeed Physics Students Book 3.pdf",
     "size": 40952771,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f3fb167d01"
+    "id": "f3fb167d01",
+    "level": "msce"
   },
   {
-    "name": "Excel_physics_book_3_powered_by_Benzo_101952.pdf",
-    "path": "Books/Physics/Excel_physics_book_3_powered_by_Benzo_101952.pdf",
-    "size": 52124830,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fc8131075a"
-  },
-  {
-    "name": "Exel_and_succeed_Form_2_physics-1.pdf",
-    "path": "Books/Physics/Exel_and_succeed_Form_2_physics-1.pdf",
-    "size": 2814579,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f98d8dfe1b"
-  },
-  {
-    "name": "Exel_and_succeed_Form_2_physics.pdf",
-    "path": "Books/Physics/Exel_and_succeed_Form_2_physics.pdf",
-    "size": 2784023,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fff987864c"
-  },
-  {
-    "name": "FORM 1 PHYSICS NOTES.pdf",
-    "path": "Books/Physics/FORM 1 PHYSICS NOTES(1) - Copy.pdf",
-    "size": 2724101,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f37bc95da6"
-  },
-  {
-    "name": "FORM 1 PHYSICS.pdf",
-    "path": "Books/Physics/FORM 1 PHYSICS.pdf",
+    "name": "Physics Study Notes - Form 1 (Lisausyo).pdf",
+    "path": "Books/Physics/Physics Study Notes - Form 1 (Lisausyo).pdf",
     "size": 1237871,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fa20210e11"
+    "id": "fa20210e11",
+    "level": "jce"
   },
   {
-    "name": "FORM 2 PHYSICS@TEMWA2019PRODUCTION.pdf",
-    "path": "Books/Physics/FORM 2 PHYSICS@TEMWA2019PRODUCTION.pdf",
+    "name": "Physics Study Notes - Form 2 (Temwanani Mweso, MZUNI).pdf",
+    "path": "Books/Physics/Physics Study Notes - Form 2 (Temwanani Mweso, MZUNI).pdf",
     "size": 1585109,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f2de5baf3e"
+    "id": "f2de5baf3e",
+    "level": "jce"
   },
   {
-    "name": "FORM_2_PHYSICS-1.pdf",
-    "path": "Books/Physics/FORM_2_PHYSICS-1 (2).pdf",
+    "name": "Physics Study Notes - Form 2 (Lisausyo).pdf",
+    "path": "Books/Physics/Physics Study Notes - Form 2 (Lisausyo).pdf",
     "size": 2106027,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fcef5cb543"
+    "id": "fcef5cb543",
+    "level": "jce"
   },
   {
-    "name": "FORM_3_PHYSICS__L_M__MANDA_1.pdf",
-    "path": "Books/Physics/FORM_3_PHYSICS__L_M__MANDA_1.pdf",
+    "name": "Physics Study Notes - Form 3 (L.M. Manda).pdf",
+    "path": "Books/Physics/Physics Study Notes - Form 3 (L.M. Manda).pdf",
     "size": 6121511,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f66c0ae013"
+    "id": "f66c0ae013",
+    "level": "msce"
   },
   {
-    "name": "FORM_4_PHYSICS_TOPIC_12._NUCLEAR_PHYSICS.pdf",
-    "path": "Books/Physics/FORM_4_PHYSICS_TOPIC_12._NUCLEAR_PHYSICS.pdf",
+    "name": "Physics Notes - Form 4 Topic 12 Nuclear Physics.pdf",
+    "path": "Books/Physics/Physics Notes - Form 4 Topic 12 Nuclear Physics.pdf",
     "size": 1477769,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f42c30099c"
+    "id": "f42c30099c",
+    "level": "msce"
   },
   {
-    "name": "Final-Physics-Forms-3-and-4-min-1_-_Copy.pdf",
-    "path": "Books/Physics/Final-Physics-Forms-3-and-4-min-1_-_Copy.pdf",
+    "name": "Physics Syllabus - Forms 3-4 (Zimbabwe O-Level, 2015-2022).pdf",
+    "path": "Books/Syllabuses/Physics Syllabus - Forms 3-4 (Zimbabwe O-Level, 2015-2022).pdf",
     "size": 405330,
     "repo": "e-library-media",
     "bucket": 1,
     "id": "fcb34f5f60"
   },
   {
-    "name": "Form 4 physics sc.pdf",
-    "path": "Books/Physics/Form 4 physics sc.pdf",
+    "name": "Physics Teaching Notes - Form 4 (MSCE).pdf",
+    "path": "Books/Physics/Physics Teaching Notes - Form 4 (MSCE).pdf",
     "size": 2123312,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f6f1e93789"
+    "id": "f6f1e93789",
+    "level": "msce"
   },
   {
-    "name": "Form_2_physics_notes (1) (1)_1.pdf",
-    "path": "Books/Physics/Form_2_physics_notes (1) (1)_1.pdf",
+    "name": "Physics Study Notes - Forms 1 and 2 (Junior Level Core Elements).pdf",
+    "path": "Books/Physics/Physics Study Notes - Forms 1 and 2 (Junior Level Core Elements).pdf",
     "size": 1622202,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "feb27bb94b"
+    "id": "feb27bb94b",
+    "level": "jce"
   },
   {
-    "name": "Form_4_Physics_Excell_and_succerd.pdf",
-    "path": "Books/Physics/Form_4_Physics_Excell_and_succerd - Copy.pdf",
-    "size": 10039781,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f9116a1e73"
-  },
-  {
-    "name": "Form_4_Physics_NOTES.pdf",
-    "path": "Books/Physics/Form_4_Physics_NOTES.pdf",
+    "name": "Physics Notes - Form 4 (The Physics Master, New Hope Publications).pdf",
+    "path": "Books/Physics/Physics Notes - Form 4 (The Physics Master, New Hope Publications).pdf",
     "size": 9683794,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f2c31cdb67"
+    "id": "f2c31cdb67",
+    "level": "msce"
   },
   {
-    "name": "IGCSE Physics (4PH0) Issue 3.pdf",
-    "path": "Books/Physics/IGCSE Physics (4PH0) Issue 3 (1).pdf",
-    "size": 758906,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f9eae2a332"
-  },
-  {
-    "name": "JC PHYSICS FORM 2_1.pdf",
-    "path": "Books/Physics/JC PHYSICS FORM 2_1.pdf",
+    "name": "Physics Study Notes - Form 2 (Junior Certificate).pdf",
+    "path": "Books/Physics/Physics Study Notes - Form 2 (Junior Certificate).pdf",
     "size": 1751033,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "ff62257bfe"
+    "id": "ff62257bfe",
+    "level": "jce"
   },
   {
-    "name": "Jhango f2 Physics_1.pdf",
-    "path": "Books/Physics/Jhango f2 Physics_1.pdf",
+    "name": "Jhango Physics Students Book 2.pdf",
+    "path": "Books/Physics/Jhango Physics Students Book 2.pdf",
     "size": 35578371,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f7295fe863"
+    "id": "f7295fe863",
+    "level": "jce"
   },
   {
-    "name": "Jhango physics_book_1_1.pdf",
-    "path": "Books/Physics/Jhango physics_book_1_1.pdf",
+    "name": "Jhango Physics Students Book 1.pdf",
+    "path": "Books/Physics/Jhango Physics Students Book 1.pdf",
     "size": 28112082,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f2f702438a"
+    "id": "f2f702438a",
+    "level": "jce"
   },
   {
-    "name": "Jhango_Physics_Book_3.pdf",
-    "path": "Books/Physics/Jhango_Physics_Book_3.pdf",
-    "size": 5735285,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f59d74a703"
-  },
-  {
-    "name": "Jhango_Physics_Book_4-1_1.pdf",
-    "path": "Books/Physics/Jhango_Physics_Book_4-1_1.pdf",
+    "name": "Jhango Physics Students Book 4.pdf",
+    "path": "Books/Physics/Jhango Physics Students Book 4.pdf",
     "size": 4708835,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f1da1b6094"
+    "id": "f1da1b6094",
+    "level": "msce"
   },
   {
-    "name": "Jhango_Physics_book3_1.pdf",
-    "path": "Books/Physics/Jhango_Physics_book3_1.pdf",
-    "size": 5730263,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f84aa0ac2f"
-  },
-  {
-    "name": "Jhango_Physics_book3_corrected.pdf",
-    "path": "Books/Physics/Jhango_Physics_book3_corrected.pdf",
+    "name": "Jhango Physics Students Book 3.pdf",
+    "path": "Books/Physics/Jhango Physics Students Book 3.pdf",
     "size": 5738503,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f5020b4075"
+    "id": "f5020b4075",
+    "level": "msce"
   },
   {
-    "name": "Jhango_Physics_book3_corrected_-_Copy-1-1(0)_1.pdf",
-    "path": "Books/Physics/Jhango_Physics_book3_corrected_-_Copy-1-1(0)_1.pdf",
-    "size": 5732310,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f30227c38d"
-  },
-  {
-    "name": "Jhango_physical_science.pdf",
-    "path": "Books/Physics/Jhango_physical_science.pdf",
+    "name": "Jhango Physical Science Students Book.pdf",
+    "path": "Books/Physics/Jhango Physical Science Students Book.pdf",
     "size": 2147580,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f79c8a547a"
+    "id": "f79c8a547a",
+    "level": "msce"
   },
   {
-    "name": "Jhango_physicsBK_4_complete_-_Copy-1.pdf",
-    "path": "Books/Physics/Jhango_physicsBK_4_complete_-_Copy-1.pdf",
-    "size": 4438202,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f05177f5a5"
-  },
-  {
-    "name": "Katsala physics_form_1_1.pdf",
-    "path": "Books/Physics/Katsala physics_form_1_1.pdf",
+    "name": "Physics Study Notes - Form 1 (Katsala, Syllabus Based).pdf",
+    "path": "Books/Physics/Physics Study Notes - Form 1 (Katsala, Syllabus Based).pdf",
     "size": 4765576,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f19b300938"
+    "id": "f19b300938",
+    "level": "jce"
   },
   {
-    "name": "MSCE_PHYSICS_PII.pdf",
-    "path": "Books/Physics/MSCE_PHYSICS_PII.pdf",
+    "name": "2021 St Marys MSCE Mock - Physics Paper II (Practical).pdf",
+    "path": "Exams/Physics/2021 St Marys MSCE Mock - Physics Paper II (Practical).pdf",
     "size": 328814,
-    "repo": "e-library-media",
-    "bucket": 1,
+    "repo": "e-library-media-2",
+    "bucket": 2,
     "id": "fd2f2cbc81"
   },
   {
-    "name": "PHY 111 - attachmentpdf.pdf",
-    "path": "Books/Physics/PHY 111 - attachmentpdf.pdf",
-    "size": 2929063,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f4c0e3dd63"
-  },
-  {
-    "name": "PHY P1 THEORY.pdf",
-    "path": "Books/Physics/PHY P1 THEORY.pdf",
+    "name": "2019-2020 Rumphi Education Cluster End of Term 1 - Physics Paper I (Form 4).pdf",
+    "path": "Exams/Physics/2019-2020 Rumphi Education Cluster End of Term 1 - Physics Paper I (Form 4).pdf",
     "size": 564992,
-    "repo": "e-library-media",
-    "bucket": 1,
+    "repo": "e-library-media-2",
+    "bucket": 2,
     "id": "ff2385ca2e"
   },
   {
-    "name": "PHYCS REPORT.pdf",
-    "path": "Books/Physics/PHYCS REPORT.pdf",
-    "size": 57364,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fd69f14386"
-  },
-  {
-    "name": "PHYSICS 2-1.pdf",
-    "path": "Books/Physics/PHYSICS 2-1.pdf",
+    "name": "MANEB MSCE Sample Paper - Physics Paper II (Practical).pdf",
+    "path": "Exams/Physics/MANEB MSCE Sample Paper - Physics Paper II (Practical).pdf",
     "size": 1900205,
-    "repo": "e-library-media",
-    "bucket": 1,
+    "repo": "e-library-media-2",
+    "bucket": 2,
     "id": "fe93ac277b"
   },
   {
-    "name": "PHYSICS FORM 4 NOTES.docx",
-    "path": "Books/Physics/PHYSICS FORM 4 NOTES.docx",
-    "size": 4235227,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fd3e5e7e66"
-  },
-  {
-    "name": "PHYSICS_BOOK_3_&_4.pdf",
-    "path": "Books/Physics/PHYSICS_BOOK_3_&_4.pdf",
+    "name": "Physical Science Password - Forms 3 and 4 (Daud Adam) [alt copy].pdf",
+    "path": "Books/Physics/Physical Science Password - Forms 3 and 4 (Daud Adam) [alt copy].pdf",
     "size": 3130645,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f5f5f562df"
+    "id": "f5f5f562df",
+    "level": "msce"
   },
   {
-    "name": "PHYSICS_BOOK_3_(Target)_1.pdf",
-    "path": "Books/Physics/PHYSICS_BOOK_3_(Target)_1.pdf",
+    "name": "Target in Physics Students Book 3.pdf",
+    "path": "Books/Physics/Target in Physics Students Book 3.pdf",
     "size": 37872742,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f5c34f7141"
+    "id": "f5c34f7141",
+    "level": "msce"
   },
   {
-    "name": "PHYSICS_BOOK_4(1) (1) (1)_1.pdf",
-    "path": "Books/Physics/PHYSICS_BOOK_4(1) (1) (1)_1.pdf",
+    "name": "Physics Notes - Form 4 (Waves and Electronics).pdf",
+    "path": "Books/Physics/Physics Notes - Form 4 (Waves and Electronics).pdf",
     "size": 1916531,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f9503ca29d"
+    "id": "f9503ca29d",
+    "level": "msce"
   },
   {
-    "name": "PHYSICS_Book_2_STRIDES_1.pdf",
-    "path": "Books/Physics/PHYSICS_Book_2_STRIDES_1.pdf",
+    "name": "Physics Students Book 2 (Strides).pdf",
+    "path": "Books/Physics/Physics Students Book 2 (Strides).pdf",
     "size": 11341289,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f0aea8c309"
+    "id": "f0aea8c309",
+    "level": "jce"
   },
   {
-    "name": "PHYSICS_CONFIDENTIAL_INSTRUCTION.pdf",
-    "path": "Books/Physics/PHYSICS_CONFIDENTIAL_INSTRUCTION.pdf",
-    "size": 17500,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f98d96716e"
-  },
-  {
-    "name": "PHYSICS_FORM_3.pdf",
-    "path": "Books/Physics/PHYSICS_FORM_3 .pdf",
+    "name": "Physics Study Notes - Form 3 (New Syllabus).pdf",
+    "path": "Books/Physics/Physics Study Notes - Form 3 (New Syllabus).pdf",
     "size": 1740743,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f998708426"
+    "id": "f998708426",
+    "level": "msce"
   },
   {
-    "name": "PHYSICS_FORM_3_PAMPHLET_BASED_ON_NEW_SYLLABUS_1.pdf",
-    "path": "Books/Physics/PHYSICS_FORM_3_PAMPHLET_BASED_ON_NEW_SYLLABUS_1.pdf",
+    "name": "Physics Notes - Form 3 Pamphlet (New Syllabus).pdf",
+    "path": "Books/Physics/Physics Notes - Form 3 Pamphlet (New Syllabus).pdf",
     "size": 4263178,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f98ee8a9df"
+    "id": "f98ee8a9df",
+    "level": "msce"
   },
   {
-    "name": "PHYSICS_FORM_4.pdf",
-    "path": "Books/Physics/PHYSICS_FORM_4.pdf",
+    "name": "Physics Notes - Form 4 (Thin Lenses and Optics).pdf",
+    "path": "Books/Physics/Physics Notes - Form 4 (Thin Lenses and Optics).pdf",
     "size": 2651712,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fc2c391624"
+    "id": "fc2c391624",
+    "level": "msce"
   },
   {
-    "name": "PHYSICS_KUGWETSA_THEORY.pdf",
-    "path": "Books/Physics/PHYSICS_KUGWETSA_THEORY.pdf",
+    "name": "Physics Theory Notes - Kugwetsa (Bonda Education Group).pdf",
+    "path": "Books/Physics/Physics Theory Notes - Kugwetsa (Bonda Education Group).pdf",
     "size": 1222509,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f30db9aa1d"
+    "id": "f30db9aa1d",
+    "level": "msce"
   },
   {
-    "name": "PHYSICS_NOTES_PDF.pdf",
-    "path": "Books/Physics/PHYSICS_NOTES_PDF.pdf",
+    "name": "Physics Short Notes - New Syllabus (All Forms).pdf",
+    "path": "Books/Physics/Physics Short Notes - New Syllabus (All Forms).pdf",
     "size": 4581524,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f04bdfc31e"
+    "id": "f04bdfc31e",
+    "level": "both"
   },
   {
-    "name": "PHYSICS_NOTES_PDF_sense.pdf",
-    "path": "Books/Physics/PHYSICS_NOTES_PDF_sense.pdf",
-    "size": 4581524,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f2c77f2012"
-  },
-  {
-    "name": "PHySICS BOOK 1-1.pdf",
-    "path": "Books/Physics/PHySICS BOOK 1-1.pdf",
-    "size": 89035965,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f48f7ba0e7"
-  },
-  {
-    "name": "Physics Form 1 notes_1.pdf",
-    "path": "Books/Physics/Physics Form 1 notes_1.pdf",
+    "name": "Physics Study Notes - Form 1 (Basic).pdf",
+    "path": "Books/Physics/Physics Study Notes - Form 1 (Basic).pdf",
     "size": 385559,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f8d0ff4bf6"
+    "id": "f8d0ff4bf6",
+    "level": "jce"
   },
   {
-    "name": "Physics syllabus Forms 1-2.doc",
-    "path": "Books/Physics/Physics syllabus Forms 1-2.doc",
+    "name": "Physics Syllabus - Forms 1-2 (Malawi MoEST, 2013).doc",
+    "path": "Books/Syllabuses/Physics Syllabus - Forms 1-2 (Malawi MoEST, 2013).doc",
     "size": 761344,
     "repo": "e-library-media",
     "bucket": 1,
     "id": "f357c77fc4"
   },
   {
-    "name": "Physics syllabus Forms 3-4.doc",
-    "path": "Books/Physics/Physics syllabus Forms 3-4.doc",
+    "name": "Physics Syllabus - Forms 3-4 (Malawi MoEST, 2013).doc",
+    "path": "Books/Syllabuses/Physics Syllabus - Forms 3-4 (Malawi MoEST, 2013).doc",
     "size": 736256,
     "repo": "e-library-media",
     "bucket": 1,
     "id": "f661f0b9de"
   },
   {
-    "name": "Physics_Book_1_Excel_and_Succeed_1.pdf",
-    "path": "Books/Physics/Physics_Book_1_Excel_and_Succeed_1.pdf",
-    "size": 31267568,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f37908f6a9"
-  },
-  {
-    "name": "Physics_Book_4_Excel_&_Succeed__1.pdf",
-    "path": "Books/Physics/Physics_Book_4_Excel_&_Succeed__1.pdf",
+    "name": "Excel and Succeed Physics Students Book 4 (Condensed).pdf",
+    "path": "Books/Physics/Excel and Succeed Physics Students Book 4 (Condensed).pdf",
     "size": 768687,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f95883545e"
+    "id": "f95883545e",
+    "level": "msce"
   },
   {
-    "name": "Physics_book_4_excel.pdf",
-    "path": "Books/Physics/Physics_book_4_excel.pdf",
-    "size": 66529307,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fbaacb8f43"
-  },
-  {
-    "name": "Physics_pamphlet_with_answers_._1.pdf",
-    "path": "Books/Physics/Physics_pamphlet_with_answers_._1.pdf",
+    "name": "Physics Pamphlet with Answers (Tupaseko, Musonda).pdf",
+    "path": "Books/Physics/Physics Pamphlet with Answers (Tupaseko, Musonda).pdf",
     "size": 3133018,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fd6f65fd64"
+    "id": "fd6f65fd64",
+    "level": "msce"
   },
   {
-    "name": "ROBERT_BLAKE_PHYSICS_CONFIDENTIAL_2021.rtf",
-    "path": "Books/Physics/ROBERT_BLAKE_PHYSICS_CONFIDENTIAL_2021.rtf",
-    "size": 53122,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f9a30a985c"
-  },
-  {
-    "name": "Target_In Physics Book 3.pdf",
-    "path": "Books/Physics/Target_In Physics Book 3.pdf",
-    "size": 41170196,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fa29265d5e"
-  },
-  {
-    "name": "The_Physics_of_Waves.pdf",
-    "path": "Books/Physics/The_Physics_of_Waves.pdf",
-    "size": 4942195,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f9844e179b"
-  },
-  {
-    "name": "Understanding Form 3 Physics.pdf",
-    "path": "Books/Physics/Understanding Form 3 Physics.pdf",
+    "name": "Understanding MSCE Physics - Form 3 (Malango).pdf",
+    "path": "Books/Physics/Understanding MSCE Physics - Form 3 (Malango).pdf",
     "size": 2243272,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fbf491b7ba"
+    "id": "fbf491b7ba",
+    "level": "msce"
   },
   {
-    "name": "PHYSICS_BOOK_4.pdf",
-    "path": "Books/Physics/_PHYSICS_BOOK_4.pdf",
-    "size": 1689930,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f524985ae8"
-  },
-  {
-    "name": "PHYSICS_FORM_1.pdf",
-    "path": "Books/Physics/_PHYSICS_FORM_1.pdf",
+    "name": "Physics Study Notes - Form 1 (Core Curriculum).pdf",
+    "path": "Books/Physics/Physics Study Notes - Form 1 (Core Curriculum).pdf",
     "size": 264791,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f3fbc0aa5c"
+    "id": "f3fbc0aa5c",
+    "level": "jce"
   },
   {
-    "name": "PHYSICS_book 2 (1)_1.pdf",
-    "path": "Books/Physics/_PHYSICS_book 2 - Copy (1) (1)_1.pdf",
-    "size": 2106028,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f0eb495660"
-  },
-  {
-    "name": "excell book 1 physics.pdf",
-    "path": "Books/Physics/excell book 1 physics.pdf",
+    "name": "Excel and Succeed Physics Students Book 1 (Compact).pdf",
+    "path": "Books/Physics/Excel and Succeed Physics Students Book 1 (Compact).pdf",
     "size": 3894964,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fcadc1683e"
+    "id": "fcadc1683e",
+    "level": "jce"
   },
   {
-    "name": "grem_physics_FOR_FORM_O.pdf",
-    "path": "Books/Physics/grem_physics_FOR_FORM_O.pdf",
-    "size": 670171,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f4f152d20d"
-  },
-  {
-    "name": "physics made simple 4.pdf",
-    "path": "Books/Physics/physics made simple 4.pdf",
+    "name": "Physics Made Simple - Book 4 (Rashid Mabuka).pdf",
+    "path": "Books/Physics/Physics Made Simple - Book 4 (Rashid Mabuka).pdf",
     "size": 17506682,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fb19d8fe3a"
+    "id": "fb19d8fe3a",
+    "level": "msce"
   },
   {
-    "name": "physics-form-1-notes.pdf",
-    "path": "Books/Physics/physics-form-1-notes.pdf",
+    "name": "Physics Notes - Form 1.pdf",
+    "path": "Books/Physics/Physics Notes - Form 1.pdf",
     "size": 1916069,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fed0f54fbd"
+    "id": "fed0f54fbd",
+    "level": "jce"
   },
   {
-    "name": "physics-form-2-notes-1.pdf",
-    "path": "Books/Physics/physics-form-2-notes-1.pdf",
+    "name": "Physics Notes - Form 2.pdf",
+    "path": "Books/Physics/Physics Notes - Form 2.pdf",
     "size": 2145370,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f73d172933"
+    "id": "f73d172933",
+    "level": "jce"
   },
   {
-    "name": "physics-form-3-notes.pdf",
-    "path": "Books/Physics/physics-form-3-notes.pdf",
+    "name": "Physics Notes - Form 3.pdf",
+    "path": "Books/Physics/Physics Notes - Form 3.pdf",
     "size": 1184895,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "f1d1c47648"
+    "id": "f1d1c47648",
+    "level": "msce"
   },
   {
-    "name": "physics-form-4-notes.pdf",
-    "path": "Books/Physics/physics-form-4-notes.pdf",
+    "name": "Physics Notes - Form 4.pdf",
+    "path": "Books/Physics/Physics Notes - Form 4.pdf",
     "size": 2454711,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fcb1d50f13"
+    "id": "fcb1d50f13",
+    "level": "msce"
   },
   {
-    "name": "physics_1_new[1].pdf",
-    "path": "Books/Physics/physics_1_new[1].pdf",
+    "name": "2025 St Marys MSCE Post-Mock - Physics Paper I.pdf",
+    "path": "Exams/Physics/2025 St Marys MSCE Post-Mock - Physics Paper I.pdf",
     "size": 1176520,
-    "repo": "e-library-media",
-    "bucket": 1,
+    "repo": "e-library-media-2",
+    "bucket": 2,
     "id": "f4b2647ab4"
   },
   {
-    "name": "physics_Kudinkula_mwapaizy__(wizy).pdf",
-    "path": "Books/Physics/physics_Kudinkula_mwapaizy__(wizy).pdf",
+    "name": "Physics Q and A - Kudinkula Mwapa Eazy MSCE (Musonda-style).pdf",
+    "path": "Q&A/Physics/Physics Q and A - Kudinkula Mwapa Eazy MSCE (Musonda-style).pdf",
     "size": 2928101,
-    "repo": "e-library-media",
-    "bucket": 1,
+    "repo": "e-library-media-2",
+    "bucket": 2,
     "id": "f90a272c24"
   },
   {
-    "name": "physics_blend.pdf",
-    "path": "Books/Physics/physics_blend.pdf",
+    "name": "Physics Blend - MSCE Candidate Companion (Fr. Benedict Zele).pdf",
+    "path": "Books/Physics/Physics Blend - MSCE Candidate Companion (Fr. Benedict Zele).pdf",
     "size": 4071868,
     "repo": "e-library-media",
     "bucket": 1,
-    "id": "fa29373d07"
-  },
-  {
-    "name": "physics_notes_F4_1.pdf",
-    "path": "Books/Physics/physics_notes_F4 - Copy_1.pdf",
-    "size": 1766830,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "fca890a5e6"
+    "id": "fa29373d07",
+    "level": "msce"
   },
   {
     "name": "Social Studies Forms 3 and 4 Study Notes (Holly).pdf",
