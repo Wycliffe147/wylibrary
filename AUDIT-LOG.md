@@ -37,6 +37,7 @@ The "After" number represents the clean, frozen count at the moment the folder a
 | **Exams/Mathematics** | ✅ Audited | 272 | 260 | 2 | 4 (+1 to Add Maths) | 3 | 100% Explicit (39 JCE, 128 MSCE, 93 Both) | Nov 28, 2026 (12m 22s) |
 | **Exams/Chemistry** | ✅ Audited | 259 | 240 | 1 | 1 (+3 cross-subject) | 13 | 100% Explicit (34 JCE, 106 MSCE, 100 Both) | Nov 28, 2026 (12m 05s) |
 | **Exams/English** | ✅ Audited | 251 | 240 | 7 | 2 | 2 | 100% Explicit (47 JCE, 161 MSCE, 32 Both) | Nov 28, 2026 |
+| **Exams/Agriculture** | ✅ Audited | 187 | 179 | 0 | 1 | 7 | 100% Explicit (26 JCE, 151 MSCE, 2 Both) | Nov 28, 2026 |
 
 ---
 
@@ -439,6 +440,31 @@ The "After" number represents the clean, frozen count at the moment the folder a
 - **Catalog delta:** 2,921 -> 2,919 entries (-2 deleted). Dual catalogs synchronized byte-for-byte (`files-index.json` and `public/files-index.json`).
 - **Stable IDs:** 2,749 kept, 170 moved, 0 renamed, 0 new, 2 removed recorded in `public/id-map.json`.
 - **Level Tagging Coverage:** 100% Explicit (47 JCE, 161 MSCE, 32 Both).
+
+### 28. Exams/Agriculture Folder Audit (Nov 28, 2026)
+- **Scope:** 187 files deep-scanned, 7 deleted from R2, 1 transferred to Q&A, 2 internal marking scheme moves from root, 1 corrupted docx repaired on R2, and 174 files renamed in R2 and dual catalogs (177 renames/marking moves total).
+- **Initial Count:** 187 files (154 in `Exams/Agriculture/`, 33 in `Exams/Agriculture/Marking Keys/`, all on Bucket 2)
+- **Clean Exams Retained:** 179 clean examination papers (26 JCE, 151 MSCE, 2 Both)
+- **Transferred to Q&A (1 file to Bucket 2):**
+  - `Q&A/Agriculture/JCE Agriculture Questions and Model Answers (ChitsekoFH).pdf` (3.0 MB, 71 pages comprehensive Q&A book)
+- **Internal Moves to Marking Keys (2 files within Bucket 2):**
+  - `Exams/Agriculture/Marking Keys/2019 MANEB MSCE Agriculture Chief Examiners Report Paper I and II.pdf`
+  - `Exams/Agriculture/Marking Keys/2021 MANEB MSCE Agriculture Chief Examiners Report Paper I and II.pdf`
+- **Repaired on R2 (1 file):**
+  - `Exams/Agriculture/Marking Keys/Form 3 Agriculture Paper 1 Marking Key.docx` (resolved CRC image corruption while preserving full 129 paragraphs of exam marking scheme)
+- **Deleted from R2 (7 files from Bucket 2):**
+  - `Exams/Agriculture/H` (1-byte empty dummy file)
+  - `Exams/Agriculture/MSCE Questions and Model Answera Agric KAMPHONJE.pdf` (exact duplicate of Kamphonje Q&A already preserved in Q&A/Agriculture)
+  - `Exams/Agriculture/JCE AGRICULTURE QUESTIONS & ANSWERS_1.pdf` (incomplete 26-page partial excerpt of ChitsekoFH 71-page Q&A)
+  - `Exams/Agriculture/AGRICULTURE_4&3_COMBINED-1-1-1-1-1_(1).pdf` (duplicate of 114-page senior secondary textbook already in Books/Agriculture)
+  - `Exams/Agriculture/AGRICULTURE_4&3_COMBINED.pdf` (duplicate of 114-page senior secondary textbook already in Books/Agriculture)
+  - `Exams/Agriculture/2026 CEED AGRICULTURE II .pdf` (duplicate copy with trailing whitespace in filename)
+  - `Exams/Agriculture/2026 CEED AGRICULTURE I.rtf.pdf` (incomplete 6-page draft of CEED Biology Paper I misfiled in Agriculture)
+- **Renamed within Exams (174 files):**
+  - Standardized all cryptic filenames, corrected size metadata for `2022 Form 4 MSCE Agriculture Paper II Term 3 Mock Exam.pdf`, stripped raw upload suffixes (`_1`, `(1)`, `-Copy`), and normalized titles according to curriculum standards.
+- **Catalog delta:** 2,919 -> 2,912 entries (-7 deleted). Dual catalogs synchronized byte-for-byte (`files-index.json` and `public/files-index.json`).
+- **Stable IDs:** 2,734 kept, 178 moved, 0 renamed, 0 new, 7 removed recorded in `public/id-map.json`.
+- **Level Tagging Coverage:** 100% Explicit (26 JCE, 151 MSCE, 2 Both).
 
 
 

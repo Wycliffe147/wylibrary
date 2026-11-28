@@ -1,17 +1,17 @@
 // Wylibrary Service Worker - v10.0
 // Network-First with Cache Fallback for seamless online updates & full offline resilience
 
-const CACHE_NAME = 'wylibrary-v71-20261128-eng1';
+const CACHE_NAME = 'wylibrary-v72-20261128-agri1';
 
 // Update notification metadata (hybrid system):
 // Set type to 'auto' to let the app automatically detect materials vs features,
 // or explicitly set 'materials', 'features', or 'all'.
 // Optional custom title/message can announce specific drops (e.g. 2026 exam papers).
 const UPDATE_META = {
-  version: 'v12.6',
+  version: 'v12.7',
   type: 'materials',
-  title: '📚 English Catalog Audit',
-  message: 'Audited Exams/English: 240 clean papers, 7 grammar textbooks moved to Books, and Macbeth guides moved to Q&A.'
+  title: '🌾 Agriculture Catalog Audit',
+  message: 'Audited Exams/Agriculture: 179 clean papers, ChitsekoFH model Q&A moved to Q&A, and corrupt files cleaned.'
 };
 
 // Books the reader chose to keep. Managed by offline-store.js and NEVER deleted

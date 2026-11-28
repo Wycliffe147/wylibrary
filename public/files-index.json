@@ -5939,1437 +5939,1237 @@
     "id": "fe255d7ae1"
   },
   {
-    "name": "1 AGR PAPER 1.docx",
-    "path": "Exams/Agriculture/1 AGR PAPER 1.docx",
-    "size": 327006,
+    "name": "2013 MANEB JCE Agriculture Exam.pdf",
+    "path": "Exams/Agriculture/2013 MANEB JCE Agriculture Exam.pdf",
+    "size": 3458485,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "ff79882730"
+    "id": "fbe8ca96e2"
   },
   {
-    "name": "1 AGRI PRACTICAL 2 CONFIDENTIAL INSTRUCTION.docx",
-    "path": "Exams/Agriculture/1 AGRI PRACTICAL 2 CONFIDENTIAL INSTRUCTION.docx",
-    "size": 18358,
-    "repo": "e-library-media-3",
-    "bucket": 2,
-    "id": "fced1eee61"
-  },
-  {
-    "name": "1 AGRI PRACTICAL 2 PAPER.docx",
-    "path": "Exams/Agriculture/1 AGRI PRACTICAL 2 PAPER.docx",
-    "size": 83453,
-    "repo": "e-library-media-4",
-    "bucket": 2,
-    "id": "f36b51cb1f"
-  },
-  {
-    "name": "1AGRICULTURE_PAPER_I_MOCK_EXAM_QUESTION_PAPER-1_(1)_(1)-1.pdf",
-    "path": "Exams/Agriculture/1AGRICULTURE_PAPER_I_MOCK_EXAM_QUESTION_PAPER-1_(1)_(1)-1.pdf",
-    "size": 451578,
+    "name": "2015 MANEB JCE Agriculture Exam.pdf",
+    "path": "Exams/Agriculture/2015 MANEB JCE Agriculture Exam.pdf",
+    "size": 4347726,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f3e6d483f6"
+    "id": "f0423ff77b"
   },
   {
-    "name": "2017_Agriculture_Mzuzu_Dioces_P1.pdf",
-    "path": "Exams/Agriculture/2017_Agriculture_Mzuzu_Dioces_P1.pdf",
-    "size": 301787,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f78857c04d"
-  },
-  {
-    "name": "2017_AGRICULTURE_practical.pdf",
-    "path": "Exams/Agriculture/2017_AGRICULTURE_practical.pdf",
+    "name": "2017 MSCE Agriculture Practical Exam.pdf",
+    "path": "Exams/Agriculture/2017 MSCE Agriculture Practical Exam.pdf",
     "size": 820353,
-    "repo": "e-library-media-5",
+    "repo": "e-library-media-2",
     "bucket": 2,
     "id": "f2d1cf210c"
   },
   {
-    "name": "2018 AGRI PAPER I-1-1.pdf",
-    "path": "Exams/Agriculture/2018 AGRI PAPER I-1-1.pdf",
+    "name": "2017 Mzuzu Diocese MSCE Agriculture Paper I Mock Exam.pdf",
+    "path": "Exams/Agriculture/2017 Mzuzu Diocese MSCE Agriculture Paper I Mock Exam.pdf",
+    "size": 301787,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f78857c04d"
+  },
+  {
+    "name": "2018 MSCE Agriculture Paper I Mock Exam.pdf",
+    "path": "Exams/Agriculture/2018 MSCE Agriculture Paper I Mock Exam.pdf",
     "size": 74347,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
     "id": "f45a2014ae"
   },
   {
-    "name": "2018- AGRI PRACTICAL II.pdf",
-    "path": "Exams/Agriculture/2018- AGRI PRACTICAL II.pdf",
+    "name": "2018 MSCE Agriculture Paper II Practical Mock Exam.pdf",
+    "path": "Exams/Agriculture/2018 MSCE Agriculture Paper II Practical Mock Exam.pdf",
     "size": 58595,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
     "id": "f6c2f203cf"
   },
   {
-    "name": "2018_Mzuzu Diocese AGRI I.pdf",
-    "path": "Exams/Agriculture/2018_Mzuzu Diocese AGRI I.pdf",
+    "name": "2018 Mzuzu Diocese MSCE Agriculture Paper I Mock Exam.pdf",
+    "path": "Exams/Agriculture/2018 Mzuzu Diocese MSCE Agriculture Paper I Mock Exam.pdf",
     "size": 81068,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
     "id": "f74aea3320"
   },
   {
-    "name": "2019 MANEB Confidential Chief Examiner's Report Paper 1 & 2.pdf",
-    "path": "Exams/Agriculture/2019 MANEB Confidential Chief Examiner's Report Paper I & II.pdf",
-    "size": 97609,
+    "name": "2019 MANEB MSCE Agriculture Paper I.pdf",
+    "path": "Exams/Agriculture/2019 MANEB MSCE Agriculture Paper I.pdf",
+    "size": 2171148,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f584049cf4"
+    "id": "f0135abf50"
   },
   {
-    "name": "2019 MSCE Agriculture Mock Paper 1 (Maranatha Academy).pdf",
-    "path": "Exams/Agriculture/2019 MSCE Agriculture Mock Paper 1 (Maranatha Academy).pdf",
+    "name": "2019 Maranatha MSCE Agriculture Paper 1 Mock Exam.pdf",
+    "path": "Exams/Agriculture/2019 Maranatha MSCE Agriculture Paper 1 Mock Exam.pdf",
     "size": 321705,
     "repo": "e-library-media-2",
     "bucket": 2,
     "id": "f59fad7ee2"
   },
   {
-    "name": "2019 Mzuzu Diocese Form 4 Agr Paper 1.pdf",
-    "path": "Exams/Agriculture/2019 Mzuzu Diocese Form 4 Agr Paper I.pdf",
+    "name": "2019 MSCE Agriculture Paper II Mock Exam.pdf",
+    "path": "Exams/Agriculture/2019 MSCE Agriculture Paper II Mock Exam.pdf",
+    "size": 259034,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fb3d32ce6f"
+  },
+  {
+    "name": "2019 Mzuzu Diocese Form 4 MSCE Agriculture Paper I Mock Exam.pdf",
+    "path": "Exams/Agriculture/2019 Mzuzu Diocese Form 4 MSCE Agriculture Paper I Mock Exam.pdf",
     "size": 1347758,
     "repo": "e-library-media-2",
     "bucket": 2,
     "id": "ff807e275f"
   },
   {
-    "name": "2019-2020 MSCE Agriculture Mock Examination (Magodi Christian Secondary).pdf",
-    "path": "Exams/Agriculture/2019-2020 MSCE Agriculture Mock Examination (Magodi Christian Secondary).pdf",
-    "size": 420295,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f57fec5c75",
-    "level": "msce"
-  },
-  {
-    "name": "2019_Agri_Mock_P_II.pdf",
-    "path": "Exams/Agriculture/2019_Agri_Mock_P_II.pdf",
-    "size": 259034,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fb3d32ce6f"
-  },
-  {
-    "name": "2019_AGRI_P1_MANEB.pdf",
-    "path": "Exams/Agriculture/2019_AGRI_P1_MANEB.pdf",
-    "size": 2171148,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f0135abf50"
-  },
-  {
-    "name": "2020 MSCE Agriculture Mock Paper 1 (Answer Private Academy).pdf",
-    "path": "Exams/Agriculture/2020 MSCE Agriculture Mock Paper 1 (Answer Private Academy).pdf",
+    "name": "2020 Answer Private Academy MSCE Agriculture Paper 1 Mock Exam.pdf",
+    "path": "Exams/Agriculture/2020 Answer Private Academy MSCE Agriculture Paper 1 Mock Exam.pdf",
     "size": 333857,
     "repo": "e-library-media-2",
-    "bucket": 1,
+    "bucket": 2,
     "id": "fb58eb68e0",
     "level": "msce"
   },
   {
-    "name": "2020 MSCE Agriculture Mock Paper 2 (Answer Private Academy).pdf",
-    "path": "Exams/Agriculture/2020 MSCE Agriculture Mock Paper 2 (Answer Private Academy).pdf",
+    "name": "2020 Answer Private Academy MSCE Agriculture Paper 2 Mock Exam.pdf",
+    "path": "Exams/Agriculture/2020 Answer Private Academy MSCE Agriculture Paper 2 Mock Exam.pdf",
     "size": 346278,
     "repo": "e-library-media-2",
-    "bucket": 1,
+    "bucket": 2,
     "id": "f63b3c368a",
     "level": "msce"
   },
   {
-    "name": "2020_Agri_P1_Maneb.pdf",
-    "path": "Exams/Agriculture/2020_Agri_P1_Maneb.pdf",
+    "name": "2020 Magodi Christian MSCE Agriculture Mock Exam.pdf",
+    "path": "Exams/Agriculture/2020 Magodi Christian MSCE Agriculture Mock Exam.pdf",
+    "size": 420295,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f57fec5c75",
+    "level": "msce"
+  },
+  {
+    "name": "2020 MANEB MSCE Agriculture Paper I.pdf",
+    "path": "Exams/Agriculture/2020 MANEB MSCE Agriculture Paper I.pdf",
     "size": 1810056,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
     "id": "f4038e80fe"
   },
   {
-    "name": "2021 JCE Agriculture Mock Examination (Providence Cluster).pdf",
-    "path": "Exams/Agriculture/2021 JCE Agriculture Mock Examination (Providence Cluster).pdf",
-    "size": 287201,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f51d21063a",
-    "level": "jce"
-  },
-  {
-    "name": "2021 MSCE Agriculture Mock Paper 2 (Mzuzu Diocese).pdf",
-    "path": "Exams/Agriculture/2021 MSCE Agriculture Mock Paper 2 (Mzuzu Diocese).pdf",
-    "size": 102772,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "fd40e0bda9",
-    "level": "msce"
-  },
-  {
-    "name": "2021 MSCE Agriculture Practical Mock Examination (Hillcrescent Secondary).pdf",
-    "path": "Exams/Agriculture/2021 MSCE Agriculture Practical Mock Examination (Hillcrescent Secondary).pdf",
-    "size": 168128,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f23fb2e1b5",
-    "level": "msce"
-  },
-  {
-    "name": "2021_AGRICULTURE_II_MOCK_SYNODS-1.docx",
-    "path": "Exams/Agriculture/2021_AGRICULTURE_II_MOCK_SYNODS-1.docx",
-    "size": 168967,
+    "name": "2020 Mzuzu Diocese Form 4 MSCE Agriculture Paper I Mock Exam.pdf",
+    "path": "Exams/Agriculture/2020 Mzuzu Diocese Form 4 MSCE Agriculture Paper I Mock Exam.pdf",
+    "size": 561379,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fe9d473116"
+    "id": "f9807348f3"
   },
   {
-    "name": "2021_CHIRADZULU_-_AGRICULTURE_PAPER_I_MOCK_EXAM-1.pdf",
-    "path": "Exams/Agriculture/2021_CHIRADZULU_-_AGRICULTURE_PAPER_I_MOCK_EXAM-1.pdf",
+    "name": "2021 Chiradzulu MSCE Agriculture Paper I Mock Exam.pdf",
+    "path": "Exams/Agriculture/2021 Chiradzulu MSCE Agriculture Paper I Mock Exam.pdf",
     "size": 665607,
     "repo": "e-library-media-2",
     "bucket": 2,
     "id": "fcf7a6a470"
   },
   {
-    "name": "2021_JCE_Agri_Loyola_1.pdf",
-    "path": "Exams/Agriculture/2021_JCE_Agri_Loyola_1.pdf",
+    "name": "2021 Hillcrescent MSCE Agriculture Practical Mock Exam.pdf",
+    "path": "Exams/Agriculture/2021 Hillcrescent MSCE Agriculture Practical Mock Exam.pdf",
+    "size": 168128,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f23fb2e1b5",
+    "level": "msce"
+  },
+  {
+    "name": "2021 Loyola JCE Agriculture Mock Exam.pdf",
+    "path": "Exams/Agriculture/2021 Loyola JCE Agriculture Mock Exam.pdf",
     "size": 519912,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
     "id": "f5a1263439"
   },
   {
-    "name": "2021_MOCK_AGRICULTURE.pdf",
-    "path": "Exams/Agriculture/2021_MOCK_AGRICULTURE.pdf",
-    "size": 129395,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "fc36038da6"
-  },
-  {
-    "name": "2021_MSCE__agriculture_I_QP.pdf",
-    "path": "Exams/Agriculture/2021_MSCE__agriculture_I_QP_(1).pdf",
-    "size": 345860,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5ed282055"
-  },
-  {
-    "name": "2021_MSCE_AGRI_Paper_I_Loyola_-_Copy.pdf",
-    "path": "Exams/Agriculture/2021_MSCE_AGRI_Paper_I_Loyola_-_Copy.pdf",
+    "name": "2021 Loyola MSCE Agriculture Paper I Mock Exam.pdf",
+    "path": "Exams/Agriculture/2021 Loyola MSCE Agriculture Paper I Mock Exam.pdf",
     "size": 257949,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
     "id": "f2389db550"
   },
   {
-    "name": "2022 AGR P1 MOCK 1_1.pdf",
-    "path": "Exams/Agriculture/2022 AGR P1 MOCK 1_1.pdf",
-    "size": 290107,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fbdadfb893"
-  },
-  {
-    "name": "2022 MICHIRU VIEW AGRIC P1.pdf",
-    "path": "Exams/Agriculture/2022 MICHIRU VIEW AGRIC P1.pdf",
-    "size": 303689,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fec5ab684d"
-  },
-  {
-    "name": "2022_MANEB_AGRI_P._2.pdf",
-    "path": "Exams/Agriculture/2022_MANEB_AGRI_P._2.pdf",
-    "size": 1345743,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f7c83d6ff6"
-  },
-  {
-    "name": "2022_MSCE_Agriculture_P1.pdf",
-    "path": "Exams/Agriculture/2022_MSCE_Agriculture_P1.pdf",
-    "size": 449026,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f44970736a"
-  },
-  {
-    "name": "2023 JCE Agriculture_1.pdf",
-    "path": "Exams/Agriculture/2023 JCE Agriculture_1.pdf",
-    "size": 1321914,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f98fd087ec"
-  },
-  {
-    "name": "2023 MANEB JCE AGRICULTURE_1.pdf",
-    "path": "Exams/Agriculture/2023 MANEB JCE AGRICULTURE_1.pdf",
-    "size": 8774941,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f27ae7ff8d"
-  },
-  {
-    "name": "2023 MSCE AGRI P1 MANEB_1.pdf",
-    "path": "Exams/Agriculture/2023 MSCE AGRI P1 MANEB_1.pdf",
-    "size": 1013220,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f8c94bd5db"
-  },
-  {
-    "name": "2023_Agriculture_P1_Maneb_Sample-Paper.pdf",
-    "path": "Exams/Agriculture/2023_Agriculture_P1_Maneb_Sample-Paper.pdf",
-    "size": 3638772,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f76c6c0a62"
-  },
-  {
-    "name": "2023_DESHA_agriculture_ll.pdf",
-    "path": "Exams/Agriculture/2023_DESHA_agriculture_ll.pdf",
-    "size": 713858,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fd49318401"
-  },
-  {
-    "name": "2023_JCE_AGRICULTURE_1.pdf",
-    "path": "Exams/Agriculture/2023_JCE_AGRICULTURE_1.pdf",
-    "size": 268046,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f850fe1893"
-  },
-  {
-    "name": "2023_MANEB_AGRI_P._2.pdf",
-    "path": "Exams/Agriculture/2023_MANEB_AGRI_P._2.pdf",
-    "size": 2554358,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f84b024685"
-  },
-  {
-    "name": "2024 AGRICULTURE JCE_MANEB_1.pdf",
-    "path": "Exams/Agriculture/2024 AGRICULTURE JCE_MANEB_1.pdf",
-    "size": 4060906,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f43f0661b2"
-  },
-  {
-    "name": "2024 CEED AGRICULTURE - PAPER I.pdf",
-    "path": "Exams/Agriculture/2024 CEED AGRICULTURE - PAPER I.pdf",
-    "size": 501042,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5e16d2990"
-  },
-  {
-    "name": "2024 CEED AGRICULTURE - PAPER II.pdf",
-    "path": "Exams/Agriculture/2024 CEED AGRICULTURE - PAPER II.pdf",
-    "size": 598909,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f08b692842"
-  },
-  {
-    "name": "2024 MANEB Agriculture II.pdf",
-    "path": "Exams/Agriculture/2024 MANEB Agriculture II.pdf",
-    "size": 1134099,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fd8d76cf9d"
-  },
-  {
-    "name": "2024 MSCE AGRI PII MWANZA CLUSTER MOCK_1.pdf",
-    "path": "Exams/Agriculture/2024 MSCE AGRI PII MWANZA CLUSTER MOCK_1.pdf",
-    "size": 498529,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "faf1a1ae48"
-  },
-  {
-    "name": "2024_ACA_AGRI_P_II_MSCE_MOCK.pdf",
-    "path": "Exams/Agriculture/2024_ACA_AGRI_P_II_MSCE_MOCK_.pdf",
-    "size": 204871,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f6638e5a71"
-  },
-  {
-    "name": "2024_Agriculture_I_Dessha.pdf",
-    "path": "Exams/Agriculture/2024_Agriculture_I_Dessha.pdf",
-    "size": 695798,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f06c5371cc"
-  },
-  {
-    "name": "2024_KUGWETSA_AGRICULTURE_PRACATICAL.pdf",
-    "path": "Exams/Agriculture/2024_KUGWETSA_AGRICULTURE_PRACATICAL.pdf",
-    "size": 942367,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "ffe7c381bf"
-  },
-  {
-    "name": "2024_MANEB_Agriculture_I.pdf",
-    "path": "Exams/Agriculture/2024_MANEB_Agriculture_I (1).pdf",
-    "size": 1909419,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f0cda38285"
-  },
-  {
-    "name": "2024_MSCE_AGRICULTURE_PI_MWANZA_CLUSTER.pdf",
-    "path": "Exams/Agriculture/2024_MSCE_AGRICULTURE_PI_MWANZA_CLUSTER.pdf",
-    "size": 497470,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "ff30155567"
-  },
-  {
-    "name": "2024_SHED_AGRICULTURE_PI.pdf",
-    "path": "Exams/Agriculture/2024_SHED_AGRICULTURE_PI_.pdf",
-    "size": 206667,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "faef14c94a"
-  },
-  {
-    "name": "2025 agriculture paper 2 mock.docx",
-    "path": "Exams/Agriculture/2025 agriculture paper 2 mock.docx",
-    "size": 1870841,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f90e245f76"
-  },
-  {
-    "name": "2025 agriculture paper 2 mock.pdf",
-    "path": "Exams/Agriculture/2025 agriculture paper 2 mock.pdf",
-    "size": 72683,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "facd51cad5"
-  },
-  {
-    "name": "2025 agriculture paper I mock.docx",
-    "path": "Exams/Agriculture/2025 agriculture paper I mock.docx",
-    "size": 128322,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f38d036cda"
-  },
-  {
-    "name": "2025 agriculture paper I mock.pdf",
-    "path": "Exams/Agriculture/2025 agriculture paper I mock.pdf",
-    "size": 182026,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f36a63747d"
-  },
-  {
-    "name": "2025 Maranatha agri mock 5 paper 1_1.pdf",
-    "path": "Exams/Agriculture/2025 Maranatha agri mock 5 paper 1_1.pdf",
-    "size": 1734829,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fa36f86c14"
-  },
-  {
-    "name": "2025 MSCE AGRI PP I_1.pdf",
-    "path": "Exams/Agriculture/2025 MSCE AGRI PP I_1.pdf",
-    "size": 1443416,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fa3678814e"
-  },
-  {
-    "name": "2025 MSCE Agriculture Mock Paper 1 (Mangochi Catholic Diocese).docx",
-    "path": "Exams/Agriculture/2025 MSCE Agriculture Mock Paper 1 (Mangochi Catholic Diocese).docx",
-    "size": 330572,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f1bdd0d8fb",
-    "level": "msce"
-  },
-  {
-    "name": "2025 MSCE Agriculture Mock Paper 2 (Mangochi Catholic Diocese).docx",
-    "path": "Exams/Agriculture/2025 MSCE Agriculture Mock Paper 2 (Mangochi Catholic Diocese).docx",
-    "size": 1083091,
-    "repo": "e-library-media",
-    "bucket": 1,
-    "id": "f3d8241b62",
-    "level": "msce"
-  },
-  {
-    "name": "2025 SEED AGRI MOCK PI.doc",
-    "path": "Exams/Agriculture/2025 SEED AGRI MOCK  PI.doc",
-    "size": 136704,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f48d2a611d"
-  },
-  {
-    "name": "2025 SEED AGRICULTURE MOCK PII.doc",
-    "path": "Exams/Agriculture/2025 SEED AGRICULTURE MOCK  PII.doc",
-    "size": 296960,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fed00cd182"
-  },
-  {
-    "name": "2025_Agriculture_MANEB.pdf",
-    "path": "Exams/Agriculture/2025_Agriculture_MANEB_(1).pdf",
-    "size": 2907209,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f4b4f2b18f"
-  },
-  {
-    "name": "2025_NED_AGRICULTURE__PAPER_1.pdf",
-    "path": "Exams/Agriculture/2025_NED_AGRICULTURE__PAPER_1 (1).pdf",
-    "size": 625137,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fbadf103ad"
-  },
-  {
-    "name": "2025_SWED_MOCK_AGRICULTURE_PAPER_I_FINAL.pdf",
-    "path": "Exams/Agriculture/2025_SWED_MOCK_AGRICULTURE_PAPER_I_FINAL.pdf",
-    "size": 668001,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f05f8141fd"
-  },
-  {
-    "name": "2026 Agriculture Paper HI.docx",
-    "path": "Exams/Agriculture/2026 Agriculture Paper  HI.docx",
-    "size": 200695,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fa00c4969d"
-  },
-  {
-    "name": "2026 Agriculture Paper I braille.docx",
-    "path": "Exams/Agriculture/2026 Agriculture Paper I braille.docx",
-    "size": 35053,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f347bb5164"
-  },
-  {
-    "name": "2026 Agriculture Paper I FINAL.docx",
-    "path": "Exams/Agriculture/2026 Agriculture Paper I FINAL.docx",
-    "size": 206448,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fa828fc1b6"
-  },
-  {
-    "name": "2026 Agriculture Paper I FINAL.pdf",
-    "path": "Exams/Agriculture/2026 Agriculture Paper I FINAL.pdf",
-    "size": 379457,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fd066296b9"
-  },
-  {
-    "name": "2026 Agriculture Paper I oral.docx",
-    "path": "Exams/Agriculture/2026 Agriculture Paper I oral.docx",
-    "size": 191646,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f53197f911"
-  },
-  {
-    "name": "2026 CEED AGRICULTURE I.pdf",
-    "path": "Exams/Agriculture/2026 CEED AGRICULTURE I.pdf",
-    "size": 666702,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f2071ba2f2"
-  },
-  {
-    "name": "2026 CEED AGRICULTURE I.rtf.pdf",
-    "path": "Exams/Agriculture/2026 CEED AGRICULTURE I.rtf.pdf",
-    "size": 585088,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f62f5dc350"
-  },
-  {
-    "name": "2026 CEED AGRICULTURE II.pdf",
-    "path": "Exams/Agriculture/2026 CEED AGRICULTURE II .pdf",
-    "size": 180886,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fee81688ea"
-  },
-  {
-    "name": "2026 CEED AGRICULTURE II.pdf",
-    "path": "Exams/Agriculture/2026 CEED AGRICULTURE II.pdf",
-    "size": 180839,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f226f14ba9"
-  },
-  {
-    "name": "2026 JCE AGRICULTURE NED MOCK 1 MODERATED.docx",
-    "path": "Exams/Agriculture/2026 JCE AGRICULTURE NED MOCK 1 MODERATED.docx",
-    "size": 1058858,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fb3b854444"
-  },
-  {
-    "name": "2026 MANEB Agriculture Paper I.pdf",
-    "path": "Exams/Agriculture/2026 MANEB Agriculture Paper I.pdf",
-    "size": 2291608,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "feb1b45613"
-  },
-  {
-    "name": "2026 MANEB Agriculture Paper II.pdf",
-    "path": "Exams/Agriculture/2026 MANEB Agriculture Paper II.pdf",
-    "size": 1193453,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f7c29eaed4"
-  },
-  {
-    "name": "2026 MOCK AGRICULTURE PAPER 1.pdf",
-    "path": "Exams/Agriculture/2026 MOCK AGRICULTURE  PAPER 1  .pdf",
-    "size": 982465,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f48b496b00"
-  },
-  {
-    "name": "2026 MSCE Mara Agri P1 mock 2.pdf",
-    "path": "Exams/Agriculture/2026 MSCE Mara Agri P1 mock 2.pdf",
-    "size": 2712261,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f7b3692a2d"
-  },
-  {
-    "name": "2026 NED Agric P2.pdf",
-    "path": "Exams/Agriculture/2026 NED Agric P2.pdf",
-    "size": 1427256,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f972bfcefe"
-  },
-  {
-    "name": "AGRICULTURE_2021_MANEB_P1.pdf",
-    "path": "Exams/Agriculture/_AGRICULTURE_2021_MANEB_P1.pdf",
-    "size": 270414,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f2363ed6a7"
-  },
-  {
-    "name": "Agr 2020 Mzuzu Diocese Form 4 Mock Paper 1.pdf",
-    "path": "Exams/Agriculture/Agr 2020 Mzuzu Diocese Form 4 Mock Paper I.pdf",
-    "size": 561379,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f9807348f3"
-  },
-  {
-    "name": "Agr 2021 Mzuzu Diocese Form 4 Mock Paper 1.pdf",
-    "path": "Exams/Agriculture/Agr 2021 Mzuzu Diocese Form 4 Mock Paper I.pdf",
-    "size": 461603,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f093727679"
-  },
-  {
-    "name": "agr f1.docx",
-    "path": "Exams/Agriculture/agr f1.docx",
-    "size": 31040,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f1f10f5dd2"
-  },
-  {
-    "name": "agr f2.docx",
-    "path": "Exams/Agriculture/agr f2.docx",
-    "size": 649185,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f3d923b0c7"
-  },
-  {
-    "name": "agr f3 p1.docx",
-    "path": "Exams/Agriculture/agr f3 p1.docx",
-    "size": 49064,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f593c001a2"
-  },
-  {
-    "name": "agr f3 p2 confid instr.docx",
-    "path": "Exams/Agriculture/agr f3 p2 confid instr.docx",
-    "size": 21769,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fbc84a2a71"
-  },
-  {
-    "name": "agr f3 p2.docx",
-    "path": "Exams/Agriculture/agr f3 p2.docx",
-    "size": 26756,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f199c02e3f"
-  },
-  {
-    "name": "agr f4 p1.docx",
-    "path": "Exams/Agriculture/agr f4 p1.docx",
-    "size": 142211,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f28814b872"
-  },
-  {
-    "name": "agr f4 p2 confid instr.docx",
-    "path": "Exams/Agriculture/agr f4 p2 confid instr.docx",
-    "size": 13364,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f63ed18e28"
-  },
-  {
-    "name": "agr f4 p2.docx",
-    "path": "Exams/Agriculture/agr f4 p2.docx",
-    "size": 143549,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f9d2c9404b"
-  },
-  {
-    "name": "Agr Mock St Mary's GSS 2021 Paper 1.pdf",
-    "path": "Exams/Agriculture/Agr Mock St Mary's GSS 2021 paper I.pdf",
-    "size": 830318,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f645c4f74a"
-  },
-  {
-    "name": "AGRI MOCK.pdf",
-    "path": "Exams/Agriculture/AGRI MOCK.pdf",
-    "size": 148282,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe9c0d84ab"
-  },
-  {
-    "name": "AGRIC PAPER 1.docx",
-    "path": "Exams/Agriculture/AGRIC PAPER 1 .docx",
-    "size": 131998,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f875dcb103"
-  },
-  {
-    "name": "AGRIC PAPER 1.pdf",
-    "path": "Exams/Agriculture/AGRIC PAPER 1 .pdf",
-    "size": 500598,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5dd7a7997"
-  },
-  {
-    "name": "AGRIC PAPER 2.docx",
-    "path": "Exams/Agriculture/AGRIC PAPER 2 .docx",
-    "size": 66900,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f6384d8e5b"
-  },
-  {
-    "name": "AGRIC PAPER 2.pdf",
-    "path": "Exams/Agriculture/AGRIC PAPER 2 .pdf",
-    "size": 444092,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f381451a33"
-  },
-  {
-    "name": "AGRICULTURE - 2026 BSS JCE CLUSTER MOCK.pdf",
-    "path": "Exams/Agriculture/AGRICULTURE - 2026 BSS JCE CLUSTER MOCK.pdf",
-    "size": 1068074,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f10d4cf03e"
-  },
-  {
-    "name": "AGRICULTURE 2026 SHED P2 final.docx",
-    "path": "Exams/Agriculture/AGRICULTURE 2026 SHED P2 final.docx",
-    "size": 48565,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fc88cd0f7f"
-  },
-  {
-    "name": "AGRICULTURE 2026 SHED P2 final.pdf",
-    "path": "Exams/Agriculture/AGRICULTURE 2026 SHED P2 final.pdf",
-    "size": 639303,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f7d8e57f80"
-  },
-  {
-    "name": "AGRICULTURE 2026 SHED P2 HI.docx",
-    "path": "Exams/Agriculture/AGRICULTURE 2026 SHED P2 HI.docx",
-    "size": 52284,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5e45fab43"
-  },
-  {
-    "name": "AGRICULTURE 2026 SHED P2 locomotar oral.docx",
-    "path": "Exams/Agriculture/AGRICULTURE 2026 SHED P2 locomotar oral.docx",
-    "size": 52468,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fd924fb512"
-  },
-  {
-    "name": "AGRICULTURE 2026 SHED P2.docx",
-    "path": "Exams/Agriculture/AGRICULTURE 2026 SHED P2.docx",
-    "size": 25833,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f84d99bdb2"
-  },
-  {
-    "name": "Agriculture I 2024 SEED MSCE MOCK.pdf",
-    "path": "Exams/Agriculture/Agriculture I 2024 SEED MSCE MOCK.pdf",
-    "size": 527493,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f086bf9ea4"
-  },
-  {
-    "name": "Agriculture I 2026 SEED MOCK.doc",
-    "path": "Exams/Agriculture/Agriculture I 2026 SEED MOCK.doc",
-    "size": 164352,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f21a11f3af"
-  },
-  {
-    "name": "Agriculture II 2024 SEED MSCE MOCK.pdf",
-    "path": "Exams/Agriculture/Agriculture II 2024 SEED MSCE MOCK.pdf",
-    "size": 312559,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f302431fd5"
-  },
-  {
-    "name": "Agriculture II 2026 SEED MOCK (practical).doc",
-    "path": "Exams/Agriculture/Agriculture II 2026 SEED MOCK (practical).doc",
-    "size": 99328,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f6d172bc8e"
-  },
-  {
-    "name": "Agriculture II 2026 SEED MOCK CONFIDENTIAL.doc",
-    "path": "Exams/Agriculture/Agriculture II 2026 SEED MOCK CONFIDENTIAL.doc",
-    "size": 24064,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f40fe760c9"
-  },
-  {
-    "name": "AGRICULTURE MSCE PAPERS.pdf",
-    "path": "Exams/Agriculture/AGRICULTURE MSCE PAPERS .pdf",
-    "size": 9230128,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f96216d8bc"
-  },
-  {
-    "name": "Agriculture Nkhamenya Cluster Form 4 Mock 2021 Paper 2.pdf",
-    "path": "Exams/Agriculture/Agriculture Nkhamenya Cluster Form 4 Mock 2021 Paper II.pdf",
-    "size": 161520,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f7c4218396"
-  },
-  {
-    "name": "AGRICULTURE P2 2026 SHED Confidential Instruction FINAL.docx",
-    "path": "Exams/Agriculture/AGRICULTURE P2 2026 SHED Confidential Instruction FINAL.docx",
-    "size": 14421,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe7c1e9151"
-  },
-  {
-    "name": "AGRICULTURE P2 2026 SHED Confidential Instruction FINAL.pdf",
-    "path": "Exams/Agriculture/AGRICULTURE P2 2026 SHED Confidential Instruction FINAL.pdf",
-    "size": 562440,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5706c73f1"
-  },
-  {
-    "name": "AGRICULTURE PAPER 1 - BSS 2026 CLUSTER MOCK.pdf",
-    "path": "Exams/Agriculture/AGRICULTURE PAPER 1 - BSS 2026 CLUSTER MOCK.pdf",
-    "size": 832246,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fd64e02031"
-  },
-  {
-    "name": "AGRICULTURE PAPER 2 - BSS 2026 CLUSTER MOCK-1.pdf",
-    "path": "Exams/Agriculture/AGRICULTURE PAPER 2 - BSS 2026 CLUSTER MOCK-1.pdf",
-    "size": 622312,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f967670883"
-  },
-  {
-    "name": "Agriculture Paper I.pdf",
-    "path": "Exams/Agriculture/Agriculture Paper I.pdf",
-    "size": 359027,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "fe43f47bb2"
-  },
-  {
-    "name": "Agriculture paper I.pdf",
-    "path": "Exams/Agriculture/Agriculture paper I.pdf",
-    "size": 419481,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fa0c3c682a"
-  },
-  {
-    "name": "Agriculture paper II.pdf",
-    "path": "Exams/Agriculture/Agriculture paper II.pdf",
-    "size": 318042,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fd8518c8fb"
-  },
-  {
-    "name": "AGRICULTURE PAST PAPERS MSCE - 2001 TO 2022-1.pdf",
-    "path": "Exams/Agriculture/AGRICULTURE PAST PAPERS MSCE - 2001 TO 2022-1.pdf",
-    "size": 14921928,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f398a3b47f"
-  },
-  {
-    "name": "AGRICULTURE_4&3_COMBINED-1-1-1-1-1.pdf",
-    "path": "Exams/Agriculture/AGRICULTURE_4&3_COMBINED-1-1-1-1-1_(1).pdf",
-    "size": 774144,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fae9ec7486"
-  },
-  {
-    "name": "AGRICULTURE_4&3_COMBINED.pdf",
-    "path": "Exams/Agriculture/AGRICULTURE_4&3_COMBINED.pdf",
-    "size": 770111,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5b9871d76"
-  },
-  {
-    "name": "AGRICULTURE_FORM_3_END_OF_TERM_1_EXAMS.pdf",
-    "path": "Exams/Agriculture/AGRICULTURE_FORM_3_END_OF_TERM_1_EXAMS.pdf",
-    "size": 359511,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f1180d1cf9"
-  },
-  {
-    "name": "agriculture_form_4_paper_2-1.pdf",
-    "path": "Exams/Agriculture/agriculture_form_4_paper_2-1.pdf",
-    "size": 124857,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "fc5aa73ea8"
-  },
-  {
-    "name": "AGRICULTURE_I__MSCE_MOCK_EXAMS-1.pdf",
-    "path": "Exams/Agriculture/AGRICULTURE_I__MSCE_MOCK_EXAMS-1.pdf",
-    "size": 530931,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f9519c218c"
-  },
-  {
-    "name": "AGRICULTURE_JCE(2013)_1.pdf",
-    "path": "Exams/Agriculture/AGRICULTURE_JCE(2013)_1.pdf",
-    "size": 3458485,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fbe8ca96e2"
-  },
-  {
-    "name": "AGRICULTURE_JCE(2015)_1.pdf",
-    "path": "Exams/Agriculture/AGRICULTURE_JCE(2015)_1.pdf",
-    "size": 4347726,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f0423ff77b"
-  },
-  {
-    "name": "AGRICULTURE_JCE_MOCK_1.pdf",
-    "path": "Exams/Agriculture/AGRICULTURE_JCE_MOCK_1.pdf",
-    "size": 534198,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f67439a5b5"
-  },
-  {
-    "name": "AGRICULTURE_MOCK.pdf",
-    "path": "Exams/Agriculture/AGRICULTURE_MOCK.pdf",
-    "size": 520544,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "fad7800dfa"
-  },
-  {
-    "name": "AGRICULTURE_MOCK_2.pdf",
-    "path": "Exams/Agriculture/AGRICULTURE_MOCK_2.pdf",
-    "size": 361042,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "fd43731ca1"
-  },
-  {
-    "name": "Agriculture_MSCE_paper_1_2026.pdf",
-    "path": "Exams/Agriculture/Agriculture_MSCE_paper_1_2026.pdf",
-    "size": 304537,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "ffcf039e60"
-  },
-  {
-    "name": "AGRICULTURE_PAPER_1-1.pdf",
-    "path": "Exams/Agriculture/AGRICULTURE_PAPER_1-1.pdf",
-    "size": 430233,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f0db110e0b"
-  },
-  {
-    "name": "AGRICULTURE_PAPER_1.pdf",
-    "path": "Exams/Agriculture/AGRICULTURE_PAPER_1.pdf",
-    "size": 229317,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f30c118a34"
-  },
-  {
-    "name": "AGRICULTURE_PAPER_I_MOCK_2021.pdf",
-    "path": "Exams/Agriculture/AGRICULTURE_PAPER_I_MOCK_2021.pdf",
-    "size": 15326,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f123b136d1"
-  },
-  {
-    "name": "agriculture_PAPER_II-1.pdf",
-    "path": "Exams/Agriculture/agriculture_PAPER_II-1.pdf",
-    "size": 913305,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fab288add1"
-  },
-  {
-    "name": "Agriculture_Paper_II_Q.pdf",
-    "path": "Exams/Agriculture/Agriculture_Paper_II_Q_(1).pdf",
-    "size": 780801,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f44c6bcddf"
-  },
-  {
-    "name": "AgriF42022T3P2Mock 2%.pdf",
-    "path": "Exams/Agriculture/AgriF42022T3P2Mock 2%.pdf",
-    "size": 131,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f424137651"
-  },
-  {
-    "name": "Chief Examiners Report 2021 MSCE Agriculture Paper 1 & 2.pdf",
-    "path": "Exams/Agriculture/Chief Examiners Report 2021 MSCE AGRICULTURE Paper I & II.pdf",
-    "size": 747418,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "fc27718cc5"
-  },
-  {
-    "name": "CHITSEKOFH - JCE AGRICULTURE QUESTIONS & ANSWERS_1.pdf",
-    "path": "Exams/Agriculture/CHITSEKOFH - JCE AGRICULTURE QUESTIONS & ANSWERS_1.pdf",
-    "size": 3029398,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f4b7ce0caa"
-  },
-  {
-    "name": "CONFIDENTIAL INSTRUCTION - AGRICULTURE II.docx",
-    "path": "Exams/Agriculture/CONFIDENTIAL INSTRUCTION - AGRICULTURE II.docx",
-    "size": 174072,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fbf91be327"
-  },
-  {
-    "name": "H",
-    "path": "Exams/Agriculture/H",
-    "size": 1,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe4134b2fc"
-  },
-  {
-    "name": "JCE Agr Loyola mock-1.docx",
-    "path": "Exams/Agriculture/JCE Agr Loyola mock-1.docx",
-    "size": 1015174,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f80494618c"
-  },
-  {
-    "name": "JCE Agr Loyola mock-1.pdf",
-    "path": "Exams/Agriculture/JCE Agr Loyola mock-1.pdf",
-    "size": 338033,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fb4b6c3013"
-  },
-  {
-    "name": "JCE AGRI MANEB 2025_1.pdf",
-    "path": "Exams/Agriculture/JCE AGRI MANEB 2025_1.pdf",
-    "size": 2412076,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f2901caee2"
-  },
-  {
-    "name": "JCE Agriculture Examination (Paper J012).docx",
-    "path": "Exams/Agriculture/JCE Agriculture Examination (Paper J012).docx",
-    "size": 509316,
-    "repo": "e-library-media-2",
-    "bucket": 1,
-    "id": "f987e14538",
-    "level": "jce"
-  },
-  {
-    "name": "JCE AGRICULTURE PAST PAPERS__FHC2022.pdf",
-    "path": "Exams/Agriculture/JCE AGRICULTURE PAST PAPERS__FHC2022.pdf",
-    "size": 5858467,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fb3fd53ec8"
-  },
-  {
-    "name": "JCE AGRICULTURE QUESTIONS & ANSWERS_1.pdf",
-    "path": "Exams/Agriculture/JCE AGRICULTURE QUESTIONS & ANSWERS_1.pdf",
-    "size": 1211778,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f75ed1fba2"
-  },
-  {
-    "name": "JCE AGRICULTURE_1.pdf",
-    "path": "Exams/Agriculture/JCE AGRICULTURE_1.pdf",
-    "size": 656367,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f525da204b"
-  },
-  {
-    "name": "LOYOLA_mock_agri_I.pdf",
-    "path": "Exams/Agriculture/LOYOLA_mock_agri_I.pdf",
-    "size": 185088,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f6bc906555"
-  },
-  {
-    "name": "MANEB 2021 JCE Agr Sample Paper.pdf",
-    "path": "Exams/Agriculture/MANEB 2021 JCE Agr Sample Paper.pdf",
+    "name": "2021 MANEB JCE Agriculture Sample Paper.pdf",
+    "path": "Exams/Agriculture/2021 MANEB JCE Agriculture Sample Paper.pdf",
     "size": 4051800,
     "repo": "e-library-media-2",
     "bucket": 2,
     "id": "f3f42723f1"
   },
   {
-    "name": "1 AGRI PAPER 1 KEY.docx",
-    "path": "Exams/Agriculture/Marking Keys/1 AGRI PAPER 1 KEY.docx",
+    "name": "2021 MANEB MSCE Agriculture Paper I.pdf",
+    "path": "Exams/Agriculture/2021 MANEB MSCE Agriculture Paper I.pdf",
+    "size": 270414,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f2363ed6a7"
+  },
+  {
+    "name": "2021 MSCE Agriculture Mock Exam.pdf",
+    "path": "Exams/Agriculture/2021 MSCE Agriculture Mock Exam.pdf",
+    "size": 129395,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fc36038da6"
+  },
+  {
+    "name": "2021 MSCE Agriculture Paper I Exam.pdf",
+    "path": "Exams/Agriculture/2021 MSCE Agriculture Paper I Exam.pdf",
+    "size": 345860,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f5ed282055"
+  },
+  {
+    "name": "2021 MSCE Agriculture Paper I Mock Exam (Set 2).pdf",
+    "path": "Exams/Agriculture/2021 MSCE Agriculture Paper I Mock Exam (Set 2).pdf",
+    "size": 15326,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f123b136d1"
+  },
+  {
+    "name": "2021 Mzuzu Diocese Form 4 MSCE Agriculture Paper I Mock Exam.pdf",
+    "path": "Exams/Agriculture/2021 Mzuzu Diocese Form 4 MSCE Agriculture Paper I Mock Exam.pdf",
+    "size": 461603,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f093727679"
+  },
+  {
+    "name": "2021 Mzuzu Diocese MSCE Agriculture Paper 2 Mock Exam.pdf",
+    "path": "Exams/Agriculture/2021 Mzuzu Diocese MSCE Agriculture Paper 2 Mock Exam.pdf",
+    "size": 102772,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fd40e0bda9",
+    "level": "msce"
+  },
+  {
+    "name": "2021 Nkhamenya Cluster Form 4 MSCE Agriculture Paper II Mock Exam.pdf",
+    "path": "Exams/Agriculture/2021 Nkhamenya Cluster Form 4 MSCE Agriculture Paper II Mock Exam.pdf",
+    "size": 161520,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f7c4218396"
+  },
+  {
+    "name": "2021 Providence Cluster JCE Agriculture Mock Exam.pdf",
+    "path": "Exams/Agriculture/2021 Providence Cluster JCE Agriculture Mock Exam.pdf",
+    "size": 287201,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f51d21063a",
+    "level": "jce"
+  },
+  {
+    "name": "2021 St Marys GSS MSCE Agriculture Paper I Mock Exam.pdf",
+    "path": "Exams/Agriculture/2021 St Marys GSS MSCE Agriculture Paper I Mock Exam.pdf",
+    "size": 830318,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f645c4f74a"
+  },
+  {
+    "name": "2021 Synods MSCE Agriculture Paper II Mock Exam.docx",
+    "path": "Exams/Agriculture/2021 Synods MSCE Agriculture Paper II Mock Exam.docx",
+    "size": 168967,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fe9d473116"
+  },
+  {
+    "name": "2022 Form 4 MSCE Agriculture Paper II Term 3 Mock Exam.pdf",
+    "path": "Exams/Agriculture/2022 Form 4 MSCE Agriculture Paper II Term 3 Mock Exam.pdf",
+    "size": 200172,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f424137651"
+  },
+  {
+    "name": "2022 MANEB MSCE Agriculture Paper II.pdf",
+    "path": "Exams/Agriculture/2022 MANEB MSCE Agriculture Paper II.pdf",
+    "size": 1345743,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f7c83d6ff6"
+  },
+  {
+    "name": "2022 Michiru View MSCE Agriculture Paper 1 Mock Exam.pdf",
+    "path": "Exams/Agriculture/2022 Michiru View MSCE Agriculture Paper 1 Mock Exam.pdf",
+    "size": 303689,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fec5ab684d"
+  },
+  {
+    "name": "2022 MSCE Agriculture Paper 1 Exam.pdf",
+    "path": "Exams/Agriculture/2022 MSCE Agriculture Paper 1 Exam.pdf",
+    "size": 449026,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f44970736a"
+  },
+  {
+    "name": "2022 MSCE Agriculture Paper 1 Mock Exam.pdf",
+    "path": "Exams/Agriculture/2022 MSCE Agriculture Paper 1 Mock Exam.pdf",
+    "size": 290107,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fbdadfb893"
+  },
+  {
+    "name": "2023 DESSHA MSCE Agriculture Paper II Mock Exam.pdf",
+    "path": "Exams/Agriculture/2023 DESSHA MSCE Agriculture Paper II Mock Exam.pdf",
+    "size": 713858,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fd49318401"
+  },
+  {
+    "name": "2023 JCE Agriculture Exam.pdf",
+    "path": "Exams/Agriculture/2023 JCE Agriculture Exam.pdf",
+    "size": 1321914,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f98fd087ec"
+  },
+  {
+    "name": "2023 JCE Agriculture Mock Exam.pdf",
+    "path": "Exams/Agriculture/2023 JCE Agriculture Mock Exam.pdf",
+    "size": 268046,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f850fe1893"
+  },
+  {
+    "name": "2023 MANEB JCE Agriculture Exam.pdf",
+    "path": "Exams/Agriculture/2023 MANEB JCE Agriculture Exam.pdf",
+    "size": 8774941,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f27ae7ff8d"
+  },
+  {
+    "name": "2023 MANEB MSCE Agriculture Paper 1 Sample Exam.pdf",
+    "path": "Exams/Agriculture/2023 MANEB MSCE Agriculture Paper 1 Sample Exam.pdf",
+    "size": 3638772,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f76c6c0a62"
+  },
+  {
+    "name": "2023 MANEB MSCE Agriculture Paper I.pdf",
+    "path": "Exams/Agriculture/2023 MANEB MSCE Agriculture Paper I.pdf",
+    "size": 1013220,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f8c94bd5db"
+  },
+  {
+    "name": "2023 MANEB MSCE Agriculture Paper II.pdf",
+    "path": "Exams/Agriculture/2023 MANEB MSCE Agriculture Paper II.pdf",
+    "size": 2554358,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f84b024685"
+  },
+  {
+    "name": "2024 ACA MSCE Agriculture Paper II Mock Exam.pdf",
+    "path": "Exams/Agriculture/2024 ACA MSCE Agriculture Paper II Mock Exam.pdf",
+    "size": 204871,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f6638e5a71"
+  },
+  {
+    "name": "2024 CEED MSCE Agriculture Paper I Mock Exam.pdf",
+    "path": "Exams/Agriculture/2024 CEED MSCE Agriculture Paper I Mock Exam.pdf",
+    "size": 501042,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f5e16d2990"
+  },
+  {
+    "name": "2024 CEED MSCE Agriculture Paper II Mock Exam.pdf",
+    "path": "Exams/Agriculture/2024 CEED MSCE Agriculture Paper II Mock Exam.pdf",
+    "size": 598909,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f08b692842"
+  },
+  {
+    "name": "2024 DESSHA MSCE Agriculture Paper I Mock Exam.pdf",
+    "path": "Exams/Agriculture/2024 DESSHA MSCE Agriculture Paper I Mock Exam.pdf",
+    "size": 695798,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f06c5371cc"
+  },
+  {
+    "name": "2024 Kugwetsa MSCE Agriculture Practical Mock Exam.pdf",
+    "path": "Exams/Agriculture/2024 Kugwetsa MSCE Agriculture Practical Mock Exam.pdf",
+    "size": 942367,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "ffe7c381bf"
+  },
+  {
+    "name": "2024 MANEB JCE Agriculture Exam.pdf",
+    "path": "Exams/Agriculture/2024 MANEB JCE Agriculture Exam.pdf",
+    "size": 4060906,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f43f0661b2"
+  },
+  {
+    "name": "2024 MANEB MSCE Agriculture Paper I.pdf",
+    "path": "Exams/Agriculture/2024 MANEB MSCE Agriculture Paper I.pdf",
+    "size": 1909419,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f0cda38285"
+  },
+  {
+    "name": "2024 MANEB MSCE Agriculture Paper II.pdf",
+    "path": "Exams/Agriculture/2024 MANEB MSCE Agriculture Paper II.pdf",
+    "size": 1134099,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fd8d76cf9d"
+  },
+  {
+    "name": "2024 Mwanza Cluster MSCE Agriculture Paper I Mock Exam.pdf",
+    "path": "Exams/Agriculture/2024 Mwanza Cluster MSCE Agriculture Paper I Mock Exam.pdf",
+    "size": 497470,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "ff30155567"
+  },
+  {
+    "name": "2024 Mwanza Cluster MSCE Agriculture Paper II Mock Exam.pdf",
+    "path": "Exams/Agriculture/2024 Mwanza Cluster MSCE Agriculture Paper II Mock Exam.pdf",
+    "size": 498529,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "faf1a1ae48"
+  },
+  {
+    "name": "2024 NED MSCE Agriculture Paper 2 Mock Exam.pdf",
+    "path": "Exams/Agriculture/2024 NED MSCE Agriculture Paper 2 Mock Exam.pdf",
+    "size": 1489285,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f327885f88"
+  },
+  {
+    "name": "2024 SEED MSCE Agriculture Paper I Mock Exam.pdf",
+    "path": "Exams/Agriculture/2024 SEED MSCE Agriculture Paper I Mock Exam.pdf",
+    "size": 527493,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f086bf9ea4"
+  },
+  {
+    "name": "2024 SEED MSCE Agriculture Paper II Mock Exam.pdf",
+    "path": "Exams/Agriculture/2024 SEED MSCE Agriculture Paper II Mock Exam.pdf",
+    "size": 312559,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f302431fd5"
+  },
+  {
+    "name": "2024 SHED MSCE Agriculture Paper I Mock Exam.pdf",
+    "path": "Exams/Agriculture/2024 SHED MSCE Agriculture Paper I Mock Exam.pdf",
+    "size": 206667,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "faef14c94a"
+  },
+  {
+    "name": "2025 MANEB JCE Agriculture Exam.pdf",
+    "path": "Exams/Agriculture/2025 MANEB JCE Agriculture Exam.pdf",
+    "size": 2412076,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f2901caee2"
+  },
+  {
+    "name": "2025 MANEB MSCE Agriculture Exam.pdf",
+    "path": "Exams/Agriculture/2025 MANEB MSCE Agriculture Exam.pdf",
+    "size": 2907209,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f4b4f2b18f"
+  },
+  {
+    "name": "2025 Mangochi Diocese MSCE Agriculture Paper 1 Mock Exam.docx",
+    "path": "Exams/Agriculture/2025 Mangochi Diocese MSCE Agriculture Paper 1 Mock Exam.docx",
+    "size": 330572,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f1bdd0d8fb",
+    "level": "msce"
+  },
+  {
+    "name": "2025 Mangochi Diocese MSCE Agriculture Paper 2 Mock Exam.docx",
+    "path": "Exams/Agriculture/2025 Mangochi Diocese MSCE Agriculture Paper 2 Mock Exam.docx",
+    "size": 1083091,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f3d8241b62",
+    "level": "msce"
+  },
+  {
+    "name": "2025 Maranatha MSCE Agriculture Paper 1 Mock 5 Exam.pdf",
+    "path": "Exams/Agriculture/2025 Maranatha MSCE Agriculture Paper 1 Mock 5 Exam.pdf",
+    "size": 1734829,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fa36f86c14"
+  },
+  {
+    "name": "2025 MSCE Agriculture Paper 2 Mock Exam (Set 2).docx",
+    "path": "Exams/Agriculture/2025 MSCE Agriculture Paper 2 Mock Exam (Set 2).docx",
+    "size": 1870841,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f90e245f76"
+  },
+  {
+    "name": "2025 MSCE Agriculture Paper 2 Mock Exam (Set 2).pdf",
+    "path": "Exams/Agriculture/2025 MSCE Agriculture Paper 2 Mock Exam (Set 2).pdf",
+    "size": 72683,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "facd51cad5"
+  },
+  {
+    "name": "2025 MSCE Agriculture Paper I Mock Exam (Set 2).docx",
+    "path": "Exams/Agriculture/2025 MSCE Agriculture Paper I Mock Exam (Set 2).docx",
+    "size": 128322,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f38d036cda"
+  },
+  {
+    "name": "2025 MSCE Agriculture Paper I Mock Exam (Set 2).pdf",
+    "path": "Exams/Agriculture/2025 MSCE Agriculture Paper I Mock Exam (Set 2).pdf",
+    "size": 182026,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f36a63747d"
+  },
+  {
+    "name": "2025 MSCE Agriculture Paper I Mock Exam.pdf",
+    "path": "Exams/Agriculture/2025 MSCE Agriculture Paper I Mock Exam.pdf",
+    "size": 1443416,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fa3678814e"
+  },
+  {
+    "name": "2025 MYMA Agriculture Term 2 Confidential Instructions.docx",
+    "path": "Exams/Agriculture/2025 MYMA Agriculture Term 2 Confidential Instructions.docx",
+    "size": 14648,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fcdd41f936"
+  },
+  {
+    "name": "2025 NED MSCE Agriculture Paper 1 Mock Exam.pdf",
+    "path": "Exams/Agriculture/2025 NED MSCE Agriculture Paper 1 Mock Exam.pdf",
+    "size": 625137,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fbadf103ad"
+  },
+  {
+    "name": "2025 SEED MSCE Agriculture Paper I Mock Exam.doc",
+    "path": "Exams/Agriculture/2025 SEED MSCE Agriculture Paper I Mock Exam.doc",
+    "size": 136704,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f48d2a611d"
+  },
+  {
+    "name": "2025 SEED MSCE Agriculture Paper II Mock Exam.doc",
+    "path": "Exams/Agriculture/2025 SEED MSCE Agriculture Paper II Mock Exam.doc",
+    "size": 296960,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fed00cd182"
+  },
+  {
+    "name": "2025 SWED MSCE Agriculture Paper I Mock Exam.pdf",
+    "path": "Exams/Agriculture/2025 SWED MSCE Agriculture Paper I Mock Exam.pdf",
+    "size": 668001,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f05f8141fd"
+  },
+  {
+    "name": "2026 BSS JCE Agriculture Cluster Mock Exam.pdf",
+    "path": "Exams/Agriculture/2026 BSS JCE Agriculture Cluster Mock Exam.pdf",
+    "size": 1068074,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f10d4cf03e"
+  },
+  {
+    "name": "2026 BSS MSCE Agriculture Paper 1 Cluster Mock Exam.pdf",
+    "path": "Exams/Agriculture/2026 BSS MSCE Agriculture Paper 1 Cluster Mock Exam.pdf",
+    "size": 832246,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fd64e02031"
+  },
+  {
+    "name": "2026 BSS MSCE Agriculture Paper 2 Cluster Mock Exam.pdf",
+    "path": "Exams/Agriculture/2026 BSS MSCE Agriculture Paper 2 Cluster Mock Exam.pdf",
+    "size": 622312,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f967670883"
+  },
+  {
+    "name": "2026 CEED MSCE Agriculture Paper I Mock Exam.pdf",
+    "path": "Exams/Agriculture/2026 CEED MSCE Agriculture Paper I Mock Exam.pdf",
+    "size": 666702,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f2071ba2f2"
+  },
+  {
+    "name": "2026 CEED MSCE Agriculture Paper II Mock Exam.pdf",
+    "path": "Exams/Agriculture/2026 CEED MSCE Agriculture Paper II Mock Exam.pdf",
+    "size": 180839,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f226f14ba9"
+  },
+  {
+    "name": "2026 MANEB MSCE Agriculture Paper I.pdf",
+    "path": "Exams/Agriculture/2026 MANEB MSCE Agriculture Paper I.pdf",
+    "size": 2291608,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "feb1b45613"
+  },
+  {
+    "name": "2026 MANEB MSCE Agriculture Paper II.pdf",
+    "path": "Exams/Agriculture/2026 MANEB MSCE Agriculture Paper II.pdf",
+    "size": 1193453,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f7c29eaed4"
+  },
+  {
+    "name": "2026 Maranatha MSCE Agriculture Paper I Mock 2 Exam.pdf",
+    "path": "Exams/Agriculture/2026 Maranatha MSCE Agriculture Paper I Mock 2 Exam.pdf",
+    "size": 2712261,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f7b3692a2d"
+  },
+  {
+    "name": "2026 MSCE Agriculture Paper 1 Exam.pdf",
+    "path": "Exams/Agriculture/2026 MSCE Agriculture Paper 1 Exam.pdf",
+    "size": 304537,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "ffcf039e60"
+  },
+  {
+    "name": "2026 MSCE Agriculture Paper 1 Mock Exam.pdf",
+    "path": "Exams/Agriculture/2026 MSCE Agriculture Paper 1 Mock Exam.pdf",
+    "size": 982465,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f48b496b00"
+  },
+  {
+    "name": "2026 MSCE Agriculture Paper I Exam (Braille).docx",
+    "path": "Exams/Agriculture/2026 MSCE Agriculture Paper I Exam (Braille).docx",
+    "size": 35053,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f347bb5164"
+  },
+  {
+    "name": "2026 MSCE Agriculture Paper I Exam (Final).docx",
+    "path": "Exams/Agriculture/2026 MSCE Agriculture Paper I Exam (Final).docx",
+    "size": 206448,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fa828fc1b6"
+  },
+  {
+    "name": "2026 MSCE Agriculture Paper I Exam (Final).pdf",
+    "path": "Exams/Agriculture/2026 MSCE Agriculture Paper I Exam (Final).pdf",
+    "size": 379457,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fd066296b9"
+  },
+  {
+    "name": "2026 MSCE Agriculture Paper I Exam (HI).docx",
+    "path": "Exams/Agriculture/2026 MSCE Agriculture Paper I Exam (HI).docx",
+    "size": 200695,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fa00c4969d"
+  },
+  {
+    "name": "2026 MSCE Agriculture Paper I Exam (Oral).docx",
+    "path": "Exams/Agriculture/2026 MSCE Agriculture Paper I Exam (Oral).docx",
+    "size": 191646,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f53197f911"
+  },
+  {
+    "name": "2026 MYMA Agriculture Term 2 Mock Practical 1.docx",
+    "path": "Exams/Agriculture/2026 MYMA Agriculture Term 2 Mock Practical 1.docx",
+    "size": 23790,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "ff09501c01"
+  },
+  {
+    "name": "2026 NED JCE Agriculture Paper 1 Mock Exam (Moderated).docx",
+    "path": "Exams/Agriculture/2026 NED JCE Agriculture Paper 1 Mock Exam (Moderated).docx",
+    "size": 1058858,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fb3b854444"
+  },
+  {
+    "name": "2026 NED MSCE Agriculture Paper 2 Mock Exam.pdf",
+    "path": "Exams/Agriculture/2026 NED MSCE Agriculture Paper 2 Mock Exam.pdf",
+    "size": 1427256,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f972bfcefe"
+  },
+  {
+    "name": "2026 SEED MSCE Agriculture Paper I Mock Exam.doc",
+    "path": "Exams/Agriculture/2026 SEED MSCE Agriculture Paper I Mock Exam.doc",
+    "size": 164352,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f21a11f3af"
+  },
+  {
+    "name": "2026 SEED MSCE Agriculture Paper II Confidential Instructions.doc",
+    "path": "Exams/Agriculture/2026 SEED MSCE Agriculture Paper II Confidential Instructions.doc",
+    "size": 24064,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f40fe760c9"
+  },
+  {
+    "name": "2026 SEED MSCE Agriculture Paper II Practical Mock Exam.doc",
+    "path": "Exams/Agriculture/2026 SEED MSCE Agriculture Paper II Practical Mock Exam.doc",
+    "size": 99328,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f6d172bc8e"
+  },
+  {
+    "name": "2026 SHED MSCE Agriculture Paper II Confidential Instructions (Final).docx",
+    "path": "Exams/Agriculture/2026 SHED MSCE Agriculture Paper II Confidential Instructions (Final).docx",
+    "size": 14421,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fe7c1e9151"
+  },
+  {
+    "name": "2026 SHED MSCE Agriculture Paper II Confidential Instructions (Final).pdf",
+    "path": "Exams/Agriculture/2026 SHED MSCE Agriculture Paper II Confidential Instructions (Final).pdf",
+    "size": 562440,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f5706c73f1"
+  },
+  {
+    "name": "2026 SHED MSCE Agriculture Paper II Mock Exam (Final).docx",
+    "path": "Exams/Agriculture/2026 SHED MSCE Agriculture Paper II Mock Exam (Final).docx",
+    "size": 48565,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fc88cd0f7f"
+  },
+  {
+    "name": "2026 SHED MSCE Agriculture Paper II Mock Exam (Final).pdf",
+    "path": "Exams/Agriculture/2026 SHED MSCE Agriculture Paper II Mock Exam (Final).pdf",
+    "size": 639303,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f7d8e57f80"
+  },
+  {
+    "name": "2026 SHED MSCE Agriculture Paper II Mock Exam (HI).docx",
+    "path": "Exams/Agriculture/2026 SHED MSCE Agriculture Paper II Mock Exam (HI).docx",
+    "size": 52284,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f5e45fab43"
+  },
+  {
+    "name": "2026 SHED MSCE Agriculture Paper II Mock Exam (Locomotor Oral).docx",
+    "path": "Exams/Agriculture/2026 SHED MSCE Agriculture Paper II Mock Exam (Locomotor Oral).docx",
+    "size": 52468,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fd924fb512"
+  },
+  {
+    "name": "2026 SHED MSCE Agriculture Paper II Mock Exam.docx",
+    "path": "Exams/Agriculture/2026 SHED MSCE Agriculture Paper II Mock Exam.docx",
+    "size": 25833,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f84d99bdb2"
+  },
+  {
+    "name": "Form 1 Agriculture Exam.docx",
+    "path": "Exams/Agriculture/Form 1 Agriculture Exam.docx",
+    "size": 31040,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f1f10f5dd2"
+  },
+  {
+    "name": "Form 2 Agriculture Exam.docx",
+    "path": "Exams/Agriculture/Form 2 Agriculture Exam.docx",
+    "size": 649185,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f3d923b0c7"
+  },
+  {
+    "name": "Form 3 Agriculture End of Term 1 Exam.pdf",
+    "path": "Exams/Agriculture/Form 3 Agriculture End of Term 1 Exam.pdf",
+    "size": 359511,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f1180d1cf9"
+  },
+  {
+    "name": "Form 3 Agriculture Paper 1 Exam.docx",
+    "path": "Exams/Agriculture/Form 3 Agriculture Paper 1 Exam.docx",
+    "size": 49064,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f593c001a2"
+  },
+  {
+    "name": "Form 3 Agriculture Paper 2 Confidential Instructions.docx",
+    "path": "Exams/Agriculture/Form 3 Agriculture Paper 2 Confidential Instructions.docx",
+    "size": 21769,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fbc84a2a71"
+  },
+  {
+    "name": "Form 3 Agriculture Paper 2 Exam.docx",
+    "path": "Exams/Agriculture/Form 3 Agriculture Paper 2 Exam.docx",
+    "size": 26756,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f199c02e3f"
+  },
+  {
+    "name": "Form 4 Agriculture Paper 1 Exam.docx",
+    "path": "Exams/Agriculture/Form 4 Agriculture Paper 1 Exam.docx",
+    "size": 142211,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f28814b872"
+  },
+  {
+    "name": "Form 4 Agriculture Paper 2 Confidential Instructions.docx",
+    "path": "Exams/Agriculture/Form 4 Agriculture Paper 2 Confidential Instructions.docx",
+    "size": 13364,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f63ed18e28"
+  },
+  {
+    "name": "Form 4 Agriculture Paper 2 Exam.docx",
+    "path": "Exams/Agriculture/Form 4 Agriculture Paper 2 Exam.docx",
+    "size": 143549,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f9d2c9404b"
+  },
+  {
+    "name": "Form 4 MSCE Agriculture Paper 2 Mock Exam.pdf",
+    "path": "Exams/Agriculture/Form 4 MSCE Agriculture Paper 2 Mock Exam.pdf",
+    "size": 124857,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fc5aa73ea8"
+  },
+  {
+    "name": "JCE Agriculture Exam (Set 3).pdf",
+    "path": "Exams/Agriculture/JCE Agriculture Exam (Set 3).pdf",
+    "size": 656367,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f525da204b"
+  },
+  {
+    "name": "JCE Agriculture Examination Paper J012.docx",
+    "path": "Exams/Agriculture/JCE Agriculture Examination Paper J012.docx",
+    "size": 509316,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f987e14538",
+    "level": "jce"
+  },
+  {
+    "name": "JCE Agriculture Mock Exam (Set 2).pdf",
+    "path": "Exams/Agriculture/JCE Agriculture Mock Exam (Set 2).pdf",
+    "size": 534198,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f67439a5b5"
+  },
+  {
+    "name": "JCE Agriculture Past Papers Compilation (FHC).pdf",
+    "path": "Exams/Agriculture/JCE Agriculture Past Papers Compilation (FHC).pdf",
+    "size": 5858467,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fb3fd53ec8"
+  },
+  {
+    "name": "Loyola JCE Agriculture Mock Exam.docx",
+    "path": "Exams/Agriculture/Loyola JCE Agriculture Mock Exam.docx",
+    "size": 1015174,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f80494618c"
+  },
+  {
+    "name": "Loyola JCE Agriculture Mock Exam.pdf",
+    "path": "Exams/Agriculture/Loyola JCE Agriculture Mock Exam.pdf",
+    "size": 338033,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fb4b6c3013"
+  },
+  {
+    "name": "Loyola MSCE Agriculture Paper I Mock Exam.pdf",
+    "path": "Exams/Agriculture/Loyola MSCE Agriculture Paper I Mock Exam.pdf",
+    "size": 185088,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f6bc906555"
+  },
+  {
+    "name": "2019 MANEB MSCE Agriculture Chief Examiners Report Paper I and II.pdf",
+    "path": "Exams/Agriculture/Marking Keys/2019 MANEB MSCE Agriculture Chief Examiners Report Paper I and II.pdf",
+    "size": 97609,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f584049cf4"
+  },
+  {
+    "name": "2021 MANEB MSCE Agriculture Chief Examiners Report Paper I and II.pdf",
+    "path": "Exams/Agriculture/Marking Keys/2021 MANEB MSCE Agriculture Chief Examiners Report Paper I and II.pdf",
+    "size": 747418,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fc27718cc5"
+  },
+  {
+    "name": "2024 MANEB JCE Agriculture Chief Examiners Report.pdf",
+    "path": "Exams/Agriculture/Marking Keys/2024 MANEB JCE Agriculture Chief Examiners Report.pdf",
+    "size": 673783,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f27fe2e950"
+  },
+  {
+    "name": "2024 MANEB MSCE Agriculture Chief Examiners Report.pdf",
+    "path": "Exams/Agriculture/Marking Keys/2024 MANEB MSCE Agriculture Chief Examiners Report.pdf",
+    "size": 702051,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fa03debf62"
+  },
+  {
+    "name": "2024 SEED MSCE Agriculture Paper I Marking Key.pdf",
+    "path": "Exams/Agriculture/Marking Keys/2024 SEED MSCE Agriculture Paper I Marking Key.pdf",
+    "size": 632105,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f468bd02db"
+  },
+  {
+    "name": "2024 SEED MSCE Agriculture Paper II Marking Key.pdf",
+    "path": "Exams/Agriculture/Marking Keys/2024 SEED MSCE Agriculture Paper II Marking Key.pdf",
+    "size": 498602,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fe84f17aa0"
+  },
+  {
+    "name": "2026 BSS JCE Agriculture Cluster Mock Marking Key.docx",
+    "path": "Exams/Agriculture/Marking Keys/2026 BSS JCE Agriculture Cluster Mock Marking Key.docx",
+    "size": 16844,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f0b0379e6c"
+  },
+  {
+    "name": "2026 MSCE Agriculture Paper I Marking Key (Final).docx",
+    "path": "Exams/Agriculture/Marking Keys/2026 MSCE Agriculture Paper I Marking Key (Final).docx",
+    "size": 230386,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f352e40cf8"
+  },
+  {
+    "name": "2026 MSCE Agriculture Paper I Marking Key (Final).pdf",
+    "path": "Exams/Agriculture/Marking Keys/2026 MSCE Agriculture Paper I Marking Key (Final).pdf",
+    "size": 309811,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f77561c28c"
+  },
+  {
+    "name": "2026 MSCE Agriculture Paper I Marking Key (Oral).docx",
+    "path": "Exams/Agriculture/Marking Keys/2026 MSCE Agriculture Paper I Marking Key (Oral).docx",
+    "size": 230524,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f7f3015ecb"
+  },
+  {
+    "name": "2026 MSCE Agriculture Paper I Marking Key.docx",
+    "path": "Exams/Agriculture/Marking Keys/2026 MSCE Agriculture Paper I Marking Key.docx",
+    "size": 271101,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fe084eaed0"
+  },
+  {
+    "name": "2026 MSCE Agriculture Paper I Provisional Marking Key.pdf",
+    "path": "Exams/Agriculture/Marking Keys/2026 MSCE Agriculture Paper I Provisional Marking Key.pdf",
+    "size": 698891,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f7ecdfa823"
+  },
+  {
+    "name": "2026 MSCE Agriculture Paper II Provisional Marking Key.pdf",
+    "path": "Exams/Agriculture/Marking Keys/2026 MSCE Agriculture Paper II Provisional Marking Key.pdf",
+    "size": 586988,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f3bc5e69c5"
+  },
+  {
+    "name": "2026 MYMA MSCE Agriculture Paper 1 Mock Marking Key.docx",
+    "path": "Exams/Agriculture/Marking Keys/2026 MYMA MSCE Agriculture Paper 1 Mock Marking Key.docx",
+    "size": 27823,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f3bd2c7bfa"
+  },
+  {
+    "name": "2026 NED JCE Agriculture Mock 1 Marking Key (Moderated).docx",
+    "path": "Exams/Agriculture/Marking Keys/2026 NED JCE Agriculture Mock 1 Marking Key (Moderated).docx",
+    "size": 44312,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f919835c5c"
+  },
+  {
+    "name": "2026 SEED MSCE Agriculture Paper I Provisional Marking Key.doc",
+    "path": "Exams/Agriculture/Marking Keys/2026 SEED MSCE Agriculture Paper I Provisional Marking Key.doc",
+    "size": 71168,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "ff00e88521"
+  },
+  {
+    "name": "2026 SEED MSCE Agriculture Paper II Provisional Marking Key.doc",
+    "path": "Exams/Agriculture/Marking Keys/2026 SEED MSCE Agriculture Paper II Provisional Marking Key.doc",
+    "size": 228352,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f2ea7ec887"
+  },
+  {
+    "name": "2026 SHED MSCE Agriculture Paper 2 Marking Scheme (Draft 1).docx",
+    "path": "Exams/Agriculture/Marking Keys/2026 SHED MSCE Agriculture Paper 2 Marking Scheme (Draft 1).docx",
+    "size": 358382,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fdc69b0670"
+  },
+  {
+    "name": "2026 SHED MSCE Agriculture Paper 2 Marking Scheme (Draft 2).docx",
+    "path": "Exams/Agriculture/Marking Keys/2026 SHED MSCE Agriculture Paper 2 Marking Scheme (Draft 2).docx",
+    "size": 357099,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f742a99ee3"
+  },
+  {
+    "name": "2026 SHED MSCE Agriculture Paper 2 Marking Scheme (Final).docx",
+    "path": "Exams/Agriculture/Marking Keys/2026 SHED MSCE Agriculture Paper 2 Marking Scheme (Final).docx",
+    "size": 355868,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f8e4ca13b0"
+  },
+  {
+    "name": "2026 SHED MSCE Agriculture Paper 2 Marking Scheme (Final).pdf",
+    "path": "Exams/Agriculture/Marking Keys/2026 SHED MSCE Agriculture Paper 2 Marking Scheme (Final).pdf",
+    "size": 645020,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fbbc67d665"
+  },
+  {
+    "name": "Form 1 Agriculture Marking Key.docx",
+    "path": "Exams/Agriculture/Marking Keys/Form 1 Agriculture Marking Key.docx",
+    "size": 24884,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f5c9364c39"
+  },
+  {
+    "name": "Form 2 Agriculture Marking Key.docx",
+    "path": "Exams/Agriculture/Marking Keys/Form 2 Agriculture Marking Key.docx",
+    "size": 22396,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f383c7079c"
+  },
+  {
+    "name": "Form 3 Agriculture Paper 1 Marking Key.docx",
+    "path": "Exams/Agriculture/Marking Keys/Form 3 Agriculture Paper 1 Marking Key.docx",
+    "size": 23296,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f128f89c81"
+  },
+  {
+    "name": "Form 3 Agriculture Paper 2 Marking Key.docx",
+    "path": "Exams/Agriculture/Marking Keys/Form 3 Agriculture Paper 2 Marking Key.docx",
+    "size": 24551,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fd93ef380c"
+  },
+  {
+    "name": "Form 4 Agriculture Paper 1 Marking Key.docx",
+    "path": "Exams/Agriculture/Marking Keys/Form 4 Agriculture Paper 1 Marking Key.docx",
+    "size": 164702,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f7807e2bc1"
+  },
+  {
+    "name": "Form 4 Agriculture Paper 2 Marking Key.docx",
+    "path": "Exams/Agriculture/Marking Keys/Form 4 Agriculture Paper 2 Marking Key.docx",
+    "size": 1740474,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f89565d5b9"
+  },
+  {
+    "name": "JCE Agriculture Marking Key.pdf",
+    "path": "Exams/Agriculture/Marking Keys/JCE Agriculture Marking Key.pdf",
+    "size": 343806,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f201a2353a"
+  },
+  {
+    "name": "MSCE Agriculture Paper 1 Marking Key.docx",
+    "path": "Exams/Agriculture/Marking Keys/MSCE Agriculture Paper 1 Marking Key.docx",
     "size": 426950,
     "repo": "e-library-media-2",
     "bucket": 2,
     "id": "f32aa27d64"
   },
   {
-    "name": "1 AGRI PRACTICAL 2 MARKING KEY.docx",
-    "path": "Exams/Agriculture/Marking Keys/1 AGRI PRACTICAL 2 MARKING KEY.docx",
-    "size": 27539,
-    "repo": "e-library-media-3",
-    "bucket": 2,
-    "id": "f86ad6e241"
-  },
-  {
-    "name": "2024_JCE_-_AGRICULTURE_CHIEF_EXAMINERS_REPORT.pdf",
-    "path": "Exams/Agriculture/Marking Keys/2024_JCE_-_AGRICULTURE_CHIEF_EXAMINERS_REPORT.pdf",
-    "size": 673783,
-    "repo": "e-library-media-5",
-    "bucket": 2,
-    "id": "f27fe2e950"
-  },
-  {
-    "name": "2024_MSCE_-AGRICULTURE_CHIEF_EXAMINER_REPORTS.pdf",
-    "path": "Exams/Agriculture/Marking Keys/2024_MSCE_-AGRICULTURE_CHIEF_EXAMINER_REPORTS.pdf",
-    "size": 702051,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fa03debf62"
-  },
-  {
-    "name": "2026 AGR I MARKING KEY final.docx",
-    "path": "Exams/Agriculture/Marking Keys/2026 AGR I MARKING KEY final.docx",
-    "size": 230386,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f352e40cf8"
-  },
-  {
-    "name": "2026 AGR I MARKING KEY final.pdf",
-    "path": "Exams/Agriculture/Marking Keys/2026 AGR I MARKING KEY final.pdf",
-    "size": 309811,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f77561c28c"
-  },
-  {
-    "name": "2026 AGR I MARKING KEY ORAL.docx",
-    "path": "Exams/Agriculture/Marking Keys/2026 AGR I MARKING KEY ORAL.docx",
-    "size": 230524,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f7f3015ecb"
-  },
-  {
-    "name": "2026 AGR I MARKING KEY.docx",
-    "path": "Exams/Agriculture/Marking Keys/2026 AGR I MARKING KEY.docx",
-    "size": 271101,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe084eaed0"
-  },
-  {
-    "name": "2026 AGRICULTURE PAPER I PROVISIONAL MARKING KEY.pdf",
-    "path": "Exams/Agriculture/Marking Keys/2026 AGRICULTURE PAPER I PROVISIONAL MARKING KEY.pdf",
-    "size": 698891,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f7ecdfa823"
-  },
-  {
-    "name": "2026 AGRICULTURE PAPER II PROVISIONAL MARKING KEY.pdf",
-    "path": "Exams/Agriculture/Marking Keys/2026 AGRICULTURE PAPER II PROVISIONAL MARKING KEY.pdf",
-    "size": 586988,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f3bc5e69c5"
-  },
-  {
-    "name": "2026 JCE AGRICULTURE NED MOCK 1 MARKING KEY MODERATED.docx",
-    "path": "Exams/Agriculture/Marking Keys/2026 JCE AGRICULTURE NED MOCK  1 MARKING KEY MODERATED.docx",
-    "size": 44312,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f919835c5c"
-  },
-  {
-    "name": "agr f1 mkey.docx",
-    "path": "Exams/Agriculture/Marking Keys/agr f1 mkey.docx",
-    "size": 24884,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5c9364c39"
-  },
-  {
-    "name": "agr f2 mkey.docx",
-    "path": "Exams/Agriculture/Marking Keys/agr f2 mkey.docx",
-    "size": 22396,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f383c7079c"
-  },
-  {
-    "name": "agr f3 p1 mkey.docx",
-    "path": "Exams/Agriculture/Marking Keys/agr f3 p1 mkey.docx",
-    "size": 47789,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f128f89c81"
-  },
-  {
-    "name": "agr f3 p2 mkey.docx",
-    "path": "Exams/Agriculture/Marking Keys/agr f3 p2 mkey.docx",
-    "size": 24551,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fd93ef380c"
-  },
-  {
-    "name": "agr f4 p1 mkey.docx",
-    "path": "Exams/Agriculture/Marking Keys/agr f4 p1 mkey.docx",
-    "size": 164702,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f7807e2bc1"
-  },
-  {
-    "name": "agr f4 p2 mkey.docx",
-    "path": "Exams/Agriculture/Marking Keys/agr f4 p2 mkey.docx",
-    "size": 1740474,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f89565d5b9"
-  },
-  {
-    "name": "AGRIC PAPER 1 marking key.pdf",
-    "path": "Exams/Agriculture/Marking Keys/AGRIC PAPER 1 marking key.pdf",
+    "name": "MSCE Agriculture Paper 1 Marking Key.pdf",
+    "path": "Exams/Agriculture/Marking Keys/MSCE Agriculture Paper 1 Marking Key.pdf",
     "size": 505452,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
     "id": "f5b4dd58d2"
   },
   {
-    "name": "AGRIC PAPER 2 marking key.pdf",
-    "path": "Exams/Agriculture/Marking Keys/AGRIC PAPER 2 marking key.pdf",
+    "name": "MSCE Agriculture Paper 2 Marking Key.pdf",
+    "path": "Exams/Agriculture/Marking Keys/MSCE Agriculture Paper 2 Marking Key.pdf",
     "size": 478311,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
     "id": "f3725c8e56"
   },
   {
-    "name": "AGRICULTURE - MARKING KEY - 2026 JC BSS CLUSTER.docx",
-    "path": "Exams/Agriculture/Marking Keys/AGRICULTURE - MARKING KEY - 2026 JC BSS CLUSTER.docx",
-    "size": 16844,
-    "repo": "e-library-media",
+    "name": "MSCE Agriculture Paper 2 Practical Marking Key.docx",
+    "path": "Exams/Agriculture/Marking Keys/MSCE Agriculture Paper 2 Practical Marking Key.docx",
+    "size": 27539,
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f0b0379e6c"
+    "id": "f86ad6e241"
   },
   {
-    "name": "AGRICULTURE 2026 SHED Paper 2 Marking Scheme final.docx",
-    "path": "Exams/Agriculture/Marking Keys/AGRICULTURE 2026 SHED Paper 2 Marking Scheme final.docx",
-    "size": 355868,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f8e4ca13b0"
-  },
-  {
-    "name": "AGRICULTURE 2026 SHED Paper 2 Marking Scheme final.pdf",
-    "path": "Exams/Agriculture/Marking Keys/AGRICULTURE 2026 SHED Paper 2 Marking Scheme final.pdf",
-    "size": 645020,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fbbc67d665"
-  },
-  {
-    "name": "AGRICULTURE 2026 SHED Paper 2 Marking Scheme-1.docx",
-    "path": "Exams/Agriculture/Marking Keys/AGRICULTURE 2026 SHED Paper 2 Marking Scheme-1.docx",
-    "size": 357099,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f742a99ee3"
-  },
-  {
-    "name": "AGRICULTURE 2026 SHED Paper 2 Marking Scheme.docx",
-    "path": "Exams/Agriculture/Marking Keys/AGRICULTURE 2026 SHED Paper 2 Marking Scheme.docx",
-    "size": 358382,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fdc69b0670"
-  },
-  {
-    "name": "Agriculture I 2026 SEED PROVISIONAL MARKING KEY.doc",
-    "path": "Exams/Agriculture/Marking Keys/Agriculture I 2026 SEED PROVISIONAL MARKING KEY.doc",
-    "size": 71168,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "ff00e88521"
-  },
-  {
-    "name": "Agriculture I Marking Key 2024 SEED MSCE MOCK.pdf",
-    "path": "Exams/Agriculture/Marking Keys/Agriculture I Marking Key 2024 SEED MSCE MOCK.pdf",
-    "size": 632105,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f468bd02db"
-  },
-  {
-    "name": "AGRICULTURE I MARKING KEY.docx",
-    "path": "Exams/Agriculture/Marking Keys/AGRICULTURE I MARKING KEY.docx",
-    "size": 45043,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "ffae125eac"
-  },
-  {
-    "name": "Agriculture II 2026 SEED MOCK PROVISIONAL MARKING KEY.doc",
-    "path": "Exams/Agriculture/Marking Keys/Agriculture II 2026 SEED MOCK PROVISIONAL MARKING KEY.doc",
-    "size": 228352,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f2ea7ec887"
-  },
-  {
-    "name": "Agriculture II Marking Key 2024 SEED MSCE MOCK.pdf",
-    "path": "Exams/Agriculture/Marking Keys/Agriculture II Marking Key 2024 SEED MSCE MOCK.pdf",
-    "size": 498602,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe84f17aa0"
-  },
-  {
-    "name": "AGRICULTURE MARKING KEY I.docx",
-    "path": "Exams/Agriculture/Marking Keys/AGRICULTURE MARKING KEY I.docx",
+    "name": "MSCE Agriculture Paper I Marking Key (Set 2).docx",
+    "path": "Exams/Agriculture/Marking Keys/MSCE Agriculture Paper I Marking Key (Set 2).docx",
     "size": 144944,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
     "id": "f5106ec3d2"
   },
   {
-    "name": "AGRICULTURE MARKING KEY II.docx",
-    "path": "Exams/Agriculture/Marking Keys/AGRICULTURE MARKING KEY II.docx",
+    "name": "MSCE Agriculture Paper I Marking Key.docx",
+    "path": "Exams/Agriculture/Marking Keys/MSCE Agriculture Paper I Marking Key.docx",
+    "size": 45043,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "ffae125eac"
+  },
+  {
+    "name": "MSCE Agriculture Paper II Marking Key.docx",
+    "path": "Exams/Agriculture/Marking Keys/MSCE Agriculture Paper II Marking Key.docx",
     "size": 160339,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
     "id": "f760d8b0fa"
   },
   {
-    "name": "JCE AGRICULTURE marking key_1.pdf",
-    "path": "Exams/Agriculture/Marking Keys/JCE AGRICULTURE marking key_1.pdf",
-    "size": 343806,
-    "repo": "e-library-media",
+    "name": "MSCE Agriculture Essay Examination Questions.docx",
+    "path": "Exams/Agriculture/MSCE Agriculture Essay Examination Questions.docx",
+    "size": 21558,
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f201a2353a"
-  },
-  {
-    "name": "MYMA KEY AGR 1 MOCK 26.docx",
-    "path": "Exams/Agriculture/Marking Keys/MYMA KEY AGR 1 MOCK 26.docx",
-    "size": 27823,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f3bd2c7bfa"
+    "id": "fb3e7ef2d3"
   },
   {
     "name": "MSCE Agriculture Essay Examination Questions.pdf",
@@ -7381,8 +7181,184 @@
     "level": "msce"
   },
   {
-    "name": "MSCE Agriculture Past Papers (2001-2026).pdf",
-    "path": "Exams/Agriculture/MSCE Agriculture Past Papers (2001-2026).pdf",
+    "name": "MSCE Agriculture Mock Exam (Set 2).pdf",
+    "path": "Exams/Agriculture/MSCE Agriculture Mock Exam (Set 2).pdf",
+    "size": 520544,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fad7800dfa"
+  },
+  {
+    "name": "MSCE Agriculture Mock Exam 2.pdf",
+    "path": "Exams/Agriculture/MSCE Agriculture Mock Exam 2.pdf",
+    "size": 361042,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fd43731ca1"
+  },
+  {
+    "name": "MSCE Agriculture Mock Exam.pdf",
+    "path": "Exams/Agriculture/MSCE Agriculture Mock Exam.pdf",
+    "size": 148282,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fe9c0d84ab"
+  },
+  {
+    "name": "MSCE Agriculture Paper 1 Exam (Set 3).pdf",
+    "path": "Exams/Agriculture/MSCE Agriculture Paper 1 Exam (Set 3).pdf",
+    "size": 430233,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f0db110e0b"
+  },
+  {
+    "name": "MSCE Agriculture Paper 1 Exam.pdf",
+    "path": "Exams/Agriculture/MSCE Agriculture Paper 1 Exam.pdf",
+    "size": 229317,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f30c118a34"
+  },
+  {
+    "name": "MSCE Agriculture Paper 1 Mock Exam (Set 2).docx",
+    "path": "Exams/Agriculture/MSCE Agriculture Paper 1 Mock Exam (Set 2).docx",
+    "size": 131998,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f875dcb103"
+  },
+  {
+    "name": "MSCE Agriculture Paper 1 Mock Exam (Set 2).pdf",
+    "path": "Exams/Agriculture/MSCE Agriculture Paper 1 Mock Exam (Set 2).pdf",
+    "size": 500598,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f5dd7a7997"
+  },
+  {
+    "name": "MSCE Agriculture Paper 1 Mock Exam.docx",
+    "path": "Exams/Agriculture/MSCE Agriculture Paper 1 Mock Exam.docx",
+    "size": 327006,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "ff79882730"
+  },
+  {
+    "name": "MSCE Agriculture Paper 2 Confidential Instructions.docx",
+    "path": "Exams/Agriculture/MSCE Agriculture Paper 2 Confidential Instructions.docx",
+    "size": 18358,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fced1eee61"
+  },
+  {
+    "name": "MSCE Agriculture Paper 2 Mock Exam (Set 2).docx",
+    "path": "Exams/Agriculture/MSCE Agriculture Paper 2 Mock Exam (Set 2).docx",
+    "size": 66900,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f6384d8e5b"
+  },
+  {
+    "name": "MSCE Agriculture Paper 2 Mock Exam (Set 2).pdf",
+    "path": "Exams/Agriculture/MSCE Agriculture Paper 2 Mock Exam (Set 2).pdf",
+    "size": 444092,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f381451a33"
+  },
+  {
+    "name": "MSCE Agriculture Paper 2 Practical Exam.docx",
+    "path": "Exams/Agriculture/MSCE Agriculture Paper 2 Practical Exam.docx",
+    "size": 83453,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f36b51cb1f"
+  },
+  {
+    "name": "MSCE Agriculture Paper I Exam (Set 4).pdf",
+    "path": "Exams/Agriculture/MSCE Agriculture Paper I Exam (Set 4).pdf",
+    "size": 359027,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fe43f47bb2"
+  },
+  {
+    "name": "MSCE Agriculture Paper I Exam (Set 5).pdf",
+    "path": "Exams/Agriculture/MSCE Agriculture Paper I Exam (Set 5).pdf",
+    "size": 419481,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fa0c3c682a"
+  },
+  {
+    "name": "MSCE Agriculture Paper I Mock Exam (Set 1).pdf",
+    "path": "Exams/Agriculture/MSCE Agriculture Paper I Mock Exam (Set 1).pdf",
+    "size": 451578,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f3e6d483f6"
+  },
+  {
+    "name": "MSCE Agriculture Paper I Mock Exam (Set 3).pdf",
+    "path": "Exams/Agriculture/MSCE Agriculture Paper I Mock Exam (Set 3).pdf",
+    "size": 530931,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f9519c218c"
+  },
+  {
+    "name": "MSCE Agriculture Paper II Confidential Instructions (Set 2).docx",
+    "path": "Exams/Agriculture/MSCE Agriculture Paper II Confidential Instructions (Set 2).docx",
+    "size": 174072,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fbf91be327"
+  },
+  {
+    "name": "MSCE Agriculture Paper II Exam (Set 2).pdf",
+    "path": "Exams/Agriculture/MSCE Agriculture Paper II Exam (Set 2).pdf",
+    "size": 780801,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f44c6bcddf"
+  },
+  {
+    "name": "MSCE Agriculture Paper II Exam (Set 3).pdf",
+    "path": "Exams/Agriculture/MSCE Agriculture Paper II Exam (Set 3).pdf",
+    "size": 913305,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fab288add1"
+  },
+  {
+    "name": "MSCE Agriculture Paper II Exam.pdf",
+    "path": "Exams/Agriculture/MSCE Agriculture Paper II Exam.pdf",
+    "size": 318042,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fd8518c8fb"
+  },
+  {
+    "name": "MSCE Agriculture Past Papers (2001-2022).pdf",
+    "path": "Exams/Agriculture/MSCE Agriculture Past Papers (2001-2022).pdf",
+    "size": 14921928,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f398a3b47f"
+  },
+  {
+    "name": "MSCE Agriculture Past Papers Collection.pdf",
+    "path": "Exams/Agriculture/MSCE Agriculture Past Papers Collection.pdf",
+    "size": 9230128,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f96216d8bc"
+  },
+  {
+    "name": "MSCE Agriculture Past Papers Compilation (2001-2026).pdf",
+    "path": "Exams/Agriculture/MSCE Agriculture Past Papers Compilation (2001-2026).pdf",
     "size": 33403058,
     "repo": "e-library-media-2",
     "bucket": 2,
@@ -7397,48 +7373,8 @@
     "id": "f319af8ad3"
   },
   {
-    "name": "MSCE Questions and Model Answera Agric KAMPHONJE.pdf",
-    "path": "Exams/Agriculture/MSCE Questions and Model Answera Agric KAMPHONJE.pdf",
-    "size": 1808355,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f85f08021d"
-  },
-  {
-    "name": "MSCE_AGRICULTURE_ESSAY_QUESTIONS_1.docx",
-    "path": "Exams/Agriculture/MSCE_AGRICULTURE_ESSAY_QUESTIONS_1.docx",
-    "size": 21558,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fb3e7ef2d3"
-  },
-  {
-    "name": "myma Confidential Instruction Term 2 Agric 2025.docx",
-    "path": "Exams/Agriculture/myma    Confidential Instruction  Term 2 Agric 2025.docx",
-    "size": 14648,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fcdd41f936"
-  },
-  {
-    "name": "myma mock practical 1 term2 26.docx",
-    "path": "Exams/Agriculture/myma mock practical 1 term2   26.docx",
-    "size": 23790,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "ff09501c01"
-  },
-  {
-    "name": "NED_2024_AGRI_P._2.pdf",
-    "path": "Exams/Agriculture/NED_2024_AGRI_P._2.pdf",
-    "size": 1489285,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f327885f88"
-  },
-  {
-    "name": "NKK_AGRICULTURE_MOCK_EXAM_PAPER_2.docx",
-    "path": "Exams/Agriculture/NKK_AGRICULTURE_MOCK_EXAM_PAPER_2.docx",
+    "name": "NKK MSCE Agriculture Paper 2 Mock Exam.docx",
+    "path": "Exams/Agriculture/NKK MSCE Agriculture Paper 2 Mock Exam.docx",
     "size": 27980,
     "repo": "e-library-media-2",
     "bucket": 2,
@@ -23052,6 +22988,15 @@
     "repo": "e-library-media-5",
     "bucket": 2,
     "id": "f6cb816bce"
+  },
+  {
+    "name": "JCE Agriculture Questions and Model Answers (ChitsekoFH).pdf",
+    "path": "Q&A/Agriculture/JCE Agriculture Questions and Model Answers (ChitsekoFH).pdf",
+    "size": 3029398,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f4b7ce0caa",
+    "level": "jce"
   },
   {
     "name": "MSCE Agriculture Forms 3 & 4 Questions & Model Answers (Kamphonje).pdf",
