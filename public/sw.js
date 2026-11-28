@@ -1,17 +1,17 @@
 // Wylibrary Service Worker - v10.0
 // Network-First with Cache Fallback for seamless online updates & full offline resilience
 
-const CACHE_NAME = 'wylibrary-v79-20261128-batch2';
+const CACHE_NAME = 'wylibrary-v80-20261128-batch3-final';
 
 // Update notification metadata (hybrid system):
 // Set type to 'auto' to let the app automatically detect materials vs features,
 // or explicitly set 'materials', 'features', or 'all'.
 // Optional custom title/message can announce specific drops (e.g. 2026 exam papers).
 const UPDATE_META = {
-  version: 'v13.4',
+  version: 'v14.0',
   type: 'materials',
   title: '📚 Exams Library Audit',
-  message: 'Audited and standardized exam papers across the library with clean names, levels, and marking keys.'
+  message: 'Entire library audit complete! All exam papers and marking keys across all subjects are standardized, cleaned, and categorized.'
 };
 
 // Books the reader chose to keep. Managed by offline-store.js and NEVER deleted

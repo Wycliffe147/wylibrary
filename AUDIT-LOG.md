@@ -48,6 +48,13 @@ The "After" number represents the clean, frozen count at the moment the folder a
 | **Exams/Social Studies** | ✅ Audited | 43 | 42 | 0 | 1 | 0 | 100% Explicit (39 JCE, 3 MSCE, 0 Both) | Nov 28, 2026 |
 | **Exams/Life Skills** | ✅ Audited | 38 | 38 | 0 | 0 | 0 | 100% Explicit (26 JCE, 12 MSCE, 0 Both) | Nov 28, 2026 |
 | **Exams/Home Economics** | ✅ Audited | 24 | 21 | 0 | 0 | 3 | 100% Explicit (2 JCE, 19 MSCE, 0 Both) | Nov 28, 2026 |
+| **Exams/Business Studies** | ✅ Audited | 20 | 18 | 1 | 0 | 1 | 100% Explicit (2 JCE, 16 MSCE, 0 Both) | Nov 28, 2026 |
+| **Exams/French** | ✅ Audited | 7 | 7 | 0 | 0 | 0 | 100% Explicit (0 JCE, 7 MSCE, 0 Both) | Nov 28, 2026 |
+| **Exams/Physical Science** | ✅ Audited | 8 | 8 | 0 | 0 | 0 | 100% Explicit (0 JCE, 8 MSCE, 0 Both) | Nov 28, 2026 |
+| **Exams/Technical Drawing** | ✅ Audited | 4 | 4 | 0 | 0 | 0 | 100% Explicit (0 JCE, 4 MSCE, 0 Both) | Nov 28, 2026 |
+| **Exams/Woodwork** | ✅ Audited | 4 | 4 | 0 | 0 | 0 | 100% Explicit (0 JCE, 4 MSCE, 0 Both) | Nov 28, 2026 |
+| **Exams/Clothing & Textiles** | ✅ Audited | 2 | 2 | 0 | 0 | 0 | 100% Explicit (0 JCE, 2 MSCE, 0 Both) | Nov 28, 2026 |
+| **Exams/Confidentials** | ✅ Audited | 2 | 1 | 0 | 0 | 0 (+1 to Physics) | 100% Explicit (0 JCE, 1 MSCE, 0 Both) | Nov 28, 2026 |
 
 ---
 
@@ -657,6 +664,79 @@ The "After" number represents the clean, frozen count at the moment the folder a
 - **Catalog delta (Batch 2 total):** 2,918 -> 2,915 entries (-3 net: 3 deleted). Dual catalogs synchronized byte-for-byte (`files-index.json` and `public/files-index.json`).
 - **Stable IDs:** 2,771 kept, 144 moved, 0 renamed, 0 new, 3 removed recorded in `public/id-map.json`.
 - **Level Tagging Coverage:** 100% Explicit (2 JCE, 19 MSCE, 0 Both).
+
+### 39. Exams/Business Studies Folder Audit (Nov 28, 2026)
+- **Scope:** 20 files deep-scanned, 1 inferior duplicate scan deleted, 1 "Teach Yourself Business Studies" textbook transferred cross-bucket to Books, 2 internal moves from root to Marking Keys, and 18 clean renames across Exams/Business Studies/ and Marking Keys/ (18 clean Business Studies retained).
+- **Initial Count:** 20 files (17 in root `Exams/Business Studies/`, 3 in `Exams/Business Studies/Marking Keys/`, all on Bucket 2)
+- **Clean Exams Retained:** 18 clean examination papers (2 JCE, 16 MSCE, 0 Both)
+- **Deleted from R2 (1 file from Bucket 2):**
+  - `Exams/Business Studies/2022_Business_P1_Maneb.pdf` (Inferior blurry scan of 2022 MANEB MSCE Business Studies Paper I - duplicate of the pristine 12-page version)
+- **Transferred to Books (1 file cross-bucket to Bucket 1):**
+  - `Books/Business Studies/Teach Yourself Business Studies (Junior Level).pdf` (41-page JCE-level self-study textbook)
+- **Internal Moves to Marking Keys (2 files within Bucket 2):**
+  - `Exams/Business Studies/Marking Keys/2022 MANEB MSCE Business Studies Chief Examiners Report.pdf`
+  - `Exams/Business Studies/Marking Keys/2025 MANEB MSCE Business Studies Chief Examiners Report.pdf`
+- **Renamed within Exams (18 files):**
+  - Stripped upload suffixes (`_1`), removed double spaces, standardized MANEB past papers (2019, 2021, 2022, 2023, 2024), mock exams (PRISAM, SWED, Maranatha, SHED), and compilation volumes.
+- **Level Tagging Coverage:** 100% Explicit (2 JCE, 16 MSCE, 0 Both).
+
+### 40. Exams/French Folder Audit (Nov 28, 2026)
+- **Scope:** 7 files deep-scanned, 7 clean renames across Exams/French/ and Marking Keys/ (7 clean French retained).
+- **Initial Count:** 7 files (4 in root `Exams/French/`, 3 in `Exams/French/Marking Keys/`, all on Bucket 2)
+- **Clean Exams Retained:** 7 clean examination papers (0 JCE, 7 MSCE, 0 Both)
+- **Renamed within Exams (7 files):**
+  - Expanded abbreviation "CEED" to "Central East Education Division", resolved AutoRecovered suffix in Loyola filename, standardized Paper I/II/III nomenclature and provisional marking keys.
+- **Level Tagging Coverage:** 100% Explicit (0 JCE, 7 MSCE, 0 Both).
+
+### 41. Exams/Physical Science Folder Audit (Nov 28, 2026)
+- **Scope:** 8 files already partially classified (7 already `msce`), 1 unclassified file normalized and classified, 8 clean renames across Exams/Physical Science/ (8 clean Physical Science retained).
+- **Initial Count:** 8 files in root `Exams/Physical Science/` (all on Bucket 2)
+- **Clean Exams Retained:** 8 clean examination papers (0 JCE, 8 MSCE, 0 Both)
+- **Renamed within Exams (8 files):**
+  - Standardized `1998 MANEB Physical Science MSCE.pdf` to include Paper designation, confirmed all years (1998-2018) and Balaka Mock correctly classified as MSCE.
+- **Level Tagging Coverage:** 100% Explicit (0 JCE, 8 MSCE, 0 Both).
+
+### 42. Exams/Technical Drawing Folder Audit (Nov 28, 2026)
+- **Scope:** 4 files deep-scanned, 4 clean renames across Exams/Technical Drawing/ and Marking Keys/ (4 clean Technical Drawing retained).
+- **Initial Count:** 4 files (2 in root `Exams/Technical Drawing/`, 2 in `Exams/Technical Drawing/Marking Keys/`, all on Bucket 2)
+- **Clean Exams Retained:** 4 clean examination papers (0 JCE, 4 MSCE, 0 Both)
+- **Renamed within Exams (4 files):**
+  - Stripped double spaces from SHED paper filenames, standardized SHED MSCE Technical Drawing Paper I/II Mock Exam and Marking Key titles.
+- **Level Tagging Coverage:** 100% Explicit (0 JCE, 4 MSCE, 0 Both).
+
+### 43. Exams/Woodwork Folder Audit (Nov 28, 2026)
+- **Scope:** 4 files deep-scanned (all SHED 2026 MSCE), 4 clean renames across Exams/Woodwork/ and Marking Keys/ (4 clean Woodwork retained).
+- **Initial Count:** 4 files (2 in root `Exams/Woodwork/`, 2 in `Exams/Woodwork/Marking Keys/`, all on Bucket 2)
+- **Clean Exams Retained:** 4 clean examination papers (0 JCE, 4 MSCE, 0 Both)
+- **Renamed within Exams (4 files):**
+  - Standardized `WOOD WORK 2 2026 DONE.docx` and `SHED WOODWORK P2 CONFIDENTIAL.docx`, plus marking keys to full SHED MSCE Woodwork Paper I/II titles.
+- **Level Tagging Coverage:** 100% Explicit (0 JCE, 4 MSCE, 0 Both).
+
+### 44. Exams/Clothing & Textiles Folder Audit (Nov 28, 2026)
+- **Scope:** 2 files deep-scanned (both SHED 2026 MSCE), 2 clean renames across Exams/Clothing & Textiles/ and Marking Keys/ (2 clean Clothing & Textiles retained).
+- **Initial Count:** 2 files (1 in root `Exams/Clothing & Textiles/`, 1 in `Exams/Clothing & Textiles/Marking Keys/`, all on Bucket 2)
+- **Clean Exams Retained:** 2 clean examination papers (0 JCE, 2 MSCE, 0 Both)
+- **Renamed within Exams (2 files):**
+  - Standardized to full SHED MSCE Clothing and Textiles Paper I Marking Key and Paper II Mock Exam.
+- **Level Tagging Coverage:** 100% Explicit (0 JCE, 2 MSCE, 0 Both).
+
+### 45. Exams/Confidentials Folder Audit (Nov 28, 2026)
+- **Scope:** 2 files deep-scanned via OCR. The Physics mock practical confidential instructions moved to Physics folder. The 2022 advance materials PDF identified as a general MSCE science practicals advance materials list (listing lab chemicals and equipment for Physics, Chemistry and Biology practicals).
+- **Initial Count:** 2 files in root `Exams/Confidentials/` (all on Bucket 2)
+- **Clean Exams Retained:** 1 (the Physics confidential moved to its proper subject)
+- **Internal Move to Physics Marking Keys (1 file within Bucket 2):**
+  - `Exams/Physics/Marking Keys/2021 Dedza District MSCE Physics Paper II Practical Confidential Instructions.docx`
+- **Renamed within Exams (1 file):**
+  - `Exams/Confidentials/2022 MANEB MSCE Science Practicals Advance Materials List.pdf` (2-page scanned list of lab equipment and chemicals for 2022 MSCE practicals)
+- **Catalog delta (Batch 3 total):** 2,915 -> 2,914 entries (-1 net: 1 duplicate deleted). Dual catalogs synchronized byte-for-byte (`files-index.json` and `public/files-index.json`).
+- **Stable IDs:** 2,875 kept, 39 moved, 0 renamed, 0 new, 1 removed recorded in `public/id-map.json`.
+- **Level Tagging Coverage:** 100% Explicit (0 JCE, 1 MSCE, 0 Both).
+
+---
+
+## ✅ LIBRARY AUDIT COMPLETE (Nov 28, 2026)
+
+All 23 Exams folders + all 17 Books folders audited. Final catalog: **2,914 entries** across 2 Cloudflare R2 buckets. Zero raw upload suffixes, zero casing inconsistencies, 100% level classification across the entire library.
 
 
 

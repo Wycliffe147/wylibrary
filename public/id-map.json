@@ -1204,6 +1204,11 @@
   "name": "Business Studies Teaching Syllabus (Forms 3 and 4).doc",
   "size": 307200
  },
+ "f188f9d49e": {
+  "path": "Books/Business Studies/Teach Yourself Business Studies (Junior Level).pdf",
+  "name": "Teach Yourself Business Studies (Junior Level).pdf",
+  "size": 1002676
+ },
  "f7847b7b34": {
   "path": "Books/Chemistry/11_Organic_chemistry-1_(1).pdf",
   "name": "Organic Chemistry Senior Secondary Guide.pdf",
@@ -6179,105 +6184,95 @@
   "name": "Zomba Catholic Secondary School MSCE Biology Paper 1 Mock Exam (2019).pdf",
   "size": 677926
  },
+ "fcfbc0d2b7": {
+  "path": "Exams/Business Studies/2019 MANEB MSCE Business Studies Paper I.pdf",
+  "name": "2019 MANEB MSCE Business Studies Paper I.pdf",
+  "size": 993884
+ },
+ "ffa4681463": {
+  "path": "Exams/Business Studies/2021 MANEB JCE Business Studies Sample Examination Paper.pdf",
+  "name": "2021 MANEB JCE Business Studies Sample Examination Paper.pdf",
+  "size": 3160758
+ },
+ "fda53a4f8b": {
+  "path": "Exams/Business Studies/2021 MANEB MSCE Business Studies Paper I.pdf",
+  "name": "2021 MANEB MSCE Business Studies Paper I.pdf",
+  "size": 899590
+ },
  "fb1c53a64c": {
-  "path": "Exams/Business Studies/2022 Business studies MSCE paper 1.pdf",
-  "name": "2022 Business studies MSCE paper 1.pdf",
+  "path": "Exams/Business Studies/2022 MANEB MSCE Business Studies Paper I.pdf",
+  "name": "2022 MANEB MSCE Business Studies Paper I.pdf",
   "size": 2148937
  },
- "fe5b813658": {
-  "path": "Exams/Business Studies/2022 MSCE BUSINESS STUDIES-1.pdf",
-  "name": "2022 MSCE BUSINESS STUDIES-1.pdf",
-  "size": 615226
- },
- "f4dd83cf89": {
-  "path": "Exams/Business Studies/2022_Business_P1_Maneb.pdf",
-  "name": "2022_Business_P1_Maneb.pdf",
-  "size": 1005621
- },
  "f4ebc3e5ef": {
-  "path": "Exams/Business Studies/2023 BUSINESS PAPER 2.pdf",
-  "name": "2023 BUSINESS PAPER 2.pdf",
+  "path": "Exams/Business Studies/2023 MANEB MSCE Business Studies Paper II.pdf",
+  "name": "2023 MANEB MSCE Business Studies Paper II.pdf",
   "size": 1372329
  },
+ "f28a8fa9e3": {
+  "path": "Exams/Business Studies/2024 MANEB MSCE Business Studies Paper I.pdf",
+  "name": "2024 MANEB MSCE Business Studies Paper I.pdf",
+  "size": 2135577
+ },
  "f1b00d4afe": {
-  "path": "Exams/Business Studies/2025_Business_P2_Prisam.pdf",
-  "name": "2025_Business_P2_Prisam.pdf",
+  "path": "Exams/Business Studies/2025 PRISAM MSCE Business Studies Paper II Mock Exam.pdf",
+  "name": "2025 PRISAM MSCE Business Studies Paper II Mock Exam.pdf",
   "size": 345301
  },
  "f0a308a84d": {
-  "path": "Exams/Business Studies/2025_Business_P2_SWED.pdf",
-  "name": "2025_Business_P2_SWED.pdf",
+  "path": "Exams/Business Studies/2025 South West Education Division MSCE Business Studies Paper II Mock Exam.pdf",
+  "name": "2025 South West Education Division MSCE Business Studies Paper II Mock Exam.pdf",
   "size": 464152
  },
  "fca2a537a2": {
-  "path": "Exams/Business Studies/2026 MSCE Mara Bus Studies P1 mock 2.pdf",
-  "name": "2026 MSCE Mara Bus Studies P1 mock 2.pdf",
+  "path": "Exams/Business Studies/2026 Maranatha MSCE Business Studies Paper I Mock Exam 2.pdf",
+  "name": "2026 Maranatha MSCE Business Studies Paper I Mock Exam 2.pdf",
   "size": 2564632
  },
  "fb30d78d1f": {
-  "path": "Exams/Business Studies/2026 MSCE Mara bus Studies P2 mock 2.pdf",
-  "name": "2026 MSCE Mara bus Studies P2 mock 2.pdf",
+  "path": "Exams/Business Studies/2026 Maranatha MSCE Business Studies Paper II Mock Exam 2.pdf",
+  "name": "2026 Maranatha MSCE Business Studies Paper II Mock Exam 2.pdf",
   "size": 1263164
  },
- "f188f9d49e": {
-  "path": "Exams/Business Studies/BUSINESS STUDIES JCE_1.pdf",
-  "name": "BUSINESS STUDIES JCE_1.pdf",
-  "size": 1002676
- },
- "f28a8fa9e3": {
-  "path": "Exams/Business Studies/Business studies paper 1 2024 maneb.pdf",
-  "name": "Business studies paper 1 2024 maneb.pdf",
-  "size": 2135577
- },
- "fb277a4a7d": {
-  "path": "Exams/Business Studies/JCE Business Studies Papers_1.pdf",
-  "name": "JCE Business Studies Papers_1.pdf",
-  "size": 9783828
- },
- "ffa4681463": {
-  "path": "Exams/Business Studies/MANEB JCE Business Studies Sample Examination Paper (2021).pdf",
-  "name": "MANEB JCE Business Studies Sample Examination Paper (2021).pdf",
-  "size": 3160758
- },
- "fcfbc0d2b7": {
-  "path": "Exams/Business Studies/Maneb_2019_Business-Studies_P1.pdf",
-  "name": "Maneb_2019_Business-Studies_P1.pdf",
-  "size": 993884
- },
- "fda53a4f8b": {
-  "path": "Exams/Business Studies/Maneb_2021_Business-Studies_P1.pdf",
-  "name": "Maneb_2021_Business-Studies_P1.pdf",
-  "size": 899590
- },
- "fd987f5d84": {
-  "path": "Exams/Business Studies/Marking Keys/2025 MSCE - BUSINESS STUDIES CHIEF EXAMINER'S REPORT_1.pdf",
-  "name": "2025 MSCE - BUSINESS STUDIES CHIEF EXAMINER'S REPORT_1.pdf",
-  "size": 322063
- },
- "fd2f8e218a": {
-  "path": "Exams/Business Studies/Marking Keys/SHED Bus Studies I 2026 MARKING KEY.docx",
-  "name": "SHED Bus Studies I 2026 MARKING KEY.docx",
-  "size": 114896
- },
- "ffb233af47": {
-  "path": "Exams/Business Studies/Marking Keys/SHED BUSINESS STUDIES PAPER  II marking key.docx",
-  "name": "SHED BUSINESS STUDIES PAPER II marking key.docx",
-  "size": 43291
- },
- "fed730930f": {
-  "path": "Exams/Business Studies/MSCE Business Studies Papers _1.pdf",
-  "name": "MSCE Business Studies Papers _1.pdf",
-  "size": 14298425
- },
  "f7550b4c58": {
-  "path": "Exams/Business Studies/SHED 2026 Business . Studies. I.docx",
-  "name": "SHED 2026 Business . Studies. I.docx",
+  "path": "Exams/Business Studies/2026 SHED MSCE Business Studies Paper I Mock Exam.docx",
+  "name": "2026 SHED MSCE Business Studies Paper I Mock Exam.docx",
   "size": 63388
  },
  "f0d20a8419": {
-  "path": "Exams/Business Studies/Shire Highlands Education Division MSCE Business Studies Paper II Mock Exam (2026).docx",
-  "name": "Shire Highlands Education Division MSCE Business Studies Paper II Mock Exam (2026).docx",
+  "path": "Exams/Business Studies/2026 SHED MSCE Business Studies Paper II Mock Exam.docx",
+  "name": "2026 SHED MSCE Business Studies Paper II Mock Exam.docx",
   "size": 65752
+ },
+ "fb277a4a7d": {
+  "path": "Exams/Business Studies/JCE Business Studies Past Papers Compilation.pdf",
+  "name": "JCE Business Studies Past Papers Compilation.pdf",
+  "size": 9783828
+ },
+ "fe5b813658": {
+  "path": "Exams/Business Studies/Marking Keys/2022 MANEB MSCE Business Studies Chief Examiners Report.pdf",
+  "name": "2022 MANEB MSCE Business Studies Chief Examiners Report.pdf",
+  "size": 615226
+ },
+ "fd987f5d84": {
+  "path": "Exams/Business Studies/Marking Keys/2025 MANEB MSCE Business Studies Chief Examiners Report.pdf",
+  "name": "2025 MANEB MSCE Business Studies Chief Examiners Report.pdf",
+  "size": 322063
+ },
+ "fd2f8e218a": {
+  "path": "Exams/Business Studies/Marking Keys/2026 SHED MSCE Business Studies Paper I Marking Key.docx",
+  "name": "2026 SHED MSCE Business Studies Paper I Marking Key.docx",
+  "size": 114896
+ },
+ "ffb233af47": {
+  "path": "Exams/Business Studies/Marking Keys/2026 SHED MSCE Business Studies Paper II Marking Key.docx",
+  "name": "2026 SHED MSCE Business Studies Paper II Marking Key.docx",
+  "size": 43291
+ },
+ "fed730930f": {
+  "path": "Exams/Business Studies/MSCE Business Studies Past Papers Compilation.pdf",
+  "name": "MSCE Business Studies Past Papers Compilation.pdf",
+  "size": 14298425
  },
  "f055bc06be": {
   "path": "Exams/Chemistry/2019 Form 4 MSCE Chemistry Paper I Mock 2.pdf",
@@ -8229,15 +8224,15 @@
   "name": "Nanjiriri Cluster MSCE Chichewa Paper III Mock Exam.pdf",
   "size": 343652
  },
- "fcbeed410a": {
-  "path": "Exams/Clothing & Textiles/Marking Keys/SHED CLOTHING AND TEXTILES P1 MARKING KEY.docx",
-  "name": "SHED CLOTHING AND TEXTILES P1 MARKING KEY.docx",
-  "size": 115942
- },
  "f1d274e6ac": {
-  "path": "Exams/Clothing & Textiles/SHED CLOTHING AND TEXTILES P2 QUESTION PAPER.docx",
-  "name": "SHED CLOTHING AND TEXTILES P2 QUESTION PAPER.docx",
+  "path": "Exams/Clothing & Textiles/2026 SHED MSCE Clothing and Textiles Paper II Mock Exam.docx",
+  "name": "2026 SHED MSCE Clothing and Textiles Paper II Mock Exam.docx",
   "size": 280481
+ },
+ "fcbeed410a": {
+  "path": "Exams/Clothing & Textiles/Marking Keys/2026 SHED MSCE Clothing and Textiles Paper I Marking Key.docx",
+  "name": "2026 SHED MSCE Clothing and Textiles Paper I Marking Key.docx",
+  "size": 115942
  },
  "f3ac7018d7": {
   "path": "Exams/Computer Studies/2006 MANEB MSCE Computer Studies Paper I.pdf",
@@ -8465,14 +8460,9 @@
   "size": 25424048
  },
  "fb9e9dac7f": {
-  "path": "Exams/Confidentials/2022 Confidential materials.pdf",
-  "name": "2022 Confidential materials.pdf",
+  "path": "Exams/Confidentials/2022 MANEB MSCE Science Practicals Advance Materials List.pdf",
+  "name": "2022 MANEB MSCE Science Practicals Advance Materials List.pdf",
   "size": 124195
- },
- "f138bd36f0": {
-  "path": "Exams/Confidentials/CONFIDENTIAL PAPER.docx",
-  "name": "CONFIDENTIAL PAPER.docx",
-  "size": 13227
  },
  "f6ae77a1e2": {
   "path": "Exams/English/2013 MANEB JCE English Paper I.pdf",
@@ -9675,38 +9665,38 @@
   "size": 159047
  },
  "f94d428abc": {
-  "path": "Exams/French/2026 CEED FRENCH II.pdf",
-  "name": "2026 CEED FRENCH II.pdf",
+  "path": "Exams/French/2026 Central East Education Division MSCE French Paper II Mock Exam.pdf",
+  "name": "2026 Central East Education Division MSCE French Paper II Mock Exam.pdf",
   "size": 353930
  },
  "f5feea2c64": {
-  "path": "Exams/French/2026 CEED FRENCH III.pdf",
-  "name": "2026 CEED FRENCH III.pdf",
+  "path": "Exams/French/2026 Central East Education Division MSCE French Paper III Mock Exam.pdf",
+  "name": "2026 Central East Education Division MSCE French Paper III Mock Exam.pdf",
   "size": 702852
  },
  "f721a5f8f1": {
-  "path": "Exams/French/2026 LOYOLA MSCE MOCK FRENCH PI (AutoRecovered) (1).docx",
-  "name": "2026 LOYOLA MSCE MOCK FRENCH PI (AutoRecovered).docx",
+  "path": "Exams/French/2026 Loyola Jesuit Secondary School MSCE French Paper I Mock Exam.docx",
+  "name": "2026 Loyola Jesuit Secondary School MSCE French Paper I Mock Exam.docx",
   "size": 527637
  },
  "f8758b2a18": {
-  "path": "Exams/French/Marking Keys/2026 CEED FRENCH I PROVISIONAL MARKING KEY.pdf",
-  "name": "2026 CEED FRENCH I PROVISIONAL MARKING KEY.pdf",
+  "path": "Exams/French/Marking Keys/2026 Central East Education Division MSCE French Paper I Provisional Marking Key.pdf",
+  "name": "2026 Central East Education Division MSCE French Paper I Provisional Marking Key.pdf",
   "size": 130733
  },
  "fc27917537": {
-  "path": "Exams/French/Marking Keys/2026 CEED FRENCH II PROVISIONAL MARKING KEY.pdf",
-  "name": "2026 CEED FRENCH II PROVISIONAL MARKING KEY.pdf",
+  "path": "Exams/French/Marking Keys/2026 Central East Education Division MSCE French Paper II Provisional Marking Key.pdf",
+  "name": "2026 Central East Education Division MSCE French Paper II Provisional Marking Key.pdf",
   "size": 135602
  },
  "fc9871b60b": {
-  "path": "Exams/French/Marking Keys/2026 CEED FRENCH III PROVISIONAL MARKING KEY.pdf",
-  "name": "2026 CEED FRENCH III PROVISIONAL MARKING KEY.pdf",
+  "path": "Exams/French/Marking Keys/2026 Central East Education Division MSCE French Paper III Provisional Marking Key.pdf",
+  "name": "2026 Central East Education Division MSCE French Paper III Provisional Marking Key.pdf",
   "size": 400403
  },
  "f7fb0ffb91": {
-  "path": "Exams/French/MSCE French Papers I, II and III Past Papers Combined.pdf",
-  "name": "MSCE French Papers I, II and III Past Papers Combined.pdf",
+  "path": "Exams/French/MSCE French Papers I, II and III Mock Examinations Compilation.pdf",
+  "name": "MSCE French Papers I, II and III Mock Examinations Compilation.pdf",
   "size": 4874913
  },
  "f3d590bb15": {
@@ -12575,8 +12565,8 @@
   "size": 548397
  },
  "f02d86d888": {
-  "path": "Exams/Physical Science/1998 MANEB Physical Science MSCE.pdf",
-  "name": "1998 MANEB Physical Science MSCE.pdf",
+  "path": "Exams/Physical Science/1998 MANEB MSCE Physical Science Paper.pdf",
+  "name": "1998 MANEB MSCE Physical Science Paper.pdf",
   "size": 657258
  },
  "f899f0a4e9": {
@@ -13189,6 +13179,11 @@
   "name": "2020 MANEB MSCE Physics Chief Examiners Report Paper II.doc",
   "size": 72704
  },
+ "f138bd36f0": {
+  "path": "Exams/Physics/Marking Keys/2021 Dedza District MSCE Physics Paper II Practical Confidential Instructions.docx",
+  "name": "2021 Dedza District MSCE Physics Paper II Practical Confidential Instructions.docx",
+  "size": 13227
+ },
  "f0092ba3ef": {
   "path": "Exams/Physics/Marking Keys/2021 MANEB MSCE Physics Paper I Chief Examiners Report.pdf",
   "name": "2021 MANEB MSCE Physics Paper I Chief Examiners Report.pdf",
@@ -13655,44 +13650,44 @@
   "size": 26285
  },
  "fa15596e29": {
-  "path": "Exams/Technical Drawing/2026 SHED TECHNICAL DRAWING PAPER  I.docx",
-  "name": "2026 SHED TECHNICAL DRAWING PAPER I.docx",
+  "path": "Exams/Technical Drawing/2026 SHED MSCE Technical Drawing Paper I Mock Exam.docx",
+  "name": "2026 SHED MSCE Technical Drawing Paper I Mock Exam.docx",
   "size": 403299
  },
  "f39ddc6d24": {
-  "path": "Exams/Technical Drawing/2026 SHED TECHNICAL DRAWING PAPER II.docx",
-  "name": "2026 SHED TECHNICAL DRAWING PAPER II.docx",
+  "path": "Exams/Technical Drawing/2026 SHED MSCE Technical Drawing Paper II Mock Exam.docx",
+  "name": "2026 SHED MSCE Technical Drawing Paper II Mock Exam.docx",
   "size": 178694
  },
- "f26547992b": {
-  "path": "Exams/Technical Drawing/Marking Keys/2026 SHED TD PII-MARKING KEY.docx",
-  "name": "2026 SHED TD PII-MARKING KEY.docx",
-  "size": 552716
- },
  "f32794ee24": {
-  "path": "Exams/Technical Drawing/Marking Keys/2026 SHED-TD PAPER  I - MARKING KEY.docx",
-  "name": "2026 SHED-TD PAPER I - MARKING KEY.docx",
+  "path": "Exams/Technical Drawing/Marking Keys/2026 SHED MSCE Technical Drawing Paper I Marking Key.docx",
+  "name": "2026 SHED MSCE Technical Drawing Paper I Marking Key.docx",
   "size": 1711884
  },
- "fa20be2c45": {
-  "path": "Exams/Woodwork/Marking Keys/WOODWORK 1 MARKING KEY.docx",
-  "name": "WOODWORK 1 MARKING KEY.docx",
-  "size": 184444
- },
- "fcee2dbe3b": {
-  "path": "Exams/Woodwork/Marking Keys/woodwork paper 2 marking key2016 DONE.docx",
-  "name": "woodwork paper 2 marking key2016 DONE.docx",
-  "size": 35986
+ "f26547992b": {
+  "path": "Exams/Technical Drawing/Marking Keys/2026 SHED MSCE Technical Drawing Paper II Marking Key.docx",
+  "name": "2026 SHED MSCE Technical Drawing Paper II Marking Key.docx",
+  "size": 552716
  },
  "f405a172a4": {
-  "path": "Exams/Woodwork/SHED WOODWORK P2 CONFIDENTIAL.docx",
-  "name": "SHED WOODWORK P2 CONFIDENTIAL.docx",
+  "path": "Exams/Woodwork/2026 SHED MSCE Woodwork Paper II Confidential Instructions.docx",
+  "name": "2026 SHED MSCE Woodwork Paper II Confidential Instructions.docx",
   "size": 35424
  },
  "f11577e436": {
-  "path": "Exams/Woodwork/WOOD WORK 2 2026 DONE.docx",
-  "name": "WOOD WORK 2 2026 DONE.docx",
+  "path": "Exams/Woodwork/2026 SHED MSCE Woodwork Paper II Mock Exam.docx",
+  "name": "2026 SHED MSCE Woodwork Paper II Mock Exam.docx",
   "size": 379413
+ },
+ "fa20be2c45": {
+  "path": "Exams/Woodwork/Marking Keys/2026 SHED MSCE Woodwork Paper I Marking Key.docx",
+  "name": "2026 SHED MSCE Woodwork Paper I Marking Key.docx",
+  "size": 184444
+ },
+ "fcee2dbe3b": {
+  "path": "Exams/Woodwork/Marking Keys/2026 SHED MSCE Woodwork Paper II Marking Key.docx",
+  "name": "2026 SHED MSCE Woodwork Paper II Marking Key.docx",
+  "size": 35986
  },
  "f2aab47050": {
   "path": "images/about.png",
