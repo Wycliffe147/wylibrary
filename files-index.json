@@ -5466,6 +5466,15 @@
     "level": "msce"
   },
   {
+    "name": "Senior Secondary Physics Experiments Manual.pdf",
+    "path": "Books/Physics/Senior Secondary Physics Experiments Manual.pdf",
+    "size": 2136823,
+    "repo": "e-library-media",
+    "bucket": 1,
+    "id": "fef92d3d32",
+    "level": "msce"
+  },
+  {
     "name": "Physics Syllabus - Forms 1-2 (Malawi MoEST, 2013).doc",
     "path": "Books/Physics/Syllabus/Physics Syllabus - Forms 1-2 (Malawi MoEST, 2013).doc",
     "size": 761344,
@@ -21085,1428 +21094,1561 @@
     "id": "f02d86d888"
   },
   {
-    "name": "1-_PHYSICS_-_MODEL_MSCE_KUMWENDA.pdf",
-    "path": "Exams/Physics/1-_PHYSICS_-_MODEL_MSCE_KUMWENDA.pdf",
-    "size": 3059193,
+    "name": "1999 MANEB MSCE Physical Science Paper II.pdf",
+    "path": "Exams/Physical Science/1999 MANEB MSCE Physical Science Paper II.pdf",
+    "size": 206910,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fdbc27ea32"
+    "id": "f899f0a4e9",
+    "level": "msce"
   },
   {
-    "name": "1999MSCE_PS_PAPERⅡ.pdf",
-    "path": "Exams/Physics/1999MSCE_PS_PAPERⅡ.pdf",
-    "size": 206910,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f899f0a4e9"
-  },
-  {
-    "name": "2002MSCE_PS_PAPERⅠ.pdf",
-    "path": "Exams/Physics/2002MSCE_PS_PAPERⅠ.pdf",
+    "name": "2002 MANEB MSCE Physical Science Paper I.pdf",
+    "path": "Exams/Physical Science/2002 MANEB MSCE Physical Science Paper I.pdf",
     "size": 333829,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f8ee776b70"
+    "id": "f8ee776b70",
+    "level": "msce"
   },
   {
-    "name": "2008MSCE_PS_PAPERⅡ-1.pdf",
-    "path": "Exams/Physics/2008MSCE_PS_PAPERⅡ-1.pdf",
+    "name": "2008 MANEB MSCE Physical Science Paper II.pdf",
+    "path": "Exams/Physical Science/2008 MANEB MSCE Physical Science Paper II.pdf",
     "size": 222623,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "ffed83f968"
+    "id": "ffed83f968",
+    "level": "msce"
   },
   {
-    "name": "2015_Physical_Science_paper_1.doc",
-    "path": "Exams/Physics/2015_Physical_Science_paper_1.doc",
+    "name": "2015 MANEB MSCE Physical Science Paper I.doc",
+    "path": "Exams/Physical Science/2015 MANEB MSCE Physical Science Paper I.doc",
     "size": 79360,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fccb83d8bc"
+    "id": "fccb83d8bc",
+    "level": "msce"
   },
   {
-    "name": "2017_PHYSICAL_SCIENCE_PAPER_I.docx",
-    "path": "Exams/Physics/2017_PHYSICAL_SCIENCE_PAPER_I.docx",
+    "name": "2017 MANEB MSCE Physical Science Paper I.docx",
+    "path": "Exams/Physical Science/2017 MANEB MSCE Physical Science Paper I.docx",
     "size": 44920,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f935c7a0e9"
+    "id": "f935c7a0e9",
+    "level": "msce"
   },
   {
-    "name": "2018 PHYZO CLUSTER MOCK EXAMINATIONSS(PAPER II)-1-1.pdf",
-    "path": "Exams/Physics/2018  PHYZO CLUSTER MOCK EXAMINATIONSS(PAPER II)-1-1.pdf",
+    "name": "2018 MANEB MSCE Physical Science Paper II.pdf",
+    "path": "Exams/Physical Science/2018 MANEB MSCE Physical Science Paper II.pdf",
+    "size": 297669,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f3bf0d8647",
+    "level": "msce"
+  },
+  {
+    "name": "Balaka Mock MSCE Physical Science Paper II.docx",
+    "path": "Exams/Physical Science/Balaka Mock MSCE Physical Science Paper II.docx",
+    "size": 751295,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fa25839df1",
+    "level": "msce"
+  },
+  {
+    "name": "2016 Balaka Secondary School MSCE Physics Mock Exam.docx",
+    "path": "Exams/Physics/2016 Balaka Secondary School MSCE Physics Mock Exam.docx",
+    "size": 311401,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fedb4ec00a",
+    "level": "msce"
+  },
+  {
+    "name": "2018 Form 4 Physics Paper I Exam.pdf",
+    "path": "Exams/Physics/2018 Form 4 Physics Paper I Exam.pdf",
+    "size": 869813,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f60117312e",
+    "level": "msce"
+  },
+  {
+    "name": "2018 Phyzo Cluster MSCE Physics Paper II Mock Exam.pdf",
+    "path": "Exams/Physics/2018 Phyzo Cluster MSCE Physics Paper II Mock Exam.pdf",
     "size": 300600,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "feae575f35"
+    "id": "feae575f35",
+    "level": "msce"
   },
   {
-    "name": "2018 St George Academy MSCE Mock - Physics Paper II (Practical).pdf",
-    "path": "Exams/Physics/2018 St George Academy MSCE Mock - Physics Paper II (Practical).pdf",
+    "name": "2018 St George Academy MSCE Physics Paper II Mock Exam (Practical).pdf",
+    "path": "Exams/Physics/2018 St George Academy MSCE Physics Paper II Mock Exam (Practical).pdf",
     "size": 54472,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f1e0293e39"
+    "id": "f1e0293e39",
+    "level": "msce"
   },
   {
-    "name": "2018_FORM_4_PHYSICS_PAPER_I.pdf",
-    "path": "Exams/Physics/2018_FORM_4_PHYSICS_PAPER_I.pdf",
-    "size": 869813,
-    "repo": "e-library-media",
+    "name": "2019 Form 1 Physics Paper I Exam.pdf",
+    "path": "Exams/Physics/2019 Form 1 Physics Paper I Exam.pdf",
+    "size": 554388,
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f60117312e"
+    "id": "f647244818",
+    "level": "jce"
   },
   {
-    "name": "2018_PHYSICAL_SCIENCE_PAPER_II-1-1.pdf",
-    "path": "Exams/Physics/2018_PHYSICAL_SCIENCE_PAPER_II-1-1 (1).pdf",
-    "size": 297669,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f3bf0d8647"
-  },
-  {
-    "name": "2019 PHYSICS PAPER II - F4.pdf",
-    "path": "Exams/Physics/2019 PHYSICS PAPER II - F4.pdf",
+    "name": "2019 Form 4 Physics Paper II Exam.pdf",
+    "path": "Exams/Physics/2019 Form 4 Physics Paper II Exam.pdf",
     "size": 454046,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fb4ed510fd"
+    "id": "fb4ed510fd",
+    "level": "msce"
   },
   {
-    "name": "2019 PHYSICS PP1 MANEB.pdf",
-    "path": "Exams/Physics/2019 PHYSICS PP1 MANEB.pdf",
+    "name": "2019 MANEB MSCE Physics Paper I.pdf",
+    "path": "Exams/Physics/2019 MANEB MSCE Physics Paper I.pdf",
     "size": 1788562,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f6c4dd4f91"
+    "id": "f6c4dd4f91",
+    "level": "msce"
   },
   {
-    "name": "2019 Zomba Catholic MSCE Mock - Physics Paper II (Practical).pdf",
-    "path": "Exams/Physics/2019 Zomba Catholic MSCE Mock - Physics Paper II (Practical).pdf",
+    "name": "2019 Zomba Catholic MSCE Physics Paper II Mock Exam (Practical).pdf",
+    "path": "Exams/Physics/2019 Zomba Catholic MSCE Physics Paper II Mock Exam (Practical).pdf",
     "size": 639188,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f424aceac6"
+    "id": "f424aceac6",
+    "level": "msce"
   },
   {
-    "name": "2019-2020 MTENDERE MSCE PHYSICS MOCK.pdf",
-    "path": "Exams/Physics/2019-2020 MTENDERE MSCE PHYSICS MOCK.pdf",
-    "size": 180079,
-    "repo": "e-library-media-3",
-    "bucket": 2,
-    "id": "f8a6e33e9b"
-  },
-  {
-    "name": "2019-2020 Rumphi Education Cluster End of Term 1 - Physics Paper I (Form 4).pdf",
-    "path": "Exams/Physics/2019-2020 Rumphi Education Cluster End of Term 1 - Physics Paper I (Form 4).pdf",
-    "size": 564992,
+    "name": "2020 Chinsapo Cluster MSCE Physics Paper I Mock Exam.pdf",
+    "path": "Exams/Physics/2020 Chinsapo Cluster MSCE Physics Paper I Mock Exam.pdf",
+    "size": 311924,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "ff2385ca2e"
+    "id": "fdb0819647",
+    "level": "msce"
   },
   {
-    "name": "2019_PHYSICS_PAPER_I_FORM_1.pdf",
-    "path": "Exams/Physics/2019_PHYSICS_PAPER_I_FORM_1.pdf",
-    "size": 554388,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f647244818"
-  },
-  {
-    "name": "2020 MANEB physics PI.pdf",
-    "path": "Exams/Physics/2020 MANEB physics PI.pdf",
+    "name": "2020 MANEB MSCE Physics Paper I.pdf",
+    "path": "Exams/Physics/2020 MANEB MSCE Physics Paper I.pdf",
     "size": 3257017,
-    "repo": "e-library-media-4",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f1f0b48cb3"
+    "id": "f1f0b48cb3",
+    "level": "msce"
   },
   {
-    "name": "2020 Northern Education Division MSCE Mock - Physics Paper I.docx",
-    "path": "Exams/Physics/2020 Northern Education Division MSCE Mock - Physics Paper I.docx",
+    "name": "2020 Molgic Private School MSCE Physics Paper II Mock Exam (Practical).pdf",
+    "path": "Exams/Physics/2020 Molgic Private School MSCE Physics Paper II Mock Exam (Practical).pdf",
+    "size": 347545,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f590996a35",
+    "level": "msce"
+  },
+  {
+    "name": "2020 Mtendere MSCE Physics Mock Exam.pdf",
+    "path": "Exams/Physics/2020 Mtendere MSCE Physics Mock Exam.pdf",
+    "size": 180079,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f8a6e33e9b",
+    "level": "msce"
+  },
+  {
+    "name": "2020 Northern Education Division MSCE Physics Paper I Mock Exam.docx",
+    "path": "Exams/Physics/2020 Northern Education Division MSCE Physics Paper I Mock Exam.docx",
     "size": 467930,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f6abdeea0a"
+    "id": "f6abdeea0a",
+    "level": "msce"
   },
   {
-    "name": "2020_MSCE_PHYSICS_PRACTICALS_MOCK_EXAMS(MOLGIC_PRIVATE_SCHOOL).pdf",
-    "path": "Exams/Physics/2020_MSCE_PHYSICS_PRACTICALS_MOCK_EXAMS(MOLGIC_PRIVATE_SCHOOL).pdf",
-    "size": 347545,
-    "repo": "e-library-media",
+    "name": "2020 Rumphi Education Cluster Form 4 End of Term 1 Physics Paper I Exam.pdf",
+    "path": "Exams/Physics/2020 Rumphi Education Cluster Form 4 End of Term 1 Physics Paper I Exam.pdf",
+    "size": 564992,
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f590996a35"
+    "id": "ff2385ca2e",
+    "level": "msce"
   },
   {
-    "name": "2020_PHYSICS_P1_CHINSAPO_CLUSTER_MOCK.pdf",
-    "path": "Exams/Physics/2020_PHYSICS_P1_CHINSAPO_CLUSTER_MOCK.pdf",
-    "size": 311924,
-    "repo": "e-library-media",
+    "name": "2021 Hill Crescent MSCE Physics Paper I Mock Exam.pdf",
+    "path": "Exams/Physics/2021 Hill Crescent MSCE Physics Paper I Mock Exam.pdf",
+    "size": 405582,
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fdb0819647"
+    "id": "f22fe865a9",
+    "level": "msce"
   },
   {
-    "name": "2021 Loyola Jesuit JCE Mock - Physics.pdf",
-    "path": "Exams/Physics/2021 Loyola Jesuit JCE Mock - Physics.pdf",
+    "name": "2021 Loyola Jesuit JCE Physics Mock Exam.pdf",
+    "path": "Exams/Physics/2021 Loyola Jesuit JCE Physics Mock Exam.pdf",
     "size": 1223908,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f1c2666052"
+    "id": "f1c2666052",
+    "level": "jce"
   },
   {
-    "name": "2021 MANEB physics PII.pdf",
-    "path": "Exams/Physics/2021 MANEB physics PII.pdf",
-    "size": 876139,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f4e91ec145"
-  },
-  {
-    "name": "2021 MARANATHA ACADEMY MSCE PHYSICS 1 MOCK EXAMINATIONS final-1.pdf",
-    "path": "Exams/Physics/2021 MARANATHA  ACADEMY MSCE PHYSICS 1 MOCK EXAMINATIONS final-1.pdf",
-    "size": 417310,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f0b5806532"
-  },
-  {
-    "name": "2021 MARANATHA ACADEMY MSCE PHYSICS 2 MOCK EXAMINATIONS final-1.pdf",
-    "path": "Exams/Physics/2021 MARANATHA  ACADEMY MSCE PHYSICS 2 MOCK EXAMINATIONS final-1.pdf",
-    "size": 425345,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "ff49446f4e"
-  },
-  {
-    "name": "2021 MSCE PHYSICS Paper I Loyola.pdf",
-    "path": "Exams/Physics/2021 MSCE PHYSICS Paper I Loyola.pdf",
+    "name": "2021 Loyola Jesuit MSCE Physics Paper I Mock Exam.pdf",
+    "path": "Exams/Physics/2021 Loyola Jesuit MSCE Physics Paper I Mock Exam.pdf",
     "size": 558466,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f3c1faa309"
+    "id": "f3c1faa309",
+    "level": "msce"
   },
   {
-    "name": "2021 Nkhamenya Cluster MSCE Mock - Physics Paper II (Practical).docx",
-    "path": "Exams/Physics/2021 Nkhamenya Cluster MSCE Mock - Physics Paper II (Practical).docx",
+    "name": "2021 MANEB MSCE Physics Paper II.pdf",
+    "path": "Exams/Physics/2021 MANEB MSCE Physics Paper II.pdf",
+    "size": 876139,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f4e91ec145",
+    "level": "msce"
+  },
+  {
+    "name": "2021 Maranatha Academy MSCE Physics Paper I Mock Exam.pdf",
+    "path": "Exams/Physics/2021 Maranatha Academy MSCE Physics Paper I Mock Exam.pdf",
+    "size": 417310,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f0b5806532",
+    "level": "msce"
+  },
+  {
+    "name": "2021 Maranatha Academy MSCE Physics Paper II Mock Exam.docx",
+    "path": "Exams/Physics/2021 Maranatha Academy MSCE Physics Paper II Mock Exam.docx",
+    "size": 708366,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fbe1b6b053",
+    "level": "msce"
+  },
+  {
+    "name": "2021 Maranatha Academy MSCE Physics Paper II Mock Exam.pdf",
+    "path": "Exams/Physics/2021 Maranatha Academy MSCE Physics Paper II Mock Exam.pdf",
+    "size": 425345,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "ff49446f4e",
+    "level": "msce"
+  },
+  {
+    "name": "2021 Nkhamenya Cluster MSCE Physics Paper II Mock Exam (Practical).docx",
+    "path": "Exams/Physics/2021 Nkhamenya Cluster MSCE Physics Paper II Mock Exam (Practical).docx",
     "size": 1557137,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f470de0d7b"
+    "id": "f470de0d7b",
+    "level": "msce"
   },
   {
-    "name": "2021 St Marys MSCE Mock - Physics Paper II (Practical).pdf",
-    "path": "Exams/Physics/2021 St Marys MSCE Mock - Physics Paper II (Practical).pdf",
+    "name": "2021 St Marys MSCE Physics Paper II Mock Exam (Practical).pdf",
+    "path": "Exams/Physics/2021 St Marys MSCE Physics Paper II Mock Exam (Practical).pdf",
     "size": 328814,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fd2f2cbc81"
+    "id": "fd2f2cbc81",
+    "level": "msce"
   },
   {
-    "name": "2021 SYNOD PHYSICS MOCK PP1.pdf",
-    "path": "Exams/Physics/2021 SYNOD PHYSICS MOCK PP1.pdf",
+    "name": "2021 Synod MSCE Physics Paper I Mock Exam.pdf",
+    "path": "Exams/Physics/2021 Synod MSCE Physics Paper I Mock Exam.pdf",
     "size": 996002,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fee3100737"
+    "id": "fee3100737",
+    "level": "msce"
   },
   {
-    "name": "2021_MARANATHA__ACADEMY_MSCE_PHYSICS_2_MOCK_EXAMINATIONS_final.docx",
-    "path": "Exams/Physics/2021_MARANATHA__ACADEMY_MSCE_PHYSICS_2_MOCK_EXAMINATIONS_final.docx",
-    "size": 708366,
-    "repo": "e-library-media",
+    "name": "2022 Blantyre Synod MSCE Physics Paper II Mock Exam.docx",
+    "path": "Exams/Physics/2022 Blantyre Synod MSCE Physics Paper II Mock Exam.docx",
+    "size": 143093,
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fbe1b6b053"
+    "id": "f8612671b8",
+    "level": "msce"
   },
   {
-    "name": "2021_MSCE_Physics_Paper 1_HILL CRESCENT_1.pdf",
-    "path": "Exams/Physics/2021_MSCE_Physics_Paper 1_HILL CRESCENT_1.pdf",
-    "size": 405582,
-    "repo": "e-library-media",
+    "name": "2022 Box 2 MSCE Physics Mock Exam.pdf",
+    "path": "Exams/Physics/2022 Box 2 MSCE Physics Mock Exam.pdf",
+    "size": 2293563,
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f22fe865a9"
+    "id": "ff18101edc",
+    "level": "msce"
   },
   {
-    "name": "2022 BSS PHYSICS PAPER II MSCE MOCK-1.docx",
-    "path": "Exams/Physics/2022 BSS PHYSICS PAPER II MSCE MOCK-1.docx",
+    "name": "2022 BSS MSCE Physics Paper II Mock Exam.docx",
+    "path": "Exams/Physics/2022 BSS MSCE Physics Paper II Mock Exam.docx",
     "size": 787496,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f71f1aef37"
+    "id": "f71f1aef37",
+    "level": "msce"
   },
   {
-    "name": "2022 JCE MOCK PHYSICS_1.pdf",
-    "path": "Exams/Physics/2022 JCE MOCK PHYSICS_1.pdf",
+    "name": "2022 JCE Physics Mock Exam.pdf",
+    "path": "Exams/Physics/2022 JCE Physics Mock Exam.pdf",
     "size": 457106,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fedcfc2a0a"
+    "id": "fedcfc2a0a",
+    "level": "jce"
   },
   {
-    "name": "2022 MARIST MSCE PHYSICS MOCK 2.pdf",
-    "path": "Exams/Physics/2022 MARIST MSCE PHYSICS MOCK 2.pdf",
+    "name": "2022 Marist MSCE Physics Paper II Mock Exam.pdf",
+    "path": "Exams/Physics/2022 Marist MSCE Physics Paper II Mock Exam.pdf",
     "size": 139378,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f706f71143"
+    "id": "f706f71143",
+    "level": "msce"
   },
   {
-    "name": "2022 MSCE PHYSICS Chief Report_1.pdf",
-    "path": "Exams/Physics/2022 MSCE PHYSICS Chief Report_1.pdf",
-    "size": 855754,
-    "repo": "e-library-media",
+    "name": "2022 MSCE Physics Paper I Mock Exam.pdf",
+    "path": "Exams/Physics/2022 MSCE Physics Paper I Mock Exam.pdf",
+    "size": 235414,
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fd38fd6d8a"
+    "id": "f9e8b0eb0c",
+    "level": "msce"
   },
   {
-    "name": "2022 Mzuzu Diocese MSCE Mock - Physics Paper I.pdf",
-    "path": "Exams/Physics/2022 Mzuzu Diocese MSCE Mock - Physics Paper I.pdf",
+    "name": "2022 Mzuzu Diocese MSCE Physics Paper I Mock Exam.pdf",
+    "path": "Exams/Physics/2022 Mzuzu Diocese MSCE Physics Paper I Mock Exam.pdf",
     "size": 487330,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fa43ad9b69"
+    "id": "fa43ad9b69",
+    "level": "msce"
   },
   {
-    "name": "2022 Nkhoma Synod MSCE Mock - Physics Paper I.pdf",
-    "path": "Exams/Physics/2022 Nkhoma Synod MSCE Mock - Physics Paper I.pdf",
+    "name": "2022 Nkhoma Synod MSCE Physics Paper I Mock Exam.pdf",
+    "path": "Exams/Physics/2022 Nkhoma Synod MSCE Physics Paper I Mock Exam.pdf",
     "size": 506842,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f2fd94f954"
+    "id": "f2fd94f954",
+    "level": "msce"
   },
   {
-    "name": "2022 Nkhoma Synod MSCE Mock - Physics Paper II (Practical).pdf",
-    "path": "Exams/Physics/2022 Nkhoma Synod MSCE Mock - Physics Paper II (Practical).pdf",
+    "name": "2022 Nkhoma Synod MSCE Physics Paper II Mock Exam (Practical).pdf",
+    "path": "Exams/Physics/2022 Nkhoma Synod MSCE Physics Paper II Mock Exam (Practical).pdf",
     "size": 610249,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f16ea12641"
+    "id": "f16ea12641",
+    "level": "msce"
   },
   {
-    "name": "2022 Northern Education Division MSCE Mock - Physics Paper I.docx",
-    "path": "Exams/Physics/2022 Northern Education Division MSCE Mock - Physics Paper I.docx",
+    "name": "2022 Northern Education Division MSCE Physics Paper I Mock Exam.docx",
+    "path": "Exams/Physics/2022 Northern Education Division MSCE Physics Paper I Mock Exam.docx",
     "size": 492331,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f510f52c40"
+    "id": "f510f52c40",
+    "level": "msce"
   },
   {
-    "name": "2022 Northern Education Division MSCE Mock - Physics Paper II (Practical).docx",
-    "path": "Exams/Physics/2022 Northern Education Division MSCE Mock - Physics Paper II (Practical).docx",
+    "name": "2022 Northern Education Division MSCE Physics Paper II Mock Exam (Practical).docx",
+    "path": "Exams/Physics/2022 Northern Education Division MSCE Physics Paper II Mock Exam (Practical).docx",
     "size": 566660,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f91ae99f82"
+    "id": "f91ae99f82",
+    "level": "msce"
   },
   {
-    "name": "2022 Phy I MOck Exams.pdf",
-    "path": "Exams/Physics/2022 Phy I MOck Exams.pdf",
-    "size": 235414,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f9e8b0eb0c"
-  },
-  {
-    "name": "2022 PHYSICS P2 MOCK BT SYNOD.docx",
-    "path": "Exams/Physics/2022 PHYSICS P2 MOCK BT SYNOD.docx",
-    "size": 143093,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f8612671b8"
-  },
-  {
-    "name": "2022 St Godfrey MSCE End of Term 1 - Physics Paper I.pdf",
-    "path": "Exams/Physics/2022 St Godfrey MSCE End of Term 1 - Physics Paper I.pdf",
+    "name": "2022 St Godfrey MSCE End of Term 1 Physics Paper I Exam.pdf",
+    "path": "Exams/Physics/2022 St Godfrey MSCE End of Term 1 Physics Paper I Exam.pdf",
     "size": 483250,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f73cb86253"
+    "id": "f73cb86253",
+    "level": "msce"
   },
   {
-    "name": "2023 CHIRADZULU MSCE PHYSICS MOCK PAPER 2.pdf",
-    "path": "Exams/Physics/2023 CHIRADZULU MSCE PHYSICS MOCK PAPER 2.pdf",
+    "name": "2023 Chiradzulu MSCE Physics Paper II Mock Exam.pdf",
+    "path": "Exams/Physics/2023 Chiradzulu MSCE Physics Paper II Mock Exam.pdf",
     "size": 476748,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f950f15027"
+    "id": "f950f15027",
+    "level": "msce"
   },
   {
-    "name": "2023 JCE PHYS MANEB_1.pdf",
-    "path": "Exams/Physics/2023 JCE PHYS MANEB_1.pdf",
-    "size": 1457945,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f9b7560b97"
-  },
-  {
-    "name": "2023 JCE PHYSICS MOCK_1.pdf",
-    "path": "Exams/Physics/2023 JCE PHYSICS MOCK_1.pdf",
+    "name": "2023 JCE Physics Mock Exam.pdf",
+    "path": "Exams/Physics/2023 JCE Physics Mock Exam.pdf",
     "size": 359256,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fe4d4fca70"
+    "id": "fe4d4fca70",
+    "level": "jce"
   },
   {
-    "name": "2023 MZUZU DIOCESE MSCE PHYSICS MOCK PAPER 1.pdf",
-    "path": "Exams/Physics/2023 MZUZU DIOCESE MSCE PHYSICS MOCK PAPER 1.pdf",
-    "size": 221853,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fc711ee583"
-  },
-  {
-    "name": "2023__MSCE_PHYSICS_PP_II_PHALOMBE_DISTRICT_1.pdf",
-    "path": "Exams/Physics/2023__MSCE_PHYSICS_PP_II_PHALOMBE_DISTRICT_1.pdf",
-    "size": 724072,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f2f1cc2db8"
-  },
-  {
-    "name": "2023_LLCM_PHYSICS_PI_1.pdf",
-    "path": "Exams/Physics/2023_LLCM_PHYSICS_PI_1.pdf",
+    "name": "2023 LLCM MSCE Physics Paper I Mock Exam.pdf",
+    "path": "Exams/Physics/2023 LLCM MSCE Physics Paper I Mock Exam.pdf",
     "size": 344580,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "ffd8bdb0db"
+    "id": "ffd8bdb0db",
+    "level": "msce"
   },
   {
-    "name": "2023_Physics_P1_Maneb.pdf",
-    "path": "Exams/Physics/2023_Physics_P1_Maneb.pdf",
+    "name": "2023 MANEB JCE Physics Exam.pdf",
+    "path": "Exams/Physics/2023 MANEB JCE Physics Exam.pdf",
+    "size": 1457945,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f9b7560b97",
+    "level": "jce"
+  },
+  {
+    "name": "2023 MANEB MSCE Physics Paper I.pdf",
+    "path": "Exams/Physics/2023 MANEB MSCE Physics Paper I.pdf",
     "size": 644575,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fadd67f144"
+    "id": "fadd67f144",
+    "level": "msce"
   },
   {
-    "name": "2023_Physics_Paper_2._Mock_2.pdf",
-    "path": "Exams/Physics/2023_Physics_Paper_2._Mock_2.pdf",
+    "name": "2023 MSCE Physics Paper II Mock Exam (Set 2).pdf",
+    "path": "Exams/Physics/2023 MSCE Physics Paper II Mock Exam (Set 2).pdf",
     "size": 715776,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f818c03500"
+    "id": "f818c03500",
+    "level": "msce"
   },
   {
-    "name": "2023_physics_PPII.pdf",
-    "path": "Exams/Physics/2023_physics_PPII_(1).pdf",
+    "name": "2023 MSCE Physics Paper II Mock Exam.pdf",
+    "path": "Exams/Physics/2023 MSCE Physics Paper II Mock Exam.pdf",
     "size": 540470,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f36c013d85"
+    "id": "f36c013d85",
+    "level": "msce"
   },
   {
-    "name": "2024 CEED PHYSICS - PAPER I.pdf",
-    "path": "Exams/Physics/2024 CEED PHYSICS - PAPER I.pdf",
+    "name": "2023 Mzuzu Diocese MSCE Physics Paper I Mock Exam.pdf",
+    "path": "Exams/Physics/2023 Mzuzu Diocese MSCE Physics Paper I Mock Exam.pdf",
+    "size": 221853,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fc711ee583",
+    "level": "msce"
+  },
+  {
+    "name": "2023 Phalombe District MSCE Physics Paper II Mock Exam.pdf",
+    "path": "Exams/Physics/2023 Phalombe District MSCE Physics Paper II Mock Exam.pdf",
+    "size": 724072,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f2f1cc2db8",
+    "level": "msce"
+  },
+  {
+    "name": "2023 SEED MSCE Physics Paper II Mock Exam.pdf",
+    "path": "Exams/Physics/2023 SEED MSCE Physics Paper II Mock Exam.pdf",
+    "size": 473742,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f6896cd24d",
+    "level": "msce"
+  },
+  {
+    "name": "2024 CEED MSCE Physics Paper I Mock Exam.pdf",
+    "path": "Exams/Physics/2024 CEED MSCE Physics Paper I Mock Exam.pdf",
     "size": 1367711,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fee59e66fc"
+    "id": "fee59e66fc",
+    "level": "msce"
   },
   {
-    "name": "2024 CEED PHYSICS - PAPER II.pdf",
-    "path": "Exams/Physics/2024 CEED PHYSICS - PAPER II.pdf",
+    "name": "2024 CEED MSCE Physics Paper II Mock Exam.pdf",
+    "path": "Exams/Physics/2024 CEED MSCE Physics Paper II Mock Exam.pdf",
     "size": 1481595,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f8d812c01f"
+    "id": "f8d812c01f",
+    "level": "msce"
   },
   {
-    "name": "2024 DESHA MSCE PHYSICS MOCK.pdf",
-    "path": "Exams/Physics/2024 DESHA MSCE PHYSICS MOCK.pdf",
+    "name": "2024 DESHA MSCE Physics Mock Exam.pdf",
+    "path": "Exams/Physics/2024 DESHA MSCE Physics Mock Exam.pdf",
     "size": 457724,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f25129b446"
+    "id": "f25129b446",
+    "level": "msce"
   },
   {
-    "name": "2024 JCE PHYSICS MANEB_1.pdf",
-    "path": "Exams/Physics/2024 JCE PHYSICS MANEB_1.pdf",
-    "size": 3271622,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f0f93fc400"
-  },
-  {
-    "name": "2024 MSCE PHYSICS PI MWANZA CLUSTER MOCK_1.pdf",
-    "path": "Exams/Physics/2024 MSCE PHYSICS PI MWANZA CLUSTER MOCK_1.pdf",
-    "size": 554025,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5bebd8d71"
-  },
-  {
-    "name": "2024 MSCE PHYSICS PII MWANZA CLUSTER MOCK_1.pdf",
-    "path": "Exams/Physics/2024 MSCE PHYSICS PII MWANZA CLUSTER MOCK_1.pdf",
-    "size": 259838,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5b9fcee26"
-  },
-  {
-    "name": "2024 PHYSICS II MOCK 1.pdf",
-    "path": "Exams/Physics/2024 PHYSICS II MOCK 1 (1).pdf",
-    "size": 212224,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f91791e722"
-  },
-  {
-    "name": "2024 SHED MSCE PHYSICS MOCK PAPER 2.pdf",
-    "path": "Exams/Physics/2024 SHED MSCE PHYSICS MOCK PAPER 2 (1).pdf",
-    "size": 208032,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f59c28f322"
-  },
-  {
-    "name": "2024 SHED MSCE PHYSICS MOCK PAPER 2.pdf",
-    "path": "Exams/Physics/2024 SHED MSCE PHYSICS MOCK PAPER 2.pdf",
-    "size": 16094,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fd0e32e9e4"
-  },
-  {
-    "name": "2024_KUGWETSA_PHYSICS_PRACATICALS_1.pdf",
-    "path": "Exams/Physics/2024_KUGWETSA_PHYSICS_PRACATICALS_1.pdf",
+    "name": "2024 Kugwetsa MSCE Physics Paper II Practicals Mock Exam.pdf",
+    "path": "Exams/Physics/2024 Kugwetsa MSCE Physics Paper II Practicals Mock Exam.pdf",
     "size": 2204976,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "ffffe1e79c"
+    "id": "ffffe1e79c",
+    "level": "msce"
   },
   {
-    "name": "2024_MSCE_PHYSICS_1_MOCK.pdf",
-    "path": "Exams/Physics/2024_MSCE_PHYSICS_1_MOCK (1).pdf",
+    "name": "2024 MANEB JCE Physics Exam.pdf",
+    "path": "Exams/Physics/2024 MANEB JCE Physics Exam.pdf",
+    "size": 3271622,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f0f93fc400",
+    "level": "jce"
+  },
+  {
+    "name": "2024 MSCE Physics Paper I Mock Exam.pdf",
+    "path": "Exams/Physics/2024 MSCE Physics Paper I Mock Exam.pdf",
     "size": 990194,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f08de3904c"
+    "id": "f08de3904c",
+    "level": "msce"
   },
   {
-    "name": "2025 MARANATHA ACADEMY FORM 4 MOCK 2 PHYSICS PI_1.pdf",
-    "path": "Exams/Physics/2025 MARANATHA ACADEMY FORM 4 MOCK 2 PHYSICS PI_1.pdf",
+    "name": "2024 MSCE Physics Paper II Mock Exam.pdf",
+    "path": "Exams/Physics/2024 MSCE Physics Paper II Mock Exam.pdf",
+    "size": 212224,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f91791e722",
+    "level": "msce"
+  },
+  {
+    "name": "2024 Mwanza Cluster MSCE Physics Paper I Mock Exam.pdf",
+    "path": "Exams/Physics/2024 Mwanza Cluster MSCE Physics Paper I Mock Exam.pdf",
+    "size": 554025,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f5bebd8d71",
+    "level": "msce"
+  },
+  {
+    "name": "2024 Mwanza Cluster MSCE Physics Paper II Mock Exam.pdf",
+    "path": "Exams/Physics/2024 Mwanza Cluster MSCE Physics Paper II Mock Exam.pdf",
+    "size": 259838,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f5b9fcee26",
+    "level": "msce"
+  },
+  {
+    "name": "2024 SEED MSCE Physics Paper I Mock Exam.pdf",
+    "path": "Exams/Physics/2024 SEED MSCE Physics Paper I Mock Exam.pdf",
+    "size": 364989,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f0295fc56f",
+    "level": "msce"
+  },
+  {
+    "name": "2024 SHED MSCE Physics Paper II Mock Exam.pdf",
+    "path": "Exams/Physics/2024 SHED MSCE Physics Paper II Mock Exam.pdf",
+    "size": 208032,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f59c28f322",
+    "level": "msce"
+  },
+  {
+    "name": "2025 Form 3 Physics Term 1 Exam.pdf",
+    "path": "Exams/Physics/2025 Form 3 Physics Term 1 Exam.pdf",
+    "size": 642621,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f77001c363",
+    "level": "msce"
+  },
+  {
+    "name": "2025 Maranatha Academy Form 4 Physics Paper I Mock Exam (Set 2).pdf",
+    "path": "Exams/Physics/2025 Maranatha Academy Form 4 Physics Paper I Mock Exam (Set 2).pdf",
     "size": 2728721,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f9405462c0"
+    "id": "f9405462c0",
+    "level": "msce"
   },
   {
-    "name": "2025 physics PPI_1.pdf",
-    "path": "Exams/Physics/2025 physics PPI_1.pdf",
+    "name": "2025 MSCE Physics Paper I Mock Exam.pdf",
+    "path": "Exams/Physics/2025 MSCE Physics Paper I Mock Exam.pdf",
     "size": 3409404,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fc2d504c3d"
+    "id": "fc2d504c3d",
+    "level": "msce"
   },
   {
-    "name": "2025 SEED PHYSICS MOCK PI.doc",
-    "path": "Exams/Physics/2025 SEED PHYSICS MOCK  PI.doc",
+    "name": "2025 Santa MSCE Physics Paper II Second Mock Exam.pdf",
+    "path": "Exams/Physics/2025 Santa MSCE Physics Paper II Second Mock Exam.pdf",
+    "size": 330286,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f53ae79090",
+    "level": "msce"
+  },
+  {
+    "name": "2025 SEED MSCE Physics Paper I Mock Exam.doc",
+    "path": "Exams/Physics/2025 SEED MSCE Physics Paper I Mock Exam.doc",
     "size": 472064,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "ffce1a6c26"
+    "id": "ffce1a6c26",
+    "level": "msce"
   },
   {
-    "name": "2025 SEED PHYSICS MOCK PII.doc",
-    "path": "Exams/Physics/2025 SEED PHYSICS MOCK  PII.doc",
+    "name": "2025 SEED MSCE Physics Paper II Mock Exam.doc",
+    "path": "Exams/Physics/2025 SEED MSCE Physics Paper II Mock Exam.doc",
     "size": 2065920,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fa3d42af71"
+    "id": "fa3d42af71",
+    "level": "msce"
   },
   {
-    "name": "2025 SHED PHYSICS PAPER I.docx",
-    "path": "Exams/Physics/2025 SHED PHYSICS PAPER I.docx",
+    "name": "2025 SHED MSCE Physics Paper I Mock Exam.docx",
+    "path": "Exams/Physics/2025 SHED MSCE Physics Paper I Mock Exam.docx",
     "size": 1180251,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fe5614fbec"
+    "id": "fe5614fbec",
+    "level": "msce"
   },
   {
-    "name": "2025 St Marys MSCE Post-Mock - Physics Paper I.pdf",
-    "path": "Exams/Physics/2025 St Marys MSCE Post-Mock - Physics Paper I.pdf",
+    "name": "2025 St Marys MSCE Physics Paper I Post-Mock Exam.pdf",
+    "path": "Exams/Physics/2025 St Marys MSCE Physics Paper I Post-Mock Exam.pdf",
     "size": 1176520,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f4b2647ab4"
+    "id": "f4b2647ab4",
+    "level": "msce"
   },
   {
-    "name": "2025 SWED MOCK PHYSICS I.pdf",
-    "path": "Exams/Physics/2025 SWED MOCK PHYSICS I.pdf",
+    "name": "2025 SWED MSCE Physics Paper I Mock Exam.pdf",
+    "path": "Exams/Physics/2025 SWED MSCE Physics Paper I Mock Exam.pdf",
     "size": 725405,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f0bf96a7da"
+    "id": "f0bf96a7da",
+    "level": "msce"
   },
   {
-    "name": "2026 MOCK PHYSICS I.docx",
-    "path": "Exams/Physics/2026  MOCK PHYSICS I.docx",
-    "size": 489085,
-    "repo": "e-library-media",
+    "name": "2026 BSS JCE Physics Cluster Mock Exam.pdf",
+    "path": "Exams/Physics/2026 BSS JCE Physics Cluster Mock Exam.pdf",
+    "size": 812784,
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f3b7c4bf26"
+    "id": "fdd0304422",
+    "level": "jce"
   },
   {
-    "name": "2026 CEED PHYSICS I.pdf",
-    "path": "Exams/Physics/2026 CEED PHYSICS I.pdf",
+    "name": "2026 BSS MSCE Physics Paper I Cluster Mock Exam.pdf",
+    "path": "Exams/Physics/2026 BSS MSCE Physics Paper I Cluster Mock Exam.pdf",
+    "size": 737331,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f782188561",
+    "level": "msce"
+  },
+  {
+    "name": "2026 BSS MSCE Physics Paper II Cluster Mock Exam.pdf",
+    "path": "Exams/Physics/2026 BSS MSCE Physics Paper II Cluster Mock Exam.pdf",
+    "size": 1824278,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f8bcc771d4",
+    "level": "msce"
+  },
+  {
+    "name": "2026 CEED MSCE Physics Paper I Mock Exam.pdf",
+    "path": "Exams/Physics/2026 CEED MSCE Physics Paper I Mock Exam.pdf",
     "size": 970141,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f62ce404db"
+    "id": "f62ce404db",
+    "level": "msce"
   },
   {
-    "name": "2026 CEED PHYSICS II.pdf",
-    "path": "Exams/Physics/2026 CEED PHYSICS II.pdf",
+    "name": "2026 CEED MSCE Physics Paper II Mock Exam.pdf",
+    "path": "Exams/Physics/2026 CEED MSCE Physics Paper II Mock Exam.pdf",
     "size": 1791679,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f464d3a6a0"
+    "id": "f464d3a6a0",
+    "level": "msce"
   },
   {
-    "name": "2026 JCE PHYSICS MOCK.docx",
-    "path": "Exams/Physics/2026 JCE PHYSICS MOCK (1).docx",
+    "name": "2026 Form 2 Physics End of Term 2 Exam.docx",
+    "path": "Exams/Physics/2026 Form 2 Physics End of Term 2 Exam.docx",
+    "size": 199389,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f710a6d5b0",
+    "level": "jce"
+  },
+  {
+    "name": "2026 JCE Physics Mock Exam.docx",
+    "path": "Exams/Physics/2026 JCE Physics Mock Exam.docx",
     "size": 1024472,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f149274ca5"
+    "id": "f149274ca5",
+    "level": "jce"
   },
   {
-    "name": "2026 JCE PHYSICS MOCK.pdf",
-    "path": "Exams/Physics/2026 JCE PHYSICS MOCK (1).pdf",
+    "name": "2026 JCE Physics Mock Exam.pdf",
+    "path": "Exams/Physics/2026 JCE Physics Mock Exam.pdf",
     "size": 461897,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f8eff50e78"
+    "id": "f8eff50e78",
+    "level": "jce"
   },
   {
-    "name": "2026 MANEB Physics Paper I.pdf",
-    "path": "Exams/Physics/2026 MANEB Physics Paper I.pdf",
-    "size": 1936945,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f33f4bb0e7"
-  },
-  {
-    "name": "2026 MANEB Physics Paper II.pdf",
-    "path": "Exams/Physics/2026 MANEB Physics Paper II.pdf",
-    "size": 1004091,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f1505023bc"
-  },
-  {
-    "name": "2026 MSCE Mara physics P1 mock 2.pdf",
-    "path": "Exams/Physics/2026 MSCE Mara physics P1 mock 2.pdf",
-    "size": 4176616,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f926f810af"
-  },
-  {
-    "name": "2026 MSCE Mara Physics P2 mock 2.pdf",
-    "path": "Exams/Physics/2026 MSCE Mara Physics P2 mock 2.pdf",
-    "size": 3167010,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f1904fe165"
-  },
-  {
-    "name": "2026 MSCE PHYSICS PAPER 2 MOCK.docx",
-    "path": "Exams/Physics/2026 MSCE PHYSICS  PAPER 2 MOCK (1).docx",
-    "size": 387690,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "ff2c0461ac"
-  },
-  {
-    "name": "2026 MSCE PHYSICS PAPER 1 MOCK.docx",
-    "path": "Exams/Physics/2026 MSCE PHYSICS PAPER 1 MOCK (1).docx",
-    "size": 447026,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fdf0683745"
-  },
-  {
-    "name": "2026 MSCE PHYSICS PAPER 1 MOCK.pdf",
-    "path": "Exams/Physics/2026 MSCE PHYSICS PAPER 1 MOCK (1).pdf",
-    "size": 554240,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fcf7298d5c"
-  },
-  {
-    "name": "2026 NED JCE KEM PHY FINAL 1 1.docx",
-    "path": "Exams/Physics/2026 NED JCE KEM PHY FINAL 1 1.docx",
-    "size": 403630,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f40448932d"
-  },
-  {
-    "name": "2026 NED MOCK PHY P1.docx",
-    "path": "Exams/Physics/2026 NED MOCK PHY P1.docx",
-    "size": 598413,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f19e40c1a3"
-  },
-  {
-    "name": "2026 NED MOCK PHY- P2.docx",
-    "path": "Exams/Physics/2026 NED MOCK PHY- P2.docx",
-    "size": 167072,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe97bbee07"
-  },
-  {
-    "name": "2026_MZGSS-Physics_MSCE_paper_1.pdf.pdf",
-    "path": "Exams/Physics/2026_MZGSS-Physics_MSCE_paper_1.pdf.pdf",
-    "size": 509353,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fd110e590a"
-  },
-  {
-    "name": "2026_Physics_P1_Kugwetsa-Online.pdf",
-    "path": "Exams/Physics/2026_Physics_P1_Kugwetsa-Online.pdf",
+    "name": "2026 Kugwetsa Online MSCE Physics Paper I Mock Exam.pdf",
+    "path": "Exams/Physics/2026 Kugwetsa Online MSCE Physics Paper I Mock Exam.pdf",
     "size": 387977,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fb666f9b4b"
+    "id": "fb666f9b4b",
+    "level": "msce"
   },
   {
-    "name": "2026_Physics_P1_NED.pdf",
-    "path": "Exams/Physics/2026_Physics_P1_NED.pdf",
+    "name": "2026 MANEB MSCE Physics Paper I Mock Exam.pdf",
+    "path": "Exams/Physics/2026 MANEB MSCE Physics Paper I Mock Exam.pdf",
+    "size": 1936945,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f33f4bb0e7",
+    "level": "msce"
+  },
+  {
+    "name": "2026 MANEB MSCE Physics Paper II Mock Exam.pdf",
+    "path": "Exams/Physics/2026 MANEB MSCE Physics Paper II Mock Exam.pdf",
+    "size": 1004091,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f1505023bc",
+    "level": "msce"
+  },
+  {
+    "name": "2026 Maranatha Academy MSCE Physics Paper I Mock Exam (Set 2).pdf",
+    "path": "Exams/Physics/2026 Maranatha Academy MSCE Physics Paper I Mock Exam (Set 2).pdf",
+    "size": 4176616,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f926f810af",
+    "level": "msce"
+  },
+  {
+    "name": "2026 Maranatha Academy MSCE Physics Paper II Mock Exam (Set 2).pdf",
+    "path": "Exams/Physics/2026 Maranatha Academy MSCE Physics Paper II Mock Exam (Set 2).pdf",
+    "size": 3167010,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f1904fe165",
+    "level": "msce"
+  },
+  {
+    "name": "2026 MSCE Physics Paper I Mock Exam (National).docx",
+    "path": "Exams/Physics/2026 MSCE Physics Paper I Mock Exam (National).docx",
+    "size": 447026,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fdf0683745",
+    "level": "msce"
+  },
+  {
+    "name": "2026 MSCE Physics Paper I Mock Exam (National).pdf",
+    "path": "Exams/Physics/2026 MSCE Physics Paper I Mock Exam (National).pdf",
+    "size": 554240,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fcf7298d5c",
+    "level": "msce"
+  },
+  {
+    "name": "2026 MSCE Physics Paper I Mock Exam.docx",
+    "path": "Exams/Physics/2026 MSCE Physics Paper I Mock Exam.docx",
+    "size": 489085,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f3b7c4bf26",
+    "level": "msce"
+  },
+  {
+    "name": "2026 MSCE Physics Paper II Mock Exam (General).pdf",
+    "path": "Exams/Physics/2026 MSCE Physics Paper II Mock Exam (General).pdf",
+    "size": 483625,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "ff13abc164",
+    "level": "msce"
+  },
+  {
+    "name": "2026 MSCE Physics Paper II Mock Exam (National).docx",
+    "path": "Exams/Physics/2026 MSCE Physics Paper II Mock Exam (National).docx",
+    "size": 387690,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "ff2c0461ac",
+    "level": "msce"
+  },
+  {
+    "name": "2026 MZGSS MSCE Physics Paper I Mock Exam.pdf",
+    "path": "Exams/Physics/2026 MZGSS MSCE Physics Paper I Mock Exam.pdf",
+    "size": 509353,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fd110e590a",
+    "level": "msce"
+  },
+  {
+    "name": "2026 Northern Education Division JCE Physics Mock Exam.docx",
+    "path": "Exams/Physics/2026 Northern Education Division JCE Physics Mock Exam.docx",
+    "size": 403630,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f40448932d",
+    "level": "jce"
+  },
+  {
+    "name": "2026 Northern Education Division MSCE Physics Paper I Mock Exam.docx",
+    "path": "Exams/Physics/2026 Northern Education Division MSCE Physics Paper I Mock Exam.docx",
+    "size": 598413,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f19e40c1a3",
+    "level": "msce"
+  },
+  {
+    "name": "2026 Northern Education Division MSCE Physics Paper I Mock Exam.pdf",
+    "path": "Exams/Physics/2026 Northern Education Division MSCE Physics Paper I Mock Exam.pdf",
     "size": 664982,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f1ae8a218b"
+    "id": "f1ae8a218b",
+    "level": "msce"
   },
   {
-    "name": "2026_Physics_P1_SHED.pdf",
-    "path": "Exams/Physics/2026_Physics_P1_SHED.pdf",
+    "name": "2026 Northern Education Division MSCE Physics Paper II Mock Exam.docx",
+    "path": "Exams/Physics/2026 Northern Education Division MSCE Physics Paper II Mock Exam.docx",
+    "size": 167072,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fe97bbee07",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SEED MSCE Physics Paper I Mock Exam.doc",
+    "path": "Exams/Physics/2026 SEED MSCE Physics Paper I Mock Exam.doc",
+    "size": 401408,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f3cf038cfd",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SEED MSCE Physics Paper II Confidential Instructions.doc",
+    "path": "Exams/Physics/2026 SEED MSCE Physics Paper II Confidential Instructions.doc",
+    "size": 55808,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f47c912d2d",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SEED MSCE Physics Paper II Mock Exam.doc",
+    "path": "Exams/Physics/2026 SEED MSCE Physics Paper II Mock Exam.doc",
+    "size": 175104,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f40d54269e",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Physics Paper I Mock Exam.pdf",
+    "path": "Exams/Physics/2026 SHED MSCE Physics Paper I Mock Exam.pdf",
     "size": 724216,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f15c74fc25"
+    "id": "f15c74fc25",
+    "level": "msce"
   },
   {
-    "name": "2026_Physics_P2_SHED.pdf",
-    "path": "Exams/Physics/2026_Physics_P2_SHED.pdf",
+    "name": "2026 SHED MSCE Physics Paper II Mock Exam.pdf",
+    "path": "Exams/Physics/2026 SHED MSCE Physics Paper II Mock Exam.pdf",
     "size": 844436,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fa282dd079"
+    "id": "fa282dd079",
+    "level": "msce"
   },
   {
-    "name": "3PHYSICAL_SCIENCE_pp1-36_39-72.pdf",
-    "path": "Exams/Physics/3PHYSICAL_SCIENCE_pp1-36_39-72.pdf",
-    "size": 1884850,
-    "repo": "e-library-media",
+    "name": "CWED MSCE Physics Paper I Mock Exam (Theory).docx",
+    "path": "Exams/Physics/CWED MSCE Physics Paper I Mock Exam (Theory).docx",
+    "size": 302242,
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f52dea43cb"
+    "id": "f820db512e",
+    "level": "msce"
   },
   {
-    "name": "PHYSICS_FORM_3 (1)_1.pdf",
-    "path": "Exams/Physics/_PHYSICS_FORM_3 (1)_1.pdf",
-    "size": 1740627,
-    "repo": "e-library-media",
+    "name": "CWED MSCE Physics Paper II Mock Exam (Practical).docx",
+    "path": "Exams/Physics/CWED MSCE Physics Paper II Mock Exam (Practical).docx",
+    "size": 1032777,
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "feeb1fc95c"
+    "id": "f83b9e108e",
+    "level": "msce"
   },
   {
-    "name": "BALAKA -MOCK PHYSICAL SCIENCE PAPER II.docx",
-    "path": "Exams/Physics/BALAKA -MOCK PHYSICAL SCIENCE PAPER II.docx",
-    "size": 751295,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fa25839df1"
-  },
-  {
-    "name": "BALAKA SECONDARY SCHOOL-physi mock 2016.docx",
-    "path": "Exams/Physics/BALAKA SECONDARY SCHOOL-physi mock 2016.docx",
-    "size": 311401,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fedb4ec00a"
-  },
-  {
-    "name": "BOX2 Physics Mock 2022.pdf",
-    "path": "Exams/Physics/BOX2 Physics Mock 2022.pdf",
-    "size": 2293563,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "ff18101edc"
-  },
-  {
-    "name": "CHIEF EXAMINER'S - PHYSICS I.doc",
-    "path": "Exams/Physics/CHIEF EXAMINER'S - PHYSICS I.doc",
-    "size": 89088,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f30ce34f8a"
-  },
-  {
-    "name": "CHIEF EXAMINER'S - PHYSICS II.doc",
-    "path": "Exams/Physics/CHIEF EXAMINER'S - PHYSICS II.doc",
-    "size": 72704,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fd380fede5"
-  },
-  {
-    "name": "DEDZA_DISRICT_SECONDARY_SCHOOL_PHYSICS_PAPER_1.docx",
-    "path": "Exams/Physics/DEDZA_DISRICT_SECONDARY_SCHOOL_PHYSICS_PAPER_1.docx",
+    "name": "Dedza District Secondary School MSCE Physics Paper I Mock Exam.docx",
+    "path": "Exams/Physics/Dedza District Secondary School MSCE Physics Paper I Mock Exam.docx",
     "size": 18840,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fec49d9883"
+    "id": "fec49d9883",
+    "level": "msce"
   },
   {
-    "name": "Final NENO MOCK PHYSICS PAPER 1.pdf",
-    "path": "Exams/Physics/Final NENO MOCK PHYSICS PAPER 1.pdf",
-    "size": 307702,
-    "repo": "e-library-media",
+    "name": "Division Mock MSCE Physics Paper I Exam.docx",
+    "path": "Exams/Physics/Division Mock MSCE Physics Paper I Exam.docx",
+    "size": 1232934,
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f685936e7e"
+    "id": "ffcb2fc95a",
+    "level": "msce"
   },
   {
-    "name": "JCE PHYSICS 1 & 2.pdf",
-    "path": "Exams/Physics/JCE PHYSICS  1 & 2.pdf",
+    "name": "Form 1 Physics End of Term Exam.doc",
+    "path": "Exams/Physics/Form 1 Physics End of Term Exam.doc",
+    "size": 174865,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fa0d508d14",
+    "level": "jce"
+  },
+  {
+    "name": "Form 1 Physics Practice Exam.pdf",
+    "path": "Exams/Physics/Form 1 Physics Practice Exam.pdf",
+    "size": 664364,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fa94764a88",
+    "level": "jce"
+  },
+  {
+    "name": "Form 2 Physics End of Term Exam.docx",
+    "path": "Exams/Physics/Form 2 Physics End of Term Exam.docx",
+    "size": 1139501,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f8e1122654",
+    "level": "jce"
+  },
+  {
+    "name": "Form 3 Physics End of Year Exam.pdf",
+    "path": "Exams/Physics/Form 3 Physics End of Year Exam.pdf",
+    "size": 1740627,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "feeb1fc95c",
+    "level": "msce"
+  },
+  {
+    "name": "Form 3 Physics Mock Exam.pdf",
+    "path": "Exams/Physics/Form 3 Physics Mock Exam.pdf",
+    "size": 1860722,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f9f3965c6c",
+    "level": "msce"
+  },
+  {
+    "name": "Form 3 Physics Paper I Exam.docx",
+    "path": "Exams/Physics/Form 3 Physics Paper I Exam.docx",
+    "size": 476470,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f78b28c181",
+    "level": "msce"
+  },
+  {
+    "name": "Form 3 Physics Paper II Confidential Instructions.docx",
+    "path": "Exams/Physics/Form 3 Physics Paper II Confidential Instructions.docx",
+    "size": 18073,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fe2558a635",
+    "level": "msce"
+  },
+  {
+    "name": "Form 3 Physics Paper II Exam.docx",
+    "path": "Exams/Physics/Form 3 Physics Paper II Exam.docx",
+    "size": 60877,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f9c93b9587",
+    "level": "msce"
+  },
+  {
+    "name": "Form 4 Physics Paper I Exam.docx",
+    "path": "Exams/Physics/Form 4 Physics Paper I Exam.docx",
+    "size": 496724,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fc3f2ab964",
+    "level": "msce"
+  },
+  {
+    "name": "Form 4 Physics Paper II Confidential Instructions.docx",
+    "path": "Exams/Physics/Form 4 Physics Paper II Confidential Instructions.docx",
+    "size": 20736,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f2345b16ec",
+    "level": "msce"
+  },
+  {
+    "name": "Form 4 Physics Paper II Exam.docx",
+    "path": "Exams/Physics/Form 4 Physics Paper II Exam.docx",
+    "size": 1012761,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f1d17e13ea",
+    "level": "msce"
+  },
+  {
+    "name": "JCE Physics Papers 1 and 2 Revision Exam.pdf",
+    "path": "Exams/Physics/JCE Physics Papers 1 and 2 Revision Exam.pdf",
     "size": 2985870,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fb961451ac"
+    "id": "fb961451ac",
+    "level": "jce"
   },
   {
-    "name": "JCE PHYSICS_1.pdf",
-    "path": "Exams/Physics/JCE PHYSICS_1.pdf",
+    "name": "JCE Physics Practice Exam.pdf",
+    "path": "Exams/Physics/JCE Physics Practice Exam.pdf",
     "size": 977890,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fa6b87d2c3"
+    "id": "fa6b87d2c3",
+    "level": "jce"
   },
   {
-    "name": "MANEB MSCE Sample Paper - Physics Paper II (Practical).pdf",
-    "path": "Exams/Physics/MANEB MSCE Sample Paper - Physics Paper II (Practical).pdf",
+    "name": "Makina Classes MSCE Physics Paper I Exam.pdf",
+    "path": "Exams/Physics/Makina Classes MSCE Physics Paper I Exam.pdf",
+    "size": 896994,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f0d87fbc53",
+    "level": "msce"
+  },
+  {
+    "name": "MANEB MSCE Physics Paper II Sample Exam (Practical).pdf",
+    "path": "Exams/Physics/MANEB MSCE Physics Paper II Sample Exam (Practical).pdf",
     "size": 1900205,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fe93ac277b"
+    "id": "fe93ac277b",
+    "level": "msce"
   },
   {
-    "name": "2021 MANEB MSCE PHYSICS PAPER 1 CHIEF EXAMINERS REPORT.pdf",
-    "path": "Exams/Physics/Marking Keys/2021 MANEB MSCE PHYSICS PAPER 1 CHIEF EXAMINERS REPORT.pdf",
+    "name": "2020 MANEB MSCE Physics Chief Examiners Report Paper I.doc",
+    "path": "Exams/Physics/Marking Keys/2020 MANEB MSCE Physics Chief Examiners Report Paper I.doc",
+    "size": 89088,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f30ce34f8a",
+    "level": "msce"
+  },
+  {
+    "name": "2020 MANEB MSCE Physics Chief Examiners Report Paper II.doc",
+    "path": "Exams/Physics/Marking Keys/2020 MANEB MSCE Physics Chief Examiners Report Paper II.doc",
+    "size": 72704,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fd380fede5",
+    "level": "msce"
+  },
+  {
+    "name": "2021 MANEB MSCE Physics Paper I Chief Examiners Report.pdf",
+    "path": "Exams/Physics/Marking Keys/2021 MANEB MSCE Physics Paper I Chief Examiners Report.pdf",
     "size": 151045,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f0092ba3ef"
+    "id": "f0092ba3ef",
+    "level": "msce"
   },
   {
-    "name": "2021 SYNOD PHYSICS MOCK PP1 MARKING KEY.pdf",
-    "path": "Exams/Physics/Marking Keys/2021 SYNOD PHYSICS MOCK PP1 MARKING KEY.pdf",
+    "name": "2021 Synod MSCE Physics Paper I Mock Marking Key.pdf",
+    "path": "Exams/Physics/Marking Keys/2021 Synod MSCE Physics Paper I Mock Marking Key.pdf",
     "size": 1335864,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f9949ed3fa"
+    "id": "f9949ed3fa",
+    "level": "msce"
   },
   {
-    "name": "2022_NKHOMA_SYNOD_MSCE_PHYSICS_MARKING_KEY.pdf",
-    "path": "Exams/Physics/Marking Keys/2022_NKHOMA_SYNOD_MSCE_PHYSICS_MARKING_KEY.pdf",
+    "name": "2022 MANEB MSCE Physics Chief Examiners Report Paper I.pdf",
+    "path": "Exams/Physics/Marking Keys/2022 MANEB MSCE Physics Chief Examiners Report Paper I.pdf",
+    "size": 855754,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fd38fd6d8a",
+    "level": "msce"
+  },
+  {
+    "name": "2022 Nkhoma Synod MSCE Physics Mock Marking Key.pdf",
+    "path": "Exams/Physics/Marking Keys/2022 Nkhoma Synod MSCE Physics Mock Marking Key.pdf",
     "size": 336434,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f1dd73db22"
+    "id": "f1dd73db22",
+    "level": "msce"
   },
   {
-    "name": "2024 CEED PHYSICS MARKING KEY I.docx",
-    "path": "Exams/Physics/Marking Keys/2024 CEED PHYSICS MARKING KEY I.docx",
+    "name": "2024 CEED MSCE Physics Paper I Mock Marking Key.docx",
+    "path": "Exams/Physics/Marking Keys/2024 CEED MSCE Physics Paper I Mock Marking Key.docx",
     "size": 689815,
-    "repo": "e-library-media-3",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f1363115c0"
+    "id": "f1363115c0",
+    "level": "msce"
   },
   {
-    "name": "2024 CEED PHYSICS MARKING KEY II.docx",
-    "path": "Exams/Physics/Marking Keys/2024 CEED PHYSICS MARKING KEY II.docx",
+    "name": "2024 CEED MSCE Physics Paper II Mock Marking Key.docx",
+    "path": "Exams/Physics/Marking Keys/2024 CEED MSCE Physics Paper II Mock Marking Key.docx",
     "size": 356534,
-    "repo": "e-library-media-4",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f127ab7055"
+    "id": "f127ab7055",
+    "level": "msce"
   },
   {
-    "name": "2024 MSCE PHYSICS CHIEF EXAMINER'S REPORT_1.pdf",
-    "path": "Exams/Physics/Marking Keys/2024 MSCE PHYSICS CHIEF EXAMINER'S REPORT_1.pdf",
+    "name": "2024 MANEB MSCE Physics Chief Examiners Report.pdf",
+    "path": "Exams/Physics/Marking Keys/2024 MANEB MSCE Physics Chief Examiners Report.pdf",
     "size": 853400,
-    "repo": "e-library-media-5",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f61c6a6e52"
+    "id": "f61c6a6e52",
+    "level": "msce"
   },
   {
-    "name": "2026 CEED PHYSICS I PROVISIONAL MARKING KEY.pdf",
-    "path": "Exams/Physics/Marking Keys/2026 CEED PHYSICS I PROVISIONAL MARKING KEY.pdf",
+    "name": "2024 SEED MSCE Physics Paper I Mock Marking Key.pdf",
+    "path": "Exams/Physics/Marking Keys/2024 SEED MSCE Physics Paper I Mock Marking Key.pdf",
+    "size": 248783,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f1d907ba84",
+    "level": "msce"
+  },
+  {
+    "name": "2024 SEED MSCE Physics Paper II Mock Marking Key.pdf",
+    "path": "Exams/Physics/Marking Keys/2024 SEED MSCE Physics Paper II Mock Marking Key.pdf",
+    "size": 576965,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f719e4e6cc",
+    "level": "msce"
+  },
+  {
+    "name": "2026 CEED MSCE Physics Paper I Provisional Marking Key.pdf",
+    "path": "Exams/Physics/Marking Keys/2026 CEED MSCE Physics Paper I Provisional Marking Key.pdf",
     "size": 1641190,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f44ddfea38"
+    "id": "f44ddfea38",
+    "level": "msce"
   },
   {
-    "name": "2026 CEED PHYSICS II PROVISIONAL MARKING KEY.pdf",
-    "path": "Exams/Physics/Marking Keys/2026 CEED PHYSICS II PROVISIONAL MARKING KEY.pdf",
+    "name": "2026 CEED MSCE Physics Paper II Provisional Marking Key.pdf",
+    "path": "Exams/Physics/Marking Keys/2026 CEED MSCE Physics Paper II Provisional Marking Key.pdf",
     "size": 1174368,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f315e611ff"
+    "id": "f315e611ff",
+    "level": "msce"
   },
   {
-    "name": "2026 JCE PHY MARKING KEY.docx",
-    "path": "Exams/Physics/Marking Keys/2026 JCE PHY MARKING KEY (1).docx",
+    "name": "2026 JCE Physics Mock Marking Key.docx",
+    "path": "Exams/Physics/Marking Keys/2026 JCE Physics Mock Marking Key.docx",
     "size": 412450,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f165eb1890"
+    "id": "f165eb1890",
+    "level": "jce"
   },
   {
-    "name": "2026 JCE PHY MARKING KEY.pdf",
-    "path": "Exams/Physics/Marking Keys/2026 JCE PHY MARKING KEY (1).pdf",
+    "name": "2026 JCE Physics Mock Marking Key.pdf",
+    "path": "Exams/Physics/Marking Keys/2026 JCE Physics Mock Marking Key.pdf",
     "size": 308989,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f4c65aed8b"
+    "id": "f4c65aed8b",
+    "level": "jce"
   },
   {
-    "name": "2026MSCE PHYSICS PAPER 1 MARKING KEY.docx",
-    "path": "Exams/Physics/Marking Keys/2026MSCE PHYSICS PAPER 1 MARKING KEY (1).docx",
+    "name": "2026 MSCE Physics Paper I Mock Marking Key.docx",
+    "path": "Exams/Physics/Marking Keys/2026 MSCE Physics Paper I Mock Marking Key.docx",
     "size": 594135,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f38084ba7f"
+    "id": "f38084ba7f",
+    "level": "msce"
   },
   {
-    "name": "2026MSCE PHYSICS PAPER 1 MARKING KEY.pdf",
-    "path": "Exams/Physics/Marking Keys/2026MSCE PHYSICS PAPER 1 MARKING KEY (1).pdf",
+    "name": "2026 MSCE Physics Paper I Mock Marking Key.pdf",
+    "path": "Exams/Physics/Marking Keys/2026 MSCE Physics Paper I Mock Marking Key.pdf",
     "size": 575339,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f4986ec15b"
+    "id": "f4986ec15b",
+    "level": "msce"
   },
   {
-    "name": "JCE PHYSICS marking key_1.pdf",
-    "path": "Exams/Physics/Marking Keys/JCE PHYSICS marking key_1.pdf",
+    "name": "2026 SEED MSCE Physics Paper I Mock Provisional Marking Key.doc",
+    "path": "Exams/Physics/Marking Keys/2026 SEED MSCE Physics Paper I Mock Provisional Marking Key.doc",
+    "size": 3601920,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f78142afd4",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SEED MSCE Physics Paper II Mock Provisional Marking Key.doc",
+    "path": "Exams/Physics/Marking Keys/2026 SEED MSCE Physics Paper II Mock Provisional Marking Key.doc",
+    "size": 244736,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f5e428e1ab",
+    "level": "msce"
+  },
+  {
+    "name": "Form 1 Physics Marking Key.doc",
+    "path": "Exams/Physics/Marking Keys/Form 1 Physics Marking Key.doc",
+    "size": 201357,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f9c0f91533",
+    "level": "jce"
+  },
+  {
+    "name": "Form 2 Physics Marking Key.docx",
+    "path": "Exams/Physics/Marking Keys/Form 2 Physics Marking Key.docx",
+    "size": 60765,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f43583594c",
+    "level": "jce"
+  },
+  {
+    "name": "Form 3 Physics Paper I Marking Key.docx",
+    "path": "Exams/Physics/Marking Keys/Form 3 Physics Paper I Marking Key.docx",
+    "size": 353001,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fde6c813d4",
+    "level": "msce"
+  },
+  {
+    "name": "Form 3 Physics Paper II Marking Key.docx",
+    "path": "Exams/Physics/Marking Keys/Form 3 Physics Paper II Marking Key.docx",
+    "size": 187929,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fb8858ddc5",
+    "level": "msce"
+  },
+  {
+    "name": "Form 4 Physics Paper I Marking Key.docx",
+    "path": "Exams/Physics/Marking Keys/Form 4 Physics Paper I Marking Key.docx",
+    "size": 551937,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f2e1bbf9e5",
+    "level": "msce"
+  },
+  {
+    "name": "Form 4 Physics Paper II Marking Key.docx",
+    "path": "Exams/Physics/Marking Keys/Form 4 Physics Paper II Marking Key.docx",
+    "size": 150135,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f23fc1a1ec",
+    "level": "msce"
+  },
+  {
+    "name": "JCE Physics Mock Marking Key (General).pdf",
+    "path": "Exams/Physics/Marking Keys/JCE Physics Mock Marking Key (General).pdf",
     "size": 535944,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f25eef1ccc"
+    "id": "f25eef1ccc",
+    "level": "jce"
   },
   {
-    "name": "MARKING KEY PHY 1 P1.docx",
-    "path": "Exams/Physics/Marking Keys/MARKING KEY PHY 1 P1.docx",
-    "size": 639791,
-    "repo": "e-library-media",
+    "name": "MSCE Physics Paper I Marking Key (General).pdf",
+    "path": "Exams/Physics/Marking Keys/MSCE Physics Paper I Marking Key (General).pdf",
+    "size": 676654,
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f09188b8d5"
+    "id": "f149d85aed",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Physics Paper I Marking Key (Set 2).docx",
+    "path": "Exams/Physics/Marking Keys/MSCE Physics Paper I Marking Key (Set 2).docx",
+    "size": 114187,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f88f32fc2f",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Physics Paper I Marking Key.docx",
+    "path": "Exams/Physics/Marking Keys/MSCE Physics Paper I Marking Key.docx",
+    "size": 639791,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f09188b8d5",
+    "level": "msce"
   },
   {
     "name": "MSCE Physics Paper I Marking Scheme.docx",
     "path": "Exams/Physics/Marking Keys/MSCE Physics Paper I Marking Scheme.docx",
     "size": 530497,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f3945698e8"
+    "id": "f3945698e8",
+    "level": "msce"
   },
   {
     "name": "MSCE Physics Paper I Marking Scheme.pdf",
     "path": "Exams/Physics/Marking Keys/MSCE Physics Paper I Marking Scheme.pdf",
     "size": 392510,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fd080a47f4"
+    "id": "fd080a47f4",
+    "level": "msce"
   },
   {
-    "name": "phy f1 mkey.doc",
-    "path": "Exams/Physics/Marking Keys/phy f1 mkey.doc",
-    "size": 201357,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f9c0f91533"
-  },
-  {
-    "name": "phy f2 mkey.docx",
-    "path": "Exams/Physics/Marking Keys/phy f2 mkey.docx",
-    "size": 60765,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f43583594c"
-  },
-  {
-    "name": "phy f3 p1 mkey.docx",
-    "path": "Exams/Physics/Marking Keys/phy f3 p1 mkey.docx",
-    "size": 353001,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fde6c813d4"
-  },
-  {
-    "name": "phy f3 p2 mkey.docx",
-    "path": "Exams/Physics/Marking Keys/phy f3 p2 mkey.docx",
-    "size": 187929,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fb8858ddc5"
-  },
-  {
-    "name": "phy f4 p1 mkey.docx",
-    "path": "Exams/Physics/Marking Keys/phy f4 p1 mkey.docx",
-    "size": 551937,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f2e1bbf9e5"
-  },
-  {
-    "name": "phy f4 p2 mkey.docx",
-    "path": "Exams/Physics/Marking Keys/phy f4 p2 mkey.docx",
-    "size": 150135,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f23fc1a1ec"
-  },
-  {
-    "name": "PHY II Marking key.pdf",
-    "path": "Exams/Physics/Marking Keys/PHY II Marking key.pdf",
-    "size": 689137,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fadfd4e45e"
-  },
-  {
-    "name": "PHY PAPER 1 Marking key.pdf",
-    "path": "Exams/Physics/Marking Keys/PHY PAPER 1 Marking key.pdf",
-    "size": 676654,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f149d85aed"
-  },
-  {
-    "name": "Physics I 2026 SEED MOCK PROVISIONAL MARKING KEY.doc",
-    "path": "Exams/Physics/Marking Keys/Physics I 2026 SEED MOCK PROVISIONAL MARKING KEY.doc",
-    "size": 3601920,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f78142afd4"
-  },
-  {
-    "name": "Physics I Marking Key 2024 SEED MSCE MOCK.pdf",
-    "path": "Exams/Physics/Marking Keys/Physics I Marking Key 2024 SEED MSCE MOCK.pdf",
-    "size": 248783,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f1d907ba84"
-  },
-  {
-    "name": "PHYSICS I MARKING KEY.docx",
-    "path": "Exams/Physics/Marking Keys/PHYSICS I MARKING KEY.docx",
-    "size": 114187,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f88f32fc2f"
-  },
-  {
-    "name": "Physics II 2026 SEED MOCK PROVISIONAL MARKING KEY.doc",
-    "path": "Exams/Physics/Marking Keys/Physics II 2026 SEED MOCK PROVISIONAL MARKING KEY.doc",
-    "size": 244736,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5e428e1ab"
-  },
-  {
-    "name": "Physics II Marking Key 2024 SEED MSCE MOCK.pdf",
-    "path": "Exams/Physics/Marking Keys/Physics II Marking Key 2024 SEED MSCE MOCK.pdf",
-    "size": 576965,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f719e4e6cc"
-  },
-  {
-    "name": "PHYSICS KEY.docx",
-    "path": "Exams/Physics/Marking Keys/PHYSICS KEY.docx",
-    "size": 412071,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f4c66f54c9"
-  },
-  {
-    "name": "PHYSICS PAPER II MARKING KEY final.docx",
-    "path": "Exams/Physics/Marking Keys/PHYSICS PAPER II MARKING KEY final.docx",
+    "name": "MSCE Physics Paper II Marking Key (Final).docx",
+    "path": "Exams/Physics/Marking Keys/MSCE Physics Paper II Marking Key (Final).docx",
     "size": 548539,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fdf06b585a"
+    "id": "fdf06b585a",
+    "level": "msce"
   },
   {
-    "name": "PHYSICS PAPER II MARKING KEY final.pdf",
-    "path": "Exams/Physics/Marking Keys/PHYSICS PAPER II MARKING KEY final.pdf",
+    "name": "MSCE Physics Paper II Marking Key (Final).pdf",
+    "path": "Exams/Physics/Marking Keys/MSCE Physics Paper II Marking Key (Final).pdf",
     "size": 707033,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fa90baa10b"
+    "id": "fa90baa10b",
+    "level": "msce"
   },
   {
-    "name": "MASAMBANJATI_PHYSICS_PAPE_MOCK_(WIZ_2_1.pdf",
-    "path": "Exams/Physics/MASAMBANJATI_PHYSICS_PAPE_MOCK_(WIZ_2_1.pdf",
+    "name": "MSCE Physics Paper II Marking Key.pdf",
+    "path": "Exams/Physics/Marking Keys/MSCE Physics Paper II Marking Key.pdf",
+    "size": 689137,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fadfd4e45e",
+    "level": "msce"
+  },
+  {
+    "name": "Physics Exam Marking Key.docx",
+    "path": "Exams/Physics/Marking Keys/Physics Exam Marking Key.docx",
+    "size": 412071,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f4c66f54c9",
+    "level": "msce"
+  },
+  {
+    "name": "Masambanjati MSCE Physics Mock Exam.pdf",
+    "path": "Exams/Physics/Masambanjati MSCE Physics Mock Exam.pdf",
     "size": 1128149,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fdb2bf6e87"
+    "id": "fdb2bf6e87",
+    "level": "msce"
   },
   {
-    "name": "MSCE PHYSICS F0RM 3_1.pdf",
-    "path": "Exams/Physics/MSCE PHYSICS F0RM 3_1.pdf",
-    "size": 1860722,
-    "repo": "e-library-media",
+    "name": "MSCE Physics Paper I Mock Exam (General).docx",
+    "path": "Exams/Physics/MSCE Physics Paper I Mock Exam (General).docx",
+    "size": 374378,
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f9f3965c6c"
+    "id": "f008bfdb31",
+    "level": "msce"
   },
   {
-    "name": "MSCE Physics Past Papers (2019-2026).pdf",
-    "path": "Exams/Physics/MSCE Physics Past Papers (2019-2026).pdf",
+    "name": "MSCE Physics Paper I Practice Exam.pdf",
+    "path": "Exams/Physics/MSCE Physics Paper I Practice Exam.pdf",
+    "size": 587409,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fe7c9ad190",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Physics Paper I Question Paper.docx",
+    "path": "Exams/Physics/MSCE Physics Paper I Question Paper.docx",
+    "size": 374363,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fea1157bbf",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Physics Paper I Question Paper.pdf",
+    "path": "Exams/Physics/MSCE Physics Paper I Question Paper.pdf",
+    "size": 372262,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f85467bda0",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Physics Paper II Confidential Instructions.docx",
+    "path": "Exams/Physics/MSCE Physics Paper II Confidential Instructions.docx",
+    "size": 19112,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f3c6506f2b",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Physics Paper II Confidential Instructions.pdf",
+    "path": "Exams/Physics/MSCE Physics Paper II Confidential Instructions.pdf",
+    "size": 205762,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fbbfdb12c7",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Physics Paper II Final Exam.docx",
+    "path": "Exams/Physics/MSCE Physics Paper II Final Exam.docx",
+    "size": 712519,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f106d6ad5f",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Physics Paper II Mock Exam.pdf",
+    "path": "Exams/Physics/MSCE Physics Paper II Mock Exam.pdf",
+    "size": 222296,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f60bd0f699",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Physics Paper II Practice Exam (General).pdf",
+    "path": "Exams/Physics/MSCE Physics Paper II Practice Exam (General).pdf",
+    "size": 578760,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fa705bb7f5",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Physics Paper II Practice Exam (Set 2).pdf",
+    "path": "Exams/Physics/MSCE Physics Paper II Practice Exam (Set 2).pdf",
+    "size": 2617602,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fcee51b911",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Physics Paper II Practice Exam (Set 3).pdf",
+    "path": "Exams/Physics/MSCE Physics Paper II Practice Exam (Set 3).pdf",
+    "size": 2654532,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f4c717ab66",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Physics Paper II Practice Exam.pdf",
+    "path": "Exams/Physics/MSCE Physics Paper II Practice Exam.pdf",
+    "size": 924614,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f237455fb1",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Physics Paper II Question Paper.docx",
+    "path": "Exams/Physics/MSCE Physics Paper II Question Paper.docx",
+    "size": 382740,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f1d35cac35",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Physics Paper II Question Paper.pdf",
+    "path": "Exams/Physics/MSCE Physics Paper II Question Paper.pdf",
+    "size": 317130,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f9f7f0107c",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Physics Past Papers Compilation (2019-2026).pdf",
+    "path": "Exams/Physics/MSCE Physics Past Papers Compilation (2019-2026).pdf",
     "size": 20887340,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f1a2190713"
+    "id": "f1a2190713",
+    "level": "msce"
   },
   {
-    "name": "PHY PAPER 2.pdf",
-    "path": "Exams/Physics/PHY  PAPER 2.pdf",
-    "size": 924614,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f237455fb1"
-  },
-  {
-    "name": "phy f1.doc",
-    "path": "Exams/Physics/phy f1.doc",
-    "size": 174865,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fa0d508d14"
-  },
-  {
-    "name": "phy f2.docx",
-    "path": "Exams/Physics/phy f2.docx",
-    "size": 1139501,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f8e1122654"
-  },
-  {
-    "name": "phy f3 p1.docx",
-    "path": "Exams/Physics/phy f3 p1.docx",
-    "size": 476470,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f78b28c181"
-  },
-  {
-    "name": "phy f3 p2 confid instr.docx",
-    "path": "Exams/Physics/phy f3 p2 confid instr.docx",
-    "size": 18073,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe2558a635"
-  },
-  {
-    "name": "phy f3 p2.docx",
-    "path": "Exams/Physics/phy f3 p2.docx",
-    "size": 60877,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f9c93b9587"
-  },
-  {
-    "name": "phy f4 p1.docx",
-    "path": "Exams/Physics/phy f4 p1.docx",
-    "size": 496724,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fc3f2ab964"
-  },
-  {
-    "name": "phy f4 p2 confid instr.docx",
-    "path": "Exams/Physics/phy f4 p2 confid instr.docx",
-    "size": 20736,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f2345b16ec"
-  },
-  {
-    "name": "phy f4 p2.docx",
-    "path": "Exams/Physics/phy f4 p2.docx",
-    "size": 1012761,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f1d17e13ea"
-  },
-  {
-    "name": "PHY PAPER 1.pdf",
-    "path": "Exams/Physics/PHY PAPER 1 .pdf",
-    "size": 587409,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe7c9ad190"
-  },
-  {
-    "name": "PHY-MODEL ANS-MSCE PS Full_1.pdf",
-    "path": "Exams/Physics/PHY-MODEL ANS-MSCE PS Full_1.pdf",
-    "size": 11114853,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fbd1eb3197"
-  },
-  {
-    "name": "PHY2.pdf",
-    "path": "Exams/Physics/PHY2.pdf",
-    "size": 2617602,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fcee51b911"
-  },
-  {
-    "name": "PHYSIC MSCE PAPERS.pdf",
-    "path": "Exams/Physics/PHYSIC MSCE PAPERS.pdf",
+    "name": "MSCE Physics Past Papers Compilation.pdf",
+    "path": "Exams/Physics/MSCE Physics Past Papers Compilation.pdf",
     "size": 22350417,
-    "repo": "e-library-media",
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "ff9707514a"
+    "id": "ff9707514a",
+    "level": "msce"
   },
   {
-    "name": "PHYSICS - 2026 BSS JCE CLUSTER MOCK.pdf",
-    "path": "Exams/Physics/PHYSICS - 2026 BSS JCE CLUSTER MOCK.pdf",
-    "size": 812784,
-    "repo": "e-library-media",
+    "name": "Neno District MSCE Physics Paper I Mock Exam.pdf",
+    "path": "Exams/Physics/Neno District MSCE Physics Paper I Mock Exam.pdf",
+    "size": 307702,
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fdd0304422"
-  },
-  {
-    "name": "PHYSICS 1 CWED MOCK THEORY_075848.docx",
-    "path": "Exams/Physics/PHYSICS 1 CWED MOCK THEORY_075848.docx",
-    "size": 302242,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f820db512e"
-  },
-  {
-    "name": "PHYSICS 1- MAKINA CLASSES_1.pdf",
-    "path": "Exams/Physics/PHYSICS 1- MAKINA CLASSES_1.pdf",
-    "size": 896994,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f0d87fbc53"
-  },
-  {
-    "name": "PHYSICS 2 CWED MOCK PRACTICAL_075851.docx",
-    "path": "Exams/Physics/PHYSICS 2 CWED MOCK  PRACTICAL_075851.docx",
-    "size": 1032777,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f83b9e108e"
-  },
-  {
-    "name": "PHYSICS F2 end of term2 2026.docx",
-    "path": "Exams/Physics/PHYSICS F2 end of term2 2026.docx",
-    "size": 199389,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f710a6d5b0"
-  },
-  {
-    "name": "PHYSICS F3 TERM 1 2025_1.pdf",
-    "path": "Exams/Physics/PHYSICS F3 TERM 1 2025_1.pdf",
-    "size": 642621,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f77001c363"
-  },
-  {
-    "name": "PHYSICS Form 1.pdf",
-    "path": "Exams/Physics/PHYSICS Form 1.pdf",
-    "size": 664364,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fa94764a88"
-  },
-  {
-    "name": "Physics I 2024 SEED MSCE MOCK.pdf",
-    "path": "Exams/Physics/Physics I 2024 SEED MSCE MOCK.pdf",
-    "size": 364989,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f0295fc56f"
-  },
-  {
-    "name": "Physics I 2026 SEED MOCK.doc",
-    "path": "Exams/Physics/Physics I 2026 SEED MOCK.doc",
-    "size": 401408,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f3cf038cfd"
-  },
-  {
-    "name": "Physics II 2023 SEED MSCE MOCK.pdf",
-    "path": "Exams/Physics/Physics II 2023 SEED MSCE MOCK.pdf",
-    "size": 473742,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f6896cd24d"
-  },
-  {
-    "name": "Physics II 2026 SEED MOCK Confidential.doc",
-    "path": "Exams/Physics/Physics II 2026 SEED MOCK Confidential.doc",
-    "size": 55808,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f47c912d2d"
-  },
-  {
-    "name": "Physics II 2026 SEED MOCK.doc",
-    "path": "Exams/Physics/Physics II 2026 SEED MOCK.doc",
-    "size": 175104,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f40d54269e"
-  },
-  {
-    "name": "PHYSICS MOCK PII.pdf",
-    "path": "Exams/Physics/PHYSICS MOCK PII.pdf",
-    "size": 222296,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f60bd0f699"
-  },
-  {
-    "name": "Physics p2.pdf",
-    "path": "Exams/Physics/Physics p2.pdf",
-    "size": 2654532,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f4c717ab66"
-  },
-  {
-    "name": "PHYSICS PAPER 1 - BSS 2026 CLUSTER MOCK.pdf",
-    "path": "Exams/Physics/PHYSICS PAPER 1 - BSS 2026 CLUSTER MOCK.pdf",
-    "size": 737331,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f782188561"
-  },
-  {
-    "name": "PHYSICS PAPER 1 QP.docx",
-    "path": "Exams/Physics/PHYSICS PAPER 1 QP.docx",
-    "size": 374363,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fea1157bbf"
-  },
-  {
-    "name": "PHYSICS PAPER 1 QP.pdf",
-    "path": "Exams/Physics/PHYSICS PAPER 1 QP.pdf",
-    "size": 372262,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f85467bda0"
-  },
-  {
-    "name": "PHYSICS PAPER 2 QP.docx",
-    "path": "Exams/Physics/PHYSICS PAPER 2  QP.docx",
-    "size": 382740,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f1d35cac35"
-  },
-  {
-    "name": "PHYSICS PAPER 2 QP.pdf",
-    "path": "Exams/Physics/PHYSICS PAPER 2  QP.pdf",
-    "size": 317130,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f9f7f0107c"
-  },
-  {
-    "name": "PHYSICS PAPER 2 - BSS 2026 CLUSTER MOCK.pdf",
-    "path": "Exams/Physics/PHYSICS PAPER 2 - BSS 2026 CLUSTER MOCK.pdf",
-    "size": 1824278,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f8bcc771d4"
-  },
-  {
-    "name": "PHYSICS PAPER I DIVISION MOCK final.docx",
-    "path": "Exams/Physics/PHYSICS PAPER I DIVISION MOCK final.docx",
-    "size": 1232934,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "ffcb2fc95a"
-  },
-  {
-    "name": "PHYSICS PAPER II CONFIDENTIAL final.docx",
-    "path": "Exams/Physics/PHYSICS PAPER II CONFIDENTIAL final.docx",
-    "size": 19112,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f3c6506f2b"
-  },
-  {
-    "name": "PHYSICS PAPER II CONFIDENTIAL final.pdf",
-    "path": "Exams/Physics/PHYSICS PAPER II CONFIDENTIAL final.pdf",
-    "size": 205762,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fbbfdb12c7"
-  },
-  {
-    "name": "PHYSICS PAPER II FINAL.docx",
-    "path": "Exams/Physics/PHYSICS PAPER II FINAL.docx",
-    "size": 712519,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f106d6ad5f"
-  },
-  {
-    "name": "PHYSICS_MOCK_PAPER_I.docx",
-    "path": "Exams/Physics/PHYSICS_MOCK_PAPER_I.docx",
-    "size": 374378,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f008bfdb31"
-  },
-  {
-    "name": "Physics_MSCE_paper_2_2026.pdf",
-    "path": "Exams/Physics/Physics_MSCE_paper_2_2026.pdf",
-    "size": 483625,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "ff13abc164"
-  },
-  {
-    "name": "Physics_Paper_II.pdf",
-    "path": "Exams/Physics/Physics_Paper_II.pdf",
-    "size": 578760,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fa705bb7f5"
-  },
-  {
-    "name": "Phyzo_all_experiments---1_1.pdf",
-    "path": "Exams/Physics/Phyzo_all_experiments---1_1.pdf",
-    "size": 2136823,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fef92d3d32"
-  },
-  {
-    "name": "SANTA 2025 PHY PAPER II SECOND MOCK.pdf",
-    "path": "Exams/Physics/SANTA 2025 PHY PAPER II SECOND MOCK.pdf",
-    "size": 330286,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f53ae79090"
+    "id": "f685936e7e",
+    "level": "msce"
   },
   {
     "name": "2019_SOCIAL_PP2_MANEB.pdf",
@@ -23856,6 +23998,24 @@
     "id": "f850c13f6e"
   },
   {
+    "name": "MSCE Physical Science Past Papers Questions Analysis and Solutions (2003-2013).pdf",
+    "path": "Q&A/Physics/MSCE Physical Science Past Papers Questions Analysis and Solutions (2003-2013).pdf",
+    "size": 11114853,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fbd1eb3197",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Physical Science Revision Questions and Answers (St Michaels).pdf",
+    "path": "Q&A/Physics/MSCE Physical Science Revision Questions and Answers (St Michaels).pdf",
+    "size": 1884850,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f52dea43cb",
+    "level": "msce"
+  },
+  {
     "name": "Physics Q and A - Kudinkula Mwapa Eazy MSCE (Musonda-style).pdf",
     "path": "Q&A/Physics/Physics Q and A - Kudinkula Mwapa Eazy MSCE (Musonda-style).pdf",
     "size": 2928101,
@@ -23918,6 +24078,15 @@
     "repo": "e-library-media-2",
     "bucket": 2,
     "id": "f43bf5dea1"
+  },
+  {
+    "name": "Senior Secondary School Physics Model Questions and Answers (Kumwenda).pdf",
+    "path": "Q&A/Physics/Senior Secondary School Physics Model Questions and Answers (Kumwenda).pdf",
+    "size": 3059193,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fdbc27ea32",
+    "level": "msce"
   },
   {
     "name": "JCE SOCIAL ATTEMPTED QUESTIONS.docx",

@@ -38,6 +38,7 @@ The "After" number represents the clean, frozen count at the moment the folder a
 | **Exams/Chemistry** | ✅ Audited | 259 | 240 | 1 | 1 (+3 cross-subject) | 13 | 100% Explicit (34 JCE, 106 MSCE, 100 Both) | Nov 28, 2026 (12m 05s) |
 | **Exams/English** | ✅ Audited | 251 | 240 | 7 | 2 | 2 | 100% Explicit (47 JCE, 161 MSCE, 32 Both) | Nov 28, 2026 |
 | **Exams/Agriculture** | ✅ Audited | 187 | 179 | 0 | 1 | 7 | 100% Explicit (26 JCE, 151 MSCE, 2 Both) | Nov 28, 2026 |
+| **Exams/Physics** | ✅ Audited | 178 | 166 | 1 | 3 (+7 to Physical Science) | 1 | 100% Explicit (21 JCE, 145 MSCE, 0 Both) | Nov 28, 2026 |
 
 ---
 
@@ -465,6 +466,36 @@ The "After" number represents the clean, frozen count at the moment the folder a
 - **Catalog delta:** 2,919 -> 2,912 entries (-7 deleted). Dual catalogs synchronized byte-for-byte (`files-index.json` and `public/files-index.json`).
 - **Stable IDs:** 2,734 kept, 178 moved, 0 renamed, 0 new, 7 removed recorded in `public/id-map.json`.
 - **Level Tagging Coverage:** 100% Explicit (26 JCE, 151 MSCE, 2 Both).
+
+### 29. Exams/Physics Folder Audit (Nov 28, 2026)
+- **Scope:** 178 files deep-scanned, 1 deleted from R2, 1 transferred to Books (Bucket 1), 3 transferred to Q&A (Bucket 2), 7 transferred to Exams/Physical Science (Bucket 2), 3 internal moves to Marking Keys, and 163 clean renames across Exams/Physics/ and Marking Keys/ (166 clean Physics retained).
+- **Initial Count:** 178 files (146 in root `Exams/Physics/`, 32 in `Exams/Physics/Marking Keys/`, all on Bucket 2)
+- **Clean Exams Retained:** 166 clean examination papers (21 JCE, 145 MSCE, 0 Both)
+- **Transferred to Books (1 file cross-bucket to Bucket 1):**
+  - `Books/Physics/Senior Secondary Physics Experiments Manual.pdf` (2.1 MB, 146 pages comprehensive syllabus experiments guide)
+- **Transferred to Q&A (3 files to Bucket 2):**
+  - `Q&A/Physics/Senior Secondary School Physics Model Questions and Answers (Kumwenda).pdf` (3.1 MB, 122 pages revision book)
+  - `Q&A/Physics/MSCE Physical Science Past Papers Questions Analysis and Solutions (2003-2013).pdf` (11.1 MB, 179 pages past papers analysis)
+  - `Q&A/Physics/MSCE Physical Science Revision Questions and Answers (St Michaels).pdf` (1.9 MB, 72 pages St Michaels revision book)
+- **Transferred to Exams/Physical Science (7 files within Bucket 2):**
+  - `Exams/Physical Science/1999 MANEB MSCE Physical Science Paper II.pdf`
+  - `Exams/Physical Science/2002 MANEB MSCE Physical Science Paper I.pdf`
+  - `Exams/Physical Science/2008 MANEB MSCE Physical Science Paper II.pdf`
+  - `Exams/Physical Science/2015 MANEB MSCE Physical Science Paper I.doc`
+  - `Exams/Physical Science/2017 MANEB MSCE Physical Science Paper I.docx`
+  - `Exams/Physical Science/2018 MANEB MSCE Physical Science Paper II.pdf`
+  - `Exams/Physical Science/Balaka Mock MSCE Physical Science Paper II.docx`
+- **Internal Moves to Marking Keys (3 files within Bucket 2):**
+  - `Exams/Physics/Marking Keys/2022 MANEB MSCE Physics Chief Examiners Report Paper I.pdf`
+  - `Exams/Physics/Marking Keys/2020 MANEB MSCE Physics Chief Examiners Report Paper I.doc`
+  - `Exams/Physics/Marking Keys/2020 MANEB MSCE Physics Chief Examiners Report Paper II.doc`
+- **Deleted from R2 (1 file from Bucket 2):**
+  - `Exams/Physics/2024 SHED MSCE PHYSICS MOCK PAPER 2.pdf` (16 KB, 1-page cover dummy stub; full 7-page paper preserved from (1).pdf)
+- **Renamed within Exams (163 files):**
+  - Stripped raw upload suffixes (`_1`, `(1)`, `-1-1`), eliminated double spaces, normalized unicode Roman numerals (`I`/`II`), and standardized titles according to Malawian secondary curriculum standards.
+- **Catalog delta:** 2,918 -> 2,917 entries (-1 deleted). Dual catalogs synchronized byte-for-byte (`files-index.json` and `public/files-index.json`).
+- **Stable IDs:** 2,742 kept, 175 moved, 0 renamed, 0 new, 1 removed recorded in `public/id-map.json`.
+- **Level Tagging Coverage:** 100% Explicit (21 JCE, 145 MSCE, 0 Both).
 
 
 
