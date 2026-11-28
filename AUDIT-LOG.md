@@ -39,6 +39,7 @@ The "After" number represents the clean, frozen count at the moment the folder a
 | **Exams/English** | ✅ Audited | 251 | 240 | 7 | 2 | 2 | 100% Explicit (47 JCE, 161 MSCE, 32 Both) | Nov 28, 2026 |
 | **Exams/Agriculture** | ✅ Audited | 187 | 179 | 0 | 1 | 7 | 100% Explicit (26 JCE, 151 MSCE, 2 Both) | Nov 28, 2026 |
 | **Exams/Physics** | ✅ Audited | 178 | 166 | 1 | 3 (+7 to Physical Science) | 1 | 100% Explicit (21 JCE, 145 MSCE, 0 Both) | Nov 28, 2026 |
+| **Exams/Geography** | ✅ Audited | 156 | 152 | 1 | 0 | 4 | 100% Explicit (22 JCE, 130 MSCE, 0 Both) | Nov 28, 2026 |
 
 ---
 
@@ -496,6 +497,28 @@ The "After" number represents the clean, frozen count at the moment the folder a
 - **Catalog delta:** 2,918 -> 2,917 entries (-1 deleted). Dual catalogs synchronized byte-for-byte (`files-index.json` and `public/files-index.json`).
 - **Stable IDs:** 2,742 kept, 175 moved, 0 renamed, 0 new, 1 removed recorded in `public/id-map.json`.
 - **Level Tagging Coverage:** 100% Explicit (21 JCE, 145 MSCE, 0 Both).
+
+### 30. Exams/Geography Folder Audit (Nov 28, 2026)
+- **Scope:** 156 files deep-scanned, 1 zip archive extracted to standalone PDF (`2002-2022 MANEB MSCE Human Geography Past Papers Compilation (R Walapa).pdf`, 58.8 MB), 4 files deleted from R2, 1 transferred to Books (Bucket 1), 1 internal move to Marking Keys, and 150 clean renames across Exams/Geography/ and Marking Keys/ (152 clean Geography retained).
+- **Initial Count:** 156 files (144 in root `Exams/Geography/`, 12 in `Exams/Geography/Marking Keys/`, all on Bucket 2)
+- **Clean Exams Retained:** 152 clean examination papers (22 JCE, 130 MSCE, 0 Both)
+- **Transferred to Books (1 file cross-bucket to Bucket 1):**
+  - `Books/Geography/Complete JCE Geography Notes and Map Work (GGK Production).pdf` (8.2 MB, 127 pages comprehensive curriculum module by G. Mhango)
+- **Extracted from Zip Archive (1 file added to Bucket 2):**
+  - `Exams/Geography/2002-2022 MANEB MSCE Human Geography Past Papers Compilation (R Walapa).pdf` (58.8 MB extracted standalone PDF)
+- **Deleted from R2 (4 files from Bucket 2):**
+  - `Exams/Geography/2026 SHIRE HIGHLANDS GEOGRAPHY P1.zip` (Redundant container; all 5 contained mock exam files are already standalone in catalog)
+  - `Exams/Geography/Geography_Paper_1_Q (1).pdf` (Exact duplicate of Geography_Paper_1_Q.pdf - 2020 Nsanje District Mock)
+  - `Exams/Geography/Geography I 2026 SEED MOCK.doc` (Incomplete duplicate missing front page; Geography I 2026 SEED MOCK -front page.doc has full exam)
+  - `Exams/Geography/Human Geography MSCE Maneb Paper.zip` (Redundant zip archive superseded by extracted standalone PDF)
+- **Internal Moves to Marking Keys (1 file within Bucket 2):**
+  - `Exams/Geography/Marking Keys/2019 MANEB MSCE Geography Chief Examiners Report Paper II.pdf`
+- **Renamed within Exams (150 files):**
+  - Stripped raw upload suffixes (`_1`, `(1)`), eliminated double spaces, standardized paper designations (Paper I / Paper II), and normalized titles according to Malawian secondary curriculum standards.
+- **Catalog delta:** 2,917 -> 2,914 entries (-3 net: -4 deleted, +1 extracted). Dual catalogs synchronized byte-for-byte (`files-index.json` and `public/files-index.json`).
+- **Stable IDs:** 2,764 kept, 149 moved, 0 renamed, 1 new, 4 removed recorded in `public/id-map.json`.
+- **Level Tagging Coverage:** 100% Explicit (22 JCE, 130 MSCE, 0 Both).
+
 
 
 
