@@ -36,6 +36,7 @@ The "After" number represents the clean, frozen count at the moment the folder a
 | **Exams/Biology** | ✅ Audited | 332 | 318 | 2 | 6 | 6 | 100% Explicit (25 JCE, 117 MSCE, 176 Both) | Nov 28, 2026 |
 | **Exams/Mathematics** | ✅ Audited | 272 | 260 | 2 | 4 (+1 to Add Maths) | 3 | 100% Explicit (39 JCE, 128 MSCE, 93 Both) | Nov 28, 2026 (12m 22s) |
 | **Exams/Chemistry** | ✅ Audited | 259 | 240 | 1 | 1 (+3 cross-subject) | 13 | 100% Explicit (34 JCE, 106 MSCE, 100 Both) | Nov 28, 2026 (12m 05s) |
+| **Exams/English** | ✅ Audited | 251 | 240 | 7 | 2 | 2 | 100% Explicit (47 JCE, 161 MSCE, 32 Both) | Nov 28, 2026 |
 
 ---
 
@@ -408,5 +409,36 @@ The "After" number represents the clean, frozen count at the moment the folder a
 - **Catalog delta:** 2,935 -> 2,921 entries. Dual catalogs synchronized byte-for-byte (`files-index.json` and `public/files-index.json`).
 - **Stable IDs:** 2,847 kept, 74 moved, 0 renamed, 0 new, 14 removed recorded in `public/id-map.json`.
 - **Level Tagging Coverage:** 100% Explicit (34 JCE, 106 MSCE, 100 Both).
+
+### 27. Exams/English Folder Audit (Nov 28, 2026)
+- **Scope:** 251 files deep-scanned, 2 deleted from R2, 7 transferred to Books, 2 transferred to Q&A, 5 internal marking scheme moves, and 156 files renamed in R2 and dual catalogs (161 renames total).
+- **Initial Count:** 251 files (all on Bucket 2)
+- **Clean Exams Retained:** 240 clean examination papers (47 JCE, 161 MSCE, 32 Both)
+- **Transferred to Books (7 files to Bucket 1):**
+  - `Books/English/MSCE English Grammar Study Guide (Wongani Chipeta).pdf` (1.5 MB complete study guide)
+  - `Books/English/The Farlex Grammar Book - Complete English Grammar Rules.pdf` (3.6 MB grammar textbook)
+  - `Books/English/MSCE English Grammar Notes (Katoto Secondary School).pdf` (6.5 MB school grammar textbook)
+  - `Books/English/MSCE English Grammar Form 3 and 4 Study Notes.pdf` (1.5 MB senior secondary study notes)
+  - `Books/English/CEED English Teachers and Students Training Manual.docx` (80 KB training manual)
+  - `Books/English/JCE English Book for Success (Griffin Theu).pdf` (1.9 MB 125-page textbook)
+  - `Books/English/MSCE English Grammar (Katoto Mtambo).pdf` (102.3 MB 154-page comprehensive grammar textbook)
+- **Transferred to Q&A (2 files to Bucket 2):**
+  - `Q&A/English/MSCE English Macbeth Essay Questions Compilation (M.J. MASS).pdf` (essay questions compilation)
+  - `Q&A/English/MSCE English Macbeth Test Preparation and Practice Questions.pdf` (38-page test preparation guide)
+- **Internal Moves to Marking Keys (5 files within Bucket 2):**
+  - `Exams/English/Marking Keys/2026 SHED MSCE English Paper III Marking Scheme.docx`
+  - `Exams/English/Marking Keys/2026 SHED MSCE English Paper III Provisional Marking Scheme (Draft).docx`
+  - `Exams/English/Marking Keys/2026 SHED MSCE English Paper III Marking Scheme.pdf`
+  - `Exams/English/Marking Keys/2026 SHED MSCE English Paper II Marking Scheme.docx`
+  - `Exams/English/Marking Keys/2026 SHED MSCE English Paper II Marking Scheme.pdf`
+- **Deleted from R2 (2 files from Bucket 2):**
+  - `Exams/English/2025 English SHED MOCK.zip` (91 KB archive whose 3 standalone documents were already present in catalog)
+  - `Exams/English/2022_ENGLISH_PAPER_III(0).pdf` (exact duplicate of 2022_ENGLISH_PAPER_III(0)_(1).pdf)
+- **Renamed within Exams (156 files):**
+  - Standardized cryptic filenames, stripped raw suffixes (`_1`, `(1)`, `kk_1`), and normalized naming according to the curriculum standard.
+- **Catalog delta:** 2,921 -> 2,919 entries (-2 deleted). Dual catalogs synchronized byte-for-byte (`files-index.json` and `public/files-index.json`).
+- **Stable IDs:** 2,749 kept, 170 moved, 0 renamed, 0 new, 2 removed recorded in `public/id-map.json`.
+- **Level Tagging Coverage:** 100% Explicit (47 JCE, 161 MSCE, 32 Both).
+
 
 
