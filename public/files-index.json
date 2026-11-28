@@ -4608,6 +4608,15 @@
     "subject": "Home Economics"
   },
   {
+    "name": "Achievers Senior Secondary Life Skills Students Book 4 (Nicholas Kalinde).pdf",
+    "path": "Books/Life Skills/Achievers Senior Secondary Life Skills Students Book 4 (Nicholas Kalinde).pdf",
+    "size": 59039074,
+    "repo": "e-library-media",
+    "bucket": 1,
+    "level": "msce",
+    "id": "f6afbb84e3"
+  },
+  {
     "name": "JCE Life Skills Form 2 Study Notes.pdf",
     "path": "Books/Life Skills/FORM_2_LIFE_SKILLS_NOTES_1.pdf",
     "size": 702170,
@@ -5509,6 +5518,24 @@
     "bucket": 1,
     "level": "jce",
     "id": "f4dceac0d8"
+  },
+  {
+    "name": "Arise with Social Studies Students Book 4.pdf",
+    "path": "Books/Social Studies/Arise with Social Studies Students Book 4.pdf",
+    "size": 33620192,
+    "repo": "e-library-media",
+    "bucket": 1,
+    "level": "msce",
+    "id": "f7fda03ec6"
+  },
+  {
+    "name": "Giant in Senior Secondary Social and Life Skills Form 4 (Horace Publications).pdf",
+    "path": "Books/Social Studies/Giant in Senior Secondary Social and Life Skills Form 4 (Horace Publications).pdf",
+    "size": 62544080,
+    "repo": "e-library-media",
+    "bucket": 1,
+    "level": "msce",
+    "id": "f99bdf6a12"
   },
   {
     "name": "MSCE Social Studies Coursebook Forms 3 and 4 (Godfrey Mhango).pdf",
