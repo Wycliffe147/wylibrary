@@ -246,6 +246,11 @@
 - **App Store (iOS):** Separate cost and process - explore later.
 - **Priority:** Medium / Target 2027 when funds available.
 
+### 26. Homepage Category Thumbnails & Captions Review
+- **Context:** Students and users have reported confusion with the images chosen as thumbnails for the 4 homepage category links, especially the one for `Books`.
+- **Goal:** Review and update the thumbnail images and/or subtitle captions for the 4 primary cards (`Books`, `Exams`, `Q&A`, `Syllabuses`) so their contents are crystal clear to first-time visitors.
+- **Priority:** Low / Visual & UX clarity pass.
+
 ### 21. Footer Expansion & Structured Links
 - **Goal:** Update the footer across all views by adding more comprehensive information and clear navigation links.
 - **Key Elements to Include:**

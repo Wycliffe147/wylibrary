@@ -2131,21 +2131,26 @@ async function updateLastUpdated() {
 }
 
 async function shareSite() {
+    const shareText = "Check out Wycliffe's e-library\nFree academic resources and MANEB past papers (JCE & MSCE)";
+    const shareUrl = window.location.origin;
     const shareData = {
         title: "Wycliffe's e-library",
-        text: "Check out Wycliffe's e-library for academic resources, books, and exam papers!",
-        url: window.location.origin
+        text: shareText,
+        url: shareUrl
     };
 
     try {
         if (navigator.share) {
             await navigator.share(shareData);
         } else {
-            await navigator.clipboard.writeText(window.location.origin);
-            alert("Link copied to clipboard!");
+            await navigator.clipboard.writeText(`${shareText}\n👉 ${shareUrl}`);
+            showToast("🔗 Link copied to clipboard!");
         }
     } catch (err) {
-        console.error("Error sharing:", err);
+        if (err.name !== 'AbortError') {
+            console.error("Error sharing:", err);
+            showToast("⚠️ Couldn't share the link. Please try again.");
+        }
     }
 }
 
@@ -2228,9 +2233,10 @@ function applyPendingHighlight() {
 
 async function shareFile(name, path) {
     const url = fileDeepLink(path);
+    const shareText = `From Wycliffe's e-library\n${name}`;
     const shareData = {
         title: name,
-        text: `Check out this resource from Wycliffe's e-library: ${name}`,
+        text: shareText,
         url: url
     };
 
@@ -2238,7 +2244,7 @@ async function shareFile(name, path) {
         if (navigator.share) {
             await navigator.share(shareData);
         } else {
-            await navigator.clipboard.writeText(url);
+            await navigator.clipboard.writeText(`${shareText}\n👉 ${url}`);
             showToast("🔗 Link copied to clipboard!");
         }
         trackEvent("file_share", { file_name: name, file_path: path });
