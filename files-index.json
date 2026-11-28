@@ -12735,304 +12735,323 @@
     "id": "f778e19b1e"
   },
   {
-    "name": "archivetempCHICHEWA PAPER II SWED 2025_1.pdf",
-    "path": "Exams/Chichewa/.archivetempCHICHEWA PAPER II SWED 2025_1.pdf",
+    "name": "2025 SWED MSCE Chichewa Paper II Mock Exam.pdf",
+    "path": "Exams/Chichewa/2025 SWED MSCE Chichewa Paper II Mock Exam.pdf",
     "size": 650298,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f97f141e41"
+    "id": "f97f141e41",
+    "level": "msce"
   },
   {
-    "name": "2018 DAPP CHICHEWA MOCK-1.pdf",
-    "path": "Exams/Chichewa/2018 DAPP CHICHEWA MOCK-1.pdf",
+    "name": "2018 DAPP MSCE Chichewa Mock Exam.pdf",
+    "path": "Exams/Chichewa/2018 DAPP MSCE Chichewa Mock Exam.pdf",
     "size": 357874,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f4a7d2c9b6"
+    "id": "f4a7d2c9b6",
+    "level": "msce"
   },
   {
-    "name": "2021_LLGSCM_CHICHEWA_MOCK_PI.pdf",
-    "path": "Exams/Chichewa/2021_LLGSCM_CHICHEWA_MOCK_PI.pdf",
+    "name": "2021 LLGSCM MSCE Chichewa Paper I Mock Exam.pdf",
+    "path": "Exams/Chichewa/2021 LLGSCM MSCE Chichewa Paper I Mock Exam.pdf",
     "size": 147402,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fbf5108269"
+    "id": "fbf5108269",
+    "level": "msce"
   },
   {
-    "name": "2022 JCE CHICHEWA PAPER I MOCK.pdf",
-    "path": "Exams/Chichewa/2022  JCE CHICHEWA PAPER I  MOCK.pdf",
-    "size": 350221,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f134668a21"
-  },
-  {
-    "name": "2022 CHICHEWA FOR KASUNGU DISTRICT EXAMINATIONS BOARD STD 8.pdf",
-    "path": "Exams/Chichewa/2022 CHICHEWA FOR KASUNGU DISTRICT EXAMINATIONS BOARD STD 8.pdf",
-    "size": 825389,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "fd3bbb48be"
-  },
-  {
-    "name": "2022 CHICHEWA PAPER I JCE MOCK.pdf",
-    "path": "Exams/Chichewa/2022 CHICHEWA PAPER I  JCE MOCK.pdf",
+    "name": "2022 Aiming High Private Secondary School JCE Chichewa Paper I Mock Exam.pdf",
+    "path": "Exams/Chichewa/2022 Aiming High Private Secondary School JCE Chichewa Paper I Mock Exam.pdf",
     "size": 350262,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f8f03938ac"
+    "id": "f8f03938ac",
+    "level": "jce"
   },
   {
-    "name": "2022 JCE CHICHEWA I MANEB_1.pdf",
-    "path": "Exams/Chichewa/2022 JCE CHICHEWA I MANEB_1.pdf",
+    "name": "2022 MANEB JCE Chichewa Paper I.pdf",
+    "path": "Exams/Chichewa/2022 MANEB JCE Chichewa Paper I.pdf",
     "size": 1906273,
     "repo": "e-library-media-3",
     "bucket": 2,
-    "id": "ff6b8fab0a"
+    "id": "ff6b8fab0a",
+    "level": "jce"
   },
   {
-    "name": "2022 JCE CHICHEWA II MANEB_1.pdf",
-    "path": "Exams/Chichewa/2022 JCE CHICHEWA II MANEB_1.pdf",
+    "name": "2022 MANEB JCE Chichewa Paper II.pdf",
+    "path": "Exams/Chichewa/2022 MANEB JCE Chichewa Paper II.pdf",
     "size": 2598582,
     "repo": "e-library-media-4",
     "bucket": 2,
-    "id": "f3ce2476b5"
+    "id": "f3ce2476b5",
+    "level": "jce"
   },
   {
-    "name": "2024_MANEB_Chichewa_III.pdf",
-    "path": "Exams/Chichewa/2024_MANEB_Chichewa_III.pdf",
+    "name": "2024 MANEB MSCE Chichewa Paper III.pdf",
+    "path": "Exams/Chichewa/2024 MANEB MSCE Chichewa Paper III.pdf",
     "size": 2451860,
     "repo": "e-library-media-5",
     "bucket": 2,
-    "id": "fcf5391678"
+    "id": "fcf5391678",
+    "level": "msce"
   },
   {
-    "name": "2024_MANEB_Chichewa_PI.pdf",
-    "path": "Exams/Chichewa/2024_MANEB_Chichewa_PI.pdf",
+    "name": "2024 MANEB MSCE Chichewa Paper I.pdf",
+    "path": "Exams/Chichewa/2024 MANEB MSCE Chichewa Paper I.pdf",
     "size": 2780536,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fff84f1218"
+    "id": "fff84f1218",
+    "level": "msce"
   },
   {
-    "name": "2025 SEED CHICHEWA PAPER I MOCK.doc",
-    "path": "Exams/Chichewa/2025 SEED CHICHEWA PAPER I MOCK.doc",
+    "name": "2025 SEED MSCE Chichewa Paper I Mock Exam.doc",
+    "path": "Exams/Chichewa/2025 SEED MSCE Chichewa Paper I Mock Exam.doc",
     "size": 66048,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fe877731e6"
+    "id": "fe877731e6",
+    "level": "msce"
   },
   {
-    "name": "2025 SHED MOCK CHICH I.docx",
-    "path": "Exams/Chichewa/2025 SHED MOCK CHICH I.docx",
+    "name": "2025 SHED MSCE Chichewa Paper I Mock Exam.docx",
+    "path": "Exams/Chichewa/2025 SHED MSCE Chichewa Paper I Mock Exam.docx",
     "size": 52369,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f8c3b6f81f"
+    "id": "f8c3b6f81f",
+    "level": "msce"
   },
   {
-    "name": "2025 SHED MOCK CHICH I.pdf",
-    "path": "Exams/Chichewa/2025 SHED MOCK CHICH I.pdf",
+    "name": "2025 SHED MSCE Chichewa Paper I Mock Exam.pdf",
+    "path": "Exams/Chichewa/2025 SHED MSCE Chichewa Paper I Mock Exam.pdf",
     "size": 208764,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f3a21a8346"
+    "id": "f3a21a8346",
+    "level": "msce"
   },
   {
-    "name": "2025 SHED MOCK CHICH PII.docx",
-    "path": "Exams/Chichewa/2025 SHED MOCK CHICH PII.docx",
+    "name": "2025 SHED MSCE Chichewa Paper II Mock Exam.docx",
+    "path": "Exams/Chichewa/2025 SHED MSCE Chichewa Paper II Mock Exam.docx",
     "size": 56043,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fa7e312f11"
+    "id": "fa7e312f11",
+    "level": "msce"
   },
   {
-    "name": "2025 SHED MOCK CHICH PII.pdf",
-    "path": "Exams/Chichewa/2025 SHED MOCK CHICH PII.pdf",
+    "name": "2025 SHED MSCE Chichewa Paper II Mock Exam.pdf",
+    "path": "Exams/Chichewa/2025 SHED MSCE Chichewa Paper II Mock Exam.pdf",
     "size": 216448,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fad7f872e9"
+    "id": "fad7f872e9",
+    "level": "msce"
   },
   {
-    "name": "2025 SHED MOCK CHICHEWA P III.docx",
-    "path": "Exams/Chichewa/2025 SHED MOCK CHICHEWA P III.docx",
+    "name": "2025 SHED MSCE Chichewa Paper III Mock Exam.docx",
+    "path": "Exams/Chichewa/2025 SHED MSCE Chichewa Paper III Mock Exam.docx",
     "size": 55268,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fe2379a430"
+    "id": "fe2379a430",
+    "level": "msce"
   },
   {
-    "name": "2025 SHED MOCK CHICHEWA P III.pdf",
-    "path": "Exams/Chichewa/2025 SHED MOCK CHICHEWA P III.pdf",
+    "name": "2025 SHED MSCE Chichewa Paper III Mock Exam.pdf",
+    "path": "Exams/Chichewa/2025 SHED MSCE Chichewa Paper III Mock Exam.pdf",
     "size": 218118,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f03ee12c91"
+    "id": "f03ee12c91",
+    "level": "msce"
   },
   {
-    "name": "2025_SEED_MOCK_CHICH_II_MOCK.doc",
-    "path": "Exams/Chichewa/2025_SEED_MOCK_CHICH_II_MOCK.doc",
+    "name": "2025 SEED MSCE Chichewa Paper II Mock Exam.doc",
+    "path": "Exams/Chichewa/2025 SEED MSCE Chichewa Paper II Mock Exam.doc",
     "size": 118272,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f1c5c47e6b"
+    "id": "f1c5c47e6b",
+    "level": "msce"
   },
   {
-    "name": "2026 SHED MSCE MOCK CHICHEWA P III.docx",
-    "path": "Exams/Chichewa/2026       SHED   MSCE MOCK  CHICHEWA P III.docx",
+    "name": "2026 SHED MSCE Chichewa Paper III Mock Exam.docx",
+    "path": "Exams/Chichewa/2026 SHED MSCE Chichewa Paper III Mock Exam.docx",
     "size": 69250,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fee731a9e7"
+    "id": "fee731a9e7",
+    "level": "msce"
   },
   {
-    "name": "2026 SHED MSCE MOCK CHICHEWA P III.pdf",
-    "path": "Exams/Chichewa/2026       SHED   MSCE MOCK  CHICHEWA P III.pdf",
+    "name": "2026 SHED MSCE Chichewa Paper III Mock Exam.pdf",
+    "path": "Exams/Chichewa/2026 SHED MSCE Chichewa Paper III Mock Exam.pdf",
     "size": 365247,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fd3f788f68"
+    "id": "fd3f788f68",
+    "level": "msce"
   },
   {
-    "name": "2026 BUMBA ZONE MOCK - CHICHEWA.pdf",
-    "path": "Exams/Chichewa/2026 BUMBA ZONE MOCK - CHICHEWA.pdf",
+    "name": "2026 Bumba Zone MSCE Chichewa Mock Exam.pdf",
+    "path": "Exams/Chichewa/2026 Bumba Zone MSCE Chichewa Mock Exam.pdf",
     "size": 863809,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f8e89dec18"
+    "id": "f8e89dec18",
+    "level": "msce"
   },
   {
-    "name": "2026 MANEB Chichewa Paper I.pdf",
-    "path": "Exams/Chichewa/2026 MANEB Chichewa Paper I.pdf",
+    "name": "2026 MANEB MSCE Chichewa Paper I.pdf",
+    "path": "Exams/Chichewa/2026 MANEB MSCE Chichewa Paper I.pdf",
     "size": 885921,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fe89f68170"
+    "id": "fe89f68170",
+    "level": "msce"
   },
   {
-    "name": "2026 MANEB Chichewa Paper II.pdf",
-    "path": "Exams/Chichewa/2026 MANEB Chichewa Paper II.pdf",
+    "name": "2026 MANEB MSCE Chichewa Paper II.pdf",
+    "path": "Exams/Chichewa/2026 MANEB MSCE Chichewa Paper II.pdf",
     "size": 3548919,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f51c9ce3ef"
+    "id": "f51c9ce3ef",
+    "level": "msce"
   },
   {
-    "name": "2026 MANEB Chichewa Paper III.pdf",
-    "path": "Exams/Chichewa/2026 MANEB Chichewa Paper III.pdf",
+    "name": "2026 MANEB MSCE Chichewa Paper III.pdf",
+    "path": "Exams/Chichewa/2026 MANEB MSCE Chichewa Paper III.pdf",
     "size": 2325518,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f9ada3e4fe"
+    "id": "f9ada3e4fe",
+    "level": "msce"
   },
   {
-    "name": "2026 msce chichewa mock.docx",
-    "path": "Exams/Chichewa/2026 msce chichewa mock.docx",
+    "name": "2026 MSCE Chichewa Mock Exam.docx",
+    "path": "Exams/Chichewa/2026 MSCE Chichewa Mock Exam.docx",
     "size": 50561,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f1d0a47d89"
+    "id": "f1d0a47d89",
+    "level": "msce"
   },
   {
-    "name": "2026 MSCE Mara Chic P2 mock 2.pdf",
-    "path": "Exams/Chichewa/2026 MSCE Mara Chic P2 mock 2.pdf",
+    "name": "2026 Marist Secondary School MSCE Chichewa Paper II Mock Exam 2.pdf",
+    "path": "Exams/Chichewa/2026 Marist Secondary School MSCE Chichewa Paper II Mock Exam 2.pdf",
     "size": 3620527,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "ffaf3cc87d"
+    "id": "ffaf3cc87d",
+    "level": "msce"
   },
   {
-    "name": "2026 MSCE Mara Chich P1 mock 2.pdf",
-    "path": "Exams/Chichewa/2026 MSCE Mara Chich P1 mock 2.pdf",
+    "name": "2026 Marist Secondary School MSCE Chichewa Paper I Mock Exam 2.pdf",
+    "path": "Exams/Chichewa/2026 Marist Secondary School MSCE Chichewa Paper I Mock Exam 2.pdf",
     "size": 2091608,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f596097b9d"
+    "id": "f596097b9d",
+    "level": "msce"
   },
   {
-    "name": "2026 MSCE Mara Chich P3 mock 3.pdf",
-    "path": "Exams/Chichewa/2026 MSCE Mara Chich P3 mock 3.pdf",
+    "name": "2026 Marist Secondary School MSCE Chichewa Paper III Mock Exam 3.pdf",
+    "path": "Exams/Chichewa/2026 Marist Secondary School MSCE Chichewa Paper III Mock Exam 3.pdf",
     "size": 3584803,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f955354ece"
+    "id": "f955354ece",
+    "level": "msce"
   },
   {
-    "name": "2026 NGODZI ZONE MOCK - CHICHEWA.pdf",
-    "path": "Exams/Chichewa/2026 NGODZI ZONE MOCK - CHICHEWA.pdf",
+    "name": "2026 Ngodzi Zone MSCE Chichewa Mock Exam.pdf",
+    "path": "Exams/Chichewa/2026 Ngodzi Zone MSCE Chichewa Mock Exam.pdf",
     "size": 300175,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fa1307ca01"
+    "id": "fa1307ca01",
+    "level": "msce"
   },
   {
-    "name": "2026 SHED CHICHEWA MS P1.docx",
-    "path": "Exams/Chichewa/2026 SHED CHICHEWA MS P1.docx",
+    "name": "2026 SHED MSCE Chichewa Paper I Mock Exam Marking Key.docx",
+    "path": "Exams/Chichewa/Marking Keys/2026 SHED MSCE Chichewa Paper I Mock Exam Marking Key.docx",
     "size": 38588,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fddcf17697"
+    "id": "fddcf17697",
+    "level": "msce"
   },
   {
-    "name": "2026 SHED CHICHEWA MS P1.pdf",
-    "path": "Exams/Chichewa/2026 SHED CHICHEWA MS P1.pdf",
+    "name": "2026 SHED MSCE Chichewa Paper I Mock Exam Marking Key.pdf",
+    "path": "Exams/Chichewa/Marking Keys/2026 SHED MSCE Chichewa Paper I Mock Exam Marking Key.pdf",
     "size": 117267,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fe5bf80c0f"
+    "id": "fe5bf80c0f",
+    "level": "msce"
   },
   {
-    "name": "2026 SHED CHICHEWA QP I.docx",
-    "path": "Exams/Chichewa/2026 SHED CHICHEWA QP I.docx",
+    "name": "2026 SHED MSCE Chichewa Paper I Mock Exam.docx",
+    "path": "Exams/Chichewa/2026 SHED MSCE Chichewa Paper I Mock Exam.docx",
     "size": 53894,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fa9999f594"
+    "id": "fa9999f594",
+    "level": "msce"
   },
   {
-    "name": "2026 SHED CHICHEWA QP I.pdf",
-    "path": "Exams/Chichewa/2026 SHED CHICHEWA QP I.pdf",
+    "name": "2026 SHED MSCE Chichewa Paper I Mock Exam.pdf",
+    "path": "Exams/Chichewa/2026 SHED MSCE Chichewa Paper I Mock Exam.pdf",
     "size": 232571,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f33c319bc8"
+    "id": "f33c319bc8",
+    "level": "msce"
   },
   {
-    "name": "2026 SHED MOCK CHICHEWA MS P2.docx",
-    "path": "Exams/Chichewa/2026 SHED MOCK CHICHEWA MS P2.docx",
+    "name": "2026 SHED MSCE Chichewa Paper II Mock Exam Marking Key.docx",
+    "path": "Exams/Chichewa/Marking Keys/2026 SHED MSCE Chichewa Paper II Mock Exam Marking Key.docx",
     "size": 50791,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f447a7ae5b"
+    "id": "f447a7ae5b",
+    "level": "msce"
   },
   {
-    "name": "2026 SHED MOCK CHICHEWA MS P2.pdf",
-    "path": "Exams/Chichewa/2026 SHED MOCK CHICHEWA MS P2.pdf",
+    "name": "2026 SHED MSCE Chichewa Paper II Mock Exam Marking Key.pdf",
+    "path": "Exams/Chichewa/Marking Keys/2026 SHED MSCE Chichewa Paper II Mock Exam Marking Key.pdf",
     "size": 207700,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f5a4c80c49"
+    "id": "f5a4c80c49",
+    "level": "msce"
   },
   {
-    "name": "2026 SHED MOCK CHICHEWA PAPER 2.docx",
-    "path": "Exams/Chichewa/2026 SHED MOCK CHICHEWA PAPER 2.docx",
+    "name": "2026 SHED MSCE Chichewa Paper II Mock Exam.docx",
+    "path": "Exams/Chichewa/2026 SHED MSCE Chichewa Paper II Mock Exam.docx",
     "size": 64474,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "faafdd2c56"
+    "id": "faafdd2c56",
+    "level": "msce"
   },
   {
-    "name": "2026 SHED MOCK CHICHEWA PAPER 2.pdf",
-    "path": "Exams/Chichewa/2026 SHED MOCK CHICHEWA PAPER 2.pdf",
+    "name": "2026 SHED MSCE Chichewa Paper II Mock Exam.pdf",
+    "path": "Exams/Chichewa/2026 SHED MSCE Chichewa Paper II Mock Exam.pdf",
     "size": 229163,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "ff3e8a801b"
+    "id": "ff3e8a801b",
+    "level": "msce"
   },
   {
-    "name": "Central East Education Division MSCE Chichewa Paper I Mock Exam (2026).pdf",
-    "path": "Exams/Chichewa/Central East Education Division MSCE Chichewa Paper I Mock Exam (2026).pdf",
+    "name": "2026 Central East Education Division MSCE Chichewa Paper I Mock Exam.pdf",
+    "path": "Exams/Chichewa/2026 Central East Education Division MSCE Chichewa Paper I Mock Exam.pdf",
     "size": 671369,
     "repo": "e-library-media-2",
     "bucket": 2,
@@ -13040,8 +13059,8 @@
     "level": "msce"
   },
   {
-    "name": "Central East Education Division MSCE Chichewa Paper II Mock Exam (2026).pdf",
-    "path": "Exams/Chichewa/Central East Education Division MSCE Chichewa Paper II Mock Exam (2026).pdf",
+    "name": "2026 Central East Education Division MSCE Chichewa Paper II Mock Exam.pdf",
+    "path": "Exams/Chichewa/2026 Central East Education Division MSCE Chichewa Paper II Mock Exam.pdf",
     "size": 644348,
     "repo": "e-library-media-2",
     "bucket": 2,
@@ -13049,8 +13068,8 @@
     "level": "msce"
   },
   {
-    "name": "Central East Education Division MSCE Chichewa Paper III Mock Exam (2026).pdf",
-    "path": "Exams/Chichewa/Central East Education Division MSCE Chichewa Paper III Mock Exam (2026).pdf",
+    "name": "2026 Central East Education Division MSCE Chichewa Paper III Mock Exam.pdf",
+    "path": "Exams/Chichewa/2026 Central East Education Division MSCE Chichewa Paper III Mock Exam.pdf",
     "size": 520114,
     "repo": "e-library-media-2",
     "bucket": 2,
@@ -13058,424 +13077,476 @@
     "level": "msce"
   },
   {
-    "name": "Chachimuna_ndi_chachikazi.pdf",
-    "path": "Exams/Chichewa/Chachimuna_ndi_chachikazi.pdf",
+    "name": "Chachimuna ndi Chachikazi MSCE Chichewa Mock Exam.pdf",
+    "path": "Exams/Chichewa/Chachimuna ndi Chachikazi MSCE Chichewa Mock Exam.pdf",
     "size": 63013,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f11a121cfb"
+    "id": "f11a121cfb",
+    "level": "msce"
   },
   {
-    "name": "chi f1 p1.docx",
-    "path": "Exams/Chichewa/chi f1 p1.docx",
+    "name": "Form 1 Chichewa Paper I Exam.docx",
+    "path": "Exams/Chichewa/Form 1 Chichewa Paper I Exam.docx",
     "size": 33137,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "ff54d128d6"
+    "id": "ff54d128d6",
+    "level": "jce"
   },
   {
-    "name": "chi f1 p2.docx",
-    "path": "Exams/Chichewa/chi f1 p2.docx",
+    "name": "Form 1 Chichewa Paper II Exam.docx",
+    "path": "Exams/Chichewa/Form 1 Chichewa Paper II Exam.docx",
     "size": 37375,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fac6202323"
+    "id": "fac6202323",
+    "level": "jce"
   },
   {
-    "name": "chi f2 p1.docx",
-    "path": "Exams/Chichewa/chi f2 p1.docx",
+    "name": "Form 2 Chichewa Paper I Exam.docx",
+    "path": "Exams/Chichewa/Form 2 Chichewa Paper I Exam.docx",
     "size": 43573,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fe948bb8b7"
+    "id": "fe948bb8b7",
+    "level": "jce"
   },
   {
-    "name": "chi f2 p2.docx",
-    "path": "Exams/Chichewa/chi f2 p2.docx",
+    "name": "Form 2 Chichewa Paper II Exam.docx",
+    "path": "Exams/Chichewa/Form 2 Chichewa Paper II Exam.docx",
     "size": 33761,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fb5e22e3b1"
+    "id": "fb5e22e3b1",
+    "level": "jce"
   },
   {
-    "name": "chi f3 p1.docx",
-    "path": "Exams/Chichewa/chi f3 p1.docx",
+    "name": "Form 3 Chichewa Paper I Exam.docx",
+    "path": "Exams/Chichewa/Form 3 Chichewa Paper I Exam.docx",
     "size": 26274,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "faac15fcab"
+    "id": "faac15fcab",
+    "level": "msce"
   },
   {
-    "name": "chi f3 p2.docx",
-    "path": "Exams/Chichewa/chi f3 p2.docx",
+    "name": "Form 3 Chichewa Paper II Exam.docx",
+    "path": "Exams/Chichewa/Form 3 Chichewa Paper II Exam.docx",
     "size": 48520,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f94ce03a92"
+    "id": "f94ce03a92",
+    "level": "msce"
   },
   {
-    "name": "chi f3 p3.docx",
-    "path": "Exams/Chichewa/chi f3 p3.docx",
+    "name": "Form 3 Chichewa Paper III Exam.docx",
+    "path": "Exams/Chichewa/Form 3 Chichewa Paper III Exam.docx",
     "size": 33852,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f82fafab09"
+    "id": "f82fafab09",
+    "level": "msce"
   },
   {
-    "name": "chi f4 p1.docx",
-    "path": "Exams/Chichewa/chi f4 p1.docx",
+    "name": "Form 4 Chichewa Paper I Exam.docx",
+    "path": "Exams/Chichewa/Form 4 Chichewa Paper I Exam.docx",
     "size": 29138,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fb7544c51f"
+    "id": "fb7544c51f",
+    "level": "msce"
   },
   {
-    "name": "chi f4 p2.docx",
-    "path": "Exams/Chichewa/chi f4 p2.docx",
+    "name": "Form 4 Chichewa Paper II Exam.docx",
+    "path": "Exams/Chichewa/Form 4 Chichewa Paper II Exam.docx",
     "size": 40977,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f38402c49b"
+    "id": "f38402c49b",
+    "level": "msce"
   },
   {
-    "name": "chi f4 p3.docx",
-    "path": "Exams/Chichewa/chi f4 p3.docx",
+    "name": "Form 4 Chichewa Paper III Exam.docx",
+    "path": "Exams/Chichewa/Form 4 Chichewa Paper III Exam.docx",
     "size": 39334,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f155b0ea9c"
+    "id": "f155b0ea9c",
+    "level": "msce"
   },
   {
-    "name": "chi mock.docx",
-    "path": "Exams/Chichewa/chi mock.docx",
+    "name": "2026 Loyola Jesuit Secondary School JCE Chichewa Paper II Mock Exam.docx",
+    "path": "Exams/Chichewa/2026 Loyola Jesuit Secondary School JCE Chichewa Paper II Mock Exam.docx",
     "size": 40121,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "feeb2b329f"
+    "id": "feeb2b329f",
+    "level": "jce"
   },
   {
-    "name": "CHICH MSCE PAPERS.pdf",
-    "path": "Exams/Chichewa/CHICH MSCE PAPERS .pdf",
+    "name": "MANEB MSCE Chichewa Past Examination Papers Compilation 2.pdf",
+    "path": "Exams/Chichewa/MANEB MSCE Chichewa Past Examination Papers Compilation 2.pdf",
     "size": 70285992,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f77df9f58c"
+    "id": "f77df9f58c",
+    "level": "msce"
   },
   {
-    "name": "chichewa form 1 pp 1.pdf",
-    "path": "Exams/Chichewa/chichewa form 1 pp 1.pdf",
+    "name": "Form 1 Chichewa Paper I Exam 2.pdf",
+    "path": "Exams/Chichewa/Form 1 Chichewa Paper I Exam 2.pdf",
     "size": 1742220,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f163fd1cbb"
+    "id": "f163fd1cbb",
+    "level": "jce"
   },
   {
-    "name": "chichewa form 1 pp 2.pdf",
-    "path": "Exams/Chichewa/chichewa form 1 pp 2.pdf",
+    "name": "Form 1 Chichewa Paper II Exam 2.pdf",
+    "path": "Exams/Chichewa/Form 1 Chichewa Paper II Exam 2.pdf",
     "size": 2431024,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f9dee229d5"
+    "id": "f9dee229d5",
+    "level": "jce"
   },
   {
-    "name": "Chichewa I 2024 SEED MSCE MOCK.pdf",
-    "path": "Exams/Chichewa/Chichewa I 2024 SEED MSCE MOCK.pdf",
+    "name": "2024 SEED MSCE Chichewa Paper I Mock Exam.pdf",
+    "path": "Exams/Chichewa/2024 SEED MSCE Chichewa Paper I Mock Exam.pdf",
     "size": 400801,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f0ad986197"
+    "id": "f0ad986197",
+    "level": "msce"
   },
   {
-    "name": "Chichewa I 2026 SEED MOCK.doc",
-    "path": "Exams/Chichewa/Chichewa I 2026 SEED MOCK.doc",
+    "name": "2026 SEED MSCE Chichewa Paper I Mock Exam.doc",
+    "path": "Exams/Chichewa/2026 SEED MSCE Chichewa Paper I Mock Exam.doc",
     "size": 96256,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f90ec04cb0"
+    "id": "f90ec04cb0",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA I CWED.docx",
-    "path": "Exams/Chichewa/CHICHEWA I CWED.docx",
+    "name": "CWED MSCE Chichewa Paper I Mock Exam.docx",
+    "path": "Exams/Chichewa/CWED MSCE Chichewa Paper I Mock Exam.docx",
     "size": 49810,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f6a24b1430"
+    "id": "f6a24b1430",
+    "level": "msce"
   },
   {
-    "name": "Chichewa II 2024 SEED MSCE MOCK.pdf",
-    "path": "Exams/Chichewa/Chichewa II 2024 SEED MSCE MOCK.pdf",
+    "name": "2024 SEED MSCE Chichewa Paper II Mock Exam.pdf",
+    "path": "Exams/Chichewa/2024 SEED MSCE Chichewa Paper II Mock Exam.pdf",
     "size": 426090,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f9a7164c01"
+    "id": "f9a7164c01",
+    "level": "msce"
   },
   {
-    "name": "Chichewa II 2026 SEED MOCK.doc",
-    "path": "Exams/Chichewa/Chichewa II 2026 SEED MOCK.doc",
+    "name": "2026 SEED MSCE Chichewa Paper II Mock Exam.doc",
+    "path": "Exams/Chichewa/2026 SEED MSCE Chichewa Paper II Mock Exam.doc",
     "size": 125952,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fdbde6b020"
+    "id": "fdbde6b020",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA II CWED.docx",
-    "path": "Exams/Chichewa/CHICHEWA II CWED.docx",
+    "name": "CWED MSCE Chichewa Paper II Mock Exam.docx",
+    "path": "Exams/Chichewa/CWED MSCE Chichewa Paper II Mock Exam.docx",
     "size": 56091,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f358d8a58e"
+    "id": "f358d8a58e",
+    "level": "msce"
   },
   {
-    "name": "Chichewa III 2023 SEED MSCE MOCK.pdf",
-    "path": "Exams/Chichewa/Chichewa III 2023 SEED MSCE MOCK.pdf",
+    "name": "2023 SEED MSCE Chichewa Paper III Mock Exam.pdf",
+    "path": "Exams/Chichewa/2023 SEED MSCE Chichewa Paper III Mock Exam.pdf",
     "size": 410231,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fd250f18ba"
+    "id": "fd250f18ba",
+    "level": "msce"
   },
   {
-    "name": "Chichewa III 2026 SEED MOCK MARKING_KEY.doc",
-    "path": "Exams/Chichewa/Chichewa III 2026 SEED MOCK MARKING_KEY.doc",
+    "name": "2026 SEED MSCE Chichewa Paper III Mock Exam Marking Key.doc",
+    "path": "Exams/Chichewa/Marking Keys/2026 SEED MSCE Chichewa Paper III Mock Exam Marking Key.doc",
     "size": 80896,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f1b0a89ab8"
+    "id": "f1b0a89ab8",
+    "level": "msce"
   },
   {
-    "name": "Chichewa III 2026 SEED MOCK.doc",
-    "path": "Exams/Chichewa/Chichewa III 2026 SEED MOCK.doc",
+    "name": "2026 SEED MSCE Chichewa Paper III Mock Exam.doc",
+    "path": "Exams/Chichewa/2026 SEED MSCE Chichewa Paper III Mock Exam.doc",
     "size": 303104,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f4718b70e4"
+    "id": "f4718b70e4",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA III CWED.docx",
-    "path": "Exams/Chichewa/CHICHEWA III CWED.docx",
+    "name": "CWED MSCE Chichewa Paper III Mock Exam.docx",
+    "path": "Exams/Chichewa/CWED MSCE Chichewa Paper III Mock Exam.docx",
     "size": 57092,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fbff44f74c"
+    "id": "fbff44f74c",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA MOCK EXAM PAPER 1.docx",
-    "path": "Exams/Chichewa/CHICHEWA MOCK EXAM PAPER 1.docx",
+    "name": "MSCE Chichewa Paper I Mock Exam.docx",
+    "path": "Exams/Chichewa/MSCE Chichewa Paper I Mock Exam.docx",
     "size": 14314,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "ffc32ccd51"
+    "id": "ffc32ccd51",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA MOCK EXAM- PEPALA 2-26.docx",
-    "path": "Exams/Chichewa/CHICHEWA MOCK EXAM- PEPALA 2-26.docx",
+    "name": "2026 MSCE Chichewa Paper II Mock Exam.docx",
+    "path": "Exams/Chichewa/2026 MSCE Chichewa Paper II Mock Exam.docx",
     "size": 60692,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fc8ad4ad36"
+    "id": "fc8ad4ad36",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA MSCE MOCK PAPER III.docx",
-    "path": "Exams/Chichewa/CHICHEWA MSCE MOCK PAPER III.docx",
+    "name": "MSCE Chichewa Paper III Mock Exam.docx",
+    "path": "Exams/Chichewa/MSCE Chichewa Paper III Mock Exam.docx",
     "size": 29505,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f114f59c92"
+    "id": "f114f59c92",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA P1 - 2026 BSS JCE CLUSTER MOCK.pdf",
-    "path": "Exams/Chichewa/CHICHEWA P1 - 2026 BSS JCE CLUSTER MOCK.pdf",
+    "name": "2026 BSS Cluster JCE Chichewa Paper I Mock Exam.pdf",
+    "path": "Exams/Chichewa/2026 BSS Cluster JCE Chichewa Paper I Mock Exam.pdf",
     "size": 749871,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fd748c7ddb"
+    "id": "fd748c7ddb",
+    "level": "jce"
   },
   {
-    "name": "CHICHEWA P2 - 2026 BSS JCE CLUSTER MOCK.pdf",
-    "path": "Exams/Chichewa/CHICHEWA P2 - 2026 BSS JCE CLUSTER MOCK.pdf",
+    "name": "2026 BSS Cluster JCE Chichewa Paper II Mock Exam.pdf",
+    "path": "Exams/Chichewa/2026 BSS Cluster JCE Chichewa Paper II Mock Exam.pdf",
     "size": 757665,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f2702cef0f"
+    "id": "f2702cef0f",
+    "level": "jce"
   },
   {
-    "name": "CHICHEWA PAPER 1 MOCK.pdf",
-    "path": "Exams/Chichewa/CHICHEWA PAPER 1 MOCK.pdf",
+    "name": "MSCE Chichewa Paper I Mock Exam.pdf",
+    "path": "Exams/Chichewa/MSCE Chichewa Paper I Mock Exam.pdf",
     "size": 522695,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fb12fa3595"
+    "id": "fb12fa3595",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA PAPER 1-1.docx",
-    "path": "Exams/Chichewa/CHICHEWA PAPER 1-1.docx",
+    "name": "2026 Northern Education Division MSCE Chichewa Paper I Mock Exam.docx",
+    "path": "Exams/Chichewa/2026 Northern Education Division MSCE Chichewa Paper I Mock Exam.docx",
     "size": 87599,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f467696dcb"
+    "id": "f467696dcb",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA PAPER 1.docx",
-    "path": "Exams/Chichewa/CHICHEWA PAPER 1.docx",
+    "name": "2025 Mangochi Catholic Diocese MSCE Chichewa Paper I Mock Exam.docx",
+    "path": "Exams/Chichewa/2025 Mangochi Catholic Diocese MSCE Chichewa Paper I Mock Exam.docx",
     "size": 329822,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f6bde9b35b"
+    "id": "f6bde9b35b",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA PAPER 2 MOCK.pdf",
-    "path": "Exams/Chichewa/CHICHEWA PAPER 2 MOCK.pdf",
+    "name": "MSCE Chichewa Paper II Mock Exam.pdf",
+    "path": "Exams/Chichewa/MSCE Chichewa Paper II Mock Exam.pdf",
     "size": 400385,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f61a54fcd6"
+    "id": "f61a54fcd6",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA PAPER 2.docx",
-    "path": "Exams/Chichewa/CHICHEWA PAPER 2.docx",
+    "name": "2021 Mulanje Cluster MSCE Chichewa Paper II Mock Exam.docx",
+    "path": "Exams/Chichewa/2021 Mulanje Cluster MSCE Chichewa Paper II Mock Exam.docx",
     "size": 190232,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f5b9151363"
+    "id": "f5b9151363",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA PAPER 3 MOCK.pdf",
-    "path": "Exams/Chichewa/CHICHEWA PAPER 3 MOCK.pdf",
+    "name": "MSCE Chichewa Paper III Mock Exam.pdf",
+    "path": "Exams/Chichewa/MSCE Chichewa Paper III Mock Exam.pdf",
     "size": 383400,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fc9d1c1482"
+    "id": "fc9d1c1482",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA PAPER 3.docx",
-    "path": "Exams/Chichewa/CHICHEWA PAPER 3.docx",
+    "name": "MSCE Chichewa Paper III Mock Exam 2.docx",
+    "path": "Exams/Chichewa/MSCE Chichewa Paper III Mock Exam 2.docx",
     "size": 334944,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fe1c41d9e9"
+    "id": "fe1c41d9e9",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA PAPER I - Loyola Mock 2026.docx",
-    "path": "Exams/Chichewa/CHICHEWA PAPER I - Loyola Mock 2026.docx",
+    "name": "2026 Loyola Jesuit Secondary School JCE Chichewa Paper I Mock Exam.docx",
+    "path": "Exams/Chichewa/2026 Loyola Jesuit Secondary School JCE Chichewa Paper I Mock Exam.docx",
     "size": 35450,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f5e0ce144a"
+    "id": "f5e0ce144a",
+    "level": "jce"
   },
   {
-    "name": "CHICHEWA PAPER I.docx",
-    "path": "Exams/Chichewa/CHICHEWA PAPER I.docx",
+    "name": "MSCE Chichewa Paper I Mock Exam 2.docx",
+    "path": "Exams/Chichewa/MSCE Chichewa Paper I Mock Exam 2.docx",
     "size": 59768,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f0c719635b"
+    "id": "f0c719635b",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA PAPER II JCE MOCK.pdf",
-    "path": "Exams/Chichewa/CHICHEWA PAPER II JCE MOCK.pdf",
+    "name": "JCE Chichewa Paper II Mock Exam.pdf",
+    "path": "Exams/Chichewa/JCE Chichewa Paper II Mock Exam.pdf",
     "size": 543336,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fe71de8339"
+    "id": "fe71de8339",
+    "level": "jce"
   },
   {
-    "name": "CHICHEWA PAPER II-1.docx",
-    "path": "Exams/Chichewa/CHICHEWA PAPER II-1.docx",
+    "name": "2026 Northern Education Division MSCE Chichewa Paper II Mock Exam.docx",
+    "path": "Exams/Chichewa/2026 Northern Education Division MSCE Chichewa Paper II Mock Exam.docx",
     "size": 95100,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fa62b36ed6"
+    "id": "fa62b36ed6",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA PAPER II.docx",
-    "path": "Exams/Chichewa/CHICHEWA PAPER II.docx",
+    "name": "MSCE Chichewa Paper II Mock Exam 2.docx",
+    "path": "Exams/Chichewa/MSCE Chichewa Paper II Mock Exam 2.docx",
     "size": 42194,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f6edd2b598"
+    "id": "f6edd2b598",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA PAPER III.docx",
-    "path": "Exams/Chichewa/CHICHEWA PAPER III.docx",
+    "name": "MSCE Chichewa Paper III Mock Exam 3.docx",
+    "path": "Exams/Chichewa/MSCE Chichewa Paper III Mock Exam 3.docx",
     "size": 95964,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fcc9d99855"
+    "id": "fcc9d99855",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA PI.MOCK 2022.pdf",
-    "path": "Exams/Chichewa/CHICHEWA PI...MOCK 2022.pdf",
+    "name": "2022 MSCE Chichewa Paper I Mock Exam.pdf",
+    "path": "Exams/Chichewa/2022 MSCE Chichewa Paper I Mock Exam.pdf",
     "size": 445152,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "ff9be9a5c3"
+    "id": "ff9be9a5c3",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA_PAPER_I_2021_HAC.pdf",
-    "path": "Exams/Chichewa/CHICHEWA_PAPER_I_2021_HAC_.pdf",
+    "name": "2021 HAC MSCE Chichewa Paper I Mock Exam.pdf",
+    "path": "Exams/Chichewa/2021 HAC MSCE Chichewa Paper I Mock Exam.pdf",
     "size": 132586,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "ff41b0d775"
+    "id": "ff41b0d775",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA_PAPER_II_2021_HAC.pdf",
-    "path": "Exams/Chichewa/CHICHEWA_PAPER_II_2021_HAC_.pdf",
+    "name": "2021 HAC MSCE Chichewa Paper II Mock Exam.pdf",
+    "path": "Exams/Chichewa/2021 HAC MSCE Chichewa Paper II Mock Exam.pdf",
     "size": 209028,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fc464d3dcc"
+    "id": "fc464d3dcc",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA_PAPER_II_2024_JCE_MANEB_1.pdf",
-    "path": "Exams/Chichewa/CHICHEWA_PAPER_II_2024_JCE_MANEB_1.pdf",
+    "name": "2024 MANEB JCE Chichewa Paper II.pdf",
+    "path": "Exams/Chichewa/2024 MANEB JCE Chichewa Paper II.pdf",
     "size": 4178562,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "ff7a5e4a30"
+    "id": "ff7a5e4a30",
+    "level": "jce"
   },
   {
-    "name": "CHICHEWA_PAPER_II_MOCK_2020_SAINT_MARY'S.pdf",
-    "path": "Exams/Chichewa/CHICHEWA_PAPER_II_MOCK_2020_SAINT_MARY'S.pdf",
+    "name": "2020 St Marys Secondary School MSCE Chichewa Paper II Mock Exam.pdf",
+    "path": "Exams/Chichewa/2020 St Marys Secondary School MSCE Chichewa Paper II Mock Exam.pdf",
     "size": 402119,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f2f61d5d46"
+    "id": "f2f61d5d46",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA_PAPER_III_2021_HAC.pdf",
-    "path": "Exams/Chichewa/CHICHEWA_PAPER_III_2021_HAC.pdf",
+    "name": "2021 HAC MSCE Chichewa Paper III Mock Exam.pdf",
+    "path": "Exams/Chichewa/2021 HAC MSCE Chichewa Paper III Mock Exam.pdf",
     "size": 202708,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f59076164b"
+    "id": "f59076164b",
+    "level": "msce"
   },
   {
-    "name": "CHILEKA.chi. p.1.apr.2025_1.doc",
-    "path": "Exams/Chichewa/CHILEKA.chi. p.1.apr.2025_1.doc",
+    "name": "2025 Chileka Secondary School MSCE Chichewa Paper I Mock Exam.doc",
+    "path": "Exams/Chichewa/2025 Chileka Secondary School MSCE Chichewa Paper I Mock Exam.doc",
     "size": 60928,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f7dff8a49f"
+    "id": "f7dff8a49f",
+    "level": "msce"
   },
   {
-    "name": "FINAL NENO District Chichewa Mock Paper.pdf",
-    "path": "Exams/Chichewa/FINAL NENO District Chichewa Mock Paper.pdf",
+    "name": "2022 Neno District MSCE Chichewa Paper I Mock Exam.pdf",
+    "path": "Exams/Chichewa/2022 Neno District MSCE Chichewa Paper I Mock Exam.pdf",
     "size": 85863,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fdaf0b759c"
+    "id": "fdaf0b759c",
+    "level": "msce"
   },
   {
-    "name": "GIRLS chichewa.pdf",
-    "path": "Exams/Chichewa/GIRLS chichewa.pdf",
+    "name": "MSCE Chichewa Mock Exam (Girls Paper).pdf",
+    "path": "Exams/Chichewa/MSCE Chichewa Mock Exam (Girls Paper).pdf",
     "size": 239716,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f17f3ebc0e"
+    "id": "f17f3ebc0e",
+    "level": "msce"
   },
   {
-    "name": "Hill Crescent Secondary School MSCE Chichewa Paper I Mock Exam (2022).pdf",
-    "path": "Exams/Chichewa/Hill Crescent Secondary School MSCE Chichewa Paper I Mock Exam (2022).pdf",
+    "name": "2022 Hill Crescent Secondary School MSCE Chichewa Paper I Mock Exam.pdf",
+    "path": "Exams/Chichewa/2022 Hill Crescent Secondary School MSCE Chichewa Paper I Mock Exam.pdf",
     "size": 265276,
     "repo": "e-library-media-2",
     "bucket": 2,
@@ -13483,8 +13554,8 @@
     "level": "msce"
   },
   {
-    "name": "Hill Crescent Secondary School MSCE Chichewa Paper II Mock Exam (2022).pdf",
-    "path": "Exams/Chichewa/Hill Crescent Secondary School MSCE Chichewa Paper II Mock Exam (2022).pdf",
+    "name": "2022 Hill Crescent Secondary School MSCE Chichewa Paper II Mock Exam.pdf",
+    "path": "Exams/Chichewa/2022 Hill Crescent Secondary School MSCE Chichewa Paper II Mock Exam.pdf",
     "size": 309470,
     "repo": "e-library-media-2",
     "bucket": 2,
@@ -13492,8 +13563,8 @@
     "level": "msce"
   },
   {
-    "name": "Hill Crescent Secondary School MSCE Chichewa Paper III Mock Exam (2022).pdf",
-    "path": "Exams/Chichewa/Hill Crescent Secondary School MSCE Chichewa Paper III Mock Exam (2022).pdf",
+    "name": "2022 Hill Crescent Secondary School MSCE Chichewa Paper III Mock Exam.pdf",
+    "path": "Exams/Chichewa/2022 Hill Crescent Secondary School MSCE Chichewa Paper III Mock Exam.pdf",
     "size": 291518,
     "repo": "e-library-media-2",
     "bucket": 2,
@@ -13501,56 +13572,62 @@
     "level": "msce"
   },
   {
-    "name": "JC_Chichewa_Paper_II_Sample.pdf",
-    "path": "Exams/Chichewa/JC_Chichewa_Paper_II_Sample.pdf",
+    "name": "JCE Chichewa Paper II Sample Exam.pdf",
+    "path": "Exams/Chichewa/JCE Chichewa Paper II Sample Exam.pdf",
     "size": 735853,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f13b47b8ad"
+    "id": "f13b47b8ad",
+    "level": "jce"
   },
   {
-    "name": "JCE CHI I MANEB 2025_1.pdf",
-    "path": "Exams/Chichewa/JCE CHI I MANEB 2025_1.pdf",
+    "name": "2025 MANEB JCE Chichewa Paper I.pdf",
+    "path": "Exams/Chichewa/2025 MANEB JCE Chichewa Paper I.pdf",
     "size": 1519907,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f5bc73e48f"
+    "id": "f5bc73e48f",
+    "level": "jce"
   },
   {
-    "name": "JCE CHI II MANEB 2025_1.pdf",
-    "path": "Exams/Chichewa/JCE CHI II MANEB 2025_1.pdf",
+    "name": "2025 MANEB JCE Chichewa Paper II.pdf",
+    "path": "Exams/Chichewa/2025 MANEB JCE Chichewa Paper II.pdf",
     "size": 2571722,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fc52216055"
+    "id": "fc52216055",
+    "level": "jce"
   },
   {
-    "name": "JCE CHICH PAPERS.pdf",
-    "path": "Exams/Chichewa/JCE CHICH PAPERS.pdf",
+    "name": "MANEB JCE Chichewa Past Examination Papers Compilation.pdf",
+    "path": "Exams/Chichewa/MANEB JCE Chichewa Past Examination Papers Compilation.pdf",
     "size": 30118399,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f3c0acb3be"
+    "id": "f3c0acb3be",
+    "level": "jce"
   },
   {
-    "name": "JCE CHICHEWA I_1.pdf",
-    "path": "Exams/Chichewa/JCE CHICHEWA I_1.pdf",
+    "name": "JCE Chichewa Paper I.pdf",
+    "path": "Exams/Chichewa/JCE Chichewa Paper I.pdf",
     "size": 539929,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fe27d19ab8"
+    "id": "fe27d19ab8",
+    "level": "jce"
   },
   {
-    "name": "JCE CHICHEWA II_1.pdf",
-    "path": "Exams/Chichewa/JCE CHICHEWA II_1.pdf",
+    "name": "JCE Chichewa Paper II.pdf",
+    "path": "Exams/Chichewa/JCE Chichewa Paper II.pdf",
     "size": 545746,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fcfda9f9a3"
+    "id": "fcfda9f9a3",
+    "level": "jce"
   },
   {
-    "name": "Kamuzu Barracks CDSS Form 1 Chichewa Paper II Exam (2016).docx",
-    "path": "Exams/Chichewa/Kamuzu Barracks CDSS Form 1 Chichewa Paper II Exam (2016).docx",
+    "name": "2016 Kamuzu Barracks CDSS Form 1 Chichewa Paper II Exam.docx",
+    "path": "Exams/Chichewa/2016 Kamuzu Barracks CDSS Form 1 Chichewa Paper II Exam.docx",
     "size": 23273,
     "repo": "e-library-media-2",
     "bucket": 2,
@@ -13558,8 +13635,8 @@
     "level": "jce"
   },
   {
-    "name": "Kamuzu Barracks CDSS JCE Chichewa Paper I Mock Exam (2016).docx",
-    "path": "Exams/Chichewa/Kamuzu Barracks CDSS JCE Chichewa Paper I Mock Exam (2016).docx",
+    "name": "2016 Kamuzu Barracks CDSS JCE Chichewa Paper I Mock Exam.docx",
+    "path": "Exams/Chichewa/2016 Kamuzu Barracks CDSS JCE Chichewa Paper I Mock Exam.docx",
     "size": 25895,
     "repo": "e-library-media-2",
     "bucket": 2,
@@ -13567,8 +13644,8 @@
     "level": "jce"
   },
   {
-    "name": "Kamuzu Barracks CDSS JCE Chichewa Paper II Mock Exam (2016).docx",
-    "path": "Exams/Chichewa/Kamuzu Barracks CDSS JCE Chichewa Paper II Mock Exam (2016).docx",
+    "name": "2016 Kamuzu Barracks CDSS JCE Chichewa Paper II Mock Exam.docx",
+    "path": "Exams/Chichewa/2016 Kamuzu Barracks CDSS JCE Chichewa Paper II Mock Exam.docx",
     "size": 23068,
     "repo": "e-library-media-2",
     "bucket": 2,
@@ -13576,8 +13653,8 @@
     "level": "jce"
   },
   {
-    "name": "Kamuzu Barracks CDSS MSCE Chichewa Paper II Mock Exam (2016).docx",
-    "path": "Exams/Chichewa/Kamuzu Barracks CDSS MSCE Chichewa Paper II Mock Exam (2016).docx",
+    "name": "2016 Kamuzu Barracks CDSS MSCE Chichewa Paper II Mock Exam.docx",
+    "path": "Exams/Chichewa/2016 Kamuzu Barracks CDSS MSCE Chichewa Paper II Mock Exam.docx",
     "size": 22593,
     "repo": "e-library-media-2",
     "bucket": 2,
@@ -13585,25 +13662,17 @@
     "level": "msce"
   },
   {
-    "name": "Kamuzu Barracks Chichewa Mock Examination.docx",
-    "path": "Exams/Chichewa/Kamuzu Barracks Chichewa Mock Examination.docx",
-    "size": 33937,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "fc33dbe0b9",
-    "level": "jce"
-  },
-  {
-    "name": "loyola jesuit secondary school chichewa mock jce exams.docx",
-    "path": "Exams/Chichewa/loyola jesuit secondary school chichewa mock jce exams.docx",
+    "name": "2026 Loyola Jesuit Secondary School JCE Chichewa Mock Exams.docx",
+    "path": "Exams/Chichewa/2026 Loyola Jesuit Secondary School JCE Chichewa Mock Exams.docx",
     "size": 24222,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f2e442f2d8"
+    "id": "f2e442f2d8",
+    "level": "jce"
   },
   {
-    "name": "Machinga District MSCE Chichewa Paper II Mock Exam (2022).docx",
-    "path": "Exams/Chichewa/Machinga District MSCE Chichewa Paper II Mock Exam (2022).docx",
+    "name": "2022 Machinga District MSCE Chichewa Paper II Mock Exam.docx",
+    "path": "Exams/Chichewa/2022 Machinga District MSCE Chichewa Paper II Mock Exam.docx",
     "size": 35667,
     "repo": "e-library-media-2",
     "bucket": 2,
@@ -13611,8 +13680,8 @@
     "level": "msce"
   },
   {
-    "name": "Madisi Secondary School MSCE Chichewa Paper III Mock Exam (2020).pdf",
-    "path": "Exams/Chichewa/Madisi Secondary School MSCE Chichewa Paper III Mock Exam (2020).pdf",
+    "name": "2020 Madisi Secondary School MSCE Chichewa Paper III Mock Exam.pdf",
+    "path": "Exams/Chichewa/2020 Madisi Secondary School MSCE Chichewa Paper III Mock Exam.pdf",
     "size": 117930,
     "repo": "e-library-media-2",
     "bucket": 2,
@@ -13629,264 +13698,287 @@
     "level": "msce"
   },
   {
-    "name": "2026 SHED MOCK CHICHEWA PAPER III marking Key.docx",
-    "path": "Exams/Chichewa/Marking Keys/2026       SHED MOCK CHICHEWA PAPER  III marking Key.docx",
+    "name": "2026 SHED MSCE Chichewa Paper III Mock Exam Marking Key.docx",
+    "path": "Exams/Chichewa/Marking Keys/2026 SHED MSCE Chichewa Paper III Mock Exam Marking Key.docx",
     "size": 56861,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fb06209b8d"
+    "id": "fb06209b8d",
+    "level": "msce"
   },
   {
-    "name": "2026 SHED MOCK CHICHEWA PAPER III marking Key.pdf",
-    "path": "Exams/Chichewa/Marking Keys/2026       SHED MOCK CHICHEWA PAPER  III marking Key.pdf",
+    "name": "2026 SHED MSCE Chichewa Paper III Mock Exam Marking Key.pdf",
+    "path": "Exams/Chichewa/Marking Keys/2026 SHED MSCE Chichewa Paper III Mock Exam Marking Key.pdf",
     "size": 276856,
     "repo": "e-library-media-3",
     "bucket": 2,
-    "id": "f7c37779b3"
+    "id": "f7c37779b3",
+    "level": "msce"
   },
   {
-    "name": "2026 CEED CHICHEWA I PROVISIONAL MARKING KEY.pdf",
-    "path": "Exams/Chichewa/Marking Keys/2026 CEED CHICHEWA I PROVISIONAL MARKING KEY.pdf",
+    "name": "2026 CEED MSCE Chichewa Paper I Provisional Marking Key.pdf",
+    "path": "Exams/Chichewa/Marking Keys/2026 CEED MSCE Chichewa Paper I Provisional Marking Key.pdf",
     "size": 601533,
     "repo": "e-library-media-4",
     "bucket": 2,
-    "id": "fbaff98ac5"
+    "id": "fbaff98ac5",
+    "level": "msce"
   },
   {
-    "name": "2026 CEED CHICHEWA II PROVISIONAL MARKING KEY.pdf",
-    "path": "Exams/Chichewa/Marking Keys/2026 CEED CHICHEWA II PROVISIONAL MARKING KEY.pdf",
+    "name": "2026 CEED MSCE Chichewa Paper II Provisional Marking Key.pdf",
+    "path": "Exams/Chichewa/Marking Keys/2026 CEED MSCE Chichewa Paper II Provisional Marking Key.pdf",
     "size": 336682,
     "repo": "e-library-media-5",
     "bucket": 2,
-    "id": "f1bb58c49a"
+    "id": "f1bb58c49a",
+    "level": "msce"
   },
   {
-    "name": "2026 CEED CHICHEWA III PROVISIONAL MARKING KEY.pdf",
-    "path": "Exams/Chichewa/Marking Keys/2026 CEED CHICHEWA III PROVISIONAL MARKING KEY.pdf",
+    "name": "2026 CEED MSCE Chichewa Paper III Provisional Marking Key.pdf",
+    "path": "Exams/Chichewa/Marking Keys/2026 CEED MSCE Chichewa Paper III Provisional Marking Key.pdf",
     "size": 534427,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fa1a513924"
+    "id": "fa1a513924",
+    "level": "msce"
   },
   {
-    "name": "2026 JCE CHICHEWA PEPALA LACHIWIRI BSS CLUSTER MOCK MARKING KEY.docx",
-    "path": "Exams/Chichewa/Marking Keys/2026 JCE CHICHEWA PEPALA LACHIWIRI BSS CLUSTER MOCK MARKING KEY.docx",
+    "name": "2026 BSS Cluster JCE Chichewa Paper II Mock Exam Marking Key.docx",
+    "path": "Exams/Chichewa/Marking Keys/2026 BSS Cluster JCE Chichewa Paper II Mock Exam Marking Key.docx",
     "size": 20131,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f0e624c2f9"
+    "id": "f0e624c2f9",
+    "level": "jce"
   },
   {
-    "name": "2026 JCE CHICHEWA PEPALA LOYAMBA BSS CLUSTER MARKING KEY.docx",
-    "path": "Exams/Chichewa/Marking Keys/2026 JCE CHICHEWA PEPALA LOYAMBA  BSS  CLUSTER  MARKING KEY.docx",
+    "name": "2026 BSS Cluster JCE Chichewa Paper I Mock Exam Marking Key.docx",
+    "path": "Exams/Chichewa/Marking Keys/2026 BSS Cluster JCE Chichewa Paper I Mock Exam Marking Key.docx",
     "size": 24657,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f0322d83cd"
+    "id": "f0322d83cd",
+    "level": "jce"
   },
   {
-    "name": "chi f1 p1-2 mkey.docx",
-    "path": "Exams/Chichewa/Marking Keys/chi f1 p1-2 mkey.docx",
+    "name": "Form 1 Chichewa Paper I-II Marking Key.docx",
+    "path": "Exams/Chichewa/Marking Keys/Form 1 Chichewa Paper I-II Marking Key.docx",
     "size": 21897,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f9a87e1709"
+    "id": "f9a87e1709",
+    "level": "jce"
   },
   {
-    "name": "chi f2 p1-2 mkey.docx",
-    "path": "Exams/Chichewa/Marking Keys/chi f2 p1-2 mkey.docx",
+    "name": "Form 2 Chichewa Paper I-II Marking Key.docx",
+    "path": "Exams/Chichewa/Marking Keys/Form 2 Chichewa Paper I-II Marking Key.docx",
     "size": 17019,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fccbbacbf3"
+    "id": "fccbbacbf3",
+    "level": "jce"
   },
   {
-    "name": "chi f3 p1-3 mkey.docx",
-    "path": "Exams/Chichewa/Marking Keys/chi f3 p1-3 mkey.docx",
+    "name": "Form 3 Chichewa Paper I-III Marking Key.docx",
+    "path": "Exams/Chichewa/Marking Keys/Form 3 Chichewa Paper I-III Marking Key.docx",
     "size": 38155,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f16767cfc1"
+    "id": "f16767cfc1",
+    "level": "jce"
   },
   {
-    "name": "chi f4 p1-3 mkey.docx",
-    "path": "Exams/Chichewa/Marking Keys/chi f4 p1-3 mkey.docx",
+    "name": "Form 4 Chichewa Paper I-III Marking Key.docx",
+    "path": "Exams/Chichewa/Marking Keys/Form 4 Chichewa Paper I-III Marking Key.docx",
     "size": 24143,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fe2fb9559d"
+    "id": "fe2fb9559d",
+    "level": "msce"
   },
   {
-    "name": "Chichewa I 2026 SEED MOCK PROVISIONAL MARKING KEY.doc",
-    "path": "Exams/Chichewa/Marking Keys/Chichewa I 2026 SEED MOCK PROVISIONAL MARKING KEY.doc",
+    "name": "2026 SEED MSCE Chichewa Paper I Mock Exam Provisional Marking Key.doc",
+    "path": "Exams/Chichewa/Marking Keys/2026 SEED MSCE Chichewa Paper I Mock Exam Provisional Marking Key.doc",
     "size": 34304,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fbea3df18e"
+    "id": "fbea3df18e",
+    "level": "msce"
   },
   {
-    "name": "Chichewa I Marking Key 2024 SEED MSCE MOCK.pdf",
-    "path": "Exams/Chichewa/Marking Keys/Chichewa I Marking Key 2024 SEED MSCE MOCK.pdf",
+    "name": "2024 SEED MSCE Chichewa Paper I Mock Exam Marking Key.pdf",
+    "path": "Exams/Chichewa/Marking Keys/2024 SEED MSCE Chichewa Paper I Mock Exam Marking Key.pdf",
     "size": 230671,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fb36c3a679"
+    "id": "fb36c3a679",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA I MARKING KEY.docx",
-    "path": "Exams/Chichewa/Marking Keys/CHICHEWA I MARKING KEY.docx",
+    "name": "MSCE Chichewa Paper I Marking Key.docx",
+    "path": "Exams/Chichewa/Marking Keys/MSCE Chichewa Paper I Marking Key.docx",
     "size": 16734,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f7a771849e"
+    "id": "f7a771849e",
+    "level": "msce"
   },
   {
-    "name": "Chichewa II 2026 SEED MOCK PROVISIONAL MARKING KEY.doc",
-    "path": "Exams/Chichewa/Marking Keys/Chichewa II 2026 SEED MOCK PROVISIONAL MARKING KEY.doc",
+    "name": "2026 SEED MSCE Chichewa Paper II Mock Exam Provisional Marking Key.doc",
+    "path": "Exams/Chichewa/Marking Keys/2026 SEED MSCE Chichewa Paper II Mock Exam Provisional Marking Key.doc",
     "size": 40960,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f381f3105b"
+    "id": "f381f3105b",
+    "level": "msce"
   },
   {
-    "name": "Chichewa II Marking Key 2024 SEED MSCE MOCK.pdf",
-    "path": "Exams/Chichewa/Marking Keys/Chichewa II Marking Key 2024 SEED MSCE MOCK.pdf",
+    "name": "2024 SEED MSCE Chichewa Paper II Mock Exam Marking Key.pdf",
+    "path": "Exams/Chichewa/Marking Keys/2024 SEED MSCE Chichewa Paper II Mock Exam Marking Key.pdf",
     "size": 215844,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f927ea7e01"
+    "id": "f927ea7e01",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA II MARKING KEY.docx",
-    "path": "Exams/Chichewa/Marking Keys/CHICHEWA II MARKING KEY.docx",
+    "name": "MSCE Chichewa Paper II Marking Key.docx",
+    "path": "Exams/Chichewa/Marking Keys/MSCE Chichewa Paper II Marking Key.docx",
     "size": 18958,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f742640e9f"
+    "id": "f742640e9f",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA II MSCE MOCK MARKING KEY-26.docx",
-    "path": "Exams/Chichewa/Marking Keys/CHICHEWA II MSCE MOCK MARKING KEY-26.docx",
+    "name": "2026 MSCE Chichewa Paper II Mock Exam Marking Key.docx",
+    "path": "Exams/Chichewa/Marking Keys/2026 MSCE Chichewa Paper II Mock Exam Marking Key.docx",
     "size": 24567,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f2b758202f"
+    "id": "f2b758202f",
+    "level": "msce"
   },
   {
-    "name": "Chichewa III Marking Key 2024 SEED MSCE MOCK.pdf",
-    "path": "Exams/Chichewa/Marking Keys/Chichewa III Marking Key 2024 SEED MSCE MOCK.pdf",
+    "name": "2024 SEED MSCE Chichewa Paper III Mock Exam Marking Key.pdf",
+    "path": "Exams/Chichewa/Marking Keys/2024 SEED MSCE Chichewa Paper III Mock Exam Marking Key.pdf",
     "size": 135748,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fe55e4f1b8"
+    "id": "fe55e4f1b8",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA III MARKING KEY.docx",
-    "path": "Exams/Chichewa/Marking Keys/CHICHEWA III MARKING KEY.docx",
+    "name": "MSCE Chichewa Paper III Marking Key.docx",
+    "path": "Exams/Chichewa/Marking Keys/MSCE Chichewa Paper III Marking Key.docx",
     "size": 19940,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f74e2d3411"
+    "id": "f74e2d3411",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA PAPER 1 A MARKING KEY MSCE.docx",
-    "path": "Exams/Chichewa/Marking Keys/CHICHEWA PAPER 1 A MARKING KEY MSCE.docx",
+    "name": "MSCE Chichewa Paper I Marking Key 2.docx",
+    "path": "Exams/Chichewa/Marking Keys/MSCE Chichewa Paper I Marking Key 2.docx",
     "size": 18011,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fa48d6ec45"
+    "id": "fa48d6ec45",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA PAPER I MARKING KEY.docx",
-    "path": "Exams/Chichewa/Marking Keys/CHICHEWA PAPER I MARKING KEY.docx",
+    "name": "MSCE Chichewa Paper I Marking Key 3.docx",
+    "path": "Exams/Chichewa/Marking Keys/MSCE Chichewa Paper I Marking Key 3.docx",
     "size": 23229,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fc449bdfb6"
+    "id": "fc449bdfb6",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA PAPER II A MARKING KEY.docx",
-    "path": "Exams/Chichewa/Marking Keys/CHICHEWA PAPER II A MARKING KEY.docx",
+    "name": "MSCE Chichewa Paper II Marking Key 2.docx",
+    "path": "Exams/Chichewa/Marking Keys/MSCE Chichewa Paper II Marking Key 2.docx",
     "size": 18458,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f92db88112"
+    "id": "f92db88112",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA PAPER II MARKING KEY.docx",
-    "path": "Exams/Chichewa/Marking Keys/CHICHEWA PAPER II MARKING KEY.docx",
+    "name": "MSCE Chichewa Paper II Marking Key 3.docx",
+    "path": "Exams/Chichewa/Marking Keys/MSCE Chichewa Paper II Marking Key 3.docx",
     "size": 24418,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fff7ee70b6"
+    "id": "fff7ee70b6",
+    "level": "msce"
   },
   {
-    "name": "CHICHEWA PAPER III A MARKING KEY.docx",
-    "path": "Exams/Chichewa/Marking Keys/CHICHEWA PAPER III A MARKING KEY.docx",
+    "name": "MSCE Chichewa Paper III Marking Key 2.docx",
+    "path": "Exams/Chichewa/Marking Keys/MSCE Chichewa Paper III Marking Key 2.docx",
     "size": 21192,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f9ec70d218"
+    "id": "f9ec70d218",
+    "level": "msce"
   },
   {
-    "name": "JCE CHICHEWA II marking key_1.pdf",
-    "path": "Exams/Chichewa/Marking Keys/JCE CHICHEWA II marking key_1.pdf",
+    "name": "JCE Chichewa Paper II Marking Key.pdf",
+    "path": "Exams/Chichewa/Marking Keys/JCE Chichewa Paper II Marking Key.pdf",
     "size": 272734,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fecf282bd2"
+    "id": "fecf282bd2",
+    "level": "jce"
   },
   {
-    "name": "loyola jesuit secondary school chichewa mock jce exams marking key.docx",
-    "path": "Exams/Chichewa/Marking Keys/loyola jesuit secondary school chichewa mock jce exams marking key.docx",
+    "name": "2026 Loyola Jesuit Secondary School JCE Chichewa Mock Exams Marking Key.docx",
+    "path": "Exams/Chichewa/Marking Keys/2026 Loyola Jesuit Secondary School JCE Chichewa Mock Exams Marking Key.docx",
     "size": 25541,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fa602fbd7d"
+    "id": "fa602fbd7d",
+    "level": "jce"
   },
   {
-    "name": "marking key chi2 mock.docx",
-    "path": "Exams/Chichewa/Marking Keys/marking key chi2 mock.docx",
+    "name": "MSCE Chichewa Paper II Mock Exam Marking Key.docx",
+    "path": "Exams/Chichewa/Marking Keys/MSCE Chichewa Paper II Mock Exam Marking Key.docx",
     "size": 19646,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f321559970"
+    "id": "f321559970",
+    "level": "msce"
   },
   {
-    "name": "MSCE CHICHEWA PAPER I - MAFUNSO- edited.docx",
-    "path": "Exams/Chichewa/MSCE CHICHEWA PAPER I - MAFUNSO- edited.docx",
-    "size": 49260,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fcf76dadb3"
-  },
-  {
-    "name": "MSCE CHICHEWA PAPER I - MAFUNSO.pdf",
-    "path": "Exams/Chichewa/MSCE CHICHEWA PAPER I - MAFUNSO.pdf",
+    "name": "2025 CWED MSCE Chichewa Paper I Mock Exam (Mafunso).pdf",
+    "path": "Exams/Chichewa/2025 CWED MSCE Chichewa Paper I Mock Exam (Mafunso).pdf",
     "size": 598380,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f3f3ec8450"
+    "id": "f3f3ec8450",
+    "level": "msce"
   },
   {
-    "name": "MSCE CHICHEWA PAPER II - MAFUNSO.pdf",
-    "path": "Exams/Chichewa/MSCE CHICHEWA PAPER II - MAFUNSO.pdf",
+    "name": "2025 CWED MSCE Chichewa Paper II Mock Exam (Mafunso).pdf",
+    "path": "Exams/Chichewa/2025 CWED MSCE Chichewa Paper II Mock Exam (Mafunso).pdf",
     "size": 791387,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f119b1a690"
+    "id": "f119b1a690",
+    "level": "msce"
   },
   {
-    "name": "MSCE CHICHEWA PAPER III - MAFUNSO.pdf",
-    "path": "Exams/Chichewa/MSCE CHICHEWA PAPER III - MAFUNSO.pdf",
+    "name": "2025 CWED MSCE Chichewa Paper III Mock Exam (Mafunso).pdf",
+    "path": "Exams/Chichewa/2025 CWED MSCE Chichewa Paper III Mock Exam (Mafunso).pdf",
     "size": 628774,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f428447b9b"
+    "id": "f428447b9b",
+    "level": "msce"
   },
   {
-    "name": "Mulanje Cluster MSCE Chichewa Paper III Mock Exam (2021).pdf",
-    "path": "Exams/Chichewa/Mulanje Cluster MSCE Chichewa Paper III Mock Exam (2021).pdf",
+    "name": "2021 Mulanje Cluster MSCE Chichewa Paper III Mock Exam.pdf",
+    "path": "Exams/Chichewa/2021 Mulanje Cluster MSCE Chichewa Paper III Mock Exam.pdf",
     "size": 623717,
     "repo": "e-library-media-2",
     "bucket": 2,
@@ -13894,8 +13986,8 @@
     "level": "msce"
   },
   {
-    "name": "Mulanje District Council Chichewa Mock Examination.pdf",
-    "path": "Exams/Chichewa/Mulanje District Council Chichewa Mock Examination.pdf",
+    "name": "Mulanje District Council JCE Chichewa Mock Examination.pdf",
+    "path": "Exams/Chichewa/Mulanje District Council JCE Chichewa Mock Examination.pdf",
     "size": 435910,
     "repo": "e-library-media-2",
     "bucket": 2,
@@ -13912,40 +14004,44 @@
     "level": "msce"
   },
   {
-    "name": "SHED CHICHEWA P1 BRAILLE.docx",
-    "path": "Exams/Chichewa/SHED CHICHEWA P1 BRAILLE.docx",
+    "name": "2026 SHED MSCE Chichewa Paper I Mock Exam (Braille).docx",
+    "path": "Exams/Chichewa/2026 SHED MSCE Chichewa Paper I Mock Exam (Braille).docx",
     "size": 29389,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f56585904f"
+    "id": "f56585904f",
+    "level": "msce"
   },
   {
-    "name": "SHED CHICHEWA P1 HI.docx",
-    "path": "Exams/Chichewa/SHED CHICHEWA P1 HI.docx",
+    "name": "2026 SHED MSCE Chichewa Paper I Mock Exam (Hearing Impaired).docx",
+    "path": "Exams/Chichewa/2026 SHED MSCE Chichewa Paper I Mock Exam (Hearing Impaired).docx",
     "size": 53443,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fadec66f73"
+    "id": "fadec66f73",
+    "level": "msce"
   },
   {
-    "name": "SHED CHICHEWA P1 LOCOMOTOR.docx",
-    "path": "Exams/Chichewa/SHED CHICHEWA P1 LOCOMOTOR.docx",
+    "name": "2026 SHED MSCE Chichewa Paper I Mock Exam (Locomotor).docx",
+    "path": "Exams/Chichewa/2026 SHED MSCE Chichewa Paper I Mock Exam (Locomotor).docx",
     "size": 53316,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fe88afccd3"
+    "id": "fe88afccd3",
+    "level": "msce"
   },
   {
-    "name": "SHED CHICHEWA P2 BRAILLE.docx",
-    "path": "Exams/Chichewa/SHED CHICHEWA P2 BRAILLE.docx",
+    "name": "2026 SHED MSCE Chichewa Paper II Mock Exam (Braille).docx",
+    "path": "Exams/Chichewa/2026 SHED MSCE Chichewa Paper II Mock Exam (Braille).docx",
     "size": 58574,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f3d3c87d01"
+    "id": "f3d3c87d01",
+    "level": "msce"
   },
   {
-    "name": "Shire Highlands Education Division MSCE Chichewa Paper II Mock Exam (2026).docx",
-    "path": "Exams/Chichewa/Shire Highlands Education Division MSCE Chichewa Paper II Mock Exam (2026).docx",
+    "name": "2026 Shire Highlands Education Division MSCE Chichewa Paper II Mock Exam.docx",
+    "path": "Exams/Chichewa/2026 Shire Highlands Education Division MSCE Chichewa Paper II Mock Exam.docx",
     "size": 60753,
     "repo": "e-library-media-2",
     "bucket": 2,
@@ -13953,8 +14049,8 @@
     "level": "msce"
   },
   {
-    "name": "St Marys Secondary School MSCE Chichewa Paper I Post Mock Exam (2025).pdf",
-    "path": "Exams/Chichewa/St Marys Secondary School MSCE Chichewa Paper I Post Mock Exam (2025).pdf",
+    "name": "2025 St Marys Secondary School MSCE Chichewa Paper I Post Mock Exam.pdf",
+    "path": "Exams/Chichewa/2025 St Marys Secondary School MSCE Chichewa Paper I Post Mock Exam.pdf",
     "size": 316556,
     "repo": "e-library-media-2",
     "bucket": 2,
@@ -13962,8 +14058,8 @@
     "level": "msce"
   },
   {
-    "name": "St Marys Secondary School MSCE Chichewa Paper II Mock Exam (2025).pdf",
-    "path": "Exams/Chichewa/St Marys Secondary School MSCE Chichewa Paper II Mock Exam (2025).pdf",
+    "name": "2025 St Marys Secondary School MSCE Chichewa Paper II Mock Exam.pdf",
+    "path": "Exams/Chichewa/2025 St Marys Secondary School MSCE Chichewa Paper II Mock Exam.pdf",
     "size": 303204,
     "repo": "e-library-media-2",
     "bucket": 2,
@@ -13971,8 +14067,8 @@
     "level": "msce"
   },
   {
-    "name": "St Marys Secondary School MSCE Chichewa Paper III Post Mock Exam (2025).pdf",
-    "path": "Exams/Chichewa/St Marys Secondary School MSCE Chichewa Paper III Post Mock Exam (2025).pdf",
+    "name": "2025 St Marys Secondary School MSCE Chichewa Paper III Post Mock Exam.pdf",
+    "path": "Exams/Chichewa/2025 St Marys Secondary School MSCE Chichewa Paper III Post Mock Exam.pdf",
     "size": 288385,
     "repo": "e-library-media-2",
     "bucket": 2,

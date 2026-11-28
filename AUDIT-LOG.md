@@ -40,6 +40,7 @@ The "After" number represents the clean, frozen count at the moment the folder a
 | **Exams/Agriculture** | ✅ Audited | 187 | 179 | 0 | 1 | 7 | 100% Explicit (26 JCE, 151 MSCE, 2 Both) | Nov 28, 2026 |
 | **Exams/Physics** | ✅ Audited | 178 | 166 | 1 | 3 (+7 to Physical Science) | 1 | 100% Explicit (21 JCE, 145 MSCE, 0 Both) | Nov 28, 2026 |
 | **Exams/Geography** | ✅ Audited | 156 | 152 | 1 | 0 | 4 | 100% Explicit (22 JCE, 130 MSCE, 0 Both) | Nov 28, 2026 |
+| **Exams/Chichewa** | ✅ Audited | 153 | 149 | 0 | 0 | 4 | 100% Explicit (33 JCE, 116 MSCE, 0 Both) | Nov 28, 2026 |
 
 ---
 
@@ -518,6 +519,27 @@ The "After" number represents the clean, frozen count at the moment the folder a
 - **Catalog delta:** 2,917 -> 2,914 entries (-3 net: -4 deleted, +1 extracted). Dual catalogs synchronized byte-for-byte (`files-index.json` and `public/files-index.json`).
 - **Stable IDs:** 2,764 kept, 149 moved, 0 renamed, 1 new, 4 removed recorded in `public/id-map.json`.
 - **Level Tagging Coverage:** 100% Explicit (22 JCE, 130 MSCE, 0 Both).
+
+### 31. Exams/Chichewa Folder Audit (Nov 28, 2026)
+- **Scope:** 153 files deep-scanned, 4 deleted from R2, 1 misplaced marking key moved from root to Marking Keys, 4 SHED marking scheme files moved to Marking Keys, and 149 clean renames across Exams/Chichewa/ and Marking Keys/ (149 clean Chichewa retained).
+- **Initial Count:** 153 files (125 in root `Exams/Chichewa/`, 28 in `Exams/Chichewa/Marking Keys/`, all on Bucket 2)
+- **Clean Exams Retained:** 149 clean examination papers (33 JCE, 116 MSCE, 0 Both)
+- **Deleted from R2 (4 files from Bucket 2):**
+  - `Exams/Chichewa/2022 CHICHEWA FOR KASUNGU DISTRICT EXAMINATIONS BOARD STD 8.pdf` (Primary school PSLCE exam - KADEB Standard 8, not secondary curriculum)
+  - `Exams/Chichewa/Kamuzu Barracks Chichewa Mock Examination.docx` (Primary school mock exam - Kamuzu Barracks Primary School 2018-19, not secondary curriculum)
+  - `Exams/Chichewa/2022  JCE CHICHEWA PAPER I  MOCK.pdf` (Exact duplicate of 2022 Aiming High Private Secondary JCE Paper I - identical 9-page exam)
+  - `Exams/Chichewa/MSCE CHICHEWA PAPER I - MAFUNSO- edited.docx` (Edited duplicate of MSCE CHICHEWA PAPER I - MAFUNSO.pdf - both are 2025 CWED Paper I)
+- **Internal Moves to Marking Keys (5 files within Bucket 2):**
+  - `Exams/Chichewa/Chichewa III 2026 SEED MOCK MARKING_KEY.doc` (misplaced marking key in root)
+  - `Exams/Chichewa/2026 SHED CHICHEWA MS P1.docx` (marking scheme)
+  - `Exams/Chichewa/2026 SHED CHICHEWA MS P1.pdf` (marking scheme)
+  - `Exams/Chichewa/2026 SHED MOCK CHICHEWA MS P2.docx` (marking scheme)
+  - `Exams/Chichewa/2026 SHED MOCK CHICHEWA MS P2.pdf` (marking scheme)
+- **Renamed within Exams (149 files):**
+  - Stripped raw upload suffixes (`_1`, `(1)`, `-1`), eliminated double spaces, removed archivetemp prefix, standardized paper designations (Paper I / Paper II / Paper III), and normalized titles according to Malawian secondary curriculum standards. The two large past paper compilations (MANEB MSCE 70 MB, MANEB JCE 30 MB) are retained with clean names.
+- **Catalog delta:** 2,914 -> 2,910 entries (-4 deleted). Dual catalogs synchronized byte-for-byte (`files-index.json` and `public/files-index.json`).
+- **Stable IDs:** 2,763 kept, 147 moved, 0 renamed, 0 new, 4 removed recorded in `public/id-map.json`.
+- **Level Tagging Coverage:** 100% Explicit (33 JCE, 116 MSCE, 0 Both).
 
 
 
