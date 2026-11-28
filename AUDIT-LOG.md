@@ -41,6 +41,9 @@ The "After" number represents the clean, frozen count at the moment the folder a
 | **Exams/Physics** | ✅ Audited | 178 | 166 | 1 | 3 (+7 to Physical Science) | 1 | 100% Explicit (21 JCE, 145 MSCE, 0 Both) | Nov 28, 2026 |
 | **Exams/Geography** | ✅ Audited | 156 | 152 | 1 | 0 | 4 | 100% Explicit (22 JCE, 130 MSCE, 0 Both) | Nov 28, 2026 |
 | **Exams/Chichewa** | ✅ Audited | 153 | 149 | 0 | 0 | 4 | 100% Explicit (33 JCE, 116 MSCE, 0 Both) | Nov 28, 2026 |
+| **Exams/History** | ✅ Audited | 93 | 101 | 0 | 1 | 2 (+10 from zip) | 100% Explicit (31 JCE, 70 MSCE, 0 Both) | Nov 28, 2026 |
+| **Exams/Bible Knowledge** | ✅ Audited | 75 | 74 | 0 | 0 | 1 | 100% Explicit (17 JCE, 57 MSCE, 0 Both) | Nov 28, 2026 |
+| **Exams/Computer Studies** | ✅ Audited | 46 | 45 | 1 | 0 | 0 | 100% Explicit (7 JCE, 38 MSCE, 0 Both) | Nov 28, 2026 |
 
 ---
 
@@ -540,6 +543,60 @@ The "After" number represents the clean, frozen count at the moment the folder a
 - **Catalog delta:** 2,914 -> 2,910 entries (-4 deleted). Dual catalogs synchronized byte-for-byte (`files-index.json` and `public/files-index.json`).
 - **Stable IDs:** 2,763 kept, 147 moved, 0 renamed, 0 new, 4 removed recorded in `public/id-map.json`.
 - **Level Tagging Coverage:** 100% Explicit (33 JCE, 116 MSCE, 0 Both).
+
+### 32. Exams/History Folder Audit (Nov 28, 2026)
+- **Scope:** 93 files deep-scanned, 1 zip archive extracted to 10 standalone JCE past papers (`2008-2024 MANEB JCE History Papers`), 1 zip container deleted from R2, 1 transferred to Q&A (`MSCE History Questions and Model Answers.pdf`, 68.7 MB), 3 internal moves to Marking Keys, and 91 clean renames across Exams/History/ and Marking Keys/ (101 clean History retained).
+- **Initial Count:** 93 files (68 in root `Exams/History/`, 25 in `Exams/History/Marking Keys/`, all on Bucket 2)
+- **Clean Exams Retained:** 101 clean examination papers (31 JCE, 70 MSCE, 0 Both)
+- **Transferred to Q&A (1 file within Bucket 2):**
+  - `Q&A/History/MSCE History Questions and Model Answers.pdf` (68.7 MB comprehensive model exam answers compilation)
+- **Extracted from Zip Archive (10 files added to Bucket 2):**
+  - `Exams/History/2008 MANEB JCE History Paper.pdf`
+  - `Exams/History/2009 MANEB JCE History Paper.pdf`
+  - `Exams/History/2010 MANEB JCE History Paper.pdf`
+  - `Exams/History/2011 MANEB JCE History Paper.pdf`
+  - `Exams/History/2015 MANEB JCE History Paper.pdf`
+  - `Exams/History/2016 MANEB JCE History Paper.pdf`
+  - `Exams/History/2021 MANEB JCE History Paper.pdf`
+  - `Exams/History/2022 MANEB JCE History Paper 2.pdf`
+  - `Exams/History/2023 MANEB JCE History Paper 2.pdf`
+  - `Exams/History/2024 MANEB JCE History Paper.pdf`
+- **Deleted from R2 (1 file from Bucket 2):**
+  - `Exams/History/HISTORY JCE PAST PAPERS.zip` (Redundant zip container; 10 contained past papers extracted as standalone PDFs)
+- **Internal Moves to Marking Keys (3 files within Bucket 2):**
+  - `Exams/History/Marking Keys/2025 CWED MSCE History Paper I Mock Exam Marking Key.docx`
+  - `Exams/History/Marking Keys/2025 CWED MSCE History Paper II Mock Exam Marking Key.docx`
+  - `Exams/History/Marking Keys/2025 CWED MSCE History Paper II Mock Exam Marking Key.pdf`
+- **Renamed within Exams (91 files):**
+  - Cleaned `History_PII_-_Final_Copy.pdf` (clearing library audit flag), removed raw upload suffixes (`_1`, `(1)`, `(2)`, `25252525`), eliminated double spaces, and standardized titles according to Malawian secondary curriculum standards.
+- **Level Tagging Coverage:** 100% Explicit (31 JCE, 70 MSCE, 0 Both).
+
+### 33. Exams/Bible Knowledge Folder Audit (Nov 28, 2026)
+- **Scope:** 75 files deep-scanned, 1 personal student invoice receipt deleted from R2, 2 internal moves to Marking Keys, and 74 clean renames across Exams/Bible Knowledge/ and Marking Keys/ (74 clean Bible Knowledge retained).
+- **Initial Count:** 75 files (51 in root `Exams/Bible Knowledge/`, 24 in `Exams/Bible Knowledge/Marking Keys/`, all on Bucket 2)
+- **Clean Exams Retained:** 74 clean examination papers (17 JCE, 57 MSCE, 0 Both)
+- **Deleted from R2 (1 file from Bucket 2):**
+  - `Exams/Bible Knowledge/Invoice-2026MSCE-ISAIAH-NGULUWE-30612072601557_1.pdf` (Personal MANEB MSCE candidate exam entry invoice fee receipt - personal clutter)
+- **Internal Moves to Marking Keys (2 files within Bucket 2):**
+  - `Exams/Bible Knowledge/Marking Keys/2026 SHED MSCE Bible Knowledge Paper II Marking Key.docx`
+  - `Exams/Bible Knowledge/Marking Keys/2026 SHED MSCE Bible Knowledge Paper II Marking Key.pdf`
+- **Renamed within Exams (74 files):**
+  - Stripped raw upload suffixes (`_1`, `111111`, `edited`), standardized paper numbers (Paper I / Paper II), and normalized titles according to curriculum standards.
+- **Level Tagging Coverage:** 100% Explicit (17 JCE, 57 MSCE, 0 Both).
+
+### 34. Exams/Computer Studies Folder Audit (Nov 28, 2026)
+- **Scope:** 46 files deep-scanned across duplicate folders (`Exams/Computer studies` [42] and `Exams/Computer Studies` [4]), 1 reference manual transferred to Books (`Books/Computer studies/500+ Computer Shortcuts for PC.pdf`), unified 100% of files under standard capitalized directory `Exams/Computer Studies/` (eliminating library casing inconsistency), and 45 clean renames across Exams and Marking Keys (45 clean Computer Studies retained).
+- **Initial Count:** 46 files (42 in `Exams/Computer studies/`, 4 in `Exams/Computer Studies/`)
+- **Clean Exams Retained:** 45 clean examination papers (7 JCE, 38 MSCE, 0 Both)
+- **Transferred to Books (1 file cross-bucket to Bucket 1):**
+  - `Books/Computer studies/500+ Computer Shortcuts for PC.pdf` (47-page reference book)
+- **Folder Casing Normalization:**
+  - Unified all 42 files from lowercase `Exams/Computer studies/` into standard `Exams/Computer Studies/`, resolving the folder casing inconsistency warning.
+- **Renamed within Exams (45 files):**
+  - Stripped raw upload suffixes (`_1`, `-1`), clarified institutional mocks (CEED, SHED, Bwaila, Machinga, Marymount, NED, Nagwengwere, Lilongwe Girls), and normalized titles.
+- **Catalog delta (Batch 1 total):** 2,910 -> 2,918 entries (+8 net: -2 deleted, +10 extracted). Dual catalogs synchronized byte-for-byte (`files-index.json` and `public/files-index.json`).
+- **Stable IDs:** 2,917 kept, 1 moved, 0 renamed, 0 new, 0 removed recorded in `public/id-map.json`.
+- **Level Tagging Coverage:** 100% Explicit (7 JCE, 38 MSCE, 0 Both).
 
 
 

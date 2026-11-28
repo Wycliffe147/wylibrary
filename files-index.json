@@ -2784,6 +2784,15 @@
     "level": "msce"
   },
   {
+    "name": "500+ Computer Shortcuts for PC.pdf",
+    "path": "Books/Computer studies/500+ Computer Shortcuts for PC.pdf",
+    "size": 452287,
+    "repo": "e-library-media",
+    "bucket": 1,
+    "id": "f66052bc64",
+    "level": "both"
+  },
+  {
     "name": "Computer Fundamentals and Office Automation Coursebook.pdf",
     "path": "Books/Computer studies/6.Computer  Fundamentals and Office Automation.pdf",
     "size": 3474469,
@@ -7443,604 +7452,670 @@
     "id": "f3ce4a7c93"
   },
   {
-    "name": "2022 JCE BK MANEB_1.pdf",
-    "path": "Exams/Bible Knowledge/2022 JCE BK MANEB_1.pdf",
-    "size": 2370798,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f3f0b9b084"
-  },
-  {
-    "name": "2025 MSCE Bible Knowledge Mock Paper 1 (Mangochi Diocese).docx",
-    "path": "Exams/Bible Knowledge/2025 MSCE Bible Knowledge Mock Paper 1 (Mangochi Diocese).docx",
-    "size": 201473,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fd98341142"
-  },
-  {
-    "name": "2025 MSCE Bible Knowledge Mock Paper 2 (Mangochi Diocese).docx",
-    "path": "Exams/Bible Knowledge/2025 MSCE Bible Knowledge Mock Paper 2 (Mangochi Diocese).docx",
-    "size": 339420,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fece52494f"
-  },
-  {
-    "name": "2025 SEED Bible Knowledge PI MOCK EXAMINATION.doc",
-    "path": "Exams/Bible Knowledge/2025 SEED Bible Knowledge PI MOCK EXAMINATION.doc",
-    "size": 74752,
-    "repo": "e-library-media-4",
-    "bucket": 2,
-    "id": "f50c8ef6ce"
-  },
-  {
-    "name": "2025 SEED BK MOCK PII.doc",
-    "path": "Exams/Bible Knowledge/2025 SEED BK MOCK PII.doc",
-    "size": 79360,
-    "repo": "e-library-media-3",
-    "bucket": 2,
-    "id": "f0f56eeb6f"
-  },
-  {
-    "name": "2026 BK MSCE PAPER 1 QUESTIONS.docx",
-    "path": "Exams/Bible Knowledge/2026 BK MSCE PAPER 1 QUESTIONS.docx",
-    "size": 88282,
-    "repo": "e-library-media-5",
-    "bucket": 2,
-    "id": "f8b4b01532"
-  },
-  {
-    "name": "2026 BK MSCE PAPER 2 QUESTIONS.docx",
-    "path": "Exams/Bible Knowledge/2026 BK MSCE PAPER 2 QUESTIONS.docx",
-    "size": 82553,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f709f0e3ea"
-  },
-  {
-    "name": "2026 CEED BIBLE KNOWLEDGE I.pdf",
-    "path": "Exams/Bible Knowledge/2026 CEED BIBLE KNOWLEDGE I.pdf",
-    "size": 575264,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f817408736"
-  },
-  {
-    "name": "2026 CEED BIBLE KNOWLEDGE II.pdf",
-    "path": "Exams/Bible Knowledge/2026 CEED BIBLE KNOWLEDGE II.pdf",
-    "size": 656262,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "feb45e033d"
-  },
-  {
-    "name": "2026 JCE BK 1.docx",
-    "path": "Exams/Bible Knowledge/2026 JCE BK 1.docx",
-    "size": 80475,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f6d759ff76"
-  },
-  {
-    "name": "2026 MANEB Bible Knowledge Paper I.pdf",
-    "path": "Exams/Bible Knowledge/2026 MANEB Bible Knowledge Paper I.pdf",
-    "size": 2168577,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f43d8547b0"
-  },
-  {
-    "name": "2026 MANEB Bible Knowledge Paper II.pdf",
-    "path": "Exams/Bible Knowledge/2026 MANEB Bible Knowledge Paper II.pdf",
-    "size": 1804339,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fadbcfb773"
-  },
-  {
-    "name": "2026 MSCE Bible Knowledge Mock Paper 1 (Winners Online School).pdf",
-    "path": "Exams/Bible Knowledge/2026 MSCE Bible Knowledge Mock Paper 1 (Winners Online School).pdf",
-    "size": 280048,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "fdca24da13"
-  },
-  {
-    "name": "2026 MSCE Bible Knowledge Mock Paper 2 (CWED).docx",
-    "path": "Exams/Bible Knowledge/2026 MSCE Bible Knowledge Mock Paper 2 (CWED).docx",
-    "size": 52535,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "ffd802e614"
-  },
-  {
-    "name": "2026 MSCE Bible Knowledge Mock Paper 2 (Winners Online School).pdf",
-    "path": "Exams/Bible Knowledge/2026 MSCE Bible Knowledge Mock Paper 2 (Winners Online School).pdf",
-    "size": 239623,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5032d7356"
-  },
-  {
-    "name": "2026 MSCE Mara BK P1 mock 2.pdf",
-    "path": "Exams/Bible Knowledge/2026 MSCE Mara BK P1 mock 2.pdf",
-    "size": 4125369,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fceeb3f517"
-  },
-  {
-    "name": "2026 SHED BIBLE KNOWLEDGE MS P II.docx",
-    "path": "Exams/Bible Knowledge/2026 SHED BIBLE KNOWLEDGE MS P II.docx",
-    "size": 56104,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f4f6cc4b2d"
-  },
-  {
-    "name": "2026 SHED BIBLE KNOWLEDGE MS P II.pdf",
-    "path": "Exams/Bible Knowledge/2026 SHED BIBLE KNOWLEDGE MS P II.pdf",
-    "size": 326448,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f352580fce"
-  },
-  {
-    "name": "2026 SHED BIBLE KNOWLEDGE PAPER 1 QP.docx",
-    "path": "Exams/Bible Knowledge/2026 SHED BIBLE KNOWLEDGE PAPER 1 QP.docx",
-    "size": 63747,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe3aa18bb9"
-  },
-  {
-    "name": "2026 SHED BIBLE KNOWLEDGE PAPER 1 QP.pdf",
-    "path": "Exams/Bible Knowledge/2026 SHED BIBLE KNOWLEDGE PAPER 1 QP.pdf",
-    "size": 242833,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f4c6e0ed58"
-  },
-  {
-    "name": "2026 SHED BIBLE KNOWLEDGE QP II.docx",
-    "path": "Exams/Bible Knowledge/2026 SHED BIBLE KNOWLEDGE QP II.docx",
-    "size": 52568,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f43703170a"
-  },
-  {
-    "name": "2026 SHED BIBLE KNOWLEDGE QP II.pdf",
-    "path": "Exams/Bible Knowledge/2026 SHED BIBLE KNOWLEDGE QP II.pdf",
-    "size": 271663,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f27647b050"
-  },
-  {
-    "name": "2026 SHED RELIGIOUS AND MORAL EDU.docx",
-    "path": "Exams/Bible Knowledge/2026 SHED RELIGIOUS AND MORAL EDU.docx",
-    "size": 60397,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f97982d23a"
-  },
-  {
-    "name": "2026 SHED RELIGIOUS AND MORAL EDU.pdf",
-    "path": "Exams/Bible Knowledge/2026 SHED RELIGIOUS AND MORAL EDU.pdf",
-    "size": 285388,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fa7df302e0"
-  },
-  {
-    "name": "BANGWE CLUSTER BK F2 MOCK 2022.pdf",
-    "path": "Exams/Bible Knowledge/BANGWE CLUSTER  BK F2 MOCK 2022.pdf",
+    "name": "2022 Bangwe Cluster Form 2 Bible Knowledge Mock Exam.pdf",
+    "path": "Exams/Bible Knowledge/2022 Bangwe Cluster Form 2 Bible Knowledge Mock Exam.pdf",
     "size": 378214,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f8bebac2c2"
+    "id": "f8bebac2c2",
+    "level": "jce"
   },
   {
-    "name": "BIBLE KNOWLEDGE FOR MSCE.pdf",
-    "path": "Exams/Bible Knowledge/BIBLE KNOWLEDGE FOR MSCE.pdf",
-    "size": 338012,
-    "repo": "e-library-media",
+    "name": "2022 MANEB JCE Bible Knowledge Paper.pdf",
+    "path": "Exams/Bible Knowledge/2022 MANEB JCE Bible Knowledge Paper.pdf",
+    "size": 2370798,
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f58f9b8206"
+    "id": "f3f0b9b084",
+    "level": "jce"
   },
   {
-    "name": "Bible Knowledge I 2023 SEED MOCK.pdf",
-    "path": "Exams/Bible Knowledge/Bible Knowledge I 2023 SEED MOCK.pdf",
+    "name": "2023 SEED MSCE Bible Knowledge Paper I Mock Exam.pdf",
+    "path": "Exams/Bible Knowledge/2023 SEED MSCE Bible Knowledge Paper I Mock Exam.pdf",
     "size": 421216,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f5eb270b9f"
+    "id": "f5eb270b9f",
+    "level": "msce"
   },
   {
-    "name": "Bible Knowledge I 2026 SEED MOCK.doc",
-    "path": "Exams/Bible Knowledge/Bible Knowledge I 2026 SEED MOCK.doc",
-    "size": 94720,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5f7055db7"
-  },
-  {
-    "name": "Bible Knowledge II 2024 SEED MSCE MOCK.doc.pdf",
-    "path": "Exams/Bible Knowledge/Bible Knowledge II 2024 SEED MSCE MOCK.doc.pdf",
-    "size": 421337,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f185fdf1d9"
-  },
-  {
-    "name": "Bible Knowledge II 2026 SEED MOCK.doc",
-    "path": "Exams/Bible Knowledge/Bible Knowledge II 2026 SEED MOCK.doc",
-    "size": 85504,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f70ac5fd40"
-  },
-  {
-    "name": "BIBLE_KNOWLEDGE_2024_JCE_MANEB_1.pdf",
-    "path": "Exams/Bible Knowledge/BIBLE_KNOWLEDGE_2024_JCE_MANEB_1.pdf",
+    "name": "2024 MANEB JCE Bible Knowledge Paper.pdf",
+    "path": "Exams/Bible Knowledge/2024 MANEB JCE Bible Knowledge Paper.pdf",
     "size": 3742023,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f8f2b5f623"
+    "id": "f8f2b5f623",
+    "level": "jce"
   },
   {
-    "name": "bk f1.docx",
-    "path": "Exams/Bible Knowledge/bk f1.docx",
-    "size": 32751,
+    "name": "2024 SEED MSCE Bible Knowledge Paper II Mock Exam.pdf",
+    "path": "Exams/Bible Knowledge/2024 SEED MSCE Bible Knowledge Paper II Mock Exam.pdf",
+    "size": 421337,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f20d470490"
+    "id": "f185fdf1d9",
+    "level": "msce"
   },
   {
-    "name": "bk f2.docx",
-    "path": "Exams/Bible Knowledge/bk f2.docx",
-    "size": 30577,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f1f4d493b9"
-  },
-  {
-    "name": "bk f3.docx",
-    "path": "Exams/Bible Knowledge/bk f3.docx",
-    "size": 44872,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fde9f1766e"
-  },
-  {
-    "name": "bk f4 p1.docx",
-    "path": "Exams/Bible Knowledge/bk f4 p1.docx",
-    "size": 43572,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f18fbdfbf8"
-  },
-  {
-    "name": "bk f4 p2.docx",
-    "path": "Exams/Bible Knowledge/bk f4 p2.docx",
-    "size": 33985,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f16a1f51eb"
-  },
-  {
-    "name": "BK JCE Mock26.docx",
-    "path": "Exams/Bible Knowledge/BK JCE Mock26.docx",
-    "size": 31507,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fc6b3171ff"
-  },
-  {
-    "name": "BK Paper 2.pdf",
-    "path": "Exams/Bible Knowledge/BK Paper 2 .pdf",
-    "size": 646660,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f3fb6146b2"
-  },
-  {
-    "name": "BK PAPER 2 QUESTIONS merged and moderated.pdf",
-    "path": "Exams/Bible Knowledge/BK PAPER 2 QUESTIONS merged and moderated.pdf",
-    "size": 624083,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fee364a55f"
-  },
-  {
-    "name": "BK Paper I.pdf",
-    "path": "Exams/Bible Knowledge/BK Paper I .pdf",
-    "size": 681212,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f985f3fe02"
-  },
-  {
-    "name": "BK_MANEB_EXAMINATION_PAPERS.pdf",
-    "path": "Exams/Bible Knowledge/BK_MANEB_EXAMINATION_PAPERS.pdf",
-    "size": 381368,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fa2e017bf6"
-  },
-  {
-    "name": "COVER BIBLE KNOWLEDGE F1 TERM 1CONT ASSESSMENT.docx",
-    "path": "Exams/Bible Knowledge/COVER BIBLE KNOWLEDGE F1 TERM 1CONT ASSESSMENT.docx",
-    "size": 58249,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f68c0bebc4"
-  },
-  {
-    "name": "CWED BK PAPER 1.docx",
-    "path": "Exams/Bible Knowledge/CWED BK PAPER 1.docx",
-    "size": 62820,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f58f50c570"
-  },
-  {
-    "name": "FORM THREE BIBLE KNOWLEDGE PAPER ONE 111111 2025 111111111_1.docx",
-    "path": "Exams/Bible Knowledge/FORM THREE BIBLE KNOWLEDGE PAPER ONE 111111 2025 111111111_1.docx",
-    "size": 31934,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe51563394"
-  },
-  {
-    "name": "Invoice-2026MSCE-ISAIAH-NGULUWE-30612072601557_1.pdf",
-    "path": "Exams/Bible Knowledge/Invoice-2026MSCE-ISAIAH-NGULUWE-30612072601557_1.pdf",
-    "size": 172862,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fa9c7f4eb5"
-  },
-  {
-    "name": "JCE BIBLE KNOWLEDGE.pdf",
-    "path": "Exams/Bible Knowledge/JCE BIBLE KNOWLEDGE .pdf",
-    "size": 922110,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5d1601458"
-  },
-  {
-    "name": "2026 B K MSCE PAPER 1 MARKING KEY.docx",
-    "path": "Exams/Bible Knowledge/Marking Keys/2026 B K MSCE  PAPER 1 MARKING KEY.docx",
-    "size": 12124,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "fbac1cc316"
-  },
-  {
-    "name": "2026 BK MSCE PAPER 2 MARKING KEY.docx",
-    "path": "Exams/Bible Knowledge/Marking Keys/2026 BK MSCE PAPER 2 MARKING KEY.docx",
-    "size": 17069,
-    "repo": "e-library-media-3",
-    "bucket": 2,
-    "id": "f21a6214f2"
-  },
-  {
-    "name": "2026 CEED BIBLE KNOWLEDGE I PROVISIONAL MARKING KEY.pdf",
-    "path": "Exams/Bible Knowledge/Marking Keys/2026 CEED BIBLE KNOWLEDGE I PROVISIONAL MARKING KEY.pdf",
-    "size": 262086,
-    "repo": "e-library-media-4",
-    "bucket": 2,
-    "id": "f04acdfaad"
-  },
-  {
-    "name": "2026 CEED BIBLE KNOWLEDGE II PROVISIONAL MARKING KEY.rtf.pdf",
-    "path": "Exams/Bible Knowledge/Marking Keys/2026 CEED BIBLE KNOWLEDGE II PROVISIONAL MARKING KEY.rtf.pdf",
-    "size": 262086,
-    "repo": "e-library-media-5",
-    "bucket": 2,
-    "id": "f00db59081"
-  },
-  {
-    "name": "2026 JCE BK 1 MARKING KEY.docx",
-    "path": "Exams/Bible Knowledge/Marking Keys/2026 JCE BK 1 MARKING KEY.docx",
-    "size": 20389,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fc91954df0"
-  },
-  {
-    "name": "2026 SHED BIBLE KNOWLEDGE P1 - MARKING KEY.docx",
-    "path": "Exams/Bible Knowledge/Marking Keys/2026 SHED BIBLE KNOWLEDGE P1 - MARKING KEY.docx",
-    "size": 38559,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f78971986e"
-  },
-  {
-    "name": "2026 SHED BIBLE KNOWLEDGE P1 - MARKING KEY.pdf",
-    "path": "Exams/Bible Knowledge/Marking Keys/2026 SHED BIBLE KNOWLEDGE P1 - MARKING KEY.pdf",
-    "size": 147172,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f2a9f96f70"
-  },
-  {
-    "name": "2026 SHED RME MARKING KEY.docx",
-    "path": "Exams/Bible Knowledge/Marking Keys/2026 SHED RME MARKING KEY.docx",
-    "size": 47090,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f3ded5430e"
-  },
-  {
-    "name": "2026 SHED RME MARKING KEY.pdf",
-    "path": "Exams/Bible Knowledge/Marking Keys/2026 SHED RME MARKING KEY.pdf",
-    "size": 231015,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fd417b719c"
-  },
-  {
-    "name": "Bible Knowledge I 2026 SEED MOCK PROVISIONAL MARKING KEY.doc",
-    "path": "Exams/Bible Knowledge/Marking Keys/Bible Knowledge I 2026 SEED MOCK PROVISIONAL MARKING KEY.doc",
-    "size": 29696,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe7e669293"
-  },
-  {
-    "name": "Bible Knowledge I Marking Key 2024 SEED MSCE MOCK.pdf",
-    "path": "Exams/Bible Knowledge/Marking Keys/Bible Knowledge I Marking Key 2024 SEED MSCE MOCK.pdf",
-    "size": 99617,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f4bff17556"
-  },
-  {
-    "name": "BIBLE KNOWLEDGE I MARKING KEY.docx",
-    "path": "Exams/Bible Knowledge/Marking Keys/BIBLE KNOWLEDGE I MARKING KEY.docx",
-    "size": 15496,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fafdd18af7"
-  },
-  {
-    "name": "Bible Knowledge II 2026 SEED MOCK MARKING KEY.doc",
-    "path": "Exams/Bible Knowledge/Marking Keys/Bible Knowledge II 2026 SEED MOCK MARKING KEY.doc",
-    "size": 44544,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f37f891ab6"
-  },
-  {
-    "name": "Bible Knowledge II Marking Key 2024 SEED MSCE MOCK.pdf",
-    "path": "Exams/Bible Knowledge/Marking Keys/Bible Knowledge II Marking Key 2024 SEED MSCE MOCK.pdf",
-    "size": 321564,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "ffedceace6"
-  },
-  {
-    "name": "bk f1 mkey.docx",
-    "path": "Exams/Bible Knowledge/Marking Keys/bk f1 mkey.docx",
-    "size": 28561,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f8185eba93"
-  },
-  {
-    "name": "bk f2 mkey.docx",
-    "path": "Exams/Bible Knowledge/Marking Keys/bk f2 mkey.docx",
-    "size": 18893,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fa64eb6d74"
-  },
-  {
-    "name": "bk f3 mkey.docx",
-    "path": "Exams/Bible Knowledge/Marking Keys/bk f3 mkey.docx",
-    "size": 25364,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f05502f5e9"
-  },
-  {
-    "name": "bk f4 p1 mkey.docx",
-    "path": "Exams/Bible Knowledge/Marking Keys/bk f4 p1 mkey.docx",
-    "size": 13011,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fefec030ca"
-  },
-  {
-    "name": "bk f4 p2 mkey.docx",
-    "path": "Exams/Bible Knowledge/Marking Keys/bk f4 p2 mkey.docx",
-    "size": 23944,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f226ae8b68"
-  },
-  {
-    "name": "BK JCE Mock26 Marking key.docx",
-    "path": "Exams/Bible Knowledge/Marking Keys/BK JCE Mock26 Marking key.docx",
-    "size": 27795,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f00dffa10a"
-  },
-  {
-    "name": "BK PAPER II MARKING KEY.pdf",
-    "path": "Exams/Bible Knowledge/Marking Keys/BK PAPER II MARKING KEY .pdf",
-    "size": 433258,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fd4400beb1"
-  },
-  {
-    "name": "BK_P1_Marking Key.pdf",
-    "path": "Exams/Bible Knowledge/Marking Keys/BK_P1_Marking Key.pdf",
-    "size": 384379,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5b4c0e645"
-  },
-  {
-    "name": "CWED BK 2 MARKING KEY.docx",
-    "path": "Exams/Bible Knowledge/Marking Keys/CWED BK 2 MARKING KEY.docx",
-    "size": 21636,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fdc4627078"
-  },
-  {
-    "name": "CWED BK 2 MARKING KEY.pdf",
-    "path": "Exams/Bible Knowledge/Marking Keys/CWED BK 2 MARKING KEY.pdf",
-    "size": 250165,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f78f6a729e"
-  },
-  {
-    "name": "PAPER 1 QUESTIONS BK.pdf",
-    "path": "Exams/Bible Knowledge/PAPER 1 QUESTIONS BK.pdf",
+    "name": "2025 Central West Education Division MSCE Bible Knowledge Paper I Mock Exam.pdf",
+    "path": "Exams/Bible Knowledge/2025 Central West Education Division MSCE Bible Knowledge Paper I Mock Exam.pdf",
     "size": 634593,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fe87afc9f2"
+    "id": "fe87afc9f2",
+    "level": "msce"
   },
   {
-    "name": "shed bible knowledge P1 edited.docx",
-    "path": "Exams/Bible Knowledge/shed bible knowledge P1 edited.docx",
+    "name": "2025 Central West Education Division MSCE Bible Knowledge Paper II Mock Exam.pdf",
+    "path": "Exams/Bible Knowledge/2025 Central West Education Division MSCE Bible Knowledge Paper II Mock Exam.pdf",
+    "size": 624083,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fee364a55f",
+    "level": "msce"
+  },
+  {
+    "name": "2025 Mangochi Catholic Diocese MSCE Bible Knowledge Paper I Mock Exam.docx",
+    "path": "Exams/Bible Knowledge/2025 Mangochi Catholic Diocese MSCE Bible Knowledge Paper I Mock Exam.docx",
+    "size": 201473,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fd98341142",
+    "level": "msce"
+  },
+  {
+    "name": "2025 Mangochi Catholic Diocese MSCE Bible Knowledge Paper II Mock Exam.docx",
+    "path": "Exams/Bible Knowledge/2025 Mangochi Catholic Diocese MSCE Bible Knowledge Paper II Mock Exam.docx",
+    "size": 339420,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fece52494f",
+    "level": "msce"
+  },
+  {
+    "name": "2025 SEED MSCE Bible Knowledge Paper I Mock Exam.doc",
+    "path": "Exams/Bible Knowledge/2025 SEED MSCE Bible Knowledge Paper I Mock Exam.doc",
+    "size": 74752,
+    "repo": "e-library-media-4",
+    "bucket": 2,
+    "id": "f50c8ef6ce",
+    "level": "msce"
+  },
+  {
+    "name": "2025 SEED MSCE Bible Knowledge Paper II Mock Exam.doc",
+    "path": "Exams/Bible Knowledge/2025 SEED MSCE Bible Knowledge Paper II Mock Exam.doc",
+    "size": 79360,
+    "repo": "e-library-media-3",
+    "bucket": 2,
+    "id": "f0f56eeb6f",
+    "level": "msce"
+  },
+  {
+    "name": "2025 SHED MSCE Bible Knowledge Paper I Mock Exam.docx",
+    "path": "Exams/Bible Knowledge/2025 SHED MSCE Bible Knowledge Paper I Mock Exam.docx",
     "size": 64677,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f4440f1dcf"
+    "id": "f4440f1dcf",
+    "level": "msce"
   },
   {
-    "name": "shed bible knowledge P1 edited.pdf",
-    "path": "Exams/Bible Knowledge/shed bible knowledge P1 edited.pdf",
+    "name": "2025 SHED MSCE Bible Knowledge Paper I Mock Exam.pdf",
+    "path": "Exams/Bible Knowledge/2025 SHED MSCE Bible Knowledge Paper I Mock Exam.pdf",
     "size": 270184,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fee06ca359"
+    "id": "fee06ca359",
+    "level": "msce"
   },
   {
-    "name": "shed bible knowledge P2 edited.docx",
-    "path": "Exams/Bible Knowledge/shed bible knowledge P2 edited.docx",
+    "name": "2025 SHED MSCE Bible Knowledge Paper II Mock Exam.docx",
+    "path": "Exams/Bible Knowledge/2025 SHED MSCE Bible Knowledge Paper II Mock Exam.docx",
     "size": 48406,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "ffea5b025e"
+    "id": "ffea5b025e",
+    "level": "msce"
   },
   {
-    "name": "shed bible knowledge P2 edited.pdf",
-    "path": "Exams/Bible Knowledge/shed bible knowledge P2 edited.pdf",
+    "name": "2025 SHED MSCE Bible Knowledge Paper II Mock Exam.pdf",
+    "path": "Exams/Bible Knowledge/2025 SHED MSCE Bible Knowledge Paper II Mock Exam.pdf",
     "size": 228893,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f3fccbb87b"
+    "id": "f3fccbb87b",
+    "level": "msce"
+  },
+  {
+    "name": "2025 St Marys Secondary School MSCE Bible Knowledge Paper I Mock Exam.pdf",
+    "path": "Exams/Bible Knowledge/2025 St Marys Secondary School MSCE Bible Knowledge Paper I Mock Exam.pdf",
+    "size": 681212,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f985f3fe02",
+    "level": "msce"
+  },
+  {
+    "name": "2025 St Marys Secondary School MSCE Bible Knowledge Paper II Mock Exam.pdf",
+    "path": "Exams/Bible Knowledge/2025 St Marys Secondary School MSCE Bible Knowledge Paper II Mock Exam.pdf",
+    "size": 646660,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f3fb6146b2",
+    "level": "msce"
+  },
+  {
+    "name": "2025 Star Secondary School Form 3 Bible Knowledge Paper I Exam.docx",
+    "path": "Exams/Bible Knowledge/2025 Star Secondary School Form 3 Bible Knowledge Paper I Exam.docx",
+    "size": 31934,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fe51563394",
+    "level": "msce"
+  },
+  {
+    "name": "2026 Central East Education Division MSCE Bible Knowledge Paper I Mock Exam.pdf",
+    "path": "Exams/Bible Knowledge/2026 Central East Education Division MSCE Bible Knowledge Paper I Mock Exam.pdf",
+    "size": 575264,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f817408736",
+    "level": "msce"
+  },
+  {
+    "name": "2026 Central East Education Division MSCE Bible Knowledge Paper II Mock Exam.pdf",
+    "path": "Exams/Bible Knowledge/2026 Central East Education Division MSCE Bible Knowledge Paper II Mock Exam.pdf",
+    "size": 656262,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "feb45e033d",
+    "level": "msce"
+  },
+  {
+    "name": "2026 Central West Education Division MSCE Bible Knowledge Paper II Mock Exam.docx",
+    "path": "Exams/Bible Knowledge/2026 Central West Education Division MSCE Bible Knowledge Paper II Mock Exam.docx",
+    "size": 52535,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "ffd802e614",
+    "level": "msce"
+  },
+  {
+    "name": "2026 JCE Bible Knowledge Mock Exam.docx",
+    "path": "Exams/Bible Knowledge/2026 JCE Bible Knowledge Mock Exam.docx",
+    "size": 31507,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fc6b3171ff",
+    "level": "jce"
+  },
+  {
+    "name": "2026 JCE Bible Knowledge Paper I Mock Exam.docx",
+    "path": "Exams/Bible Knowledge/2026 JCE Bible Knowledge Paper I Mock Exam.docx",
+    "size": 80475,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f6d759ff76",
+    "level": "jce"
+  },
+  {
+    "name": "2026 MANEB MSCE Bible Knowledge Paper I.pdf",
+    "path": "Exams/Bible Knowledge/2026 MANEB MSCE Bible Knowledge Paper I.pdf",
+    "size": 2168577,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f43d8547b0",
+    "level": "msce"
+  },
+  {
+    "name": "2026 MANEB MSCE Bible Knowledge Paper II.pdf",
+    "path": "Exams/Bible Knowledge/2026 MANEB MSCE Bible Knowledge Paper II.pdf",
+    "size": 1804339,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fadbcfb773",
+    "level": "msce"
+  },
+  {
+    "name": "2026 Marist Secondary School MSCE Bible Knowledge Paper I Mock Exam 2.pdf",
+    "path": "Exams/Bible Knowledge/2026 Marist Secondary School MSCE Bible Knowledge Paper I Mock Exam 2.pdf",
+    "size": 4125369,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fceeb3f517",
+    "level": "msce"
+  },
+  {
+    "name": "2026 MSCE Bible Knowledge Paper I Mock Exam.docx",
+    "path": "Exams/Bible Knowledge/2026 MSCE Bible Knowledge Paper I Mock Exam.docx",
+    "size": 88282,
+    "repo": "e-library-media-5",
+    "bucket": 2,
+    "id": "f8b4b01532",
+    "level": "msce"
+  },
+  {
+    "name": "2026 MSCE Bible Knowledge Paper II Mock Exam.docx",
+    "path": "Exams/Bible Knowledge/2026 MSCE Bible Knowledge Paper II Mock Exam.docx",
+    "size": 82553,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f709f0e3ea",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SEED MSCE Bible Knowledge Paper I Mock Exam.doc",
+    "path": "Exams/Bible Knowledge/2026 SEED MSCE Bible Knowledge Paper I Mock Exam.doc",
+    "size": 94720,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f5f7055db7",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SEED MSCE Bible Knowledge Paper II Mock Exam.doc",
+    "path": "Exams/Bible Knowledge/2026 SEED MSCE Bible Knowledge Paper II Mock Exam.doc",
+    "size": 85504,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f70ac5fd40",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED JCE Religious and Moral Education Mock Exam.docx",
+    "path": "Exams/Bible Knowledge/2026 SHED JCE Religious and Moral Education Mock Exam.docx",
+    "size": 60397,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f97982d23a",
+    "level": "jce"
+  },
+  {
+    "name": "2026 SHED JCE Religious and Moral Education Mock Exam.pdf",
+    "path": "Exams/Bible Knowledge/2026 SHED JCE Religious and Moral Education Mock Exam.pdf",
+    "size": 285388,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fa7df302e0",
+    "level": "jce"
+  },
+  {
+    "name": "2026 SHED MSCE Bible Knowledge Paper I Mock Exam.docx",
+    "path": "Exams/Bible Knowledge/2026 SHED MSCE Bible Knowledge Paper I Mock Exam.docx",
+    "size": 63747,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fe3aa18bb9",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Bible Knowledge Paper I Mock Exam.pdf",
+    "path": "Exams/Bible Knowledge/2026 SHED MSCE Bible Knowledge Paper I Mock Exam.pdf",
+    "size": 242833,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f4c6e0ed58",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Bible Knowledge Paper II Mock Exam.docx",
+    "path": "Exams/Bible Knowledge/2026 SHED MSCE Bible Knowledge Paper II Mock Exam.docx",
+    "size": 52568,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f43703170a",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Bible Knowledge Paper II Mock Exam.pdf",
+    "path": "Exams/Bible Knowledge/2026 SHED MSCE Bible Knowledge Paper II Mock Exam.pdf",
+    "size": 271663,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f27647b050",
+    "level": "msce"
+  },
+  {
+    "name": "2026 Winners Online School MSCE Bible Knowledge Paper I Mock Exam.pdf",
+    "path": "Exams/Bible Knowledge/2026 Winners Online School MSCE Bible Knowledge Paper I Mock Exam.pdf",
+    "size": 280048,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fdca24da13",
+    "level": "msce"
+  },
+  {
+    "name": "2026 Winners Online School MSCE Bible Knowledge Paper II Mock Exam.pdf",
+    "path": "Exams/Bible Knowledge/2026 Winners Online School MSCE Bible Knowledge Paper II Mock Exam.pdf",
+    "size": 239623,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f5032d7356",
+    "level": "msce"
+  },
+  {
+    "name": "Central West Education Division MSCE Bible Knowledge Paper I Mock Exam.docx",
+    "path": "Exams/Bible Knowledge/Central West Education Division MSCE Bible Knowledge Paper I Mock Exam.docx",
+    "size": 62820,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f58f50c570",
+    "level": "msce"
+  },
+  {
+    "name": "Form 1 Bible Knowledge Exam.docx",
+    "path": "Exams/Bible Knowledge/Form 1 Bible Knowledge Exam.docx",
+    "size": 32751,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f20d470490",
+    "level": "jce"
+  },
+  {
+    "name": "Form 2 Bible Knowledge Exam.docx",
+    "path": "Exams/Bible Knowledge/Form 2 Bible Knowledge Exam.docx",
+    "size": 30577,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f1f4d493b9",
+    "level": "jce"
+  },
+  {
+    "name": "Form 3 Bible Knowledge Exam.docx",
+    "path": "Exams/Bible Knowledge/Form 3 Bible Knowledge Exam.docx",
+    "size": 44872,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fde9f1766e",
+    "level": "msce"
+  },
+  {
+    "name": "Form 4 Bible Knowledge Paper I Exam.docx",
+    "path": "Exams/Bible Knowledge/Form 4 Bible Knowledge Paper I Exam.docx",
+    "size": 43572,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f18fbdfbf8",
+    "level": "msce"
+  },
+  {
+    "name": "Form 4 Bible Knowledge Paper II Exam.docx",
+    "path": "Exams/Bible Knowledge/Form 4 Bible Knowledge Paper II Exam.docx",
+    "size": 33985,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f16a1f51eb",
+    "level": "msce"
+  },
+  {
+    "name": "JCE Bible Knowledge Past Examination Papers Compilation.pdf",
+    "path": "Exams/Bible Knowledge/JCE Bible Knowledge Past Examination Papers Compilation.pdf",
+    "size": 922110,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f5d1601458",
+    "level": "jce"
+  },
+  {
+    "name": "Loyola Jesuit Secondary School Form 1 Bible Knowledge Continuous Assessment.docx",
+    "path": "Exams/Bible Knowledge/Loyola Jesuit Secondary School Form 1 Bible Knowledge Continuous Assessment.docx",
+    "size": 58249,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f68c0bebc4",
+    "level": "jce"
+  },
+  {
+    "name": "MANEB MSCE Bible Knowledge Examination Papers Compilation.pdf",
+    "path": "Exams/Bible Knowledge/MANEB MSCE Bible Knowledge Examination Papers Compilation.pdf",
+    "size": 381368,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fa2e017bf6",
+    "level": "msce"
+  },
+  {
+    "name": "2024 SEED MSCE Bible Knowledge Paper I Marking Key.pdf",
+    "path": "Exams/Bible Knowledge/Marking Keys/2024 SEED MSCE Bible Knowledge Paper I Marking Key.pdf",
+    "size": 99617,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f4bff17556",
+    "level": "msce"
+  },
+  {
+    "name": "2024 SEED MSCE Bible Knowledge Paper II Marking Key.pdf",
+    "path": "Exams/Bible Knowledge/Marking Keys/2024 SEED MSCE Bible Knowledge Paper II Marking Key.pdf",
+    "size": 321564,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "ffedceace6",
+    "level": "msce"
+  },
+  {
+    "name": "2025 CWED MSCE Bible Knowledge Paper II Marking Key.docx",
+    "path": "Exams/Bible Knowledge/Marking Keys/2025 CWED MSCE Bible Knowledge Paper II Marking Key.docx",
+    "size": 21636,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fdc4627078",
+    "level": "msce"
+  },
+  {
+    "name": "2025 CWED MSCE Bible Knowledge Paper II Marking Key.pdf",
+    "path": "Exams/Bible Knowledge/Marking Keys/2025 CWED MSCE Bible Knowledge Paper II Marking Key.pdf",
+    "size": 250165,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f78f6a729e",
+    "level": "msce"
+  },
+  {
+    "name": "2026 CEED MSCE Bible Knowledge Paper I Provisional Marking Key.pdf",
+    "path": "Exams/Bible Knowledge/Marking Keys/2026 CEED MSCE Bible Knowledge Paper I Provisional Marking Key.pdf",
+    "size": 262086,
+    "repo": "e-library-media-4",
+    "bucket": 2,
+    "id": "f04acdfaad",
+    "level": "msce"
+  },
+  {
+    "name": "2026 CEED MSCE Bible Knowledge Paper II Provisional Marking Key.pdf",
+    "path": "Exams/Bible Knowledge/Marking Keys/2026 CEED MSCE Bible Knowledge Paper II Provisional Marking Key.pdf",
+    "size": 262086,
+    "repo": "e-library-media-5",
+    "bucket": 2,
+    "id": "f00db59081",
+    "level": "msce"
+  },
+  {
+    "name": "2026 JCE Bible Knowledge Marking Key.docx",
+    "path": "Exams/Bible Knowledge/Marking Keys/2026 JCE Bible Knowledge Marking Key.docx",
+    "size": 27795,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f00dffa10a",
+    "level": "jce"
+  },
+  {
+    "name": "2026 JCE Bible Knowledge Paper I Marking Key.docx",
+    "path": "Exams/Bible Knowledge/Marking Keys/2026 JCE Bible Knowledge Paper I Marking Key.docx",
+    "size": 20389,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fc91954df0",
+    "level": "jce"
+  },
+  {
+    "name": "2026 MSCE Bible Knowledge Paper I Marking Key.docx",
+    "path": "Exams/Bible Knowledge/Marking Keys/2026 MSCE Bible Knowledge Paper I Marking Key.docx",
+    "size": 12124,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fbac1cc316",
+    "level": "msce"
+  },
+  {
+    "name": "2026 MSCE Bible Knowledge Paper II Marking Key.docx",
+    "path": "Exams/Bible Knowledge/Marking Keys/2026 MSCE Bible Knowledge Paper II Marking Key.docx",
+    "size": 17069,
+    "repo": "e-library-media-3",
+    "bucket": 2,
+    "id": "f21a6214f2",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SEED MSCE Bible Knowledge Paper I Provisional Marking Key.doc",
+    "path": "Exams/Bible Knowledge/Marking Keys/2026 SEED MSCE Bible Knowledge Paper I Provisional Marking Key.doc",
+    "size": 29696,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fe7e669293",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SEED MSCE Bible Knowledge Paper II Marking Key.doc",
+    "path": "Exams/Bible Knowledge/Marking Keys/2026 SEED MSCE Bible Knowledge Paper II Marking Key.doc",
+    "size": 44544,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f37f891ab6",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED JCE Religious and Moral Education Marking Key.docx",
+    "path": "Exams/Bible Knowledge/Marking Keys/2026 SHED JCE Religious and Moral Education Marking Key.docx",
+    "size": 47090,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f3ded5430e",
+    "level": "jce"
+  },
+  {
+    "name": "2026 SHED JCE Religious and Moral Education Marking Key.pdf",
+    "path": "Exams/Bible Knowledge/Marking Keys/2026 SHED JCE Religious and Moral Education Marking Key.pdf",
+    "size": 231015,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fd417b719c",
+    "level": "jce"
+  },
+  {
+    "name": "2026 SHED MSCE Bible Knowledge Paper I Marking Key.docx",
+    "path": "Exams/Bible Knowledge/Marking Keys/2026 SHED MSCE Bible Knowledge Paper I Marking Key.docx",
+    "size": 38559,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f78971986e",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Bible Knowledge Paper I Marking Key.pdf",
+    "path": "Exams/Bible Knowledge/Marking Keys/2026 SHED MSCE Bible Knowledge Paper I Marking Key.pdf",
+    "size": 147172,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f2a9f96f70",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Bible Knowledge Paper II Marking Key.docx",
+    "path": "Exams/Bible Knowledge/Marking Keys/2026 SHED MSCE Bible Knowledge Paper II Marking Key.docx",
+    "size": 56104,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f4f6cc4b2d",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Bible Knowledge Paper II Marking Key.pdf",
+    "path": "Exams/Bible Knowledge/Marking Keys/2026 SHED MSCE Bible Knowledge Paper II Marking Key.pdf",
+    "size": 326448,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f352580fce",
+    "level": "msce"
+  },
+  {
+    "name": "Form 1 Bible Knowledge Marking Key.docx",
+    "path": "Exams/Bible Knowledge/Marking Keys/Form 1 Bible Knowledge Marking Key.docx",
+    "size": 28561,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f8185eba93",
+    "level": "jce"
+  },
+  {
+    "name": "Form 2 Bible Knowledge Marking Key.docx",
+    "path": "Exams/Bible Knowledge/Marking Keys/Form 2 Bible Knowledge Marking Key.docx",
+    "size": 18893,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fa64eb6d74",
+    "level": "jce"
+  },
+  {
+    "name": "Form 3 Bible Knowledge Marking Key.docx",
+    "path": "Exams/Bible Knowledge/Marking Keys/Form 3 Bible Knowledge Marking Key.docx",
+    "size": 25364,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f05502f5e9",
+    "level": "msce"
+  },
+  {
+    "name": "Form 4 Bible Knowledge Paper I Marking Key.docx",
+    "path": "Exams/Bible Knowledge/Marking Keys/Form 4 Bible Knowledge Paper I Marking Key.docx",
+    "size": 13011,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fefec030ca",
+    "level": "msce"
+  },
+  {
+    "name": "Form 4 Bible Knowledge Paper II Marking Key.docx",
+    "path": "Exams/Bible Knowledge/Marking Keys/Form 4 Bible Knowledge Paper II Marking Key.docx",
+    "size": 23944,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f226ae8b68",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Bible Knowledge Paper I Marking Key 2.pdf",
+    "path": "Exams/Bible Knowledge/Marking Keys/MSCE Bible Knowledge Paper I Marking Key 2.pdf",
+    "size": 384379,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f5b4c0e645",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Bible Knowledge Paper I Marking Key.docx",
+    "path": "Exams/Bible Knowledge/Marking Keys/MSCE Bible Knowledge Paper I Marking Key.docx",
+    "size": 15496,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fafdd18af7",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Bible Knowledge Paper II Marking Key.pdf",
+    "path": "Exams/Bible Knowledge/Marking Keys/MSCE Bible Knowledge Paper II Marking Key.pdf",
+    "size": 433258,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fd4400beb1",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Bible Knowledge Examination Revision.pdf",
+    "path": "Exams/Bible Knowledge/MSCE Bible Knowledge Examination Revision.pdf",
+    "size": 338012,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f58f9b8206",
+    "level": "msce"
   },
   {
     "name": "11-testing-for-protein.pdf",
@@ -12735,12 +12810,39 @@
     "id": "f778e19b1e"
   },
   {
-    "name": "2025 SWED MSCE Chichewa Paper II Mock Exam.pdf",
-    "path": "Exams/Chichewa/2025 SWED MSCE Chichewa Paper II Mock Exam.pdf",
-    "size": 650298,
+    "name": "2016 Kamuzu Barracks CDSS Form 1 Chichewa Paper II Exam.docx",
+    "path": "Exams/Chichewa/2016 Kamuzu Barracks CDSS Form 1 Chichewa Paper II Exam.docx",
+    "size": 23273,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f97f141e41",
+    "id": "f2f870fdc6",
+    "level": "jce"
+  },
+  {
+    "name": "2016 Kamuzu Barracks CDSS JCE Chichewa Paper I Mock Exam.docx",
+    "path": "Exams/Chichewa/2016 Kamuzu Barracks CDSS JCE Chichewa Paper I Mock Exam.docx",
+    "size": 25895,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f1373e57e3",
+    "level": "jce"
+  },
+  {
+    "name": "2016 Kamuzu Barracks CDSS JCE Chichewa Paper II Mock Exam.docx",
+    "path": "Exams/Chichewa/2016 Kamuzu Barracks CDSS JCE Chichewa Paper II Mock Exam.docx",
+    "size": 23068,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f8f1476242",
+    "level": "jce"
+  },
+  {
+    "name": "2016 Kamuzu Barracks CDSS MSCE Chichewa Paper II Mock Exam.docx",
+    "path": "Exams/Chichewa/2016 Kamuzu Barracks CDSS MSCE Chichewa Paper II Mock Exam.docx",
+    "size": 22593,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fdde5f3476",
     "level": "msce"
   },
   {
@@ -12753,12 +12855,75 @@
     "level": "msce"
   },
   {
+    "name": "2020 Madisi Secondary School MSCE Chichewa Paper III Mock Exam.pdf",
+    "path": "Exams/Chichewa/2020 Madisi Secondary School MSCE Chichewa Paper III Mock Exam.pdf",
+    "size": 117930,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f3d94a0212",
+    "level": "msce"
+  },
+  {
+    "name": "2020 St Marys Secondary School MSCE Chichewa Paper II Mock Exam.pdf",
+    "path": "Exams/Chichewa/2020 St Marys Secondary School MSCE Chichewa Paper II Mock Exam.pdf",
+    "size": 402119,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f2f61d5d46",
+    "level": "msce"
+  },
+  {
+    "name": "2021 HAC MSCE Chichewa Paper I Mock Exam.pdf",
+    "path": "Exams/Chichewa/2021 HAC MSCE Chichewa Paper I Mock Exam.pdf",
+    "size": 132586,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "ff41b0d775",
+    "level": "msce"
+  },
+  {
+    "name": "2021 HAC MSCE Chichewa Paper II Mock Exam.pdf",
+    "path": "Exams/Chichewa/2021 HAC MSCE Chichewa Paper II Mock Exam.pdf",
+    "size": 209028,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fc464d3dcc",
+    "level": "msce"
+  },
+  {
+    "name": "2021 HAC MSCE Chichewa Paper III Mock Exam.pdf",
+    "path": "Exams/Chichewa/2021 HAC MSCE Chichewa Paper III Mock Exam.pdf",
+    "size": 202708,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f59076164b",
+    "level": "msce"
+  },
+  {
     "name": "2021 LLGSCM MSCE Chichewa Paper I Mock Exam.pdf",
     "path": "Exams/Chichewa/2021 LLGSCM MSCE Chichewa Paper I Mock Exam.pdf",
     "size": 147402,
     "repo": "e-library-media-2",
     "bucket": 2,
     "id": "fbf5108269",
+    "level": "msce"
+  },
+  {
+    "name": "2021 Mulanje Cluster MSCE Chichewa Paper II Mock Exam.docx",
+    "path": "Exams/Chichewa/2021 Mulanje Cluster MSCE Chichewa Paper II Mock Exam.docx",
+    "size": 190232,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f5b9151363",
+    "level": "msce"
+  },
+  {
+    "name": "2021 Mulanje Cluster MSCE Chichewa Paper III Mock Exam.pdf",
+    "path": "Exams/Chichewa/2021 Mulanje Cluster MSCE Chichewa Paper III Mock Exam.pdf",
+    "size": 623717,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f7f457494f",
     "level": "msce"
   },
   {
@@ -12769,6 +12934,42 @@
     "bucket": 2,
     "id": "f8f03938ac",
     "level": "jce"
+  },
+  {
+    "name": "2022 Hill Crescent Secondary School MSCE Chichewa Paper I Mock Exam.pdf",
+    "path": "Exams/Chichewa/2022 Hill Crescent Secondary School MSCE Chichewa Paper I Mock Exam.pdf",
+    "size": 265276,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f61cf6f682",
+    "level": "msce"
+  },
+  {
+    "name": "2022 Hill Crescent Secondary School MSCE Chichewa Paper II Mock Exam.pdf",
+    "path": "Exams/Chichewa/2022 Hill Crescent Secondary School MSCE Chichewa Paper II Mock Exam.pdf",
+    "size": 309470,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f06429a6d0",
+    "level": "msce"
+  },
+  {
+    "name": "2022 Hill Crescent Secondary School MSCE Chichewa Paper III Mock Exam.pdf",
+    "path": "Exams/Chichewa/2022 Hill Crescent Secondary School MSCE Chichewa Paper III Mock Exam.pdf",
+    "size": 291518,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f4b3fcab0d",
+    "level": "msce"
+  },
+  {
+    "name": "2022 Machinga District MSCE Chichewa Paper II Mock Exam.docx",
+    "path": "Exams/Chichewa/2022 Machinga District MSCE Chichewa Paper II Mock Exam.docx",
+    "size": 35667,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fbb3f73c95",
+    "level": "msce"
   },
   {
     "name": "2022 MANEB JCE Chichewa Paper I.pdf",
@@ -12789,13 +12990,40 @@
     "level": "jce"
   },
   {
-    "name": "2024 MANEB MSCE Chichewa Paper III.pdf",
-    "path": "Exams/Chichewa/2024 MANEB MSCE Chichewa Paper III.pdf",
-    "size": 2451860,
-    "repo": "e-library-media-5",
+    "name": "2022 MSCE Chichewa Paper I Mock Exam.pdf",
+    "path": "Exams/Chichewa/2022 MSCE Chichewa Paper I Mock Exam.pdf",
+    "size": 445152,
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fcf5391678",
+    "id": "ff9be9a5c3",
     "level": "msce"
+  },
+  {
+    "name": "2022 Neno District MSCE Chichewa Paper I Mock Exam.pdf",
+    "path": "Exams/Chichewa/2022 Neno District MSCE Chichewa Paper I Mock Exam.pdf",
+    "size": 85863,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fdaf0b759c",
+    "level": "msce"
+  },
+  {
+    "name": "2023 SEED MSCE Chichewa Paper III Mock Exam.pdf",
+    "path": "Exams/Chichewa/2023 SEED MSCE Chichewa Paper III Mock Exam.pdf",
+    "size": 410231,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fd250f18ba",
+    "level": "msce"
+  },
+  {
+    "name": "2024 MANEB JCE Chichewa Paper II.pdf",
+    "path": "Exams/Chichewa/2024 MANEB JCE Chichewa Paper II.pdf",
+    "size": 4178562,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "ff7a5e4a30",
+    "level": "jce"
   },
   {
     "name": "2024 MANEB MSCE Chichewa Paper I.pdf",
@@ -12807,12 +13035,111 @@
     "level": "msce"
   },
   {
+    "name": "2024 MANEB MSCE Chichewa Paper III.pdf",
+    "path": "Exams/Chichewa/2024 MANEB MSCE Chichewa Paper III.pdf",
+    "size": 2451860,
+    "repo": "e-library-media-5",
+    "bucket": 2,
+    "id": "fcf5391678",
+    "level": "msce"
+  },
+  {
+    "name": "2024 SEED MSCE Chichewa Paper I Mock Exam.pdf",
+    "path": "Exams/Chichewa/2024 SEED MSCE Chichewa Paper I Mock Exam.pdf",
+    "size": 400801,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f0ad986197",
+    "level": "msce"
+  },
+  {
+    "name": "2024 SEED MSCE Chichewa Paper II Mock Exam.pdf",
+    "path": "Exams/Chichewa/2024 SEED MSCE Chichewa Paper II Mock Exam.pdf",
+    "size": 426090,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f9a7164c01",
+    "level": "msce"
+  },
+  {
+    "name": "2025 Chileka Secondary School MSCE Chichewa Paper I Mock Exam.doc",
+    "path": "Exams/Chichewa/2025 Chileka Secondary School MSCE Chichewa Paper I Mock Exam.doc",
+    "size": 60928,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f7dff8a49f",
+    "level": "msce"
+  },
+  {
+    "name": "2025 CWED MSCE Chichewa Paper I Mock Exam (Mafunso).pdf",
+    "path": "Exams/Chichewa/2025 CWED MSCE Chichewa Paper I Mock Exam (Mafunso).pdf",
+    "size": 598380,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f3f3ec8450",
+    "level": "msce"
+  },
+  {
+    "name": "2025 CWED MSCE Chichewa Paper II Mock Exam (Mafunso).pdf",
+    "path": "Exams/Chichewa/2025 CWED MSCE Chichewa Paper II Mock Exam (Mafunso).pdf",
+    "size": 791387,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f119b1a690",
+    "level": "msce"
+  },
+  {
+    "name": "2025 CWED MSCE Chichewa Paper III Mock Exam (Mafunso).pdf",
+    "path": "Exams/Chichewa/2025 CWED MSCE Chichewa Paper III Mock Exam (Mafunso).pdf",
+    "size": 628774,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f428447b9b",
+    "level": "msce"
+  },
+  {
+    "name": "2025 MANEB JCE Chichewa Paper I.pdf",
+    "path": "Exams/Chichewa/2025 MANEB JCE Chichewa Paper I.pdf",
+    "size": 1519907,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f5bc73e48f",
+    "level": "jce"
+  },
+  {
+    "name": "2025 MANEB JCE Chichewa Paper II.pdf",
+    "path": "Exams/Chichewa/2025 MANEB JCE Chichewa Paper II.pdf",
+    "size": 2571722,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fc52216055",
+    "level": "jce"
+  },
+  {
+    "name": "2025 Mangochi Catholic Diocese MSCE Chichewa Paper I Mock Exam.docx",
+    "path": "Exams/Chichewa/2025 Mangochi Catholic Diocese MSCE Chichewa Paper I Mock Exam.docx",
+    "size": 329822,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f6bde9b35b",
+    "level": "msce"
+  },
+  {
     "name": "2025 SEED MSCE Chichewa Paper I Mock Exam.doc",
     "path": "Exams/Chichewa/2025 SEED MSCE Chichewa Paper I Mock Exam.doc",
     "size": 66048,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "fe877731e6",
+    "level": "msce"
+  },
+  {
+    "name": "2025 SEED MSCE Chichewa Paper II Mock Exam.doc",
+    "path": "Exams/Chichewa/2025 SEED MSCE Chichewa Paper II Mock Exam.doc",
+    "size": 118272,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f1c5c47e6b",
     "level": "msce"
   },
   {
@@ -12870,31 +13197,58 @@
     "level": "msce"
   },
   {
-    "name": "2025 SEED MSCE Chichewa Paper II Mock Exam.doc",
-    "path": "Exams/Chichewa/2025 SEED MSCE Chichewa Paper II Mock Exam.doc",
-    "size": 118272,
-    "repo": "e-library-media",
+    "name": "2025 St Marys Secondary School MSCE Chichewa Paper I Post Mock Exam.pdf",
+    "path": "Exams/Chichewa/2025 St Marys Secondary School MSCE Chichewa Paper I Post Mock Exam.pdf",
+    "size": 316556,
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f1c5c47e6b",
+    "id": "fc664649f5",
     "level": "msce"
   },
   {
-    "name": "2026 SHED MSCE Chichewa Paper III Mock Exam.docx",
-    "path": "Exams/Chichewa/2026 SHED MSCE Chichewa Paper III Mock Exam.docx",
-    "size": 69250,
-    "repo": "e-library-media",
+    "name": "2025 St Marys Secondary School MSCE Chichewa Paper II Mock Exam.pdf",
+    "path": "Exams/Chichewa/2025 St Marys Secondary School MSCE Chichewa Paper II Mock Exam.pdf",
+    "size": 303204,
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fee731a9e7",
+    "id": "f5ca91529c",
     "level": "msce"
   },
   {
-    "name": "2026 SHED MSCE Chichewa Paper III Mock Exam.pdf",
-    "path": "Exams/Chichewa/2026 SHED MSCE Chichewa Paper III Mock Exam.pdf",
-    "size": 365247,
+    "name": "2025 St Marys Secondary School MSCE Chichewa Paper III Post Mock Exam.pdf",
+    "path": "Exams/Chichewa/2025 St Marys Secondary School MSCE Chichewa Paper III Post Mock Exam.pdf",
+    "size": 288385,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fc62c7c7e2",
+    "level": "msce"
+  },
+  {
+    "name": "2025 SWED MSCE Chichewa Paper II Mock Exam.pdf",
+    "path": "Exams/Chichewa/2025 SWED MSCE Chichewa Paper II Mock Exam.pdf",
+    "size": 650298,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f97f141e41",
+    "level": "msce"
+  },
+  {
+    "name": "2026 BSS Cluster JCE Chichewa Paper I Mock Exam.pdf",
+    "path": "Exams/Chichewa/2026 BSS Cluster JCE Chichewa Paper I Mock Exam.pdf",
+    "size": 749871,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fd3f788f68",
-    "level": "msce"
+    "id": "fd748c7ddb",
+    "level": "jce"
+  },
+  {
+    "name": "2026 BSS Cluster JCE Chichewa Paper II Mock Exam.pdf",
+    "path": "Exams/Chichewa/2026 BSS Cluster JCE Chichewa Paper II Mock Exam.pdf",
+    "size": 757665,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f2702cef0f",
+    "level": "jce"
   },
   {
     "name": "2026 Bumba Zone MSCE Chichewa Mock Exam.pdf",
@@ -12903,150 +13257,6 @@
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f8e89dec18",
-    "level": "msce"
-  },
-  {
-    "name": "2026 MANEB MSCE Chichewa Paper I.pdf",
-    "path": "Exams/Chichewa/2026 MANEB MSCE Chichewa Paper I.pdf",
-    "size": 885921,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe89f68170",
-    "level": "msce"
-  },
-  {
-    "name": "2026 MANEB MSCE Chichewa Paper II.pdf",
-    "path": "Exams/Chichewa/2026 MANEB MSCE Chichewa Paper II.pdf",
-    "size": 3548919,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f51c9ce3ef",
-    "level": "msce"
-  },
-  {
-    "name": "2026 MANEB MSCE Chichewa Paper III.pdf",
-    "path": "Exams/Chichewa/2026 MANEB MSCE Chichewa Paper III.pdf",
-    "size": 2325518,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f9ada3e4fe",
-    "level": "msce"
-  },
-  {
-    "name": "2026 MSCE Chichewa Mock Exam.docx",
-    "path": "Exams/Chichewa/2026 MSCE Chichewa Mock Exam.docx",
-    "size": 50561,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f1d0a47d89",
-    "level": "msce"
-  },
-  {
-    "name": "2026 Marist Secondary School MSCE Chichewa Paper II Mock Exam 2.pdf",
-    "path": "Exams/Chichewa/2026 Marist Secondary School MSCE Chichewa Paper II Mock Exam 2.pdf",
-    "size": 3620527,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "ffaf3cc87d",
-    "level": "msce"
-  },
-  {
-    "name": "2026 Marist Secondary School MSCE Chichewa Paper I Mock Exam 2.pdf",
-    "path": "Exams/Chichewa/2026 Marist Secondary School MSCE Chichewa Paper I Mock Exam 2.pdf",
-    "size": 2091608,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f596097b9d",
-    "level": "msce"
-  },
-  {
-    "name": "2026 Marist Secondary School MSCE Chichewa Paper III Mock Exam 3.pdf",
-    "path": "Exams/Chichewa/2026 Marist Secondary School MSCE Chichewa Paper III Mock Exam 3.pdf",
-    "size": 3584803,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f955354ece",
-    "level": "msce"
-  },
-  {
-    "name": "2026 Ngodzi Zone MSCE Chichewa Mock Exam.pdf",
-    "path": "Exams/Chichewa/2026 Ngodzi Zone MSCE Chichewa Mock Exam.pdf",
-    "size": 300175,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fa1307ca01",
-    "level": "msce"
-  },
-  {
-    "name": "2026 SHED MSCE Chichewa Paper I Mock Exam Marking Key.docx",
-    "path": "Exams/Chichewa/Marking Keys/2026 SHED MSCE Chichewa Paper I Mock Exam Marking Key.docx",
-    "size": 38588,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fddcf17697",
-    "level": "msce"
-  },
-  {
-    "name": "2026 SHED MSCE Chichewa Paper I Mock Exam Marking Key.pdf",
-    "path": "Exams/Chichewa/Marking Keys/2026 SHED MSCE Chichewa Paper I Mock Exam Marking Key.pdf",
-    "size": 117267,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe5bf80c0f",
-    "level": "msce"
-  },
-  {
-    "name": "2026 SHED MSCE Chichewa Paper I Mock Exam.docx",
-    "path": "Exams/Chichewa/2026 SHED MSCE Chichewa Paper I Mock Exam.docx",
-    "size": 53894,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fa9999f594",
-    "level": "msce"
-  },
-  {
-    "name": "2026 SHED MSCE Chichewa Paper I Mock Exam.pdf",
-    "path": "Exams/Chichewa/2026 SHED MSCE Chichewa Paper I Mock Exam.pdf",
-    "size": 232571,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f33c319bc8",
-    "level": "msce"
-  },
-  {
-    "name": "2026 SHED MSCE Chichewa Paper II Mock Exam Marking Key.docx",
-    "path": "Exams/Chichewa/Marking Keys/2026 SHED MSCE Chichewa Paper II Mock Exam Marking Key.docx",
-    "size": 50791,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f447a7ae5b",
-    "level": "msce"
-  },
-  {
-    "name": "2026 SHED MSCE Chichewa Paper II Mock Exam Marking Key.pdf",
-    "path": "Exams/Chichewa/Marking Keys/2026 SHED MSCE Chichewa Paper II Mock Exam Marking Key.pdf",
-    "size": 207700,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5a4c80c49",
-    "level": "msce"
-  },
-  {
-    "name": "2026 SHED MSCE Chichewa Paper II Mock Exam.docx",
-    "path": "Exams/Chichewa/2026 SHED MSCE Chichewa Paper II Mock Exam.docx",
-    "size": 64474,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "faafdd2c56",
-    "level": "msce"
-  },
-  {
-    "name": "2026 SHED MSCE Chichewa Paper II Mock Exam.pdf",
-    "path": "Exams/Chichewa/2026 SHED MSCE Chichewa Paper II Mock Exam.pdf",
-    "size": 229163,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "ff3e8a801b",
     "level": "msce"
   },
   {
@@ -13077,6 +13287,258 @@
     "level": "msce"
   },
   {
+    "name": "2026 Loyola Jesuit Secondary School JCE Chichewa Mock Exams.docx",
+    "path": "Exams/Chichewa/2026 Loyola Jesuit Secondary School JCE Chichewa Mock Exams.docx",
+    "size": 24222,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f2e442f2d8",
+    "level": "jce"
+  },
+  {
+    "name": "2026 Loyola Jesuit Secondary School JCE Chichewa Paper I Mock Exam.docx",
+    "path": "Exams/Chichewa/2026 Loyola Jesuit Secondary School JCE Chichewa Paper I Mock Exam.docx",
+    "size": 35450,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f5e0ce144a",
+    "level": "jce"
+  },
+  {
+    "name": "2026 Loyola Jesuit Secondary School JCE Chichewa Paper II Mock Exam.docx",
+    "path": "Exams/Chichewa/2026 Loyola Jesuit Secondary School JCE Chichewa Paper II Mock Exam.docx",
+    "size": 40121,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "feeb2b329f",
+    "level": "jce"
+  },
+  {
+    "name": "2026 MANEB MSCE Chichewa Paper I.pdf",
+    "path": "Exams/Chichewa/2026 MANEB MSCE Chichewa Paper I.pdf",
+    "size": 885921,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fe89f68170",
+    "level": "msce"
+  },
+  {
+    "name": "2026 MANEB MSCE Chichewa Paper II.pdf",
+    "path": "Exams/Chichewa/2026 MANEB MSCE Chichewa Paper II.pdf",
+    "size": 3548919,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f51c9ce3ef",
+    "level": "msce"
+  },
+  {
+    "name": "2026 MANEB MSCE Chichewa Paper III.pdf",
+    "path": "Exams/Chichewa/2026 MANEB MSCE Chichewa Paper III.pdf",
+    "size": 2325518,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f9ada3e4fe",
+    "level": "msce"
+  },
+  {
+    "name": "2026 Marist Secondary School MSCE Chichewa Paper I Mock Exam 2.pdf",
+    "path": "Exams/Chichewa/2026 Marist Secondary School MSCE Chichewa Paper I Mock Exam 2.pdf",
+    "size": 2091608,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f596097b9d",
+    "level": "msce"
+  },
+  {
+    "name": "2026 Marist Secondary School MSCE Chichewa Paper II Mock Exam 2.pdf",
+    "path": "Exams/Chichewa/2026 Marist Secondary School MSCE Chichewa Paper II Mock Exam 2.pdf",
+    "size": 3620527,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "ffaf3cc87d",
+    "level": "msce"
+  },
+  {
+    "name": "2026 Marist Secondary School MSCE Chichewa Paper III Mock Exam 3.pdf",
+    "path": "Exams/Chichewa/2026 Marist Secondary School MSCE Chichewa Paper III Mock Exam 3.pdf",
+    "size": 3584803,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f955354ece",
+    "level": "msce"
+  },
+  {
+    "name": "2026 MSCE Chichewa Mock Exam.docx",
+    "path": "Exams/Chichewa/2026 MSCE Chichewa Mock Exam.docx",
+    "size": 50561,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f1d0a47d89",
+    "level": "msce"
+  },
+  {
+    "name": "2026 MSCE Chichewa Paper II Mock Exam.docx",
+    "path": "Exams/Chichewa/2026 MSCE Chichewa Paper II Mock Exam.docx",
+    "size": 60692,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fc8ad4ad36",
+    "level": "msce"
+  },
+  {
+    "name": "2026 Ngodzi Zone MSCE Chichewa Mock Exam.pdf",
+    "path": "Exams/Chichewa/2026 Ngodzi Zone MSCE Chichewa Mock Exam.pdf",
+    "size": 300175,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fa1307ca01",
+    "level": "msce"
+  },
+  {
+    "name": "2026 Northern Education Division MSCE Chichewa Paper I Mock Exam.docx",
+    "path": "Exams/Chichewa/2026 Northern Education Division MSCE Chichewa Paper I Mock Exam.docx",
+    "size": 87599,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f467696dcb",
+    "level": "msce"
+  },
+  {
+    "name": "2026 Northern Education Division MSCE Chichewa Paper II Mock Exam.docx",
+    "path": "Exams/Chichewa/2026 Northern Education Division MSCE Chichewa Paper II Mock Exam.docx",
+    "size": 95100,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fa62b36ed6",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SEED MSCE Chichewa Paper I Mock Exam.doc",
+    "path": "Exams/Chichewa/2026 SEED MSCE Chichewa Paper I Mock Exam.doc",
+    "size": 96256,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f90ec04cb0",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SEED MSCE Chichewa Paper II Mock Exam.doc",
+    "path": "Exams/Chichewa/2026 SEED MSCE Chichewa Paper II Mock Exam.doc",
+    "size": 125952,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fdbde6b020",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SEED MSCE Chichewa Paper III Mock Exam.doc",
+    "path": "Exams/Chichewa/2026 SEED MSCE Chichewa Paper III Mock Exam.doc",
+    "size": 303104,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f4718b70e4",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Chichewa Paper I Mock Exam (Braille).docx",
+    "path": "Exams/Chichewa/2026 SHED MSCE Chichewa Paper I Mock Exam (Braille).docx",
+    "size": 29389,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f56585904f",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Chichewa Paper I Mock Exam (Hearing Impaired).docx",
+    "path": "Exams/Chichewa/2026 SHED MSCE Chichewa Paper I Mock Exam (Hearing Impaired).docx",
+    "size": 53443,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fadec66f73",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Chichewa Paper I Mock Exam (Locomotor).docx",
+    "path": "Exams/Chichewa/2026 SHED MSCE Chichewa Paper I Mock Exam (Locomotor).docx",
+    "size": 53316,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fe88afccd3",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Chichewa Paper I Mock Exam.docx",
+    "path": "Exams/Chichewa/2026 SHED MSCE Chichewa Paper I Mock Exam.docx",
+    "size": 53894,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fa9999f594",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Chichewa Paper I Mock Exam.pdf",
+    "path": "Exams/Chichewa/2026 SHED MSCE Chichewa Paper I Mock Exam.pdf",
+    "size": 232571,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f33c319bc8",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Chichewa Paper II Mock Exam (Braille).docx",
+    "path": "Exams/Chichewa/2026 SHED MSCE Chichewa Paper II Mock Exam (Braille).docx",
+    "size": 58574,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f3d3c87d01",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Chichewa Paper II Mock Exam.docx",
+    "path": "Exams/Chichewa/2026 SHED MSCE Chichewa Paper II Mock Exam.docx",
+    "size": 64474,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "faafdd2c56",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Chichewa Paper II Mock Exam.pdf",
+    "path": "Exams/Chichewa/2026 SHED MSCE Chichewa Paper II Mock Exam.pdf",
+    "size": 229163,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "ff3e8a801b",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Chichewa Paper III Mock Exam.docx",
+    "path": "Exams/Chichewa/2026 SHED MSCE Chichewa Paper III Mock Exam.docx",
+    "size": 69250,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fee731a9e7",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Chichewa Paper III Mock Exam.pdf",
+    "path": "Exams/Chichewa/2026 SHED MSCE Chichewa Paper III Mock Exam.pdf",
+    "size": 365247,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fd3f788f68",
+    "level": "msce"
+  },
+  {
+    "name": "2026 Shire Highlands Education Division MSCE Chichewa Paper II Mock Exam.docx",
+    "path": "Exams/Chichewa/2026 Shire Highlands Education Division MSCE Chichewa Paper II Mock Exam.docx",
+    "size": 60753,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f34b8a0344",
+    "level": "msce"
+  },
+  {
     "name": "Chachimuna ndi Chachikazi MSCE Chichewa Mock Exam.pdf",
     "path": "Exams/Chichewa/Chachimuna ndi Chachikazi MSCE Chichewa Mock Exam.pdf",
     "size": 63013,
@@ -13086,12 +13548,57 @@
     "level": "msce"
   },
   {
+    "name": "CWED MSCE Chichewa Paper I Mock Exam.docx",
+    "path": "Exams/Chichewa/CWED MSCE Chichewa Paper I Mock Exam.docx",
+    "size": 49810,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f6a24b1430",
+    "level": "msce"
+  },
+  {
+    "name": "CWED MSCE Chichewa Paper II Mock Exam.docx",
+    "path": "Exams/Chichewa/CWED MSCE Chichewa Paper II Mock Exam.docx",
+    "size": 56091,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f358d8a58e",
+    "level": "msce"
+  },
+  {
+    "name": "CWED MSCE Chichewa Paper III Mock Exam.docx",
+    "path": "Exams/Chichewa/CWED MSCE Chichewa Paper III Mock Exam.docx",
+    "size": 57092,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fbff44f74c",
+    "level": "msce"
+  },
+  {
+    "name": "Form 1 Chichewa Paper I Exam 2.pdf",
+    "path": "Exams/Chichewa/Form 1 Chichewa Paper I Exam 2.pdf",
+    "size": 1742220,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f163fd1cbb",
+    "level": "jce"
+  },
+  {
     "name": "Form 1 Chichewa Paper I Exam.docx",
     "path": "Exams/Chichewa/Form 1 Chichewa Paper I Exam.docx",
     "size": 33137,
     "repo": "e-library-media",
     "bucket": 2,
     "id": "ff54d128d6",
+    "level": "jce"
+  },
+  {
+    "name": "Form 1 Chichewa Paper II Exam 2.pdf",
+    "path": "Exams/Chichewa/Form 1 Chichewa Paper II Exam 2.pdf",
+    "size": 2431024,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f9dee229d5",
     "level": "jce"
   },
   {
@@ -13176,256 +13683,13 @@
     "level": "msce"
   },
   {
-    "name": "2026 Loyola Jesuit Secondary School JCE Chichewa Paper II Mock Exam.docx",
-    "path": "Exams/Chichewa/2026 Loyola Jesuit Secondary School JCE Chichewa Paper II Mock Exam.docx",
-    "size": 40121,
+    "name": "JCE Chichewa Paper I.pdf",
+    "path": "Exams/Chichewa/JCE Chichewa Paper I.pdf",
+    "size": 539929,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "feeb2b329f",
+    "id": "fe27d19ab8",
     "level": "jce"
-  },
-  {
-    "name": "MANEB MSCE Chichewa Past Examination Papers Compilation 2.pdf",
-    "path": "Exams/Chichewa/MANEB MSCE Chichewa Past Examination Papers Compilation 2.pdf",
-    "size": 70285992,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f77df9f58c",
-    "level": "msce"
-  },
-  {
-    "name": "Form 1 Chichewa Paper I Exam 2.pdf",
-    "path": "Exams/Chichewa/Form 1 Chichewa Paper I Exam 2.pdf",
-    "size": 1742220,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f163fd1cbb",
-    "level": "jce"
-  },
-  {
-    "name": "Form 1 Chichewa Paper II Exam 2.pdf",
-    "path": "Exams/Chichewa/Form 1 Chichewa Paper II Exam 2.pdf",
-    "size": 2431024,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f9dee229d5",
-    "level": "jce"
-  },
-  {
-    "name": "2024 SEED MSCE Chichewa Paper I Mock Exam.pdf",
-    "path": "Exams/Chichewa/2024 SEED MSCE Chichewa Paper I Mock Exam.pdf",
-    "size": 400801,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f0ad986197",
-    "level": "msce"
-  },
-  {
-    "name": "2026 SEED MSCE Chichewa Paper I Mock Exam.doc",
-    "path": "Exams/Chichewa/2026 SEED MSCE Chichewa Paper I Mock Exam.doc",
-    "size": 96256,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f90ec04cb0",
-    "level": "msce"
-  },
-  {
-    "name": "CWED MSCE Chichewa Paper I Mock Exam.docx",
-    "path": "Exams/Chichewa/CWED MSCE Chichewa Paper I Mock Exam.docx",
-    "size": 49810,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f6a24b1430",
-    "level": "msce"
-  },
-  {
-    "name": "2024 SEED MSCE Chichewa Paper II Mock Exam.pdf",
-    "path": "Exams/Chichewa/2024 SEED MSCE Chichewa Paper II Mock Exam.pdf",
-    "size": 426090,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f9a7164c01",
-    "level": "msce"
-  },
-  {
-    "name": "2026 SEED MSCE Chichewa Paper II Mock Exam.doc",
-    "path": "Exams/Chichewa/2026 SEED MSCE Chichewa Paper II Mock Exam.doc",
-    "size": 125952,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fdbde6b020",
-    "level": "msce"
-  },
-  {
-    "name": "CWED MSCE Chichewa Paper II Mock Exam.docx",
-    "path": "Exams/Chichewa/CWED MSCE Chichewa Paper II Mock Exam.docx",
-    "size": 56091,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f358d8a58e",
-    "level": "msce"
-  },
-  {
-    "name": "2023 SEED MSCE Chichewa Paper III Mock Exam.pdf",
-    "path": "Exams/Chichewa/2023 SEED MSCE Chichewa Paper III Mock Exam.pdf",
-    "size": 410231,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fd250f18ba",
-    "level": "msce"
-  },
-  {
-    "name": "2026 SEED MSCE Chichewa Paper III Mock Exam Marking Key.doc",
-    "path": "Exams/Chichewa/Marking Keys/2026 SEED MSCE Chichewa Paper III Mock Exam Marking Key.doc",
-    "size": 80896,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f1b0a89ab8",
-    "level": "msce"
-  },
-  {
-    "name": "2026 SEED MSCE Chichewa Paper III Mock Exam.doc",
-    "path": "Exams/Chichewa/2026 SEED MSCE Chichewa Paper III Mock Exam.doc",
-    "size": 303104,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f4718b70e4",
-    "level": "msce"
-  },
-  {
-    "name": "CWED MSCE Chichewa Paper III Mock Exam.docx",
-    "path": "Exams/Chichewa/CWED MSCE Chichewa Paper III Mock Exam.docx",
-    "size": 57092,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fbff44f74c",
-    "level": "msce"
-  },
-  {
-    "name": "MSCE Chichewa Paper I Mock Exam.docx",
-    "path": "Exams/Chichewa/MSCE Chichewa Paper I Mock Exam.docx",
-    "size": 14314,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "ffc32ccd51",
-    "level": "msce"
-  },
-  {
-    "name": "2026 MSCE Chichewa Paper II Mock Exam.docx",
-    "path": "Exams/Chichewa/2026 MSCE Chichewa Paper II Mock Exam.docx",
-    "size": 60692,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fc8ad4ad36",
-    "level": "msce"
-  },
-  {
-    "name": "MSCE Chichewa Paper III Mock Exam.docx",
-    "path": "Exams/Chichewa/MSCE Chichewa Paper III Mock Exam.docx",
-    "size": 29505,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f114f59c92",
-    "level": "msce"
-  },
-  {
-    "name": "2026 BSS Cluster JCE Chichewa Paper I Mock Exam.pdf",
-    "path": "Exams/Chichewa/2026 BSS Cluster JCE Chichewa Paper I Mock Exam.pdf",
-    "size": 749871,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fd748c7ddb",
-    "level": "jce"
-  },
-  {
-    "name": "2026 BSS Cluster JCE Chichewa Paper II Mock Exam.pdf",
-    "path": "Exams/Chichewa/2026 BSS Cluster JCE Chichewa Paper II Mock Exam.pdf",
-    "size": 757665,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f2702cef0f",
-    "level": "jce"
-  },
-  {
-    "name": "MSCE Chichewa Paper I Mock Exam.pdf",
-    "path": "Exams/Chichewa/MSCE Chichewa Paper I Mock Exam.pdf",
-    "size": 522695,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "fb12fa3595",
-    "level": "msce"
-  },
-  {
-    "name": "2026 Northern Education Division MSCE Chichewa Paper I Mock Exam.docx",
-    "path": "Exams/Chichewa/2026 Northern Education Division MSCE Chichewa Paper I Mock Exam.docx",
-    "size": 87599,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f467696dcb",
-    "level": "msce"
-  },
-  {
-    "name": "2025 Mangochi Catholic Diocese MSCE Chichewa Paper I Mock Exam.docx",
-    "path": "Exams/Chichewa/2025 Mangochi Catholic Diocese MSCE Chichewa Paper I Mock Exam.docx",
-    "size": 329822,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f6bde9b35b",
-    "level": "msce"
-  },
-  {
-    "name": "MSCE Chichewa Paper II Mock Exam.pdf",
-    "path": "Exams/Chichewa/MSCE Chichewa Paper II Mock Exam.pdf",
-    "size": 400385,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f61a54fcd6",
-    "level": "msce"
-  },
-  {
-    "name": "2021 Mulanje Cluster MSCE Chichewa Paper II Mock Exam.docx",
-    "path": "Exams/Chichewa/2021 Mulanje Cluster MSCE Chichewa Paper II Mock Exam.docx",
-    "size": 190232,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5b9151363",
-    "level": "msce"
-  },
-  {
-    "name": "MSCE Chichewa Paper III Mock Exam.pdf",
-    "path": "Exams/Chichewa/MSCE Chichewa Paper III Mock Exam.pdf",
-    "size": 383400,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "fc9d1c1482",
-    "level": "msce"
-  },
-  {
-    "name": "MSCE Chichewa Paper III Mock Exam 2.docx",
-    "path": "Exams/Chichewa/MSCE Chichewa Paper III Mock Exam 2.docx",
-    "size": 334944,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe1c41d9e9",
-    "level": "msce"
-  },
-  {
-    "name": "2026 Loyola Jesuit Secondary School JCE Chichewa Paper I Mock Exam.docx",
-    "path": "Exams/Chichewa/2026 Loyola Jesuit Secondary School JCE Chichewa Paper I Mock Exam.docx",
-    "size": 35450,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5e0ce144a",
-    "level": "jce"
-  },
-  {
-    "name": "MSCE Chichewa Paper I Mock Exam 2.docx",
-    "path": "Exams/Chichewa/MSCE Chichewa Paper I Mock Exam 2.docx",
-    "size": 59768,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f0c719635b",
-    "level": "msce"
   },
   {
     "name": "JCE Chichewa Paper II Mock Exam.pdf",
@@ -13437,183 +13701,12 @@
     "level": "jce"
   },
   {
-    "name": "2026 Northern Education Division MSCE Chichewa Paper II Mock Exam.docx",
-    "path": "Exams/Chichewa/2026 Northern Education Division MSCE Chichewa Paper II Mock Exam.docx",
-    "size": 95100,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fa62b36ed6",
-    "level": "msce"
-  },
-  {
-    "name": "MSCE Chichewa Paper II Mock Exam 2.docx",
-    "path": "Exams/Chichewa/MSCE Chichewa Paper II Mock Exam 2.docx",
-    "size": 42194,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f6edd2b598",
-    "level": "msce"
-  },
-  {
-    "name": "MSCE Chichewa Paper III Mock Exam 3.docx",
-    "path": "Exams/Chichewa/MSCE Chichewa Paper III Mock Exam 3.docx",
-    "size": 95964,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fcc9d99855",
-    "level": "msce"
-  },
-  {
-    "name": "2022 MSCE Chichewa Paper I Mock Exam.pdf",
-    "path": "Exams/Chichewa/2022 MSCE Chichewa Paper I Mock Exam.pdf",
-    "size": 445152,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "ff9be9a5c3",
-    "level": "msce"
-  },
-  {
-    "name": "2021 HAC MSCE Chichewa Paper I Mock Exam.pdf",
-    "path": "Exams/Chichewa/2021 HAC MSCE Chichewa Paper I Mock Exam.pdf",
-    "size": 132586,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "ff41b0d775",
-    "level": "msce"
-  },
-  {
-    "name": "2021 HAC MSCE Chichewa Paper II Mock Exam.pdf",
-    "path": "Exams/Chichewa/2021 HAC MSCE Chichewa Paper II Mock Exam.pdf",
-    "size": 209028,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "fc464d3dcc",
-    "level": "msce"
-  },
-  {
-    "name": "2024 MANEB JCE Chichewa Paper II.pdf",
-    "path": "Exams/Chichewa/2024 MANEB JCE Chichewa Paper II.pdf",
-    "size": 4178562,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "ff7a5e4a30",
-    "level": "jce"
-  },
-  {
-    "name": "2020 St Marys Secondary School MSCE Chichewa Paper II Mock Exam.pdf",
-    "path": "Exams/Chichewa/2020 St Marys Secondary School MSCE Chichewa Paper II Mock Exam.pdf",
-    "size": 402119,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f2f61d5d46",
-    "level": "msce"
-  },
-  {
-    "name": "2021 HAC MSCE Chichewa Paper III Mock Exam.pdf",
-    "path": "Exams/Chichewa/2021 HAC MSCE Chichewa Paper III Mock Exam.pdf",
-    "size": 202708,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f59076164b",
-    "level": "msce"
-  },
-  {
-    "name": "2025 Chileka Secondary School MSCE Chichewa Paper I Mock Exam.doc",
-    "path": "Exams/Chichewa/2025 Chileka Secondary School MSCE Chichewa Paper I Mock Exam.doc",
-    "size": 60928,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f7dff8a49f",
-    "level": "msce"
-  },
-  {
-    "name": "2022 Neno District MSCE Chichewa Paper I Mock Exam.pdf",
-    "path": "Exams/Chichewa/2022 Neno District MSCE Chichewa Paper I Mock Exam.pdf",
-    "size": 85863,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "fdaf0b759c",
-    "level": "msce"
-  },
-  {
-    "name": "MSCE Chichewa Mock Exam (Girls Paper).pdf",
-    "path": "Exams/Chichewa/MSCE Chichewa Mock Exam (Girls Paper).pdf",
-    "size": 239716,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f17f3ebc0e",
-    "level": "msce"
-  },
-  {
-    "name": "2022 Hill Crescent Secondary School MSCE Chichewa Paper I Mock Exam.pdf",
-    "path": "Exams/Chichewa/2022 Hill Crescent Secondary School MSCE Chichewa Paper I Mock Exam.pdf",
-    "size": 265276,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f61cf6f682",
-    "level": "msce"
-  },
-  {
-    "name": "2022 Hill Crescent Secondary School MSCE Chichewa Paper II Mock Exam.pdf",
-    "path": "Exams/Chichewa/2022 Hill Crescent Secondary School MSCE Chichewa Paper II Mock Exam.pdf",
-    "size": 309470,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f06429a6d0",
-    "level": "msce"
-  },
-  {
-    "name": "2022 Hill Crescent Secondary School MSCE Chichewa Paper III Mock Exam.pdf",
-    "path": "Exams/Chichewa/2022 Hill Crescent Secondary School MSCE Chichewa Paper III Mock Exam.pdf",
-    "size": 291518,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f4b3fcab0d",
-    "level": "msce"
-  },
-  {
     "name": "JCE Chichewa Paper II Sample Exam.pdf",
     "path": "Exams/Chichewa/JCE Chichewa Paper II Sample Exam.pdf",
     "size": 735853,
     "repo": "e-library-media-2",
     "bucket": 2,
     "id": "f13b47b8ad",
-    "level": "jce"
-  },
-  {
-    "name": "2025 MANEB JCE Chichewa Paper I.pdf",
-    "path": "Exams/Chichewa/2025 MANEB JCE Chichewa Paper I.pdf",
-    "size": 1519907,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5bc73e48f",
-    "level": "jce"
-  },
-  {
-    "name": "2025 MANEB JCE Chichewa Paper II.pdf",
-    "path": "Exams/Chichewa/2025 MANEB JCE Chichewa Paper II.pdf",
-    "size": 2571722,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fc52216055",
-    "level": "jce"
-  },
-  {
-    "name": "MANEB JCE Chichewa Past Examination Papers Compilation.pdf",
-    "path": "Exams/Chichewa/MANEB JCE Chichewa Past Examination Papers Compilation.pdf",
-    "size": 30118399,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f3c0acb3be",
-    "level": "jce"
-  },
-  {
-    "name": "JCE Chichewa Paper I.pdf",
-    "path": "Exams/Chichewa/JCE Chichewa Paper I.pdf",
-    "size": 539929,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe27d19ab8",
     "level": "jce"
   },
   {
@@ -13626,66 +13719,21 @@
     "level": "jce"
   },
   {
-    "name": "2016 Kamuzu Barracks CDSS Form 1 Chichewa Paper II Exam.docx",
-    "path": "Exams/Chichewa/2016 Kamuzu Barracks CDSS Form 1 Chichewa Paper II Exam.docx",
-    "size": 23273,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f2f870fdc6",
-    "level": "jce"
-  },
-  {
-    "name": "2016 Kamuzu Barracks CDSS JCE Chichewa Paper I Mock Exam.docx",
-    "path": "Exams/Chichewa/2016 Kamuzu Barracks CDSS JCE Chichewa Paper I Mock Exam.docx",
-    "size": 25895,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f1373e57e3",
-    "level": "jce"
-  },
-  {
-    "name": "2016 Kamuzu Barracks CDSS JCE Chichewa Paper II Mock Exam.docx",
-    "path": "Exams/Chichewa/2016 Kamuzu Barracks CDSS JCE Chichewa Paper II Mock Exam.docx",
-    "size": 23068,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f8f1476242",
-    "level": "jce"
-  },
-  {
-    "name": "2016 Kamuzu Barracks CDSS MSCE Chichewa Paper II Mock Exam.docx",
-    "path": "Exams/Chichewa/2016 Kamuzu Barracks CDSS MSCE Chichewa Paper II Mock Exam.docx",
-    "size": 22593,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "fdde5f3476",
-    "level": "msce"
-  },
-  {
-    "name": "2026 Loyola Jesuit Secondary School JCE Chichewa Mock Exams.docx",
-    "path": "Exams/Chichewa/2026 Loyola Jesuit Secondary School JCE Chichewa Mock Exams.docx",
-    "size": 24222,
+    "name": "MANEB JCE Chichewa Past Examination Papers Compilation.pdf",
+    "path": "Exams/Chichewa/MANEB JCE Chichewa Past Examination Papers Compilation.pdf",
+    "size": 30118399,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f2e442f2d8",
+    "id": "f3c0acb3be",
     "level": "jce"
   },
   {
-    "name": "2022 Machinga District MSCE Chichewa Paper II Mock Exam.docx",
-    "path": "Exams/Chichewa/2022 Machinga District MSCE Chichewa Paper II Mock Exam.docx",
-    "size": 35667,
-    "repo": "e-library-media-2",
+    "name": "MANEB MSCE Chichewa Past Examination Papers Compilation 2.pdf",
+    "path": "Exams/Chichewa/MANEB MSCE Chichewa Past Examination Papers Compilation 2.pdf",
+    "size": 70285992,
+    "repo": "e-library-media",
     "bucket": 2,
-    "id": "fbb3f73c95",
-    "level": "msce"
-  },
-  {
-    "name": "2020 Madisi Secondary School MSCE Chichewa Paper III Mock Exam.pdf",
-    "path": "Exams/Chichewa/2020 Madisi Secondary School MSCE Chichewa Paper III Mock Exam.pdf",
-    "size": 117930,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f3d94a0212",
+    "id": "f77df9f58c",
     "level": "msce"
   },
   {
@@ -13698,22 +13746,49 @@
     "level": "msce"
   },
   {
-    "name": "2026 SHED MSCE Chichewa Paper III Mock Exam Marking Key.docx",
-    "path": "Exams/Chichewa/Marking Keys/2026 SHED MSCE Chichewa Paper III Mock Exam Marking Key.docx",
-    "size": 56861,
-    "repo": "e-library-media-2",
+    "name": "2024 SEED MSCE Chichewa Paper I Mock Exam Marking Key.pdf",
+    "path": "Exams/Chichewa/Marking Keys/2024 SEED MSCE Chichewa Paper I Mock Exam Marking Key.pdf",
+    "size": 230671,
+    "repo": "e-library-media",
     "bucket": 2,
-    "id": "fb06209b8d",
+    "id": "fb36c3a679",
     "level": "msce"
   },
   {
-    "name": "2026 SHED MSCE Chichewa Paper III Mock Exam Marking Key.pdf",
-    "path": "Exams/Chichewa/Marking Keys/2026 SHED MSCE Chichewa Paper III Mock Exam Marking Key.pdf",
-    "size": 276856,
-    "repo": "e-library-media-3",
+    "name": "2024 SEED MSCE Chichewa Paper II Mock Exam Marking Key.pdf",
+    "path": "Exams/Chichewa/Marking Keys/2024 SEED MSCE Chichewa Paper II Mock Exam Marking Key.pdf",
+    "size": 215844,
+    "repo": "e-library-media",
     "bucket": 2,
-    "id": "f7c37779b3",
+    "id": "f927ea7e01",
     "level": "msce"
+  },
+  {
+    "name": "2024 SEED MSCE Chichewa Paper III Mock Exam Marking Key.pdf",
+    "path": "Exams/Chichewa/Marking Keys/2024 SEED MSCE Chichewa Paper III Mock Exam Marking Key.pdf",
+    "size": 135748,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fe55e4f1b8",
+    "level": "msce"
+  },
+  {
+    "name": "2026 BSS Cluster JCE Chichewa Paper I Mock Exam Marking Key.docx",
+    "path": "Exams/Chichewa/Marking Keys/2026 BSS Cluster JCE Chichewa Paper I Mock Exam Marking Key.docx",
+    "size": 24657,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f0322d83cd",
+    "level": "jce"
+  },
+  {
+    "name": "2026 BSS Cluster JCE Chichewa Paper II Mock Exam Marking Key.docx",
+    "path": "Exams/Chichewa/Marking Keys/2026 BSS Cluster JCE Chichewa Paper II Mock Exam Marking Key.docx",
+    "size": 20131,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f0e624c2f9",
+    "level": "jce"
   },
   {
     "name": "2026 CEED MSCE Chichewa Paper I Provisional Marking Key.pdf",
@@ -13743,22 +13818,103 @@
     "level": "msce"
   },
   {
-    "name": "2026 BSS Cluster JCE Chichewa Paper II Mock Exam Marking Key.docx",
-    "path": "Exams/Chichewa/Marking Keys/2026 BSS Cluster JCE Chichewa Paper II Mock Exam Marking Key.docx",
-    "size": 20131,
+    "name": "2026 Loyola Jesuit Secondary School JCE Chichewa Mock Exams Marking Key.docx",
+    "path": "Exams/Chichewa/Marking Keys/2026 Loyola Jesuit Secondary School JCE Chichewa Mock Exams Marking Key.docx",
+    "size": 25541,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f0e624c2f9",
+    "id": "fa602fbd7d",
     "level": "jce"
   },
   {
-    "name": "2026 BSS Cluster JCE Chichewa Paper I Mock Exam Marking Key.docx",
-    "path": "Exams/Chichewa/Marking Keys/2026 BSS Cluster JCE Chichewa Paper I Mock Exam Marking Key.docx",
-    "size": 24657,
+    "name": "2026 MSCE Chichewa Paper II Mock Exam Marking Key.docx",
+    "path": "Exams/Chichewa/Marking Keys/2026 MSCE Chichewa Paper II Mock Exam Marking Key.docx",
+    "size": 24567,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f0322d83cd",
-    "level": "jce"
+    "id": "f2b758202f",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SEED MSCE Chichewa Paper I Mock Exam Provisional Marking Key.doc",
+    "path": "Exams/Chichewa/Marking Keys/2026 SEED MSCE Chichewa Paper I Mock Exam Provisional Marking Key.doc",
+    "size": 34304,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fbea3df18e",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SEED MSCE Chichewa Paper II Mock Exam Provisional Marking Key.doc",
+    "path": "Exams/Chichewa/Marking Keys/2026 SEED MSCE Chichewa Paper II Mock Exam Provisional Marking Key.doc",
+    "size": 40960,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f381f3105b",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SEED MSCE Chichewa Paper III Mock Exam Marking Key.doc",
+    "path": "Exams/Chichewa/Marking Keys/2026 SEED MSCE Chichewa Paper III Mock Exam Marking Key.doc",
+    "size": 80896,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f1b0a89ab8",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Chichewa Paper I Mock Exam Marking Key.docx",
+    "path": "Exams/Chichewa/Marking Keys/2026 SHED MSCE Chichewa Paper I Mock Exam Marking Key.docx",
+    "size": 38588,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fddcf17697",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Chichewa Paper I Mock Exam Marking Key.pdf",
+    "path": "Exams/Chichewa/Marking Keys/2026 SHED MSCE Chichewa Paper I Mock Exam Marking Key.pdf",
+    "size": 117267,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fe5bf80c0f",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Chichewa Paper II Mock Exam Marking Key.docx",
+    "path": "Exams/Chichewa/Marking Keys/2026 SHED MSCE Chichewa Paper II Mock Exam Marking Key.docx",
+    "size": 50791,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f447a7ae5b",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Chichewa Paper II Mock Exam Marking Key.pdf",
+    "path": "Exams/Chichewa/Marking Keys/2026 SHED MSCE Chichewa Paper II Mock Exam Marking Key.pdf",
+    "size": 207700,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f5a4c80c49",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Chichewa Paper III Mock Exam Marking Key.docx",
+    "path": "Exams/Chichewa/Marking Keys/2026 SHED MSCE Chichewa Paper III Mock Exam Marking Key.docx",
+    "size": 56861,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fb06209b8d",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Chichewa Paper III Mock Exam Marking Key.pdf",
+    "path": "Exams/Chichewa/Marking Keys/2026 SHED MSCE Chichewa Paper III Mock Exam Marking Key.pdf",
+    "size": 276856,
+    "repo": "e-library-media-3",
+    "bucket": 2,
+    "id": "f7c37779b3",
+    "level": "msce"
   },
   {
     "name": "Form 1 Chichewa Paper I-II Marking Key.docx",
@@ -13797,85 +13953,13 @@
     "level": "msce"
   },
   {
-    "name": "2026 SEED MSCE Chichewa Paper I Mock Exam Provisional Marking Key.doc",
-    "path": "Exams/Chichewa/Marking Keys/2026 SEED MSCE Chichewa Paper I Mock Exam Provisional Marking Key.doc",
-    "size": 34304,
+    "name": "JCE Chichewa Paper II Marking Key.pdf",
+    "path": "Exams/Chichewa/Marking Keys/JCE Chichewa Paper II Marking Key.pdf",
+    "size": 272734,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fbea3df18e",
-    "level": "msce"
-  },
-  {
-    "name": "2024 SEED MSCE Chichewa Paper I Mock Exam Marking Key.pdf",
-    "path": "Exams/Chichewa/Marking Keys/2024 SEED MSCE Chichewa Paper I Mock Exam Marking Key.pdf",
-    "size": 230671,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fb36c3a679",
-    "level": "msce"
-  },
-  {
-    "name": "MSCE Chichewa Paper I Marking Key.docx",
-    "path": "Exams/Chichewa/Marking Keys/MSCE Chichewa Paper I Marking Key.docx",
-    "size": 16734,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f7a771849e",
-    "level": "msce"
-  },
-  {
-    "name": "2026 SEED MSCE Chichewa Paper II Mock Exam Provisional Marking Key.doc",
-    "path": "Exams/Chichewa/Marking Keys/2026 SEED MSCE Chichewa Paper II Mock Exam Provisional Marking Key.doc",
-    "size": 40960,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f381f3105b",
-    "level": "msce"
-  },
-  {
-    "name": "2024 SEED MSCE Chichewa Paper II Mock Exam Marking Key.pdf",
-    "path": "Exams/Chichewa/Marking Keys/2024 SEED MSCE Chichewa Paper II Mock Exam Marking Key.pdf",
-    "size": 215844,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f927ea7e01",
-    "level": "msce"
-  },
-  {
-    "name": "MSCE Chichewa Paper II Marking Key.docx",
-    "path": "Exams/Chichewa/Marking Keys/MSCE Chichewa Paper II Marking Key.docx",
-    "size": 18958,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f742640e9f",
-    "level": "msce"
-  },
-  {
-    "name": "2026 MSCE Chichewa Paper II Mock Exam Marking Key.docx",
-    "path": "Exams/Chichewa/Marking Keys/2026 MSCE Chichewa Paper II Mock Exam Marking Key.docx",
-    "size": 24567,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f2b758202f",
-    "level": "msce"
-  },
-  {
-    "name": "2024 SEED MSCE Chichewa Paper III Mock Exam Marking Key.pdf",
-    "path": "Exams/Chichewa/Marking Keys/2024 SEED MSCE Chichewa Paper III Mock Exam Marking Key.pdf",
-    "size": 135748,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe55e4f1b8",
-    "level": "msce"
-  },
-  {
-    "name": "MSCE Chichewa Paper III Marking Key.docx",
-    "path": "Exams/Chichewa/Marking Keys/MSCE Chichewa Paper III Marking Key.docx",
-    "size": 19940,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f74e2d3411",
-    "level": "msce"
+    "id": "fecf282bd2",
+    "level": "jce"
   },
   {
     "name": "MSCE Chichewa Paper I Marking Key 2.docx",
@@ -13893,6 +13977,15 @@
     "repo": "e-library-media",
     "bucket": 2,
     "id": "fc449bdfb6",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Chichewa Paper I Marking Key.docx",
+    "path": "Exams/Chichewa/Marking Keys/MSCE Chichewa Paper I Marking Key.docx",
+    "size": 16734,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f7a771849e",
     "level": "msce"
   },
   {
@@ -13914,31 +14007,13 @@
     "level": "msce"
   },
   {
-    "name": "MSCE Chichewa Paper III Marking Key 2.docx",
-    "path": "Exams/Chichewa/Marking Keys/MSCE Chichewa Paper III Marking Key 2.docx",
-    "size": 21192,
+    "name": "MSCE Chichewa Paper II Marking Key.docx",
+    "path": "Exams/Chichewa/Marking Keys/MSCE Chichewa Paper II Marking Key.docx",
+    "size": 18958,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f9ec70d218",
+    "id": "f742640e9f",
     "level": "msce"
-  },
-  {
-    "name": "JCE Chichewa Paper II Marking Key.pdf",
-    "path": "Exams/Chichewa/Marking Keys/JCE Chichewa Paper II Marking Key.pdf",
-    "size": 272734,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fecf282bd2",
-    "level": "jce"
-  },
-  {
-    "name": "2026 Loyola Jesuit Secondary School JCE Chichewa Mock Exams Marking Key.docx",
-    "path": "Exams/Chichewa/Marking Keys/2026 Loyola Jesuit Secondary School JCE Chichewa Mock Exams Marking Key.docx",
-    "size": 25541,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fa602fbd7d",
-    "level": "jce"
   },
   {
     "name": "MSCE Chichewa Paper II Mock Exam Marking Key.docx",
@@ -13950,39 +14025,111 @@
     "level": "msce"
   },
   {
-    "name": "2025 CWED MSCE Chichewa Paper I Mock Exam (Mafunso).pdf",
-    "path": "Exams/Chichewa/2025 CWED MSCE Chichewa Paper I Mock Exam (Mafunso).pdf",
-    "size": 598380,
+    "name": "MSCE Chichewa Paper III Marking Key 2.docx",
+    "path": "Exams/Chichewa/Marking Keys/MSCE Chichewa Paper III Marking Key 2.docx",
+    "size": 21192,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f3f3ec8450",
+    "id": "f9ec70d218",
     "level": "msce"
   },
   {
-    "name": "2025 CWED MSCE Chichewa Paper II Mock Exam (Mafunso).pdf",
-    "path": "Exams/Chichewa/2025 CWED MSCE Chichewa Paper II Mock Exam (Mafunso).pdf",
-    "size": 791387,
+    "name": "MSCE Chichewa Paper III Marking Key.docx",
+    "path": "Exams/Chichewa/Marking Keys/MSCE Chichewa Paper III Marking Key.docx",
+    "size": 19940,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f119b1a690",
+    "id": "f74e2d3411",
     "level": "msce"
   },
   {
-    "name": "2025 CWED MSCE Chichewa Paper III Mock Exam (Mafunso).pdf",
-    "path": "Exams/Chichewa/2025 CWED MSCE Chichewa Paper III Mock Exam (Mafunso).pdf",
-    "size": 628774,
+    "name": "MSCE Chichewa Mock Exam (Girls Paper).pdf",
+    "path": "Exams/Chichewa/MSCE Chichewa Mock Exam (Girls Paper).pdf",
+    "size": 239716,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f428447b9b",
+    "id": "f17f3ebc0e",
     "level": "msce"
   },
   {
-    "name": "2021 Mulanje Cluster MSCE Chichewa Paper III Mock Exam.pdf",
-    "path": "Exams/Chichewa/2021 Mulanje Cluster MSCE Chichewa Paper III Mock Exam.pdf",
-    "size": 623717,
+    "name": "MSCE Chichewa Paper I Mock Exam 2.docx",
+    "path": "Exams/Chichewa/MSCE Chichewa Paper I Mock Exam 2.docx",
+    "size": 59768,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f0c719635b",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Chichewa Paper I Mock Exam.docx",
+    "path": "Exams/Chichewa/MSCE Chichewa Paper I Mock Exam.docx",
+    "size": 14314,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f7f457494f",
+    "id": "ffc32ccd51",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Chichewa Paper I Mock Exam.pdf",
+    "path": "Exams/Chichewa/MSCE Chichewa Paper I Mock Exam.pdf",
+    "size": 522695,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fb12fa3595",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Chichewa Paper II Mock Exam 2.docx",
+    "path": "Exams/Chichewa/MSCE Chichewa Paper II Mock Exam 2.docx",
+    "size": 42194,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f6edd2b598",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Chichewa Paper II Mock Exam.pdf",
+    "path": "Exams/Chichewa/MSCE Chichewa Paper II Mock Exam.pdf",
+    "size": 400385,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f61a54fcd6",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Chichewa Paper III Mock Exam 2.docx",
+    "path": "Exams/Chichewa/MSCE Chichewa Paper III Mock Exam 2.docx",
+    "size": 334944,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fe1c41d9e9",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Chichewa Paper III Mock Exam 3.docx",
+    "path": "Exams/Chichewa/MSCE Chichewa Paper III Mock Exam 3.docx",
+    "size": 95964,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fcc9d99855",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Chichewa Paper III Mock Exam.docx",
+    "path": "Exams/Chichewa/MSCE Chichewa Paper III Mock Exam.docx",
+    "size": 29505,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f114f59c92",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Chichewa Paper III Mock Exam.pdf",
+    "path": "Exams/Chichewa/MSCE Chichewa Paper III Mock Exam.pdf",
+    "size": 383400,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fc9d1c1482",
     "level": "msce"
   },
   {
@@ -14004,78 +14151,6 @@
     "level": "msce"
   },
   {
-    "name": "2026 SHED MSCE Chichewa Paper I Mock Exam (Braille).docx",
-    "path": "Exams/Chichewa/2026 SHED MSCE Chichewa Paper I Mock Exam (Braille).docx",
-    "size": 29389,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f56585904f",
-    "level": "msce"
-  },
-  {
-    "name": "2026 SHED MSCE Chichewa Paper I Mock Exam (Hearing Impaired).docx",
-    "path": "Exams/Chichewa/2026 SHED MSCE Chichewa Paper I Mock Exam (Hearing Impaired).docx",
-    "size": 53443,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fadec66f73",
-    "level": "msce"
-  },
-  {
-    "name": "2026 SHED MSCE Chichewa Paper I Mock Exam (Locomotor).docx",
-    "path": "Exams/Chichewa/2026 SHED MSCE Chichewa Paper I Mock Exam (Locomotor).docx",
-    "size": 53316,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe88afccd3",
-    "level": "msce"
-  },
-  {
-    "name": "2026 SHED MSCE Chichewa Paper II Mock Exam (Braille).docx",
-    "path": "Exams/Chichewa/2026 SHED MSCE Chichewa Paper II Mock Exam (Braille).docx",
-    "size": 58574,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f3d3c87d01",
-    "level": "msce"
-  },
-  {
-    "name": "2026 Shire Highlands Education Division MSCE Chichewa Paper II Mock Exam.docx",
-    "path": "Exams/Chichewa/2026 Shire Highlands Education Division MSCE Chichewa Paper II Mock Exam.docx",
-    "size": 60753,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f34b8a0344",
-    "level": "msce"
-  },
-  {
-    "name": "2025 St Marys Secondary School MSCE Chichewa Paper I Post Mock Exam.pdf",
-    "path": "Exams/Chichewa/2025 St Marys Secondary School MSCE Chichewa Paper I Post Mock Exam.pdf",
-    "size": 316556,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "fc664649f5",
-    "level": "msce"
-  },
-  {
-    "name": "2025 St Marys Secondary School MSCE Chichewa Paper II Mock Exam.pdf",
-    "path": "Exams/Chichewa/2025 St Marys Secondary School MSCE Chichewa Paper II Mock Exam.pdf",
-    "size": 303204,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f5ca91529c",
-    "level": "msce"
-  },
-  {
-    "name": "2025 St Marys Secondary School MSCE Chichewa Paper III Post Mock Exam.pdf",
-    "path": "Exams/Chichewa/2025 St Marys Secondary School MSCE Chichewa Paper III Post Mock Exam.pdf",
-    "size": 288385,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "fc62c7c7e2",
-    "level": "msce"
-  },
-  {
     "name": "SHED CLOTHING AND TEXTILES P1 MARKING KEY.docx",
     "path": "Exams/Clothing & Textiles/Marking Keys/SHED CLOTHING AND TEXTILES P1 MARKING KEY.docx",
     "size": 115942,
@@ -14092,304 +14167,98 @@
     "id": "f1d274e6ac"
   },
   {
-    "name": "2006 MANEB COMPUTER PAPER I-1.pdf",
-    "path": "Exams/Computer studies/2006 MANEB COMPUTER  PAPER I-1.pdf",
+    "name": "2006 MANEB MSCE Computer Studies Paper I.pdf",
+    "path": "Exams/Computer Studies/2006 MANEB MSCE Computer Studies Paper I.pdf",
     "size": 4208422,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f3ac7018d7"
+    "id": "f3ac7018d7",
+    "level": "msce"
   },
   {
-    "name": "2007 MANEB COMPUTER PAPER I-1.pdf",
-    "path": "Exams/Computer studies/2007 MANEB COMPUTER PAPER I-1.pdf",
+    "name": "2007 MANEB MSCE Computer Studies Paper I.pdf",
+    "path": "Exams/Computer Studies/2007 MANEB MSCE Computer Studies Paper I.pdf",
     "size": 3993650,
     "repo": "e-library-media-3",
     "bucket": 2,
-    "id": "f78d021b3b"
+    "id": "f78d021b3b",
+    "level": "msce"
   },
   {
-    "name": "2007 MANEB COMPUTER PAPER II.pdf",
-    "path": "Exams/Computer studies/2007 MANEB COMPUTER PAPER II.pdf",
+    "name": "2007 MANEB MSCE Computer Studies Paper II.pdf",
+    "path": "Exams/Computer Studies/2007 MANEB MSCE Computer Studies Paper II.pdf",
     "size": 1017958,
     "repo": "e-library-media-4",
     "bucket": 2,
-    "id": "f1f0e634cc"
+    "id": "f1f0e634cc",
+    "level": "msce"
   },
   {
-    "name": "2008 MANEB COMPUTER PAPER I-1.pdf",
-    "path": "Exams/Computer studies/2008 MANEB COMPUTER  PAPER I-1.pdf",
+    "name": "2008 MANEB MSCE Computer Studies Paper I.pdf",
+    "path": "Exams/Computer Studies/2008 MANEB MSCE Computer Studies Paper I.pdf",
     "size": 2816624,
     "repo": "e-library-media-5",
     "bucket": 2,
-    "id": "f795fdac75"
+    "id": "f795fdac75",
+    "level": "msce"
   },
   {
-    "name": "2009 MANEB COMPUTER PAPER II.pdf",
-    "path": "Exams/Computer studies/2009 MANEB COMPUTER PAPER II.pdf",
+    "name": "2009 MANEB MSCE Computer Studies Paper II.pdf",
+    "path": "Exams/Computer Studies/2009 MANEB MSCE Computer Studies Paper II.pdf",
     "size": 1164666,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f92fc94e45"
+    "id": "f92fc94e45",
+    "level": "msce"
   },
   {
-    "name": "2010 MANEB COMPUTER PAPER II.pdf",
-    "path": "Exams/Computer studies/2010 MANEB COMPUTER PAPER II.pdf",
+    "name": "2010 MANEB MSCE Computer Studies Paper II.pdf",
+    "path": "Exams/Computer Studies/2010 MANEB MSCE Computer Studies Paper II.pdf",
     "size": 1294955,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f37d0e89ad"
+    "id": "f37d0e89ad",
+    "level": "msce"
   },
   {
-    "name": "2012 MANEB Computer PAPER I-1.pdf",
-    "path": "Exams/Computer studies/2012 MANEB Computer PAPER I-1.pdf",
+    "name": "2012 MANEB MSCE Computer Studies Paper I.pdf",
+    "path": "Exams/Computer Studies/2012 MANEB MSCE Computer Studies Paper I.pdf",
     "size": 2487552,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f052e20255"
+    "id": "f052e20255",
+    "level": "msce"
   },
   {
-    "name": "2012 MANEB COMPUTER PAPER II.pdf",
-    "path": "Exams/Computer studies/2012 MANEB COMPUTER PAPER II.pdf",
+    "name": "2012 MANEB MSCE Computer Studies Paper II.pdf",
+    "path": "Exams/Computer Studies/2012 MANEB MSCE Computer Studies Paper II.pdf",
     "size": 1056787,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f946809bef"
+    "id": "f946809bef",
+    "level": "msce"
   },
   {
-    "name": "2013 MANEB Computer PAPER I-1.pdf",
-    "path": "Exams/Computer studies/2013 MANEB Computer PAPER I-1.pdf",
+    "name": "2013 MANEB MSCE Computer Studies Paper I.pdf",
+    "path": "Exams/Computer Studies/2013 MANEB MSCE Computer Studies Paper I.pdf",
     "size": 3093770,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f56375f76f"
+    "id": "f56375f76f",
+    "level": "msce"
   },
   {
-    "name": "2014 MANEB COMPUTER PAPER II-1.pdf",
-    "path": "Exams/Computer studies/2014 MANEB COMPUTER  PAPER II-1.pdf",
+    "name": "2014 MANEB MSCE Computer Studies Paper II.pdf",
+    "path": "Exams/Computer Studies/2014 MANEB MSCE Computer Studies Paper II.pdf",
     "size": 1015267,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fd870e8d5c"
+    "id": "fd870e8d5c",
+    "level": "msce"
   },
   {
-    "name": "2022 BWAILA FORM 1 COMPUTER STUDIES TERM 2 EXAM.pdf",
-    "path": "Exams/Computer studies/2022 BWAILA FORM 1 COMPUTER STUDIES TERM 2 EXAM.pdf",
-    "size": 114165,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fd6abcba09"
-  },
-  {
-    "name": "2022 LILONGWE GIRLS MSCE COMPUTER STUDIES MOCK PAPER 2.pdf",
-    "path": "Exams/Computer studies/2022 LILONGWE GIRLS MSCE COMPUTER STUDIES MOCK PAPER 2.pdf",
-    "size": 216283,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fd53bbcfa5"
-  },
-  {
-    "name": "2022 MACHINGA JCE COMPUTER STUDIES MOCK.pdf",
-    "path": "Exams/Computer studies/2022 MACHINGA JCE COMPUTER STUDIES MOCK.pdf",
-    "size": 501258,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "feb2643b3a"
-  },
-  {
-    "name": "2022 MARYMOUNT JCE COMPUTER STUDIES MOCK.pdf",
-    "path": "Exams/Computer studies/2022 MARYMOUNT JCE COMPUTER STUDIES MOCK.pdf",
-    "size": 493379,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f614a780c0"
-  },
-  {
-    "name": "2022 MZUZU DIOCESE MOC COMPUTER PAPER1.pdf",
-    "path": "Exams/Computer Studies/2022 MZUZU DIOCESE MOC COMPUTER PAPER1.pdf",
-    "size": 534765,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f1ed8bad1a"
-  },
-  {
-    "name": "2022 NED JCE COMPUTER STUDIES MOCK.pdf",
-    "path": "Exams/Computer studies/2022 NED JCE COMPUTER STUDIES MOCK.pdf",
-    "size": 301716,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f93bc39689"
-  },
-  {
-    "name": "2023 NAGWENGWERE JCE COMPUTER STUDIES MOCK.pdf",
-    "path": "Exams/Computer studies/2023 NAGWENGWERE JCE COMPUTER STUDIES MOCK.pdf",
-    "size": 438764,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f1715ee873"
-  },
-  {
-    "name": "2023 NED JCE COMPUTER STUDIES MOCK.pdf",
-    "path": "Exams/Computer studies/2023 NED JCE COMPUTER STUDIES MOCK.pdf",
-    "size": 515559,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5033cb37b"
-  },
-  {
-    "name": "2024 CEED MSCE COMPUTER STUDIES MOCK PAPER 2.pdf",
-    "path": "Exams/Computer studies/2024 CEED MSCE COMPUTER STUDIES MOCK PAPER 2.pdf",
-    "size": 285193,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f11664b7c5"
-  },
-  {
-    "name": "2025-2026 TERM 1 MID TERM FORM 4 COMPUTER EXAMS_1.pdf",
-    "path": "Exams/Computer studies/2025-2026 TERM 1 MID TERM FORM 4 COMPUTER EXAMS_1.pdf",
-    "size": 213400,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f7e8b3dce8"
-  },
-  {
-    "name": "2026 CEED COMPUTER STUDIES I.docx",
-    "path": "Exams/Computer studies/2026 CEED COMPUTER STUDIES I.docx",
-    "size": 286071,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f29c8fd7ae"
-  },
-  {
-    "name": "2026 CEED COMPUTER STUDIES I.pdf",
-    "path": "Exams/Computer studies/2026 CEED COMPUTER STUDIES I.pdf",
-    "size": 413421,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f6d6468ecb"
-  },
-  {
-    "name": "2026 CEED COMPUTER STUDIES II.docx",
-    "path": "Exams/Computer studies/2026 CEED COMPUTER STUDIES II.docx",
-    "size": 248571,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f57aea81cf"
-  },
-  {
-    "name": "2026 CEED COMPUTER STUDIES II.pdf",
-    "path": "Exams/Computer studies/2026 CEED COMPUTER STUDIES II.pdf",
-    "size": 372618,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f8f43fb2d3"
-  },
-  {
-    "name": "2026 Loyola Jesuit Mock Computer Studies paper II.docx",
-    "path": "Exams/Computer studies/2026 Loyola Jesuit Mock Computer Studies paper II.docx",
-    "size": 28473,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5b9ac4a03"
-  },
-  {
-    "name": "2026 Loyola Jesuit MSCE Mock Computer studies Paper I.docx",
-    "path": "Exams/Computer studies/2026 Loyola Jesuit MSCE Mock Computer studies Paper I.docx",
-    "size": 40845,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f7539acc9b"
-  },
-  {
-    "name": "2026 MANEB Computer Studies Paper II.pdf",
-    "path": "Exams/Computer studies/2026 MANEB Computer Studies Paper II.pdf",
-    "size": 1012686,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f42e0afb81"
-  },
-  {
-    "name": "2026 MSCE MOCK COMPUTER STUDIES II SHED.docx",
-    "path": "Exams/Computer studies/2026 MSCE MOCK  COMPUTER STUDIES  II SHED.docx",
-    "size": 87798,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f3c62d718a"
-  },
-  {
-    "name": "2026 SHED MOCK COMPUTER STUDIES PAPER II CONFIDENTIAL INSTRUCTIONS.docx",
-    "path": "Exams/Computer studies/2026 SHED MOCK COMPUTER STUDIES PAPER II CONFIDENTIAL INSTRUCTIONS.docx",
-    "size": 48991,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fdbc3ab7b5"
-  },
-  {
-    "name": "500 COMPUTER SHORTCUTS_ A well compiled and tested shortcut keys combination for PC (Windows, Linux, Unix and Apple Macintosh) for your use.pdf",
-    "path": "Exams/Computer Studies/500+ COMPUTER SHORTCUTS_ A well compiled and tested shortcut keys combination for PC (Windows, Linux, Unix and Apple Macintosh) for your use..pdf",
-    "size": 452287,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f66052bc64"
-  },
-  {
-    "name": "Computer P I_1.pdf",
-    "path": "Exams/Computer studies/Computer P I_1.pdf",
-    "size": 474649,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fa611625a4"
-  },
-  {
-    "name": "Computer P II_1.pdf",
-    "path": "Exams/Computer studies/Computer P II_1.pdf",
-    "size": 417111,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "faadaa5075"
-  },
-  {
-    "name": "COMPUTER PI QUESTIONS PAPER.pdf",
-    "path": "Exams/Computer studies/COMPUTER PI QUESTIONS PAPER.pdf",
-    "size": 683133,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f2998fe6cd"
-  },
-  {
-    "name": "COMPUTER PII QUESTION PAPER.pdf",
-    "path": "Exams/Computer studies/COMPUTER PII QUESTION PAPER.pdf",
-    "size": 605570,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fb6944d610"
-  },
-  {
-    "name": "Computer science MANEB past papers.pdf",
-    "path": "Exams/Computer studies/Computer science MANEB past papers.pdf",
-    "size": 3408365,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5af48e100"
-  },
-  {
-    "name": "computer SHED 2026 mock.docx",
-    "path": "Exams/Computer studies/computer SHED 2026 mock.docx",
-    "size": 88379,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5a0e91953"
-  },
-  {
-    "name": "Computer Studies I 2026 SEED MOCK.doc",
-    "path": "Exams/Computer studies/Computer Studies I 2026 SEED MOCK.doc",
-    "size": 1355776,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f82be2f5b2"
-  },
-  {
-    "name": "Loyola Jesuit Secondary School JCE Computer Studies Mock Exam (2021).pdf",
-    "path": "Exams/Computer Studies/Loyola Jesuit Secondary School JCE Computer Studies Mock Exam (2021).pdf",
+    "name": "2021 Loyola Jesuit Secondary School JCE Computer Studies Mock Exam.pdf",
+    "path": "Exams/Computer Studies/2021 Loyola Jesuit Secondary School JCE Computer Studies Mock Exam.pdf",
     "size": 699940,
     "repo": "e-library-media-2",
     "bucket": 2,
@@ -14397,68 +14266,310 @@
     "level": "jce"
   },
   {
-    "name": "2023 MSCE COMPUTER STUDIES CHIEF EXAMINER'S RPT_1.pdf",
-    "path": "Exams/Computer studies/Marking Keys/2023 MSCE COMPUTER STUDIES CHIEF EXAMINER'S RPT_1.pdf",
+    "name": "2022 Bwaila Secondary School Form 1 Computer Studies Term 2 Exam.pdf",
+    "path": "Exams/Computer Studies/2022 Bwaila Secondary School Form 1 Computer Studies Term 2 Exam.pdf",
+    "size": 114165,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fd6abcba09",
+    "level": "jce"
+  },
+  {
+    "name": "2022 Lilongwe Girls Secondary School MSCE Computer Studies Paper II Mock Exam.pdf",
+    "path": "Exams/Computer Studies/2022 Lilongwe Girls Secondary School MSCE Computer Studies Paper II Mock Exam.pdf",
+    "size": 216283,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fd53bbcfa5",
+    "level": "msce"
+  },
+  {
+    "name": "2022 Machinga District JCE Computer Studies Mock Exam.pdf",
+    "path": "Exams/Computer Studies/2022 Machinga District JCE Computer Studies Mock Exam.pdf",
+    "size": 501258,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "feb2643b3a",
+    "level": "jce"
+  },
+  {
+    "name": "2022 Marymount Catholic Secondary School JCE Computer Studies Mock Exam.pdf",
+    "path": "Exams/Computer Studies/2022 Marymount Catholic Secondary School JCE Computer Studies Mock Exam.pdf",
+    "size": 493379,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f614a780c0",
+    "level": "jce"
+  },
+  {
+    "name": "2022 Mzuzu Catholic Diocese MSCE Computer Studies Paper I Mock Exam.pdf",
+    "path": "Exams/Computer Studies/2022 Mzuzu Catholic Diocese MSCE Computer Studies Paper I Mock Exam.pdf",
+    "size": 534765,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f1ed8bad1a",
+    "level": "msce"
+  },
+  {
+    "name": "2022 Northern Education Division JCE Computer Studies Mock Exam.pdf",
+    "path": "Exams/Computer Studies/2022 Northern Education Division JCE Computer Studies Mock Exam.pdf",
+    "size": 301716,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f93bc39689",
+    "level": "jce"
+  },
+  {
+    "name": "2023 Nagwengwere JCE Computer Studies Mock Exam.pdf",
+    "path": "Exams/Computer Studies/2023 Nagwengwere JCE Computer Studies Mock Exam.pdf",
+    "size": 438764,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f1715ee873",
+    "level": "jce"
+  },
+  {
+    "name": "2023 Northern Education Division JCE Computer Studies Mock Exam.pdf",
+    "path": "Exams/Computer Studies/2023 Northern Education Division JCE Computer Studies Mock Exam.pdf",
+    "size": 515559,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f5033cb37b",
+    "level": "jce"
+  },
+  {
+    "name": "2024 Central East Education Division MSCE Computer Studies Paper II Mock Exam.pdf",
+    "path": "Exams/Computer Studies/2024 Central East Education Division MSCE Computer Studies Paper II Mock Exam.pdf",
+    "size": 285193,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f11664b7c5",
+    "level": "msce"
+  },
+  {
+    "name": "2025 Bwaila Cluster MSCE Computer Studies Paper I Mock Exam.pdf",
+    "path": "Exams/Computer Studies/2025 Bwaila Cluster MSCE Computer Studies Paper I Mock Exam.pdf",
+    "size": 474649,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fa611625a4",
+    "level": "msce"
+  },
+  {
+    "name": "2025 Bwaila Cluster MSCE Computer Studies Paper II Mock Exam.pdf",
+    "path": "Exams/Computer Studies/2025 Bwaila Cluster MSCE Computer Studies Paper II Mock Exam.pdf",
+    "size": 417111,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "faadaa5075",
+    "level": "msce"
+  },
+  {
+    "name": "2025 Central West Education Division MSCE Computer Studies Paper I Mock Exam.pdf",
+    "path": "Exams/Computer Studies/2025 Central West Education Division MSCE Computer Studies Paper I Mock Exam.pdf",
+    "size": 683133,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f2998fe6cd",
+    "level": "msce"
+  },
+  {
+    "name": "2025 Central West Education Division MSCE Computer Studies Paper II Mock Exam.pdf",
+    "path": "Exams/Computer Studies/2025 Central West Education Division MSCE Computer Studies Paper II Mock Exam.pdf",
+    "size": 605570,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fb6944d610",
+    "level": "msce"
+  },
+  {
+    "name": "2025 Form 4 Computer Studies Term 1 Mid Term Exam.pdf",
+    "path": "Exams/Computer Studies/2025 Form 4 Computer Studies Term 1 Mid Term Exam.pdf",
+    "size": 213400,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f7e8b3dce8",
+    "level": "msce"
+  },
+  {
+    "name": "2026 Central East Education Division MSCE Computer Studies Paper I Mock Exam.docx",
+    "path": "Exams/Computer Studies/2026 Central East Education Division MSCE Computer Studies Paper I Mock Exam.docx",
+    "size": 286071,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f29c8fd7ae",
+    "level": "msce"
+  },
+  {
+    "name": "2026 Central East Education Division MSCE Computer Studies Paper I Mock Exam.pdf",
+    "path": "Exams/Computer Studies/2026 Central East Education Division MSCE Computer Studies Paper I Mock Exam.pdf",
+    "size": 413421,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f6d6468ecb",
+    "level": "msce"
+  },
+  {
+    "name": "2026 Central East Education Division MSCE Computer Studies Paper II Mock Exam.docx",
+    "path": "Exams/Computer Studies/2026 Central East Education Division MSCE Computer Studies Paper II Mock Exam.docx",
+    "size": 248571,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f57aea81cf",
+    "level": "msce"
+  },
+  {
+    "name": "2026 Central East Education Division MSCE Computer Studies Paper II Mock Exam.pdf",
+    "path": "Exams/Computer Studies/2026 Central East Education Division MSCE Computer Studies Paper II Mock Exam.pdf",
+    "size": 372618,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f8f43fb2d3",
+    "level": "msce"
+  },
+  {
+    "name": "2026 Loyola Jesuit Secondary School MSCE Computer Studies Paper I Mock Exam.docx",
+    "path": "Exams/Computer Studies/2026 Loyola Jesuit Secondary School MSCE Computer Studies Paper I Mock Exam.docx",
+    "size": 40845,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f7539acc9b",
+    "level": "msce"
+  },
+  {
+    "name": "2026 Loyola Jesuit Secondary School MSCE Computer Studies Paper II Mock Exam.docx",
+    "path": "Exams/Computer Studies/2026 Loyola Jesuit Secondary School MSCE Computer Studies Paper II Mock Exam.docx",
+    "size": 28473,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f5b9ac4a03",
+    "level": "msce"
+  },
+  {
+    "name": "2026 MANEB MSCE Computer Studies Paper II.pdf",
+    "path": "Exams/Computer Studies/2026 MANEB MSCE Computer Studies Paper II.pdf",
+    "size": 1012686,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f42e0afb81",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SEED MSCE Computer Studies Paper I Mock Exam.doc",
+    "path": "Exams/Computer Studies/2026 SEED MSCE Computer Studies Paper I Mock Exam.doc",
+    "size": 1355776,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f82be2f5b2",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Computer Studies Paper I Mock Exam.docx",
+    "path": "Exams/Computer Studies/2026 SHED MSCE Computer Studies Paper I Mock Exam.docx",
+    "size": 88379,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f5a0e91953",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Computer Studies Paper II Confidential Instructions.docx",
+    "path": "Exams/Computer Studies/2026 SHED MSCE Computer Studies Paper II Confidential Instructions.docx",
+    "size": 48991,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fdbc3ab7b5",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Computer Studies Paper II Mock Exam.docx",
+    "path": "Exams/Computer Studies/2026 SHED MSCE Computer Studies Paper II Mock Exam.docx",
+    "size": 87798,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f3c62d718a",
+    "level": "msce"
+  },
+  {
+    "name": "MANEB MSCE Computer Studies Past Papers Compilation.pdf",
+    "path": "Exams/Computer Studies/MANEB MSCE Computer Studies Past Papers Compilation.pdf",
+    "size": 3408365,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f5af48e100",
+    "level": "msce"
+  },
+  {
+    "name": "2023 MANEB MSCE Computer Studies Chief Examiners Report.pdf",
+    "path": "Exams/Computer Studies/Marking Keys/2023 MANEB MSCE Computer Studies Chief Examiners Report.pdf",
     "size": 654101,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f3781b66db"
+    "id": "f3781b66db",
+    "level": "msce"
   },
   {
-    "name": "2026 CEED COMPUTER STUDIES I PROVISIONAL MARKING KEY.pdf",
-    "path": "Exams/Computer studies/Marking Keys/2026 CEED COMPUTER STUDIES I PROVISIONAL MARKING KEY.pdf",
-    "size": 588737,
-    "repo": "e-library-media-3",
-    "bucket": 2,
-    "id": "f0f1d678c2"
-  },
-  {
-    "name": "2026 Loyola Jesuit Mock Computer Studies Paper II Marking key.docx",
-    "path": "Exams/Computer studies/Marking Keys/2026 Loyola Jesuit Mock Computer Studies Paper II Marking key.docx",
-    "size": 16395,
-    "repo": "e-library-media-4",
-    "bucket": 2,
-    "id": "fa998b9186"
-  },
-  {
-    "name": "COMPUTER P2 Marking Key.pdf",
-    "path": "Exams/Computer studies/Marking Keys/COMPUTER P2 Marking Key.pdf",
-    "size": 600022,
-    "repo": "e-library-media-5",
-    "bucket": 2,
-    "id": "f90efde65e"
-  },
-  {
-    "name": "COMPUTER PI Marking Key.pdf",
-    "path": "Exams/Computer studies/Marking Keys/COMPUTER PI Marking Key.pdf",
+    "name": "2025 CWED MSCE Computer Studies Paper I Marking Key.pdf",
+    "path": "Exams/Computer Studies/Marking Keys/2025 CWED MSCE Computer Studies Paper I Marking Key.pdf",
     "size": 552329,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "ffea302e41"
+    "id": "ffea302e41",
+    "level": "msce"
   },
   {
-    "name": "Computer Studies I 2026 SEED MOCK PROVISIONAL MARKING KEY.doc",
-    "path": "Exams/Computer studies/Marking Keys/Computer Studies I 2026 SEED MOCK PROVISIONAL MARKING KEY.doc",
+    "name": "2025 CWED MSCE Computer Studies Paper II Marking Key.pdf",
+    "path": "Exams/Computer Studies/Marking Keys/2025 CWED MSCE Computer Studies Paper II Marking Key.pdf",
+    "size": 600022,
+    "repo": "e-library-media-5",
+    "bucket": 2,
+    "id": "f90efde65e",
+    "level": "msce"
+  },
+  {
+    "name": "2026 CEED MSCE Computer Studies Paper I Provisional Marking Key.pdf",
+    "path": "Exams/Computer Studies/Marking Keys/2026 CEED MSCE Computer Studies Paper I Provisional Marking Key.pdf",
+    "size": 588737,
+    "repo": "e-library-media-3",
+    "bucket": 2,
+    "id": "f0f1d678c2",
+    "level": "msce"
+  },
+  {
+    "name": "2026 Loyola Jesuit Secondary School MSCE Computer Studies Paper II Marking Key.docx",
+    "path": "Exams/Computer Studies/Marking Keys/2026 Loyola Jesuit Secondary School MSCE Computer Studies Paper II Marking Key.docx",
+    "size": 16395,
+    "repo": "e-library-media-4",
+    "bucket": 2,
+    "id": "fa998b9186",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SEED MSCE Computer Studies Paper I Provisional Marking Key.doc",
+    "path": "Exams/Computer Studies/Marking Keys/2026 SEED MSCE Computer Studies Paper I Provisional Marking Key.doc",
     "size": 101888,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "ff649022b8"
+    "id": "ff649022b8",
+    "level": "msce"
   },
   {
-    "name": "SHED 2026 Computer marking key.docx",
-    "path": "Exams/Computer studies/Marking Keys/SHED 2026 Computer marking key.docx",
+    "name": "2026 SHED MSCE Computer Studies Paper I Marking Key.docx",
+    "path": "Exams/Computer Studies/Marking Keys/2026 SHED MSCE Computer Studies Paper I Marking Key.docx",
     "size": 83276,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f907100f61"
+    "id": "f907100f61",
+    "level": "msce"
   },
   {
-    "name": "MSCE Computer Studies Past Papers (2006-2026).pdf",
-    "path": "Exams/Computer Studies/MSCE Computer Studies Past Papers (2006-2026).pdf",
+    "name": "MSCE Computer Studies Past Papers Compilation (2006-2026).pdf",
+    "path": "Exams/Computer Studies/MSCE Computer Studies Past Papers Compilation (2006-2026).pdf",
     "size": 25424048,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f0f96ab309"
+    "id": "f0f96ab309",
+    "level": "msce"
   },
   {
     "name": "2022 Confidential materials.pdf",
@@ -17854,16 +17965,8 @@
     "level": "msce"
   },
   {
-    "name": "1773338783871_HISTORY - 2026 BSS JCE CLUSTER MOCK.pdf",
-    "path": "Exams/History/1773338783871_HISTORY - 2026 BSS JCE CLUSTER MOCK.pdf",
-    "size": 830221,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "fb1ce1f99f"
-  },
-  {
-    "name": "2006 MANEB MSCE History Paper 1 Questions.pdf",
-    "path": "Exams/History/2006 MANEB MSCE History Paper 1 Questions.pdf",
+    "name": "2006 MANEB MSCE History Paper I.pdf",
+    "path": "Exams/History/2006 MANEB MSCE History Paper I.pdf",
     "size": 1253583,
     "repo": "e-library-media-2",
     "bucket": 2,
@@ -17873,496 +17976,80 @@
     "subject": "History"
   },
   {
-    "name": "2021 Robert Blake Cluster JCE History Mock.docx",
-    "path": "Exams/History/2021 Robert Blake Cluster JCE History Mock.docx",
-    "size": 63870,
+    "name": "2008 MANEB JCE History Paper.pdf",
+    "path": "Exams/History/2008 MANEB JCE History Paper.pdf",
+    "size": 2110593,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f8eec8ade9",
     "level": "jce",
-    "category": "Exams",
-    "subject": "History"
+    "id": "f71926f9bf"
   },
   {
-    "name": "2022 JCE HISTORY MANEB_1.pdf",
-    "path": "Exams/History/2022 JCE HISTORY MANEB_1.pdf",
-    "size": 3093910,
-    "repo": "e-library-media-3",
-    "bucket": 2,
-    "id": "f4cc4be0ed"
-  },
-  {
-    "name": "2023 JCE HISTORY_1.pdf",
-    "path": "Exams/History/2023 JCE HISTORY_1.pdf",
-    "size": 1363112,
-    "repo": "e-library-media-4",
-    "bucket": 2,
-    "id": "f02db98621"
-  },
-  {
-    "name": "2025 Central West Education Division MSCE History Paper 1 Mock.pdf",
-    "path": "Exams/History/2025 Central West Education Division MSCE History Paper 1 Mock.pdf",
-    "size": 603965,
+    "name": "2009 MANEB JCE History Paper.pdf",
+    "path": "Exams/History/2009 MANEB JCE History Paper.pdf",
+    "size": 1805854,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f1ddcc356f",
-    "level": "msce",
-    "category": "Exams",
-    "subject": "History"
-  },
-  {
-    "name": "2025 Central West Education Division MSCE History Paper 2 Mock.pdf",
-    "path": "Exams/History/2025 Central West Education Division MSCE History Paper 2 Mock.pdf",
-    "size": 414996,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f5c1896d3a",
-    "level": "msce",
-    "category": "Exams",
-    "subject": "History"
-  },
-  {
-    "name": "2025 Mangochi Catholic Diocese MSCE History Paper 1 Mock.docx",
-    "path": "Exams/History/2025 Mangochi Catholic Diocese MSCE History Paper 1 Mock.docx",
-    "size": 190312,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f08851d8ca",
-    "level": "msce",
-    "category": "Exams",
-    "subject": "History"
-  },
-  {
-    "name": "2025 Mangochi Catholic Diocese MSCE History Paper 2 Mock.docx",
-    "path": "Exams/History/2025 Mangochi Catholic Diocese MSCE History Paper 2 Mock.docx",
-    "size": 179896,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "fd12ad49a4",
-    "level": "msce",
-    "category": "Exams",
-    "subject": "History"
-  },
-  {
-    "name": "2025 SEED HISTORY MOCK PI.doc",
-    "path": "Exams/History/2025 SEED HISTORY MOCK PI.doc",
-    "size": 87552,
-    "repo": "e-library-media-5",
-    "bucket": 2,
-    "id": "febe426635"
-  },
-  {
-    "name": "2025 SEED HISTORY MOCK PII.doc",
-    "path": "Exams/History/2025 SEED HISTORY MOCK PII.doc",
-    "size": 76800,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f9d6ab9853"
-  },
-  {
-    "name": "2025_maranatha_mock_2_history_1.pdf",
-    "path": "Exams/History/2025_maranatha_mock_2_history_1_(1).pdf",
-    "size": 2865696,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f9b521e31e"
-  },
-  {
-    "name": "2025_SHED_MOCK_HISTORY_I.pdf",
-    "path": "Exams/History/2025_SHED_MOCK_HISTORY_I.pdf",
-    "size": 529610,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe0528b076"
-  },
-  {
-    "name": "2026 CEED MSCE History Paper 1 Mock.pdf",
-    "path": "Exams/History/2026 CEED MSCE History Paper 1 Mock.pdf",
-    "size": 705961,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f2a6754615",
-    "level": "msce",
-    "category": "Exams",
-    "subject": "History"
-  },
-  {
-    "name": "2026 CEED MSCE History Paper 2 Mock.pdf",
-    "path": "Exams/History/2026 CEED MSCE History Paper 2 Mock.pdf",
-    "size": 254247,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "fb9df33f86",
-    "level": "msce",
-    "category": "Exams",
-    "subject": "History"
-  },
-  {
-    "name": "2026 LJSS HISTORY JCE.pdf",
-    "path": "Exams/History/2026 LJSS HISTORY JCE.pdf",
-    "size": 649834,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe4ab5ce30"
-  },
-  {
-    "name": "2026 MANEB History Paper I.pdf",
-    "path": "Exams/History/2026 MANEB History Paper I.pdf",
-    "size": 2576917,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f0e728cf33"
-  },
-  {
-    "name": "2026 MANEB History Paper II.pdf",
-    "path": "Exams/History/2026 MANEB History Paper II.pdf",
-    "size": 1785873,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f40a707f64"
-  },
-  {
-    "name": "2026 MSCE Mara History P1 mock 2.pdf",
-    "path": "Exams/History/2026 MSCE Mara History P1 mock 2.pdf",
-    "size": 4299382,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f1212094e9"
-  },
-  {
-    "name": "2026 MSCE Mara History P2 mock 2.pdf",
-    "path": "Exams/History/2026 MSCE Mara History P2 mock 2.pdf",
-    "size": 3504465,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fd53a46c97"
-  },
-  {
-    "name": "2026 Northern Education Division JCE History Mock.docx",
-    "path": "Exams/History/2026 Northern Education Division JCE History Mock.docx",
-    "size": 53508,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f092d44625",
     "level": "jce",
-    "category": "Exams",
-    "subject": "History"
+    "id": "f55fd5a64f"
   },
   {
-    "name": "2026 SHED MSCE HIST II MOCK braille.docx",
-    "path": "Exams/History/2026 SHED MSCE HIST II MOCK braille.docx",
-    "size": 43979,
-    "repo": "e-library-media",
+    "name": "2010 MANEB JCE History Paper.pdf",
+    "path": "Exams/History/2010 MANEB JCE History Paper.pdf",
+    "size": 1766739,
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f475fb47c4"
+    "level": "jce",
+    "id": "fc2c1bbbd8"
   },
   {
-    "name": "2026 SHED MSCE HIST II MOCK HI.docx",
-    "path": "Exams/History/2026 SHED MSCE HIST II MOCK HI.docx",
-    "size": 47980,
-    "repo": "e-library-media",
+    "name": "2011 MANEB JCE History Paper.pdf",
+    "path": "Exams/History/2011 MANEB JCE History Paper.pdf",
+    "size": 1803830,
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f3605203bd"
+    "level": "jce",
+    "id": "f612f54920"
   },
   {
-    "name": "2026 SHED MSCE HIST II MOCK oral locomotor.docx",
-    "path": "Exams/History/2026 SHED MSCE HIST II MOCK oral locomotor.docx",
-    "size": 47888,
-    "repo": "e-library-media",
+    "name": "2015 MANEB JCE History Paper.pdf",
+    "path": "Exams/History/2015 MANEB JCE History Paper.pdf",
+    "size": 1780605,
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f99d15aee3"
+    "level": "jce",
+    "id": "fc3d0816b1"
   },
   {
-    "name": "2026 SHED MSCE HIST II MOCK-1.docx",
-    "path": "Exams/History/2026 SHED MSCE HIST II MOCK-1.docx",
-    "size": 47130,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fb09560a26"
-  },
-  {
-    "name": "2026 SHED MSCE HIST II MOCK.docx",
-    "path": "Exams/History/2026 SHED MSCE HIST II MOCK.docx",
-    "size": 47854,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f9c5e6be5f"
-  },
-  {
-    "name": "2026 SHED MSCE HIST II MOCK.pdf",
-    "path": "Exams/History/2026 SHED MSCE HIST II MOCK.pdf",
-    "size": 212415,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fa4fc59f07"
-  },
-  {
-    "name": "2026 SHED MSCE HIST MOCK PAPER I BRAILLE.docx",
-    "path": "Exams/History/2026 SHED MSCE HIST MOCK PAPER I BRAILLE.docx",
-    "size": 31560,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fa05a0d4a0"
-  },
-  {
-    "name": "2026 SHED MSCE HIST MOCK PAPER I HI.docx",
-    "path": "Exams/History/2026 SHED MSCE HIST MOCK PAPER I HI.docx",
-    "size": 59590,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fa1a395a3a"
-  },
-  {
-    "name": "2026 SHED MSCE HIST MOCK PAPER I.docx",
-    "path": "Exams/History/2026 SHED MSCE HIST MOCK PAPER I.docx",
-    "size": 61656,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f8a69bce82"
-  },
-  {
-    "name": "2026 SHED MSCE HIST MOCK PAPER I.pdf",
-    "path": "Exams/History/2026 SHED MSCE HIST MOCK PAPER I.pdf",
-    "size": 285907,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fa417d1e41"
-  },
-  {
-    "name": "FORM 3 HISTORY PAPER 1.docx",
-    "path": "Exams/History/FORM 3 HISTORY PAPER 1.docx",
-    "size": 28605,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fd312d663b"
-  },
-  {
-    "name": "FORM 3 HISTORY PAPER 2.docx",
-    "path": "Exams/History/FORM 3 HISTORY PAPER 2.docx",
-    "size": 22444,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f41308c4bd"
-  },
-  {
-    "name": "FORM THREE HISTORY PAPER 11 25252525_1.docx",
-    "path": "Exams/History/FORM THREE HISTORY PAPER 11 25252525_1.docx",
-    "size": 17738,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fb42ddf1fd"
-  },
-  {
-    "name": "FORM THREE HISTORY.2025 century type 3333333 history_1.docx",
-    "path": "Exams/History/FORM THREE HISTORY.2025 century type 3333333 history_1.docx",
-    "size": 28136,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fed82c52f4"
-  },
-  {
-    "name": "his f1.docx",
-    "path": "Exams/History/his f1.docx",
-    "size": 31477,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f538a00971"
-  },
-  {
-    "name": "his f2.docx",
-    "path": "Exams/History/his f2.docx",
-    "size": 40538,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f7b0c2ac81"
-  },
-  {
-    "name": "his f3.docx",
-    "path": "Exams/History/his f3.docx",
-    "size": 30221,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fd4f7ae462"
-  },
-  {
-    "name": "his f4 p1.docx",
-    "path": "Exams/History/his f4 p1.docx",
-    "size": 38586,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f0da67bba1"
-  },
-  {
-    "name": "his f4 p2.docx",
-    "path": "Exams/History/his f4 p2.docx",
-    "size": 32334,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fba19b260c"
-  },
-  {
-    "name": "history form 1.docx",
-    "path": "Exams/History/history form 1.docx",
-    "size": 19901,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f243202433"
-  },
-  {
-    "name": "history form 3 mid_1.docx",
-    "path": "Exams/History/history form 3 mid_1.docx",
-    "size": 2832,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f903d831cc"
-  },
-  {
-    "name": "HISTORY FORM 3.docx",
-    "path": "Exams/History/HISTORY FORM 3.docx",
-    "size": 23310,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fa6d01a2dc"
-  },
-  {
-    "name": "History I 2024 SEED MSCE MOCK.pdf",
-    "path": "Exams/History/History I 2024 SEED MSCE MOCK.pdf",
-    "size": 421705,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f040adcde9"
-  },
-  {
-    "name": "History I 2026 SEED MOCK.doc",
-    "path": "Exams/History/History I 2026 SEED MOCK.doc",
-    "size": 100352,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f0d21b9cd2"
-  },
-  {
-    "name": "History II 2023 SEED MSCE MOCK.pdf",
-    "path": "Exams/History/History II 2023 SEED MSCE MOCK.pdf",
-    "size": 408758,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fae1ce4d04"
-  },
-  {
-    "name": "History II 2026 SEED MOCK.doc",
-    "path": "Exams/History/History II 2026 SEED MOCK.doc",
-    "size": 104960,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f33afe5833"
-  },
-  {
-    "name": "HISTORY JCE PAST PAPERS.zip",
-    "path": "Exams/History/HISTORY JCE PAST PAPERS.zip",
-    "size": 19279036,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5a22648e0"
-  },
-  {
-    "name": "HISTORY PAPER 1 - BSS 2026 CLUSTER MOCK.pdf",
-    "path": "Exams/History/HISTORY PAPER 1 - BSS 2026 CLUSTER MOCK.pdf",
-    "size": 742454,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f041481c41"
-  },
-  {
-    "name": "HISTORY PAPER 2 - BSS 2026 CLUSTER MOCK.pdf",
-    "path": "Exams/History/HISTORY PAPER 2 - BSS 2026 CLUSTER MOCK.pdf",
-    "size": 775642,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f351a4eb50"
-  },
-  {
-    "name": "HISTORY PI CWED MOCK.docx",
-    "path": "Exams/History/HISTORY PI CWED MOCK.docx",
-    "size": 57210,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f13d2f39e1"
-  },
-  {
-    "name": "HISTORY PI MK CWED MOCK.docx",
-    "path": "Exams/History/HISTORY PI MK CWED MOCK.docx",
-    "size": 13278,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f40407bb79"
-  },
-  {
-    "name": "HISTORY PII MK CWED.docx",
-    "path": "Exams/History/HISTORY PII MK CWED.docx",
-    "size": 36525,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fb9a84ba3b"
-  },
-  {
-    "name": "HISTORY PII MK CWED.pdf",
-    "path": "Exams/History/HISTORY PII MK CWED.pdf",
-    "size": 191253,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f3271e1190"
-  },
-  {
-    "name": "HISTORY PII MOCK CWED MSCE Edited.docx",
-    "path": "Exams/History/HISTORY PII MOCK CWED MSCE Edited.docx",
-    "size": 80563,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f0596cb598"
-  },
-  {
-    "name": "HISTORY_JCE(2016)_1.pdf",
-    "path": "Exams/History/HISTORY_JCE(2016)_1.pdf",
+    "name": "2016 MANEB JCE History Paper (Scan).pdf",
+    "path": "Exams/History/2016 MANEB JCE History Paper (Scan).pdf",
     "size": 3556157,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f0ba23393e"
+    "id": "f0ba23393e",
+    "level": "jce"
   },
   {
-    "name": "HISTORY_JCE_MOCK_2022 (2)_1.pdf",
-    "path": "Exams/History/HISTORY_JCE_MOCK_2022 (2)_1.pdf",
-    "size": 450615,
-    "repo": "e-library-media",
+    "name": "2016 MANEB JCE History Paper.pdf",
+    "path": "Exams/History/2016 MANEB JCE History Paper.pdf",
+    "size": 1894483,
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f11607c8f4"
+    "level": "jce",
+    "id": "f11a3d039f"
   },
   {
-    "name": "History_PII_-_Final_Copy.pdf",
-    "path": "Exams/History/History_PII_-_Final_Copy.pdf",
-    "size": 267255,
-    "repo": "e-library-media",
+    "name": "2021 MANEB JCE History Paper.pdf",
+    "path": "Exams/History/2021 MANEB JCE History Paper.pdf",
+    "size": 1681577,
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f64a5c49e2"
+    "level": "jce",
+    "id": "f1e4d7b2ae"
   },
   {
-    "name": "JCE HISTORY MANEB 2025_1.pdf",
-    "path": "Exams/History/JCE HISTORY MANEB 2025_1.pdf",
-    "size": 2498727,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fce3c7e13d"
-  },
-  {
-    "name": "JCE HISTORY_1.pdf",
-    "path": "Exams/History/JCE HISTORY_1.pdf",
-    "size": 260870,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f166cfd45a"
-  },
-  {
-    "name": "MANEB JCE History Sample Paper.pdf",
-    "path": "Exams/History/MANEB JCE History Sample Paper.pdf",
+    "name": "2021 MANEB JCE History Sample Paper.pdf",
+    "path": "Exams/History/2021 MANEB JCE History Sample Paper.pdf",
     "size": 810516,
     "repo": "e-library-media-2",
     "bucket": 2,
@@ -18372,260 +18059,839 @@
     "subject": "History"
   },
   {
-    "name": "2025 MSCE- HISTORY CHIEF EXAMINER'S REPORT.pdf",
-    "path": "Exams/History/Marking Keys/2025 MSCE- HISTORY CHIEF EXAMINER'S REPORT.pdf",
-    "size": 702292,
+    "name": "2021 Robert Blake Cluster JCE History Mock Exam.docx",
+    "path": "Exams/History/2021 Robert Blake Cluster JCE History Mock Exam.docx",
+    "size": 63870,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f0dd2072da"
+    "id": "f8eec8ade9",
+    "level": "jce",
+    "category": "Exams",
+    "subject": "History"
   },
   {
-    "name": "2026 CEED HISTORY I PROVISIONAL MARKING KEY.pdf",
-    "path": "Exams/History/Marking Keys/2026 CEED HISTORY I PROVISIONAL MARKING KEY.pdf",
-    "size": 33788,
+    "name": "2022 JCE History Mock Exam 2.pdf",
+    "path": "Exams/History/2022 JCE History Mock Exam 2.pdf",
+    "size": 450615,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f11607c8f4",
+    "level": "jce"
+  },
+  {
+    "name": "2022 MANEB JCE History Paper 2.pdf",
+    "path": "Exams/History/2022 MANEB JCE History Paper 2.pdf",
+    "size": 1515817,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "level": "jce",
+    "id": "ffa38326b2"
+  },
+  {
+    "name": "2022 MANEB JCE History Paper.pdf",
+    "path": "Exams/History/2022 MANEB JCE History Paper.pdf",
+    "size": 3093910,
     "repo": "e-library-media-3",
     "bucket": 2,
-    "id": "f2617b69dc"
+    "id": "f4cc4be0ed",
+    "level": "jce"
   },
   {
-    "name": "2026 CEED HISTORY II PROVISIONAL MARKING KEY.pdf",
-    "path": "Exams/History/Marking Keys/2026 CEED HISTORY II PROVISIONAL MARKING KEY.pdf",
-    "size": 867200,
+    "name": "2023 MANEB JCE History Paper 2.pdf",
+    "path": "Exams/History/2023 MANEB JCE History Paper 2.pdf",
+    "size": 1694444,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "level": "jce",
+    "id": "fc97bdeeaf"
+  },
+  {
+    "name": "2023 MANEB JCE History Paper.pdf",
+    "path": "Exams/History/2023 MANEB JCE History Paper.pdf",
+    "size": 1363112,
     "repo": "e-library-media-4",
     "bucket": 2,
-    "id": "fb5cd04184"
+    "id": "f02db98621",
+    "level": "jce"
   },
   {
-    "name": "2026 LJSS HISTORY JCE marking scheme.pdf",
-    "path": "Exams/History/Marking Keys/2026 LJSS HISTORY JCE marking scheme.pdf",
-    "size": 716232,
+    "name": "2023 SEED MSCE History Paper II Mock Exam.pdf",
+    "path": "Exams/History/2023 SEED MSCE History Paper II Mock Exam.pdf",
+    "size": 408758,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fae1ce4d04",
+    "level": "msce"
+  },
+  {
+    "name": "2023 Star Secondary School Form 3 History Paper II Exam.docx",
+    "path": "Exams/History/2023 Star Secondary School Form 3 History Paper II Exam.docx",
+    "size": 17738,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fb42ddf1fd",
+    "level": "msce"
+  },
+  {
+    "name": "2024 MANEB JCE History Paper.pdf",
+    "path": "Exams/History/2024 MANEB JCE History Paper.pdf",
+    "size": 2669063,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "level": "jce",
+    "id": "fb4264a0c4"
+  },
+  {
+    "name": "2024 SEED MSCE History Paper I Mock Exam.pdf",
+    "path": "Exams/History/2024 SEED MSCE History Paper I Mock Exam.pdf",
+    "size": 421705,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f040adcde9",
+    "level": "msce"
+  },
+  {
+    "name": "2025 Central West Education Division MSCE History Paper I Mock Exam.pdf",
+    "path": "Exams/History/2025 Central West Education Division MSCE History Paper I Mock Exam.pdf",
+    "size": 603965,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f1ddcc356f",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "History"
+  },
+  {
+    "name": "2025 Central West Education Division MSCE History Paper II Mock Exam.pdf",
+    "path": "Exams/History/2025 Central West Education Division MSCE History Paper II Mock Exam.pdf",
+    "size": 414996,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f5c1896d3a",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "History"
+  },
+  {
+    "name": "2025 CWED MSCE History Paper I Mock Exam.docx",
+    "path": "Exams/History/2025 CWED MSCE History Paper I Mock Exam.docx",
+    "size": 57210,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f13d2f39e1",
+    "level": "msce"
+  },
+  {
+    "name": "2025 CWED MSCE History Paper II Mock Exam (Edited).docx",
+    "path": "Exams/History/2025 CWED MSCE History Paper II Mock Exam (Edited).docx",
+    "size": 80563,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f0596cb598",
+    "level": "msce"
+  },
+  {
+    "name": "2025 MANEB JCE History Paper.pdf",
+    "path": "Exams/History/2025 MANEB JCE History Paper.pdf",
+    "size": 2498727,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fce3c7e13d",
+    "level": "jce"
+  },
+  {
+    "name": "2025 Mangochi Catholic Diocese MSCE History Paper I Mock Exam.docx",
+    "path": "Exams/History/2025 Mangochi Catholic Diocese MSCE History Paper I Mock Exam.docx",
+    "size": 190312,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f08851d8ca",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "History"
+  },
+  {
+    "name": "2025 Mangochi Catholic Diocese MSCE History Paper II Mock Exam.docx",
+    "path": "Exams/History/2025 Mangochi Catholic Diocese MSCE History Paper II Mock Exam.docx",
+    "size": 179896,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fd12ad49a4",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "History"
+  },
+  {
+    "name": "2025 Maranatha MSCE History Mock Exam 2.pdf",
+    "path": "Exams/History/2025 Maranatha MSCE History Mock Exam 2.pdf",
+    "size": 2865696,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f9b521e31e",
+    "level": "msce"
+  },
+  {
+    "name": "2025 SEED MSCE History Paper I Mock Exam.doc",
+    "path": "Exams/History/2025 SEED MSCE History Paper I Mock Exam.doc",
+    "size": 87552,
     "repo": "e-library-media-5",
     "bucket": 2,
-    "id": "ff3b0800d3"
+    "id": "febe426635",
+    "level": "msce"
   },
   {
-    "name": "2026 NED PROPOSED MARKING KEY FOR HISTORY P1.docx",
-    "path": "Exams/History/Marking Keys/2026 NED PROPOSED MARKING KEY FOR HISTORY P1.docx",
-    "size": 13041,
+    "name": "2025 SEED MSCE History Paper II Mock Exam.doc",
+    "path": "Exams/History/2025 SEED MSCE History Paper II Mock Exam.doc",
+    "size": 76800,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f988f0da4c"
+    "id": "f9d6ab9853",
+    "level": "msce"
   },
   {
-    "name": "2026 SHED MSCE HIST MOCK PAPER I MARKING KEY-3.docx",
-    "path": "Exams/History/Marking Keys/2026 SHED MSCE HIST MOCK PAPER I MARKING KEY-3.docx",
-    "size": 37327,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe9fbe493e"
-  },
-  {
-    "name": "2026 SHED MSCE HIST MOCK PAPER I MARKING KEY.docx",
-    "path": "Exams/History/Marking Keys/2026 SHED MSCE HIST MOCK PAPER I MARKING KEY.docx",
-    "size": 12324,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fc02401f6a"
-  },
-  {
-    "name": "2026 SHED MSCE HIST MOCK PAPER I MARKING KEY.pdf",
-    "path": "Exams/History/Marking Keys/2026 SHED MSCE HIST MOCK PAPER I MARKING KEY.pdf",
-    "size": 101699,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5d4e982f1"
-  },
-  {
-    "name": "2026 SHED MSCE MOCK MARKING KEY HIST II-4.docx",
-    "path": "Exams/History/Marking Keys/2026 SHED MSCE MOCK MARKING KEY HIST II-4.docx",
-    "size": 56726,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fb4ba0ab90"
-  },
-  {
-    "name": "2026 SHED MSCE MOCK MARKING KEY HIST II.docx",
-    "path": "Exams/History/Marking Keys/2026 SHED MSCE MOCK MARKING KEY HIST II.docx",
-    "size": 31922,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f117ae7ecc"
-  },
-  {
-    "name": "2026 SHED MSCE MOCK MARKING KEY HIST II.pdf",
-    "path": "Exams/History/Marking Keys/2026 SHED MSCE MOCK MARKING KEY HIST II.pdf",
-    "size": 278069,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f771d1ca17"
-  },
-  {
-    "name": "his f1 mkey.docx",
-    "path": "Exams/History/Marking Keys/his f1 mkey.docx",
-    "size": 19203,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f4b9b49fd7"
-  },
-  {
-    "name": "his f2 mkey.docx",
-    "path": "Exams/History/Marking Keys/his f2 mkey.docx",
-    "size": 24964,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fa39281350"
-  },
-  {
-    "name": "his f3 mkey.docx",
-    "path": "Exams/History/Marking Keys/his f3 mkey.docx",
-    "size": 26483,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f759c66cb9"
-  },
-  {
-    "name": "His f4 p1 mkey.docx",
-    "path": "Exams/History/Marking Keys/His f4 p1 mkey.docx",
-    "size": 15956,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fac34b704e"
-  },
-  {
-    "name": "his f4 p2 mkey.docx",
-    "path": "Exams/History/Marking Keys/his f4 p2 mkey.docx",
-    "size": 29859,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe3062015d"
-  },
-  {
-    "name": "HISTORY - MARKING KEY - 2026 JC BSS CLUSTER.doc",
-    "path": "Exams/History/Marking Keys/HISTORY - MARKING KEY - 2026 JC BSS CLUSTER.doc",
-    "size": 120832,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fb8abd6c62"
-  },
-  {
-    "name": "History I 2026 SEED MOCK PROVISIONAL MARKING KEY.doc",
-    "path": "Exams/History/Marking Keys/History I 2026 SEED MOCK PROVISIONAL MARKING KEY.doc",
-    "size": 68608,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f465f969f5"
-  },
-  {
-    "name": "History I Markiing Key 2024 SEED MSCE MOCK.pdf",
-    "path": "Exams/History/Marking Keys/History I Markiing Key 2024 SEED MSCE MOCK.pdf",
-    "size": 3438,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f77254d777"
-  },
-  {
-    "name": "History II 2026 SEED MOCK PROVISIONAL MARKING KEY.doc",
-    "path": "Exams/History/Marking Keys/History II 2026 SEED MOCK PROVISIONAL MARKING KEY.doc",
-    "size": 111104,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f44efa74a1"
-  },
-  {
-    "name": "History II Marking Key 2024 SEED MSCE MOCK.pdf",
-    "path": "Exams/History/Marking Keys/History II Marking Key 2024 SEED MSCE MOCK.pdf",
-    "size": 208582,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f64c5a4392"
-  },
-  {
-    "name": "History PP1 marking key.pdf",
-    "path": "Exams/History/Marking Keys/History PP1 marking key.pdf",
-    "size": 355828,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f7b6112584"
-  },
-  {
-    "name": "HISTORY PP2 marking key.pdf",
-    "path": "Exams/History/Marking Keys/HISTORY PP2 marking key.pdf",
-    "size": 523405,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f2e552c609"
-  },
-  {
-    "name": "JCE HISTORY MOCK marking key_1.pdf",
-    "path": "Exams/History/Marking Keys/JCE HISTORY  MOCK marking  key_1.pdf",
-    "size": 255199,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f2f0e03bc2"
-  },
-  {
-    "name": "jce history marking key.docx",
-    "path": "Exams/History/Marking Keys/jce history marking key.docx",
-    "size": 20859,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f68da8e6d4"
-  },
-  {
-    "name": "MSCE HISTORY QUESTION AD MODEL ANSWER_1.pdf",
-    "path": "Exams/History/MSCE HISTORY QUESTION AD MODEL ANSWER_1.pdf",
-    "size": 68750948,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fdc91a526a"
-  },
-  {
-    "name": "NED MOCK HIS I (MODERATED).docx",
-    "path": "Exams/History/NED MOCK HIS I (MODERATED).docx",
-    "size": 128100,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5ada6e16e"
-  },
-  {
-    "name": "shed history p1 edited.docx",
-    "path": "Exams/History/shed history p1 edited.docx",
+    "name": "2025 SHED MSCE History Paper I Mock Exam (Edited).docx",
+    "path": "Exams/History/2025 SHED MSCE History Paper I Mock Exam (Edited).docx",
     "size": 60505,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f221c9a111"
+    "id": "f221c9a111",
+    "level": "msce"
   },
   {
-    "name": "shed history p1 edited.pdf",
-    "path": "Exams/History/shed history p1 edited.pdf",
+    "name": "2025 SHED MSCE History Paper I Mock Exam (Edited).pdf",
+    "path": "Exams/History/2025 SHED MSCE History Paper I Mock Exam (Edited).pdf",
     "size": 235954,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f1883bb5f8"
+    "id": "f1883bb5f8",
+    "level": "msce"
   },
   {
-    "name": "shed history p2 edited.docx",
-    "path": "Exams/History/shed history p2 edited.docx",
+    "name": "2025 SHED MSCE History Paper I Mock Exam.pdf",
+    "path": "Exams/History/2025 SHED MSCE History Paper I Mock Exam.pdf",
+    "size": 529610,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fe0528b076",
+    "level": "msce"
+  },
+  {
+    "name": "2025 SHED MSCE History Paper II Mock Exam (Edited).docx",
+    "path": "Exams/History/2025 SHED MSCE History Paper II Mock Exam (Edited).docx",
     "size": 49741,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f6a7580a83"
+    "id": "f6a7580a83",
+    "level": "msce"
   },
   {
-    "name": "shed history p2 edited.pdf",
-    "path": "Exams/History/shed history p2 edited.pdf",
+    "name": "2025 SHED MSCE History Paper II Mock Exam (Edited).pdf",
+    "path": "Exams/History/2025 SHED MSCE History Paper II Mock Exam (Edited).pdf",
     "size": 249428,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f6ce239980"
+    "id": "f6ce239980",
+    "level": "msce"
   },
   {
-    "name": "TERM 2 FORM 1 HISTORY_1.docx",
-    "path": "Exams/History/TERM 2 FORM 1 HISTORY_1.docx",
+    "name": "2025 Star Secondary School Form 3 History Paper I Exam.docx",
+    "path": "Exams/History/2025 Star Secondary School Form 3 History Paper I Exam.docx",
+    "size": 28136,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fed82c52f4",
+    "level": "msce"
+  },
+  {
+    "name": "2026 BSS Cluster JCE History Mock Exam.pdf",
+    "path": "Exams/History/2026 BSS Cluster JCE History Mock Exam.pdf",
+    "size": 830221,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fb1ce1f99f",
+    "level": "jce"
+  },
+  {
+    "name": "2026 BSS Cluster MSCE History Paper I Mock Exam.pdf",
+    "path": "Exams/History/2026 BSS Cluster MSCE History Paper I Mock Exam.pdf",
+    "size": 742454,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f041481c41",
+    "level": "msce"
+  },
+  {
+    "name": "2026 BSS Cluster MSCE History Paper II Mock Exam.pdf",
+    "path": "Exams/History/2026 BSS Cluster MSCE History Paper II Mock Exam.pdf",
+    "size": 775642,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f351a4eb50",
+    "level": "msce"
+  },
+  {
+    "name": "2026 Central East Education Division MSCE History Paper I Mock Exam.pdf",
+    "path": "Exams/History/2026 Central East Education Division MSCE History Paper I Mock Exam.pdf",
+    "size": 705961,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f2a6754615",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "History"
+  },
+  {
+    "name": "2026 Central East Education Division MSCE History Paper II Mock Exam.pdf",
+    "path": "Exams/History/2026 Central East Education Division MSCE History Paper II Mock Exam.pdf",
+    "size": 254247,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fb9df33f86",
+    "level": "msce",
+    "category": "Exams",
+    "subject": "History"
+  },
+  {
+    "name": "2026 Loyola Jesuit Secondary School JCE History Mock Exam.pdf",
+    "path": "Exams/History/2026 Loyola Jesuit Secondary School JCE History Mock Exam.pdf",
+    "size": 649834,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fe4ab5ce30",
+    "level": "jce"
+  },
+  {
+    "name": "2026 MANEB MSCE History Paper I.pdf",
+    "path": "Exams/History/2026 MANEB MSCE History Paper I.pdf",
+    "size": 2576917,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f0e728cf33",
+    "level": "msce"
+  },
+  {
+    "name": "2026 MANEB MSCE History Paper II.pdf",
+    "path": "Exams/History/2026 MANEB MSCE History Paper II.pdf",
+    "size": 1785873,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f40a707f64",
+    "level": "msce"
+  },
+  {
+    "name": "2026 Marist Secondary School MSCE History Paper I Mock Exam 2.pdf",
+    "path": "Exams/History/2026 Marist Secondary School MSCE History Paper I Mock Exam 2.pdf",
+    "size": 4299382,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f1212094e9",
+    "level": "msce"
+  },
+  {
+    "name": "2026 Marist Secondary School MSCE History Paper II Mock Exam 2.pdf",
+    "path": "Exams/History/2026 Marist Secondary School MSCE History Paper II Mock Exam 2.pdf",
+    "size": 3504465,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fd53a46c97",
+    "level": "msce"
+  },
+  {
+    "name": "2026 Northern Education Division JCE History Mock Exam.docx",
+    "path": "Exams/History/2026 Northern Education Division JCE History Mock Exam.docx",
+    "size": 53508,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f092d44625",
+    "level": "jce",
+    "category": "Exams",
+    "subject": "History"
+  },
+  {
+    "name": "2026 SEED MSCE History Paper I Mock Exam.doc",
+    "path": "Exams/History/2026 SEED MSCE History Paper I Mock Exam.doc",
+    "size": 100352,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f0d21b9cd2",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SEED MSCE History Paper II Mock Exam.doc",
+    "path": "Exams/History/2026 SEED MSCE History Paper II Mock Exam.doc",
+    "size": 104960,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f33afe5833",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE History Paper I Mock Exam (Braille).docx",
+    "path": "Exams/History/2026 SHED MSCE History Paper I Mock Exam (Braille).docx",
+    "size": 31560,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fa05a0d4a0",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE History Paper I Mock Exam (Hearing Impaired).docx",
+    "path": "Exams/History/2026 SHED MSCE History Paper I Mock Exam (Hearing Impaired).docx",
+    "size": 59590,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fa1a395a3a",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE History Paper I Mock Exam.docx",
+    "path": "Exams/History/2026 SHED MSCE History Paper I Mock Exam.docx",
+    "size": 61656,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f8a69bce82",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE History Paper I Mock Exam.pdf",
+    "path": "Exams/History/2026 SHED MSCE History Paper I Mock Exam.pdf",
+    "size": 285907,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fa417d1e41",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE History Paper II Mock Exam (Braille).docx",
+    "path": "Exams/History/2026 SHED MSCE History Paper II Mock Exam (Braille).docx",
+    "size": 43979,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f475fb47c4",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE History Paper II Mock Exam (Hearing Impaired).docx",
+    "path": "Exams/History/2026 SHED MSCE History Paper II Mock Exam (Hearing Impaired).docx",
+    "size": 47980,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f3605203bd",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE History Paper II Mock Exam (Oral Locomotor).docx",
+    "path": "Exams/History/2026 SHED MSCE History Paper II Mock Exam (Oral Locomotor).docx",
+    "size": 47888,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f99d15aee3",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE History Paper II Mock Exam (Variant).docx",
+    "path": "Exams/History/2026 SHED MSCE History Paper II Mock Exam (Variant).docx",
+    "size": 47130,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fb09560a26",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE History Paper II Mock Exam.docx",
+    "path": "Exams/History/2026 SHED MSCE History Paper II Mock Exam.docx",
+    "size": 47854,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f9c5e6be5f",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE History Paper II Mock Exam.pdf",
+    "path": "Exams/History/2026 SHED MSCE History Paper II Mock Exam.pdf",
+    "size": 212415,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fa4fc59f07",
+    "level": "msce"
+  },
+  {
+    "name": "Form 1 History Exam 2.docx",
+    "path": "Exams/History/Form 1 History Exam 2.docx",
+    "size": 19901,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f243202433",
+    "level": "jce"
+  },
+  {
+    "name": "Form 1 History Exam.docx",
+    "path": "Exams/History/Form 1 History Exam.docx",
+    "size": 31477,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f538a00971",
+    "level": "jce"
+  },
+  {
+    "name": "Form 1 History Term 2 Exam.docx",
+    "path": "Exams/History/Form 1 History Term 2 Exam.docx",
     "size": 51439,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f81384e3a6"
+    "id": "f81384e3a6",
+    "level": "jce"
+  },
+  {
+    "name": "Form 2 History Exam.docx",
+    "path": "Exams/History/Form 2 History Exam.docx",
+    "size": 40538,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f7b0c2ac81",
+    "level": "jce"
+  },
+  {
+    "name": "Form 3 History Exam 2.docx",
+    "path": "Exams/History/Form 3 History Exam 2.docx",
+    "size": 30221,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fd4f7ae462",
+    "level": "msce"
+  },
+  {
+    "name": "Form 3 History Exam.docx",
+    "path": "Exams/History/Form 3 History Exam.docx",
+    "size": 23310,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fa6d01a2dc",
+    "level": "msce"
+  },
+  {
+    "name": "Form 3 History Mid Term Exam.docx",
+    "path": "Exams/History/Form 3 History Mid Term Exam.docx",
+    "size": 2832,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f903d831cc",
+    "level": "msce"
+  },
+  {
+    "name": "Form 3 History Paper I Exam.docx",
+    "path": "Exams/History/Form 3 History Paper I Exam.docx",
+    "size": 28605,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fd312d663b",
+    "level": "msce"
+  },
+  {
+    "name": "Form 3 History Paper II Exam.docx",
+    "path": "Exams/History/Form 3 History Paper II Exam.docx",
+    "size": 22444,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f41308c4bd",
+    "level": "msce"
+  },
+  {
+    "name": "Form 4 History Paper I Exam.docx",
+    "path": "Exams/History/Form 4 History Paper I Exam.docx",
+    "size": 38586,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f0da67bba1",
+    "level": "msce"
+  },
+  {
+    "name": "Form 4 History Paper II Exam.docx",
+    "path": "Exams/History/Form 4 History Paper II Exam.docx",
+    "size": 32334,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fba19b260c",
+    "level": "msce"
+  },
+  {
+    "name": "JCE History Examination Paper.pdf",
+    "path": "Exams/History/JCE History Examination Paper.pdf",
+    "size": 260870,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f166cfd45a",
+    "level": "jce"
+  },
+  {
+    "name": "2024 SEED MSCE History Paper I Marking Key.pdf",
+    "path": "Exams/History/Marking Keys/2024 SEED MSCE History Paper I Marking Key.pdf",
+    "size": 3438,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f77254d777",
+    "level": "msce"
+  },
+  {
+    "name": "2024 SEED MSCE History Paper II Marking Key.pdf",
+    "path": "Exams/History/Marking Keys/2024 SEED MSCE History Paper II Marking Key.pdf",
+    "size": 208582,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f64c5a4392",
+    "level": "msce"
+  },
+  {
+    "name": "2025 CWED MSCE History Paper I Mock Exam Marking Key.docx",
+    "path": "Exams/History/Marking Keys/2025 CWED MSCE History Paper I Mock Exam Marking Key.docx",
+    "size": 13278,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f40407bb79",
+    "level": "msce"
+  },
+  {
+    "name": "2025 CWED MSCE History Paper II Mock Exam Marking Key.docx",
+    "path": "Exams/History/Marking Keys/2025 CWED MSCE History Paper II Mock Exam Marking Key.docx",
+    "size": 36525,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fb9a84ba3b",
+    "level": "msce"
+  },
+  {
+    "name": "2025 CWED MSCE History Paper II Mock Exam Marking Key.pdf",
+    "path": "Exams/History/Marking Keys/2025 CWED MSCE History Paper II Mock Exam Marking Key.pdf",
+    "size": 191253,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f3271e1190",
+    "level": "msce"
+  },
+  {
+    "name": "2025 MANEB MSCE History Chief Examiners Report.pdf",
+    "path": "Exams/History/Marking Keys/2025 MANEB MSCE History Chief Examiners Report.pdf",
+    "size": 702292,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f0dd2072da",
+    "level": "msce"
+  },
+  {
+    "name": "2026 BSS Cluster JCE History Mock Exam Marking Key.doc",
+    "path": "Exams/History/Marking Keys/2026 BSS Cluster JCE History Mock Exam Marking Key.doc",
+    "size": 120832,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fb8abd6c62",
+    "level": "jce"
+  },
+  {
+    "name": "2026 CEED MSCE History Paper I Provisional Marking Key.pdf",
+    "path": "Exams/History/Marking Keys/2026 CEED MSCE History Paper I Provisional Marking Key.pdf",
+    "size": 33788,
+    "repo": "e-library-media-3",
+    "bucket": 2,
+    "id": "f2617b69dc",
+    "level": "msce"
+  },
+  {
+    "name": "2026 CEED MSCE History Paper II Provisional Marking Key.pdf",
+    "path": "Exams/History/Marking Keys/2026 CEED MSCE History Paper II Provisional Marking Key.pdf",
+    "size": 867200,
+    "repo": "e-library-media-4",
+    "bucket": 2,
+    "id": "fb5cd04184",
+    "level": "msce"
+  },
+  {
+    "name": "2026 Loyola Jesuit Secondary School JCE History Marking Scheme.pdf",
+    "path": "Exams/History/Marking Keys/2026 Loyola Jesuit Secondary School JCE History Marking Scheme.pdf",
+    "size": 716232,
+    "repo": "e-library-media-5",
+    "bucket": 2,
+    "id": "ff3b0800d3",
+    "level": "jce"
+  },
+  {
+    "name": "2026 NED MSCE History Paper I Proposed Marking Key.docx",
+    "path": "Exams/History/Marking Keys/2026 NED MSCE History Paper I Proposed Marking Key.docx",
+    "size": 13041,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f988f0da4c",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SEED MSCE History Paper I Provisional Marking Key.doc",
+    "path": "Exams/History/Marking Keys/2026 SEED MSCE History Paper I Provisional Marking Key.doc",
+    "size": 68608,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f465f969f5",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SEED MSCE History Paper II Provisional Marking Key.doc",
+    "path": "Exams/History/Marking Keys/2026 SEED MSCE History Paper II Provisional Marking Key.doc",
+    "size": 111104,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f44efa74a1",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE History Paper I Detailed Marking Key.docx",
+    "path": "Exams/History/Marking Keys/2026 SHED MSCE History Paper I Detailed Marking Key.docx",
+    "size": 37327,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fe9fbe493e",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE History Paper I Marking Key.docx",
+    "path": "Exams/History/Marking Keys/2026 SHED MSCE History Paper I Marking Key.docx",
+    "size": 12324,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fc02401f6a",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE History Paper I Marking Key.pdf",
+    "path": "Exams/History/Marking Keys/2026 SHED MSCE History Paper I Marking Key.pdf",
+    "size": 101699,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f5d4e982f1",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE History Paper II Detailed Marking Key.docx",
+    "path": "Exams/History/Marking Keys/2026 SHED MSCE History Paper II Detailed Marking Key.docx",
+    "size": 56726,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fb4ba0ab90",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE History Paper II Marking Key.docx",
+    "path": "Exams/History/Marking Keys/2026 SHED MSCE History Paper II Marking Key.docx",
+    "size": 31922,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f117ae7ecc",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE History Paper II Marking Key.pdf",
+    "path": "Exams/History/Marking Keys/2026 SHED MSCE History Paper II Marking Key.pdf",
+    "size": 278069,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f771d1ca17",
+    "level": "msce"
+  },
+  {
+    "name": "Form 1 History Marking Key.docx",
+    "path": "Exams/History/Marking Keys/Form 1 History Marking Key.docx",
+    "size": 19203,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f4b9b49fd7",
+    "level": "jce"
+  },
+  {
+    "name": "Form 2 History Marking Key.docx",
+    "path": "Exams/History/Marking Keys/Form 2 History Marking Key.docx",
+    "size": 24964,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fa39281350",
+    "level": "jce"
+  },
+  {
+    "name": "Form 3 History Marking Key.docx",
+    "path": "Exams/History/Marking Keys/Form 3 History Marking Key.docx",
+    "size": 26483,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f759c66cb9",
+    "level": "msce"
+  },
+  {
+    "name": "Form 4 History Paper I Marking Key.docx",
+    "path": "Exams/History/Marking Keys/Form 4 History Paper I Marking Key.docx",
+    "size": 15956,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fac34b704e",
+    "level": "msce"
+  },
+  {
+    "name": "Form 4 History Paper II Marking Key.docx",
+    "path": "Exams/History/Marking Keys/Form 4 History Paper II Marking Key.docx",
+    "size": 29859,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fe3062015d",
+    "level": "msce"
+  },
+  {
+    "name": "JCE History Marking Key.docx",
+    "path": "Exams/History/Marking Keys/JCE History Marking Key.docx",
+    "size": 20859,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f68da8e6d4",
+    "level": "jce"
+  },
+  {
+    "name": "JCE History Mock Exam Marking Key.pdf",
+    "path": "Exams/History/Marking Keys/JCE History Mock Exam Marking Key.pdf",
+    "size": 255199,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f2f0e03bc2",
+    "level": "jce"
+  },
+  {
+    "name": "MSCE History Paper I Marking Key.pdf",
+    "path": "Exams/History/Marking Keys/MSCE History Paper I Marking Key.pdf",
+    "size": 355828,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f7b6112584",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE History Paper II Marking Key.pdf",
+    "path": "Exams/History/Marking Keys/MSCE History Paper II Marking Key.pdf",
+    "size": 523405,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f2e552c609",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE History Paper II Mock Exam (Final).pdf",
+    "path": "Exams/History/MSCE History Paper II Mock Exam (Final).pdf",
+    "size": 267255,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f64a5c49e2",
+    "level": "msce"
+  },
+  {
+    "name": "Northern Education Division MSCE History Paper I Mock Exam (Moderated).docx",
+    "path": "Exams/History/Northern Education Division MSCE History Paper I Mock Exam (Moderated).docx",
+    "size": 128100,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f5ada6e16e",
+    "level": "msce"
   },
   {
     "name": "2026 CEED HOME ECONOMICS I.pdf",
@@ -23884,6 +24150,15 @@
     "repo": "e-library-media-2",
     "bucket": 2,
     "id": "fcecb5f75a"
+  },
+  {
+    "name": "MSCE History Questions and Model Answers.pdf",
+    "path": "Q&A/History/MSCE History Questions and Model Answers.pdf",
+    "size": 68750948,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fdc91a526a",
+    "level": "msce"
   },
   {
     "name": "2002-2011 MATHS QUESTIONS & ANSWERS_1.pdf",
