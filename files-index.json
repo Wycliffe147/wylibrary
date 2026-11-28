@@ -4626,6 +4626,14 @@
     "level": "both"
   },
   {
+    "name": "Life Skills Teacher's Guide Form 4 (Excel and Succeed).pdf",
+    "path": "Books/Life Skills/Life Skills Teacher's Guide Form 4 (Excel and Succeed).pdf",
+    "size": 766165,
+    "repo": "e-library-media",
+    "bucket": 1,
+    "id": "f075218154"
+  },
+  {
     "name": "1300 Mathematics Formulas Handbook.pdf",
     "path": "Books/Mathematics/1300 Mathematics Formulas Handbook.pdf",
     "size": 7405956,
@@ -6399,6 +6407,15 @@
     "repo": "e-library-media-2",
     "bucket": 2,
     "id": "faef14c94a"
+  },
+  {
+    "name": "2025 Kugwetsa MSCE Agriculture Practical Mock Exam.pdf",
+    "path": "Exams/Agriculture/2025 Kugwetsa MSCE Agriculture Practical Mock Exam.pdf",
+    "size": 2193157,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "level": "msce",
+    "id": "fae98d788a"
   },
   {
     "name": "2025 MANEB JCE Agriculture Exam.pdf",
@@ -11109,6 +11126,15 @@
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f59e676c9f"
+  },
+  {
+    "name": "2024 Kugwetsa MSCE Chemistry Practical Mock Exam.pdf",
+    "path": "Exams/Chemistry/2024 Kugwetsa MSCE Chemistry Practical Mock Exam.pdf",
+    "size": 946578,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "level": "msce",
+    "id": "f7930fe612"
   },
   {
     "name": "2024 MSCE Chemistry Paper I Mock 1.pdf",
@@ -23315,14 +23341,6 @@
     "id": "f85d27a5a4"
   },
   {
-    "name": "90% KUGWETSA CHEMISTRY_1.pdf",
-    "path": "Q&A/Chemistry/90% KUGWETSA CHEMISTRY🔥_1.pdf",
-    "size": 133,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f4209352be"
-  },
-  {
     "name": "Chemistry Model Examination Questions and Answers.pdf",
     "path": "Q&A/Chemistry/Chemistry Model Examination Questions and Answers.pdf",
     "size": 1438212,
@@ -23363,6 +23381,15 @@
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f11313ada1"
+  },
+  {
+    "name": "Kugwetsa Target in Chemistry Theory (MANEB MSCE).pdf",
+    "path": "Q&A/Chemistry/Kugwetsa Target in Chemistry Theory (MANEB MSCE).pdf",
+    "size": 2176678,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "level": "msce",
+    "id": "f5d51e64a1"
   },
   {
     "name": "Model Chemistry Practical Questions and Answers (Sir James).pdf",
