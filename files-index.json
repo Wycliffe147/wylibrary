@@ -5651,16 +5651,8 @@
     "level": "msce"
   },
   {
-    "name": "2014 MANEB Additional maths PI.pdf",
-    "path": "Exams/Additional Mathematics/2014 MANEB Additional maths PI.pdf",
-    "size": 3919595,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f2d40f6d04"
-  },
-  {
-    "name": "2014 MANEB MSCE Additional Mathematics Paper 1.pdf",
-    "path": "Exams/Additional Mathematics/2014 MANEB MSCE Additional Mathematics Paper 1.pdf",
+    "name": "2014 MANEB MSCE Additional Mathematics Paper I (Alt).pdf",
+    "path": "Exams/Additional Mathematics/2014 MANEB MSCE Additional Mathematics Paper I (Alt).pdf",
     "size": 1740533,
     "repo": "e-library-media-2",
     "bucket": 2,
@@ -5670,8 +5662,35 @@
     "subject": "Additional Mathematics"
   },
   {
-    "name": "2019 MANEB MSCE Additional Mathematics Paper 2.pdf",
-    "path": "Exams/Additional Mathematics/2019 MANEB MSCE Additional Mathematics Paper 2.pdf",
+    "name": "2014 MANEB MSCE Additional Mathematics Paper I.pdf",
+    "path": "Exams/Additional Mathematics/2014 MANEB MSCE Additional Mathematics Paper I.pdf",
+    "size": 3919595,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f2d40f6d04",
+    "level": "msce"
+  },
+  {
+    "name": "2019 Karonga Catholic Diocese MSCE Additional Mathematics Paper I Mock Exam.pdf",
+    "path": "Exams/Additional Mathematics/2019 Karonga Catholic Diocese MSCE Additional Mathematics Paper I Mock Exam.pdf",
+    "size": 428863,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fa13a328da",
+    "level": "msce"
+  },
+  {
+    "name": "2019 Karonga Catholic Diocese MSCE Additional Mathematics Paper II Mock Exam.docx",
+    "path": "Exams/Additional Mathematics/2019 Karonga Catholic Diocese MSCE Additional Mathematics Paper II Mock Exam.docx",
+    "size": 58627,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fffc09c87d",
+    "level": "msce"
+  },
+  {
+    "name": "2019 MANEB MSCE Additional Mathematics Paper II.pdf",
+    "path": "Exams/Additional Mathematics/2019 MANEB MSCE Additional Mathematics Paper II.pdf",
     "size": 2220215,
     "repo": "e-library-media-2",
     "bucket": 2,
@@ -5681,68 +5700,112 @@
     "subject": "Additional Mathematics"
   },
   {
-    "name": "2022 MSCE Additional Mathematics.pdf",
-    "path": "Exams/Additional Mathematics/2022 MSCE ADDITIONAL MATHEMATICS.pdf",
+    "name": "2020 Maranatha MSCE Additional Mathematics Paper I Pre-Mock Exam.pdf",
+    "path": "Exams/Additional Mathematics/2020 Maranatha MSCE Additional Mathematics Paper I Pre-Mock Exam.pdf",
+    "size": 886007,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f84fe167a7",
+    "level": "msce"
+  },
+  {
+    "name": "2020 MSCE Additional Mathematics Paper I Mock Exam (September).pdf",
+    "path": "Exams/Additional Mathematics/2020 MSCE Additional Mathematics Paper I Mock Exam (September).pdf",
+    "size": 2020731,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f7fa789868",
+    "level": "msce"
+  },
+  {
+    "name": "2020-2023 MANEB MSCE Past Papers Compilation (Excel Academy).pdf",
+    "path": "Exams/Additional Mathematics/2020-2023 MANEB MSCE Past Papers Compilation (Excel Academy).pdf",
+    "size": 23560868,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "febe8f99c9",
+    "level": "msce"
+  },
+  {
+    "name": "2022 MANEB MSCE Additional Mathematics Paper (Alt).pdf",
+    "path": "Exams/Additional Mathematics/2022 MANEB MSCE Additional Mathematics Paper (Alt).pdf",
+    "size": 1407643,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f302d32494",
+    "level": "msce"
+  },
+  {
+    "name": "2022 MANEB MSCE Additional Mathematics Paper.pdf",
+    "path": "Exams/Additional Mathematics/2022 MANEB MSCE Additional Mathematics Paper.pdf",
     "size": 841833,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "f00c545f88"
+    "id": "f00c545f88",
+    "level": "msce"
   },
   {
-    "name": "2023 MANEB ADDITIONAL MATHEMATICS PAPER 2_112308.pdf",
-    "path": "Exams/Additional Mathematics/2023 MANEB ADDITIONAL MATHEMATICS PAPER 2_112308.pdf",
+    "name": "2023 MANEB MSCE Additional Mathematics Paper II.pdf",
+    "path": "Exams/Additional Mathematics/2023 MANEB MSCE Additional Mathematics Paper II.pdf",
     "size": 3456028,
     "repo": "e-library-media-4",
     "bucket": 2,
-    "id": "fa6c8c3b07"
+    "id": "fa6c8c3b07",
+    "level": "msce"
   },
   {
-    "name": "2024 ADDITIONAL MATHS mock 1 (1)_1.pdf",
-    "path": "Exams/Additional Mathematics/2024 ADDITIONAL MATHS mock 1 (1)_1.pdf",
-    "size": 331797,
-    "repo": "e-library-media-5",
-    "bucket": 2,
-    "id": "fc8b5dfb7b"
-  },
-  {
-    "name": "2024 CEED MSCE ADDITIONAL MATHEMATICS MOCK PAPER 1.pdf",
-    "path": "Exams/Additional Mathematics/2024 CEED MSCE ADDITIONAL MATHEMATICS MOCK PAPER 1.pdf",
+    "name": "2024 Central East Education Division MSCE Additional Mathematics Paper I Mock Exam.pdf",
+    "path": "Exams/Additional Mathematics/2024 Central East Education Division MSCE Additional Mathematics Paper I Mock Exam.pdf",
     "size": 884393,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f2db01ae1d"
+    "id": "f2db01ae1d",
+    "level": "msce"
   },
   {
-    "name": "2024 MANEB Additional Mathematics I_112130.pdf",
-    "path": "Exams/Additional Mathematics/2024 MANEB Additional Mathematics I_112130.pdf",
+    "name": "2024 MANEB MSCE Additional Mathematics Paper I.pdf",
+    "path": "Exams/Additional Mathematics/2024 MANEB MSCE Additional Mathematics Paper I.pdf",
     "size": 2410989,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f45ecaba8c"
+    "id": "f45ecaba8c",
+    "level": "msce"
   },
   {
-    "name": "2024 MSCE - ADDITIONAL MATHEMATICSS_112206.pdf",
-    "path": "Exams/Additional Mathematics/2024 MSCE - ADDITIONAL MATHEMATICSS_112206.pdf",
-    "size": 837495,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f25a932ce7"
-  },
-  {
-    "name": "2024 MSCE Additional Mathematics II_112233.pdf",
-    "path": "Exams/Additional Mathematics/2024 MSCE Additional Mathematics II_112233.pdf",
+    "name": "2024 MANEB MSCE Additional Mathematics Paper II.pdf",
+    "path": "Exams/Additional Mathematics/2024 MANEB MSCE Additional Mathematics Paper II.pdf",
     "size": 2756941,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fac4af0e42"
+    "id": "fac4af0e42",
+    "level": "msce"
   },
   {
-    "name": "2025 MSCE ADD MATH(I)_1.pdf",
-    "path": "Exams/Additional Mathematics/2025 MSCE ADD MATH(I)_1.pdf",
+    "name": "2024 MANEB MSCE Additional Mathematics Paper.pdf",
+    "path": "Exams/Additional Mathematics/2024 MANEB MSCE Additional Mathematics Paper.pdf",
+    "size": 837495,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f25a932ce7",
+    "level": "msce"
+  },
+  {
+    "name": "2024 MSCE Additional Mathematics Mock Exam Paper I.pdf",
+    "path": "Exams/Additional Mathematics/2024 MSCE Additional Mathematics Mock Exam Paper I.pdf",
+    "size": 331797,
+    "repo": "e-library-media-5",
+    "bucket": 2,
+    "id": "fc8b5dfb7b",
+    "level": "msce"
+  },
+  {
+    "name": "2025 MSCE Additional Mathematics Paper I Mock Exam 2.pdf",
+    "path": "Exams/Additional Mathematics/2025 MSCE Additional Mathematics Paper I Mock Exam 2.pdf",
     "size": 4238503,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fcf9fd9ff8"
+    "id": "fcf9fd9ff8",
+    "level": "msce"
   },
   {
     "name": "2025 MSCE Additional Mathematics Paper I Mock Exam.pdf",
@@ -5750,255 +5813,233 @@
     "size": 531353,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "ff9cc7def0"
+    "id": "ff9cc7def0",
+    "level": "msce"
   },
   {
-    "name": "2025 SWED MOCK ADD MATHS PAPER I FINAL_1.pdf",
-    "path": "Exams/Additional Mathematics/2025 SWED MOCK ADD MATHS PAPER I FINAL_1.pdf",
+    "name": "2025 South West Education Division MSCE Additional Mathematics Paper I Mock Exam.pdf",
+    "path": "Exams/Additional Mathematics/2025 South West Education Division MSCE Additional Mathematics Paper I Mock Exam.pdf",
     "size": 2245473,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f2eeee388e"
+    "id": "f2eeee388e",
+    "level": "msce"
   },
   {
-    "name": "2025 SWED MOCK ADD MATHS PAPER II FINAL.pdf",
-    "path": "Exams/Additional Mathematics/2025 SWED MOCK ADD MATHS PAPER II FINAL.pdf",
+    "name": "2025 South West Education Division MSCE Additional Mathematics Paper II Mock Exam.pdf",
+    "path": "Exams/Additional Mathematics/2025 South West Education Division MSCE Additional Mathematics Paper II Mock Exam.pdf",
     "size": 1284066,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f938c0ec7a"
+    "id": "f938c0ec7a",
+    "level": "msce"
   },
   {
-    "name": "2026 LL CITY ADD MATHS PI MOCK.pdf",
-    "path": "Exams/Additional Mathematics/2026 LL CITY ADD MATHS PI MOCK.pdf",
+    "name": "2026 Lilongwe City MSCE Additional Mathematics Paper I Mock Exam.pdf",
+    "path": "Exams/Additional Mathematics/2026 Lilongwe City MSCE Additional Mathematics Paper I Mock Exam.pdf",
     "size": 1249965,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fe36ce3473"
+    "id": "fe36ce3473",
+    "level": "msce"
   },
   {
-    "name": "2026 LL CITY ADD MATHS PII MOCK.pdf",
-    "path": "Exams/Additional Mathematics/2026 LL CITY ADD MATHS PII MOCK.pdf",
+    "name": "2026 Lilongwe City MSCE Additional Mathematics Paper II Mock Exam.pdf",
+    "path": "Exams/Additional Mathematics/2026 Lilongwe City MSCE Additional Mathematics Paper II Mock Exam.pdf",
     "size": 1253219,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f9aa5560aa"
+    "id": "f9aa5560aa",
+    "level": "msce"
   },
   {
-    "name": "Additional Mathematics 2022 Maneb.pdf",
-    "path": "Exams/Additional Mathematics/Additional Mathematics 2022 Maneb.pdf",
-    "size": 1407643,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f302d32494"
-  },
-  {
-    "name": "ADDITIONAL MATHEMATICS MOCK PAPER I.pdf",
-    "path": "Exams/Additional Mathematics/ADDITIONAL MATHEMATICS MOCK PAPER I.pdf",
-    "size": 684917,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f3ae52e9a7"
-  },
-  {
-    "name": "ADDITIONAL MATHEMATICS PAPER 1 QUESTION PAPER_1.docx",
-    "path": "Exams/Additional Mathematics/ADDITIONAL MATHEMATICS PAPER 1 QUESTION PAPER_1.docx",
-    "size": 690239,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f736d588b9"
-  },
-  {
-    "name": "ADDITIONAL MATHEMATICS PAPER 2 QUESTION PAPER.pdf",
-    "path": "Exams/Additional Mathematics/ADDITIONAL MATHEMATICS PAPER 2 QUESTION PAPER.......pdf",
-    "size": 289082,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "ff58388b1d"
-  },
-  {
-    "name": "ADDITIONAL MATHEMATICS PAPER 2 QUESTION PAPER_1.docx",
-    "path": "Exams/Additional Mathematics/ADDITIONAL MATHEMATICS PAPER 2 QUESTION PAPER_1.docx",
-    "size": 380447,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "ffac79ce38"
-  },
-  {
-    "name": "OCR Additional Mathematics Paper (Calculator).pdf",
-    "path": "Exams/Additional Mathematics/ADDITIONAL MATHEMATICS_Calculator_Oxford Cambridge and RSA Examinations.pdf",
-    "size": 356148,
-    "repo": "e-library-media-4",
-    "bucket": 2,
-    "id": "f31ae20555"
-  },
-  {
-    "name": "ADDITIONAL MATHEMATICS_Functions-Test.pdf",
-    "path": "Exams/Additional Mathematics/ADDITIONAL MATHEMATICS_Functions-Test.pdf",
-    "size": 499184,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fd7603546c"
-  },
-  {
-    "name": "Cambridge O Level Additional Mathematics Paper 1 (Non-Calculator).pdf",
-    "path": "Exams/Additional Mathematics/ADDITIONAL MATHEMATICS_Paper 1 Non-calculator_Cambridge O Level.pdf",
-    "size": 1313890,
-    "repo": "e-library-media-5",
-    "bucket": 2,
-    "id": "f1f09e7df2"
-  },
-  {
-    "name": "ADDITIONAL MATHS PAPER 1 - MAKINA CLASSES_1.pdf",
-    "path": "Exams/Additional Mathematics/ADDITIONAL MATHS PAPER 1 - MAKINA CLASSES_1.pdf",
-    "size": 759879,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fa9bafe765"
-  },
-  {
-    "name": "ADDITIONAL MATHS PAPER 2 - MAKINA CLASSES_1.pdf",
-    "path": "Exams/Additional Mathematics/ADDITIONAL MATHS PAPER 2 - MAKINA CLASSES_1.pdf",
-    "size": 746149,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "ff426646cf"
-  },
-  {
-    "name": "ADDITIONAL_MATHS_PAPER_1 (1) (1) (1)_1.docx",
-    "path": "Exams/Additional Mathematics/ADDITIONAL_MATHS_PAPER_1 (1) (1) (1)_1.docx",
-    "size": 464535,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f23f3713fc"
-  },
-  {
-    "name": "ADDMA edited PAPER I2020 MOCK SEPTRMBER CCOVID-19.pdf",
-    "path": "Exams/Additional Mathematics/ADDMA edited PAPER I2020 MOCK SEPTRMBER CCOVID-19 (2).pdf",
-    "size": 2020731,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f7fa789868"
-  },
-  {
-    "name": "All Subjects MANEB MSCE PAST PAST PAPERS FROM 2020 TO 2023 MSCE EXCEL ACADEMY.pdf",
-    "path": "Exams/Additional Mathematics/All Subjects MANEB MSCE PAST PAST PAPERS FROM 2020 TO 2023 MSCE EXCEL ACADEMY.pdf",
-    "size": 23560868,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "febe8f99c9"
-  },
-  {
-    "name": "KARONGA DIOCESE paper 2 2019.docx",
-    "path": "Exams/Additional Mathematics/KARONGA DIOCESE paper 2 2019.docx",
-    "size": 58627,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fffc09c87d"
-  },
-  {
-    "name": "MANEB 2019 Chief Examiners Report Paper 1 & 2.pdf",
-    "path": "Exams/Additional Mathematics/MANEB 2019 Chief Examiners Report Paper I & II.pdf",
-    "size": 542466,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f743824967"
-  },
-  {
-    "name": "Maranatha 2020 Pre-Mock Adma Paper 1.pdf",
-    "path": "Exams/Additional Mathematics/Maranatha 2020 Pre-Mock Adma paper I.pdf",
-    "size": 886007,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f84fe167a7"
-  },
-  {
-    "name": "March 2019 Karonga Diocese Adma Paper 1.pdf",
-    "path": "Exams/Additional Mathematics/March 2019 Karonga Diocese Adma paper I.pdf",
-    "size": 428863,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fa13a328da"
-  },
-  {
-    "name": "2023 MSCE ADDITIONAL MATHEMATICS CHIEF EXAMINERS' REPORT.pdf",
-    "path": "Exams/Additional Mathematics/Marking Keys/2023 MSCE ADDITIONAL MATHEMATICS CHIEF EXAMINERS' REPORT.pdf",
-    "size": 817800,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f936a3d313"
-  },
-  {
-    "name": "2025 MSCE - ADDITIONAL MATHEMATICS CHIEF EXAMINER'S REPORT_1.pdf",
-    "path": "Exams/Additional Mathematics/Marking Keys/2025 MSCE - ADDITIONAL MATHEMATICS CHIEF EXAMINER'S REPORT_1.pdf",
-    "size": 748253,
-    "repo": "e-library-media-3",
-    "bucket": 2,
-    "id": "f0adbd415d"
-  },
-  {
-    "name": "ADDITIONAL MATHEMATICS MARKING KEY I.docx",
-    "path": "Exams/Additional Mathematics/Marking Keys/ADDITIONAL MATHEMATICS MARKING KEY I.docx",
-    "size": 231657,
-    "repo": "e-library-media-4",
-    "bucket": 2,
-    "id": "fc412d044e"
-  },
-  {
-    "name": "ADDITIONAL MATHEMATICS MARKING KEY II.docx",
-    "path": "Exams/Additional Mathematics/Marking Keys/ADDITIONAL MATHEMATICS MARKING KEY II.docx",
-    "size": 155310,
-    "repo": "e-library-media-5",
-    "bucket": 2,
-    "id": "f876cee5d5"
-  },
-  {
-    "name": "ADDITIONAL MATHEMATICS PAPER 2 MARKING KEY_1.docx",
-    "path": "Exams/Additional Mathematics/Marking Keys/ADDITIONAL MATHEMATICS PAPER 2 MARKING KEY_1.docx",
-    "size": 45481,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f87d971d8d"
-  },
-  {
-    "name": "ADDITIONAL MATHEMATICS PAPER I PROVISIONAL MARKING KEY_1.docx",
-    "path": "Exams/Additional Mathematics/Marking Keys/ADDITIONAL MATHEMATICS PAPER I PROVISIONAL MARKING KEY_1.docx",
-    "size": 30924,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f914459bbf"
-  },
-  {
-    "name": "ADDITIONAL MATHEMATICS PAPER II MARKING KEY(1)_112659.docx",
-    "path": "Exams/Additional Mathematics/Marking Keys/ADDITIONAL MATHEMATICS PAPER II MARKING KEY(1)_112659.docx",
-    "size": 19568,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f0f084e6b8"
-  },
-  {
-    "name": "Marking Key ADDITIONAL MATHS PAPER II.docx",
-    "path": "Exams/Additional Mathematics/Marking Keys/Marking Key ADDITIONAL MATHS PAPER II.docx",
-    "size": 813581,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "ff5ec340ab"
-  },
-  {
-    "name": "SHED ADDITIONAL MATHEMATICS P1 MARKING KEY.docx",
-    "path": "Exams/Additional Mathematics/Marking Keys/SHED ADDITIONAL MATHEMATICS P1 MARKING KEY.docx",
-    "size": 296050,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5667c78b7"
-  },
-  {
-    "name": "SHED ADDITIONAL MATHS P2 2026.docx",
-    "path": "Exams/Additional Mathematics/SHED ADDITIONAL MATHS P2 2026.docx",
+    "name": "2026 SHED MSCE Additional Mathematics Paper II Mock Exam.docx",
+    "path": "Exams/Additional Mathematics/2026 SHED MSCE Additional Mathematics Paper II Mock Exam.docx",
     "size": 127173,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fe255d7ae1"
+    "id": "fe255d7ae1",
+    "level": "msce"
+  },
+  {
+    "name": "Cambridge O Level Additional Mathematics Paper I (Non-Calculator).pdf",
+    "path": "Exams/Additional Mathematics/Cambridge O Level Additional Mathematics Paper I (Non-Calculator).pdf",
+    "size": 1313890,
+    "repo": "e-library-media-5",
+    "bucket": 2,
+    "id": "f1f09e7df2",
+    "level": "msce"
+  },
+  {
+    "name": "Makina Classes MSCE Additional Mathematics Paper I.pdf",
+    "path": "Exams/Additional Mathematics/Makina Classes MSCE Additional Mathematics Paper I.pdf",
+    "size": 759879,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fa9bafe765",
+    "level": "msce"
+  },
+  {
+    "name": "Makina Classes MSCE Additional Mathematics Paper II.pdf",
+    "path": "Exams/Additional Mathematics/Makina Classes MSCE Additional Mathematics Paper II.pdf",
+    "size": 746149,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "ff426646cf",
+    "level": "msce"
+  },
+  {
+    "name": "2019 MANEB MSCE Additional Mathematics Chief Examiners Report.pdf",
+    "path": "Exams/Additional Mathematics/Marking Keys/2019 MANEB MSCE Additional Mathematics Chief Examiners Report.pdf",
+    "size": 542466,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f743824967",
+    "level": "msce"
+  },
+  {
+    "name": "2023 MANEB MSCE Additional Mathematics Chief Examiners Report.pdf",
+    "path": "Exams/Additional Mathematics/Marking Keys/2023 MANEB MSCE Additional Mathematics Chief Examiners Report.pdf",
+    "size": 817800,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f936a3d313",
+    "level": "msce"
+  },
+  {
+    "name": "2025 MANEB MSCE Additional Mathematics Chief Examiners Report.pdf",
+    "path": "Exams/Additional Mathematics/Marking Keys/2025 MANEB MSCE Additional Mathematics Chief Examiners Report.pdf",
+    "size": 748253,
+    "repo": "e-library-media-3",
+    "bucket": 2,
+    "id": "f0adbd415d",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Additional Mathematics Paper I Marking Key.docx",
+    "path": "Exams/Additional Mathematics/Marking Keys/2026 SHED MSCE Additional Mathematics Paper I Marking Key.docx",
+    "size": 296050,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f5667c78b7",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Additional Mathematics Paper I Marking Key.docx",
+    "path": "Exams/Additional Mathematics/Marking Keys/MSCE Additional Mathematics Paper I Marking Key.docx",
+    "size": 231657,
+    "repo": "e-library-media-4",
+    "bucket": 2,
+    "id": "fc412d044e",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Additional Mathematics Paper I Provisional Marking Key.docx",
+    "path": "Exams/Additional Mathematics/Marking Keys/MSCE Additional Mathematics Paper I Provisional Marking Key.docx",
+    "size": 30924,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f914459bbf",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Additional Mathematics Paper II Marking Key 2.docx",
+    "path": "Exams/Additional Mathematics/Marking Keys/MSCE Additional Mathematics Paper II Marking Key 2.docx",
+    "size": 45481,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f87d971d8d",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Additional Mathematics Paper II Marking Key 3.docx",
+    "path": "Exams/Additional Mathematics/Marking Keys/MSCE Additional Mathematics Paper II Marking Key 3.docx",
+    "size": 19568,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f0f084e6b8",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Additional Mathematics Paper II Marking Key 4.docx",
+    "path": "Exams/Additional Mathematics/Marking Keys/MSCE Additional Mathematics Paper II Marking Key 4.docx",
+    "size": 813581,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "ff5ec340ab",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Additional Mathematics Paper II Marking Key.docx",
+    "path": "Exams/Additional Mathematics/Marking Keys/MSCE Additional Mathematics Paper II Marking Key.docx",
+    "size": 155310,
+    "repo": "e-library-media-5",
+    "bucket": 2,
+    "id": "f876cee5d5",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Additional Mathematics Functions Topic Test.pdf",
+    "path": "Exams/Additional Mathematics/MSCE Additional Mathematics Functions Topic Test.pdf",
+    "size": 499184,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fd7603546c",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Additional Mathematics Paper I Mock Exam 2.docx",
+    "path": "Exams/Additional Mathematics/MSCE Additional Mathematics Paper I Mock Exam 2.docx",
+    "size": 464535,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f23f3713fc",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Additional Mathematics Paper I Mock Exam.pdf",
+    "path": "Exams/Additional Mathematics/MSCE Additional Mathematics Paper I Mock Exam.pdf",
+    "size": 684917,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f3ae52e9a7",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Additional Mathematics Paper I Question Paper.docx",
+    "path": "Exams/Additional Mathematics/MSCE Additional Mathematics Paper I Question Paper.docx",
+    "size": 690239,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f736d588b9",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Additional Mathematics Paper II Question Paper.docx",
+    "path": "Exams/Additional Mathematics/MSCE Additional Mathematics Paper II Question Paper.docx",
+    "size": 380447,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "ffac79ce38",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Additional Mathematics Paper II Question Paper.pdf",
+    "path": "Exams/Additional Mathematics/MSCE Additional Mathematics Paper II Question Paper.pdf",
+    "size": 289082,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "ff58388b1d",
+    "level": "msce"
+  },
+  {
+    "name": "OCR Additional Mathematics Calculator Paper.pdf",
+    "path": "Exams/Additional Mathematics/OCR Additional Mathematics Calculator Paper.pdf",
+    "size": 356148,
+    "repo": "e-library-media-4",
+    "bucket": 2,
+    "id": "f31ae20555",
+    "level": "msce"
   },
   {
     "name": "2013 MANEB JCE Agriculture Exam.pdf",
@@ -18894,409 +18935,224 @@
     "level": "msce"
   },
   {
-    "name": "2026 CEED HOME ECONOMICS I.pdf",
-    "path": "Exams/Home Economics/2026 CEED HOME ECONOMICS I.pdf",
+    "name": "2026 Central East Education Division MSCE Home Economics Paper I Mock Exam.pdf",
+    "path": "Exams/Home Economics/2026 Central East Education Division MSCE Home Economics Paper I Mock Exam.pdf",
     "size": 309967,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fa4a3e7126"
-  },
-  {
-    "name": "2026 CEED HOME ECONOMICS II.docx",
-    "path": "Exams/Home Economics/2026 CEED HOME ECONOMICS II.docx",
-    "size": 196818,
-    "repo": "e-library-media-3",
-    "bucket": 2,
-    "id": "fca2cd1f88"
-  },
-  {
-    "name": "2026 CEED HOME ECONOMICS II.pdf",
-    "path": "Exams/Home Economics/2026 CEED HOME ECONOMICS II.pdf",
-    "size": 475376,
-    "repo": "e-library-media-4",
-    "bucket": 2,
-    "id": "ffebe7922f"
-  },
-  {
-    "name": "2026 HOME ECONOMICS I.docx",
-    "path": "Exams/Home Economics/2026 HOME ECONOMICS I.docx",
-    "size": 528408,
-    "repo": "e-library-media-5",
-    "bucket": 2,
-    "id": "fa038d6e91"
-  },
-  {
-    "name": "2026 MANEB Home Economics Paper I.pdf",
-    "path": "Exams/Home Economics/2026 MANEB Home Economics Paper I.pdf",
-    "size": 1851886,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f53e8a4fa1"
-  },
-  {
-    "name": "CONFIDENTIAL Practical.docx",
-    "path": "Exams/Home Economics/CONFIDENTIAL Practical (2).docx",
-    "size": 15490,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f30606bdb3"
-  },
-  {
-    "name": "HEC 2.zip",
-    "path": "Exams/Home Economics/HEC 2.zip",
-    "size": 1188699,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "faad24a766"
-  },
-  {
-    "name": "HEC 5-3.zip",
-    "path": "Exams/Home Economics/HEC 5-3.zip",
-    "size": 1700336,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fc88aeb823"
-  },
-  {
-    "name": "HEC 6.zip",
-    "path": "Exams/Home Economics/HEC 6.zip",
-    "size": 1091032,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f86d5480ed"
-  },
-  {
-    "name": "HOME ECONOMICS CONFIDENTIAL.docx",
-    "path": "Exams/Home Economics/HOME ECONOMICS CONFIDENTIAL.docx",
-    "size": 15876,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f6c14ebb1c"
-  },
-  {
-    "name": "HOME ECONOMICS CONFIDENTIAL.docx.pdf",
-    "path": "Exams/Home Economics/HOME ECONOMICS CONFIDENTIAL.docx.pdf",
-    "size": 475380,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f8a32564dc"
-  },
-  {
-    "name": "Home Economics II 2026 SEED MOCK.doc",
-    "path": "Exams/Home Economics/Home Economics II 2026 SEED MOCK.doc",
-    "size": 151552,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f523a24974"
-  },
-  {
-    "name": "homic 1.pdf",
-    "path": "Exams/Home Economics/homic 1.pdf",
-    "size": 332749,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fb50a8ed14"
-  },
-  {
-    "name": "homic 2.pdf",
-    "path": "Exams/Home Economics/homic 2.pdf",
-    "size": 263214,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "ff8de542c7"
-  },
-  {
-    "name": "2026 CEED HOME ECONOMICS 1 PROVISIONAL MARKING KEY.pdf",
-    "path": "Exams/Home Economics/Marking Keys/2026 CEED HOME ECONOMICS 1 PROVISIONAL MARKING KEY.pdf",
-    "size": 581095,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f7bf0d6ba2"
-  },
-  {
-    "name": "HOME ECONOMICS SCORE SHEET.docx",
-    "path": "Exams/Home Economics/Marking Keys/HOME ECONOMICS SCORE SHEET.docx",
-    "size": 16506,
-    "repo": "e-library-media-3",
-    "bucket": 2,
-    "id": "ffb8406f0a"
-  },
-  {
-    "name": "Marking key shed Home Economics 2026.docx",
-    "path": "Exams/Home Economics/Marking Keys/Marking key shed Home Economics 2026.docx",
-    "size": 55900,
-    "repo": "e-library-media-4",
-    "bucket": 2,
-    "id": "f363f7ffd1"
-  },
-  {
-    "name": "SHED 2026 HOME ECONOMICS PAPER II confidential instructions.docx",
-    "path": "Exams/Home Economics/SHED 2026 HOME ECONOMICS PAPER II confidential instructions.docx",
-    "size": 15291,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f274640c84"
-  },
-  {
-    "name": "SHED 2026 HOME ECONOMICS PAPER II.docx",
-    "path": "Exams/Home Economics/SHED 2026 HOME ECONOMICS PAPER II.docx",
-    "size": 44500,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fa9a379c0b"
-  },
-  {
-    "name": "SHED CLOTHING AND TEXTILES P1.docx",
-    "path": "Exams/Home Economics/SHED CLOTHING AND TEXTILES P1.docx",
-    "size": 448653,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f877f6e9af"
-  },
-  {
-    "name": "SHED CLOTHING AND TEXTILES P2 CONFIDENTIAL.docx",
-    "path": "Exams/Home Economics/SHED CLOTHING AND TEXTILES P2 CONFIDENTIAL.docx",
-    "size": 37587,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f1ac7ab7fa"
-  },
-  {
-    "name": "SHED CLOTHING AND TEXTILES P2 FOR EXAMINER.docx",
-    "path": "Exams/Home Economics/SHED CLOTHING AND TEXTILES P2 FOR EXAMINER.docx",
-    "size": 42497,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe1ea529a1"
-  },
-  {
-    "name": "shed home economics p2 for examiner.docx",
-    "path": "Exams/Home Economics/shed home economics p2 for examiner.docx",
-    "size": 41877,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f9dec5db28"
-  },
-  {
-    "name": "shed paper 1 Home Economics 2026.docx",
-    "path": "Exams/Home Economics/shed paper 1 Home Economics 2026.docx",
-    "size": 72212,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f2ab0e0cb5"
-  },
-  {
-    "name": "1773338838863_SOCIAL AND LIFE SKILLS - 2026 BSS JCE CLUSTER MOCK.pdf",
-    "path": "Exams/Life Skills/1773338838863_SOCIAL AND LIFE SKILLS - 2026 BSS JCE CLUSTER MOCK.pdf",
-    "size": 805938,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f621a1583f"
-  },
-  {
-    "name": "2021 DIOCESAN MOCK LIFE SKILLS.pdf",
-    "path": "Exams/Life Skills/2021 DIOCESAN MOCK LIFE SKILLS.pdf",
-    "size": 229753,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fd02a27543"
-  },
-  {
-    "name": "2022 NED MOCK LIFE SKILLS MSCE.pdf",
-    "path": "Exams/Life Skills/2022 NED MOCK LIFE SKILLS MSCE.pdf",
-    "size": 241489,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f76e885fb7"
-  },
-  {
-    "name": "2023 JCE SOCIAL & LIFE SKILLS_1.pdf",
-    "path": "Exams/Life Skills/2023 JCE SOCIAL & LIFE SKILLS_1.pdf",
-    "size": 2618943,
-    "repo": "e-library-media-3",
-    "bucket": 2,
-    "id": "f4c985d56b"
-  },
-  {
-    "name": "2024 BT RURAL SOCIAL & LIFESKILLS P II _1.pdf",
-    "path": "Exams/Life Skills/2024 BT RURAL SOCIAL & LIFESKILLS P II _1.pdf",
-    "size": 163859,
-    "repo": "e-library-media-4",
-    "bucket": 2,
-    "id": "f8ac5714b4"
-  },
-  {
-    "name": "2025 JCE SOCIAL LSKILLS MANEB _1.pdf",
-    "path": "Exams/Life Skills/2025 JCE SOCIAL LSKILLS MANEB _1.pdf",
-    "size": 2087383,
-    "repo": "e-library-media-5",
-    "bucket": 2,
-    "id": "f565d1d620"
-  },
-  {
-    "name": "2026 SHED SOCIAL AND LIFE SKILL P1 Q P.docx",
-    "path": "Exams/Life Skills/2026 SHED SOCIAL AND LIFE SKILL P1 Q P.docx",
-    "size": 62472,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fc0c897002"
-  },
-  {
-    "name": "2026 SHED SOCIAL LIFE P2 MARKING_KEY.docx",
-    "path": "Exams/Life Skills/2026 SHED SOCIAL LIFE P2 MARKING_KEY.docx",
-    "size": 53636,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f11c3caf7c"
-  },
-  {
-    "name": "2026 SHED SOCIAL LIFE QUESTION PAPER II.docx",
-    "path": "Exams/Life Skills/2026 SHED SOCIAL LIFE QUESTION PAPER II.docx",
-    "size": 47542,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f6e7c5cf5e"
-  },
-  {
-    "name": "ARTS AND LIFE SKILLS 2025_1.pdf",
-    "path": "Exams/Life Skills/ARTS AND LIFE SKILLS 2025_1.pdf",
-    "size": 4614200,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f0e96d625a"
-  },
-  {
-    "name": "Central West Education Division MSCE Life Skills Paper II Mock Marking Scheme (2025).pdf",
-    "path": "Exams/Life Skills/Central West Education Division MSCE Life Skills Paper II Mock Marking Scheme (2025).pdf",
-    "size": 169892,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f40231fc46",
+    "id": "fa4a3e7126",
     "level": "msce"
   },
   {
-    "name": "FINAL NENO District Life Skills Mock Paper.pdf",
-    "path": "Exams/Life Skills/FINAL NENO District Life Skills Mock Paper.pdf",
-    "size": 135641,
-    "repo": "e-library-media",
+    "name": "2026 Central East Education Division MSCE Home Economics Paper II Mock Exam.docx",
+    "path": "Exams/Home Economics/2026 Central East Education Division MSCE Home Economics Paper II Mock Exam.docx",
+    "size": 196818,
+    "repo": "e-library-media-3",
     "bucket": 2,
-    "id": "fe481e4c91"
+    "id": "fca2cd1f88",
+    "level": "msce"
   },
   {
-    "name": "JCE SOCIAL AND LIFE SKILLS MOCK PAPER_1.pdf",
-    "path": "Exams/Life Skills/JCE SOCIAL AND LIFE SKILLS MOCK PAPER_1.pdf",
-    "size": 454575,
-    "repo": "e-library-media",
+    "name": "2026 Central East Education Division MSCE Home Economics Paper II Mock Exam.pdf",
+    "path": "Exams/Home Economics/2026 Central East Education Division MSCE Home Economics Paper II Mock Exam.pdf",
+    "size": 475376,
+    "repo": "e-library-media-4",
     "bucket": 2,
-    "id": "f53ac35190"
+    "id": "ffebe7922f",
+    "level": "msce"
   },
   {
-    "name": "LIFESKILLS_JCE_(2015)_1.pdf",
-    "path": "Exams/Life Skills/LIFESKILLS_JCE_(2015)_1.pdf",
+    "name": "2026 MANEB MSCE Home Economics Paper I.pdf",
+    "path": "Exams/Home Economics/2026 MANEB MSCE Home Economics Paper I.pdf",
+    "size": 1851886,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f53e8a4fa1",
+    "level": "msce"
+  },
+  {
+    "name": "2026 MSCE Home Economics Paper I Mock Exam.docx",
+    "path": "Exams/Home Economics/2026 MSCE Home Economics Paper I Mock Exam.docx",
+    "size": 528408,
+    "repo": "e-library-media-5",
+    "bucket": 2,
+    "id": "fa038d6e91",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SEED MSCE Home Economics Paper II Mock Exam.doc",
+    "path": "Exams/Home Economics/2026 SEED MSCE Home Economics Paper II Mock Exam.doc",
+    "size": 151552,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f523a24974",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Clothing and Textiles Paper I Mock Exam.docx",
+    "path": "Exams/Home Economics/2026 SHED MSCE Clothing and Textiles Paper I Mock Exam.docx",
+    "size": 448653,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f877f6e9af",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Clothing and Textiles Paper II Confidential Instructions.docx",
+    "path": "Exams/Home Economics/2026 SHED MSCE Clothing and Textiles Paper II Confidential Instructions.docx",
+    "size": 37587,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f1ac7ab7fa",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Home Economics Paper I Mock Exam.docx",
+    "path": "Exams/Home Economics/2026 SHED MSCE Home Economics Paper I Mock Exam.docx",
+    "size": 72212,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f2ab0e0cb5",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Home Economics Paper II Confidential Instructions.docx",
+    "path": "Exams/Home Economics/2026 SHED MSCE Home Economics Paper II Confidential Instructions.docx",
+    "size": 15291,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f274640c84",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Home Economics Paper II Mock Exam.docx",
+    "path": "Exams/Home Economics/2026 SHED MSCE Home Economics Paper II Mock Exam.docx",
+    "size": 44500,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fa9a379c0b",
+    "level": "msce"
+  },
+  {
+    "name": "JCE Home Economics Paper I Mock Exam.pdf",
+    "path": "Exams/Home Economics/JCE Home Economics Paper I Mock Exam.pdf",
+    "size": 332749,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fb50a8ed14",
+    "level": "jce"
+  },
+  {
+    "name": "JCE Home Economics Paper II Mock Exam.pdf",
+    "path": "Exams/Home Economics/JCE Home Economics Paper II Mock Exam.pdf",
+    "size": 263214,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "ff8de542c7",
+    "level": "jce"
+  },
+  {
+    "name": "2026 CEED MSCE Home Economics Paper I Provisional Marking Key.pdf",
+    "path": "Exams/Home Economics/Marking Keys/2026 CEED MSCE Home Economics Paper I Provisional Marking Key.pdf",
+    "size": 581095,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "f7bf0d6ba2",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Clothing and Textiles Paper II Examiner Instructions.docx",
+    "path": "Exams/Home Economics/Marking Keys/2026 SHED MSCE Clothing and Textiles Paper II Examiner Instructions.docx",
+    "size": 42497,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fe1ea529a1",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Home Economics Marking Key.docx",
+    "path": "Exams/Home Economics/Marking Keys/2026 SHED MSCE Home Economics Marking Key.docx",
+    "size": 55900,
+    "repo": "e-library-media-4",
+    "bucket": 2,
+    "id": "f363f7ffd1",
+    "level": "msce"
+  },
+  {
+    "name": "2026 SHED MSCE Home Economics Paper II Examiner Instructions.docx",
+    "path": "Exams/Home Economics/Marking Keys/2026 SHED MSCE Home Economics Paper II Examiner Instructions.docx",
+    "size": 41877,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f9dec5db28",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Home Economics Practical Score Sheet.docx",
+    "path": "Exams/Home Economics/Marking Keys/MSCE Home Economics Practical Score Sheet.docx",
+    "size": 16506,
+    "repo": "e-library-media-3",
+    "bucket": 2,
+    "id": "ffb8406f0a",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Home Economics Confidential Instructions.docx",
+    "path": "Exams/Home Economics/MSCE Home Economics Confidential Instructions.docx",
+    "size": 15876,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f6c14ebb1c",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Home Economics Confidential Instructions.pdf",
+    "path": "Exams/Home Economics/MSCE Home Economics Confidential Instructions.pdf",
+    "size": 475380,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f8a32564dc",
+    "level": "msce"
+  },
+  {
+    "name": "MSCE Home Economics Practical Confidential Instructions.docx",
+    "path": "Exams/Home Economics/MSCE Home Economics Practical Confidential Instructions.docx",
+    "size": 15490,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f30606bdb3",
+    "level": "msce"
+  },
+  {
+    "name": "2015 MANEB JCE Life Skills Paper.pdf",
+    "path": "Exams/Life Skills/2015 MANEB JCE Life Skills Paper.pdf",
     "size": 1967831,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f53d7e001d"
+    "id": "f53d7e001d",
+    "level": "jce"
   },
   {
-    "name": "JCE SOCIAL & LIFE PROVISIONAL MARKING KEY.docx",
-    "path": "Exams/Life Skills/Marking Keys/JCE SOCIAL & LIFE PROVISIONAL MARKING KEY.docx",
-    "size": 17235,
-    "repo": "e-library-media-3",
+    "name": "2020 St Marys Girls Secondary School MSCE Life Skills Mock Exam.pdf",
+    "path": "Exams/Life Skills/2020 St Marys Girls Secondary School MSCE Life Skills Mock Exam.pdf",
+    "size": 552200,
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fa8e29d80e"
+    "id": "ff8d83ab37",
+    "level": "msce"
   },
   {
-    "name": "soc-lif f1 mkey.doc",
-    "path": "Exams/Life Skills/Marking Keys/soc-lif f1 mkey.doc",
-    "size": 22381,
+    "name": "2021 Diocesan MSCE Life Skills Mock Exam.pdf",
+    "path": "Exams/Life Skills/2021 Diocesan MSCE Life Skills Mock Exam.pdf",
+    "size": 229753,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fceeca6559"
+    "id": "fd02a27543",
+    "level": "msce"
   },
   {
-    "name": "soc-lif f2 mkey.docx",
-    "path": "Exams/Life Skills/Marking Keys/soc-lif f2 mkey.docx",
-    "size": 24363,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fc292defd6"
-  },
-  {
-    "name": "soc-lif f3 mkey.doc",
-    "path": "Exams/Life Skills/Marking Keys/soc-lif f3 mkey.doc",
-    "size": 16704,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f1605c390a"
-  },
-  {
-    "name": "soc-lif f4 p1 mkey.docx",
-    "path": "Exams/Life Skills/Marking Keys/soc-lif f4 p1 mkey.docx",
-    "size": 15795,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f7fcc58546"
-  },
-  {
-    "name": "soc-lif f4 p2 mkey.docx",
-    "path": "Exams/Life Skills/Marking Keys/soc-lif f4 p2 mkey.docx",
-    "size": 32396,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f30cee7412"
-  },
-  {
-    "name": "Social & Life Skills I 2026 SEED PROVISIONAL MARKING KEY.docx",
-    "path": "Exams/Life Skills/Marking Keys/Social & Life Skills I 2026 SEED PROVISIONAL MARKING KEY.docx",
-    "size": 11949,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fbdf6a3959"
-  },
-  {
-    "name": "SOCIAL & LIFE SKILLS MARKING KEY_1.pdf",
-    "path": "Exams/Life Skills/Marking Keys/SOCIAL & LIFE SKILLS MARKING KEY_1.pdf",
-    "size": 557870,
-    "repo": "e-library-media-4",
-    "bucket": 2,
-    "id": "f90c47c273"
-  },
-  {
-    "name": "SOCIAL AND LIFE SKILLS MARKING KEY 1.docx",
-    "path": "Exams/Life Skills/Marking Keys/SOCIAL AND LIFE SKILLS MARKING KEY 1.docx",
-    "size": 15274,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f99d9dc855"
-  },
-  {
-    "name": "SOCIAL AND LIFE SKILLS MARKING KEY 2.docx",
-    "path": "Exams/Life Skills/Marking Keys/SOCIAL AND LIFE SKILLS MARKING KEY 2.docx",
-    "size": 22131,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fab8c8e52a"
-  },
-  {
-    "name": "Social n Life Skills I 2026 SEED 2026 PROVISIONAL MARKING SChe.doc",
-    "path": "Exams/Life Skills/Marking Keys/Social n Life Skills I 2026 SEED 2026 PROVISIONAL MARKING SChe.doc",
-    "size": 27648,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fb046d6301"
-  },
-  {
-    "name": "SOCIAL STUDIES MARKING KEY.docx",
-    "path": "Exams/Life Skills/Marking Keys/SOCIAL STUDIES MARKING KEY.docx",
-    "size": 18447,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe9f8687a3"
-  },
-  {
-    "name": "Michiru View Secondary School MSCE Life Skills Mock Exam (2022).pdf",
-    "path": "Exams/Life Skills/Michiru View Secondary School MSCE Life Skills Mock Exam (2022).pdf",
+    "name": "2022 Michiru View Secondary School MSCE Life Skills Mock Exam.pdf",
+    "path": "Exams/Life Skills/2022 Michiru View Secondary School MSCE Life Skills Mock Exam.pdf",
     "size": 348991,
     "repo": "e-library-media-2",
     "bucket": 2,
@@ -19304,93 +19160,310 @@
     "level": "msce"
   },
   {
-    "name": "soc-lif f1.doc",
-    "path": "Exams/Life Skills/soc-lif f1.doc",
-    "size": 48635,
+    "name": "2022 Neno District MSCE Life Skills Mock Exam.pdf",
+    "path": "Exams/Life Skills/2022 Neno District MSCE Life Skills Mock Exam.pdf",
+    "size": 135641,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f5b887fd85"
+    "id": "fe481e4c91",
+    "level": "msce"
   },
   {
-    "name": "soc-lif f2.docx",
-    "path": "Exams/Life Skills/soc-lif f2.docx",
-    "size": 31685,
+    "name": "2022 Northern Education Division MSCE Life Skills Mock Exam.pdf",
+    "path": "Exams/Life Skills/2022 Northern Education Division MSCE Life Skills Mock Exam.pdf",
+    "size": 241489,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f6ed103b71"
+    "id": "f76e885fb7",
+    "level": "msce"
   },
   {
-    "name": "soc-lif f3.doc",
-    "path": "Exams/Life Skills/soc-lif f3.doc",
-    "size": 31751,
+    "name": "2023 MANEB JCE Social and Life Skills Paper.pdf",
+    "path": "Exams/Life Skills/2023 MANEB JCE Social and Life Skills Paper.pdf",
+    "size": 2618943,
+    "repo": "e-library-media-3",
+    "bucket": 2,
+    "id": "f4c985d56b",
+    "level": "jce"
+  },
+  {
+    "name": "2024 Blantyre Rural JCE Social and Life Skills Paper II Mock Exam.pdf",
+    "path": "Exams/Life Skills/2024 Blantyre Rural JCE Social and Life Skills Paper II Mock Exam.pdf",
+    "size": 163859,
+    "repo": "e-library-media-4",
+    "bucket": 2,
+    "id": "f8ac5714b4",
+    "level": "jce"
+  },
+  {
+    "name": "2025 Arts and Life Skills Examination Paper.pdf",
+    "path": "Exams/Life Skills/2025 Arts and Life Skills Examination Paper.pdf",
+    "size": 4614200,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f767b98d0a"
+    "id": "f0e96d625a",
+    "level": "jce"
   },
   {
-    "name": "soc-lif f4 p1.docx",
-    "path": "Exams/Life Skills/soc-lif f4 p1.docx",
-    "size": 37594,
-    "repo": "e-library-media",
+    "name": "2025 MANEB JCE Social and Life Skills Paper.pdf",
+    "path": "Exams/Life Skills/2025 MANEB JCE Social and Life Skills Paper.pdf",
+    "size": 2087383,
+    "repo": "e-library-media-5",
     "bucket": 2,
-    "id": "f311a46289"
+    "id": "f565d1d620",
+    "level": "jce"
   },
   {
-    "name": "soc-lif f4 p2.docx",
-    "path": "Exams/Life Skills/soc-lif f4 p2.docx",
-    "size": 23915,
-    "repo": "e-library-media",
+    "name": "2026 BSS Cluster JCE Social and Life Skills Mock Exam.pdf",
+    "path": "Exams/Life Skills/2026 BSS Cluster JCE Social and Life Skills Mock Exam.pdf",
+    "size": 805938,
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fd1fee756a"
+    "id": "f621a1583f",
+    "level": "jce"
   },
   {
-    "name": "SOCIAL AND LIFE SKILL SHED MOCK P1 QUESTION PAPER braille.docx",
-    "path": "Exams/Life Skills/SOCIAL AND LIFE SKILL SHED MOCK P1 QUESTION PAPER braille.docx",
+    "name": "2026 SHED JCE Social and Life Skills Paper I Mock Exam (Braille).docx",
+    "path": "Exams/Life Skills/2026 SHED JCE Social and Life Skills Paper I Mock Exam (Braille).docx",
     "size": 33949,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f3a660486b"
+    "id": "f3a660486b",
+    "level": "jce"
   },
   {
-    "name": "SOCIAL AND LIFE SKILL SHED MOCK P1 QUESTION PAPER HI.docx",
-    "path": "Exams/Life Skills/SOCIAL AND LIFE SKILL SHED MOCK P1 QUESTION PAPER HI.docx",
+    "name": "2026 SHED JCE Social and Life Skills Paper I Mock Exam (Hearing Impaired).docx",
+    "path": "Exams/Life Skills/2026 SHED JCE Social and Life Skills Paper I Mock Exam (Hearing Impaired).docx",
     "size": 59088,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f5a4afc310"
+    "id": "f5a4afc310",
+    "level": "jce"
   },
   {
-    "name": "SOCIAL AND LIFE SKILLS PAPER 1.docx",
-    "path": "Exams/Life Skills/SOCIAL AND LIFE SKILLS PAPER 1.docx",
-    "size": 112937,
+    "name": "2026 SHED JCE Social and Life Skills Paper I Mock Exam.docx",
+    "path": "Exams/Life Skills/2026 SHED JCE Social and Life Skills Paper I Mock Exam.docx",
+    "size": 62472,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fafc68d6c1"
+    "id": "fc0c897002",
+    "level": "jce"
   },
   {
-    "name": "SOCIAL AND LIFE SKILLS PAPER 2.docx",
-    "path": "Exams/Life Skills/SOCIAL AND LIFE SKILLS PAPER 2.docx",
-    "size": 88006,
+    "name": "2026 SHED JCE Social and Life Skills Paper II Mock Exam.docx",
+    "path": "Exams/Life Skills/2026 SHED JCE Social and Life Skills Paper II Mock Exam.docx",
+    "size": 47542,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f1796c501f"
+    "id": "f6e7c5cf5e",
+    "level": "jce"
   },
   {
-    "name": "SOCIAL AND LIFE SKILLS_1.pdf",
-    "path": "Exams/Life Skills/SOCIAL AND LIFE SKILLS_1.pdf",
+    "name": "Form 1 Social and Life Skills Exam.doc",
+    "path": "Exams/Life Skills/Form 1 Social and Life Skills Exam.doc",
+    "size": 48635,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f5b887fd85",
+    "level": "jce"
+  },
+  {
+    "name": "Form 2 Social and Life Skills Exam.docx",
+    "path": "Exams/Life Skills/Form 2 Social and Life Skills Exam.docx",
+    "size": 31685,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f6ed103b71",
+    "level": "jce"
+  },
+  {
+    "name": "Form 3 Social and Life Skills Exam.doc",
+    "path": "Exams/Life Skills/Form 3 Social and Life Skills Exam.doc",
+    "size": 31751,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f767b98d0a",
+    "level": "msce"
+  },
+  {
+    "name": "Form 4 Life Skills Paper I Exam.docx",
+    "path": "Exams/Life Skills/Form 4 Life Skills Paper I Exam.docx",
+    "size": 37594,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f311a46289",
+    "level": "msce"
+  },
+  {
+    "name": "Form 4 Life Skills Paper II Exam.docx",
+    "path": "Exams/Life Skills/Form 4 Life Skills Paper II Exam.docx",
+    "size": 23915,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fd1fee756a",
+    "level": "msce"
+  },
+  {
+    "name": "JCE Social and Life Skills Mock Exam 2.pdf",
+    "path": "Exams/Life Skills/JCE Social and Life Skills Mock Exam 2.pdf",
     "size": 453147,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f23b4d1fef"
+    "id": "f23b4d1fef",
+    "level": "jce"
   },
   {
-    "name": "St Marys Girls Secondary School MSCE Life Skills Mock Exam (2020).pdf",
-    "path": "Exams/Life Skills/St Marys Girls Secondary School MSCE Life Skills Mock Exam (2020).pdf",
-    "size": 552200,
+    "name": "JCE Social and Life Skills Mock Exam.pdf",
+    "path": "Exams/Life Skills/JCE Social and Life Skills Mock Exam.pdf",
+    "size": 454575,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f53ac35190",
+    "level": "jce"
+  },
+  {
+    "name": "JCE Social and Life Skills Paper I Mock Exam 2.docx",
+    "path": "Exams/Life Skills/JCE Social and Life Skills Paper I Mock Exam 2.docx",
+    "size": 112937,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fafc68d6c1",
+    "level": "jce"
+  },
+  {
+    "name": "JCE Social and Life Skills Paper II Mock Exam 2.docx",
+    "path": "Exams/Life Skills/JCE Social and Life Skills Paper II Mock Exam 2.docx",
+    "size": 88006,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f1796c501f",
+    "level": "jce"
+  },
+  {
+    "name": "2025 Central West Education Division MSCE Life Skills Paper II Mock Marking Scheme.pdf",
+    "path": "Exams/Life Skills/Marking Keys/2025 Central West Education Division MSCE Life Skills Paper II Mock Marking Scheme.pdf",
+    "size": 169892,
     "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "ff8d83ab37",
+    "id": "f40231fc46",
     "level": "msce"
+  },
+  {
+    "name": "2026 SEED JCE Social and Life Skills Paper I Provisional Marking Key.docx",
+    "path": "Exams/Life Skills/Marking Keys/2026 SEED JCE Social and Life Skills Paper I Provisional Marking Key.docx",
+    "size": 11949,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fbdf6a3959",
+    "level": "jce"
+  },
+  {
+    "name": "2026 SEED JCE Social and Life Skills Paper I Provisional Marking Scheme.doc",
+    "path": "Exams/Life Skills/Marking Keys/2026 SEED JCE Social and Life Skills Paper I Provisional Marking Scheme.doc",
+    "size": 27648,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fb046d6301",
+    "level": "jce"
+  },
+  {
+    "name": "2026 SHED JCE Social and Life Skills Paper II Marking Key.docx",
+    "path": "Exams/Life Skills/Marking Keys/2026 SHED JCE Social and Life Skills Paper II Marking Key.docx",
+    "size": 53636,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f11c3caf7c",
+    "level": "jce"
+  },
+  {
+    "name": "Form 1 Social and Life Skills Marking Key.doc",
+    "path": "Exams/Life Skills/Marking Keys/Form 1 Social and Life Skills Marking Key.doc",
+    "size": 22381,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fceeca6559",
+    "level": "jce"
+  },
+  {
+    "name": "Form 2 Social and Life Skills Marking Key.docx",
+    "path": "Exams/Life Skills/Marking Keys/Form 2 Social and Life Skills Marking Key.docx",
+    "size": 24363,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fc292defd6",
+    "level": "jce"
+  },
+  {
+    "name": "Form 3 Social and Life Skills Marking Key.doc",
+    "path": "Exams/Life Skills/Marking Keys/Form 3 Social and Life Skills Marking Key.doc",
+    "size": 16704,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f1605c390a",
+    "level": "msce"
+  },
+  {
+    "name": "Form 4 Life Skills Paper I Marking Key.docx",
+    "path": "Exams/Life Skills/Marking Keys/Form 4 Life Skills Paper I Marking Key.docx",
+    "size": 15795,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f7fcc58546",
+    "level": "msce"
+  },
+  {
+    "name": "Form 4 Life Skills Paper II Marking Key.docx",
+    "path": "Exams/Life Skills/Marking Keys/Form 4 Life Skills Paper II Marking Key.docx",
+    "size": 32396,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f30cee7412",
+    "level": "msce"
+  },
+  {
+    "name": "JCE Social and Life Skills Marking Key.pdf",
+    "path": "Exams/Life Skills/Marking Keys/JCE Social and Life Skills Marking Key.pdf",
+    "size": 557870,
+    "repo": "e-library-media-4",
+    "bucket": 2,
+    "id": "f90c47c273",
+    "level": "jce"
+  },
+  {
+    "name": "JCE Social and Life Skills Paper I Marking Key.docx",
+    "path": "Exams/Life Skills/Marking Keys/JCE Social and Life Skills Paper I Marking Key.docx",
+    "size": 15274,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f99d9dc855",
+    "level": "jce"
+  },
+  {
+    "name": "JCE Social and Life Skills Paper II Marking Key.docx",
+    "path": "Exams/Life Skills/Marking Keys/JCE Social and Life Skills Paper II Marking Key.docx",
+    "size": 22131,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fab8c8e52a",
+    "level": "jce"
+  },
+  {
+    "name": "JCE Social and Life Skills Provisional Marking Key.docx",
+    "path": "Exams/Life Skills/Marking Keys/JCE Social and Life Skills Provisional Marking Key.docx",
+    "size": 17235,
+    "repo": "e-library-media-3",
+    "bucket": 2,
+    "id": "fa8e29d80e",
+    "level": "jce"
+  },
+  {
+    "name": "Social Studies Marking Key.docx",
+    "path": "Exams/Life Skills/Marking Keys/Social Studies Marking Key.docx",
+    "size": 18447,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fe9f8687a3",
+    "level": "jce"
   },
   {
     "name": "2000 MSCE Mathematics Paper II.pdf",
@@ -23121,104 +23194,170 @@
     "level": "msce"
   },
   {
-    "name": "2019_SOCIAL_PP2_MANEB.pdf",
-    "path": "Exams/Social Studies/2019_SOCIAL_PP2_MANEB.pdf",
+    "name": "2019 MANEB JCE Social Studies Paper II.pdf",
+    "path": "Exams/Social Studies/2019 MANEB JCE Social Studies Paper II.pdf",
     "size": 1480756,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f17193f9f5"
+    "id": "f17193f9f5",
+    "level": "jce"
   },
   {
-    "name": "2024 St. Mary's Post Mock SOCIAL 2.pdf",
-    "path": "Exams/Social Studies/2024 St. Mary's Post Mock SOCIAL 2.pdf",
-    "size": 297313,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "f7a8d73495"
-  },
-  {
-    "name": "2024_maranatha_Social_and_life_skills_mock_paper_II.pdf",
-    "path": "Exams/Social Studies/2024_maranatha_Social_and_life_skills_mock_paper_II__(1).pdf",
+    "name": "2024 Maranatha JCE Social and Life Skills Paper II Mock Exam.pdf",
+    "path": "Exams/Social Studies/2024 Maranatha JCE Social and Life Skills Paper II Mock Exam.pdf",
     "size": 2139968,
     "repo": "e-library-media-4",
     "bucket": 2,
-    "id": "fbf0017f46"
+    "id": "fbf0017f46",
+    "level": "jce"
   },
   {
-    "name": "2024_SHED_MOCK_Social_&_Life_Skills_-_Paper_I.pdf",
-    "path": "Exams/Social Studies/2024_SHED_MOCK_Social_&_Life_Skills_-_Paper_I.pdf",
+    "name": "2024 SEED MSCE Social Studies Paper I Mock Exam.pdf",
+    "path": "Exams/Social Studies/2024 SEED MSCE Social Studies Paper I Mock Exam.pdf",
+    "size": 420781,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fe9a5d5929",
+    "level": "msce"
+  },
+  {
+    "name": "2024 SEED MSCE Social Studies Paper II Mock Exam.pdf",
+    "path": "Exams/Social Studies/2024 SEED MSCE Social Studies Paper II Mock Exam.pdf",
+    "size": 422263,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "ffcd3278f3",
+    "level": "msce"
+  },
+  {
+    "name": "2024 SHED JCE Social and Life Skills Paper I Mock Exam.pdf",
+    "path": "Exams/Social Studies/2024 SHED JCE Social and Life Skills Paper I Mock Exam.pdf",
     "size": 240908,
     "repo": "e-library-media-3",
     "bucket": 2,
-    "id": "fab268c188"
+    "id": "fab268c188",
+    "level": "jce"
   },
   {
-    "name": "2025 SCWED Mock SOC-LIFE_II.pdf",
-    "path": "Exams/Social Studies/2025 SCWED Mock SOC-LIFE_II.pdf",
-    "size": 492376,
-    "repo": "e-library-media-5",
+    "name": "2024 St Marys Secondary School JCE Social Studies Paper II Post Mock Exam.pdf",
+    "path": "Exams/Social Studies/2024 St Marys Secondary School JCE Social Studies Paper II Post Mock Exam.pdf",
+    "size": 297313,
+    "repo": "e-library-media-2",
     "bucket": 2,
-    "id": "fa0edb6394"
+    "id": "f7a8d73495",
+    "level": "jce"
   },
   {
-    "name": "2025 SEED SOC MOCK PII.doc",
-    "path": "Exams/Social Studies/2025 SEED SOC MOCK PII.doc",
-    "size": 77824,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5122a4d73"
-  },
-  {
-    "name": "2025 SEED_SOCIAL MOCK PIF.doc",
-    "path": "Exams/Social Studies/2025 SEED_SOCIAL MOCK PIF.doc",
-    "size": 104448,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "ff51812146"
-  },
-  {
-    "name": "2025 St. Mary's Post Mock SOCIAL 1.pdf",
-    "path": "Exams/Social Studies/2025 St. Mary's Post Mock SOCIAL 1.pdf",
-    "size": 548762,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fe239e59a8"
-  },
-  {
-    "name": "2025_MARANATHA_ACADEMY_FORM_4_MOCK_2_SOCIAL_STUDIES_PI.pdf",
-    "path": "Exams/Social Studies/2025_MARANATHA_ACADEMY_FORM_4_MOCK_2_SOCIAL_STUDIES_PI_(1).pdf",
+    "name": "2025 Maranatha Form 4 Social Studies Paper I Mock Exam 2.pdf",
+    "path": "Exams/Social Studies/2025 Maranatha Form 4 Social Studies Paper I Mock Exam 2.pdf",
     "size": 1889884,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f89d3211ff"
+    "id": "f89d3211ff",
+    "level": "msce"
   },
   {
-    "name": "2026 CEED SOCIAL AND LIFE SKILLS I.pdf",
-    "path": "Exams/Social Studies/2026 CEED SOCIAL AND LIFE SKILLS I.pdf",
+    "name": "2025 SCWED JCE Social and Life Skills Paper II Mock Exam.pdf",
+    "path": "Exams/Social Studies/2025 SCWED JCE Social and Life Skills Paper II Mock Exam.pdf",
+    "size": 492376,
+    "repo": "e-library-media-5",
+    "bucket": 2,
+    "id": "fa0edb6394",
+    "level": "jce"
+  },
+  {
+    "name": "2025 SEED JCE Social Studies Paper I Mock Exam.doc",
+    "path": "Exams/Social Studies/2025 SEED JCE Social Studies Paper I Mock Exam.doc",
+    "size": 104448,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "ff51812146",
+    "level": "jce"
+  },
+  {
+    "name": "2025 SEED JCE Social Studies Paper II Mock Exam.doc",
+    "path": "Exams/Social Studies/2025 SEED JCE Social Studies Paper II Mock Exam.doc",
+    "size": 77824,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f5122a4d73",
+    "level": "jce"
+  },
+  {
+    "name": "2025 SHED JCE Social and Life Skills Paper I Mock Exam (Edited).docx",
+    "path": "Exams/Social Studies/2025 SHED JCE Social and Life Skills Paper I Mock Exam (Edited).docx",
+    "size": 60536,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f1a5690282",
+    "level": "jce"
+  },
+  {
+    "name": "2025 SHED JCE Social and Life Skills Paper I Mock Exam (Edited).pdf",
+    "path": "Exams/Social Studies/2025 SHED JCE Social and Life Skills Paper I Mock Exam (Edited).pdf",
+    "size": 322864,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f6e19ab064",
+    "level": "jce"
+  },
+  {
+    "name": "2025 SHED JCE Social and Life Skills Paper II Mock Exam (Edited).docx",
+    "path": "Exams/Social Studies/2025 SHED JCE Social and Life Skills Paper II Mock Exam (Edited).docx",
+    "size": 48969,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fb166cc3ab",
+    "level": "jce"
+  },
+  {
+    "name": "2025 SHED JCE Social and Life Skills Paper II Mock Exam (Edited).pdf",
+    "path": "Exams/Social Studies/2025 SHED JCE Social and Life Skills Paper II Mock Exam (Edited).pdf",
+    "size": 236414,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f62cec4978",
+    "level": "jce"
+  },
+  {
+    "name": "2025 St Marys Secondary School JCE Social Studies Paper I Post Mock Exam.pdf",
+    "path": "Exams/Social Studies/2025 St Marys Secondary School JCE Social Studies Paper I Post Mock Exam.pdf",
+    "size": 548762,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fe239e59a8",
+    "level": "jce"
+  },
+  {
+    "name": "2026 Central East Education Division JCE Social and Life Skills Paper I Mock Exam.pdf",
+    "path": "Exams/Social Studies/2026 Central East Education Division JCE Social and Life Skills Paper I Mock Exam.pdf",
     "size": 561607,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f1f899d766"
+    "id": "f1f899d766",
+    "level": "jce"
   },
   {
-    "name": "2026 CEED SOCIAL AND LIFE SKILLS II.pdf",
-    "path": "Exams/Social Studies/2026 CEED SOCIAL AND LIFE SKILLS II.pdf",
+    "name": "2026 Central East Education Division JCE Social and Life Skills Paper II Mock Exam.pdf",
+    "path": "Exams/Social Studies/2026 Central East Education Division JCE Social and Life Skills Paper II Mock Exam.pdf",
     "size": 466949,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fc7384559b"
+    "id": "fc7384559b",
+    "level": "jce"
   },
   {
-    "name": "2026 CWED SOCIAL P1-2025-2026.docx",
-    "path": "Exams/Social Studies/2026 CWED SOCIAL P1-2025-2026.docx",
+    "name": "2026 Central West Education Division JCE Social Studies Paper I Mock Exam.docx",
+    "path": "Exams/Social Studies/2026 Central West Education Division JCE Social Studies Paper I Mock Exam.docx",
     "size": 59630,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f3ad51c0c0"
+    "id": "f3ad51c0c0",
+    "level": "jce"
   },
   {
-    "name": "2026 Loyola Jesuit Secondary School JCE Social Studies Mock.docx",
-    "path": "Exams/Social Studies/2026 Loyola Jesuit Secondary School JCE Social Studies Mock.docx",
+    "name": "2026 Loyola Jesuit Secondary School JCE Social Studies Mock Exam.docx",
+    "path": "Exams/Social Studies/2026 Loyola Jesuit Secondary School JCE Social Studies Mock Exam.docx",
     "size": 28609,
     "repo": "e-library-media-2",
     "bucket": 2,
@@ -23228,244 +23367,211 @@
     "subject": "Social Studies"
   },
   {
-    "name": "2026 MANEB Social and Life Skills Paper I.pdf",
-    "path": "Exams/Social Studies/2026 MANEB Social and Life Skills Paper I.pdf",
+    "name": "2026 MANEB JCE Social and Life Skills Paper I.pdf",
+    "path": "Exams/Social Studies/2026 MANEB JCE Social and Life Skills Paper I.pdf",
     "size": 2282211,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fe3e2a540a"
+    "id": "fe3e2a540a",
+    "level": "jce"
   },
   {
-    "name": "2026 MANEB Social and Life Skills Paper II.pdf",
-    "path": "Exams/Social Studies/2026 MANEB Social and Life Skills Paper II.pdf",
+    "name": "2026 MANEB JCE Social and Life Skills Paper II.pdf",
+    "path": "Exams/Social Studies/2026 MANEB JCE Social and Life Skills Paper II.pdf",
     "size": 1444859,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "f36b0a347e"
+    "id": "f36b0a347e",
+    "level": "jce"
   },
   {
-    "name": "2026 SHED SOCIAL AND LIFE SKILL P1 MS.docx",
-    "path": "Exams/Social Studies/2026 SHED SOCIAL AND LIFE SKILL P1 MS.docx",
-    "size": 39450,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f0cdbeca04"
-  },
-  {
-    "name": "2026 SHED SOCIAL AND LIFE SKILL P1 MS.pdf",
-    "path": "Exams/Social Studies/2026 SHED SOCIAL AND LIFE SKILL P1 MS.pdf",
-    "size": 161056,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f7bbb7aa60"
-  },
-  {
-    "name": "2026 SHED SOCIAL AND LIFE SKILL P1 Q P.pdf",
-    "path": "Exams/Social Studies/2026 SHED SOCIAL AND LIFE SKILL P1 Q P.pdf",
-    "size": 261073,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "ffcca4132b"
-  },
-  {
-    "name": "2026 SHED SOCIAL LIFE QUESTION PAPER II.pdf",
-    "path": "Exams/Social Studies/2026 SHED SOCIAL LIFE QUESTION PAPER II.pdf",
-    "size": 202961,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f4d95e6566"
-  },
-  {
-    "name": "2026 CEED SOCIAL AND LIFE SKILLS I PROVISIONAL MARKING KEY.pdf",
-    "path": "Exams/Social Studies/Marking Keys/2026 CEED SOCIAL AND LIFE SKILLS I PROVISIONAL MARKING KEY.pdf",
-    "size": 319440,
-    "repo": "e-library-media-2",
-    "bucket": 2,
-    "id": "fc144e98eb"
-  },
-  {
-    "name": "2026 CEED SOCIAL AND LIFE SKILLS II PROVISIONAL MARKING KEY.pdf",
-    "path": "Exams/Social Studies/Marking Keys/2026 CEED SOCIAL AND LIFE SKILLS II PROVISIONAL MARKING KEY.pdf",
-    "size": 443356,
-    "repo": "e-library-media-3",
-    "bucket": 2,
-    "id": "f716a9cece"
-  },
-  {
-    "name": "2026 SHED SOCIAL LIFE P2 MARKING_KEY.pdf",
-    "path": "Exams/Social Studies/Marking Keys/2026 SHED SOCIAL LIFE P2 MARKING_KEY.pdf",
-    "size": 306895,
-    "repo": "e-library-media-5",
-    "bucket": 2,
-    "id": "f266132f63"
-  },
-  {
-    "name": "SOCIAL AND LIFE SKILL SHED MOCK MARKING KEY.docx",
-    "path": "Exams/Social Studies/Marking Keys/SOCIAL AND LIFE SKILL SHED MOCK MARKING KEY.docx",
-    "size": 17058,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f7f5fa60f9"
-  },
-  {
-    "name": "Social and Life Skills I Marking Key 2024 SEED MSCE MOCK.pdf",
-    "path": "Exams/Social Studies/Marking Keys/Social and Life Skills I Marking Key 2024 SEED MSCE MOCK.pdf",
-    "size": 5449,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f5228e51ce"
-  },
-  {
-    "name": "Social and Life Skills II Marking Key 2024 SEED MSCE MOCK.pdf",
-    "path": "Exams/Social Studies/Marking Keys/Social and Life Skills II Marking Key 2024 SEED MSCE MOCK.pdf",
-    "size": 524281,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f3da6c9836"
-  },
-  {
-    "name": "SOCIAL PI MARKING KEY.docx",
-    "path": "Exams/Social Studies/Marking Keys/SOCIAL PI MARKING KEY.docx",
-    "size": 13418,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fcc2a1cd5e"
-  },
-  {
-    "name": "SOCIAL PII MARKING KEY.docx",
-    "path": "Exams/Social Studies/Marking Keys/SOCIAL PII MARKING KEY.docx",
-    "size": 26285,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "ff49c1175a"
-  },
-  {
-    "name": "SOCIAL STUDIES QUESTIONS AND MODEL ANSWERS(0)_1.pdf",
-    "path": "Exams/Social Studies/Marking Keys/SOCIAL STUDIES QUESTIONS AND MODEL ANSWERS(0)_1.pdf",
-    "size": 1305411,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f8b5f3ff10"
-  },
-  {
-    "name": "SOCIAL_LIFE_P1_Marking Key.pdf",
-    "path": "Exams/Social Studies/Marking Keys/SOCIAL_LIFE_P1_Marking Key .pdf",
-    "size": 384381,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fbc9ba8eeb"
-  },
-  {
-    "name": "SHED Social and life skills paper1 edited.docx",
-    "path": "Exams/Social Studies/SHED Social and life skills paper1 edited.docx",
-    "size": 60536,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f1a5690282"
-  },
-  {
-    "name": "SHED Social and life skills paper1 edited.pdf",
-    "path": "Exams/Social Studies/SHED Social and life skills paper1 edited.pdf",
-    "size": 322864,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f6e19ab064"
-  },
-  {
-    "name": "SHED Social and life skills paper2 edited.docx",
-    "path": "Exams/Social Studies/SHED Social and life skills paper2 edited.docx",
-    "size": 48969,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fb166cc3ab"
-  },
-  {
-    "name": "SHED Social and life skills paper2 edited.pdf",
-    "path": "Exams/Social Studies/SHED Social and life skills paper2 edited.pdf",
-    "size": 236414,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "f62cec4978"
-  },
-  {
-    "name": "SOC & LIFE MOCK PAPER I.docx",
-    "path": "Exams/Social Studies/SOC & LIFE MOCK  PAPER I.docx",
-    "size": 187712,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fb2dc7c88e"
-  },
-  {
-    "name": "SOC & LIFE MOCK PAPER II.docx",
-    "path": "Exams/Social Studies/SOC & LIFE MOCK  PAPER II.docx",
-    "size": 347195,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fb14ed8524"
-  },
-  {
-    "name": "SOCIAL AND LIFE SKILLS - MARKING KEY I.docx",
-    "path": "Exams/Social Studies/SOCIAL AND LIFE SKILLS - MARKING KEY I.docx",
-    "size": 135720,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fb5563e294"
-  },
-  {
-    "name": "SOCIAL AND LIFE SKILLS - PAPER I.pdf",
-    "path": "Exams/Social Studies/SOCIAL AND LIFE SKILLS - PAPER I.pdf",
-    "size": 486169,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fa363eb063"
-  },
-  {
-    "name": "SOCIAL AND LIFE SKILLS - PAPER II.pdf",
-    "path": "Exams/Social Studies/SOCIAL AND LIFE SKILLS - PAPER II.pdf",
-    "size": 562074,
-    "repo": "e-library-media",
-    "bucket": 2,
-    "id": "fbfd4fdb10"
-  },
-  {
-    "name": "Social and Life Skills I 2026 SEED MOCK.doc",
-    "path": "Exams/Social Studies/Social and Life Skills I 2026 SEED MOCK.doc",
+    "name": "2026 SEED JCE Social and Life Skills Paper I Mock Exam.doc",
+    "path": "Exams/Social Studies/2026 SEED JCE Social and Life Skills Paper I Mock Exam.doc",
     "size": 111616,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fd6946e402"
+    "id": "fd6946e402",
+    "level": "jce"
   },
   {
-    "name": "Social and Life Skills II 2026 SEED MOCK.doc",
-    "path": "Exams/Social Studies/Social and Life Skills II 2026 SEED MOCK.doc",
+    "name": "2026 SEED JCE Social and Life Skills Paper II Mock Exam.doc",
+    "path": "Exams/Social Studies/2026 SEED JCE Social and Life Skills Paper II Mock Exam.doc",
     "size": 70144,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fe216fa16d"
+    "id": "fe216fa16d",
+    "level": "jce"
   },
   {
-    "name": "SOCIAL AND LIFE SKILLS MARKING KEY II.docx",
-    "path": "Exams/Social Studies/SOCIAL AND LIFE SKILLS MARKING KEY II.docx",
+    "name": "2026 SHED JCE Social and Life Skills Paper I Mock Exam.pdf",
+    "path": "Exams/Social Studies/2026 SHED JCE Social and Life Skills Paper I Mock Exam.pdf",
+    "size": 261073,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "ffcca4132b",
+    "level": "jce"
+  },
+  {
+    "name": "2026 SHED JCE Social and Life Skills Paper II Mock Exam.pdf",
+    "path": "Exams/Social Studies/2026 SHED JCE Social and Life Skills Paper II Mock Exam.pdf",
+    "size": 202961,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f4d95e6566",
+    "level": "jce"
+  },
+  {
+    "name": "JCE Social and Life Skills Paper I Mock Exam.docx",
+    "path": "Exams/Social Studies/JCE Social and Life Skills Paper I Mock Exam.docx",
+    "size": 187712,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fb2dc7c88e",
+    "level": "jce"
+  },
+  {
+    "name": "JCE Social and Life Skills Paper I.pdf",
+    "path": "Exams/Social Studies/JCE Social and Life Skills Paper I.pdf",
+    "size": 486169,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fa363eb063",
+    "level": "jce"
+  },
+  {
+    "name": "JCE Social and Life Skills Paper II Mock Exam.docx",
+    "path": "Exams/Social Studies/JCE Social and Life Skills Paper II Mock Exam.docx",
+    "size": 347195,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fb14ed8524",
+    "level": "jce"
+  },
+  {
+    "name": "JCE Social and Life Skills Paper II.pdf",
+    "path": "Exams/Social Studies/JCE Social and Life Skills Paper II.pdf",
+    "size": 562074,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fbfd4fdb10",
+    "level": "jce"
+  },
+  {
+    "name": "2024 SEED JCE Social and Life Skills Paper I Marking Key.pdf",
+    "path": "Exams/Social Studies/Marking Keys/2024 SEED JCE Social and Life Skills Paper I Marking Key.pdf",
+    "size": 5449,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f5228e51ce",
+    "level": "jce"
+  },
+  {
+    "name": "2024 SEED JCE Social and Life Skills Paper II Marking Key.pdf",
+    "path": "Exams/Social Studies/Marking Keys/2024 SEED JCE Social and Life Skills Paper II Marking Key.pdf",
+    "size": 524281,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f3da6c9836",
+    "level": "jce"
+  },
+  {
+    "name": "2026 CEED JCE Social and Life Skills Paper I Provisional Marking Key.pdf",
+    "path": "Exams/Social Studies/Marking Keys/2026 CEED JCE Social and Life Skills Paper I Provisional Marking Key.pdf",
+    "size": 319440,
+    "repo": "e-library-media-2",
+    "bucket": 2,
+    "id": "fc144e98eb",
+    "level": "jce"
+  },
+  {
+    "name": "2026 CEED JCE Social and Life Skills Paper II Provisional Marking Key.pdf",
+    "path": "Exams/Social Studies/Marking Keys/2026 CEED JCE Social and Life Skills Paper II Provisional Marking Key.pdf",
+    "size": 443356,
+    "repo": "e-library-media-3",
+    "bucket": 2,
+    "id": "f716a9cece",
+    "level": "jce"
+  },
+  {
+    "name": "2026 SHED JCE Social and Life Skills Mock Marking Key.docx",
+    "path": "Exams/Social Studies/Marking Keys/2026 SHED JCE Social and Life Skills Mock Marking Key.docx",
+    "size": 17058,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f7f5fa60f9",
+    "level": "jce"
+  },
+  {
+    "name": "2026 SHED JCE Social and Life Skills Paper I Marking Key.docx",
+    "path": "Exams/Social Studies/Marking Keys/2026 SHED JCE Social and Life Skills Paper I Marking Key.docx",
+    "size": 39450,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f0cdbeca04",
+    "level": "jce"
+  },
+  {
+    "name": "2026 SHED JCE Social and Life Skills Paper I Marking Key.pdf",
+    "path": "Exams/Social Studies/Marking Keys/2026 SHED JCE Social and Life Skills Paper I Marking Key.pdf",
+    "size": 161056,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f7bbb7aa60",
+    "level": "jce"
+  },
+  {
+    "name": "2026 SHED JCE Social and Life Skills Paper II Marking Key.pdf",
+    "path": "Exams/Social Studies/Marking Keys/2026 SHED JCE Social and Life Skills Paper II Marking Key.pdf",
+    "size": 306895,
+    "repo": "e-library-media-5",
+    "bucket": 2,
+    "id": "f266132f63",
+    "level": "jce"
+  },
+  {
+    "name": "JCE Social and Life Skills Paper I Marking Key.docx",
+    "path": "Exams/Social Studies/Marking Keys/JCE Social and Life Skills Paper I Marking Key.docx",
+    "size": 135720,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fb5563e294",
+    "level": "jce"
+  },
+  {
+    "name": "JCE Social and Life Skills Paper I Marking Key.pdf",
+    "path": "Exams/Social Studies/Marking Keys/JCE Social and Life Skills Paper I Marking Key.pdf",
+    "size": 384381,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "fbc9ba8eeb",
+    "level": "jce"
+  },
+  {
+    "name": "JCE Social and Life Skills Paper II Marking Key.docx",
+    "path": "Exams/Social Studies/Marking Keys/JCE Social and Life Skills Paper II Marking Key.docx",
     "size": 141530,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fc0b900c91"
+    "id": "fc0b900c91",
+    "level": "jce"
   },
   {
-    "name": "Social I 2024 SEED MSCE MOCK.pdf",
-    "path": "Exams/Social Studies/Social I 2024 SEED MSCE MOCK.pdf",
-    "size": 420781,
+    "name": "JCE Social Studies Paper I Marking Key.docx",
+    "path": "Exams/Social Studies/Marking Keys/JCE Social Studies Paper I Marking Key.docx",
+    "size": 13418,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "fe9a5d5929"
+    "id": "fcc2a1cd5e",
+    "level": "jce"
   },
   {
-    "name": "Social II 2024 SEED MSCE MOCK.pdf",
-    "path": "Exams/Social Studies/Social II 2024 SEED MSCE MOCK.pdf",
-    "size": 422263,
+    "name": "JCE Social Studies Paper II Marking Key.docx",
+    "path": "Exams/Social Studies/Marking Keys/JCE Social Studies Paper II Marking Key.docx",
+    "size": 26285,
     "repo": "e-library-media",
     "bucket": 2,
-    "id": "ffcd3278f3"
+    "id": "ff49c1175a",
+    "level": "jce"
   },
   {
     "name": "2026 SHED TECHNICAL DRAWING PAPER I.docx",
@@ -24574,6 +24680,15 @@
     "repo": "e-library-media",
     "bucket": 2,
     "id": "f60ac24c47"
+  },
+  {
+    "name": "Social Studies Questions and Model Answers.pdf",
+    "path": "Q&A/Social Studies/Social Studies Questions and Model Answers.pdf",
+    "size": 1305411,
+    "repo": "e-library-media",
+    "bucket": 2,
+    "id": "f8b5f3ff10",
+    "level": "jce"
   },
   {
     "name": "2025 JCE MOCK READY FOR USE.zip",

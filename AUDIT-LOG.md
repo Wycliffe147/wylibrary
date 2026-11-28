@@ -44,6 +44,10 @@ The "After" number represents the clean, frozen count at the moment the folder a
 | **Exams/History** | ✅ Audited | 93 | 101 | 0 | 1 | 2 (+10 from zip) | 100% Explicit (31 JCE, 70 MSCE, 0 Both) | Nov 28, 2026 |
 | **Exams/Bible Knowledge** | ✅ Audited | 75 | 74 | 0 | 0 | 1 | 100% Explicit (17 JCE, 57 MSCE, 0 Both) | Nov 28, 2026 |
 | **Exams/Computer Studies** | ✅ Audited | 46 | 45 | 1 | 0 | 0 | 100% Explicit (7 JCE, 38 MSCE, 0 Both) | Nov 28, 2026 |
+| **Exams/Additional Mathematics** | ✅ Audited | 43 | 43 | 0 | 0 | 0 | 100% Explicit (0 JCE, 43 MSCE, 0 Both) | Nov 28, 2026 |
+| **Exams/Social Studies** | ✅ Audited | 43 | 42 | 0 | 1 | 0 | 100% Explicit (39 JCE, 3 MSCE, 0 Both) | Nov 28, 2026 |
+| **Exams/Life Skills** | ✅ Audited | 38 | 38 | 0 | 0 | 0 | 100% Explicit (26 JCE, 12 MSCE, 0 Both) | Nov 28, 2026 |
+| **Exams/Home Economics** | ✅ Audited | 24 | 21 | 0 | 0 | 3 | 100% Explicit (2 JCE, 19 MSCE, 0 Both) | Nov 28, 2026 |
 
 ---
 
@@ -597,6 +601,62 @@ The "After" number represents the clean, frozen count at the moment the folder a
 - **Catalog delta (Batch 1 total):** 2,910 -> 2,918 entries (+8 net: -2 deleted, +10 extracted). Dual catalogs synchronized byte-for-byte (`files-index.json` and `public/files-index.json`).
 - **Stable IDs:** 2,917 kept, 1 moved, 0 renamed, 0 new, 0 removed recorded in `public/id-map.json`.
 - **Level Tagging Coverage:** 100% Explicit (7 JCE, 38 MSCE, 0 Both).
+
+### 35. Exams/Additional Mathematics Folder Audit (Nov 28, 2026)
+- **Scope:** 43 files deep-scanned, 1 internal move to Marking Keys (`MANEB 2019 Chief Examiners Report Paper I & II.pdf`), 1 raw duplicate suffix flag resolved (`ADDITIONAL_MATHS_PAPER_1 (1) (1) (1)_1.docx` -> `MSCE Additional Mathematics Paper I Mock Exam 2.docx` - the last suffix flag in the entire library), and 43 clean renames across Exams/Additional Mathematics/ and Marking Keys/ (43 clean Additional Mathematics retained).
+- **Initial Count:** 43 files (34 in root `Exams/Additional Mathematics/`, 9 in `Exams/Additional Mathematics/Marking Keys/`, all on Bucket 2)
+- **Clean Exams Retained:** 43 clean examination papers (0 JCE, 43 MSCE, 0 Both)
+- **Internal Moves to Marking Keys (1 file within Bucket 2):**
+  - `Exams/Additional Mathematics/Marking Keys/2019 MANEB MSCE Additional Mathematics Chief Examiners Report.pdf`
+- **Renamed within Exams (43 files):**
+  - Cleared the last raw upload suffix flag in the entire library (`ADDITIONAL_MATHS_PAPER_1 (1) (1) (1)_1.docx`).
+  - Standardized paper Roman numerals (Paper I / Paper II), mock examinations (CEED, SWED, Lilongwe City, Makina Classes, Karonga Diocese, Maranatha), OCR/Cambridge papers, and Chief Examiner Reports.
+- **Level Tagging Coverage:** 100% Explicit (0 JCE, 43 MSCE, 0 Both).
+
+### 36. Exams/Social Studies Folder Audit (Nov 28, 2026)
+- **Scope:** 43 files deep-scanned, 1 comprehensive Q&A booklet transferred to Q&A (`Social Studies Questions and Model Answers.pdf`, 6.6 MB), 6 internal moves from root to Marking Keys, and 42 clean renames across Exams/Social Studies/ and Marking Keys/ (42 clean Social Studies retained).
+- **Initial Count:** 43 files (33 in root `Exams/Social Studies/`, 10 in `Exams/Social Studies/Marking Keys/`, all on Bucket 2)
+- **Clean Exams Retained:** 42 clean examination papers (39 JCE, 3 MSCE, 0 Both)
+- **Transferred to Q&A (1 file within Bucket 2):**
+  - `Q&A/Social Studies/Social Studies Questions and Model Answers.pdf` (6.6 MB model exam answers compilation)
+- **Internal Moves to Marking Keys (6 files within Bucket 2):**
+  - `Exams/Social Studies/Marking Keys/2026 SHED JCE Social and Life Skills Paper I Marking Key.docx`
+  - `Exams/Social Studies/Marking Keys/2026 SHED JCE Social and Life Skills Paper I Marking Key.pdf`
+  - `Exams/Social Studies/Marking Keys/2026 SHED JCE Social and Life Skills Paper II Marking Key.docx`
+  - `Exams/Social Studies/Marking Keys/2026 SHED JCE Social and Life Skills Paper II Marking Key.pdf`
+  - `Exams/Social Studies/Marking Keys/JCE Social and Life Skills Paper I Marking Key.docx`
+  - `Exams/Social Studies/Marking Keys/JCE Social and Life Skills Paper II Marking Key.docx`
+- **Renamed within Exams (42 files):**
+  - Stripped raw upload suffixes (`_1`, `(1)`, `(0)`), clarified JCE/MSCE curricula (MANEB, SHED, CEED, CWED, SEED, SCWED, Maranatha, St. Mary's, Loyola Jesuit), and normalized titles.
+- **Level Tagging Coverage:** 100% Explicit (39 JCE, 3 MSCE, 0 Both).
+
+### 37. Exams/Life Skills Folder Audit (Nov 28, 2026)
+- **Scope:** 38 files deep-scanned, 2 internal moves from root to Marking Keys, and 38 clean renames across Exams/Life Skills/ and Marking Keys/ (38 clean Life Skills retained).
+- **Initial Count:** 38 files (26 in root `Exams/Life Skills/`, 12 in `Exams/Life Skills/Marking Keys/`, all on Bucket 2)
+- **Clean Exams Retained:** 38 clean examination papers (26 JCE, 12 MSCE, 0 Both)
+- **Internal Moves to Marking Keys (2 files within Bucket 2):**
+  - `Exams/Life Skills/Marking Keys/2026 SHED JCE Social and Life Skills Paper II Marking Key.docx`
+  - `Exams/Life Skills/Marking Keys/2025 Central West Education Division MSCE Life Skills Paper II Mock Marking Scheme.pdf`
+- **Renamed within Exams (38 files):**
+  - Stripped timestamp prefixes (`1773338838863_`) and upload tags (`_1`), clarified JCE vs MSCE papers, normalized division mocks (NED, CWED, SEED, SHED, Blantyre Rural, Neno District, BSS Cluster, Michiru View, St. Mary's), and normalized Form 1-4 internal exam papers and marking keys.
+- **Level Tagging Coverage:** 100% Explicit (26 JCE, 12 MSCE, 0 Both).
+
+### 38. Exams/Home Economics Folder Audit (Nov 28, 2026)
+- **Scope:** 24 files deep-scanned, 3 non-secondary curriculum tertiary teacher training module zip archives deleted from R2, 2 internal examiner instruction moves to Marking Keys, and 21 clean renames across Exams/Home Economics/ and Marking Keys/ (21 clean Home Economics retained).
+- **Initial Count:** 24 files (21 in root `Exams/Home Economics/`, 3 in `Exams/Home Economics/Marking Keys/`, all on Bucket 2)
+- **Clean Exams Retained:** 21 clean examination papers (2 JCE, 19 MSCE, 0 Both)
+- **Deleted from R2 (3 files from Bucket 2):**
+  - `Exams/Home Economics/HEC 2.zip` (Domasi College of Education tertiary teacher training module 2 zip archive containing loose .doc files - non-secondary curriculum)
+  - `Exams/Home Economics/HEC 5-3.zip` (Domasi College of Education tertiary teacher training module 5 zip archive containing loose .doc files - non-secondary curriculum)
+  - `Exams/Home Economics/HEC 6.zip` (Domasi College of Education tertiary teacher training module 6 zip archive containing loose .doc files - non-secondary curriculum)
+- **Internal Moves to Marking Keys (2 files within Bucket 2):**
+  - `Exams/Home Economics/Marking Keys/2026 SHED MSCE Clothing and Textiles Paper II Examiner Instructions.docx`
+  - `Exams/Home Economics/Marking Keys/2026 SHED MSCE Home Economics Paper II Examiner Instructions.docx`
+- **Renamed within Exams (21 files):**
+  - Standardized MANEB, CEED, SEED, SHED mock exams, practical confidential instructions, score sheets, and examiner instructions.
+- **Catalog delta (Batch 2 total):** 2,918 -> 2,915 entries (-3 net: 3 deleted). Dual catalogs synchronized byte-for-byte (`files-index.json` and `public/files-index.json`).
+- **Stable IDs:** 2,771 kept, 144 moved, 0 renamed, 0 new, 3 removed recorded in `public/id-map.json`.
+- **Level Tagging Coverage:** 100% Explicit (2 JCE, 19 MSCE, 0 Both).
 
 
 
